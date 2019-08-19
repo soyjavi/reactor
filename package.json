@@ -30,18 +30,18 @@
     "jest-fetch-mock": "2.1.2",
     "metro-react-native-babel-preset": "0.54.1",
     "react-native-scripts": "latest",
-    "react-test-renderer": "16.8.6",
+    "react-test-renderer": "16.8.3",
     "release-it": "10.1.0",
     "storybook-addon-jsx": "latest"
   },
   "dependencies": {
-    "expo": "30.0.1",
+    "expo": "^33.0.0",
     "prop-types": "15.7.2",
-    "react": "16.8.6",
-    "react-art": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-native": "0.55.4",
-    "react-native-web": "0.11.4"
+    "react": "16.8.3",
+    "react-art": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-web": "0.11.5"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {

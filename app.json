@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reactor",
-    "slug": "reactor",
-    "sdkVersion": "30.0.0"
+    "name": "soyjavi.reactor",
+    "slug": "soyjavi.reactor",
+    "sdkVersion": "33.0.0"
   }
 }

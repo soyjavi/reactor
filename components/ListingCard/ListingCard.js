@@ -1,18 +1,17 @@
 import {
-  func, node, shape, string,
+  func, node, string,
 } from 'prop-types';
 import React from 'react';
 import { TouchableWithoutFeedback, View } from 'react-native';
 
-import { LAYOUT, SHAPE } from '../../common';
+import { LAYOUT } from '../../common';
 import PictureCard from '../PictureCard';
-import Rating from '../Rating';
 import Text from '../Text';
 
 import styles from './ListingCard.style';
 
 const ListingCard = ({
-  category, children, description, onPress, rating = {}, title, ...inherit
+  category, children, description, onPress, title, ...inherit
 }) => (
   <View style={inherit.styleContainer}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
@@ -29,7 +28,6 @@ const ListingCard = ({
             {title}
           </Text>
           ) }
-          { rating.value && <Rating {...rating} style={styles.rating} /> }
           { description && (
           <Text lighten caption numberOfLines={3} ellipsizeMode="tail">
             {description}
@@ -48,7 +46,6 @@ ListingCard.propTypes = {
   description: string,
   image: string,
   onPress: func,
-  rating: shape(SHAPE.RATING),
   title: string,
 };
 
@@ -58,7 +55,6 @@ ListingCard.defaultProps = {
   description: undefined,
   image: undefined,
   onPress: undefined,
-  rating: {},
   title: undefined,
 };
 
