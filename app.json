@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "reactor",
-    "slug": "soyjavi.reactor",
+    "slug": "soyjavi-reactor",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [
