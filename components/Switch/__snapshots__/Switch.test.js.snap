@@ -17,9 +17,9 @@ exports[`<Switch> renders 1`] = `
   }
 >
   <RCTSwitch
+    accessibilityRole="button"
     activeThumbColor="#ffffff"
     activeTrackColor="#10c0bc"
-    disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -34,8 +34,7 @@ exports[`<Switch> renders 1`] = `
         },
       ]
     }
-    thumbColor="#ffffff"
-    trackColor="#cdd2d4"
+    thumbTintColor="#ffffff"
     value={false}
   />
 </View>
@@ -58,9 +57,9 @@ exports[`<Switch> when {color} 1`] = `
   }
 >
   <RCTSwitch
+    accessibilityRole="button"
     activeThumbColor="#ffffff"
     activeTrackColor="green"
-    disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -75,8 +74,7 @@ exports[`<Switch> when {color} 1`] = `
         },
       ]
     }
-    thumbColor="#ffffff"
-    trackColor="#cdd2d4"
+    thumbTintColor="#ffffff"
     value={true}
   />
 </View>
@@ -99,9 +97,9 @@ exports[`<Switch> when {disabled} 1`] = `
   }
 >
   <RCTSwitch
+    accessibilityRole="button"
     activeThumbColor="#ffffff"
     activeTrackColor="#10c0bc"
-    disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -116,8 +114,7 @@ exports[`<Switch> when {disabled} 1`] = `
         },
       ]
     }
-    thumbColor="#ffffff"
-    trackColor="#cdd2d4"
+    thumbTintColor="#ffffff"
     value={false}
     visible={true}
   />
@@ -141,9 +138,9 @@ exports[`<Switch> when {label} 1`] = `
   }
 >
   <RCTSwitch
+    accessibilityRole="button"
     activeThumbColor="#ffffff"
     activeTrackColor="#10c0bc"
-    disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -158,14 +155,10 @@ exports[`<Switch> when {label} 1`] = `
         },
       ]
     }
-    thumbColor="#ffffff"
-    trackColor="#cdd2d4"
+    thumbTintColor="#ffffff"
     value={false}
   />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     numberOfLines={2}
     style={
       Array [
@@ -216,9 +209,9 @@ exports[`<Switch> when {style} 1`] = `
   }
 >
   <RCTSwitch
+    accessibilityRole="button"
     activeThumbColor="#ffffff"
     activeTrackColor="#10c0bc"
-    disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -233,8 +226,7 @@ exports[`<Switch> when {style} 1`] = `
         },
       ]
     }
-    thumbColor="#ffffff"
-    trackColor="#cdd2d4"
+    thumbTintColor="#ffffff"
     value={false}
   />
 </View>

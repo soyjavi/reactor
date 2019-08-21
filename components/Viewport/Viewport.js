@@ -30,9 +30,12 @@ class Viewport extends PureComponent {
     visible: true,
   };
 
-  state = {
-    height: IS_NATIVE ? LAYOUT.VIEWPORT.H : '100vh',
-    width: IS_NATIVE ? LAYOUT.VIEWPORT.W : '100vw',
+  constructor(props) {
+    super(props);
+    this.state = {
+      height: IS_NATIVE ? LAYOUT.VIEWPORT.H : '100vh',
+      width: IS_NATIVE ? LAYOUT.VIEWPORT.W : '100vw',
+    };
   }
 
   _onScroll = ({ nativeEvent: { contentOffset: { y } } }) => {

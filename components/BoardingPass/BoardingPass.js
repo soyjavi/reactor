@@ -37,10 +37,13 @@ class BoardingPass extends PureComponent {
     service: undefined,
   };
 
-  state = {
-    busy: true,
-    error: undefined,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      busy: true,
+      error: undefined,
+    };
+  }
 
   componentDidMount() {
     this.doFetch(this.props);

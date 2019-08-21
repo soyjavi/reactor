@@ -464,9 +464,6 @@ exports[`<PictureCard> when {caption} 1`] = `
     >
       <View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1331,9 +1328,6 @@ exports[`<PictureCard> when {title} 1`] = `
     >
       <View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {

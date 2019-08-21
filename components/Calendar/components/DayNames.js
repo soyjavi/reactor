@@ -7,7 +7,7 @@ import styles from './DayNames.style';
 
 const DayNames = ({ locale = [], ...inherit }) => (
   <View style={styles.container}>
-    { locale.map(day => (
+    { locale.map((day) => (
       <Text
         key={day}
         subtitle

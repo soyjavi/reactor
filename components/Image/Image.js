@@ -21,8 +21,11 @@ class Image extends PureComponent {
     height: null,
   };
 
-  state = {
-    ready: false,
+  constructor(props) {
+    super(props);
+    this.state = {
+      ready: false,
+    };
   }
 
   _onLoad = (event) => {

@@ -385,9 +385,6 @@ exports[`<ListingCard> when {category} 1`] = `
       }
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
@@ -629,7 +626,7 @@ exports[`<ListingCard> when {children} 1`] = `
                   "borderRadius": 3,
                 },
                 Object {
-                  "borderRadius": 24,
+                  "borderRadius": 26,
                 },
                 false,
               ],
@@ -663,7 +660,7 @@ exports[`<ListingCard> when {children} 1`] = `
                 false,
                 false,
                 Object {
-                  "borderRadius": 24,
+                  "borderRadius": 26,
                 },
                 false,
                 Object {
@@ -689,9 +686,6 @@ exports[`<ListingCard> when {children} 1`] = `
               }
             >
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -948,8 +942,6 @@ exports[`<ListingCard> when {description} 1`] = `
       }
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
         ellipsizeMode="tail"
         numberOfLines={3}
         style={
@@ -1366,173 +1358,7 @@ exports[`<ListingCard> when {rating} 1`] = `
           "paddingVertical": 8,
         }
       }
-    >
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          }
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {
-                "marginBottom": 4,
-                "marginRight": 8,
-              },
-            ]
-          }
-        >
-          ★
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {
-                "marginBottom": 4,
-                "marginRight": 8,
-              },
-            ]
-          }
-        >
-          ★
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {
-                "marginBottom": 4,
-                "marginRight": 8,
-              },
-            ]
-          }
-        >
-          ★
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {
-                "marginBottom": 4,
-                "marginRight": 8,
-              },
-            ]
-          }
-        >
-          ★
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {
-                "marginBottom": 4,
-                "marginRight": 8,
-              },
-            ]
-          }
-        >
-          ☆
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 14,
-                "lineHeight": 18,
-              },
-              false,
-              Object {
-                "marginBottom": 4,
-              },
-            ]
-          }
-        >
-           (12)
-        </Text>
-      </View>
-    </View>
+    />
   </View>
 </View>
 `;
@@ -1929,8 +1755,6 @@ exports[`<ListingCard> when {title} 1`] = `
       }
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
         ellipsizeMode="tail"
         numberOfLines={1}
         style={

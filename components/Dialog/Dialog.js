@@ -40,9 +40,12 @@ export default class Dialog extends PureComponent {
     visible: false,
   };
 
-  state = {
-    scroll: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      scroll: false,
+    };
+  }
 
   _onScroll = () => {
     this.setState({ scroll: true });

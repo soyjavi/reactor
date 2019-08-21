@@ -40,9 +40,6 @@ exports[`<Slider> when {caption} 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -431,9 +428,6 @@ exports[`<Slider> when {dataSource} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -636,9 +630,6 @@ exports[`<Slider> when {dataSource} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -866,9 +857,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -1071,9 +1059,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -1227,11 +1212,7 @@ exports[`<Slider> when {navigation} 1`] = `
         >
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -1373,11 +1354,7 @@ exports[`<Slider> when {navigation} 1`] = `
         >
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -1613,9 +1590,6 @@ exports[`<Slider> when {snap=false} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -1818,9 +1792,6 @@ exports[`<Slider> when {snap=false} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -2048,9 +2019,6 @@ exports[`<Slider> when {steps} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -2253,9 +2221,6 @@ exports[`<Slider> when {steps} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -2489,9 +2454,6 @@ exports[`<Slider> when {style} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -2694,9 +2656,6 @@ exports[`<Slider> when {style} 1`] = `
             >
               <View>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -2777,9 +2736,6 @@ exports[`<Slider> when {title} 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Array [
           Object {

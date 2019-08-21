@@ -9,8 +9,9 @@ class Link extends PureComponent {
     href: string.isRequired,
   };
 
-  state = {
-    hover: false,
+  constructor(props) {
+    super(props);
+    this.state = { hover: false };
   }
 
   render() {

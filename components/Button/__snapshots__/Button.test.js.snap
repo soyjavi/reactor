@@ -177,9 +177,6 @@ exports[`<Button> when {activity} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -363,9 +360,6 @@ exports[`<Button> when {children} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -496,9 +490,6 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -630,9 +621,6 @@ exports[`<Button> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -762,9 +750,6 @@ exports[`<Button> when {contained=false} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -897,9 +882,6 @@ exports[`<Button> when {disabled} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1020,11 +1002,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
     >
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/close_contrast.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {
@@ -1052,9 +1030,6 @@ exports[`<Button> when {icon} & {title} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1177,11 +1152,7 @@ exports[`<Button> when {icon} 1`] = `
     >
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/close_contrast.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {
@@ -1286,8 +1257,8 @@ exports[`<Button> when {large} 1`] = `
           false,
           false,
           Object {
-            "height": 48,
-            "minWidth": 48,
+            "height": 52,
+            "minWidth": 52,
           },
           false,
           false,
@@ -1314,9 +1285,6 @@ exports[`<Button> when {large} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1450,9 +1418,6 @@ exports[`<Button> when {outlined} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1583,9 +1548,6 @@ exports[`<Button> when {responsive} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1665,7 +1627,7 @@ exports[`<Button> when {rounded} 1`] = `
             "borderRadius": 3,
           },
           Object {
-            "borderRadius": 24,
+            "borderRadius": 26,
           },
           false,
         ],
@@ -1695,7 +1657,7 @@ exports[`<Button> when {rounded} 1`] = `
           false,
           false,
           Object {
-            "borderRadius": 24,
+            "borderRadius": 26,
           },
           false,
           Object {
@@ -1721,9 +1683,6 @@ exports[`<Button> when {rounded} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1865,9 +1824,6 @@ exports[`<Button> when {shadow} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2003,9 +1959,6 @@ exports[`<Button> when {small} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2143,9 +2096,6 @@ exports[`<Button> when {style} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2277,9 +2227,6 @@ exports[`<Button> when {title} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {

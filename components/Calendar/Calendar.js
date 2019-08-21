@@ -96,7 +96,7 @@ class Calendar extends PureComponent {
         />
         <View style={[styles.days, busy && styles.busy]}>
           <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
-          { VISIBLE_WEEKS.map(weekIndex => (
+          { VISIBLE_WEEKS.map((weekIndex) => (
             <Week
               key={week + weekIndex}
               {...props}

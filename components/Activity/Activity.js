@@ -7,7 +7,7 @@ import { THEME } from '../../common';
 
 const { COLOR, MOTION: { DURATION } } = THEME;
 
-export default class Activity extends PureComponent {
+class Activity extends PureComponent {
   static propTypes = {
     color: string,
     size: string,
@@ -24,9 +24,12 @@ export default class Activity extends PureComponent {
     opacity: 1,
   };
 
-  state = {
-    opacities: [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)],
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      opacities: [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)],
+    };
+  }
 
   componentWillMount() {
     this.animate(0);
@@ -68,3 +71,5 @@ export default class Activity extends PureComponent {
     );
   }
 }
+
+export default Activity;

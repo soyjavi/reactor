@@ -3,11 +3,7 @@
 exports[`<Icon> renders 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/error_outline.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -25,11 +21,7 @@ exports[`<Icon> renders 1`] = `
 exports[`<Icon> when {color} (only Native) 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/close.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -49,11 +41,7 @@ exports[`<Icon> when {color} (only Native) 1`] = `
 exports[`<Icon> when {invert} (only Web) 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/close.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -71,11 +59,7 @@ exports[`<Icon> when {invert} (only Web) 1`] = `
 exports[`<Icon> when {size} 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/close.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -96,11 +80,7 @@ exports[`<Icon> when {size} 1`] = `
 exports[`<Icon> when {style} 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/close.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -142,11 +122,7 @@ exports[`<Icon> when {value} (as uri) 1`] = `
 exports[`<Icon> when {value} (navDown) 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/nav-arrow.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -170,11 +146,7 @@ exports[`<Icon> when {value} (navDown) 1`] = `
 exports[`<Icon> when {value} (navLeft) 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/nav-arrow.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -198,11 +170,7 @@ exports[`<Icon> when {value} (navLeft) 1`] = `
 exports[`<Icon> when {value} (navRight) 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/nav-arrow.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -220,11 +188,7 @@ exports[`<Icon> when {value} (navRight) 1`] = `
 exports[`<Icon> when {value} (navUp) 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/nav-arrow.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {
@@ -248,11 +212,7 @@ exports[`<Icon> when {value} (navUp) 1`] = `
 exports[`<Icon> when {value} 1`] = `
 <Image
   resizeMode="contain"
-  source={
-    Object {
-      "testUri": "../../../components/Icon/assets/close.png",
-    }
-  }
+  source={1}
   style={
     Array [
       Object {

@@ -19,8 +19,9 @@ class LayoutView extends PureComponent {
     onLayout() {},
   };
 
-  state = {
-    key: `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}`,
+  constructor(props) {
+    super(props);
+    this.state = { key: `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}` };
   }
 
   _onLayout = ({ nativeEvent: { layout = {} } }) => {

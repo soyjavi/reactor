@@ -417,9 +417,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -458,9 +455,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -499,9 +493,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -540,9 +531,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -581,9 +569,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -622,9 +607,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -663,9 +645,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -704,9 +683,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -745,9 +721,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -786,9 +759,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -827,9 +797,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -868,9 +835,6 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1620,9 +1584,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1661,9 +1622,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1702,9 +1660,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1743,9 +1698,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1784,9 +1736,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1825,9 +1774,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1866,9 +1812,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1907,9 +1850,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1950,9 +1890,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -1991,9 +1928,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2032,9 +1966,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2073,9 +2004,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2504,9 +2432,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2545,9 +2470,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2586,9 +2508,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2627,9 +2546,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2668,9 +2584,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2709,9 +2622,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2750,9 +2660,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2791,9 +2698,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2832,9 +2736,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2873,9 +2774,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2914,9 +2812,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -2955,9 +2850,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3052,9 +2944,6 @@ exports[`<ChartBar> when {lines} 1`] = `
           }
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3138,9 +3027,6 @@ exports[`<ChartBar> when {lines} 1`] = `
           }
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3532,9 +3418,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3573,9 +3456,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3614,9 +3494,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3655,9 +3532,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3696,9 +3570,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3737,9 +3608,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3778,9 +3646,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3819,9 +3684,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3860,9 +3722,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3901,9 +3760,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3942,9 +3798,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -3983,9 +3836,6 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4071,9 +3921,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4100,9 +3947,6 @@ exports[`<ChartBar> when {scales} 1`] = `
           $24
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4129,9 +3973,6 @@ exports[`<ChartBar> when {scales} 1`] = `
           $10
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4158,9 +3999,6 @@ exports[`<ChartBar> when {scales} 1`] = `
           $5
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4590,9 +4428,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4631,9 +4466,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4672,9 +4504,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4713,9 +4542,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4754,9 +4580,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4795,9 +4618,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4836,9 +4656,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4877,9 +4694,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4918,9 +4732,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4959,9 +4770,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5000,9 +4808,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5041,9 +4846,6 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5129,9 +4931,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5158,9 +4957,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
           $24
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5187,9 +4983,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
           $10
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5216,9 +5009,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
           $5
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5648,9 +5438,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5689,9 +5476,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5730,9 +5514,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5771,9 +5552,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5812,9 +5590,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5853,9 +5628,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5894,9 +5666,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5935,9 +5704,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -5976,9 +5742,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6017,9 +5780,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6058,9 +5818,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6099,9 +5856,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6199,9 +5953,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6228,9 +5979,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
           $24
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6257,9 +6005,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
           $10
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6286,9 +6031,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
           $5
         </Text>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6718,9 +6460,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6759,9 +6498,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6800,9 +6536,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6841,9 +6574,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6882,9 +6612,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6923,9 +6650,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -6964,9 +6688,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -7005,9 +6726,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -7046,9 +6764,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -7087,9 +6802,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -7128,9 +6840,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -7169,9 +6878,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {

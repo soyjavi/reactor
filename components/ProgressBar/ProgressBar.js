@@ -6,8 +6,9 @@ import Motion from '../Motion';
 import styles from './ProgressBar.style';
 
 class ProgressBar extends PureComponent {
-  state = {
-    layoutWidth: 0,
+  constructor(props) {
+    super(props);
+    this.state = { layoutWidth: 0 };
   }
 
   render() {

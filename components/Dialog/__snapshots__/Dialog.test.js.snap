@@ -17,6 +17,7 @@ exports[`<Dialog> renders 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -33,8 +34,6 @@ exports[`<Dialog> renders 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -130,6 +129,7 @@ exports[`<Dialog> when {background} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -144,8 +144,6 @@ exports[`<Dialog> when {background} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -241,6 +239,7 @@ exports[`<Dialog> when {children} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -257,8 +256,6 @@ exports[`<Dialog> when {children} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -330,9 +327,6 @@ exports[`<Dialog> when {children} 1`] = `
           >
             <View>
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -378,6 +372,7 @@ exports[`<Dialog> when {highlight} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -394,8 +389,6 @@ exports[`<Dialog> when {highlight} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -455,9 +448,6 @@ exports[`<Dialog> when {highlight} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -504,7 +494,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                         "borderRadius": 3,
                       },
                       Object {
-                        "borderRadius": 24,
+                        "borderRadius": 26,
                       },
                       false,
                     ],
@@ -534,7 +524,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                       false,
                       false,
                       Object {
-                        "borderRadius": 24,
+                        "borderRadius": 26,
                       },
                       Object {
                         "paddingHorizontal": 0,
@@ -549,11 +539,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                 >
                   <Image
                     resizeMode="contain"
-                    source={
-                      Object {
-                        "testUri": "../../../components/Icon/assets/close_contrast.png",
-                      }
-                    }
+                    source={1}
                     style={
                       Array [
                         Object {
@@ -651,6 +637,7 @@ exports[`<Dialog> when {onClose} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -667,8 +654,6 @@ exports[`<Dialog> when {onClose} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -746,7 +731,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                         "borderRadius": 3,
                       },
                       Object {
-                        "borderRadius": 24,
+                        "borderRadius": 26,
                       },
                       false,
                     ],
@@ -776,7 +761,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                       false,
                       false,
                       Object {
-                        "borderRadius": 24,
+                        "borderRadius": 26,
                       },
                       Object {
                         "paddingHorizontal": 0,
@@ -791,11 +776,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                 >
                   <Image
                     resizeMode="contain"
-                    source={
-                      Object {
-                        "testUri": "../../../components/Icon/assets/close.png",
-                      }
-                    }
+                    source={1}
                     style={
                       Array [
                         Object {
@@ -892,6 +873,7 @@ exports[`<Dialog> when {reverse} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -908,8 +890,6 @@ exports[`<Dialog> when {reverse} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -1005,6 +985,7 @@ exports[`<Dialog> when {style} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -1021,8 +1002,6 @@ exports[`<Dialog> when {style} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -1120,6 +1099,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -1139,8 +1119,6 @@ exports[`<Dialog> when {styleContainer} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -1236,6 +1214,7 @@ exports[`<Dialog> when {title} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -1252,8 +1231,6 @@ exports[`<Dialog> when {title} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -1313,9 +1290,6 @@ exports[`<Dialog> when {title} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -1381,6 +1355,7 @@ exports[`<Dialog> when {visible} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -1397,8 +1372,6 @@ exports[`<Dialog> when {visible} 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [

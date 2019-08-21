@@ -8,9 +8,9 @@ import { ConsumerTheme, ProviderTheme } from './Theme';
 
 const Consumer = ({ children }) => (
   <ConsumerTracking>
-    { tracking => (
+    { (tracking) => (
       <ConsumerL10N>
-        { l10n => children({ ...tracking, ...l10n }) }
+        { (l10n) => children({ ...tracking, ...l10n }) }
       </ConsumerL10N>
     )}
   </ConsumerTracking>

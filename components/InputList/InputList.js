@@ -36,11 +36,14 @@ class InputList extends PureComponent {
     value: undefined,
   };
 
-  state = {
-    active: false,
-    inputValue: undefined,
-    suggestions: [],
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      active: false,
+      inputValue: undefined,
+      suggestions: [],
+    };
+  }
 
   _onInputChange = (inputValue) => {
     const { props: { dataSource, dataSourceField, value } } = this;
@@ -73,7 +76,7 @@ class InputList extends PureComponent {
 
   _onRemoveItem = (item) => {
     const { props: { onChange, value = [] } } = this;
-    const newValue = value.filter(i => i !== item);
+    const newValue = value.filter((i) => i !== item);
     onChange(newValue.length > 0 ? newValue : undefined);
   }
 
@@ -111,7 +114,7 @@ class InputList extends PureComponent {
 
         { suggestions.length > 0 && (
           <View style={[styles.content, styles.suggestions]}>
-            { suggestions.map(item => (
+            { suggestions.map((item) => (
               <Touchable
                 key={objDataSource ? item[dataSourceField] : item}
                 onPress={() => _onSelectItem(item)}
@@ -129,7 +132,7 @@ class InputList extends PureComponent {
           >
             { value.map((item) => {
               const itemValue = objDataSource
-                ? dataSource.find(i => i[dataSourceField] === item).title
+                ? dataSource.find((i) => i[dataSourceField] === item).title
                 : item;
 
               return (

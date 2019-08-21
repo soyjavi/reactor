@@ -3,9 +3,6 @@
 exports[`<Link> renders 1`] = `
 <Text
   accessibilityRole="link"
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
   href="http://minube.com"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -31,9 +28,6 @@ exports[`<Link> renders 1`] = `
 exports[`<Link> when {style} 1`] = `
 <Text
   accessibilityRole="link"
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
   href="http://minube.com"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -63,9 +57,6 @@ exports[`<Link> when {style} 1`] = `
 exports[`<Link> when {styleHover} 1`] = `
 <Text
   accessibilityRole="link"
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
   href="http://minube.com"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}

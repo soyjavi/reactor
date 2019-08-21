@@ -76,9 +76,6 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
   }
 >
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     numberOfLines={2}
     style={
       Array [
@@ -358,11 +355,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         >
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/nav-arrow.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -494,11 +487,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         >
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/done_contrast.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -523,9 +512,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
@@ -548,9 +534,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             one
           </Text>
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
@@ -689,11 +672,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -718,9 +697,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -743,9 +719,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               one
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -851,9 +824,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -876,9 +846,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               two
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -984,9 +951,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1009,9 +973,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               three
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1117,9 +1078,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1142,9 +1100,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               four
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1250,9 +1205,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1275,9 +1227,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               five
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1383,9 +1332,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1408,9 +1354,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               six
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1516,9 +1459,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1541,9 +1481,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               seven
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1649,9 +1586,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1674,9 +1608,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               eight
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1782,9 +1713,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1807,9 +1735,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               nine
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1915,9 +1840,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -1940,9 +1862,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               ten
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -2189,9 +2108,6 @@ exports[`<InputSelect> when {hint} 1`] = `
     </View>
   </View>
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     numberOfLines={2}
     style={
       Array [
@@ -2235,9 +2151,6 @@ exports[`<InputSelect> when {label} 1`] = `
   }
 >
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     numberOfLines={2}
     style={
       Array [
@@ -2469,11 +2382,7 @@ exports[`<InputSelect> when {value} 1`] = `
         >
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/nav-arrow.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -2605,11 +2514,7 @@ exports[`<InputSelect> when {value} 1`] = `
         >
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/done_contrast.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -2634,9 +2539,6 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
@@ -2659,9 +2561,6 @@ exports[`<InputSelect> when {value} 1`] = `
             four
           </Text>
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
@@ -2801,9 +2700,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -2826,9 +2722,6 @@ exports[`<InputSelect> when {value} 1`] = `
               one
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -2934,9 +2827,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -2959,9 +2849,6 @@ exports[`<InputSelect> when {value} 1`] = `
               two
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3067,9 +2954,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3092,9 +2976,6 @@ exports[`<InputSelect> when {value} 1`] = `
               three
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3199,11 +3080,7 @@ exports[`<InputSelect> when {value} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -3228,9 +3105,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3253,9 +3127,6 @@ exports[`<InputSelect> when {value} 1`] = `
               four
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3361,9 +3232,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3386,9 +3254,6 @@ exports[`<InputSelect> when {value} 1`] = `
               five
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3494,9 +3359,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3519,9 +3381,6 @@ exports[`<InputSelect> when {value} 1`] = `
               six
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3627,9 +3486,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3652,9 +3508,6 @@ exports[`<InputSelect> when {value} 1`] = `
               seven
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3760,9 +3613,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3785,9 +3635,6 @@ exports[`<InputSelect> when {value} 1`] = `
               eight
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3893,9 +3740,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -3918,9 +3762,6 @@ exports[`<InputSelect> when {value} 1`] = `
               nine
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -4026,9 +3867,6 @@ exports[`<InputSelect> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -4051,9 +3889,6 @@ exports[`<InputSelect> when {value} 1`] = `
               ten
             </Text>
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {

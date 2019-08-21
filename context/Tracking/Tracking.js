@@ -25,10 +25,13 @@ class ProviderTracking extends PureComponent {
     signup: true,
   };
 
-  state = {
-    fingerprint: undefined,
-    session: undefined,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      fingerprint: undefined,
+      session: undefined,
+    };
+  }
 
   async componentWillMount() {
     const { _signup, props: { session, signup } } = this;

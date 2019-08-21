@@ -42,7 +42,7 @@ export default class ChartBar extends Component {
       captions, color, highlight, inverted, lines, scales, values, ...inherit
     } = this.props;
     const { max, min, avg } = calcRange(values);
-    let firstValueIndex = values.findIndex(value => value !== 0);
+    let firstValueIndex = values.findIndex((value) => value !== 0);
     if (firstValueIndex === -1) firstValueIndex = undefined;
 
     return (

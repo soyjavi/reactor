@@ -17,9 +17,12 @@ export default class Skeleton extends Component {
     opacity: 0.5,
   };
 
-  state = { visible: false };
-
   interval = undefined;
+
+  constructor(props) {
+    super(props);
+    this.state = { visible: false };
+  }
 
   componentDidMount() {
     this.interval = setInterval(() => {

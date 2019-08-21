@@ -138,9 +138,11 @@ class Slider extends PureComponent {
           ref={this.scrollview}
           scrollEventThrottle={1000}
         >
-          { dataSource.map((data, index) =>
-            <View key={index} style={{ marginRight: itemMargin }}><Item data={data} /></View>) // eslint-disable-line
-          }
+          { dataSource.map((data, index) => (
+            <View key={index.toString()} style={{ marginRight: itemMargin }}>
+              <Item data={data} />
+            </View>
+          ))}
           { inherit.children }
         </ScrollView>
       </View>

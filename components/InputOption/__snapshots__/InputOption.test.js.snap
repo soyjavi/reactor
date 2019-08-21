@@ -63,11 +63,7 @@ exports[`<InputOption> inherity:style 1`] = `
     >
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/done_contrast.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {
@@ -177,11 +173,7 @@ exports[`<InputOption> label 1`] = `
     >
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/done_contrast.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {
@@ -200,9 +192,6 @@ exports[`<InputOption> label 1`] = `
     </View>
   </View>
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     numberOfLines={2}
     style={
       Array [
@@ -323,11 +312,7 @@ exports[`<InputOption> renders 1`] = `
     >
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/done_contrast.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {
@@ -435,11 +420,7 @@ exports[`<InputOption> rounded (false) 1`] = `
     >
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/done_contrast.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {
@@ -552,11 +533,7 @@ exports[`<InputOption> value 1`] = `
     >
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/done_contrast.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {

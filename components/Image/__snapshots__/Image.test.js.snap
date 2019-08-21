@@ -221,7 +221,7 @@ exports[`<Image> when {responsive, width, height} 1`] = `
     onLoad={[Function]}
     source={
       Object {
-        "uri": "https://imgs-akamai.mnstatic.com//tools//genericimages//fc5b42a5baceed399c3bb913406693fd3d4d64ef8bb69457697c90cb71b2c4dd.jpg?quality=75&format=pjpg&fit=crop&width=600&height=400",
+        "uri": "https://imgs-akamai.mnstatic.com//tools//genericimages//fc5b42a5baceed399c3bb913406693fd3d4d64ef8bb69457697c90cb71b2c4dd.jpg?quality=75&format=pjpg&fit=crop&width=NaN&height=NaN",
       }
     }
   />
@@ -275,7 +275,7 @@ exports[`<Image> when {responsive} 1`] = `
     onLoad={[Function]}
     source={
       Object {
-        "uri": "https://imgs-akamai.mnstatic.com//tools//genericimages//fc5b42a5baceed399c3bb913406693fd3d4d64ef8bb69457697c90cb71b2c4dd.jpg?quality=75&format=pjpg&fit=crop&width=1024&height=768",
+        "uri": "https://imgs-akamai.mnstatic.com//tools//genericimages//fc5b42a5baceed399c3bb913406693fd3d4d64ef8bb69457697c90cb71b2c4dd.jpg?quality=75&format=pjpg&fit=crop&width=NaN&height=NaN",
       }
     }
   />

@@ -17,6 +17,7 @@ exports[`<Snackbar> renders 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Array [
         Object {
@@ -34,8 +35,6 @@ exports[`<Snackbar> renders 1`] = `
     }
   >
     <View
-      enabled={true}
-      keyboardVerticalOffset={0}
       onLayout={[Function]}
       style={
         Array [
@@ -126,9 +125,6 @@ exports[`<Snackbar> renders 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {

@@ -27,9 +27,9 @@ const Week = ({ firstDate, ...inherit }) => {
   let tsCaptionsDates;
   let tsDisabledDates;
 
-  if (availableDates) tsAvailableDates = availableDates.map(d => d.getTime());
+  if (availableDates) tsAvailableDates = availableDates.map((d) => d.getTime());
   else if (captions) tsCaptionsDates = captions.map(({ date }) => date.getTime());
-  else if (disabledDates) tsDisabledDates = disabledDates.map(d => d.getTime());
+  else if (disabledDates) tsDisabledDates = disabledDates.map((d) => d.getTime());
 
   if (value) {
     const [start, end] = Array.isArray(value) ? value : [value];
@@ -81,8 +81,7 @@ const Week = ({ firstDate, ...inherit }) => {
               ? () => onPress({
                 day, tsDay, tsStart, tsEnd, ...inherit,
               })
-              : undefined
-            }
+              : undefined}
             style={[
               styles.cell,
               range && styles.cellExpand,

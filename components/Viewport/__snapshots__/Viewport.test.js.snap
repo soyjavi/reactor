@@ -20,6 +20,7 @@ exports[`<Viewport> renders 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Object {
         "flex": 1,
@@ -64,6 +65,7 @@ exports[`<Viewport> when {backward} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Object {
         "flex": 1,
@@ -108,6 +110,7 @@ exports[`<Viewport> when {children} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Object {
         "flex": 1,
@@ -127,11 +130,7 @@ exports[`<Viewport> when {children} 1`] = `
       }
     >
       <View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
+        <Text>
           Hello World
         </Text>
       </View>
@@ -160,6 +159,7 @@ exports[`<Viewport> when {onScroll} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Object {
         "flex": 1,
@@ -206,6 +206,7 @@ exports[`<Viewport> when {style} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Object {
         "flex": 1,
@@ -250,6 +251,7 @@ exports[`<Viewport> when {styleContent} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Object {
         "flex": 1,
@@ -296,6 +298,7 @@ exports[`<Viewport> when {visible} 1`] = `
   }
 >
   <RCTSafeAreaView
+    emulateUnlessSupported={true}
     style={
       Object {
         "flex": 1,

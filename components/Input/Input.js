@@ -52,9 +52,10 @@ class Input extends Component {
     valid: false,
   };
 
-  state = {
-    focus: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state = { focus: false };
+  }
 
   _onFocus = (focus) => {
     const { props: { disabled, onBlur, onFocus } } = this;

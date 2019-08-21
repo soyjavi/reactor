@@ -1,7 +1,7 @@
-const isObject = item => item && typeof item === 'object' && !Array.isArray(item);
+const isObject = (item) => item && typeof item === 'object' && !Array.isArray(item);
 
 const deepMerge = (target, source) => {
-  const output = Object.assign({}, target);
+  const output = { ...target };
 
   if (isObject(target) && isObject(source)) {
     Object.keys(source).forEach((key) => {

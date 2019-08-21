@@ -54,9 +54,10 @@ class Form extends PureComponent {
     validate: false,
   };
 
-  state = {
-    valid: true,
-  };
+  constructor(props) {
+    super(props);
+    this.state = { valid: true };
+  }
 
   componentWillMount() {
     consolidate(this.props);
@@ -146,7 +147,7 @@ class Form extends PureComponent {
       required: required && (value === undefined || (!type && value.trim().length === 0)),
       valid,
       value,
-      onChange: keyValue => _onChange({ keyValue, keyMap }),
+      onChange: (keyValue) => _onChange({ keyValue, keyMap }),
       style: buildStyle({ inline, style }, styles),
     });
   }

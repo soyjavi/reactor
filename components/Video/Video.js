@@ -28,8 +28,11 @@ class Video extends Component {
     width: 320,
   };
 
-  state = {
-    ready: false,
+  constructor(props) {
+    super(props);
+    this.state = {
+      ready: false,
+    };
   }
 
   shouldComponentUpdate({ autoPlay, source }, { ready }) {
@@ -95,8 +98,7 @@ class Video extends Component {
               <source src={source} />
               <track kind="captions" />
             </video>
-          )
-        }
+          )}
       </View>
     );
   }

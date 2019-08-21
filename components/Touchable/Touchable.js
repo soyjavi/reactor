@@ -34,12 +34,15 @@ class Touchable extends PureComponent {
     rippleColor: COLOR.BASE,
   };
 
-  state = {
-    height: 0,
-    mask: new Animated.Value(0),
-    ripples: [],
-    width: 0,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      height: 0,
+      mask: new Animated.Value(0),
+      ripples: [],
+      width: 0,
+    };
+  }
 
   componentDidMount() {
     this.mounted = true;
@@ -122,7 +125,7 @@ class Touchable extends PureComponent {
         >
           {children}
           <View style={[styles.ripples, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
-            { ripples.map(props => <Ripple color={rippleColor} {...props} />)}
+            { ripples.map((props) => <Ripple color={rippleColor} {...props} />)}
             <Animated.View
               style={[
                 styles.mask,

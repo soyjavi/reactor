@@ -60,6 +60,7 @@ exports[`<InputImage> renders 1`] = `
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
+        rejectResponderTermination={true}
         style={
           Array [
             Object {
@@ -151,6 +152,7 @@ exports[`<InputImage> when {disabled} 1`] = `
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
+        rejectResponderTermination={true}
         style={
           Array [
             Object {
@@ -244,6 +246,7 @@ exports[`<InputImage> when {error} 1`] = `
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
+        rejectResponderTermination={true}
         style={
           Array [
             Object {
@@ -270,11 +273,7 @@ exports[`<InputImage> when {error} 1`] = `
       />
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/error.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {
@@ -362,6 +361,7 @@ exports[`<InputImage> when {hint} 1`] = `
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
+        rejectResponderTermination={true}
         style={
           Array [
             Object {
@@ -388,9 +388,6 @@ exports[`<InputImage> when {hint} 1`] = `
       />
     </View>
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       numberOfLines={2}
       style={
         Array [
@@ -450,9 +447,6 @@ exports[`<InputImage> when {label} 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       numberOfLines={2}
       style={
         Array [
@@ -512,6 +506,7 @@ exports[`<InputImage> when {label} 1`] = `
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
+        rejectResponderTermination={true}
         style={
           Array [
             Object {
@@ -601,6 +596,7 @@ exports[`<InputImage> when {required} 1`] = `
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
+        rejectResponderTermination={true}
         style={
           Array [
             Object {
@@ -693,6 +689,7 @@ exports[`<InputImage> when {style} 1`] = `
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
+        rejectResponderTermination={true}
         style={
           Array [
             Object {
@@ -850,6 +847,7 @@ exports[`<InputImage> when {value} 1`] = `
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
+        rejectResponderTermination={true}
         style={
           Array [
             Object {

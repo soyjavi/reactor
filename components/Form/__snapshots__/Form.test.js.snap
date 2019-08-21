@@ -59,9 +59,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -124,6 +121,7 @@ exports[`<Form> when {attributes} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -169,9 +167,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -232,6 +227,7 @@ exports[`<Form> when {attributes} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -274,9 +270,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -338,6 +331,7 @@ exports[`<Form> when {attributes} 1`] = `
             onFocus={[Function]}
             placeholder="Your email..."
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -364,11 +358,7 @@ exports[`<Form> when {attributes} 1`] = `
           />
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/error_outline.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -393,9 +383,6 @@ exports[`<Form> when {attributes} 1`] = `
           />
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -439,9 +426,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -503,6 +487,7 @@ exports[`<Form> when {attributes} 1`] = `
             onFocus={[Function]}
             placeholder="000 000 000"
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -545,9 +530,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -609,6 +591,7 @@ exports[`<Form> when {attributes} 1`] = `
             onFocus={[Function]}
             placeholder="+00 000 000 000"
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -635,9 +618,6 @@ exports[`<Form> when {attributes} 1`] = `
           />
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -682,9 +662,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -746,6 +723,7 @@ exports[`<Form> when {attributes} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -788,9 +766,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -860,9 +835,6 @@ exports[`<Form> when {attributes} 1`] = `
                   "paddingHorizontal": 4,
                 }
               }
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -900,6 +872,7 @@ exports[`<Form> when {attributes} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -946,9 +919,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -1094,9 +1064,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -1200,11 +1167,7 @@ exports[`<Form> when {attributes} 1`] = `
               >
                 <Image
                   resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Array [
                       Object {
@@ -1336,11 +1299,7 @@ exports[`<Form> when {attributes} 1`] = `
               >
                 <Image
                   resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Array [
                       Object {
@@ -1365,9 +1324,6 @@ exports[`<Form> when {attributes} 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -1390,9 +1346,6 @@ exports[`<Form> when {attributes} 1`] = `
                   three
                 </Text>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -1534,9 +1487,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -1559,9 +1509,6 @@ exports[`<Form> when {attributes} 1`] = `
                     one
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -1667,9 +1614,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -1692,9 +1636,6 @@ exports[`<Form> when {attributes} 1`] = `
                     two
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -1799,11 +1740,7 @@ exports[`<Form> when {attributes} 1`] = `
                 >
                   <Image
                     resizeMode="contain"
-                    source={
-                      Object {
-                        "testUri": "../../../components/Icon/assets/done_contrast.png",
-                      }
-                    }
+                    source={1}
                     style={
                       Array [
                         Object {
@@ -1828,9 +1765,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -1853,9 +1787,6 @@ exports[`<Form> when {attributes} 1`] = `
                     three
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -1961,9 +1892,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -1986,9 +1914,6 @@ exports[`<Form> when {attributes} 1`] = `
                     four
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2094,9 +2019,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2119,9 +2041,6 @@ exports[`<Form> when {attributes} 1`] = `
                     five
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2227,9 +2146,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2252,9 +2168,6 @@ exports[`<Form> when {attributes} 1`] = `
                     six
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2360,9 +2273,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2385,9 +2295,6 @@ exports[`<Form> when {attributes} 1`] = `
                     seven
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2493,9 +2400,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2518,9 +2422,6 @@ exports[`<Form> when {attributes} 1`] = `
                     eight
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2626,9 +2527,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2651,9 +2549,6 @@ exports[`<Form> when {attributes} 1`] = `
                     nine
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2759,9 +2654,6 @@ exports[`<Form> when {attributes} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2784,9 +2676,6 @@ exports[`<Form> when {attributes} 1`] = `
                     ten
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -2861,9 +2750,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -2930,9 +2816,6 @@ exports[`<Form> when {attributes} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -2971,11 +2854,7 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -3052,9 +2931,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -3121,9 +2997,6 @@ exports[`<Form> when {attributes} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -3162,11 +3035,7 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -3327,9 +3196,6 @@ exports[`<Form> when {attributes} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -3390,6 +3256,7 @@ exports[`<Form> when {attributes} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -3433,9 +3300,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -3499,7 +3363,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "uri": "twitter",
                 }
               }
               style={
@@ -3533,6 +3397,7 @@ exports[`<Form> when {attributes} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -3580,13 +3445,12 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <RCTSwitch
+          accessibilityRole="button"
           activeThumbColor="#ffffff"
           activeTrackColor="#10c0bc"
-          disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          onValueChange={[Function]}
           style={
             Array [
               Object {
@@ -3598,15 +3462,11 @@ exports[`<Form> when {attributes} 1`] = `
               },
             ]
           }
-          thumbColor="#ffffff"
-          trackColor="#cdd2d4"
+          thumbTintColor="#ffffff"
           valid={false}
           value={false}
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -3657,13 +3517,12 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <RCTSwitch
+          accessibilityRole="button"
           activeThumbColor="#ffffff"
           activeTrackColor="#10c0bc"
-          disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          onValueChange={[Function]}
           style={
             Array [
               Object {
@@ -3675,15 +3534,11 @@ exports[`<Form> when {attributes} 1`] = `
               },
             ]
           }
-          thumbColor="#ffffff"
-          trackColor="#cdd2d4"
+          thumbTintColor="#ffffff"
           valid={false}
           value={false}
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -3779,11 +3634,7 @@ exports[`<Form> when {attributes} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -3802,9 +3653,6 @@ exports[`<Form> when {attributes} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -3929,11 +3777,7 @@ exports[`<Form> when {attributes} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -3952,9 +3796,6 @@ exports[`<Form> when {attributes} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -4079,11 +3920,7 @@ exports[`<Form> when {attributes} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -4102,9 +3939,6 @@ exports[`<Form> when {attributes} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -4227,11 +4061,7 @@ exports[`<Form> when {attributes} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -4250,9 +4080,6 @@ exports[`<Form> when {attributes} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -4341,9 +4168,6 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -4386,9 +4210,6 @@ exports[`<Form> when {attributes} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -4452,7 +4273,7 @@ exports[`<Form> when {attributes} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/twitter.png",
+                    "uri": "twitter",
                   }
                 }
                 style={
@@ -4486,6 +4307,7 @@ exports[`<Form> when {attributes} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -4528,9 +4350,6 @@ exports[`<Form> when {attributes} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -4594,7 +4413,7 @@ exports[`<Form> when {attributes} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/facebook.png",
+                    "uri": "facebook",
                   }
                 }
                 style={
@@ -4628,6 +4447,7 @@ exports[`<Form> when {attributes} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -4670,9 +4490,6 @@ exports[`<Form> when {attributes} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -4733,6 +4550,7 @@ exports[`<Form> when {attributes} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -4759,11 +4577,7 @@ exports[`<Form> when {attributes} 1`] = `
             />
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/error_outline.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -4819,9 +4633,6 @@ exports[`<Form> when {attributes} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -4883,6 +4694,7 @@ exports[`<Form> when {attributes} 1`] = `
               onFocus={[Function]}
               onSubmitEditing={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -4974,11 +4786,7 @@ exports[`<Form> when {attributes} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -4997,9 +4805,6 @@ exports[`<Form> when {attributes} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5099,9 +4904,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5164,6 +4966,7 @@ exports[`<Form> when {color} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -5209,9 +5012,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5272,6 +5072,7 @@ exports[`<Form> when {color} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -5314,9 +5115,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5378,6 +5176,7 @@ exports[`<Form> when {color} 1`] = `
             onFocus={[Function]}
             placeholder="Your email..."
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -5404,11 +5203,7 @@ exports[`<Form> when {color} 1`] = `
           />
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/error_outline.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -5433,9 +5228,6 @@ exports[`<Form> when {color} 1`] = `
           />
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5479,9 +5271,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5543,6 +5332,7 @@ exports[`<Form> when {color} 1`] = `
             onFocus={[Function]}
             placeholder="000 000 000"
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -5585,9 +5375,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5649,6 +5436,7 @@ exports[`<Form> when {color} 1`] = `
             onFocus={[Function]}
             placeholder="+00 000 000 000"
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -5675,9 +5463,6 @@ exports[`<Form> when {color} 1`] = `
           />
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5722,9 +5507,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5786,6 +5568,7 @@ exports[`<Form> when {color} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -5828,9 +5611,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -5900,9 +5680,6 @@ exports[`<Form> when {color} 1`] = `
                   "paddingHorizontal": 4,
                 }
               }
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -5940,6 +5717,7 @@ exports[`<Form> when {color} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -5986,9 +5764,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -6134,9 +5909,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -6240,11 +6012,7 @@ exports[`<Form> when {color} 1`] = `
               >
                 <Image
                   resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Array [
                       Object {
@@ -6376,11 +6144,7 @@ exports[`<Form> when {color} 1`] = `
               >
                 <Image
                   resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Array [
                       Object {
@@ -6405,9 +6169,6 @@ exports[`<Form> when {color} 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -6430,9 +6191,6 @@ exports[`<Form> when {color} 1`] = `
                   three
                 </Text>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -6574,9 +6332,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -6599,9 +6354,6 @@ exports[`<Form> when {color} 1`] = `
                     one
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -6707,9 +6459,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -6732,9 +6481,6 @@ exports[`<Form> when {color} 1`] = `
                     two
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -6839,11 +6585,7 @@ exports[`<Form> when {color} 1`] = `
                 >
                   <Image
                     resizeMode="contain"
-                    source={
-                      Object {
-                        "testUri": "../../../components/Icon/assets/done_contrast.png",
-                      }
-                    }
+                    source={1}
                     style={
                       Array [
                         Object {
@@ -6868,9 +6610,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -6893,9 +6632,6 @@ exports[`<Form> when {color} 1`] = `
                     three
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7001,9 +6737,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7026,9 +6759,6 @@ exports[`<Form> when {color} 1`] = `
                     four
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7134,9 +6864,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7159,9 +6886,6 @@ exports[`<Form> when {color} 1`] = `
                     five
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7267,9 +6991,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7292,9 +7013,6 @@ exports[`<Form> when {color} 1`] = `
                     six
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7400,9 +7118,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7425,9 +7140,6 @@ exports[`<Form> when {color} 1`] = `
                     seven
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7533,9 +7245,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7558,9 +7267,6 @@ exports[`<Form> when {color} 1`] = `
                     eight
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7666,9 +7372,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7691,9 +7394,6 @@ exports[`<Form> when {color} 1`] = `
                     nine
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7799,9 +7499,6 @@ exports[`<Form> when {color} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7824,9 +7521,6 @@ exports[`<Form> when {color} 1`] = `
                     ten
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -7901,9 +7595,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -7970,9 +7661,6 @@ exports[`<Form> when {color} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -8011,11 +7699,7 @@ exports[`<Form> when {color} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -8092,9 +7776,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -8161,9 +7842,6 @@ exports[`<Form> when {color} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -8202,11 +7880,7 @@ exports[`<Form> when {color} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -8367,9 +8041,6 @@ exports[`<Form> when {color} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -8430,6 +8101,7 @@ exports[`<Form> when {color} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -8473,9 +8145,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -8539,7 +8208,7 @@ exports[`<Form> when {color} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "uri": "twitter",
                 }
               }
               style={
@@ -8573,6 +8242,7 @@ exports[`<Form> when {color} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -8620,13 +8290,12 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <RCTSwitch
+          accessibilityRole="button"
           activeThumbColor="#ffffff"
           activeTrackColor="green"
-          disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          onValueChange={[Function]}
           style={
             Array [
               Object {
@@ -8638,15 +8307,11 @@ exports[`<Form> when {color} 1`] = `
               },
             ]
           }
-          thumbColor="#ffffff"
-          trackColor="#cdd2d4"
+          thumbTintColor="#ffffff"
           valid={false}
           value={false}
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -8697,13 +8362,12 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <RCTSwitch
+          accessibilityRole="button"
           activeThumbColor="#ffffff"
           activeTrackColor="green"
-          disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          onValueChange={[Function]}
           style={
             Array [
               Object {
@@ -8715,15 +8379,11 @@ exports[`<Form> when {color} 1`] = `
               },
             ]
           }
-          thumbColor="#ffffff"
-          trackColor="#cdd2d4"
+          thumbTintColor="#ffffff"
           valid={false}
           value={false}
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -8819,11 +8479,7 @@ exports[`<Form> when {color} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -8842,9 +8498,6 @@ exports[`<Form> when {color} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -8969,11 +8622,7 @@ exports[`<Form> when {color} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -8992,9 +8641,6 @@ exports[`<Form> when {color} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -9119,11 +8765,7 @@ exports[`<Form> when {color} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -9142,9 +8784,6 @@ exports[`<Form> when {color} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -9267,11 +8906,7 @@ exports[`<Form> when {color} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -9290,9 +8925,6 @@ exports[`<Form> when {color} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -9381,9 +9013,6 @@ exports[`<Form> when {color} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -9426,9 +9055,6 @@ exports[`<Form> when {color} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -9492,7 +9118,7 @@ exports[`<Form> when {color} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/twitter.png",
+                    "uri": "twitter",
                   }
                 }
                 style={
@@ -9526,6 +9152,7 @@ exports[`<Form> when {color} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -9568,9 +9195,6 @@ exports[`<Form> when {color} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -9634,7 +9258,7 @@ exports[`<Form> when {color} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/facebook.png",
+                    "uri": "facebook",
                   }
                 }
                 style={
@@ -9668,6 +9292,7 @@ exports[`<Form> when {color} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -9710,9 +9335,6 @@ exports[`<Form> when {color} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -9773,6 +9395,7 @@ exports[`<Form> when {color} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -9799,11 +9422,7 @@ exports[`<Form> when {color} 1`] = `
             />
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/error_outline.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -9859,9 +9478,6 @@ exports[`<Form> when {color} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -9923,6 +9539,7 @@ exports[`<Form> when {color} 1`] = `
               onFocus={[Function]}
               onSubmitEditing={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -10014,11 +9631,7 @@ exports[`<Form> when {color} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -10037,9 +9650,6 @@ exports[`<Form> when {color} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -10199,9 +9809,6 @@ exports[`<Form> when {title} 1`] = `
       }
     >
       <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
         style={
           Array [
             Object {
@@ -10269,9 +9876,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -10334,6 +9938,7 @@ exports[`<Form> when {validate} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -10379,9 +9984,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -10444,6 +10046,7 @@ exports[`<Form> when {validate} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -10500,11 +10103,7 @@ exports[`<Form> when {validate} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -10539,9 +10138,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -10603,6 +10199,7 @@ exports[`<Form> when {validate} 1`] = `
             onFocus={[Function]}
             placeholder="Your email..."
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -10629,11 +10226,7 @@ exports[`<Form> when {validate} 1`] = `
           />
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/error_outline.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -10658,9 +10251,6 @@ exports[`<Form> when {validate} 1`] = `
           />
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -10704,9 +10294,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -10768,6 +10355,7 @@ exports[`<Form> when {validate} 1`] = `
             onFocus={[Function]}
             placeholder="000 000 000"
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -10810,9 +10398,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -10874,6 +10459,7 @@ exports[`<Form> when {validate} 1`] = `
             onFocus={[Function]}
             placeholder="+00 000 000 000"
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -10900,9 +10486,6 @@ exports[`<Form> when {validate} 1`] = `
           />
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -10947,9 +10530,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -11011,6 +10591,7 @@ exports[`<Form> when {validate} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -11053,9 +10634,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -11125,9 +10703,6 @@ exports[`<Form> when {validate} 1`] = `
                   "paddingHorizontal": 4,
                 }
               }
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -11165,6 +10740,7 @@ exports[`<Form> when {validate} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -11211,9 +10787,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -11359,9 +10932,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -11465,11 +11035,7 @@ exports[`<Form> when {validate} 1`] = `
               >
                 <Image
                   resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Array [
                       Object {
@@ -11601,11 +11167,7 @@ exports[`<Form> when {validate} 1`] = `
               >
                 <Image
                   resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Array [
                       Object {
@@ -11630,9 +11192,6 @@ exports[`<Form> when {validate} 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -11655,9 +11214,6 @@ exports[`<Form> when {validate} 1`] = `
                   three
                 </Text>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -11799,9 +11355,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -11824,9 +11377,6 @@ exports[`<Form> when {validate} 1`] = `
                     one
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -11932,9 +11482,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -11957,9 +11504,6 @@ exports[`<Form> when {validate} 1`] = `
                     two
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12064,11 +11608,7 @@ exports[`<Form> when {validate} 1`] = `
                 >
                   <Image
                     resizeMode="contain"
-                    source={
-                      Object {
-                        "testUri": "../../../components/Icon/assets/done_contrast.png",
-                      }
-                    }
+                    source={1}
                     style={
                       Array [
                         Object {
@@ -12093,9 +11633,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12118,9 +11655,6 @@ exports[`<Form> when {validate} 1`] = `
                     three
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12226,9 +11760,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12251,9 +11782,6 @@ exports[`<Form> when {validate} 1`] = `
                     four
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12359,9 +11887,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12384,9 +11909,6 @@ exports[`<Form> when {validate} 1`] = `
                     five
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12492,9 +12014,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12517,9 +12036,6 @@ exports[`<Form> when {validate} 1`] = `
                     six
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12625,9 +12141,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12650,9 +12163,6 @@ exports[`<Form> when {validate} 1`] = `
                     seven
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12758,9 +12268,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12783,9 +12290,6 @@ exports[`<Form> when {validate} 1`] = `
                     eight
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12891,9 +12395,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -12916,9 +12417,6 @@ exports[`<Form> when {validate} 1`] = `
                     nine
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -13024,9 +12522,6 @@ exports[`<Form> when {validate} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -13049,9 +12544,6 @@ exports[`<Form> when {validate} 1`] = `
                     ten
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -13126,9 +12618,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -13195,9 +12684,6 @@ exports[`<Form> when {validate} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -13236,11 +12722,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -13317,9 +12799,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -13386,9 +12865,6 @@ exports[`<Form> when {validate} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -13427,11 +12903,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -13592,9 +13064,6 @@ exports[`<Form> when {validate} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -13657,6 +13126,7 @@ exports[`<Form> when {validate} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -13713,11 +13183,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -13753,9 +13219,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -13819,7 +13282,7 @@ exports[`<Form> when {validate} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "uri": "twitter",
                 }
               }
               style={
@@ -13853,6 +13316,7 @@ exports[`<Form> when {validate} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -13900,13 +13364,12 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <RCTSwitch
+          accessibilityRole="button"
           activeThumbColor="#ffffff"
           activeTrackColor="#10c0bc"
-          disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          onValueChange={[Function]}
           style={
             Array [
               Object {
@@ -13918,15 +13381,11 @@ exports[`<Form> when {validate} 1`] = `
               },
             ]
           }
-          thumbColor="#ffffff"
-          trackColor="#cdd2d4"
+          thumbTintColor="#ffffff"
           valid={true}
           value={true}
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -13977,13 +13436,12 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <RCTSwitch
+          accessibilityRole="button"
           activeThumbColor="#ffffff"
           activeTrackColor="#10c0bc"
-          disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          onValueChange={[Function]}
           style={
             Array [
               Object {
@@ -13995,15 +13453,11 @@ exports[`<Form> when {validate} 1`] = `
               },
             ]
           }
-          thumbColor="#ffffff"
-          trackColor="#cdd2d4"
+          thumbTintColor="#ffffff"
           valid={false}
           value={false}
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -14099,11 +13553,7 @@ exports[`<Form> when {validate} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -14122,9 +13572,6 @@ exports[`<Form> when {validate} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -14249,11 +13696,7 @@ exports[`<Form> when {validate} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -14272,9 +13715,6 @@ exports[`<Form> when {validate} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -14399,11 +13839,7 @@ exports[`<Form> when {validate} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -14422,9 +13858,6 @@ exports[`<Form> when {validate} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -14547,11 +13980,7 @@ exports[`<Form> when {validate} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -14570,9 +13999,6 @@ exports[`<Form> when {validate} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -14661,9 +14087,6 @@ exports[`<Form> when {validate} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -14706,9 +14129,6 @@ exports[`<Form> when {validate} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -14774,7 +14194,7 @@ exports[`<Form> when {validate} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/twitter.png",
+                    "uri": "twitter",
                   }
                 }
                 style={
@@ -14808,6 +14228,7 @@ exports[`<Form> when {validate} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -14864,11 +14285,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -14903,9 +14320,6 @@ exports[`<Form> when {validate} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -14971,7 +14385,7 @@ exports[`<Form> when {validate} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/facebook.png",
+                    "uri": "facebook",
                   }
                 }
                 style={
@@ -15005,6 +14419,7 @@ exports[`<Form> when {validate} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -15061,11 +14476,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -15100,9 +14511,6 @@ exports[`<Form> when {validate} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -15163,6 +14571,7 @@ exports[`<Form> when {validate} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -15189,11 +14598,7 @@ exports[`<Form> when {validate} 1`] = `
             />
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/error_outline.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -15249,9 +14654,6 @@ exports[`<Form> when {validate} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -15315,6 +14717,7 @@ exports[`<Form> when {validate} 1`] = `
               onFocus={[Function]}
               onSubmitEditing={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -15371,11 +14774,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -15432,9 +14831,6 @@ exports[`<Form> when {validate} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -15475,11 +14871,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -15544,9 +14936,6 @@ exports[`<Form> when {validate} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -15587,11 +14976,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -15656,9 +15041,6 @@ exports[`<Form> when {validate} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -15699,11 +15081,7 @@ exports[`<Form> when {validate} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -15817,11 +15195,7 @@ exports[`<Form> when {validate} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -15840,9 +15214,6 @@ exports[`<Form> when {validate} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -15942,9 +15313,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16007,6 +15375,7 @@ exports[`<Form> when {value} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -16052,9 +15421,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16115,6 +15481,7 @@ exports[`<Form> when {value} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -16157,9 +15524,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16221,6 +15585,7 @@ exports[`<Form> when {value} 1`] = `
             onFocus={[Function]}
             placeholder="Your email..."
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -16247,11 +15612,7 @@ exports[`<Form> when {value} 1`] = `
           />
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/error_outline.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -16276,9 +15637,6 @@ exports[`<Form> when {value} 1`] = `
           />
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16322,9 +15680,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16386,6 +15741,7 @@ exports[`<Form> when {value} 1`] = `
             onFocus={[Function]}
             placeholder="000 000 000"
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -16428,9 +15784,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16492,6 +15845,7 @@ exports[`<Form> when {value} 1`] = `
             onFocus={[Function]}
             placeholder="+00 000 000 000"
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -16518,9 +15872,6 @@ exports[`<Form> when {value} 1`] = `
           />
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16565,9 +15916,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16629,6 +15977,7 @@ exports[`<Form> when {value} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -16671,9 +16020,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16743,9 +16089,6 @@ exports[`<Form> when {value} 1`] = `
                   "paddingHorizontal": 4,
                 }
               }
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -16783,6 +16126,7 @@ exports[`<Form> when {value} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -16829,9 +16173,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -16977,9 +16318,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -17083,11 +16421,7 @@ exports[`<Form> when {value} 1`] = `
               >
                 <Image
                   resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Array [
                       Object {
@@ -17219,11 +16553,7 @@ exports[`<Form> when {value} 1`] = `
               >
                 <Image
                   resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Array [
                       Object {
@@ -17248,9 +16578,6 @@ exports[`<Form> when {value} 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -17273,9 +16600,6 @@ exports[`<Form> when {value} 1`] = `
                   three
                 </Text>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -17417,9 +16741,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -17442,9 +16763,6 @@ exports[`<Form> when {value} 1`] = `
                     one
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -17550,9 +16868,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -17575,9 +16890,6 @@ exports[`<Form> when {value} 1`] = `
                     two
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -17682,11 +16994,7 @@ exports[`<Form> when {value} 1`] = `
                 >
                   <Image
                     resizeMode="contain"
-                    source={
-                      Object {
-                        "testUri": "../../../components/Icon/assets/done_contrast.png",
-                      }
-                    }
+                    source={1}
                     style={
                       Array [
                         Object {
@@ -17711,9 +17019,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -17736,9 +17041,6 @@ exports[`<Form> when {value} 1`] = `
                     three
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -17844,9 +17146,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -17869,9 +17168,6 @@ exports[`<Form> when {value} 1`] = `
                     four
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -17977,9 +17273,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18002,9 +17295,6 @@ exports[`<Form> when {value} 1`] = `
                     five
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18110,9 +17400,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18135,9 +17422,6 @@ exports[`<Form> when {value} 1`] = `
                     six
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18243,9 +17527,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18268,9 +17549,6 @@ exports[`<Form> when {value} 1`] = `
                     seven
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18376,9 +17654,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18401,9 +17676,6 @@ exports[`<Form> when {value} 1`] = `
                     eight
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18509,9 +17781,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18534,9 +17803,6 @@ exports[`<Form> when {value} 1`] = `
                     nine
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18642,9 +17908,6 @@ exports[`<Form> when {value} 1`] = `
                   }
                 >
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18667,9 +17930,6 @@ exports[`<Form> when {value} 1`] = `
                     ten
                   </Text>
                   <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
                     style={
                       Array [
                         Object {
@@ -18744,9 +18004,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -18813,9 +18070,6 @@ exports[`<Form> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -18854,11 +18108,7 @@ exports[`<Form> when {value} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -18935,9 +18185,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -19004,9 +18251,6 @@ exports[`<Form> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -19045,11 +18289,7 @@ exports[`<Form> when {value} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/nav-arrow.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -19210,9 +18450,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -19273,6 +18510,7 @@ exports[`<Form> when {value} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -19316,9 +18554,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -19382,7 +18617,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "uri": "twitter",
                 }
               }
               style={
@@ -19416,6 +18651,7 @@ exports[`<Form> when {value} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#707070"
+            rejectResponderTermination={true}
             style={
               Array [
                 Object {
@@ -19463,13 +18699,12 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <RCTSwitch
+          accessibilityRole="button"
           activeThumbColor="#ffffff"
           activeTrackColor="#10c0bc"
-          disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          onValueChange={[Function]}
           style={
             Array [
               Object {
@@ -19481,15 +18716,11 @@ exports[`<Form> when {value} 1`] = `
               },
             ]
           }
-          thumbColor="#ffffff"
-          trackColor="#cdd2d4"
+          thumbTintColor="#ffffff"
           valid={false}
           value={true}
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -19540,13 +18771,12 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <RCTSwitch
+          accessibilityRole="button"
           activeThumbColor="#ffffff"
           activeTrackColor="#10c0bc"
-          disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          onValueChange={[Function]}
           style={
             Array [
               Object {
@@ -19558,15 +18788,11 @@ exports[`<Form> when {value} 1`] = `
               },
             ]
           }
-          thumbColor="#ffffff"
-          trackColor="#cdd2d4"
+          thumbTintColor="#ffffff"
           valid={false}
           value={false}
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -19662,11 +18888,7 @@ exports[`<Form> when {value} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -19685,9 +18907,6 @@ exports[`<Form> when {value} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -19812,11 +19031,7 @@ exports[`<Form> when {value} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -19835,9 +19050,6 @@ exports[`<Form> when {value} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -19962,11 +19174,7 @@ exports[`<Form> when {value} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -19985,9 +19193,6 @@ exports[`<Form> when {value} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -20110,11 +19315,7 @@ exports[`<Form> when {value} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -20133,9 +19334,6 @@ exports[`<Form> when {value} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [
@@ -20224,9 +19422,6 @@ exports[`<Form> when {value} 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Array [
               Object {
@@ -20269,9 +19464,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -20335,7 +19527,7 @@ exports[`<Form> when {value} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/twitter.png",
+                    "uri": "twitter",
                   }
                 }
                 style={
@@ -20369,6 +19561,7 @@ exports[`<Form> when {value} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -20411,9 +19604,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -20477,7 +19667,7 @@ exports[`<Form> when {value} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/facebook.png",
+                    "uri": "facebook",
                   }
                 }
                 style={
@@ -20511,6 +19701,7 @@ exports[`<Form> when {value} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -20553,9 +19744,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -20616,6 +19804,7 @@ exports[`<Form> when {value} 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -20642,11 +19831,7 @@ exports[`<Form> when {value} 1`] = `
             />
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/error_outline.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -20702,9 +19887,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={2}
             style={
               Array [
@@ -20766,6 +19948,7 @@ exports[`<Form> when {value} 1`] = `
               onFocus={[Function]}
               onSubmitEditing={[Function]}
               placeholderTextColor="#707070"
+              rejectResponderTermination={true}
               style={
                 Array [
                   Object {
@@ -20830,9 +20013,6 @@ exports[`<Form> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -20873,11 +20053,7 @@ exports[`<Form> when {value} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -20942,9 +20118,6 @@ exports[`<Form> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -20985,11 +20158,7 @@ exports[`<Form> when {value} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -21054,9 +20223,6 @@ exports[`<Form> when {value} 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
@@ -21097,11 +20263,7 @@ exports[`<Form> when {value} 1`] = `
             >
               <Image
                 resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
-                  }
-                }
+                source={1}
                 style={
                   Array [
                     Object {
@@ -21215,11 +20377,7 @@ exports[`<Form> when {value} 1`] = `
           >
             <Image
               resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
-                }
-              }
+              source={1}
               style={
                 Array [
                   Object {
@@ -21238,9 +20396,6 @@ exports[`<Form> when {value} 1`] = `
           </View>
         </View>
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           numberOfLines={2}
           style={
             Array [

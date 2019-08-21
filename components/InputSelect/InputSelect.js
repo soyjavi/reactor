@@ -113,7 +113,7 @@ class InputSelect extends PureComponent {
                 selectedValue={value}
                 style={[styles.picker, disabled && styles.pickerDisabled]}
               >
-                { dataSource.map(item => (
+                { dataSource.map((item) => (
                   <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />))}
               </Picker>
             )}
