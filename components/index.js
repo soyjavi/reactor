@@ -1,7 +1,5 @@
 import Activity from './Activity';
-import Avatar from './Avatar';
 import BoardingPass, { fetch } from './BoardingPass';
-import Breadcrumbs from './Breadcrumbs';
 import Button from './Button';
 import Calendar from './Calendar';
 import Dialog from './Dialog';
@@ -32,10 +30,8 @@ import Viewport from './Viewport';
 
 export {
   Activity,
-  Avatar,
   BoardingPass,
   fetch,
-  Breadcrumbs,
   Button,
   Calendar,
   Dialog,

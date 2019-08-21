@@ -6,7 +6,6 @@ import {
   array, text, boolean, number, object, select,
 } from '@storybook/addon-knobs/react';
 
-import Avatar from '../Avatar';
 import InputList from './InputList';
 import Text from '../Text';
 
@@ -22,7 +21,6 @@ const VALUE_COMPLEX = [
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', maxWidth: 320 };
 const item = ({ avatar, name }) => (
   <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-    <Avatar image={avatar} small />
     <Text tiny semibold style={{ marginLeft: 6 }}>{name}</Text>
   </View>
 );

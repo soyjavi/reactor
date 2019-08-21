@@ -2,7 +2,6 @@ import React from 'react';
 import { View } from 'react-native';
 import renderer from 'react-test-renderer';
 
-import Avatar from '../Avatar';
 import InputList from './InputList';
 import Text from '../Text';
 
@@ -18,7 +17,6 @@ const VALUE_COMPLEX = [
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 const item = ({ avatar, name }) => (
   <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-    <Avatar image={avatar} small />
     <Text style={{ marginLeft: 10 }}>{name}</Text>
   </View>
 );
