@@ -6,7 +6,7 @@ const {
   BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE,
 } = THEME;
 
-const LARGE_SIZE = UNIT * 4.8;
+const LARGE_SIZE = UNIT * 5.2;
 const REGULAR_SIZE = UNIT * 4.4;
 const SMALL_SIZE = UNIT * 2.8;
 
