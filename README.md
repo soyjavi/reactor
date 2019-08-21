@@ -1,9 +1,9 @@
-# <a href='https://minube.github.io/reactor/'><img src='https://i.imgur.com/POE0A6e.png' height='64'></a>
-[![version](https://img.shields.io/github/package-json/v/minube/reactor.svg?style=flat-square)](https://github.com/minube/reactor/releases)
-[![Build Status](http://img.shields.io/travis/minube/reactor/master.svg?style=flat-square)](https://travis-ci.org/minube/reactor)
-[![dependencies Status](https://david-dm.org/minube/reactor/status.svg?style=flat-square)](https://david-dm.org/minube/reactor)
-[![devDependencies Status](https://david-dm.org/minube/reactor/dev-status.svg?style=flat-square)](https://david-dm.org/minube/reactor?type=dev)
-[![License](https://img.shields.io/github/license/minube/reactor.svg?style=flat-square)](https://spdx.org/licenses/LGPL-3.0.html)
+# <a href='https://github.com/soyjavi/reactor/'><img src='https://i.imgur.com/POE0A6e.png' height='64'></a>
+[![version](https://img.shields.io/github/package-json/v/soyjavi/reactor.svg?style=flat-square)](https://github.com/soyjavi/reactor/releases)
+[![Build Status](http://img.shields.io/travis/soyjavi/reactor/master.svg?style=flat-square)](https://travis-ci.org/soyjavi/reactor)
+[![dependencies Status](https://david-dm.org/soyjavi/reactor/status.svg?style=flat-square)](https://david-dm.org/soyjavi/reactor)
+[![devDependencies Status](https://david-dm.org/soyjavi/reactor/dev-status.svg?style=flat-square)](https://david-dm.org/soyjavi/reactor?type=dev)
+[![License](https://img.shields.io/github/license/soyjavi/reactor.svg?style=flat-square)](https://spdx.org/licenses/LGPL-3.0.html)
 
 > Reusable presentational components
 
@@ -29,15 +29,13 @@ brew install watchman
 brew postintall watchman
 
 yarn global add expo-cli
-yarn global add create-react-app
-yarn global add create-react-native-app
 ```
 
 It is time for clone the repository and get all the dependencies using our `package.json`:
 
 ```
-git clone https://github.com/minube/reactor
-yarn --ignore-engines
+git clone https://github.com/soyjavi/reactor
+yarn
 ```
 
 After get all the dependencies you have 2 ways to start playing with **Reactor**.
@@ -46,7 +44,7 @@ After get all the dependencies you have 2 ways to start playing with **Reactor**
 If you wanna use the web environment just type:
 
 ```
-yarn start
+yarn web
 ```
 
 This environment is the most advisable if your purpouse is test our components or just develop new ones.
@@ -55,7 +53,8 @@ This environment is the most advisable if your purpouse is test our components o
 Otherwise, if you wanna see **Reactor** in a native device you have 2 ways. But both of them needs start the native environment so you have to type:
 
 ```
-yarn start:native
+yarn ios
+yarn android
 ```
 
 If everything is ok we will get a screen like this:
@@ -82,9 +81,3 @@ JEST will check if any snapshot has changed, if you get an error could be becaus
 ```
 yarn test --u
 ```
-
-### Releasing a new version of reactor
-Typing `yarn release` our process of building will start:
-  - Creating a new tag using mayor/minor/patch scheme
-  - Building a compiled version
-  - Publishing changes in the storybook minube.github.com/reactor
