@@ -2,6 +2,7 @@ import Activity from './Activity';
 import BoardingPass, { fetch } from './BoardingPass';
 import Button from './Button';
 import Calendar from './Calendar';
+import ChartBar from './ChartBar';
 import Dialog from './Dialog';
 import Form from './Form';
 import Icon from './Icon';
@@ -34,6 +35,7 @@ export {
   fetch,
   Button,
   Calendar,
+  ChartBar,
   Dialog,
   Form,
   Icon,
