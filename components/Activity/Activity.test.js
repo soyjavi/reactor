@@ -1,8 +1,18 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
+import { THEME } from '../../common';
 import Activity from './Activity';
 import MOCKS from './Activity.mocks';
+
+const MOCKS = {
+  COLOR: THEME.COLOR.ERROR,
+  SIZE: 'large',
+  STYLE: {
+    padding: THEME.SPACE.REGULAR,
+    backgroundColor: THEME.COLOR.PRIMARY,
+  },
+};
 
 describe('<Activity>', () => {
   it('renders', () => {
