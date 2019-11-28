@@ -1,7 +1,7 @@
 import {
   arrayOf, bool, func, oneOfType, shape, string,
 } from 'prop-types';
-import React, { PureComponent } from 'react';
+import React, { useEffect, useState } from 'react';
 import { View } from 'react-native';
 
 import { LAYOUT } from '../../common';
@@ -15,114 +15,90 @@ import Touchable from '../Touchable';
 import styles from './InputDate.style';
 import verboseValue from './modules/verboseValue';
 
-class InputDate extends PureComponent {
-  static propTypes = {
-    disabled: bool,
-    error: oneOfType([bool, string]),
-    hint: string,
-    label: string,
-    locale: shape(),
-    onChange: func,
-    placeholder: string,
-    range: bool,
-    value: oneOfType([shape(), arrayOf(shape())]),
+const InputDate = ({
+  disabled, error, hint, label, locale, onChange, placeholder, range, value, ...inherit
+}) => {
+  const [active, setActive] = useState(false);
+  const [calendar, setCalendar] = useState(value);
+
+  const onToggle = () => setActive((currentValue) => !currentValue);
+
+  const onSelect = (nextValue) => {
+    setCalendar(nextValue);
+    if (!range || (nextValue[0] && nextValue[1])) onChange(nextValue);
+    if (!range) onToggle();
   };
 
-  static defaultProps = {
-    disabled: false,
-    error: undefined,
-    hint: undefined,
-    label: undefined,
-    locale: LOCALE,
-    onChange() {},
-    placeholder: undefined,
-    range: false,
-    value: undefined,
-  };
+  const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      active: false,
-      calendar: props.value,
-    };
-  }
+  return (
+    <View style={[styles.container, active && styles.active, inherit.style]}>
+      { label && <InputLabel>{label}</InputLabel> }
 
-  componentWillReceiveProps({ value }) {
-    this.setState({ calendar: value });
-  }
+      <Touchable onPress={!disabled ? onToggle : undefined}>
+        <View
+          style={[
+            styles.border,
+            disabled && styles.disabled,
+            !disabled && error && styles.error,
+            active && styles.focus,
+          ]}
+        >
+          <Text input lighten={disabled || !value} numberOfLines={1} style={styles.value}>
+            {verboseValue(value, locale) || placeholder}
+          </Text>
 
-  _onSelect = (value) => {
-    const { _onToggle, props: { onChange, range } } = this;
+          { !disabled && !error && (
+            <Motion timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}>
+              <Icon value="navDown" style={[styles.icon, styles.iconNav]} />
+            </Motion>
+          )}
 
-    this.setState({ calendar: value });
-    if (!range || (value[0] && value[1])) {
-      if (!range) _onToggle();
-      onChange(value);
-    }
-  }
+          { !disabled && error && <Icon value="error" style={styles.icon} /> }
+        </View>
+      </Touchable>
 
-  _onToggle = () => {
-    const { state: { active } } = this;
+      { hint && <InputHint>{hint}</InputHint> }
 
-    this.setState({ active: !active });
-  }
+      { active && (
+        <Calendar
+          box={false}
+          disabledPast={inherit.disabledPast}
+          edges={inherit.edges}
+          expanded={REGULAR || LARGE}
+          locale={locale}
+          range={range}
+          onSelect={onSelect}
+          style={[styles.calendar, label && styles.withLabel]}
+          value={calendar}
+        />
+      )}
+    </View>
+  );
+};
 
-  render() {
-    const {
-      _onSelect, _onToggle,
-      props: {
-        disabled, error, hint, label, locale, onChange, placeholder, range, value, ...inherit
-      },
-      state: { active, calendar },
-    } = this;
-    const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
+InputDate.propTypes = {
+  disabled: bool,
+  error: oneOfType([bool, string]),
+  hint: string,
+  label: string,
+  locale: shape(),
+  onChange: func,
+  placeholder: string,
+  range: bool,
+  value: oneOfType([shape(), arrayOf(shape())]),
+};
 
-    return (
-      <View style={[styles.container, active && styles.active, inherit.style]}>
-        { label && <InputLabel>{label}</InputLabel> }
-
-        <Touchable onPress={!disabled ? _onToggle : undefined}>
-          <View
-            style={[
-              styles.border,
-              disabled && styles.disabled,
-              !disabled && error && styles.error,
-              active && styles.focus,
-            ]}
-          >
-            <Text input lighten={disabled || !value} numberOfLines={1} style={styles.value}>
-              {verboseValue(value, locale) || placeholder}
-            </Text>
-
-            { !disabled && !error && (
-              <Motion timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}>
-                <Icon value="navDown" style={[styles.icon, styles.iconNav]} />
-              </Motion>
-            )}
-
-            { !disabled && error && <Icon value="error" style={styles.icon} /> }
-          </View>
-        </Touchable>
-
-        { hint && <InputHint>{hint}</InputHint> }
-
-        { active && (
-          <Calendar
-            box={false}
-            disabledPast={inherit.disabledPast}
-            edges={inherit.edges}
-            expanded={REGULAR || LARGE}
-            locale={locale}
-            range={range}
-            onSelect={_onSelect}
-            style={[styles.calendar, label && styles.withLabel]}
-            value={calendar}
-          />
-        )}
-      </View>
-    );
-  }
-}
+InputDate.defaultProps = {
+  disabled: false,
+  error: undefined,
+  hint: undefined,
+  label: undefined,
+  locale: LOCALE,
+  onChange() {},
+  placeholder: undefined,
+  range: false,
+  value: undefined,
+};
 
 export default InputDate;
