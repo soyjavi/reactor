@@ -10,10 +10,4 @@ describe('<ProviderTracking>', () => {
     const tree = TestRenderer.create(<ProviderTracking />).toJSON();
     expect(tree).toMatchSnapshot();
   });
-
-  it('dispatch logEvent', () => {
-    const renderer = TestRenderer.create(<ProviderTracking />);
-
-    renderer.getInstance().logEvent('hello');
-  });
 });

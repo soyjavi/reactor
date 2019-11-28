@@ -17,9 +17,4 @@ export default {
     property: string,
     value: oneOfType([number, string]),
   },
-
-  SESSION: {
-    device_id: string,
-    user_id: string,
-  },
 };
