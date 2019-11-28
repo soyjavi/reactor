@@ -1,35 +1,32 @@
 import { string } from 'prop-types';
-import React, { PureComponent } from 'react';
+import React from 'react';
 import { View } from 'react-native';
 
 import Image from '../Image';
 import Input from '../Input';
 import styles from './InputImage.style';
 
-class InputImage extends PureComponent {
-  static propTypes = {
-    value: string,
-  };
+const InputImage = ({ value, ...inherit }) => {
+  const isValidUrl = value.length > 0;
 
-  static defaultProps = {
-    value: '',
-  };
+  return (
+    <View style={[styles.container, inherit.style]}>
+      { isValidUrl && <Image source={{ uri: value }} style={styles.image} styleContainer={styles.imageContainer} /> }
+      <Input
+        {...inherit}
+        style={[styles.input, isValidUrl && styles.inputMargin]}
+        value={value}
+      />
+    </View>
+  );
+};
 
-  render() {
-    const { props: { value, ...inherit } } = this;
-    const isValidUrl = value.length > 0;
+InputImage.propTypes = {
+  value: string,
+};
 
-    return (
-      <View style={[styles.container, inherit.style]}>
-        { isValidUrl && <Image source={{ uri: value }} style={styles.image} styleContainer={styles.imageContainer} /> }
-        <Input
-          {...inherit}
-          style={[styles.input, isValidUrl && styles.inputMargin]}
-          value={value}
-        />
-      </View>
-    );
-  }
-}
+InputImage.defaultProps = {
+  value: '',
+};
 
 export default InputImage;
