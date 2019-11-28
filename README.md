@@ -1,9 +1,9 @@
-# <a href='https://github.com/soyjavi/reactor/'><img src='https://i.imgur.com/POE0A6e.png' height='64'></a>
-[![version](https://img.shields.io/github/package-json/v/soyjavi/reactor.svg?style=flat-square)](https://github.com/soyjavi/reactor/releases)
-[![Build Status](http://img.shields.io/travis/soyjavi/reactor/master.svg?style=flat-square)](https://travis-ci.org/soyjavi/reactor)
-[![dependencies Status](https://david-dm.org/soyjavi/reactor/status.svg?style=flat-square)](https://david-dm.org/soyjavi/reactor)
-[![devDependencies Status](https://david-dm.org/soyjavi/reactor/dev-status.svg?style=flat-square)](https://david-dm.org/soyjavi/reactor?type=dev)
-[![License](https://img.shields.io/github/license/soyjavi/reactor.svg?style=flat-square)](https://spdx.org/licenses/LGPL-3.0.html)
+# <a href='https://github.com/soyjavi/reactor-guacamole/'><img src='https://i.imgur.com/POE0A6e.png' height='64'></a>
+[![version](https://img.shields.io/github/package-json/v/soyjavi/reactor-guacamole.svg?style=flat-square)](https://github.com/soyjavi/reactor-guacamole/releases)
+[![Build Status](http://img.shields.io/travis/soyjavi/reactor-guacamole/master.svg?style=flat-square)](https://travis-ci.org/soyjavi/reactor-guacamole)
+[![dependencies Status](https://david-dm.org/soyjavi/reactor-guacamole/status.svg?style=flat-square)](https://david-dm.org/soyjavi/reactor-guacamole)
+[![devDependencies Status](https://david-dm.org/soyjavi/reactor-guacamole/dev-status.svg?style=flat-square)](https://david-dm.org/soyjavi/reactor-guacamole?type=dev)
+[![License](https://img.shields.io/github/license/soyjavi/reactor-guacamole.svg?style=flat-square)](https://spdx.org/licenses/LGPL-3.0.html)
 
 > Reusable presentational components
 
@@ -34,7 +34,7 @@ yarn global add expo-cli
 It is time for clone the repository and get all the dependencies using our `package.json`:
 
 ```
-git clone https://github.com/soyjavi/reactor
+git clone https://github.com/soyjavi/reactor-guacamole
 yarn
 ```
 
