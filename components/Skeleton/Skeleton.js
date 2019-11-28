@@ -1,6 +1,6 @@
 import { number } from 'prop-types';
 import { View } from 'react-native';
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './Skeleton.style';
 
 import Motion from '../Motion';
@@ -8,44 +8,31 @@ import { THEME } from '../../common';
 
 const { MOTION: { DURATION } } = THEME;
 
-export default class Skeleton extends Component {
-  static propTypes = {
-    opacity: number,
-  };
+const Skeleton = ({ opacity, ...inherit }) => {
+  const [interval, setInter] = useState(undefined);
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    setInter(setInterval(() => { setVisible((value) => !value); }, DURATION * 3));
+    return () => clearInterval(interval);
+  }, []);
 
-  static defaultProps = {
-    opacity: 0.5,
-  };
+  return (
+    <View style={[styles.container, inherit.style]}>
+      <Motion
+        duration={DURATION * 3}
+        style={styles.motion}
+        timeline={[{ property: 'opacity', value: visible ? opacity : 0 }]}
+      />
+    </View>
+  );
+};
 
-  interval = undefined;
+Skeleton.propTypes = {
+  opacity: number,
+};
 
-  constructor(props) {
-    super(props);
-    this.state = { visible: false };
-  }
+Skeleton.defaultProps = {
+  opacity: 0.5,
+};
 
-  componentDidMount() {
-    this.interval = setInterval(() => {
-      const { state: { visible } } = this;
-      this.setState({ visible: !visible });
-    }, DURATION * 3);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.interval);
-  }
-
-  render() {
-    const { props: { opacity, ...inherit }, state: { visible } } = this;
-
-    return (
-      <View style={[styles.container, inherit.style]}>
-        <Motion
-          duration={DURATION * 3}
-          style={styles.motion}
-          timeline={[{ property: 'opacity', value: visible ? opacity : 0 }]}
-        />
-      </View>
-    );
-  }
-}
+export default Skeleton;
