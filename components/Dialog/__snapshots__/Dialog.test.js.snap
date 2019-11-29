@@ -331,14 +331,9 @@ exports[`<Dialog> when {children} 1`] = `
                   Array [
                     Object {
                       "color": "#4a4a4a",
-                      "fontFamily": undefined,
-                      "fontWeight": "400",
                       "textAlignVertical": "center",
                     },
-                    Object {
-                      "fontSize": 16,
-                      "lineHeight": 30,
-                    },
+                    undefined,
                     false,
                     Object {},
                   ]
@@ -453,17 +448,9 @@ exports[`<Dialog> when {highlight} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 20,
-                    "fontWeight": "700",
-                    "letterSpacing": -0.83,
-                    "lineHeight": 22,
-                  },
+                  undefined,
                   false,
                   Object {
                     "color": "#ffffff",
@@ -505,10 +492,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                   style={
                     Array [
                       Object {
-                        "alignContent": "center",
-                        "alignItems": "center",
                         "borderRadius": 3,
-                        "justifyContent": "center",
                       },
                       Object {
                         "height": 44,
@@ -742,10 +726,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                   style={
                     Array [
                       Object {
-                        "alignContent": "center",
-                        "alignItems": "center",
                         "borderRadius": 3,
-                        "justifyContent": "center",
                       },
                       Object {
                         "height": 44,
@@ -1295,17 +1276,9 @@ exports[`<Dialog> when {title} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 20,
-                    "fontWeight": "700",
-                    "letterSpacing": -0.83,
-                    "lineHeight": 22,
-                  },
+                  undefined,
                   false,
                   Object {
                     "flex": 1,

@@ -149,8 +149,6 @@ exports[`<InputImage> when {disabled} 1`] = `
         keyboard="default"
         keyboardType="default"
         multiline={false}
-        onBlur={[Function]}
-        onFocus={[Function]}
         placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
@@ -393,17 +391,10 @@ exports[`<InputImage> when {hint} 1`] = `
         Array [
           Object {
             "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontWeight": "400",
             "textAlignVertical": "center",
           },
-          Object {
-            "fontSize": 12,
-            "lineHeight": 16,
-          },
-          Object {
-            "color": "#707070",
-          },
+          undefined,
+          undefined,
           Object {
             "marginTop": 4,
             "maxWidth": "100%",
@@ -452,19 +443,10 @@ exports[`<InputImage> when {label} 1`] = `
         Array [
           Object {
             "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontWeight": "400",
             "textAlignVertical": "center",
           },
-          Object {
-            "fontFamily": undefined,
-            "fontSize": 14,
-            "fontWeight": "600",
-            "lineHeight": 16,
-          },
-          Object {
-            "color": "#707070",
-          },
+          undefined,
+          undefined,
           Object {
             "color": "#4a4a4a",
             "marginBottom": 8,

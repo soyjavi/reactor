@@ -6,14 +6,9 @@ exports[`<Text> renders 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -27,14 +22,9 @@ exports[`<Text> when {body level:1} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -50,14 +40,9 @@ exports[`<Text> when {body level:2} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 14,
-        "lineHeight": 24,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -73,14 +58,9 @@ exports[`<Text> when {body level:3} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 12,
-        "lineHeight": 17,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -96,14 +76,9 @@ exports[`<Text> when {caption level:1} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 14,
-        "lineHeight": 18,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -119,14 +94,9 @@ exports[`<Text> when {caption level:2} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 12,
-        "lineHeight": 16,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -142,14 +112,9 @@ exports[`<Text> when {color} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
+      undefined,
       false,
       Object {
         "color": "#ef5160",
@@ -167,17 +132,9 @@ exports[`<Text> when {headline level:0} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 120,
-        "fontWeight": "700",
-        "letterSpacing": -5,
-        "lineHeight": 120,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -193,17 +150,9 @@ exports[`<Text> when {headline level:1} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 94,
-        "fontWeight": "700",
-        "letterSpacing": -3.92,
-        "lineHeight": 94,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -219,17 +168,9 @@ exports[`<Text> when {headline level:2} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 60,
-        "fontWeight": "700",
-        "letterSpacing": -2.5,
-        "lineHeight": 60,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -245,17 +186,9 @@ exports[`<Text> when {headline level:3} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 48,
-        "fontWeight": "700",
-        "letterSpacing": -2,
-        "lineHeight": 48,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -271,17 +204,9 @@ exports[`<Text> when {headline level:4} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 32,
-        "fontWeight": "700",
-        "letterSpacing": -1.33,
-        "lineHeight": 34,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -297,17 +222,9 @@ exports[`<Text> when {headline level:5} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 24,
-        "fontWeight": "700",
-        "letterSpacing": -1,
-        "lineHeight": 26,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -323,17 +240,9 @@ exports[`<Text> when {headline level:6} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 20,
-        "fontWeight": "700",
-        "letterSpacing": -0.83,
-        "lineHeight": 22,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -349,17 +258,10 @@ exports[`<Text> when {lighten} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
-      Object {
-        "color": "#707070",
-      },
+      undefined,
+      undefined,
       Object {},
     ]
   }
@@ -375,14 +277,9 @@ exports[`<Text> when {numberOfLines} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -398,14 +295,9 @@ exports[`<Text> when {style} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
+      undefined,
       false,
       Object {
         "color": "orange",
@@ -423,16 +315,9 @@ exports[`<Text> when {subtitle level:1} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 20,
-        "fontWeight": "600",
-        "lineHeight": 22,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -448,16 +333,9 @@ exports[`<Text> when {subtitle level:2} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "fontWeight": "600",
-        "lineHeight": 18,
-      },
+      undefined,
       false,
       Object {},
     ]
@@ -473,16 +351,9 @@ exports[`<Text> when {subtitle level:3} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      Object {
-        "fontFamily": undefined,
-        "fontSize": 14,
-        "fontWeight": "600",
-        "lineHeight": 16,
-      },
+      undefined,
       false,
       Object {},
     ]

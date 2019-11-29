@@ -64,19 +64,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -117,9 +108,7 @@ exports[`<Form> when {attributes} 1`] = `
             keyboard="default"
             keyboardType="default"
             multiline={false}
-            onBlur={[Function]}
             onChangeText={[Function]}
-            onFocus={[Function]}
             placeholderTextColor="#707070"
             rejectResponderTermination={true}
             style={
@@ -172,19 +161,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -275,19 +255,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -388,17 +359,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
@@ -431,19 +395,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -535,19 +490,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -623,17 +569,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
@@ -667,19 +606,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -771,19 +701,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -839,19 +760,10 @@ exports[`<Form> when {attributes} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -924,19 +836,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -1069,19 +972,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -1135,10 +1029,7 @@ exports[`<Form> when {attributes} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
                       "borderRadius": 3,
-                      "justifyContent": "center",
                     },
                     Object {
                       "height": 44,
@@ -1328,14 +1219,9 @@ exports[`<Form> when {attributes} 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 30,
-                      },
+                      undefined,
                       false,
                       Object {
                         "lineHeight": 20,
@@ -1350,17 +1236,10 @@ exports[`<Form> when {attributes} 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      Object {
-                        "fontSize": 12,
-                        "lineHeight": 16,
-                      },
-                      Object {
-                        "color": "#707070",
-                      },
+                      undefined,
+                      undefined,
                       Object {},
                     ]
                   }
@@ -1491,14 +1370,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -1513,17 +1387,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -1618,14 +1485,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -1640,17 +1502,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -1769,14 +1624,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -1791,17 +1641,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -1896,14 +1739,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -1918,17 +1756,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -2023,14 +1854,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -2045,17 +1871,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -2150,14 +1969,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -2172,17 +1986,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -2277,14 +2084,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -2299,17 +2101,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -2404,14 +2199,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -2426,17 +2216,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -2531,14 +2314,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -2553,17 +2331,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -2658,14 +2429,9 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -2680,17 +2446,10 @@ exports[`<Form> when {attributes} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -2755,19 +2514,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -2821,19 +2571,10 @@ exports[`<Form> when {attributes} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {
                     "flex": 1,
                     "paddingHorizontal": 8,
@@ -2936,19 +2677,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -3002,19 +2734,10 @@ exports[`<Form> when {attributes} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {
                     "flex": 1,
                     "paddingHorizontal": 8,
@@ -3201,19 +2924,10 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -3305,19 +3019,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -3472,19 +3177,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -3544,19 +3240,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -3658,19 +3345,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -3801,19 +3479,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -3944,19 +3613,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -4085,19 +3745,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -4172,17 +3823,9 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 20,
-                "fontWeight": "700",
-                "letterSpacing": -0.83,
-                "lineHeight": 22,
-              },
+              undefined,
               false,
               Object {
                 "marginBottom": 8,
@@ -4215,19 +3858,10 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -4355,19 +3989,10 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -4495,19 +4120,10 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -4638,19 +4254,10 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -4810,19 +4417,10 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -4909,19 +4507,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -4962,9 +4551,7 @@ exports[`<Form> when {color} 1`] = `
             keyboard="default"
             keyboardType="default"
             multiline={false}
-            onBlur={[Function]}
             onChangeText={[Function]}
-            onFocus={[Function]}
             placeholderTextColor="#707070"
             rejectResponderTermination={true}
             style={
@@ -5017,19 +4604,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -5120,19 +4698,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -5233,17 +4802,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
@@ -5276,19 +4838,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -5380,19 +4933,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -5468,17 +5012,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
@@ -5512,19 +5049,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -5616,19 +5144,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -5684,19 +5203,10 @@ exports[`<Form> when {color} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -5769,19 +5279,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -5914,19 +5415,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -5980,10 +5472,7 @@ exports[`<Form> when {color} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
                       "borderRadius": 3,
-                      "justifyContent": "center",
                     },
                     Object {
                       "height": 44,
@@ -6173,14 +5662,9 @@ exports[`<Form> when {color} 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 30,
-                      },
+                      undefined,
                       false,
                       Object {
                         "lineHeight": 20,
@@ -6195,17 +5679,10 @@ exports[`<Form> when {color} 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      Object {
-                        "fontSize": 12,
-                        "lineHeight": 16,
-                      },
-                      Object {
-                        "color": "#707070",
-                      },
+                      undefined,
+                      undefined,
                       Object {},
                     ]
                   }
@@ -6336,14 +5813,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -6358,17 +5830,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -6463,14 +5928,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -6485,17 +5945,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -6614,14 +6067,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -6636,17 +6084,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -6741,14 +6182,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -6763,17 +6199,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -6868,14 +6297,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -6890,17 +6314,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -6995,14 +6412,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -7017,17 +6429,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -7122,14 +6527,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -7144,17 +6544,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -7249,14 +6642,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -7271,17 +6659,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -7376,14 +6757,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -7398,17 +6774,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -7503,14 +6872,9 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -7525,17 +6889,10 @@ exports[`<Form> when {color} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -7600,19 +6957,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -7666,19 +7014,10 @@ exports[`<Form> when {color} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {
                     "flex": 1,
                     "paddingHorizontal": 8,
@@ -7781,19 +7120,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -7847,19 +7177,10 @@ exports[`<Form> when {color} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {
                     "flex": 1,
                     "paddingHorizontal": 8,
@@ -8046,19 +7367,10 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -8150,19 +7462,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -8317,19 +7620,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -8389,19 +7683,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -8503,19 +7788,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -8646,19 +7922,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -8789,19 +8056,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -8930,19 +8188,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -9017,17 +8266,9 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 20,
-                "fontWeight": "700",
-                "letterSpacing": -0.83,
-                "lineHeight": 22,
-              },
+              undefined,
               false,
               Object {
                 "marginBottom": 8,
@@ -9060,19 +8301,10 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -9200,19 +8432,10 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -9340,19 +8563,10 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -9483,19 +8697,10 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -9655,19 +8860,10 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -9813,17 +9009,9 @@ exports[`<Form> when {title} 1`] = `
           Array [
             Object {
               "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
-            Object {
-              "fontFamily": undefined,
-              "fontSize": 20,
-              "fontWeight": "700",
-              "letterSpacing": -0.83,
-              "lineHeight": 22,
-            },
+            undefined,
             false,
             Object {
               "marginBottom": 8,
@@ -9881,19 +9069,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -9934,9 +9113,7 @@ exports[`<Form> when {validate} 1`] = `
             keyboard="default"
             keyboardType="default"
             multiline={false}
-            onBlur={[Function]}
             onChangeText={[Function]}
-            onFocus={[Function]}
             placeholderTextColor="#707070"
             rejectResponderTermination={true}
             style={
@@ -9989,19 +9166,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -10143,19 +9311,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -10256,17 +9415,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
@@ -10299,19 +9451,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -10403,19 +9546,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -10491,17 +9625,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
@@ -10535,19 +9662,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -10639,19 +9757,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -10707,19 +9816,10 @@ exports[`<Form> when {validate} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -10792,19 +9892,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -10937,19 +10028,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -11003,10 +10085,7 @@ exports[`<Form> when {validate} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
                       "borderRadius": 3,
-                      "justifyContent": "center",
                     },
                     Object {
                       "height": 44,
@@ -11196,14 +10275,9 @@ exports[`<Form> when {validate} 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 30,
-                      },
+                      undefined,
                       false,
                       Object {
                         "lineHeight": 20,
@@ -11218,17 +10292,10 @@ exports[`<Form> when {validate} 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      Object {
-                        "fontSize": 12,
-                        "lineHeight": 16,
-                      },
-                      Object {
-                        "color": "#707070",
-                      },
+                      undefined,
+                      undefined,
                       Object {},
                     ]
                   }
@@ -11359,14 +10426,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -11381,17 +10443,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -11486,14 +10541,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -11508,17 +10558,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -11637,14 +10680,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -11659,17 +10697,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -11764,14 +10795,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -11786,17 +10812,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -11891,14 +10910,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -11913,17 +10927,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -12018,14 +11025,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -12040,17 +11042,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -12145,14 +11140,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -12167,17 +11157,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -12272,14 +11255,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -12294,17 +11272,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -12399,14 +11370,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -12421,17 +11387,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -12526,14 +11485,9 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -12548,17 +11502,10 @@ exports[`<Form> when {validate} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -12623,19 +11570,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -12689,19 +11627,10 @@ exports[`<Form> when {validate} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {
                     "flex": 1,
                     "paddingHorizontal": 8,
@@ -12804,19 +11733,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -12870,19 +11790,10 @@ exports[`<Form> when {validate} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {
                     "flex": 1,
                     "paddingHorizontal": 8,
@@ -13069,19 +11980,10 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -13224,19 +12126,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -13391,19 +12284,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -13463,19 +12347,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -13577,19 +12452,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -13720,19 +12586,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -13863,19 +12720,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -14004,19 +12852,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -14091,17 +12930,9 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 20,
-                "fontWeight": "700",
-                "letterSpacing": -0.83,
-                "lineHeight": 22,
-              },
+              undefined,
               false,
               Object {
                 "marginBottom": 8,
@@ -14134,19 +12965,10 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -14325,19 +13147,10 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -14516,19 +13329,10 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -14659,19 +13463,10 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -14835,14 +13630,9 @@ exports[`<Form> when {validate} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 14,
-                    "lineHeight": 24,
-                  },
+                  undefined,
                   false,
                   Object {
                     "flex": 1,
@@ -14940,14 +13730,9 @@ exports[`<Form> when {validate} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 14,
-                    "lineHeight": 24,
-                  },
+                  undefined,
                   false,
                   Object {
                     "flex": 1,
@@ -15045,14 +13830,9 @@ exports[`<Form> when {validate} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 14,
-                    "lineHeight": 24,
-                  },
+                  undefined,
                   false,
                   Object {
                     "flex": 1,
@@ -15219,19 +13999,10 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -15318,19 +14089,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -15371,9 +14133,7 @@ exports[`<Form> when {value} 1`] = `
             keyboard="default"
             keyboardType="default"
             multiline={false}
-            onBlur={[Function]}
             onChangeText={[Function]}
-            onFocus={[Function]}
             placeholderTextColor="#707070"
             rejectResponderTermination={true}
             style={
@@ -15426,19 +14186,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -15529,19 +14280,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -15642,17 +14384,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
@@ -15685,19 +14420,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -15789,19 +14515,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -15877,17 +14594,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
@@ -15921,19 +14631,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -16025,19 +14726,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -16093,19 +14785,10 @@ exports[`<Form> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -16178,19 +14861,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -16323,19 +14997,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -16389,10 +15054,7 @@ exports[`<Form> when {value} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
                       "borderRadius": 3,
-                      "justifyContent": "center",
                     },
                     Object {
                       "height": 44,
@@ -16582,14 +15244,9 @@ exports[`<Form> when {value} 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 30,
-                      },
+                      undefined,
                       false,
                       Object {
                         "lineHeight": 20,
@@ -16604,17 +15261,10 @@ exports[`<Form> when {value} 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      Object {
-                        "fontSize": 12,
-                        "lineHeight": 16,
-                      },
-                      Object {
-                        "color": "#707070",
-                      },
+                      undefined,
+                      undefined,
                       Object {},
                     ]
                   }
@@ -16745,14 +15395,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -16767,17 +15412,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -16872,14 +15510,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -16894,17 +15527,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -17023,14 +15649,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -17045,17 +15666,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -17150,14 +15764,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -17172,17 +15781,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -17277,14 +15879,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -17299,17 +15896,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -17404,14 +15994,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -17426,17 +16011,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -17531,14 +16109,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -17553,17 +16126,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -17658,14 +16224,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -17680,17 +16241,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -17785,14 +16339,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -17807,17 +16356,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -17912,14 +16454,9 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 16,
-                          "lineHeight": 30,
-                        },
+                        undefined,
                         false,
                         Object {
                           "lineHeight": 20,
@@ -17934,17 +16471,10 @@ exports[`<Form> when {value} 1`] = `
                       Array [
                         Object {
                           "color": "#4a4a4a",
-                          "fontFamily": undefined,
-                          "fontWeight": "400",
                           "textAlignVertical": "center",
                         },
-                        Object {
-                          "fontSize": 12,
-                          "lineHeight": 16,
-                        },
-                        Object {
-                          "color": "#707070",
-                        },
+                        undefined,
+                        undefined,
                         Object {},
                       ]
                     }
@@ -18009,19 +16539,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -18075,19 +16596,10 @@ exports[`<Form> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {
                     "flex": 1,
                     "paddingHorizontal": 8,
@@ -18190,19 +16702,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -18256,19 +16759,10 @@ exports[`<Form> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "400",
-                    "lineHeight": 20,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {
                     "flex": 1,
                     "paddingHorizontal": 8,
@@ -18455,19 +16949,10 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -18559,19 +17044,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 8,
@@ -18726,19 +17202,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -18798,19 +17265,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -18912,19 +17370,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -19055,19 +17504,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -19198,19 +17638,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -19339,19 +17770,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
@@ -19426,17 +17848,9 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 20,
-                "fontWeight": "700",
-                "letterSpacing": -0.83,
-                "lineHeight": 22,
-              },
+              undefined,
               false,
               Object {
                 "marginBottom": 8,
@@ -19469,19 +17883,10 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -19609,19 +18014,10 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -19749,19 +18145,10 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -19892,19 +18279,10 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {
                   "color": "#4a4a4a",
                   "marginBottom": 8,
@@ -20017,14 +18395,9 @@ exports[`<Form> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 14,
-                    "lineHeight": 24,
-                  },
+                  undefined,
                   false,
                   Object {
                     "flex": 1,
@@ -20122,14 +18495,9 @@ exports[`<Form> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 14,
-                    "lineHeight": 24,
-                  },
+                  undefined,
                   false,
                   Object {
                     "flex": 1,
@@ -20227,14 +18595,9 @@ exports[`<Form> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 14,
-                    "lineHeight": 24,
-                  },
+                  undefined,
                   false,
                   Object {
                     "flex": 1,
@@ -20401,19 +18764,10 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,

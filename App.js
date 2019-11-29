@@ -1,27 +1,27 @@
-import React, { Component, Fragment } from 'react';
-import { StyleSheet, View } from 'react-native';
+import React, { useState } from 'react';
 
-import { LAYOUT, THEME } from './common';
 import {
+  Activity,
   Button,
   Calendar,
-  ListingCard,
-  Text,
-  Video,
+  ChartBar,
+  Dialog,
+  Form,
+  Image,
+  InputDate,
   Viewport,
+  Skeleton,
   Slider,
 } from './components';
+
+import { ATTRIBUTES } from './components/Form/Form.mocks';
+import MOCKS_CHARTBAR from './components/ChartBar/ChartBar.mocks';
+
 import { Consumer, Provider } from './context';
-import PKG from './package.json';
 
 if (typeof global.self === 'undefined') global.self = global;
 
-const { SPACE } = THEME;
 const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
-const video = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
-const youtube = 'https://www.youtube.com/cx4MxQcD8Fk'; // eslint-disable-line
-const vimeo = 'https://player.vimeo.com/video/225434434'; // eslint-disable-line
-const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." // eslint-disable-line
 
 const DICTIONARY = {
   'es-ES': {
@@ -33,90 +33,53 @@ const DICTIONARY = {
   },
 };
 
-const styles = StyleSheet.create({
-  container: {
-    ...LAYOUT.STYLE.CENTERED,
-    flex: 1,
-    padding: SPACE.XS,
-    backgroundColor: 'rgba(0,255,0,0.25)',
-  },
-});
+export default () => {
+  const [dialog, setDialog] = useState(false);
+  const [calendar, setCalendar] = useState(undefined);
+  const [form, setForm] = useState({});
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      dataSource: [...Array(16).keys()]
-        .map((index) => ({
-          category: `Category ${index}`,
-          title: `Title ${index}`,
-          rating: { value: index + 1 },
-          image: `https://picsum.photos/320/200?image=1${index + 1}`,
-        })),
-      viewport: false,
-    };
-  }
+  return (
+    <Provider dictionary={DICTIONARY} language="en-EN">
+      <Viewport visible scroll styleContent={{ padding: 10 }}>
+        <Consumer>
+          { ({ l10n }) => <Button onPress={() => setDialog(true)} title={l10n.GREETINGS} /> }
+        </Consumer>
+        <Activity />
 
-  render() {
-    const { state: { dataSource, viewport } } = this;
+        <Slider itemWidth={320} navigation>
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+        </Slider>
 
-    return (
-      <Provider dictionary={DICTIONARY} language="en-EN">
-        <View style={styles.container}>
-          <Viewport visible scroll style={LAYOUT.STYLE.CENTERED}>
-            <Consumer>
-              { ({ l10n }) => (
-                <Fragment>
-                  <Text headline level={5}>
-                    {PKG.name}
-                  </Text>
-                  <Text>
-                    {PKG.version}
-                  </Text>
-                  <Text>
-                    {`l10n: ${l10n.GREETINGS}`}
-                  </Text>
-                </Fragment>
-              )}
-            </Consumer>
-            <Button title="Second viewport" onPress={() => this.setState({ viewport: true })} />
-            <Slider dataSource={dataSource} item={ItemListingCard} navigation steps={2} />
+        <Skeleton style={{ width: 320, height: 200 }} />
 
-            <Calendar />
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-          </Viewport>
+        <InputDate onChange={setCalendar} range value={calendar} />
 
-          <Viewport
-            visible={viewport}
-            onBack={() => this.setState({ viewport: false })}
-            style={{ backgroundColor: 'red' }}
-          >
-            <Video
-              autoPlay
-              loop
-              height={200}
-              width={320}
-              source={video}
-              onLoad={() => console.log('onload')}
-            />
-            <Button title="Back" onPress={() => this.setState({ viewport: false })} />
-          </Viewport>
-        </View>
-      </Provider>
-    );
-  }
-}
+        <ChartBar values={MOCKS_CHARTBAR.VALUES} styleContainer={{ height: 128 }} />
+
+        <Form
+          attributes={ATTRIBUTES}
+          onChange={setForm}
+          onValid={(value) => console.log('onValid', value)}
+          validate
+          value={form}
+        />
+
+        <Dialog
+          title="Example of Dialog"
+          visible={dialog}
+          onClose={() => setDialog(false)}
+        >
+          <Calendar />
+        </Dialog>
+      </Viewport>
+    </Provider>
+  );
+};

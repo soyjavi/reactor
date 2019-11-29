@@ -231,9 +231,7 @@ exports[`<InputList> when {disabled} 1`] = `
         keyboard="default"
         keyboardType="default"
         multiline={false}
-        onBlur={[Function]}
         onChangeText={[Function]}
-        onFocus={[Function]}
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         rejectResponderTermination={true}
@@ -473,17 +471,10 @@ exports[`<InputList> when {hint} 1`] = `
         Array [
           Object {
             "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontWeight": "400",
             "textAlignVertical": "center",
           },
-          Object {
-            "fontSize": 12,
-            "lineHeight": 16,
-          },
-          Object {
-            "color": "#707070",
-          },
+          undefined,
+          undefined,
           Object {
             "marginTop": 4,
             "maxWidth": "100%",
@@ -634,14 +625,9 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
+              undefined,
               false,
               Object {
                 "marginLeft": 10,
@@ -749,14 +735,9 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
+              undefined,
               false,
               Object {
                 "marginLeft": 10,
@@ -864,14 +845,9 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
+              undefined,
               false,
               Object {
                 "marginLeft": 10,
@@ -979,14 +955,9 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
+              undefined,
               false,
               Object {
                 "marginLeft": 10,
@@ -1094,14 +1065,9 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
+              undefined,
               false,
               Object {
                 "marginLeft": 10,
@@ -1213,19 +1179,10 @@ exports[`<InputList> when {label} 1`] = `
         Array [
           Object {
             "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontWeight": "400",
             "textAlignVertical": "center",
           },
-          Object {
-            "fontFamily": undefined,
-            "fontSize": 14,
-            "fontWeight": "600",
-            "lineHeight": 16,
-          },
-          Object {
-            "color": "#707070",
-          },
+          undefined,
+          undefined,
           Object {
             "color": "#4a4a4a",
             "marginBottom": 8,
@@ -1517,14 +1474,9 @@ exports[`<InputList> when {value} 1`] = `
           Array [
             Object {
               "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
-            Object {
-              "fontSize": 14,
-              "lineHeight": 24,
-            },
+            undefined,
             false,
             Object {
               "flex": 1,
@@ -1622,14 +1574,9 @@ exports[`<InputList> when {value} 1`] = `
           Array [
             Object {
               "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
-            Object {
-              "fontSize": 14,
-              "lineHeight": 24,
-            },
+            undefined,
             false,
             Object {
               "flex": 1,
@@ -1727,14 +1674,9 @@ exports[`<InputList> when {value} 1`] = `
           Array [
             Object {
               "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
-            Object {
-              "fontSize": 14,
-              "lineHeight": 24,
-            },
+            undefined,
             false,
             Object {
               "flex": 1,
@@ -1832,14 +1774,9 @@ exports[`<InputList> when {value} 1`] = `
           Array [
             Object {
               "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
-            Object {
-              "fontSize": 14,
-              "lineHeight": 24,
-            },
+            undefined,
             false,
             Object {
               "flex": 1,
@@ -1937,14 +1874,9 @@ exports[`<InputList> when {value} 1`] = `
           Array [
             Object {
               "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
-            Object {
-              "fontSize": 14,
-              "lineHeight": 24,
-            },
+            undefined,
             false,
             Object {
               "flex": 1,

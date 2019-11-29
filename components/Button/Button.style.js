@@ -13,14 +13,8 @@ const SMALL_SIZE = UNIT * 2.8;
 export { REGULAR_SIZE, SMALL_SIZE };
 
 export default StyleSheet.create({
-  // -- Layout
-  activity: {
-    marginLeft: SPACE.XXS,
-    marginTop: SPACE.XXS,
-  },
-
   container: {
-    ...LAYOUT.STYLE.CENTERED,
+    // ...LAYOUT.STYLE.CENTERED,
     borderRadius: BORDER_RADIUS,
   },
 

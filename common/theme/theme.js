@@ -19,7 +19,7 @@ export default {
     BACKGROUND_INPUT: WHITE,
     BASE: '#cdd2d4', // disabled
     BLACK,
-    DISABLED: '#f4f4f4', // light
+    DISABLED: '#f4f4f4', // lightVi
     ERROR: '#ef5160',
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',

@@ -1,7 +1,7 @@
 import React from 'react';
+import { View } from 'react-native';
 import renderer from 'react-test-renderer';
 
-import PictureCard from '../PictureCard';
 import Slider from './Slider';
 
 const dataSource = [...Array(2).keys()]
@@ -10,7 +10,7 @@ const dataSource = [...Array(2).keys()]
     image: `https://picsum.photos/320/200?image=1${index + 1}`,
   }));
 
-const Item = ({ data }) => <PictureCard {...data} />;
+const Item = ({ data }) => <View {...data} />;
 
 describe('<Slider>', () => {
   it('renders', () => {
@@ -58,7 +58,7 @@ describe('<Slider>', () => {
   });
 
   it('when {children}', () => {
-    const tree = renderer.create(<Slider><PictureCard /></Slider>).toJSON();
+    const tree = renderer.create(<Slider><View /></Slider>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

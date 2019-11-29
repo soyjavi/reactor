@@ -421,17 +421,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -459,17 +452,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -497,17 +483,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -535,17 +514,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -573,17 +545,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -611,17 +576,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -649,17 +607,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -687,17 +638,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -725,17 +669,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -763,17 +700,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -801,17 +731,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -839,17 +762,10 @@ exports[`<ChartBar> when {captions} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1588,17 +1504,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1626,17 +1535,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1664,17 +1566,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1702,17 +1597,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1740,17 +1628,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1778,17 +1659,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1816,17 +1690,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1854,17 +1721,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "color": "#4a4a4a",
                 "fontSize": 10,
@@ -1894,17 +1754,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1932,17 +1785,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -1970,17 +1816,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2008,17 +1847,10 @@ exports[`<ChartBar> when {highlight} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2436,17 +2268,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2474,17 +2299,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2512,17 +2330,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2550,17 +2361,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2588,17 +2392,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2626,17 +2423,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2664,17 +2454,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2702,17 +2485,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2740,17 +2516,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2778,17 +2547,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2816,17 +2578,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2854,17 +2609,10 @@ exports[`<ChartBar> when {inverted} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -2948,14 +2696,9 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
+              undefined,
               false,
               Object {
                 "alignSelf": "flex-start",
@@ -3031,14 +2774,9 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
+              undefined,
               false,
               Object {
                 "alignSelf": "flex-start",
@@ -3422,17 +3160,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3460,17 +3191,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3498,17 +3222,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3536,17 +3253,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3574,17 +3284,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3612,17 +3315,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3650,17 +3346,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3688,17 +3377,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3726,17 +3408,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3764,17 +3439,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3802,17 +3470,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3840,17 +3501,10 @@ exports[`<ChartBar> when {lines} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3925,17 +3579,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3951,17 +3598,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -3977,17 +3617,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4003,17 +3636,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4432,17 +4058,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4470,17 +4089,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4508,17 +4120,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4546,17 +4151,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4584,17 +4182,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4622,17 +4213,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4660,17 +4244,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4698,17 +4275,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4736,17 +4306,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4774,17 +4337,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4812,17 +4368,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4850,17 +4399,10 @@ exports[`<ChartBar> when {scales} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4935,17 +4477,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4961,17 +4496,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -4987,17 +4515,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5013,17 +4534,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5442,17 +4956,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5480,17 +4987,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5518,17 +5018,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5556,17 +5049,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5594,17 +5080,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5632,17 +5111,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5670,17 +5142,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5708,17 +5173,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5746,17 +5204,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5784,17 +5235,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5822,17 +5266,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5860,17 +5297,10 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5957,17 +5387,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -5983,17 +5406,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6009,17 +5425,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6035,17 +5444,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6464,17 +5866,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6502,17 +5897,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6540,17 +5928,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6578,17 +5959,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6616,17 +5990,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6654,17 +6021,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6692,17 +6052,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6730,17 +6083,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6768,17 +6114,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6806,17 +6145,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6844,17 +6176,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,
@@ -6882,17 +6207,10 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              Object {
-                "color": "#707070",
-              },
+              undefined,
+              undefined,
               Object {
                 "fontSize": 10,
                 "height": 10,

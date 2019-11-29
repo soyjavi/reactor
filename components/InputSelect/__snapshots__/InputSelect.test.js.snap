@@ -81,19 +81,10 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
       Array [
         Object {
           "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
-        Object {
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 16,
-        },
-        Object {
-          "color": "#707070",
-        },
+        undefined,
+        undefined,
         Object {
           "color": "#4a4a4a",
           "marginBottom": 8,
@@ -323,10 +314,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
                 "borderRadius": 3,
-                "justifyContent": "center",
               },
               Object {
                 "height": 44,
@@ -516,14 +504,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
+                undefined,
                 false,
                 Object {
                   "lineHeight": 20,
@@ -538,17 +521,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {},
               ]
             }
@@ -701,14 +677,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -723,17 +694,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -828,14 +792,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -850,17 +809,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -955,14 +907,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -977,17 +924,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -1082,14 +1022,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -1104,17 +1039,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -1209,14 +1137,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -1231,17 +1154,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -1336,14 +1252,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -1358,17 +1269,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -1463,14 +1367,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -1485,17 +1384,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -1590,14 +1482,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -1612,17 +1499,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -1717,14 +1597,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -1739,17 +1614,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -1844,14 +1712,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -1866,17 +1729,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -2113,17 +1969,10 @@ exports[`<InputSelect> when {hint} 1`] = `
       Array [
         Object {
           "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 16,
-        },
-        Object {
-          "color": "#707070",
-        },
+        undefined,
+        undefined,
         Object {
           "marginTop": 4,
           "maxWidth": "100%",
@@ -2156,19 +2005,10 @@ exports[`<InputSelect> when {label} 1`] = `
       Array [
         Object {
           "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
-        Object {
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 16,
-        },
-        Object {
-          "color": "#707070",
-        },
+        undefined,
+        undefined,
         Object {
           "color": "#4a4a4a",
           "marginBottom": 8,
@@ -2350,10 +2190,7 @@ exports[`<InputSelect> when {value} 1`] = `
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
                 "borderRadius": 3,
-                "justifyContent": "center",
               },
               Object {
                 "height": 44,
@@ -2543,14 +2380,9 @@ exports[`<InputSelect> when {value} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
+                undefined,
                 false,
                 Object {
                   "lineHeight": 20,
@@ -2565,17 +2397,10 @@ exports[`<InputSelect> when {value} 1`] = `
               Array [
                 Object {
                   "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
+                undefined,
+                undefined,
                 Object {},
               ]
             }
@@ -2704,14 +2529,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -2726,17 +2546,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -2831,14 +2644,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -2853,17 +2661,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -2958,14 +2759,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -2980,17 +2776,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -3109,14 +2898,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -3131,17 +2915,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -3236,14 +3013,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -3258,17 +3030,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -3363,14 +3128,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -3385,17 +3145,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -3490,14 +3243,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -3512,17 +3260,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -3617,14 +3358,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -3639,17 +3375,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -3744,14 +3473,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -3766,17 +3490,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }
@@ -3871,14 +3588,9 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
+                  undefined,
                   false,
                   Object {
                     "lineHeight": 20,
@@ -3893,17 +3605,10 @@ exports[`<InputSelect> when {value} 1`] = `
                 Array [
                   Object {
                     "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
+                  undefined,
+                  undefined,
                   Object {},
                 ]
               }

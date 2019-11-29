@@ -1,7 +1,7 @@
 import {
   arrayOf, bool, func, oneOfType, shape, string,
 } from 'prop-types';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { View } from 'react-native';
 
 import { LAYOUT } from '../../common';
