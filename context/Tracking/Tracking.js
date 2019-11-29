@@ -7,8 +7,9 @@ const { Provider, Consumer: ConsumerTracking } = createContext('reactor:tracking
 
 const ProviderTracking = ({ children }) => {
   const [fingerprint, setFingerprint] = useState(undefined);
-  useEffect(async () => {
-    setFingerprint(await Fingerprint());
+  useEffect(() => {
+    const fetchFingerprint = async () => setFingerprint(await Fingerprint());
+    fetchFingerprint();
   }, [fingerprint]);
 
   return <Provider value={{ fingerprint }}>{ children }</Provider>;
