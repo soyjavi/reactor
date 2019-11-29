@@ -5,6 +5,8 @@ import LayoutView from './Layout';
 
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
 
+jest.useFakeTimers();
+
 describe('<LayoutView>', () => {
   it('renders', () => {
     const tree = renderer.create(<LayoutView />).toJSON();

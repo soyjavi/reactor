@@ -6,6 +6,8 @@ import MOCKS from './Dialog.mocks';
 
 const EVENT = () => {};
 
+jest.useFakeTimers();
+
 describe('<Dialog>', () => {
   it('renders', () => {
     const tree = renderer.create(<Dialog />).toJSON();

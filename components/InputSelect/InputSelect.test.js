@@ -6,6 +6,8 @@ import {
   DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE, TEMPLATE,
 } from './InputSelect.mocks';
 
+jest.useFakeTimers();
+
 describe('<InputSelect>', () => {
   it('renders', () => {
     const tree = renderer.create(<InputSelect />).toJSON();

@@ -5,6 +5,8 @@ import { THEME } from '../../common';
 import Icon from './Icon';
 import MOCKS from './Icon.mocks';
 
+jest.useFakeTimers();
+
 describe('<Icon>', () => {
   it('renders', () => {
     const tree = renderer.create(<Icon />).toJSON();

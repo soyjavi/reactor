@@ -7,6 +7,8 @@ import BoardingPass from './BoardingPass';
 const CHILDREN = <Text>Children component...</Text>;
 const LOADING = <Text>Loading...</Text>;
 
+jest.useFakeTimers();
+
 describe('<BoardingPass>', () => {
   it('renders', () => {
     const tree = renderer.create(<BoardingPass />).toJSON();

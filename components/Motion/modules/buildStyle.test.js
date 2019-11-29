@@ -15,6 +15,8 @@ const state = {
   ]
 };
 
+jest.useFakeTimers();
+
 describe('layout()', () => {
   it('default', () => {
     const style = buildStyle();

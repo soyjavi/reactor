@@ -4,6 +4,8 @@ import { View, Text } from 'react-native';
 
 import Ripple from './Ripple';
 
+jest.useFakeTimers();
+
 describe('<Ripple>', () => {
   it('renders', () => {
     const tree = renderer.create(<Ripple />).toJSON();

@@ -6,6 +6,8 @@ import InputImage from './InputImage';
 const VALUE = 'http://soyjavi.com/assets/images/soyjavi.jpg';
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
+jest.useFakeTimers();
+
 describe('<InputImage>', () => {
   it('renders', () => {
     const tree = renderer.create(<InputImage />).toJSON();

@@ -6,6 +6,8 @@ import Viewport from './Viewport';
 
 const VIDEO_PLACEHOLDER = 'http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4';
 
+jest.useFakeTimers();
+
 describe('<Viewport>', () => {
   it('renders', () => {
     const renderer = TestRenderer.create(<Viewport />).toJSON();

@@ -5,6 +5,8 @@ import { View } from 'react-native';
 import Motion from './Motion';
 import MOCKS from './Motion.mocks';
 
+jest.useFakeTimers();
+
 describe('<Motion>', () => {
   it('renders', () => {
     const tree = renderer.create(<Motion />).toJSON();

@@ -8,6 +8,8 @@ const LOREM = 'Lorem Ipsum is simply dummy text of the printing and typesetting 
 const PROPS = { visible: true };
 const { COLOR } = THEME;
 
+jest.useFakeTimers();
+
 describe('<Snackbar>', () => {
   it('renders', () => {
     const tree = renderer.create(<Snackbar {...PROPS} />).toJSON();

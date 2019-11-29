@@ -5,6 +5,8 @@ import { THEME } from '../../common';
 import Price from './Price';
 import MOCKS from './Price.mocks';
 
+jest.useFakeTimers();
+
 describe('<Price>', () => {
   it('renders', () => {
     const tree = renderer.create(<Price />).toJSON();

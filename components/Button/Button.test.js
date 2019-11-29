@@ -5,6 +5,8 @@ import { THEME } from '../../common';
 import { Price } from '..';
 import Button from './Button';
 
+jest.useFakeTimers();
+
 describe('<Button>', () => {
   it('renders', () => {
     const tree = renderer.create(<Button />).toJSON();

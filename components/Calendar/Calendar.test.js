@@ -13,6 +13,8 @@ const IN_7_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate(
 const IN_10_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10);
 const NEXT_MONTH = new Date(TODAY.getFullYear(), TODAY.getMonth() + 1);
 
+jest.useFakeTimers();
+
 describe('<Calendar>', () => {
   it('renders', () => {
     const tree = renderer.create(<Calendar />).toJSON();

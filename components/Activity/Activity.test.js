@@ -13,6 +13,8 @@ const MOCKS = {
   },
 };
 
+jest.useFakeTimers();
+
 describe('<Activity>', () => {
   it('renders', () => {
     const tree = renderer.create(<Activity />).toJSON();

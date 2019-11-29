@@ -6,6 +6,8 @@ import {
   ERROR, HINT, LABEL, PLACEHOLDER, STYLE, TEMPLATE, VALUE, VALUE_RANGE
 } from './InputDate.mocks';
 
+jest.useFakeTimers();
+
 describe('<InputDate>', () => {
   it('renders', () => {
     const tree = renderer.create(<InputDate />).toJSON();

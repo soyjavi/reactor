@@ -5,6 +5,8 @@ import Video from './Video';
 
 const LOREM_VIDEO = 'https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4';
 
+jest.useFakeTimers();
+
 describe('<Video>', () => {
   it('renders', () => {
     const tree = renderer.create(<Video source={LOREM_VIDEO} />).toJSON();

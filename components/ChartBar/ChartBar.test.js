@@ -6,6 +6,8 @@ import MOCKS from './ChartBar.mocks';
 
 const DEFAULT = { captions: MOCKS.CAPTIONS, values: MOCKS.VALUES };
 
+jest.useFakeTimers();
+
 describe('<ChartBar>', () => {
   it('renders', () => {
     const tree = renderer.create(<ChartBar />).toJSON();

@@ -6,6 +6,8 @@ import { ATTRIBUTES, VALUE, STYLE } from './Form.mocks';
 
 const EVENT = () => {};
 
+jest.useFakeTimers();
+
 describe('<Form>', () => {
   it('renders', () => {
     const tree = renderer.create(<Form attributes={{}} />).toJSON();

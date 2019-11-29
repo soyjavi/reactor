@@ -12,6 +12,8 @@ const dataSource = [
 
 const IMAGE_PLACEHOLDER = 'https://picsum.photos/320/200/?random';
 
+jest.useFakeTimers();
+
 describe('<Image>', () => {
   it('renders', () => {
     const tree = renderer.create(<Image />).toJSON();

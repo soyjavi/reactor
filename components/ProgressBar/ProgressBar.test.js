@@ -6,6 +6,8 @@ import ProgressBar from './ProgressBar';
 
 const { SPACE } = THEME;
 
+jest.useFakeTimers();
+
 describe('<ProgressBar>', () => {
   it('renders', () => {
     const tree = renderer.create(<ProgressBar />).toJSON();

@@ -8,6 +8,8 @@ const STYLE = {
   width: 128,
 };
 
+jest.useFakeTimers();
+
 describe('<Skeleton>', () => {
   it('renders', () => {
     const tree = renderer.create(<Skeleton />).toJSON();

@@ -5,6 +5,8 @@ import Link from './Link';
 
 const LOREM_HREF = 'http://minube.com';
 
+jest.useFakeTimers();
+
 describe('<Link>', () => {
   it('renders', () => {
     const tree = renderer.create(<Link href={LOREM_HREF} />).toJSON();

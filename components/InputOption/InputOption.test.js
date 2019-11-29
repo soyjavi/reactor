@@ -9,6 +9,8 @@ const style = {
 };
 const LABEL = 'Lorem Ipsum...';
 
+jest.useFakeTimers();
+
 describe('<InputOption>', () => {
   it('renders', () => {
     const tree = renderer.create(<InputOption />).toJSON();

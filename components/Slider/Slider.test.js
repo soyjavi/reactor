@@ -12,6 +12,8 @@ const dataSource = [...Array(2).keys()]
 
 const Item = ({ data }) => <View {...data} />;
 
+jest.useFakeTimers();
+
 describe('<Slider>', () => {
   it('renders', () => {
     const tree = renderer.create(<Slider />).toJSON();

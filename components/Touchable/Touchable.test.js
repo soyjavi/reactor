@@ -4,6 +4,8 @@ import { View, Text } from 'react-native';
 
 import Touchable from './Touchable';
 
+jest.useFakeTimers();
+
 describe('<Touchable>', () => {
   it('renders', () => {
     const tree = renderer.create(<Touchable><View /></Touchable>).toJSON();
