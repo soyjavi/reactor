@@ -129,9 +129,14 @@ exports[`<Snackbar> renders 1`] = `
                     Array [
                       Object {
                         "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                        "fontWeight": "400",
                         "textAlignVertical": "center",
                       },
-                      undefined,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 19.2,
+                      },
                       false,
                       Object {
                         "color": "#ffffff",

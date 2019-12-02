@@ -57,7 +57,7 @@ const Slider = ({
       { (title || caption) && (
         <View style={styles.header}>
           { title && (
-          <Text headline level={6} style={styles.title}>
+          <Text headline style={styles.title}>
             {title}
           </Text>
           )}

@@ -57,7 +57,6 @@ const Dialog = ({
                   <Text
                     color={highlight ? COLOR.WHITE : undefined}
                     headline
-                    level={6}
                     numberOfLines={1}
                     style={styles.title}
                   >

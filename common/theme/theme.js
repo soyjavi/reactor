@@ -68,27 +68,18 @@ export default {
   FONT: {
     FAMILY,
     FAMILY_SECONDARY,
-    DEFAULT: {
-      fontFamily: FAMILY,
-      fontWeight: WEIGHT.REGULAR,
-    },
-    HEADLINE: {
-      fontFamily: FAMILY_SECONDARY,
-      fontWeight: WEIGHT.BOLD,
-    },
-    SUBTITLE: {
-      fontFamily: FAMILY,
-      fontWeight: WEIGHT.SEMIBOLD,
-    },
-    CAPTION: {},
     BUTTON: {
       fontFamily: FAMILY_SECONDARY,
       fontWeight: WEIGHT.SEMIBOLD,
     },
-    INPUT: {
+    DEFAULT: {
       fontFamily: FAMILY,
       fontWeight: WEIGHT.REGULAR,
     },
+    HEADLINE: {},
+    SUBTITLE: {},
+    CAPTION: {},
+    INPUT: {},
     WEIGHT,
   },
 

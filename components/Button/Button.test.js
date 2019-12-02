@@ -46,7 +46,7 @@ describe('<Button>', () => {
   it('when {children}', () => {
     const tree = renderer.create(
       <Button>
-        <Price headline level={6} color="white" value={19.95} symbol="$" />
+        <Price headline color="white" value={19.95} symbol="$" />
       </Button>,
     ).toJSON();
     expect(tree).toMatchSnapshot();

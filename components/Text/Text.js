@@ -1,4 +1,4 @@
-import { bool, number, string } from 'prop-types';
+import { bool, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
@@ -6,34 +6,19 @@ import { ConsumerTheme } from '../../context';
 import styles from './Text.style';
 
 const determineStyle = ({
-  body, caption, input, headline, subtitle, level,
+  caption, input, headline, subtitle,
 }) => {
-  if (headline && level === 0) return styles.headline0;
-  if (headline && level === 1) return styles.headline1;
-  if (headline && level === 2) return styles.headline2;
-  if (headline && level === 3) return styles.headline3;
-  if (headline && level === 4) return styles.headline4;
-  if (headline && level === 5) return styles.headline5;
-  if (headline && level === 6) return styles.headline6;
-
-  if (subtitle && level === 1) return styles.subtitle1;
-  if (subtitle && level === 2) return styles.subtitle2;
-  if (subtitle && level === 3) return styles.subtitle3;
-
-  if (caption && level === 1) return styles.caption1;
-  if (caption && level === 2) return styles.caption2;
-
-  if (body && level === 2) return styles.body2;
-  if (body && level === 3) return styles.body3;
-
+  if (headline) return styles.headline;
+  if (subtitle) return styles.subtitle;
+  if (caption) return styles.caption;
   if (input) return styles.input;
 
-  return styles.body1;
+  return styles.body;
 };
 
+
 const Text = ({
-  lighten, color,
-  body, caption, input, headline, subtitle, level,
+  bold, lighten, color, caption, input, headline, subtitle,
   ...inherit
 }) => (
   <ConsumerTheme>
@@ -43,12 +28,13 @@ const Text = ({
         style={[
           styles.container,
           determineStyle({
-            body, caption, input, headline, subtitle, level,
+            caption, input, headline, subtitle,
           }),
           lighten && styles.lighten,
           // -- flatten
           StyleSheet.flatten([
             FAMILY && { fontFamily: FAMILY },
+            bold && styles.bold,
             inherit.style,
             color && { color },
           ]),
@@ -59,25 +45,23 @@ const Text = ({
 );
 
 Text.propTypes = {
-  body: bool,
+  bold: bool,
   caption: bool,
   color: string,
   input: bool,
   headline: bool,
   subtitle: bool,
   lighten: bool,
-  level: number,
 };
 
 Text.defaultProps = {
-  body: true,
+  bold: false,
   caption: false,
   color: undefined,
   input: false,
   headline: false,
   subtitle: false,
   lighten: false,
-  level: 1,
 };
 
 export default Text;

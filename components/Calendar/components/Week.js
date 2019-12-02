@@ -93,7 +93,6 @@ const Week = ({ firstDate, ...inherit }) => {
             { isVisible && (
               <Text
                 subtitle={!isDisabled}
-                level={!isDisabled ? 2 : 1}
                 lighten={isDisabled || (isOutOfMonth && edges)}
                 style={[styles.text, isHighlight && styles.textHighlight]}
               >

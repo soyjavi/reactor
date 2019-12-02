@@ -21,7 +21,7 @@ const Selector = ({ onPrevious, onNext, title }) => (
       onPress={onPrevious}
       style={!onPrevious && styles.buttonDisabled}
     />
-    <Text headline level={6} style={styles.value}>{title}</Text>
+    <Text headline style={styles.value}>{title}</Text>
     <Button
       {...buttonProps}
       disabled={!onNext}

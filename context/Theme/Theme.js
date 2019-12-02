@@ -9,7 +9,7 @@ const ProviderTheme = ({ children, style }) => {
   const [theme, setTheme] = useState(THEME.extend(style));
   useEffect(() => {
     setTheme(THEME.extend(style));
-  }, [style]);
+  }, []);
 
   return <Provider value={theme}>{ children }</Provider>;
 };

@@ -6,9 +6,14 @@ exports[`<Text> renders 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -16,87 +21,19 @@ exports[`<Text> renders 1`] = `
 />
 `;
 
-exports[`<Text> when {body level:1} 1`] = `
+exports[`<Text> when {caption} 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {body level:2} 1`] = `
-<Text
-  style={
-    Array [
       Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
+        "fontSize": 14,
       },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {body level:3} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {caption level:1} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {caption level:2} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
       false,
       Object {},
     ]
@@ -112,9 +49,14 @@ exports[`<Text> when {color} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {
         "color": "#ef5160",
@@ -126,123 +68,21 @@ exports[`<Text> when {color} 1`] = `
 </Text>
 `;
 
-exports[`<Text> when {headline level:0} 1`] = `
+exports[`<Text> when {headline} 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {headline level:1} 1`] = `
-<Text
-  style={
-    Array [
       Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
+        "fontFamily": undefined,
+        "fontSize": 24,
+        "fontWeight": "700",
       },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {headline level:2} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {headline level:3} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {headline level:4} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {headline level:5} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {headline level:6} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
       false,
       Object {},
     ]
@@ -258,10 +98,17 @@ exports[`<Text> when {lighten} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
+      Object {
+        "color": "#707070",
+      },
       Object {},
     ]
   }
@@ -277,9 +124,14 @@ exports[`<Text> when {numberOfLines} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -295,9 +147,14 @@ exports[`<Text> when {style} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {
         "color": "orange",
@@ -309,51 +166,20 @@ exports[`<Text> when {style} 1`] = `
 </Text>
 `;
 
-exports[`<Text> when {subtitle level:1} 1`] = `
+exports[`<Text> when {subtitle} 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {subtitle level:2} 1`] = `
-<Text
-  style={
-    Array [
       Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
+        "fontSize": 18,
+        "fontWeight": "600",
       },
-      undefined,
-      false,
-      Object {},
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {subtitle level:3} 1`] = `
-<Text
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "textAlignVertical": "center",
-      },
-      undefined,
       false,
       Object {},
     ]

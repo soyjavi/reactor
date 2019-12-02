@@ -10,9 +10,14 @@ exports[`<Link> renders 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -30,9 +35,14 @@ exports[`<Link> when {style} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {
         "fontSize": 20,
@@ -54,9 +64,14 @@ exports[`<Link> when {styleHover} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]

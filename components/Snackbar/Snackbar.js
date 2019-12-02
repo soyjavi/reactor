@@ -20,7 +20,7 @@ const Snackbar = ({
     visible={inherit.visible}
   >
     <View style={styles.container}>
-      <Text color={COLOR.WHITE} level={2} style={styles.caption}>{caption}</Text>
+      <Text color={COLOR.WHITE} style={styles.caption}>{caption}</Text>
       { button && <Button color={COLOR.WHITE} contained={false} onPress={onPress} small title={button} /> }
     </View>
   </Dialog>

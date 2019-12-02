@@ -10,7 +10,7 @@ const ItemList = ({ template, value = {} }) => (
   template
     ? createElement(template, { ...value })
     : (
-      <Text level={2} style={styles.text}>
+      <Text style={styles.text}>
         {typeof value === 'object' ? value.title : value}
       </Text>
     )

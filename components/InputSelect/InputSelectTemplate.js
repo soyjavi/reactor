@@ -16,7 +16,7 @@ const InputSelectTemplate = ({
         {title}
       </Text>
       { caption && (
-        <Text caption level={2} lighten>
+        <Text caption lighten>
           {caption}
         </Text>
       )}

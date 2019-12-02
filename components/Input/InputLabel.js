@@ -13,7 +13,6 @@ const InputLabel = ({ color, ...inherit }) => (
     color={color}
     numberOfLines={2}
     subtitle
-    level={3}
     lighten
     style={[styles.container, inherit.style]}
   />

@@ -11,7 +11,6 @@ const DayNames = ({ locale = [], ...inherit }) => (
       <Text
         key={day}
         subtitle
-        level={2}
         {...inherit.styleDayNames}
         style={[styles.cell, inherit.range && styles.cellExpand]}
       >

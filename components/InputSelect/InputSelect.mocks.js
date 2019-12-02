@@ -45,11 +45,11 @@ const TEMPLATE = ({
 }) => (
   <View style={[inherit.style, selected && { backgroundColor: '#eee' }]}>
     <View>
-      <Text headline level={6} lighten={disabled} style={styles.title}>
+      <Text headline lighten={disabled} style={styles.title}>
         {title}
       </Text>
       { caption && (
-        <Text caption level={2} lighten>
+        <Text caption lighten>
           {caption}
         </Text>
       )}

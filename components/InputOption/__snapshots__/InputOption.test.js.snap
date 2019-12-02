@@ -197,10 +197,17 @@ exports[`<InputOption> label 1`] = `
       Array [
         Object {
           "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
           "textAlignVertical": "center",
         },
-        undefined,
-        undefined,
+        Object {
+          "fontSize": 18,
+          "fontWeight": "600",
+        },
+        Object {
+          "color": "#707070",
+        },
         Object {
           "color": "#4a4a4a",
           "marginBottom": 0,

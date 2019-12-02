@@ -12,78 +12,18 @@ describe('<Text>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {headline level:0}', () => {
-    const tree = renderer.create(<Text headline level={0}>{LOREM}</Text>).toJSON();
+  it('when {headline}', () => {
+    const tree = renderer.create(<Text headline>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {headline level:1}', () => {
-    const tree = renderer.create(<Text headline level={1}>{LOREM}</Text>).toJSON();
+  it('when {subtitle}', () => {
+    const tree = renderer.create(<Text subtitle>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {headline level:2}', () => {
-    const tree = renderer.create(<Text headline level={2}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {headline level:3}', () => {
-    const tree = renderer.create(<Text headline level={3}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {headline level:4}', () => {
-    const tree = renderer.create(<Text headline level={4}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {headline level:5}', () => {
-    const tree = renderer.create(<Text headline level={5}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {headline level:6}', () => {
-    const tree = renderer.create(<Text headline level={6}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {subtitle level:1}', () => {
-    const tree = renderer.create(<Text subtitle level={1}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {subtitle level:2}', () => {
-    const tree = renderer.create(<Text subtitle level={2}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {subtitle level:3}', () => {
-    const tree = renderer.create(<Text subtitle level={3}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {body level:1}', () => {
-    const tree = renderer.create(<Text body level={1}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {body level:2}', () => {
-    const tree = renderer.create(<Text body level={2}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {body level:3}', () => {
-    const tree = renderer.create(<Text body level={3}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {caption level:1}', () => {
-    const tree = renderer.create(<Text caption level={1}>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {caption level:2}', () => {
-    const tree = renderer.create(<Text caption level={2}>{LOREM}</Text>).toJSON();
+  it('when {caption}', () => {
+    const tree = renderer.create(<Text caption>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

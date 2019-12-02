@@ -14,7 +14,7 @@ export { REGULAR_SIZE, SMALL_SIZE };
 
 export default StyleSheet.create({
   container: {
-    // ...LAYOUT.STYLE.CENTERED,
+    ...LAYOUT.STYLE.CENTERED,
     borderRadius: BORDER_RADIUS,
   },
 

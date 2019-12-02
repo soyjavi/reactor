@@ -2,13 +2,20 @@
 
 exports[`<Price> inject <Text> properties 1`] = `
 <Text
+  level={3}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontFamily": undefined,
+        "fontSize": 24,
+        "fontWeight": "700",
+      },
       false,
       Object {},
     ]
@@ -24,9 +31,14 @@ exports[`<Price> renders 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -42,9 +54,14 @@ exports[`<Price> when {currency} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -60,9 +77,14 @@ exports[`<Price> when {fixed} (0) 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -78,9 +100,14 @@ exports[`<Price> when {fixed} (4) 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -96,9 +123,14 @@ exports[`<Price> when {locale} (es-ES) 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -114,9 +146,14 @@ exports[`<Price> when {operator} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -132,9 +169,14 @@ exports[`<Price> when {style} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {
         "color": "#10c0bc",
@@ -154,9 +196,14 @@ exports[`<Price> when {symbol} (left) 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -172,9 +219,14 @@ exports[`<Price> when {symbol} (right) 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]
@@ -190,9 +242,14 @@ exports[`<Price> when {value} 1`] = `
     Array [
       Object {
         "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
         "textAlignVertical": "center",
       },
-      undefined,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 19.2,
+      },
       false,
       Object {},
     ]

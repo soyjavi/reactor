@@ -44,10 +44,16 @@ exports[`<Slider> when {caption} 1`] = `
         Array [
           Object {
             "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
             "textAlignVertical": "center",
           },
-          undefined,
-          undefined,
+          Object {
+            "fontSize": 14,
+          },
+          Object {
+            "color": "#707070",
+          },
           Object {},
         ]
       }
@@ -246,7 +252,10 @@ exports[`<Slider> when {navigation} 1`] = `
           style={
             Array [
               Object {
+                "alignContent": "center",
+                "alignItems": "center",
                 "borderRadius": 3,
+                "justifyContent": "center",
               },
               Object {
                 "height": 44,
@@ -385,7 +394,10 @@ exports[`<Slider> when {navigation} 1`] = `
           style={
             Array [
               Object {
+                "alignContent": "center",
+                "alignItems": "center",
                 "borderRadius": 3,
+                "justifyContent": "center",
               },
               Object {
                 "height": 44,
@@ -666,9 +678,15 @@ exports[`<Slider> when {title} 1`] = `
         Array [
           Object {
             "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
             "textAlignVertical": "center",
           },
-          undefined,
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 24,
+            "fontWeight": "700",
+          },
           false,
           Object {},
         ]

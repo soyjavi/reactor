@@ -28,7 +28,10 @@ exports[`<Button> renders 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -131,7 +134,10 @@ exports[`<Button> when {activity} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -175,9 +181,14 @@ exports[`<Button> when {activity} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -303,7 +314,10 @@ exports[`<Button> when {children} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -347,9 +361,15 @@ exports[`<Button> when {children} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 24,
+                "fontWeight": "700",
+              },
               false,
               Object {
                 "color": "white",
@@ -422,7 +442,10 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -466,9 +489,14 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#707070",
@@ -545,7 +573,10 @@ exports[`<Button> when {color} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -589,9 +620,14 @@ exports[`<Button> when {color} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -668,7 +704,10 @@ exports[`<Button> when {contained=false} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -710,9 +749,14 @@ exports[`<Button> when {contained=false} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "fontFamily": undefined,
@@ -788,7 +832,10 @@ exports[`<Button> when {disabled} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -834,9 +881,14 @@ exports[`<Button> when {disabled} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -913,7 +965,10 @@ exports[`<Button> when {icon} & {title} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -974,9 +1029,14 @@ exports[`<Button> when {icon} & {title} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -1053,7 +1113,10 @@ exports[`<Button> when {icon} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -1171,7 +1234,10 @@ exports[`<Button> when {large} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -1218,9 +1284,14 @@ exports[`<Button> when {large} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -1297,7 +1368,10 @@ exports[`<Button> when {outlined} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -1343,9 +1417,14 @@ exports[`<Button> when {outlined} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "fontFamily": undefined,
@@ -1421,7 +1500,10 @@ exports[`<Button> when {responsive} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -1465,9 +1547,14 @@ exports[`<Button> when {responsive} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -1546,7 +1633,10 @@ exports[`<Button> when {rounded} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -1592,9 +1682,14 @@ exports[`<Button> when {rounded} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -1681,7 +1776,10 @@ exports[`<Button> when {shadow} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -1725,9 +1823,14 @@ exports[`<Button> when {shadow} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -1804,7 +1907,10 @@ exports[`<Button> when {small} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -1852,9 +1958,14 @@ exports[`<Button> when {small} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -1937,7 +2048,10 @@ exports[`<Button> when {style} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -1981,9 +2095,14 @@ exports[`<Button> when {style} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
@@ -2060,7 +2179,10 @@ exports[`<Button> when {title} 1`] = `
       style={
         Array [
           Object {
+            "alignContent": "center",
+            "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
           },
           Object {
             "height": 44,
@@ -2104,9 +2226,14 @@ exports[`<Button> when {title} 1`] = `
             Array [
               Object {
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
-              undefined,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 19.2,
+              },
               false,
               Object {
                 "color": "#ffffff",
