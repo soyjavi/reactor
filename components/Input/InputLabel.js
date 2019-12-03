@@ -10,9 +10,10 @@ const { COLOR } = THEME;
 const InputLabel = ({ color, ...inherit }) => (
   <Text
     {...inherit}
+    bold
+    caption
     color={color}
     numberOfLines={2}
-    subtitle
     lighten
     style={[styles.container, inherit.style]}
   />

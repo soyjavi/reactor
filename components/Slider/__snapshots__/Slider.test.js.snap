@@ -32,35 +32,6 @@ exports[`<Slider> when {caption} 1`] = `
     }
   }
 >
-  <View
-    style={
-      Object {
-        "marginBottom": 8,
-      }
-    }
-  >
-    <Text
-      style={
-        Array [
-          Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontWeight": "400",
-            "textAlignVertical": "center",
-          },
-          Object {
-            "fontSize": 14,
-          },
-          Object {
-            "color": "#707070",
-          },
-          Object {},
-        ]
-      }
-    >
-      Hello World
-    </Text>
-  </View>
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
@@ -666,35 +637,6 @@ exports[`<Slider> when {title} 1`] = `
     }
   }
 >
-  <View
-    style={
-      Object {
-        "marginBottom": 8,
-      }
-    }
-  >
-    <Text
-      style={
-        Array [
-          Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontWeight": "400",
-            "textAlignVertical": "center",
-          },
-          Object {
-            "fontFamily": undefined,
-            "fontSize": 24,
-            "fontWeight": "700",
-          },
-          false,
-          Object {},
-        ]
-      }
-    >
-      Hello World
-    </Text>
-  </View>
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}

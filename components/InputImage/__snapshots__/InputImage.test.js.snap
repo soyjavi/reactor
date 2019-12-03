@@ -446,14 +446,14 @@ exports[`<InputImage> when {label} 1`] = `
             "textAlignVertical": "center",
           },
           Object {
-            "fontSize": 18,
-            "fontWeight": "600",
+            "fontSize": 14,
           },
           Object {
             "color": "#707070",
           },
           Object {
             "color": "#4a4a4a",
+            "fontWeight": "700",
             "marginBottom": 8,
           },
         ]

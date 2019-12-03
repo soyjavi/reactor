@@ -69,14 +69,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -171,14 +171,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -270,14 +270,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -421,14 +421,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -521,14 +521,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -648,14 +648,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -748,14 +748,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -895,14 +895,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -1038,14 +1038,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -2711,14 +2711,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -2888,14 +2888,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -3149,14 +3149,14 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -3249,14 +3249,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -3412,14 +3412,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -3482,14 +3482,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -3594,14 +3594,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -3735,14 +3735,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -3876,14 +3876,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -4015,14 +4015,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -4141,14 +4141,14 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -4277,14 +4277,14 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -4413,14 +4413,14 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -4552,14 +4552,14 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -4720,14 +4720,14 @@ exports[`<Form> when {attributes} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -4817,14 +4817,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -4919,14 +4919,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -5018,14 +5018,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -5169,14 +5169,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -5269,14 +5269,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -5396,14 +5396,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -5496,14 +5496,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -5643,14 +5643,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -5786,14 +5786,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -7459,14 +7459,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -7636,14 +7636,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -7897,14 +7897,14 @@ exports[`<Form> when {color} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -7997,14 +7997,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -8160,14 +8160,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -8230,14 +8230,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -8342,14 +8342,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -8483,14 +8483,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -8624,14 +8624,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -8763,14 +8763,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -8889,14 +8889,14 @@ exports[`<Form> when {color} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -9025,14 +9025,14 @@ exports[`<Form> when {color} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -9161,14 +9161,14 @@ exports[`<Form> when {color} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -9300,14 +9300,14 @@ exports[`<Form> when {color} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -9468,14 +9468,14 @@ exports[`<Form> when {color} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -9690,14 +9690,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -9792,14 +9792,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -9942,14 +9942,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -10093,14 +10093,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -10193,14 +10193,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -10320,14 +10320,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -10420,14 +10420,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -10567,14 +10567,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -10710,14 +10710,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -12383,14 +12383,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -12560,14 +12560,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -12821,14 +12821,14 @@ exports[`<Form> when {validate} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -12972,14 +12972,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -13135,14 +13135,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -13205,14 +13205,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -13317,14 +13317,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -13458,14 +13458,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -13599,14 +13599,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -13738,14 +13738,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -13864,14 +13864,14 @@ exports[`<Form> when {validate} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -14051,14 +14051,14 @@ exports[`<Form> when {validate} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -14238,14 +14238,14 @@ exports[`<Form> when {validate} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -14377,14 +14377,14 @@ exports[`<Form> when {validate} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -14933,14 +14933,14 @@ exports[`<Form> when {validate} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -15030,14 +15030,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -15132,14 +15132,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -15231,14 +15231,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -15382,14 +15382,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -15482,14 +15482,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -15609,14 +15609,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -15709,14 +15709,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -15856,14 +15856,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -15999,14 +15999,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -17672,14 +17672,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -17849,14 +17849,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -18110,14 +18110,14 @@ exports[`<Form> when {value} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -18210,14 +18210,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 8,
               },
             ]
@@ -18373,14 +18373,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -18443,14 +18443,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -18555,14 +18555,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -18696,14 +18696,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -18837,14 +18837,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -18976,14 +18976,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },
@@ -19102,14 +19102,14 @@ exports[`<Form> when {value} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -19238,14 +19238,14 @@ exports[`<Form> when {value} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -19374,14 +19374,14 @@ exports[`<Form> when {value} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -19513,14 +19513,14 @@ exports[`<Form> when {value} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 18,
-                  "fontWeight": "600",
+                  "fontSize": 14,
                 },
                 Object {
                   "color": "#707070",
                 },
                 Object {
                   "color": "#4a4a4a",
+                  "fontWeight": "700",
                   "marginBottom": 8,
                 },
               ]
@@ -20018,14 +20018,14 @@ exports[`<Form> when {value} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 18,
-                "fontWeight": "600",
+                "fontSize": 14,
               },
               Object {
                 "color": "#707070",
               },
               Object {
                 "color": "#4a4a4a",
+                "fontWeight": "700",
                 "marginBottom": 0,
                 "marginLeft": 8,
               },

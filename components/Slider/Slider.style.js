@@ -16,10 +16,6 @@ export default StyleSheet.create({
     height: '100%',
   },
 
-  header: {
-    marginBottom: SPACE.XS,
-  },
-
   previous: {
     left: -SPACE.MEDIUM,
   },
