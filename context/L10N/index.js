@@ -1,1 +1,1 @@
-export { ConsumerL10N, ProviderL10N } from './L10N';
+export { L10NProvider, useL10N } from './L10N';

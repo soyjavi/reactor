@@ -1,25 +1,26 @@
 import { node, shape, string } from 'prop-types';
-import React, { createContext } from 'react';
+import React, { createContext, useContext } from 'react';
 
-const { Provider, Consumer: ConsumerL10N } = createContext('reactor:l10n');
+const L10NContext = createContext('reactor:l10n');
 
-const ProviderL10N = ({ children, dictionary, language }) => (
-  <Provider value={{ l10n: dictionary[language] || {} }}>
+const L10NProvider = ({ children, dictionary, language }) => (
+  <L10NContext.Provider value={dictionary[language] || {}}>
     { children }
-  </Provider>
+  </L10NContext.Provider>
 );
 
-ProviderL10N.propTypes = {
+L10NProvider.propTypes = {
   children: node,
   dictionary: shape({}),
   language: string,
 };
 
-ProviderL10N.defaultProps = {
+L10NProvider.defaultProps = {
   children: undefined,
   dictionary: {},
   language: 'en-EN',
 };
 
+export { L10NProvider };
 
-export { ConsumerL10N, ProviderL10N };
+export const useL10N = () => useContext(L10NContext);
