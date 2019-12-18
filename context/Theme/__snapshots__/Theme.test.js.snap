@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ProviderTheme> renders 1`] = `null`;
+exports[`<ThemeProvider> renders 1`] = `null`;
 
-exports[`<ProviderTheme> when {style} 1`] = `null`;
+exports[`<ThemeProvider> when {style} 1`] = `null`;

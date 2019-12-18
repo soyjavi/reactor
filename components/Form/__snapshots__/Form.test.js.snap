@@ -1072,6 +1072,8 @@ exports[`<Form> when {attributes} 1`] = `
           <View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -1212,6 +1214,8 @@ exports[`<Form> when {attributes} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1398,6 +1402,8 @@ exports[`<Form> when {attributes} 1`] = `
           <View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -1524,6 +1530,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -1650,6 +1658,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -1800,6 +1810,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -1926,6 +1938,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -2052,6 +2066,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -2178,6 +2194,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -2304,6 +2322,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -2430,6 +2450,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -2556,6 +2578,8 @@ exports[`<Form> when {attributes} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -2728,6 +2752,8 @@ exports[`<Form> when {attributes} 1`] = `
         </Text>
         <View
           accessible={true}
+          focusable={true}
+          onClick={[Function]}
           onLayout={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -2905,6 +2931,8 @@ exports[`<Form> when {attributes} 1`] = `
         </Text>
         <View
           accessible={true}
+          focusable={true}
+          onClick={[Function]}
           onLayout={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3501,6 +3529,8 @@ exports[`<Form> when {attributes} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3642,6 +3672,8 @@ exports[`<Form> when {attributes} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3783,6 +3815,8 @@ exports[`<Form> when {attributes} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3924,6 +3958,8 @@ exports[`<Form> when {attributes} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -4629,6 +4665,8 @@ exports[`<Form> when {attributes} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5820,6 +5858,8 @@ exports[`<Form> when {color} 1`] = `
           <View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -5960,6 +6000,8 @@ exports[`<Form> when {color} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -6146,6 +6188,8 @@ exports[`<Form> when {color} 1`] = `
           <View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -6272,6 +6316,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -6398,6 +6444,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -6548,6 +6596,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -6674,6 +6724,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -6800,6 +6852,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -6926,6 +6980,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -7052,6 +7108,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -7178,6 +7236,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -7304,6 +7364,8 @@ exports[`<Form> when {color} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -7476,6 +7538,8 @@ exports[`<Form> when {color} 1`] = `
         </Text>
         <View
           accessible={true}
+          focusable={true}
+          onClick={[Function]}
           onLayout={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -7653,6 +7717,8 @@ exports[`<Form> when {color} 1`] = `
         </Text>
         <View
           accessible={true}
+          focusable={true}
+          onClick={[Function]}
           onLayout={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -8249,6 +8315,8 @@ exports[`<Form> when {color} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8390,6 +8458,8 @@ exports[`<Form> when {color} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8531,6 +8601,8 @@ exports[`<Form> when {color} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8672,6 +8744,8 @@ exports[`<Form> when {color} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9377,6 +9451,8 @@ exports[`<Form> when {color} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10744,6 +10820,8 @@ exports[`<Form> when {validate} 1`] = `
           <View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -10884,6 +10962,8 @@ exports[`<Form> when {validate} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11070,6 +11150,8 @@ exports[`<Form> when {validate} 1`] = `
           <View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -11196,6 +11278,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -11322,6 +11406,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -11472,6 +11558,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -11598,6 +11686,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -11724,6 +11814,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -11850,6 +11942,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -11976,6 +12070,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -12102,6 +12198,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -12228,6 +12326,8 @@ exports[`<Form> when {validate} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -12400,6 +12500,8 @@ exports[`<Form> when {validate} 1`] = `
         </Text>
         <View
           accessible={true}
+          focusable={true}
+          onClick={[Function]}
           onLayout={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -12577,6 +12679,8 @@ exports[`<Form> when {validate} 1`] = `
         </Text>
         <View
           accessible={true}
+          focusable={true}
+          onClick={[Function]}
           onLayout={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -13224,6 +13328,8 @@ exports[`<Form> when {validate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -13365,6 +13471,8 @@ exports[`<Form> when {validate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -13506,6 +13614,8 @@ exports[`<Form> when {validate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -13647,6 +13757,8 @@ exports[`<Form> when {validate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -14563,6 +14675,8 @@ exports[`<Form> when {validate} 1`] = `
             </Text>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -14668,6 +14782,8 @@ exports[`<Form> when {validate} 1`] = `
             </Text>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -14773,6 +14889,8 @@ exports[`<Form> when {validate} 1`] = `
             </Text>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -14842,6 +14960,8 @@ exports[`<Form> when {validate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -16033,6 +16153,8 @@ exports[`<Form> when {value} 1`] = `
           <View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -16173,6 +16295,8 @@ exports[`<Form> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16359,6 +16483,8 @@ exports[`<Form> when {value} 1`] = `
           <View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -16485,6 +16611,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -16611,6 +16739,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -16761,6 +16891,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -16887,6 +17019,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -17013,6 +17147,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -17139,6 +17275,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -17265,6 +17403,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -17391,6 +17531,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -17517,6 +17659,8 @@ exports[`<Form> when {value} 1`] = `
             </View>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -17689,6 +17833,8 @@ exports[`<Form> when {value} 1`] = `
         </Text>
         <View
           accessible={true}
+          focusable={true}
+          onClick={[Function]}
           onLayout={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -17866,6 +18012,8 @@ exports[`<Form> when {value} 1`] = `
         </Text>
         <View
           accessible={true}
+          focusable={true}
+          onClick={[Function]}
           onLayout={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -18462,6 +18610,8 @@ exports[`<Form> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -18603,6 +18753,8 @@ exports[`<Form> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -18744,6 +18896,8 @@ exports[`<Form> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -18885,6 +19039,8 @@ exports[`<Form> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -19648,6 +19804,8 @@ exports[`<Form> when {value} 1`] = `
             </Text>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -19753,6 +19911,8 @@ exports[`<Form> when {value} 1`] = `
             </Text>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -19858,6 +20018,8 @@ exports[`<Form> when {value} 1`] = `
             </Text>
             <View
               accessible={true}
+              focusable={true}
+              onClick={[Function]}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -19927,6 +20089,8 @@ exports[`<Form> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}

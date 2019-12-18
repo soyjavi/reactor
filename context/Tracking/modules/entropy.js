@@ -1,5 +1,5 @@
 import {
-  DeviceInfo, Dimensions, NetInfo, PixelRatio, Platform,
+  DeviceInfo, Dimensions, PixelRatio, Platform,
 } from 'react-native';
 
 import { ENV } from '../../../common';
@@ -137,13 +137,6 @@ if (osName === 'iOS') {
 } else {
   deviceModel = 'Desktop';
 }
-
-const connection = async () => {
-  const { effectiveType, type } = await NetInfo.getConnectionInfo() || {};
-  return { effectiveType, type };
-};
-
-export { connection };
 
 export default {
   // Browser

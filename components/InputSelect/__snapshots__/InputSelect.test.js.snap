@@ -296,6 +296,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
     <View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -436,6 +438,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
   >
     <View
       accessible={true}
+      focusable={true}
+      onClick={[Function]}
       onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -620,6 +624,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
     <View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -770,6 +776,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -896,6 +904,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1022,6 +1032,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1148,6 +1160,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1274,6 +1288,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1400,6 +1416,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1526,6 +1544,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1652,6 +1672,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1778,6 +1800,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2309,6 +2333,8 @@ exports[`<InputSelect> when {value} 1`] = `
     <View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2449,6 +2475,8 @@ exports[`<InputSelect> when {value} 1`] = `
   >
     <View
       accessible={true}
+      focusable={true}
+      onClick={[Function]}
       onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -2633,6 +2661,8 @@ exports[`<InputSelect> when {value} 1`] = `
     <View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2759,6 +2789,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2885,6 +2917,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3011,6 +3045,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3161,6 +3197,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3287,6 +3325,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3413,6 +3453,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3539,6 +3581,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3665,6 +3709,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3791,6 +3837,8 @@ exports[`<InputSelect> when {value} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}

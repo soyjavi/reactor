@@ -3,6 +3,8 @@
 exports[`<InputOption> inherity:style 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
@@ -116,6 +118,8 @@ exports[`<InputOption> inherity:style 1`] = `
 exports[`<InputOption> label 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
@@ -253,6 +257,8 @@ exports[`<InputOption> label 1`] = `
 exports[`<InputOption> renders 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
@@ -363,6 +369,8 @@ exports[`<InputOption> renders 1`] = `
 exports[`<InputOption> rounded (false) 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
@@ -471,6 +479,8 @@ exports[`<InputOption> rounded (false) 1`] = `
 exports[`<InputOption> value 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}

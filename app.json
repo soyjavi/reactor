@@ -3,13 +3,13 @@
     "name": "reactor",
     "slug": "soyjavi-reactor",
     "privacy": "public",
-    "sdkVersion": "35.0.0",
+    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "version": "0.15.0",
+    "version": "0.16.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {

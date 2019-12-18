@@ -198,6 +198,8 @@ exports[`<Slider> when {navigation} 1`] = `
     <View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -340,6 +342,8 @@ exports[`<Slider> when {navigation} 1`] = `
     <View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}

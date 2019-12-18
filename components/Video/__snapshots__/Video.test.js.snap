@@ -23,17 +23,27 @@ exports[`<Video> renders 1`] = `
 >
   <View
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
     }
   >
-    <RCTWebView
+    <RNCWebView
       allowsInlineMediaPlayback={true}
+      cacheEnabled={true}
+      javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadStart={[Function]}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
       onShouldStartLoadWithRequest={[Function]}
@@ -57,6 +67,7 @@ exports[`<Video> renders 1`] = `
         Array [
           Object {
             "flex": 1,
+            "overflow": "hidden",
           },
           Object {
             "backgroundColor": "#ffffff",
@@ -76,6 +87,7 @@ exports[`<Video> renders 1`] = `
           ],
         ]
       }
+      useSharedProcessPool={true}
     />
   </View>
 </View>
@@ -104,17 +116,27 @@ exports[`<Video> when {autoplay} 1`] = `
 >
   <View
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
     }
   >
-    <RCTWebView
+    <RNCWebView
       allowsInlineMediaPlayback={true}
+      cacheEnabled={true}
+      javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadStart={[Function]}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
       onShouldStartLoadWithRequest={[Function]}
@@ -138,6 +160,7 @@ exports[`<Video> when {autoplay} 1`] = `
         Array [
           Object {
             "flex": 1,
+            "overflow": "hidden",
           },
           Object {
             "backgroundColor": "#ffffff",
@@ -157,6 +180,7 @@ exports[`<Video> when {autoplay} 1`] = `
           ],
         ]
       }
+      useSharedProcessPool={true}
     />
   </View>
 </View>
@@ -185,17 +209,27 @@ exports[`<Video> when {controls} 1`] = `
 >
   <View
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
     }
   >
-    <RCTWebView
+    <RNCWebView
       allowsInlineMediaPlayback={true}
+      cacheEnabled={true}
+      javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadStart={[Function]}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
       onShouldStartLoadWithRequest={[Function]}
@@ -219,6 +253,7 @@ exports[`<Video> when {controls} 1`] = `
         Array [
           Object {
             "flex": 1,
+            "overflow": "hidden",
           },
           Object {
             "backgroundColor": "#ffffff",
@@ -238,6 +273,7 @@ exports[`<Video> when {controls} 1`] = `
           ],
         ]
       }
+      useSharedProcessPool={true}
     />
   </View>
 </View>
@@ -266,17 +302,27 @@ exports[`<Video> when {dimensions} 1`] = `
 >
   <View
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
     }
   >
-    <RCTWebView
+    <RNCWebView
       allowsInlineMediaPlayback={true}
+      cacheEnabled={true}
+      javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadStart={[Function]}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
       onShouldStartLoadWithRequest={[Function]}
@@ -300,6 +346,7 @@ exports[`<Video> when {dimensions} 1`] = `
         Array [
           Object {
             "flex": 1,
+            "overflow": "hidden",
           },
           Object {
             "backgroundColor": "#ffffff",
@@ -319,6 +366,7 @@ exports[`<Video> when {dimensions} 1`] = `
           ],
         ]
       }
+      useSharedProcessPool={true}
     />
   </View>
 </View>
@@ -347,17 +395,27 @@ exports[`<Video> when {preload} 1`] = `
 >
   <View
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
     }
   >
-    <RCTWebView
+    <RNCWebView
       allowsInlineMediaPlayback={true}
+      cacheEnabled={true}
+      javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadStart={[Function]}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
       onShouldStartLoadWithRequest={[Function]}
@@ -381,6 +439,7 @@ exports[`<Video> when {preload} 1`] = `
         Array [
           Object {
             "flex": 1,
+            "overflow": "hidden",
           },
           Object {
             "backgroundColor": "#ffffff",
@@ -400,6 +459,7 @@ exports[`<Video> when {preload} 1`] = `
           ],
         ]
       }
+      useSharedProcessPool={true}
     />
   </View>
 </View>
@@ -428,17 +488,27 @@ exports[`<Video> when {source} (vimeo) 1`] = `
 >
   <View
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
     }
   >
-    <RCTWebView
+    <RNCWebView
       allowsInlineMediaPlayback={true}
+      cacheEnabled={true}
+      javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadStart={[Function]}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
       onShouldStartLoadWithRequest={[Function]}
@@ -461,6 +531,7 @@ exports[`<Video> when {source} (vimeo) 1`] = `
         Array [
           Object {
             "flex": 1,
+            "overflow": "hidden",
           },
           Object {
             "backgroundColor": "#ffffff",
@@ -480,6 +551,7 @@ exports[`<Video> when {source} (vimeo) 1`] = `
           ],
         ]
       }
+      useSharedProcessPool={true}
     />
   </View>
 </View>
@@ -508,17 +580,27 @@ exports[`<Video> when {source} (youtube) 1`] = `
 >
   <View
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
     }
   >
-    <RCTWebView
+    <RNCWebView
       allowsInlineMediaPlayback={true}
+      cacheEnabled={true}
+      javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadStart={[Function]}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
       onShouldStartLoadWithRequest={[Function]}
@@ -541,6 +623,7 @@ exports[`<Video> when {source} (youtube) 1`] = `
         Array [
           Object {
             "flex": 1,
+            "overflow": "hidden",
           },
           Object {
             "backgroundColor": "#ffffff",
@@ -560,6 +643,7 @@ exports[`<Video> when {source} (youtube) 1`] = `
           ],
         ]
       }
+      useSharedProcessPool={true}
     />
   </View>
 </View>
@@ -591,17 +675,27 @@ exports[`<Video> when {style} 1`] = `
 >
   <View
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
     }
   >
-    <RCTWebView
+    <RNCWebView
       allowsInlineMediaPlayback={true}
+      cacheEnabled={true}
+      javaScriptEnabled={true}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadStart={[Function]}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
       onShouldStartLoadWithRequest={[Function]}
@@ -625,6 +719,7 @@ exports[`<Video> when {style} 1`] = `
         Array [
           Object {
             "flex": 1,
+            "overflow": "hidden",
           },
           Object {
             "backgroundColor": "#ffffff",
@@ -644,6 +739,7 @@ exports[`<Video> when {style} 1`] = `
           ],
         ]
       }
+      useSharedProcessPool={true}
     />
   </View>
 </View>

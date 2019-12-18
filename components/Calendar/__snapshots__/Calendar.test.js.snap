@@ -46,6 +46,8 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -211,6 +213,8 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -540,6 +544,8 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -635,6 +641,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -730,6 +738,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -825,6 +835,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -920,6 +932,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1015,6 +1029,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1110,6 +1126,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1217,6 +1235,8 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1312,6 +1332,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1407,6 +1429,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1502,6 +1526,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1597,6 +1623,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1692,6 +1720,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1787,6 +1817,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1894,6 +1926,8 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -1989,6 +2023,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2084,6 +2120,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2179,6 +2217,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2277,6 +2317,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2372,6 +2414,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2467,6 +2511,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2574,6 +2620,8 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2669,6 +2717,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2764,6 +2814,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2859,6 +2911,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -2954,6 +3008,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3049,6 +3105,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3144,6 +3202,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3251,6 +3311,8 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3346,6 +3408,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3441,6 +3505,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3536,6 +3602,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3631,6 +3699,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3726,6 +3796,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3821,6 +3893,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -3928,6 +4002,8 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -4023,6 +4099,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -4118,6 +4196,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -4213,6 +4293,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -4308,6 +4390,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -4403,6 +4487,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -4498,6 +4584,8 @@ exports[`<Calendar> renders 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -4644,6 +4732,8 @@ exports[`<Calendar> when {availableDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -4809,6 +4899,8 @@ exports[`<Calendar> when {availableDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -7772,6 +7864,8 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -7937,6 +8031,8 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8266,6 +8362,8 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8345,6 +8443,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8424,6 +8524,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8503,6 +8605,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8582,6 +8686,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8661,6 +8767,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8740,6 +8848,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8831,6 +8941,8 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8910,6 +9022,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -8989,6 +9103,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9068,6 +9184,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9147,6 +9265,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9226,6 +9346,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9305,6 +9427,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9396,6 +9520,8 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9475,6 +9601,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9554,6 +9682,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9633,6 +9763,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9715,6 +9847,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9794,6 +9928,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9873,6 +10009,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -9964,6 +10102,8 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10043,6 +10183,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10122,6 +10264,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10201,6 +10345,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10280,6 +10426,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10359,6 +10507,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10438,6 +10588,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10529,6 +10681,8 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10608,6 +10762,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10687,6 +10843,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10766,6 +10924,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10845,6 +11005,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -10924,6 +11086,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11003,6 +11167,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11094,6 +11260,8 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11173,6 +11341,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11252,6 +11422,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11331,6 +11503,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11410,6 +11584,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11489,6 +11665,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11568,6 +11746,8 @@ exports[`<Calendar> when {box:false} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11750,6 +11930,8 @@ exports[`<Calendar> when {busy} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -11915,6 +12097,8 @@ exports[`<Calendar> when {busy} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -13998,6 +14182,8 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -14163,6 +14349,8 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -14492,6 +14680,8 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -14587,6 +14777,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -14682,6 +14874,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -14777,6 +14971,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -14872,6 +15068,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -14967,6 +15165,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15062,6 +15262,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15169,6 +15371,8 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15264,6 +15468,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15359,6 +15565,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15454,6 +15662,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15549,6 +15759,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15644,6 +15856,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15739,6 +15953,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15846,6 +16062,8 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -15941,6 +16159,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16036,6 +16256,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16131,6 +16353,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16229,6 +16453,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16324,6 +16550,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16419,6 +16647,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16526,6 +16756,8 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16621,6 +16853,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16716,6 +16950,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16811,6 +17047,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -16906,6 +17144,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17001,6 +17241,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17096,6 +17338,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17203,6 +17447,8 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17298,6 +17544,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17393,6 +17641,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17488,6 +17738,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17583,6 +17835,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17678,6 +17932,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17773,6 +18029,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17880,6 +18138,8 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -17975,6 +18235,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -18070,6 +18332,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -18165,6 +18429,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -18260,6 +18526,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -18355,6 +18623,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -18450,6 +18720,8 @@ exports[`<Calendar> when {captions} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -18596,6 +18868,8 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -18761,6 +19035,8 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19090,6 +19366,8 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19185,6 +19463,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19280,6 +19560,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19375,6 +19657,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19470,6 +19754,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19565,6 +19851,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19660,6 +19948,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19767,6 +20057,8 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19862,6 +20154,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -19957,6 +20251,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20052,6 +20348,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20147,6 +20445,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20242,6 +20542,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20337,6 +20639,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20444,6 +20748,8 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20539,6 +20845,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20634,6 +20942,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20729,6 +21039,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20824,6 +21136,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -20919,6 +21233,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21014,6 +21330,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21121,6 +21439,8 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21216,6 +21536,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21311,6 +21633,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21406,6 +21730,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21501,6 +21827,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21596,6 +21924,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21691,6 +22021,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21798,6 +22130,8 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21893,6 +22227,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -21988,6 +22324,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22083,6 +22421,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22178,6 +22518,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22273,6 +22615,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22368,6 +22712,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22475,6 +22821,8 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22570,6 +22918,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22665,6 +23015,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22760,6 +23112,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22855,6 +23209,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -22950,6 +23306,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -23045,6 +23403,8 @@ exports[`<Calendar> when {date} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -23191,6 +23551,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -23356,6 +23718,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -23685,6 +24049,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -23780,6 +24146,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -23875,6 +24243,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -23970,6 +24340,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24065,6 +24437,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24160,6 +24534,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24255,6 +24631,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24362,6 +24740,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24457,6 +24837,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24552,6 +24934,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24647,6 +25031,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24742,6 +25128,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24837,6 +25225,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -24932,6 +25322,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25039,6 +25431,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25134,6 +25528,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25229,6 +25625,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25324,6 +25722,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25422,6 +25822,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25517,6 +25919,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25612,6 +26016,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25719,6 +26125,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25814,6 +26222,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -25909,6 +26319,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26004,6 +26416,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26099,6 +26513,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26194,6 +26610,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26289,6 +26707,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26396,6 +26816,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26491,6 +26913,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26586,6 +27010,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26681,6 +27107,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26776,6 +27204,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26871,6 +27301,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -26966,6 +27398,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -27073,6 +27507,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -27168,6 +27604,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -27263,6 +27701,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -27358,6 +27798,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -27453,6 +27895,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -27548,6 +27992,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -27643,6 +28089,8 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -27793,6 +28241,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         >
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -27959,6 +28409,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -29332,6 +29784,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -29430,6 +29884,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -29525,6 +29981,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -29620,6 +30078,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -29727,6 +30187,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -29822,6 +30284,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -29917,6 +30381,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30012,6 +30478,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30107,6 +30575,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30202,6 +30672,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30297,6 +30769,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30404,6 +30878,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30499,6 +30975,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30594,6 +31072,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30689,6 +31169,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30784,6 +31266,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30879,6 +31363,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -30974,6 +31460,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31081,6 +31569,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31176,6 +31666,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31271,6 +31763,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31366,6 +31860,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31461,6 +31957,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31556,6 +32054,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31651,6 +32151,8 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31797,6 +32299,8 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -31962,6 +32466,8 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -32291,6 +32797,8 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -32388,6 +32896,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -32485,6 +32995,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -32582,6 +33094,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -32679,6 +33193,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -32776,6 +33292,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -32873,6 +33391,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -32982,6 +33502,8 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33079,6 +33601,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33174,6 +33698,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33269,6 +33795,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33364,6 +33892,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33459,6 +33989,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33554,6 +34086,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33661,6 +34195,8 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33756,6 +34292,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33851,6 +34389,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -33946,6 +34486,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34044,6 +34586,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34139,6 +34683,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34234,6 +34780,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34341,6 +34889,8 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34436,6 +34986,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34531,6 +35083,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34626,6 +35180,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34721,6 +35277,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34816,6 +35374,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -34911,6 +35471,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35018,6 +35580,8 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35113,6 +35677,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35208,6 +35774,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35303,6 +35871,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35398,6 +35968,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35493,6 +36065,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35588,6 +36162,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35695,6 +36271,8 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35790,6 +36368,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35885,6 +36465,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -35980,6 +36562,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -36077,6 +36661,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -36174,6 +36760,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -36271,6 +36859,8 @@ exports[`<Calendar> when {edges} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -36419,6 +37009,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -36588,6 +37180,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -36918,6 +37512,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -36997,6 +37593,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -37076,6 +37674,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -37155,6 +37755,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -37234,6 +37836,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -37313,6 +37917,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -37392,6 +37998,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -37483,6 +38091,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -37562,6 +38172,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -37657,6 +38269,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -37752,6 +38366,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -37847,6 +38463,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -37942,6 +38560,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38037,6 +38657,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38144,6 +38766,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38239,6 +38863,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38334,6 +38960,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38429,6 +39057,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38527,6 +39157,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38622,6 +39254,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38717,6 +39351,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38824,6 +39460,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -38919,6 +39557,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39014,6 +39654,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39109,6 +39751,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39204,6 +39848,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39299,6 +39945,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39394,6 +40042,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39501,6 +40151,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39596,6 +40248,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39691,6 +40345,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39786,6 +40442,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39881,6 +40539,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -39976,6 +40636,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -40071,6 +40733,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -40178,6 +40842,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -40273,6 +40939,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -40368,6 +41036,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -40463,6 +41133,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -40542,6 +41214,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -40621,6 +41295,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -40700,6 +41376,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -40807,6 +41485,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -40973,6 +41653,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -41302,6 +41984,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -41381,6 +42065,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -41460,6 +42146,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -41539,6 +42227,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -41634,6 +42324,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -41729,6 +42421,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -41824,6 +42518,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -41931,6 +42627,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42026,6 +42724,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42121,6 +42821,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42216,6 +42918,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42311,6 +43015,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42406,6 +43112,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42501,6 +43209,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42608,6 +43318,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42703,6 +43415,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42798,6 +43512,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42893,6 +43609,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -42988,6 +43706,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43083,6 +43803,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43178,6 +43900,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43285,6 +44009,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43380,6 +44106,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43475,6 +44203,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43570,6 +44300,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43665,6 +44397,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43760,6 +44494,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43855,6 +44591,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -43962,6 +44700,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -44057,6 +44797,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -44152,6 +44894,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -44247,6 +44991,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -44342,6 +45088,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -44437,6 +45185,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -44532,6 +45282,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -44623,6 +45375,8 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -44702,6 +45456,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -44781,6 +45537,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -44860,6 +45618,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -44939,6 +45699,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -45018,6 +45780,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -45097,6 +45861,8 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -45227,6 +45993,8 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -45392,6 +46160,8 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -45721,6 +46491,8 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -45816,6 +46588,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -45911,6 +46685,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46006,6 +46782,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46101,6 +46879,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46196,6 +46976,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46291,6 +47073,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46398,6 +47182,8 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46493,6 +47279,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46588,6 +47376,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46683,6 +47473,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46778,6 +47570,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46873,6 +47667,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -46968,6 +47764,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47075,6 +47873,8 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47170,6 +47970,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47265,6 +48067,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47360,6 +48164,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47458,6 +48264,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47553,6 +48361,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47648,6 +48458,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47755,6 +48567,8 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47850,6 +48664,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -47945,6 +48761,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48040,6 +48858,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48135,6 +48955,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48230,6 +49052,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48325,6 +49149,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48432,6 +49258,8 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48527,6 +49355,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48622,6 +49452,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48717,6 +49549,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48812,6 +49646,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -48907,6 +49743,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49002,6 +49840,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49109,6 +49949,8 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49204,6 +50046,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49299,6 +50143,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49394,6 +50240,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49489,6 +50337,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49584,6 +50434,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49679,6 +50531,8 @@ exports[`<Calendar> when {locale} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49825,6 +50679,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -49990,6 +50846,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -50333,6 +51191,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -50428,6 +51288,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -50523,6 +51385,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -50618,6 +51482,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -50713,6 +51579,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -50808,6 +51676,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -50903,6 +51773,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51010,6 +51882,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51105,6 +51979,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51200,6 +52076,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51295,6 +52173,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51390,6 +52270,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51485,6 +52367,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51580,6 +52464,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51687,6 +52573,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51782,6 +52670,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51877,6 +52767,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -51972,6 +52864,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52070,6 +52964,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52165,6 +53061,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52260,6 +53158,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52367,6 +53267,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52462,6 +53364,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52557,6 +53461,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52652,6 +53558,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52747,6 +53655,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52842,6 +53752,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -52937,6 +53849,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53044,6 +53958,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53139,6 +54055,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53234,6 +54152,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53329,6 +54249,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53424,6 +54346,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53519,6 +54443,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53614,6 +54540,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53721,6 +54649,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53816,6 +54746,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -53911,6 +54843,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -54006,6 +54940,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -54101,6 +55037,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -54196,6 +55134,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -54291,6 +55231,8 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -54441,6 +55383,8 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -54606,6 +55550,8 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -54935,6 +55881,8 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55030,6 +55978,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55125,6 +56075,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55220,6 +56172,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55315,6 +56269,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55410,6 +56366,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55505,6 +56463,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55612,6 +56572,8 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55707,6 +56669,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55802,6 +56766,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55897,6 +56863,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -55992,6 +56960,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56087,6 +57057,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56182,6 +57154,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56289,6 +57263,8 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56384,6 +57360,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56479,6 +57457,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56574,6 +57554,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56672,6 +57654,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56767,6 +57751,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56862,6 +57848,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -56969,6 +57957,8 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57064,6 +58054,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57159,6 +58151,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57254,6 +58248,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57349,6 +58345,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57444,6 +58442,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57539,6 +58539,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57646,6 +58648,8 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57741,6 +58745,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57836,6 +58842,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -57931,6 +58939,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58026,6 +59036,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58121,6 +59133,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58216,6 +59230,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58323,6 +59339,8 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58418,6 +59436,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58513,6 +59533,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58608,6 +59630,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58703,6 +59727,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58798,6 +59824,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -58893,6 +59921,8 @@ exports[`<Calendar> when {style} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -59039,6 +60069,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -59204,6 +60236,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -59540,6 +60574,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -59637,6 +60673,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -59734,6 +60772,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -59831,6 +60871,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -59928,6 +60970,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60025,6 +61069,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60122,6 +61168,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60231,6 +61279,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60332,6 +61382,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60433,6 +61485,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60534,6 +61588,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60631,6 +61687,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60728,6 +61786,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60825,6 +61885,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -60934,6 +61996,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61031,6 +62095,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61128,6 +62194,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61225,6 +62293,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61322,6 +62392,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61419,6 +62491,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61516,6 +62590,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61625,6 +62701,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61722,6 +62800,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61819,6 +62899,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -61916,6 +62998,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62013,6 +63097,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62110,6 +63196,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62207,6 +63295,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62316,6 +63406,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62413,6 +63505,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62510,6 +63604,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62607,6 +63703,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62704,6 +63802,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62801,6 +63901,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -62898,6 +64000,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63007,6 +64111,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63104,6 +64210,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63201,6 +64309,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63298,6 +64408,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63395,6 +64507,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63492,6 +64606,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63589,6 +64705,8 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63737,6 +64855,8 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -63902,6 +65022,8 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -64231,6 +65353,8 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -64326,6 +65450,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -64421,6 +65547,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -64516,6 +65644,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -64611,6 +65741,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -64706,6 +65838,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -64801,6 +65935,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -64908,6 +66044,8 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65003,6 +66141,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65098,6 +66238,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65197,6 +66339,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65292,6 +66436,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65387,6 +66533,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65482,6 +66630,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65589,6 +66739,8 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65684,6 +66836,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65779,6 +66933,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65874,6 +67030,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -65969,6 +67127,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66064,6 +67224,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66159,6 +67321,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66266,6 +67430,8 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66361,6 +67527,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66456,6 +67624,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66551,6 +67721,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66646,6 +67818,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66741,6 +67915,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66836,6 +68012,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -66943,6 +68121,8 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67038,6 +68218,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67133,6 +68315,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67228,6 +68412,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67323,6 +68509,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67418,6 +68606,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67513,6 +68703,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67620,6 +68812,8 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67715,6 +68909,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67810,6 +69006,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -67905,6 +69103,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -68000,6 +69200,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -68095,6 +69297,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -68190,6 +69394,8 @@ exports[`<Calendar> when {value} 1`] = `
           </View>
           <View
             accessible={true}
+            focusable={true}
+            onClick={[Function]}
             onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}

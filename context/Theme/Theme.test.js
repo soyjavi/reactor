@@ -1,23 +1,21 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
 
-import { ConsumerTheme, ProviderTheme } from './Theme';
+import { ThemeProvider } from './Theme';
 import THEME from '../../common/theme';
 
-const theme = {
-  COLOR: { PRIMARY: 'green' },
-};
+const customTheme = { COLOR: { PRIMARY: 'green' } };
 
-describe('<ProviderTheme>', () => {
+describe('<ThemeProvider>', () => {
   it('renders', () => {
-    const tree = TestRenderer.create(<ProviderTheme />).toJSON();
+    const tree = TestRenderer.create(<ThemeProvider />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {style}', () => {
     expect(THEME.COLOR.PRIMARY).toEqual('#10c0bc');
-    const tree = TestRenderer.create(<ProviderTheme style={theme} />).toJSON();
+    const tree = TestRenderer.create(<ThemeProvider style={customTheme} />).toJSON();
     expect(tree).toMatchSnapshot();
-    expect(THEME.COLOR.PRIMARY).toEqual(theme.COLOR.PRIMARY);
+    expect(THEME.COLOR.PRIMARY).toEqual(customTheme.COLOR.PRIMARY);
   });
 });

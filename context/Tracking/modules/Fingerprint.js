@@ -1,5 +1,5 @@
 import { ENV, Storage } from '../../../common';
-import deviceEntropy, { connection } from './entropy';
+import deviceEntropy from './entropy';
 import UUID from './UUID';
 
 const { PKG } = ENV;
@@ -10,10 +10,8 @@ export default async () => {
   if (typeof fingerprint === 'string') fingerprint = undefined;
 
   if (!fingerprint) {
-    const connectionEntropy = await connection();
     const entropy = {
       ...deviceEntropy,
-      ...connectionEntropy,
       random: Math.floor(Math.random() * (2 ** 32)),
       timestamp: new Date().getTime(),
     };

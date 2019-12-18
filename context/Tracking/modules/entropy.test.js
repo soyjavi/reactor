@@ -1,4 +1,4 @@
-import entropy, { connection } from './entropy';
+import entropy from './entropy';
 
 const ENTROPY_KEYS = [
   'browserName',
@@ -32,13 +32,5 @@ describe('entropy', () => {
     expect(entropy.totalMemory).toBeUndefined()
     expect(entropy.userAgent).toBeUndefined()
     expect(entropy.width).toEqual(750);
-  });
-
-  it('connection entrophy', async () => {
-    expect.assertions(3);
-    const deviceEntropy = await connection();
-    expect(Object.keys(deviceEntropy)).toEqual(['effectiveType', 'type']);
-    expect(deviceEntropy.effectiveType).toBeUndefined();
-    expect(deviceEntropy.type).toBeUndefined();
   });
 });

@@ -3,6 +3,8 @@
 exports[`<Touchable> renders 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
@@ -53,6 +55,8 @@ exports[`<Touchable> renders 1`] = `
 exports[`<Touchable> when {children} 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
@@ -105,6 +109,8 @@ exports[`<Touchable> when {children} 1`] = `
 exports[`<Touchable> when {containerBorderRadius} 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
@@ -156,6 +162,8 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
 exports[`<Touchable> when {rippleColor} 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
@@ -205,6 +213,8 @@ exports[`<Touchable> when {rippleColor} 1`] = `
 exports[`<Touchable> when {style} 1`] = `
 <View
   accessible={true}
+  focusable={false}
+  onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}

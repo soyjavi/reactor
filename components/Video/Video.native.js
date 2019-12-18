@@ -2,7 +2,8 @@ import {
   bool, func, number, string,
 } from 'prop-types';
 import React from 'react';
-import { View, WebView } from 'react-native';
+import { View } from 'react-native';
+import WebView from 'react-native-webview';
 
 import { htmlVideo } from './modules';
 import styles from './Video.style';

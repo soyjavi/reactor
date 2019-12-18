@@ -639,6 +639,8 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -754,6 +756,8 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -869,6 +873,8 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -984,6 +990,8 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1099,6 +1107,8 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1513,6 +1523,8 @@ exports[`<InputList> when {value} 1`] = `
       </Text>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1618,6 +1630,8 @@ exports[`<InputList> when {value} 1`] = `
       </Text>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1723,6 +1737,8 @@ exports[`<InputList> when {value} 1`] = `
       </Text>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1828,6 +1844,8 @@ exports[`<InputList> when {value} 1`] = `
       </Text>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1933,6 +1951,8 @@ exports[`<InputList> when {value} 1`] = `
       </Text>
       <View
         accessible={true}
+        focusable={true}
+        onClick={[Function]}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}

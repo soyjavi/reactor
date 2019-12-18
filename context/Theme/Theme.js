@@ -1,27 +1,35 @@
 import { node, shape } from 'prop-types';
-import React, { useEffect, useState, createContext } from 'react';
+import React, {
+  createContext, useContext, useEffect, useState,
+} from 'react';
 
 import THEME from '../../common/theme';
 
-const { Provider, Consumer: ConsumerTheme } = createContext('reactor:l10n');
+const ThemeContext = createContext('reactor:theme');
 
-const ProviderTheme = ({ children, style }) => {
+const ThemeProvider = ({ children, style }) => {
   const [theme, setTheme] = useState(THEME.extend(style));
   useEffect(() => {
     setTheme(THEME.extend(style));
-  }, []);
+  }, [style]);
 
-  return <Provider value={theme}>{ children }</Provider>;
+  return (
+    <ThemeContext.Provider value={theme}>
+      { children }
+    </ThemeContext.Provider>
+  );
 };
 
-ProviderTheme.propTypes = {
+ThemeProvider.propTypes = {
   children: node,
   style: shape({}),
 };
 
-ProviderTheme.defaultProps = {
+ThemeProvider.defaultProps = {
   children: undefined,
   style: {},
 };
 
-export { ConsumerTheme, ProviderTheme };
+export { ThemeProvider };
+
+export const useTheme = () => useContext(ThemeContext);

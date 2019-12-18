@@ -4,6 +4,8 @@ exports[`<Button> renders 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -110,6 +112,8 @@ exports[`<Button> when {activity} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -290,6 +294,8 @@ exports[`<Button> when {children} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -418,6 +424,8 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -549,6 +557,8 @@ exports[`<Button> when {color} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -680,6 +690,8 @@ exports[`<Button> when {contained=false} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -808,6 +820,8 @@ exports[`<Button> when {disabled} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -941,6 +955,8 @@ exports[`<Button> when {icon} & {title} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1089,6 +1105,8 @@ exports[`<Button> when {icon} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1210,6 +1228,8 @@ exports[`<Button> when {large} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1344,6 +1364,8 @@ exports[`<Button> when {outlined} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1476,6 +1498,8 @@ exports[`<Button> when {responsive} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1607,6 +1631,8 @@ exports[`<Button> when {rounded} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1744,6 +1770,8 @@ exports[`<Button> when {shadow} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1883,6 +1911,8 @@ exports[`<Button> when {small} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -2024,6 +2054,8 @@ exports[`<Button> when {style} 1`] = `
 >
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -2155,6 +2187,8 @@ exports[`<Button> when {title} 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}

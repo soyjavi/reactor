@@ -2,7 +2,7 @@ import { bool, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
-import { ConsumerTheme } from '../../context';
+import { useTheme } from '../../context';
 import styles from './Text.style';
 
 const determineStyle = ({
@@ -16,33 +16,32 @@ const determineStyle = ({
   return styles.body;
 };
 
-
 const Text = ({
   bold, lighten, color, caption, input, headline, subtitle,
   ...inherit
-}) => (
-  <ConsumerTheme>
-    { ({ FONT: { FAMILY } = {} }) => (
-      <NativeText
-        {...inherit}
-        style={[
-          styles.container,
-          determineStyle({
-            caption, input, headline, subtitle,
-          }),
-          lighten && styles.lighten,
-          // -- flatten
-          StyleSheet.flatten([
-            FAMILY && { fontFamily: FAMILY },
-            bold && styles.bold,
-            inherit.style,
-            color && { color },
-          ]),
-        ]}
-      />
-    )}
-  </ConsumerTheme>
-);
+}) => {
+  const { FONT: { FAMILY } = {} } = useTheme();
+
+  return (
+    <NativeText
+      {...inherit}
+      style={[
+        styles.container,
+        determineStyle({
+          caption, input, headline, subtitle,
+        }),
+        lighten && styles.lighten,
+        // -- flatten
+        StyleSheet.flatten([
+          FAMILY && { fontFamily: FAMILY },
+          bold && styles.bold,
+          inherit.style,
+          color && { color },
+        ]),
+      ]}
+    />
+  );
+};
 
 Text.propTypes = {
   bold: bool,
