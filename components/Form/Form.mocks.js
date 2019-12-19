@@ -4,7 +4,10 @@ const ATTRIBUTES = {
   username: {
     disabled: true, required: true, defaultValue: 'soyjavi',
   },
-  password: { required: true, defaultValue: 'soyjavi' },
+  password: {
+    required: true,
+    defaultValue: 'soyjavi',
+  },
   mail: {
     keyboard: 'email-address',
     placeholder: 'Your email...',
@@ -32,14 +35,14 @@ const ATTRIBUTES = {
     inline: 3,
   },
   role: {
-    required: true,
+    // required: true,
     type: 'select',
     defaultValue: DATASOURCE_STRING[2],
     dataSource: DATASOURCE_STRING,
     inline: 3,
   },
   roleAdvanced: {
-    required: true,
+    // required: true,
     type: 'select',
     defaultValue: 2,
     dataSource: DATASOURCE,
@@ -65,14 +68,14 @@ const ATTRIBUTES = {
   isOption3: { type: 'option', label: 'Option 3' },
   isOptionRounded: { type: 'option', rounded: false, label: 'Checkbox' },
 
-  social: {
-    title: 'Social Networks',
-    attributes: {
-      twitter: { icon: 'twitter', inline: 3 },
-      facebook: { icon: 'facebook', inline: 3 },
-      github: { inline: 3, required: true, requiredIcon: true },
-    },
-  },
+  // social: {
+  //   title: 'Social Networks',
+  //   attributes: {
+  //     twitter: { icon: 'twitter', inline: 3 },
+  //     facebook: { icon: 'facebook', inline: 3 },
+  //     github: { inline: 3, required: true, requiredIcon: true },
+  //   },
+  // },
   languages: { type: 'list' },
   terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
 };

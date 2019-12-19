@@ -14,15 +14,6 @@ export default StyleSheet.create({
     width: '100%',
   },
 
-  fieldset: {
-    paddingTop: SPACE.REGULAR,
-    paddingHorizontal: SPACE.REGULAR,
-    borderColor: COLOR.BASE,
-    borderRadius: BORDER_RADIUS,
-    borderWidth: 1,
-    marginBottom: SPACE.REGULAR,
-  },
-
   row: {
     ...LAYOUT.STYLE.ROW,
     flexDirection: 'column',

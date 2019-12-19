@@ -1,8 +1,8 @@
 import {
-  bool, func, shape, string,
+  bool, func, number, oneOfType, shape, string,
 } from 'prop-types';
-import React, { createElement, PureComponent } from 'react';
-import { ScrollView, View } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View } from 'react-native';
 
 import Input from '../Input';
 import InputDate from '../InputDate';
@@ -13,7 +13,7 @@ import InputSelect from '../InputSelect';
 import Text from '../Text';
 import Switch from '../Switch';
 import {
-  buildStyle, consolidate, isValidEmail, isValidPhone, set,
+  buildStyle, consolidate, isValidEmail, isValidPhone,
 } from './modules';
 import styles from './Form.style';
 
@@ -33,139 +33,114 @@ const Inputs = {
   list: InputList,
 };
 
-class Form extends PureComponent {
-  static propTypes = {
-    attributes: shape({}),
-    color: string,
-    value: shape({}),
-    onChange: func,
-    onValid: func,
-    title: string,
-    validate: bool,
-  };
-
-  static defaultProps = {
-    attributes: {},
-    color: undefined,
-    value: undefined,
-    title: undefined,
-    onChange: undefined,
-    onValid() {},
-    validate: false,
-  };
-
-  constructor(props) {
-    super(props);
-    this.state = { valid: true };
+const Field = ({
+  props: {
+    disabled, inline, keyboard, required, style, type, label, countryCode, defaultValue, ...props
+  } = {},
+  validate,
+  value = defaultValue,
+  ...inherit
+}) => {
+  let { error } = props;
+  if (!error && KEYBOARDS_KEYS.includes(keyboard) && !KEYBOARDS[keyboard](value, { countryCode })) {
+    error = 'error';
   }
 
-  componentWillMount() {
-    consolidate(this.props);
-  }
+  const InputComponent = Inputs[type] || Input;
 
-  componentWillReceiveProps(nextProps) {
-    consolidate(nextProps);
-  }
+  // @TODO: We should use useCallback optimizing renders
+  return (
+    <InputComponent
+      {...inherit}
+      {...props}
+      label={label || inherit.field}
+      error={error}
+      required={required && (value === undefined || (!type && value.trim().length === 0))}
+      valid={!error && !disabled && value && validate}
+      value={value}
+      style={buildStyle({ inline, style }, styles)}
+    />
+  );
+};
 
-  componentWillUpdate() {
-    this.state.valid = true;
-  }
+Field.propTypes = {
+  props: shape({}),
+  validate: bool,
+  value: oneOfType([number, string]),
+};
 
-  componentDidUpdate() {
-    const { props: { onValid }, state: { valid } } = this;
-    onValid(valid);
-  }
+Field.defaultProps = {
+  props: {},
+  validate: false,
+  value: undefined,
+};
 
-  _onChange = ({ keyValue, keyMap }) => {
-    const { props: { value, onChange } } = this;
-
-    if (onChange) onChange(set(value, keyMap, keyValue));
-  }
-
-  renderForm = ({
-    attributes = {}, fieldset = false, inline, key, style, title, value = {},
-  }) => {
-    const { renderField, renderForm } = this;
-
-    return (
-      <View key={key} style={[styles.container, style, fieldset && styles.fieldset]}>
-        { title && (
-        <Text headline style={[styles.title, styles.anchor]}>
-          {title}
-        </Text>
-        ) }
-        {
-          Object.keys(attributes).map((field) => {
-            const props = attributes[field];
-            const keyMap = key ? `${key}.${field}` : field;
-
-            return props.attributes
-              ? renderForm({
-                attributes: props.attributes,
-                fieldset: true,
-                key: keyMap,
-                style: buildStyle({ inline, style }, styles),
-                title: props.title,
-                value: value[field],
-              })
-              : renderField({
-                field, props, value: value[field], keyMap,
-              });
-          })
-        }
-      </View>
-    );
-  }
-
-  renderField = ({
-    field,
-    props: {
-      countryCode, defaultValue, inline, required, style, type, ...props
-    } = {},
-    value = defaultValue,
-    keyMap,
-  }) => {
-    const { _onChange, props: { color, validate } } = this;
-    let { error } = props;
-    let invalid = required && !props.disabled && ((!type && value && value.trim().length === 0) || !value);
-    let valid = false;
-
-    if (KEYBOARDS_KEYS.includes(props.keyboard) && (!KEYBOARDS[props.keyboard](value, { countryCode }))) {
-      error = 'error';
-      invalid = true;
+const Form = ({
+  attributes, color, onChange, onValid, title, validate, value = {}, ...inherit
+}) => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    if (!mounted) {
+      setMounted(true);
+      onChange(consolidate(attributes, value));
     }
+  }, [mounted]);
 
-    if (invalid) this.state.valid = false;
-    else if (!error && !props.disabled && validate && value) valid = true;
+  useEffect(() => {
+    if (onValid) {
+      const invalid = Object.keys(attributes)
+        .filter((field) => attributes[field].required && !attributes[field].disabled)
+        .some((field) => {
+          const {
+            countryCode, defaultValue, keyboard, type,
+          } = attributes[field];
+          const fieldValue = value[field] !== undefined ? value[field] : defaultValue;
 
-    return createElement(Inputs[type] || Input, {
-      key: keyMap,
-      label: props.label || field,
-      color,
-      ...props,
-      error,
-      required: required && (value === undefined || (!type && value.trim().length === 0)),
-      valid,
-      value,
-      onChange: (keyValue) => _onChange({ keyValue, keyMap }),
-      style: buildStyle({ inline, style }, styles),
-    });
-  }
+          return (!type && fieldValue && fieldValue.trim().length === 0)
+            || (KEYBOARDS_KEYS.includes(keyboard) && (!KEYBOARDS[keyboard](fieldValue, { countryCode })))
+            || !fieldValue;
+        });
 
-  render() {
-    const {
-      renderForm,
-      props: {
-        attributes, value, title, ...inherit
-      },
-    } = this;
+      onValid(!invalid);
+    }
+  }, [value]);
 
-    return (
-      <ScrollView style={inherit.style}>
-        {renderForm({ attributes, value, title })}
-      </ScrollView>
-    );
-  }
-}
+  return (
+    <View style={[styles.container, inherit.style]}>
+      { title && <Text headline style={[styles.title, styles.anchor]}>{title}</Text> }
+      { Object.keys(attributes).map((field) => (
+        <Field
+          color={color}
+          field={field}
+          key={field}
+          onChange={(fieldValue) => onChange(consolidate(attributes, { ...value, [field]: fieldValue }))}
+          props={attributes[field]}
+          validate={validate}
+          value={value[field]}
+        />
+      ))}
+    </View>
+  );
+};
+
+Form.propTypes = {
+  attributes: shape({}),
+  color: string,
+  value: shape({}),
+  onChange: func,
+  onValid: func,
+  title: string,
+  validate: bool,
+};
+
+Form.defaultProps = {
+  attributes: {},
+  color: undefined,
+  value: undefined,
+  title: undefined,
+  onChange() {},
+  onValid: undefined,
+  validate: false,
+};
 
 export default Form;

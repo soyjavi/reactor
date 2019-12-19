@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import {
   Activity,
@@ -37,12 +37,10 @@ const THEME = {
 
 export default () => {
   const [dialog, setDialog] = useState(false);
-  const [calendar, setCalendar] = useState(undefined);
   const [theme, setTheme] = useState(undefined);
-  const [form, setForm] = useState({});
+  const [form, setForm] = useState();
+  useEffect(() => console.log('useEffect::form', form), [form]);
   const l10n = useL10N();
-
-  console.log('10n', l10n);
 
   return (
     <Provider dictionary={DICTIONARY} language="en-EN" theme={theme}>
@@ -54,12 +52,10 @@ export default () => {
         <Form
           attributes={ATTRIBUTES}
           onChange={setForm}
-          onValid={(value) => console.log('onValid', value)}
+          onValid={(value) => console.log('::onValid::', value)}
           validate
           value={form}
         />
-
-        <InputDate onChange={setCalendar} range value={calendar} />
 
         <Slider itemWidth={320} navigation>
           <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
