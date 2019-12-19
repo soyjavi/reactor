@@ -49,7 +49,7 @@ class Calendar extends PureComponent {
     value: undefined,
   };
 
-  constructor(props) {
+constructor(props) {
     super(props);
     const { value, date } = props;
 
@@ -62,7 +62,7 @@ class Calendar extends PureComponent {
     };
   }
 
-  componentWillReceiveProps({ date, value }) {
+  UNSAFE_componentWillReceiveProps({ date, value }) {
     const { props } = this;
     if ((value && value !== props.value) || (date && date !== props.date)) {
       this.setState({ ...decomposeDate(value || date) });

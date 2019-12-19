@@ -53,7 +53,7 @@ class Motion extends PureComponent {
     this.state = { ...state };
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const { props, state = {} } = this;
     const {
       delay, disabled, duration, preset, timeline = [], type, useNativeDriver, visible,

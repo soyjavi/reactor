@@ -47,7 +47,7 @@ class Slider extends PureComponent {
     this.state = { x: 0 };
   }
 
-  componentWillReceiveProps() {
+  UNSAFE_componentWillReceiveProps() {
     this.setState({ x: 0 });
   }
 

@@ -23,9 +23,6 @@ export default ({
 
   if (IS_WEB && !IS_SERVER && Number.prototype.toLocaleString) {
     value = parseFloat(amount.toFixed(fixed)).toLocaleString(locale, {
-      // style: 'currency',
-      // currency: 'THB',
-      // currencyDisplay: 'symbol',
       minimumFractionDigits: 0,
       maximumFractionDigits: fixed,
     });
