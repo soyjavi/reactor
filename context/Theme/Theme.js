@@ -1,7 +1,5 @@
 import { node, shape } from 'prop-types';
-import React, {
-  createContext, useContext, useEffect, useState,
-} from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 
 import THEME from '../../common/theme';
 
@@ -13,11 +11,7 @@ const ThemeProvider = ({ children, style }) => {
     setTheme(THEME.extend(style));
   }, [style]);
 
-  return (
-    <ThemeContext.Provider value={theme}>
-      { children }
-    </ThemeContext.Provider>
-  );
+  return <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>;
 };
 
 ThemeProvider.propTypes = {

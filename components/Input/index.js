@@ -1,3 +1,1 @@
-export {
-  default, InputHint, InputIcon, InputLabel,
-} from './Input';
+export { default, InputHint, InputIcon, InputLabel } from './Input';

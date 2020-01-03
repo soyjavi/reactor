@@ -11,9 +11,7 @@ const DEFAULTS = {
   RADIUS: 10,
 };
 
-const Ripple = ({
-  color, progress, range, x, y,
-}) => (
+const Ripple = ({ color, progress, range, x, y }) => (
   <Animated.View
     style={[
       styles.ripple,
@@ -22,12 +20,14 @@ const Ripple = ({
         left: x - DEFAULTS.RADIUS,
         backgroundColor: color,
 
-        transform: [{
-          scale: progress.interpolate({
-            inputRange: [0, 1],
-            outputRange: [0.5 / DEFAULTS.RADIUS, range / DEFAULTS.RADIUS],
-          }),
-        }],
+        transform: [
+          {
+            scale: progress.interpolate({
+              inputRange: [0, 1],
+              outputRange: [0.5 / DEFAULTS.RADIUS, range / DEFAULTS.RADIUS],
+            }),
+          },
+        ],
 
         opacity: progress.interpolate({
           inputRange: [0, 1],

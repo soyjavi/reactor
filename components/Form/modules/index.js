@@ -3,9 +3,4 @@ import consolidate from './consolidate';
 import isValidEmail from './isValidEmail';
 import isValidPhone from './isValidPhone';
 
-export {
-  buildStyle,
-  consolidate,
-  isValidEmail,
-  isValidPhone,
-};
+export { buildStyle, consolidate, isValidEmail, isValidPhone };

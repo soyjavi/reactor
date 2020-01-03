@@ -1,10 +1,6 @@
-import {
-  func, node, number, string,
-} from 'prop-types';
+import { func, node, number, string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import {
-  Animated, Easing, TouchableWithoutFeedback, View,
-} from 'react-native';
+import { Animated, Easing, TouchableWithoutFeedback, View } from 'react-native';
 
 import { THEME } from '../../common';
 import Ripple from './components/Ripple';
@@ -54,19 +50,17 @@ class Touchable extends PureComponent {
 
   onAnimationEnd = () => {
     if (this.mounted) this.setState(({ ripples }) => ({ ripples: ripples.slice(1) }));
-  }
+  };
 
   _onLayout = (event) => {
     const { width, height } = event.nativeEvent.layout;
     this.setState({ width, height });
-  }
+  };
 
   _onPressIn = (event) => {
     const {
       onAnimationEnd,
-      state: {
-        mask, ripples, width, height,
-      },
+      state: { mask, ripples, width, height },
     } = this;
     const { locationX: x, locationY: y } = event.nativeEvent;
 
@@ -77,61 +71,62 @@ class Touchable extends PureComponent {
     const offsetX = Math.abs(w - x);
     const offsetY = Math.abs(h - y);
     const ripple = {
-      key: (new Date()).getTime(),
+      key: new Date().getTime(),
       progress: new Animated.Value(0),
-      range: Math.sqrt(((w + offsetX) ** 2) + ((h + offsetY) ** 2)),
+      range: Math.sqrt((w + offsetX) ** 2 + (h + offsetY) ** 2),
       x,
       y,
     };
 
     Animated.timing(ripple.progress, ANIMATION).start(onAnimationEnd);
     this.setState({ ripples: [...ripples, ripple] });
-  }
+  };
 
   _onPressOut = () => {
-    const { state: { mask } } = this;
+    const {
+      state: { mask },
+    } = this;
 
     Animated.timing(mask, { ...ANIMATION, toValue: 0 }).start();
-  }
+  };
 
   _onPress = (event) => {
-    const { props: { onPress } } = this;
+    const {
+      props: { onPress },
+    } = this;
 
     event.preventDefault();
     onPress(event);
-  }
+  };
 
   render() {
     const {
-      _onPressIn, _onPress, _onPressOut, _onLayout,
-      props: {
-        children, containerBorderRadius, onPress, rippleColor, ...inherit
-      },
-      state: {
-        mask, width, height, ripples = [],
-      },
+      _onPressIn,
+      _onPress,
+      _onPressOut,
+      _onLayout,
+      props: { children, containerBorderRadius, onPress, rippleColor, ...inherit },
+      state: { mask, width, height, ripples = [] },
     } = this;
     const events = onPress
       ? {
-        onLayout: _onLayout, onPressIn: _onPressIn, onPress: _onPress, onPressOut: _onPressOut,
-      }
+          onLayout: _onLayout,
+          onPressIn: _onPressIn,
+          onPress: _onPress,
+          onPressOut: _onPressOut,
+        }
       : {};
 
     return (
       <TouchableWithoutFeedback {...events}>
-        <View
-          pointerEvents={onPress ? 'box-only' : 'none'}
-          style={[styles.container, inherit.style]}
-        >
+        <View pointerEvents={onPress ? 'box-only' : 'none'} style={[styles.container, inherit.style]}>
           {children}
           <View style={[styles.ripples, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
-            { ripples.map((props) => <Ripple color={rippleColor} {...props} />)}
+            {ripples.map((props, index) => (
+              <Ripple key={index.toString()} color={rippleColor} {...props} />
+            ))}
             <Animated.View
-              style={[
-                styles.mask,
-                { opacity: mask, height, width },
-                rippleColor && { backgroundColor: rippleColor },
-              ]}
+              style={[styles.mask, { opacity: mask, height, width }, rippleColor && { backgroundColor: rippleColor }]}
             />
           </View>
         </View>

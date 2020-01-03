@@ -6,14 +6,10 @@ import { ProviderTracking } from './Tracking';
 import { L10NProvider, useL10N } from './L10N';
 import { ThemeProvider, useTheme } from './Theme';
 
-const Provider = ({
-  children, dictionary, language, session, theme,
-}) => (
+const Provider = ({ children, dictionary, language, session, theme }) => (
   <ProviderTracking session={session}>
     <L10NProvider dictionary={dictionary} language={language}>
-      <ThemeProvider style={theme}>
-        {children}
-      </ThemeProvider>
+      <ThemeProvider style={theme}>{children}</ThemeProvider>
     </L10NProvider>
   </ProviderTracking>
 );
@@ -33,13 +29,4 @@ Provider.defaultProps = {
   theme: undefined,
 };
 
-export {
-  Provider,
-
-  ProviderTracking,
-  L10NProvider,
-  ThemeProvider,
-
-  useL10N,
-  useTheme,
-};
+export { Provider, ProviderTracking, L10NProvider, ThemeProvider, useL10N, useTheme };

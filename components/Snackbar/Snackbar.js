@@ -10,9 +10,7 @@ import styles from './Snackbar.style';
 
 const { COLOR } = THEME;
 
-const Snackbar = ({
-  button, caption, color, onPress, ...inherit
-}) => (
+const Snackbar = ({ button, caption, color, onPress, ...inherit }) => (
   <Dialog
     background={false}
     style={[styles.frame, { backgroundColor: color }]}
@@ -20,8 +18,10 @@ const Snackbar = ({
     visible={inherit.visible}
   >
     <View style={styles.container}>
-      <Text color={COLOR.WHITE} style={styles.caption}>{caption}</Text>
-      { button && <Button color={COLOR.WHITE} contained={false} onPress={onPress} small title={button} /> }
+      <Text color={COLOR.WHITE} style={styles.caption}>
+        {caption}
+      </Text>
+      {button && <Button color={COLOR.WHITE} contained={false} onPress={onPress} small title={button} />}
     </View>
   </Dialog>
 );

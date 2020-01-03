@@ -1,8 +1,6 @@
 import { Dimensions, Platform } from 'react-native';
 
-import {
-  renderStyle, screenType, style, userAgentScreenSize,
-} from './modules';
+import { renderStyle, screenType, style, userAgentScreenSize } from './modules';
 
 class Layout {
   constructor() {

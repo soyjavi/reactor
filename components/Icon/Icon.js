@@ -1,6 +1,4 @@
-import {
-  bool, number, oneOfType, string,
-} from 'prop-types';
+import { bool, number, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { Platform, StyleSheet, Image } from 'react-native';
 
@@ -9,9 +7,7 @@ import styles from './Icon.style';
 
 const isWeb = Platform.OS === 'web';
 
-const Icon = ({
-  color, invert, size, value, ...inherit
-}) => {
+const Icon = ({ color, invert, size, value, ...inherit }) => {
   const [, navigation] = typeof value === 'string' ? value.split('nav') : [];
   let asset;
   let rotate;
@@ -34,12 +30,13 @@ const Icon = ({
         styles.container,
         inherit.style,
 
-        (color || invert || rotate || size) && StyleSheet.flatten([
-          color && !isWeb && { tintColor: color },
-          invert && isWeb && { filter: 'invert(100%)' },
-          rotate && { transform: [{ rotate: `${rotate}deg` }] },
-          size && { width: size, height: size },
-        ]),
+        (color || invert || rotate || size) &&
+          StyleSheet.flatten([
+            color && !isWeb && { tintColor: color },
+            invert && isWeb && { filter: 'invert(100%)' },
+            rotate && { transform: [{ rotate: `${rotate}deg` }] },
+            size && { width: size, height: size },
+          ]),
       ]}
     />
   );

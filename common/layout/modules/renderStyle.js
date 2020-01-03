@@ -2,9 +2,7 @@ import STYLE from './style';
 import screenType from './screenType';
 
 export default (width = 360) => {
-  const {
-    TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
-  } = screenType(width);
+  const { TINY, PHONE, TABLET, SMALL, REGULAR, LARGE } = screenType(width);
   const DEFAULT = REGULAR || LARGE;
 
   return {

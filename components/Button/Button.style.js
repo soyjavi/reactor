@@ -2,9 +2,7 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const {
-  BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE,
-} = THEME;
+const { BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE } = THEME;
 
 const LARGE_SIZE = UNIT * 5.2;
 const REGULAR_SIZE = UNIT * 4.4;

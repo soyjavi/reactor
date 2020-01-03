@@ -9,7 +9,10 @@ import styles from './Selector.style';
 
 const { COLOR } = THEME;
 const buttonProps = {
-  color: COLOR.LIGHT_GREY, outlined: true, rounded: true, small: true,
+  color: COLOR.LIGHT_GREY,
+  outlined: true,
+  rounded: true,
+  small: true,
 };
 
 const Selector = ({ onPrevious, onNext, title }) => (
@@ -21,7 +24,9 @@ const Selector = ({ onPrevious, onNext, title }) => (
       onPress={onPrevious}
       style={!onPrevious && styles.buttonDisabled}
     />
-    <Text headline style={styles.value}>{title}</Text>
+    <Text headline style={styles.value}>
+      {title}
+    </Text>
     <Button
       {...buttonProps}
       disabled={!onNext}

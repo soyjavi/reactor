@@ -2,7 +2,9 @@ import { DATASOURCE, DATASOURCE_STRING } from '../InputSelect/InputSelect.mocks'
 
 const ATTRIBUTES = {
   username: {
-    disabled: true, required: true, defaultValue: 'soyjavi',
+    disabled: true,
+    required: true,
+    defaultValue: 'soyjavi',
   },
   password: {
     required: true,
@@ -91,7 +93,8 @@ const VALUE = {
 };
 
 const STYLE = {
-  backgroundColor: 'rgba(255,255,255,1)', padding: 20,
+  backgroundColor: 'rgba(255,255,255,1)',
+  padding: 20,
 };
 
 export { ATTRIBUTES, VALUE, STYLE };

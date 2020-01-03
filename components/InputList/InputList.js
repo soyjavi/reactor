@@ -1,6 +1,4 @@
-import {
-  arrayOf, bool, func, oneOfType, shape, string,
-} from 'prop-types';
+import { arrayOf, bool, func, oneOfType, shape, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
@@ -46,13 +44,15 @@ class InputList extends PureComponent {
   }
 
   _onInputChange = (inputValue) => {
-    const { props: { dataSource, dataSourceField, value } } = this;
+    const {
+      props: { dataSource, dataSourceField, value },
+    } = this;
 
     this.setState({
       inputValue,
       suggestions: dataSource && inputValue ? filterDataSource(dataSource, inputValue, value, dataSourceField) : [],
     });
-  }
+  };
 
   _onInputSubmit = () => {
     const {
@@ -66,35 +66,43 @@ class InputList extends PureComponent {
       const newItem = (typeof suggestion === 'object' ? suggestion[dataSourceField] : suggestion) || inputValue;
       _onChange(newItem);
     }
-  }
+  };
 
   _onSelectItem = (item) => {
-    const { _onChange, props: { dataSourceField } } = this;
-    const newItem = (typeof item === 'object' && dataSourceField) ? item[dataSourceField] : item;
+    const {
+      _onChange,
+      props: { dataSourceField },
+    } = this;
+    const newItem = typeof item === 'object' && dataSourceField ? item[dataSourceField] : item;
     _onChange(newItem);
-  }
+  };
 
   _onRemoveItem = (item) => {
-    const { props: { onChange, value = [] } } = this;
+    const {
+      props: { onChange, value = [] },
+    } = this;
     const newValue = value.filter((i) => i !== item);
     onChange(newValue.length > 0 ? newValue : undefined);
-  }
+  };
 
   _onChange = (item) => {
-    const { props: { onChange, value = [] } } = this;
+    const {
+      props: { onChange, value = [] },
+    } = this;
 
     if (!value.includes(item)) {
       onChange([...value, item]);
       this.setState({ inputValue: undefined, suggestions: [] });
     }
-  }
+  };
 
   render() {
     const {
-      _onInputSubmit, _onInputChange, _onSelectItem, _onRemoveItem,
-      props: {
-        dataSource, dataSourceField, itemTemplate, onChange, value = [], ...inherit
-      },
+      _onInputSubmit,
+      _onInputChange,
+      _onSelectItem,
+      _onRemoveItem,
+      props: { dataSource, dataSourceField, itemTemplate, value = [], ...inherit },
       state: { active, inputValue, suggestions = [] },
     } = this;
     const { disabled, error } = inherit;
@@ -112,9 +120,9 @@ class InputList extends PureComponent {
           value={inputValue}
         />
 
-        { suggestions.length > 0 && (
+        {suggestions.length > 0 && (
           <View style={[styles.content, styles.suggestions]}>
-            { suggestions.map((item) => (
+            {suggestions.map((item) => (
               <Touchable
                 key={objDataSource ? item[dataSourceField] : item}
                 onPress={() => _onSelectItem(item)}
@@ -126,14 +134,12 @@ class InputList extends PureComponent {
           </View>
         )}
 
-        { value.length > 0 && (
+        {value.length > 0 && (
           <View
             style={[styles.content, styles.values, !disabled && error && styles.error, disabled && styles.disabled]}
           >
-            { value.map((item) => {
-              const itemValue = objDataSource
-                ? dataSource.find((i) => i[dataSourceField] === item).title
-                : item;
+            {value.map((item) => {
+              const itemValue = objDataSource ? dataSource.find((i) => i[dataSourceField] === item).title : item;
 
               return (
                 <View

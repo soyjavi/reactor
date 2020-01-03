@@ -35,7 +35,7 @@ export default {
     SMALL: {
       shadowColor: BLACK,
       shadowOffset: { height: 1, width: 0 },
-      shadowOpacity: 0.20,
+      shadowOpacity: 0.2,
       shadowRadius: 2,
       ...Platform.select({
         android: { elevation: 2 },
@@ -46,7 +46,7 @@ export default {
     REGULAR: {
       shadowColor: BLACK,
       shadowOffset: { height: 2, width: 0 },
-      shadowOpacity: 0.20,
+      shadowOpacity: 0.2,
       shadowRadius: 8,
       ...Platform.select({
         android: { elevation: 8 },
@@ -57,7 +57,7 @@ export default {
     LARGE: {
       shadowColor: BLACK,
       shadowOffset: { height: 4, width: 0 },
-      shadowOpacity: 0.30,
+      shadowOpacity: 0.3,
       shadowRadius: 24,
       ...Platform.select({
         android: { elevation: 24 },

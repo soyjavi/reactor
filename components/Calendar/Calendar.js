@@ -1,15 +1,11 @@
-import {
-  arrayOf, bool, func, oneOfType, shape,
-} from 'prop-types';
+import { arrayOf, bool, func, oneOfType, shape } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import { ENV } from '../../common';
 import Activity from '../Activity';
 import { DayNames, Selector, Week } from './components';
-import {
-  decomposeDate, firstDateOfWeek, LOCALE, nextMonth, previousMonth,
-} from './modules';
+import { decomposeDate, firstDateOfWeek, LOCALE, nextMonth, previousMonth } from './modules';
 import styles from './Calendar.style';
 
 const VISIBLE_WEEKS = Array.from(Array(6).keys());
@@ -49,7 +45,7 @@ class Calendar extends PureComponent {
     value: undefined,
   };
 
-constructor(props) {
+  constructor(props) {
     super(props);
     const { value, date } = props;
 
@@ -70,22 +66,27 @@ constructor(props) {
   }
 
   _onChange = ({ month, year }) => {
-    const { props: { onChange } } = this;
+    const {
+      props: { onChange },
+    } = this;
 
     onChange(month, year);
     this.setState({ month, year });
-  }
+  };
 
   Instance = ({ next, onNext, onPrevious }) => {
     const {
       _onChange,
       props: {
-        busy, locale: { DAY_NAMES, MONTHS }, onSelect, ...props
+        busy,
+        locale: { DAY_NAMES, MONTHS },
+        onSelect,
+        ...props
       },
       state,
     } = this;
     const date = new Date(state.year, state.month + (next ? 1 : 0));
-    const week = Math.ceil((((date - new Date(date.getFullYear(), 0, 1)) / 8.64e7)) / 7);
+    const week = Math.ceil((date - new Date(date.getFullYear(), 0, 1)) / 8.64e7 / 7);
 
     return (
       <View style={styles.instance}>
@@ -96,7 +97,7 @@ constructor(props) {
         />
         <View style={[styles.days, busy && styles.busy]}>
           <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
-          { VISIBLE_WEEKS.map((weekIndex) => (
+          {VISIBLE_WEEKS.map((weekIndex) => (
             <Week
               key={week + weekIndex}
               {...props}
@@ -110,24 +111,22 @@ constructor(props) {
         </View>
       </View>
     );
-  }
+  };
 
   render() {
     const {
       Instance,
-      props: {
-        busy, disabledPast, expanded, ...inherit
-      },
+      props: { busy, disabledPast, expanded, ...inherit },
       state: { month, year, today },
     } = this;
     const disabledPrevious = disabledPast && today.getFullYear() === year && today.getMonth() === month;
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { busy && <Activity size="large" style={styles.activity} /> }
+        {busy && <Activity size="large" style={styles.activity} />}
         <View style={styles.content}>
           <Instance onNext={!expanded} onPrevious={!disabledPrevious} />
-          { expanded && <Instance next onNext /> }
+          {expanded && <Instance next onNext />}
         </View>
       </View>
     );

@@ -1,6 +1,4 @@
-import {
-  array, bool, number, oneOfType, string,
-} from 'prop-types';
+import { array, bool, number, oneOfType, string } from 'prop-types';
 
 export default {
   RATING: {

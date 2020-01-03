@@ -37,5 +37,10 @@ const VALUE_NAV = {
 const VALUE_URI = 'http://soyjavi.com/assets/images/soyjavi.jpg';
 
 export default {
-  COLOR, ICONS, STYLE, VALUE, VALUE_NAV, VALUE_URI,
+  COLOR,
+  ICONS,
+  STYLE,
+  VALUE,
+  VALUE_NAV,
+  VALUE_URI,
 };

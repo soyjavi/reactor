@@ -11,11 +11,7 @@ const ProgressBar = ({ progress = 0, ...inherit }) => {
   return (
     <View
       onLayout={({ nativeEvent: { layout = {} } }) => setLayoutWidth(layout.width)}
-      style={[
-        styles.container,
-        inherit.style,
-        inherit.trackColor && { backgroundColor: inherit.trackColor },
-      ]}
+      style={[styles.container, inherit.style, inherit.trackColor && { backgroundColor: inherit.trackColor }]}
     >
       <Motion
         duration={inherit.duration}

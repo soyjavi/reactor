@@ -5,9 +5,10 @@ const { NODE_ENV, REACT_APP_ENV = 'development' } = process.env;
 const IS_SERVER = typeof window === 'undefined';
 const IS_WEB = Platform.OS === 'web';
 const IS_PRODUCTION = NODE_ENV === 'production' && NODE_ENV === REACT_APP_ENV;
-const IS_MOBILE_WEB = IS_WEB && !IS_SERVER
-  ? /iPhone|Android|Tablet|iPad|Mobile|iPod|Windows Phone|Blackberry/i.test(DeviceInfo.userAgent)
-  : false;
+const IS_MOBILE_WEB =
+  IS_WEB && !IS_SERVER
+    ? /iPhone|Android|Tablet|iPad|Mobile|iPod|Windows Phone|Blackberry/i.test(DeviceInfo.userAgent)
+    : false;
 
 if (IS_WEB && !IS_SERVER) window.reactor = { version: PKG.version };
 

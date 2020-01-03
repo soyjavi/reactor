@@ -47,7 +47,7 @@ export default StyleSheet.create({
 
   caption: {
     position: 'absolute',
-    top: (BOX_SIZE / 2) + (UNIT / 1.35),
+    top: BOX_SIZE / 2 + UNIT / 1.35,
     lineHeight: UNIT,
     fontSize: UNIT,
     opacity: 0.5,

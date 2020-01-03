@@ -1,6 +1,4 @@
-import {
-  bool, func, number, string,
-} from 'prop-types';
+import { bool, func, number, string } from 'prop-types';
 import React, { Component } from 'react';
 import { View } from 'react-native';
 
@@ -39,27 +37,30 @@ class Video extends Component {
     const { el = {}, props, state } = this;
 
     if (el.play && el.pause) el[autoPlay ? 'play' : 'pause']();
-    return (source !== props.source || ready !== state.ready);
+    return source !== props.source || ready !== state.ready;
   }
 
   _onLoad = () => {
-    const { props: { onLoad } } = this;
+    const {
+      props: { onLoad },
+    } = this;
 
     this.setState({ ready: true });
     onLoad();
-  }
+  };
 
   render() {
     const {
       _onLoad,
-      props: {
-        autoPlay, controls, height, onLoad, preload, source, width, ...inherit
-      },
+      props: { autoPlay, controls, height, preload, source, width, ...inherit },
       state: { ready },
     } = this;
     const embed = embedUrl(source);
     const dimensions = {
-      height, width, maxHeight: height, maxWidth: width,
+      height,
+      width,
+      maxHeight: height,
+      maxWidth: width,
     };
     const pointerEvents = !controls ? 'none' : undefined;
 
@@ -68,37 +69,37 @@ class Video extends Component {
         pointerEvents={!controls && autoPlay ? 'none' : undefined}
         style={[styles.container, dimensions, !ready && styles.loading, inherit.style]}
       >
-        { !ready && <Activity size="large" style={styles.activity} /> }
+        {!ready && <Activity size="large" style={styles.activity} />}
 
-        { embed
-          ? (
-            <iframe
-              allowFullScreen
-              key={embed}
-              frameBorder={0}
-              onLoad={_onLoad}
-              pointerEvents={pointerEvents}
-              width="100%"
-              height="100%"
-              src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}
-              title={embed}
-            />
-          )
-          : (
-            <video
-              {...inherit}
-              ref={(el) => { this.el = el; }}
-              autoPlay={autoPlay}
-              controls={controls ? 'true' : undefined}
-              onLoadedData={_onLoad}
-              pointerEvents={pointerEvents}
-              preload={preload ? 'auto' : 'none'}
-              style={{ objectFit: 'cover', width, height }}
-            >
-              <source src={source} />
-              <track kind="captions" />
-            </video>
-          )}
+        {embed ? (
+          <iframe
+            allowFullScreen
+            key={embed}
+            frameBorder={0}
+            onLoad={_onLoad}
+            pointerEvents={pointerEvents}
+            width="100%"
+            height="100%"
+            src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}
+            title={embed}
+          />
+        ) : (
+          <video
+            {...inherit}
+            ref={(el) => {
+              this.el = el;
+            }}
+            autoPlay={autoPlay}
+            controls={controls ? 'true' : undefined}
+            onLoadedData={_onLoad}
+            pointerEvents={pointerEvents}
+            preload={preload ? 'auto' : 'none'}
+            style={{ objectFit: 'cover', width, height }}
+          >
+            <source src={source} />
+            <track kind="captions" />
+          </video>
+        )}
       </View>
     );
   }

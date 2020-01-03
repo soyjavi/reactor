@@ -7,7 +7,7 @@ import styles from './InputIcon.style';
 
 const InputIcon = ({ active, ...inherit }) => (
   <View style={[styles.container, active && styles.active, inherit.style]}>
-    { active && <Icon value="doneContrast" style={styles.icon} /> }
+    {active && <Icon value="doneContrast" style={styles.icon} />}
   </View>
 );
 

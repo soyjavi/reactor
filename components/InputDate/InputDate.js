@@ -1,6 +1,4 @@
-import {
-  arrayOf, bool, func, oneOfType, shape, string,
-} from 'prop-types';
+import { arrayOf, bool, func, oneOfType, shape, string } from 'prop-types';
 import React, { useState } from 'react';
 import { View } from 'react-native';
 
@@ -15,9 +13,7 @@ import Touchable from '../Touchable';
 import styles from './InputDate.style';
 import verboseValue from './modules/verboseValue';
 
-const InputDate = ({
-  disabled, error, hint, label, locale, onChange, placeholder, range, value, ...inherit
-}) => {
+const InputDate = ({ disabled, error, hint, label, locale, onChange, placeholder, range, value, ...inherit }) => {
   const [active, setActive] = useState(false);
   const [calendar, setCalendar] = useState(value);
 
@@ -29,11 +25,13 @@ const InputDate = ({
     if (!range) onToggle();
   };
 
-  const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
+  const {
+    VIEWPORT: { REGULAR, LARGE },
+  } = LAYOUT;
 
   return (
     <View style={[styles.container, active && styles.active, inherit.style]}>
-      { label && <InputLabel>{label}</InputLabel> }
+      {label && <InputLabel>{label}</InputLabel>}
 
       <Touchable onPress={!disabled ? onToggle : undefined}>
         <View
@@ -48,19 +46,19 @@ const InputDate = ({
             {verboseValue(value, locale) || placeholder}
           </Text>
 
-          { !disabled && !error && (
+          {!disabled && !error && (
             <Motion timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}>
               <Icon value="navDown" style={[styles.icon, styles.iconNav]} />
             </Motion>
           )}
 
-          { !disabled && error && <Icon value="error" style={styles.icon} /> }
+          {!disabled && error && <Icon value="error" style={styles.icon} />}
         </View>
       </Touchable>
 
-      { hint && <InputHint>{hint}</InputHint> }
+      {hint && <InputHint>{hint}</InputHint>}
 
-      { active && (
+      {active && (
         <Calendar
           box={false}
           disabledPast={inherit.disabledPast}

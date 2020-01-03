@@ -2,9 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const {
-  BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE,
-} = THEME;
+const { BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
   bar: {
@@ -86,8 +84,8 @@ export default StyleSheet.create({
     borderRadius: SPACE.S,
     color: COLOR.WHITE,
     fontWeight: FONT.WEIGHT.BOLD,
-    height: UNIT + (SPACE.XXS * 2),
-    marginTop: -(UNIT + (SPACE.XXS * 2)) / 2,
+    height: UNIT + SPACE.XXS * 2,
+    marginTop: -(UNIT + SPACE.XXS * 2) / 2,
     marginLeft: UNIT / 2,
     paddingVertical: SPACE.XXS,
     paddingHorizontal: SPACE.XS,

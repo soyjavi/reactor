@@ -1,10 +1,6 @@
-import {
-  array, bool, func, node, number, object, oneOfType, string,
-} from 'prop-types';
+import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React, { useState } from 'react';
-import {
-  KeyboardAvoidingView, SafeAreaView, ScrollView, View,
-} from 'react-native';
+import { KeyboardAvoidingView, SafeAreaView, ScrollView, View } from 'react-native';
 
 import { ENV, LAYOUT, THEME } from '../../common';
 import Button from '../Button';
@@ -15,11 +11,11 @@ import styles from './Dialog.style';
 const { IS_NATIVE } = ENV;
 const { COLOR, MOTION } = THEME;
 
-const Dialog = ({
-  background, children, highlight, reverse, onClose, style, styleContainer, title, visible,
-}) => {
+const Dialog = ({ background, children, highlight, reverse, onClose, style, styleContainer, title, visible }) => {
   const [scroll, setScroll] = useState(false);
-  const { VIEWPORT: { H, PORTRAIT } } = LAYOUT;
+  const {
+    VIEWPORT: { H, PORTRAIT },
+  } = LAYOUT;
   let translateY = 0;
 
   if (!visible) translateY = reverse ? -H : H;
@@ -27,7 +23,7 @@ const Dialog = ({
   return (
     <Motion
       delay={visible ? 0 : MOTION.DURATION}
-      pointerEvents={((background || IS_NATIVE) && visible) ? 'auto' : 'none'}
+      pointerEvents={(background || IS_NATIVE) && visible ? 'auto' : 'none'}
       style={styles.container}
       timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
     >
@@ -53,17 +49,12 @@ const Dialog = ({
           >
             <View style={[styles.frame, style]}>
               <View style={styles.header}>
-                { title && (
-                  <Text
-                    color={highlight ? COLOR.WHITE : undefined}
-                    headline
-                    numberOfLines={1}
-                    style={styles.title}
-                  >
+                {title && (
+                  <Text color={highlight ? COLOR.WHITE : undefined} headline numberOfLines={1} style={styles.title}>
                     {title}
                   </Text>
                 )}
-                { onClose && (
+                {onClose && (
                   <Button
                     contained={false}
                     color={highlight ? undefined : COLOR.TEXT}

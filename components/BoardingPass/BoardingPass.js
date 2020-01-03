@@ -1,13 +1,21 @@
-import {
-  bool, func, node, shape, string,
-} from 'prop-types';
+import { bool, func, node, shape, string } from 'prop-types';
 import React, { useEffect, useState } from 'react';
 import { View } from 'react-native';
 
 import fetch from './modules/fetch';
 
 const BoardingPass = ({
-  children, enabled, endpoint, headers, loading, method, onError, onResponse, parameters, secure, service,
+  children,
+  enabled,
+  endpoint,
+  headers,
+  loading,
+  method,
+  onError,
+  onResponse,
+  parameters,
+  secure,
+  service,
 }) => {
   const [busy, setBusy] = useState(true);
   const [error, setError] = useState(undefined);
@@ -16,7 +24,12 @@ const BoardingPass = ({
       setBusy(true);
       setError(undefined);
       fetch({
-        endpoint, headers, method, secure, service, ...parameters,
+        endpoint,
+        headers,
+        method,
+        secure,
+        service,
+        ...parameters,
       })
         .then((response) => {
           onResponse(response);
@@ -30,7 +43,7 @@ const BoardingPass = ({
     }
   }, [enabled, service]);
 
-  return ((busy && enabled) || error) ? loading : children;
+  return (busy && enabled) || error ? loading : children;
 };
 
 BoardingPass.propTypes = {

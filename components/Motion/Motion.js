@@ -1,6 +1,4 @@
-import {
-  arrayOf, bool, node, number, oneOf, shape, string,
-} from 'prop-types';
+import { arrayOf, bool, node, number, oneOf, shape, string } from 'prop-types';
 import { createElement, PureComponent } from 'react';
 import { Animated, View } from 'react-native';
 
@@ -37,9 +35,7 @@ class Motion extends PureComponent {
 
   constructor(props) {
     super(props);
-    const {
-      preset, timeline = [], useNativeDriver, visible,
-    } = props;
+    const { preset, timeline = [], useNativeDriver, visible } = props;
     const state = { timeline };
 
     if (preset) state.timeline = presetVisibility(preset, visible);
@@ -55,9 +51,10 @@ class Motion extends PureComponent {
 
   UNSAFE_componentWillReceiveProps(nextProps) {
     const { props, state = {} } = this;
-    const {
-      delay, disabled, duration, preset, timeline = [], type, useNativeDriver, visible,
-    } = { ...props, ...nextProps };
+    const { delay, disabled, duration, preset, timeline = [], type, useNativeDriver, visible } = {
+      ...props,
+      ...nextProps,
+    };
 
     state.timeline = timeline;
     if (preset) {
@@ -68,24 +65,19 @@ class Motion extends PureComponent {
     if (IS_TEST || disabled || useNativeDriver) return;
 
     const animatedProps = { delay, duration, useNativeDriver: true };
-    const motions = state.timeline.map(({ property, value: toValue }) => (
-      Animated[type](state[property], { toValue, ...animatedProps }).start()));
+    const motions = state.timeline.map(({ property, value: toValue }) =>
+      Animated[type](state[property], { toValue, ...animatedProps }).start(),
+    );
     Animated.parallel(motions).start();
   }
 
   render() {
-    const {
-      children, disabled, useNativeDriver, ...inherit
-    } = this.props;
+    const { children, disabled, useNativeDriver, ...inherit } = this.props;
 
     const props = { style: [inherit.style, !disabled && buildStyle(this)] };
     if (inherit.pointerEvents) props.pointerEvents = inherit.pointerEvents;
 
-    return createElement(
-      !disabled && useNativeDriver ? View : Animated.View,
-      props,
-      children,
-    );
+    return createElement(!disabled && useNativeDriver ? View : Animated.View, props, children);
   }
 }
 

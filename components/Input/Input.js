@@ -1,6 +1,4 @@
-import {
-  bool, func, oneOfType, number, string,
-} from 'prop-types';
+import { bool, func, oneOfType, number, string } from 'prop-types';
 import React, { useEffect, useState } from 'react';
 import { TextInput, View } from 'react-native';
 
@@ -16,8 +14,20 @@ import styles from './Input.style';
 const { COLOR } = THEME;
 
 const Input = ({
-  color, currency, disabled, error, hint, icon, label, lines, required, requiredIcon, valid,
-  onBlur, onChange, onFocus,
+  color,
+  currency,
+  disabled,
+  error,
+  hint,
+  icon,
+  label,
+  lines,
+  required,
+  requiredIcon,
+  valid,
+  onBlur,
+  onChange,
+  onFocus,
   ...inherit
 }) => {
   const [focus, setFocus] = useState(false);
@@ -29,10 +39,9 @@ const Input = ({
   let { keyboard } = inherit;
   if (currency) keyboard = 'numeric';
 
-
   return (
     <View style={[styles.container, inherit.style]}>
-      { label && <InputLabel>{label}</InputLabel> }
+      {label && <InputLabel>{label}</InputLabel>}
       <View
         style={[
           styles.content,
@@ -42,10 +51,14 @@ const Input = ({
           !disabled && error && styles.error,
         ]}
       >
-        { (icon || currency) && (
+        {(icon || currency) && (
           <View style={styles.inlineHint} pointerEvents="none">
-            { icon && <Icon value={icon} style={styles.icon} />}
-            { currency && <Text input lighten _style={styles.inlineHint}>{currency}</Text> }
+            {icon && <Icon value={icon} style={styles.icon} />}
+            {currency && (
+              <Text input lighten _style={styles.inlineHint}>
+                {currency}
+              </Text>
+            )}
           </View>
         )}
 
@@ -72,16 +85,12 @@ const Input = ({
             inherit.fontSize && { fontSize: inherit.fontSize },
           ]}
         />
-        { (error || (required && requiredIcon)) && (
+        {(error || (required && requiredIcon)) && (
           <Icon value={error ? 'error' : 'errorOutline'} style={[styles.icon, styles.iconRight]} />
         )}
-        { valid && <InputIcon style={[styles.icon, styles.iconRight]} /> }
+        {valid && <InputIcon style={[styles.icon, styles.iconRight]} />}
       </View>
-      { hint && (
-        <InputHint>
-          {hint}
-        </InputHint>
-      )}
+      {hint && <InputHint>{hint}</InputHint>}
     </View>
   );
 };

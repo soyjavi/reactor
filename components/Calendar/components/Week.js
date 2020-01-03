@@ -6,9 +6,7 @@ import Text from '../../Text';
 import Touchable from '../../Touchable';
 import styles, { BOX_SIZE } from './Week.style';
 
-const onPress = ({
-  day, tsDay, tsStart, tsEnd, onSelect, range, value,
-}) => {
+const onPress = ({ day, tsDay, tsStart, tsEnd, onSelect, range, value }) => {
   if (!range) onSelect(day);
   else if (tsDay < tsStart) onSelect([day, value[0]]);
   else if (!tsStart || tsEnd > tsStart) onSelect([day]);
@@ -17,7 +15,18 @@ const onPress = ({
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, box, busy, captions, disabledDates, disabledPast, edges, expanded, month, range, today, value,
+    availableDates,
+    box,
+    busy,
+    captions,
+    disabledDates,
+    disabledPast,
+    edges,
+    expanded,
+    month,
+    range,
+    today,
+    value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -77,11 +86,18 @@ const Week = ({ firstDate, ...inherit }) => {
           <Container
             containerBorderRadius={BOX_SIZE}
             key={day.toString()}
-            onPress={!isDisabled
-              ? () => onPress({
-                day, tsDay, tsStart, tsEnd, ...inherit,
-              })
-              : undefined}
+            onPress={
+              !isDisabled
+                ? () =>
+                    onPress({
+                      day,
+                      tsDay,
+                      tsStart,
+                      tsEnd,
+                      ...inherit,
+                    })
+                : undefined
+            }
             style={[
               styles.cell,
               range && styles.cellExpand,
@@ -89,8 +105,8 @@ const Week = ({ firstDate, ...inherit }) => {
               isToday && isVisible && !isHighlight && styles.cellSelectedToday,
             ]}
           >
-            { box && !busy && <View style={[styles.box, isDisabled && styles.boxDisabled]} /> }
-            { isVisible && (
+            {box && !busy && <View style={[styles.box, isDisabled && styles.boxDisabled]} />}
+            {isVisible && (
               <Text
                 subtitle={!isDisabled}
                 lighten={isDisabled || (isOutOfMonth && edges)}
@@ -99,7 +115,7 @@ const Week = ({ firstDate, ...inherit }) => {
                 {day.getDate()}
               </Text>
             )}
-            { caption && !isDisabled && (
+            {caption && !isDisabled && (
               <Text caption style={[styles.caption, isHighlight && styles.textHighlight]}>
                 {caption}
               </Text>

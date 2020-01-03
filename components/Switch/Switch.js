@@ -8,9 +8,7 @@ import styles from './Switch.style';
 
 const { COLOR } = THEME;
 
-const Switch = ({
-  color, label, onChange, ...inherit
-}) => (
+const Switch = ({ color, label, onChange, ...inherit }) => (
   <View style={[styles.container, inherit.style]}>
     <SwitchNative
       {...inherit}
@@ -22,7 +20,7 @@ const Switch = ({
       thumbColor={COLOR.WHITE}
       value={inherit.value || false}
     />
-    { label && <InputLabel style={styles.label}>{label}</InputLabel> }
+    {label && <InputLabel style={styles.label}>{label}</InputLabel>}
   </View>
 );
 

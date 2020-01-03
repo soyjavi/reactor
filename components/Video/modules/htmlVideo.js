@@ -3,9 +3,7 @@ import embedUrl from './embedUrl';
 
 const { COLOR } = THEME;
 
-export default ({
-  autoPlay, controls, height, loop, source, muted, width,
-}) => {
+export default ({ autoPlay, controls, height, loop, source, muted, width }) => {
   const embed = embedUrl(source);
   const css = 'position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;';
 

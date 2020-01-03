@@ -4,9 +4,7 @@ import { LAYOUT, THEME } from '../../common';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
 
-const {
-  BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE,
-} = THEME;
+const { BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
   active: {
@@ -23,7 +21,7 @@ export default StyleSheet.create({
 
   button: {
     position: 'absolute',
-    top: TEMPLATE_HEIGHT / 2 - (INPUT_HEIGHT / 2),
+    top: TEMPLATE_HEIGHT / 2 - INPUT_HEIGHT / 2,
     right: 0,
     zIndex: 1,
   },

@@ -6,12 +6,15 @@ import { format } from './modules';
 
 const LOCALE = 'es-ES';
 
-const Price = ({
-  currency, locale, fixed, operator, symbol, value, ...inherit
-}) => (
+const Price = ({ currency, locale, fixed, operator, symbol, value, ...inherit }) => (
   <Text {...inherit} style={inherit.style}>
-    { format({
-      currency, fixed, locale, operator, symbol, value,
+    {format({
+      currency,
+      fixed,
+      locale,
+      operator,
+      symbol,
+      value,
     })}
   </Text>
 );

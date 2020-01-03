@@ -1,6 +1,4 @@
-import {
-  arrayOf, bool, func, node, number, shape,
-} from 'prop-types';
+import { arrayOf, bool, func, node, number, shape } from 'prop-types';
 import React, { PureComponent, createRef } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
@@ -54,57 +52,66 @@ class Slider extends PureComponent {
   _onPressButton = (type) => {
     const {
       scrollview: { current },
-      props: {
-        children, dataSource, itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps,
-      },
+      props: { children, dataSource, itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps },
     } = this;
     const itemOffset = itemWidth + itemMargin;
     const length = dataSource.length || children.length;
-    const max = ((length + 1) * itemOffset) - current.getScrollableNode().offsetWidth;
+    const max = (length + 1) * itemOffset - current.getScrollableNode().offsetWidth;
     const nextX = itemOffset * steps;
-    let { state: { x } } = this;
+    let {
+      state: { x },
+    } = this;
 
     x = type === NEXT ? x + nextX : x - nextX;
     if (x < 0 || x > max) x = 0;
 
     this.scrollview.current.scrollTo({ x });
     this.setState({ x });
-  }
+  };
 
   _onScroll = ({ nativeEvent: { contentOffset } }) => {
-    const { props: { onChange }, state: { x } } = this;
+    const {
+      props: { onChange },
+      state: { x },
+    } = this;
 
     if (x !== contentOffset.x) this.setState({ x: contentOffset.x });
     if (onChange) onChange(contentOffset);
-  }
+  };
 
   render() {
     const {
-      _onPressButton, _onScroll,
+      _onPressButton,
+      _onScroll,
       props: {
-        dataSource, navigation, snap, steps,
-        item: Item, itemMargin, itemWidth = LAYOUT.CARD.SLIDER,
+        dataSource,
+        navigation,
+        snap,
+        steps,
+        item: Item,
+        itemMargin,
+        itemWidth = LAYOUT.CARD.SLIDER,
         ...inherit
       },
     } = this;
     const snapProps = snap
       ? {
-        decelerationRate: 'fast',
-        pagingEnabled: Platform.OS !== 'ios',
-        snapToInterval: (itemWidth + itemMargin) * steps,
-        snapToAlignment: 'start',
-      }
+          decelerationRate: 'fast',
+          pagingEnabled: Platform.OS !== 'ios',
+          snapToInterval: (itemWidth + itemMargin) * steps,
+          snapToAlignment: 'start',
+        }
       : undefined;
 
     return (
       <View style={styles.container}>
-        { navigation && (
+        {navigation && (
           <View style={[styles.navigation, styles.previous]}>
             <Button icon="left" onPress={_onPressButton} small />
           </View>
         )}
 
-        { navigation && (
+        {navigation && (
           <View style={[styles.navigation, styles.next]}>
             <Button icon="right" onPress={() => _onPressButton(NEXT)} small />
           </View>
@@ -118,12 +125,12 @@ class Slider extends PureComponent {
           ref={this.scrollview}
           scrollEventThrottle={1000}
         >
-          { dataSource.map((data, index) => (
+          {dataSource.map((data, index) => (
             <View key={index.toString()} style={{ marginRight: itemMargin }}>
               <Item data={data} />
             </View>
           ))}
-          { inherit.children }
+          {inherit.children}
         </ScrollView>
       </View>
     );

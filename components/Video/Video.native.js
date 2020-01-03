@@ -1,6 +1,4 @@
-import {
-  bool, func, number, string,
-} from 'prop-types';
+import { bool, func, number, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 import WebView from 'react-native-webview';
@@ -8,11 +6,12 @@ import WebView from 'react-native-webview';
 import { htmlVideo } from './modules';
 import styles from './Video.style';
 
-const Video = ({
-  onLoad, height, width, ...inherit
-}) => {
+const Video = ({ onLoad, height, width, ...inherit }) => {
   const dimensions = {
-    height, width, maxHeight: height, maxWidth: width,
+    height,
+    width,
+    maxHeight: height,
+    maxWidth: width,
   };
 
   return (

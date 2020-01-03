@@ -5,9 +5,7 @@ const { MOTION } = THEME;
 const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY', 'rotate'];
 
 export default ({
-  props: {
-    delay = 0, duration, useNativeDriver,
-  } = {},
+  props: { delay = 0, duration, useNativeDriver } = {},
   state: { timeline = [], ...state } = {},
 } = {}) => {
   if (timeline.length === 0) return undefined;
@@ -19,11 +17,9 @@ export default ({
 
     style = {
       ...style,
-      ...(
-        TRANSFORM_PROPERTIES.includes(property)
-          ? { transform: [{ [property]: newValue }] }
-          : { [property]: newValue }
-      ),
+      ...(TRANSFORM_PROPERTIES.includes(property)
+        ? { transform: [{ [property]: newValue }] }
+        : { [property]: newValue }),
     };
   });
 

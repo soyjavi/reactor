@@ -17,7 +17,7 @@ const Image = ({ onLoad, ...inherit }) => {
           onLoad(event);
         }}
       />
-      { !ready && <Skeleton style={styles.skeleton} /> }
+      {!ready && <Skeleton style={styles.skeleton} />}
     </View>
   );
 };

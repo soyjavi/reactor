@@ -8,15 +8,7 @@ import styles from './InputLabel.style';
 const { COLOR } = THEME;
 
 const InputLabel = ({ color, ...inherit }) => (
-  <Text
-    {...inherit}
-    bold
-    caption
-    color={color}
-    numberOfLines={2}
-    lighten
-    style={[styles.container, inherit.style]}
-  />
+  <Text {...inherit} bold caption color={color} numberOfLines={2} lighten style={[styles.container, inherit.style]} />
 );
 
 InputLabel.propTypes = {

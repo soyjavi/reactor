@@ -12,7 +12,7 @@ const ProviderTracking = ({ children }) => {
     fetchFingerprint();
   }, [fingerprint]);
 
-  return <Provider value={{ fingerprint }}>{ children }</Provider>;
+  return <Provider value={{ fingerprint }}>{children}</Provider>;
 };
 
 ProviderTracking.propTypes = {

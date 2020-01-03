@@ -14,9 +14,7 @@ const HEADER_FORM = {
 
 if (typeof global.self === 'undefined') global.self = global;
 
-export default async ({
-  endpoint = ENDPOINT, headers, method = DEFAULT_METHOD, secure = false, service, ...props
-}) => (
+export default async ({ endpoint = ENDPOINT, headers, method = DEFAULT_METHOD, secure = false, service, ...props }) =>
   new Promise((resolve, reject) => {
     fetch(`${secure ? 'https' : 'http'}://${endpoint}/${service}`, {
       headers: {
@@ -31,11 +29,11 @@ export default async ({
 
         if (response.status >= 400) reject({ code: json.code || response.status, message: json.message }); // eslint-disable-line
         else resolve(json);
-      }).catch(({ message = 'ERROR_CONNECTION', response } = {}) => {
+      })
+      .catch(({ message = 'ERROR_CONNECTION', response } = {}) => {
         reject({ // eslint-disable-line
           code: response ? response.status : 500,
           message,
         });
       });
-  })
-);
+  });

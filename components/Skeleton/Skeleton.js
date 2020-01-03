@@ -6,13 +6,19 @@ import styles from './Skeleton.style';
 import Motion from '../Motion';
 import { THEME } from '../../common';
 
-const { MOTION: { DURATION } } = THEME;
+const {
+  MOTION: { DURATION },
+} = THEME;
 
 const Skeleton = ({ opacity, ...inherit }) => {
   const [interval, setInter] = useState(undefined);
   const [visible, setVisible] = useState(false);
   useEffect(() => {
-    setInter(setInterval(() => { setVisible((value) => !value); }, DURATION * 3));
+    setInter(
+      setInterval(() => {
+        setVisible((value) => !value);
+      }, DURATION * 3),
+    );
     return () => clearInterval(interval);
   }, []);
 

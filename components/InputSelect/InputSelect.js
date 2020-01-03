@@ -1,6 +1,4 @@
-import {
-  arrayOf, bool, func, number, oneOfType, shape, string,
-} from 'prop-types';
+import { arrayOf, bool, func, number, oneOfType, shape, string } from 'prop-types';
 import React, { createRef, PureComponent } from 'react';
 import { findDOMNode } from 'react-dom';
 import { Picker, ScrollView, View } from 'react-native';
@@ -51,44 +49,54 @@ class InputSelect extends PureComponent {
 
   _onToggleDataSource = () => {
     const {
-      component, scrollview, props: { dataSource, value = 0 }, state: { active },
+      component,
+      scrollview,
+      props: { dataSource, value = 0 },
+      state: { active },
     } = this;
-    const { VIEWPORT: { H } } = LAYOUT;
+    const {
+      VIEWPORT: { H },
+    } = LAYOUT;
     const { y } = findDOMNode(component.current).getBoundingClientRect(); // eslint-disable-line
 
-    this.setState({ active: !active, regular: y < (H / 2) }, () => {
+    this.setState({ active: !active, regular: y < H / 2 }, () => {
       if (!active) {
         const height = dataSource[0].caption ? TEMPLATE_HEIGHT : INPUT_HEIGHT;
         scrollview.current.scrollTo({ y: (value - 2) * height, animated: false });
       }
     });
-  }
+  };
 
   _onItem = (index) => {
-    const { _onToggleDataSource, props: { onChange } } = this;
+    const {
+      _onToggleDataSource,
+      props: { onChange },
+    } = this;
 
     _onToggleDataSource();
     if (onChange) onChange(index);
-  }
+  };
 
   render() {
     const {
-      _onToggleDataSource, _onItem,
-      props: {
-        dataSource = [], disabled, error, hint, label, onChange, ItemTemplate, value = 0, ...inherit
-      },
+      _onToggleDataSource,
+      _onItem,
+      props: { dataSource = [], disabled, error, hint, label, onChange, ItemTemplate, value = 0, ...inherit },
       state: { active, regular, schema },
     } = this;
+    // eslint-disable-next-line no-unused-vars
     const { valid, ...pickerProps } = inherit;
-    const { VIEWPORT: { H } } = LAYOUT;
+    const {
+      VIEWPORT: { H },
+    } = LAYOUT;
     const hasDataSource = dataSource.length > 1;
     const event = !disabled && hasDataSource ? _onToggleDataSource : undefined;
 
     return (
       <View ref={this.component} style={[styles.container, active && styles.active, inherit.style]}>
-        { label && <InputLabel>{label}</InputLabel> }
+        {label && <InputLabel>{label}</InputLabel>}
 
-        { schema && hasDataSource && !disabled && (
+        {schema && hasDataSource && !disabled && (
           <Motion
             style={[styles.button, label && styles.withLabel]}
             timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
@@ -98,34 +106,29 @@ class InputSelect extends PureComponent {
         )}
 
         <View style={[styles.border, !disabled && error && styles.error, disabled && styles.disabled]}>
-          { schema
-            ? (
-              <Touchable onPress={event} rippleColor={COLOR.PRIMARY}>
-                <ItemTemplate {...dataSource[value]} disabled={disabled} active style={styles.template} />
-              </Touchable>
-            )
-            : (
-              <Picker
-                mode="dropdown"
-                {...pickerProps}
-                enabled={!disabled}
-                onValueChange={onChange}
-                selectedValue={value}
-                style={[styles.picker, disabled && styles.pickerDisabled]}
-              >
-                { dataSource.map((item) => (
-                  <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />))}
-              </Picker>
-            )}
+          {schema ? (
+            <Touchable onPress={event} rippleColor={COLOR.PRIMARY}>
+              <ItemTemplate {...dataSource[value]} disabled={disabled} active style={styles.template} />
+            </Touchable>
+          ) : (
+            <Picker
+              mode="dropdown"
+              {...pickerProps}
+              enabled={!disabled}
+              onValueChange={onChange}
+              selectedValue={value}
+              style={[styles.picker, disabled && styles.pickerDisabled]}
+            >
+              {dataSource.map((item) => (
+                <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />
+              ))}
+            </Picker>
+          )}
         </View>
 
-        { hint && (
-          <InputHint>
-            {hint}
-          </InputHint>
-        )}
+        {hint && <InputHint>{hint}</InputHint>}
 
-        { schema && (
+        {schema && (
           <ScrollView
             ref={this.scrollview}
             style={[
@@ -134,10 +137,10 @@ class InputSelect extends PureComponent {
               !active && styles.dataSourceHidden,
               !regular && styles.dataSourceBottom,
               label && styles.withLabel,
-              { maxHeight: Math.floor((H / 2) / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
+              { maxHeight: Math.floor(H / 2 / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
             ]}
           >
-            { dataSource.map((item, index) => (
+            {dataSource.map((item, index) => (
               <Touchable key={item.title} onPress={() => _onItem(index)} rippleColor={COLOR.PRIMARY}>
                 <ItemTemplate {...item} selected={index === value} style={styles.template} />
               </Touchable>

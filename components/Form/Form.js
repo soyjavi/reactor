@@ -1,6 +1,4 @@
-import {
-  bool, func, number, oneOfType, shape, string,
-} from 'prop-types';
+import { bool, func, number, oneOfType, shape, string } from 'prop-types';
 import React, { useState, useEffect } from 'react';
 import { View } from 'react-native';
 
@@ -12,9 +10,7 @@ import InputOption from '../InputOption';
 import InputSelect from '../InputSelect';
 import Text from '../Text';
 import Switch from '../Switch';
-import {
-  buildStyle, consolidate, isValidEmail, isValidPhone,
-} from './modules';
+import { buildStyle, consolidate, isValidEmail, isValidPhone } from './modules';
 import styles from './Form.style';
 
 const KEYBOARDS = {
@@ -34,9 +30,7 @@ const Inputs = {
 };
 
 const Field = ({
-  props: {
-    disabled, inline, keyboard, required, style, type, label, countryCode, defaultValue, ...props
-  } = {},
+  props: { disabled, inline, keyboard, required, style, type, label, countryCode, defaultValue, ...props } = {},
   validate,
   value = defaultValue,
   ...inherit
@@ -64,20 +58,20 @@ const Field = ({
 };
 
 Field.propTypes = {
+  error: string,
   props: shape({}),
   validate: bool,
   value: oneOfType([number, string]),
 };
 
 Field.defaultProps = {
+  error: undefined,
   props: {},
   validate: false,
   value: undefined,
 };
 
-const Form = ({
-  attributes, color, onChange, onValid, title, validate, value = {}, ...inherit
-}) => {
+const Form = ({ attributes, color, onChange, onValid, title, validate, value = {}, ...inherit }) => {
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     if (!mounted) {
@@ -91,14 +85,14 @@ const Form = ({
       const invalid = Object.keys(attributes)
         .filter((field) => attributes[field].required && !attributes[field].disabled)
         .some((field) => {
-          const {
-            countryCode, defaultValue, keyboard, type,
-          } = attributes[field];
+          const { countryCode, defaultValue, keyboard, type } = attributes[field];
           const fieldValue = value[field] !== undefined ? value[field] : defaultValue;
 
-          return (!type && fieldValue && fieldValue.trim().length === 0)
-            || (KEYBOARDS_KEYS.includes(keyboard) && (!KEYBOARDS[keyboard](fieldValue, { countryCode })))
-            || !fieldValue;
+          return (
+            (!type && fieldValue && fieldValue.trim().length === 0) ||
+            (KEYBOARDS_KEYS.includes(keyboard) && !KEYBOARDS[keyboard](fieldValue, { countryCode })) ||
+            !fieldValue
+          );
         });
 
       onValid(!invalid);
@@ -107,8 +101,12 @@ const Form = ({
 
   return (
     <View style={[styles.container, inherit.style]}>
-      { title && <Text headline style={[styles.title, styles.anchor]}>{title}</Text> }
-      { Object.keys(attributes).map((field) => (
+      {title && (
+        <Text headline style={[styles.title, styles.anchor]}>
+          {title}
+        </Text>
+      )}
+      {Object.keys(attributes).map((field) => (
         <Field
           color={color}
           field={field}

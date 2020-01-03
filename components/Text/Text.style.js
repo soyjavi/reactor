@@ -5,9 +5,7 @@ import { THEME } from '../../common';
 const {
   COLOR,
   UNIT,
-  FONT: {
-    FAMILY, FAMILY_SECONDARY, WEIGHT, ...FONT
-  },
+  FONT: { FAMILY_SECONDARY, WEIGHT, ...FONT },
 } = THEME;
 
 export default StyleSheet.create({
@@ -36,7 +34,7 @@ export default StyleSheet.create({
 
   body: {
     fontSize: UNIT * 1.6,
-    lineHeight: (UNIT * 1.6) * 1.2,
+    lineHeight: UNIT * 1.6 * 1.2,
     ...FONT.BODY,
   },
 

@@ -4,9 +4,7 @@ import React, { createContext, useContext } from 'react';
 const L10NContext = createContext('reactor:l10n');
 
 const L10NProvider = ({ children, dictionary, language }) => (
-  <L10NContext.Provider value={dictionary[language] || {}}>
-    { children }
-  </L10NContext.Provider>
+  <L10NContext.Provider value={dictionary[language] || {}}>{children}</L10NContext.Provider>
 );
 
 L10NProvider.propTypes = {

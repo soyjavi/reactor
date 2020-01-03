@@ -1,6 +1,4 @@
-import {
-  bool, func, node, number, oneOfType, string,
-} from 'prop-types';
+import { bool, func, node, number, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
@@ -12,11 +10,25 @@ import Touchable from '../Touchable';
 import styles, { REGULAR_SIZE } from './Button.style';
 import calcColor from './modules/calcColor';
 
-const { COLOR: { BASE, TEXT_LIGHTEN, WHITE } } = THEME;
+const {
+  COLOR: { BASE, TEXT_LIGHTEN, WHITE },
+} = THEME;
 
 const Button = ({
-  activity, children, color, contained, disabled, icon, large, onPress, outlined,
-  responsive, rounded, shadow, small, title,
+  activity,
+  children,
+  color,
+  contained,
+  disabled,
+  icon,
+  large,
+  onPress,
+  outlined,
+  responsive,
+  rounded,
+  shadow,
+  small,
+  title,
   isSolid = contained && !outlined, // eslint-disable-line
   rippleColor = isSolid ? undefined : color, // eslint-disable-line
   ...inherit
@@ -26,11 +38,7 @@ const Button = ({
       containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
       onPress={disabled ? undefined : onPress}
       rippleColor={isSolid && color === WHITE ? BASE : rippleColor || WHITE}
-      style={[
-        styles.touchable,
-        rounded && styles.rounded,
-        isSolid && shadow && !disabled && styles.shadow,
-      ]}
+      style={[styles.touchable, rounded && styles.rounded, isSolid && shadow && !disabled && styles.shadow]}
     >
       <View
         style={[
@@ -42,7 +50,7 @@ const Button = ({
           responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
           large && styles.large,
           rounded && styles.rounded,
-          (!title && !children && !activity) && styles.noPadding,
+          !title && !children && !activity && styles.noPadding,
           // -- Color
           isSolid && { backgroundColor: color || TEXT_LIGHTEN },
           isSolid && disabled && styles.disabled,
@@ -51,24 +59,19 @@ const Button = ({
           !isSolid && disabled && styles.disabledOpacity,
         ]}
       >
-        { icon && !activity && <Icon value={icon} size={small ? 16 : inherit.iconSize} /> }
+        {icon && !activity && <Icon value={icon} size={small ? 16 : inherit.iconSize} />}
         <View style={[styles.row, icon && (title || children) && styles.textMarginLeft]}>
-          { title
-            && (
+          {title && (
             <Text
               color={calcColor({ isSolid, color })} // eslint-disable-line
-              style={[
-                styles.text,
-                small && styles.textSmall,
-                responsive && !small && styles.textSmall,
-              ]}
+              style={[styles.text, small && styles.textSmall, responsive && !small && styles.textSmall]}
             >
               {title}
             </Text>
-            ) }
-          { children }
+          )}
+          {children}
         </View>
-        { activity && <Activity color={calcColor({ isSolid, color })} style={styles.activity} /> }
+        {activity && <Activity color={calcColor({ isSolid, color })} style={styles.activity} />}
       </View>
     </Touchable>
   </View>

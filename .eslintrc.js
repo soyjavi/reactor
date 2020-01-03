@@ -2,15 +2,12 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    // jest: true,
-    // node: true,
   },
-  extends: [
-    'airbnb',
-  ],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:react/recommended'],
   globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+    global: 'readonly',
+    process: 'readonly',
+    require: 'readonly',
   },
   parser: 'babel-eslint',
   parserOptions: {
@@ -20,14 +17,9 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    'react-native',
-  ],
+  plugins: ['prettier', 'react', 'react-hooks', 'react-native'],
   rules: {
-    'max-len': [1, 120, { 'tabWidth': 2, 'ignoreComments': true }],
-    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
-    'react/jsx-props-no-spreading': [0],
-    'react/static-property-placement': [0],
+    'max-len': [1, 120, { tabWidth: 2, ignoreComments: true }],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
   },
 };

@@ -12,7 +12,7 @@ export default async () => {
   if (!fingerprint) {
     const entropy = {
       ...deviceEntropy,
-      random: Math.floor(Math.random() * (2 ** 32)),
+      random: Math.floor(Math.random() * 2 ** 32),
       timestamp: new Date().getTime(),
     };
 

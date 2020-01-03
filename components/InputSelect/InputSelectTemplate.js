@@ -6,16 +6,14 @@ import Text from '../Text';
 import { InputIcon } from '../Input';
 import styles from './InputSelectTemplate.style';
 
-const InputSelectTemplate = ({
-  active, caption, disabled, title, selected, ...inherit
-}) => (
+const InputSelectTemplate = ({ active, caption, disabled, title, selected, ...inherit }) => (
   <View style={inherit.style}>
     <InputIcon active={active || selected} />
     <View style={styles.texts}>
       <Text lighten={disabled} style={styles.title}>
         {title}
       </Text>
-      { caption && (
+      {caption && (
         <Text caption lighten>
           {caption}
         </Text>

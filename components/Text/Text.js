@@ -5,9 +5,7 @@ import { StyleSheet, Text as NativeText } from 'react-native';
 import { useTheme } from '../../context';
 import styles from './Text.style';
 
-const determineStyle = ({
-  caption, input, headline, subtitle,
-}) => {
+const determineStyle = ({ caption, input, headline, subtitle }) => {
   if (headline) return styles.headline;
   if (subtitle) return styles.subtitle;
   if (caption) return styles.caption;
@@ -16,10 +14,7 @@ const determineStyle = ({
   return styles.body;
 };
 
-const Text = ({
-  bold, lighten, color, caption, input, headline, subtitle,
-  ...inherit
-}) => {
+const Text = ({ bold, lighten, color, caption, input, headline, subtitle, ...inherit }) => {
   const { FONT: { FAMILY } = {} } = useTheme();
 
   return (
@@ -28,16 +23,14 @@ const Text = ({
       style={[
         styles.container,
         determineStyle({
-          caption, input, headline, subtitle,
+          caption,
+          input,
+          headline,
+          subtitle,
         }),
         lighten && styles.lighten,
         // -- flatten
-        StyleSheet.flatten([
-          FAMILY && { fontFamily: FAMILY },
-          bold && styles.bold,
-          inherit.style,
-          color && { color },
-        ]),
+        StyleSheet.flatten([FAMILY && { fontFamily: FAMILY }, bold && styles.bold, inherit.style, color && { color }]),
       ]}
     />
   );

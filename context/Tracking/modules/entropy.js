@@ -1,6 +1,4 @@
-import {
-  DeviceInfo, Dimensions, PixelRatio, Platform,
-} from 'react-native';
+import { DeviceInfo, Dimensions, PixelRatio, Platform } from 'react-native';
 
 import { ENV } from '../../../common';
 
@@ -38,7 +36,7 @@ const { height, width } = Dimensions.get('window');
 const pixelRatio = PixelRatio.get();
 const fontScale = PixelRatio.getFontScale();
 const { locale, totalMemory, userAgent } = DeviceInfo;
-const isTablet = ((height > width && width >= 768) || (height < width && width >= 1024));
+const isTablet = (height > width && width >= 768) || (height < width && width >= 1024);
 
 let deviceManufacturer;
 let deviceModel;
@@ -86,30 +84,38 @@ if (IS_NATIVE) {
   }
 
   // -- Determine browser ------------------------------------------------------
-  if (userAgent.indexOf('Edge') !== -1) { // Microsoft Edge
+  if (userAgent.indexOf('Edge') !== -1) {
+    // Microsoft Edge
     browserName = 'Microsoft Edge';
     browserVersion = userAgent.substring(userAgent.indexOf('Edge') + 5);
-  } else if (userAgent.indexOf('Chrome') !== -1) { // Chrome
+  } else if (userAgent.indexOf('Chrome') !== -1) {
+    // Chrome
     browserName = 'Chrome';
     browserVersion = userAgent.substring(userAgent.indexOf('Chrome') + 7);
-  } else if (userAgent.indexOf('Trident/') !== -1) { // MSIE 11+
+  } else if (userAgent.indexOf('Trident/') !== -1) {
+    // MSIE 11+
     browserName = 'Microsoft Internet Explorer';
     browserVersion = userAgent.substring(userAgent.indexOf('rv:') + 3);
-  } else if (userAgent.indexOf('MSIE') !== -1) { // MSIE
+  } else if (userAgent.indexOf('MSIE') !== -1) {
+    // MSIE
     browserName = 'Microsoft Internet Explorer';
     browserVersion = userAgent.substring(userAgent.indexOf('MSIE') + 5);
-  } else if (userAgent.indexOf('Firefox') !== -1) { // Firefox
+  } else if (userAgent.indexOf('Firefox') !== -1) {
+    // Firefox
     browserName = 'Firefox';
     browserVersion = userAgent.substring(userAgent.indexOf('Firefox') + 8);
-  } else if (userAgent.indexOf('Safari') !== -1) { // Safari
+  } else if (userAgent.indexOf('Safari') !== -1) {
+    // Safari
     browserName = 'Safari';
     browserVersion = userAgent.substring(userAgent.indexOf('Safari') + 7);
     if (userAgent.indexOf('Version') !== -1) browserVersion = userAgent.substring(userAgent.indexOf('Version') + 8);
-  } else if (userAgent.indexOf('Opera') !== -1) { // Opera
+  } else if (userAgent.indexOf('Opera') !== -1) {
+    // Opera
     browserName = 'Opera';
     browserName = userAgent.substring(userAgent.indexOf('Opera') + 6);
     if (userAgent.indexOf('Version') !== -1) browserVersion = userAgent.substring(userAgent.indexOf('Version') + 8);
-  } else if (userAgent.indexOf('OPR') !== -1) { // Opera Next
+  } else if (userAgent.indexOf('OPR') !== -1) {
+    // Opera Next
     browserName = 'Opera';
     browserVersion = userAgent.substring(userAgent.indexOf('OPR') + 4);
   }

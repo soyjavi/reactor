@@ -5,11 +5,12 @@ import styles from './Activity.style';
 
 import { THEME } from '../../common';
 
-const { COLOR, MOTION: { DURATION } } = THEME;
+const {
+  COLOR,
+  MOTION: { DURATION },
+} = THEME;
 
-const Activity = ({
-  color, size, ...inherit
-}) => {
+const Activity = ({ color, size, ...inherit }) => {
   const opacities = [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)];
   let opacity = 1;
 
@@ -21,16 +22,14 @@ const Activity = ({
       opacity = opacity === 0 ? 1 : 0;
     }
 
-    Animated
-      .timing(opacities[dot], { toValue: opacity, duration: DURATION })
-      .start(() => animate(dot + 1));
+    Animated.timing(opacities[dot], { toValue: opacity, duration: DURATION }).start(() => animate(dot + 1));
   };
 
   animate(0);
 
   return (
     <View style={[styles.container, inherit.style]}>
-      { opacities.map((value, index) => (
+      {opacities.map((value, index) => (
         <Animated.View
           key={index.toString()}
           style={[styles.dot, styles[size], { backgroundColor: color, opacity: value }]}

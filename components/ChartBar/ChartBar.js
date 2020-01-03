@@ -1,6 +1,4 @@
-import {
-  bool, arrayOf, number, shape, string,
-} from 'prop-types';
+import { bool, arrayOf, number, shape, string } from 'prop-types';
 import { View } from 'react-native';
 import React from 'react';
 import styles from './ChartBar.style';
@@ -12,9 +10,7 @@ import { calcHeight, calcRange } from './modules';
 
 const { COLOR } = THEME;
 
-const ChartBar = React.memo(({
-  captions, color, highlight, inverted, lines, scales, values, ...inherit
-}) => {
+const ChartBar = ({ captions, color, highlight, inverted, lines, scales, values, ...inherit }) => {
   const { max, min, avg } = calcRange(values);
   let firstValueIndex = values.findIndex((value) => value !== 0);
   if (firstValueIndex === -1) firstValueIndex = undefined;
@@ -22,36 +18,38 @@ const ChartBar = React.memo(({
   return (
     <View style={[styles.container, inverted && styles.containerInverted, inherit.styleContainer]}>
       <View style={{ height: '100%', width: '100%' }}>
-        { scales && (
+        {scales && (
           <View style={[styles.scales, captions && styles.scaleCaptions]}>
             <View style={[styles.scaleValues, inverted && styles.scaleValuesInverted]}>
-              { scales.map((scale, index) => (
-                <Text key={`scale-${index.toString()}`} lighten style={styles.legend}>{scale}</Text>
+              {scales.map((scale, index) => (
+                <Text key={`scale-${index.toString()}`} lighten style={styles.legend}>
+                  {scale}
+                </Text>
               ))}
             </View>
             <View style={styles.scaleLines}>
-              { scales.map((scale, index) => <View key={`line-${index.toString()}`} style={styles.scaleLine} />)}
+              {scales.map((scale, index) => (
+                <View key={`line-${index.toString()}`} style={styles.scaleLine} />
+              ))}
             </View>
           </View>
         )}
 
-        { lines && lines.map((line, index) => (
-          <View key={`line-${index.toString()}`} style={[styles.line, captions && styles.scaleCaptions]}>
-            <Motion timeline={[{ property: 'height', value: `${(inverted ? 100 - line.percent : line.percent)}%` }]}>
-              <View style={[styles.scaleLine, { backgroundColor: line.color || color, opacity: 0.5 }]} />
-              <Text style={[styles.legend, styles.lineCaption, { backgroundColor: line.color || color }]}>
-                {line.caption}
-              </Text>
-            </Motion>
-          </View>
-        ))}
+        {lines &&
+          lines.map((line, index) => (
+            <View key={`line-${index.toString()}`} style={[styles.line, captions && styles.scaleCaptions]}>
+              <Motion timeline={[{ property: 'height', value: `${inverted ? 100 - line.percent : line.percent}%` }]}>
+                <View style={[styles.scaleLine, { backgroundColor: line.color || color, opacity: 0.5 }]} />
+                <Text style={[styles.legend, styles.lineCaption, { backgroundColor: line.color || color }]}>
+                  {line.caption}
+                </Text>
+              </Motion>
+            </View>
+          ))}
 
         <View style={[styles.content, styles.row, scales && styles.rowScale]}>
-          { values.map((value, index) => (
-            <Motion
-              key={`${value}-${index.toString()}`}
-              style={[styles.column, inverted && styles.columnInverted]}
-            >
+          {values.map((value, index) => (
+            <Motion key={`${value}-${index.toString()}`} style={[styles.column, inverted && styles.columnInverted]}>
               <Motion
                 disabled={value === 0}
                 timeline={[{ property: 'height', value: `${calcHeight(value, { min, max, avg })}%` }]}
@@ -66,9 +64,9 @@ const ChartBar = React.memo(({
           ))}
         </View>
 
-        { captions && (
+        {captions && (
           <View style={[styles.captions, styles.row, scales && styles.rowScale]}>
-            { captions.map((caption, index) => (
+            {captions.map((caption, index) => (
               <View key={`caption-${index.toString()}`} style={styles.column}>
                 <Text lighten style={[styles.legend, highlight === index && styles.legendHighlight]}>
                   {caption.substring(0, 3).toUpperCase()}
@@ -80,7 +78,7 @@ const ChartBar = React.memo(({
       </View>
     </View>
   );
-});
+};
 
 ChartBar.propTypes = {
   captions: arrayOf(string),

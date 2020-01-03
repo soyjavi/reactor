@@ -18,18 +18,19 @@ const CAPTIONS = [
 const LOCALE = {
   DAY_NAMES: ['lu', 'ma', 'mi', 'ju', 'vi', 'sá', 'do'],
   MONTHS: [
-    'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
+    'enero',
+    'febrero',
+    'marzo',
+    'abril',
+    'mayo',
+    'junio',
+    'julio',
+    'agosto',
+    'septiembre',
+    'octubre',
+    'noviembre',
+    'diciembre',
   ],
 };
 
-export {
-  CAPTIONS,
-  DATES,
-  LOCALE,
-  NEXT_MONTH,
-  STYLE,
-  STYLE_DAYNAMES,
-  TOMORROW,
-  YESTERDAY,
-};
+export { CAPTIONS, DATES, LOCALE, NEXT_MONTH, STYLE, STYLE_DAYNAMES, TOMORROW, YESTERDAY };
