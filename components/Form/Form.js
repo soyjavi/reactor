@@ -50,7 +50,7 @@ const Field = ({
       label={label || inherit.field}
       error={error}
       required={required && (value === undefined || (!type && value.trim().length === 0))}
-      valid={!error && !disabled && value && validate}
+      valid={!error && !disabled && value && validate ? true : false}
       value={value}
       style={buildStyle({ inline, style }, styles)}
     />

@@ -68,7 +68,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -169,7 +169,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -269,7 +269,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -421,7 +421,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -522,7 +522,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -650,7 +650,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -751,7 +751,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -811,7 +811,6 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -899,7 +898,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -1042,7 +1041,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -2739,7 +2738,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -2799,7 +2798,6 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -2918,7 +2916,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -2978,7 +2976,6 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -3181,7 +3178,7 @@ exports[`<Form> when {attributes} 1`] = `
             },
             Object {
               "color": "#4a4a4a",
-              "fontWeight": "700",
+              "fontFamily": undefined,
               "marginBottom": 8,
             },
           ]
@@ -3282,7 +3279,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -3426,6 +3423,7 @@ exports[`<Form> when {attributes} 1`] = `
         ]
       }
       thumbTintColor="#ffffff"
+      valid={false}
       value={false}
     />
     <Text
@@ -3446,7 +3444,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -3496,6 +3494,7 @@ exports[`<Form> when {attributes} 1`] = `
         ]
       }
       thumbTintColor="#ffffff"
+      valid={false}
       value={false}
     />
     <Text
@@ -3516,7 +3515,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -3630,7 +3629,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -3773,7 +3772,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -3916,7 +3915,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -4057,7 +4056,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -4143,7 +4142,7 @@ exports[`<Form> when {attributes} 1`] = `
             },
             Object {
               "color": "#4a4a4a",
-              "fontWeight": "700",
+              "fontFamily": undefined,
               "marginBottom": 8,
             },
           ]
@@ -4314,7 +4313,7 @@ exports[`<Form> when {attributes} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -4406,7 +4405,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -4507,7 +4506,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -4607,7 +4606,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -4759,7 +4758,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -4860,7 +4859,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -4988,7 +4987,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -5089,7 +5088,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -5149,7 +5148,6 @@ exports[`<Form> when {color} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -5237,7 +5235,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -5380,7 +5378,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -7077,7 +7075,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -7137,7 +7135,6 @@ exports[`<Form> when {color} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -7256,7 +7253,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -7316,7 +7313,6 @@ exports[`<Form> when {color} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -7519,7 +7515,7 @@ exports[`<Form> when {color} 1`] = `
             },
             Object {
               "color": "#4a4a4a",
-              "fontWeight": "700",
+              "fontFamily": undefined,
               "marginBottom": 8,
             },
           ]
@@ -7620,7 +7616,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -7764,6 +7760,7 @@ exports[`<Form> when {color} 1`] = `
         ]
       }
       thumbTintColor="#ffffff"
+      valid={false}
       value={false}
     />
     <Text
@@ -7784,7 +7781,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -7834,6 +7831,7 @@ exports[`<Form> when {color} 1`] = `
         ]
       }
       thumbTintColor="#ffffff"
+      valid={false}
       value={false}
     />
     <Text
@@ -7854,7 +7852,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -7968,7 +7966,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -8111,7 +8109,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -8254,7 +8252,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -8395,7 +8393,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -8481,7 +8479,7 @@ exports[`<Form> when {color} 1`] = `
             },
             Object {
               "color": "#4a4a4a",
-              "fontWeight": "700",
+              "fontFamily": undefined,
               "marginBottom": 8,
             },
           ]
@@ -8652,7 +8650,7 @@ exports[`<Form> when {color} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -8777,9 +8775,7 @@ exports[`<Form> when {title} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
           "fontSize": 24,
-          "fontWeight": "700",
         },
         false,
         Object {
@@ -8845,7 +8841,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -8946,7 +8942,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -9097,7 +9093,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -9249,7 +9245,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -9350,7 +9346,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -9478,7 +9474,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -9579,7 +9575,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -9639,7 +9635,6 @@ exports[`<Form> when {validate} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -9727,7 +9722,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -9870,7 +9865,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -11567,7 +11562,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -11627,7 +11622,6 @@ exports[`<Form> when {validate} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -11746,7 +11740,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -11806,7 +11800,6 @@ exports[`<Form> when {validate} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -12009,7 +12002,7 @@ exports[`<Form> when {validate} 1`] = `
             },
             Object {
               "color": "#4a4a4a",
-              "fontWeight": "700",
+              "fontFamily": undefined,
               "marginBottom": 8,
             },
           ]
@@ -12161,7 +12154,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -12326,7 +12319,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -12376,6 +12369,7 @@ exports[`<Form> when {validate} 1`] = `
         ]
       }
       thumbTintColor="#ffffff"
+      valid={false}
       value={false}
     />
     <Text
@@ -12396,7 +12390,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -12510,7 +12504,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -12653,7 +12647,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -12796,7 +12790,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -12937,7 +12931,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -13023,7 +13017,7 @@ exports[`<Form> when {validate} 1`] = `
             },
             Object {
               "color": "#4a4a4a",
-              "fontWeight": "700",
+              "fontFamily": undefined,
               "marginBottom": 8,
             },
           ]
@@ -13588,7 +13582,7 @@ exports[`<Form> when {validate} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -13680,7 +13674,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -13781,7 +13775,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -13881,7 +13875,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -14033,7 +14027,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -14134,7 +14128,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -14262,7 +14256,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -14363,7 +14357,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -14423,7 +14417,6 @@ exports[`<Form> when {value} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -14511,7 +14504,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -14654,7 +14647,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -16351,7 +16344,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -16411,7 +16404,6 @@ exports[`<Form> when {value} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -16530,7 +16522,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -16590,7 +16582,6 @@ exports[`<Form> when {value} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "fontWeight": "400",
               },
               Object {
                 "color": "#707070",
@@ -16793,7 +16784,7 @@ exports[`<Form> when {value} 1`] = `
             },
             Object {
               "color": "#4a4a4a",
-              "fontWeight": "700",
+              "fontFamily": undefined,
               "marginBottom": 8,
             },
           ]
@@ -16894,7 +16885,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 8,
           },
         ]
@@ -17059,7 +17050,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -17109,6 +17100,7 @@ exports[`<Form> when {value} 1`] = `
         ]
       }
       thumbTintColor="#ffffff"
+      valid={false}
       value={false}
     />
     <Text
@@ -17129,7 +17121,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -17243,7 +17235,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -17386,7 +17378,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -17529,7 +17521,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -17670,7 +17662,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },
@@ -17756,7 +17748,7 @@ exports[`<Form> when {value} 1`] = `
             },
             Object {
               "color": "#4a4a4a",
-              "fontWeight": "700",
+              "fontFamily": undefined,
               "marginBottom": 8,
             },
           ]
@@ -18270,7 +18262,7 @@ exports[`<Form> when {value} 1`] = `
           },
           Object {
             "color": "#4a4a4a",
-            "fontWeight": "700",
+            "fontFamily": undefined,
             "marginBottom": 0,
             "marginLeft": 8,
           },

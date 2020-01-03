@@ -213,7 +213,7 @@ exports[`<InputOption> label 1`] = `
         },
         Object {
           "color": "#4a4a4a",
-          "fontWeight": "700",
+          "fontFamily": undefined,
           "marginBottom": 0,
           "marginLeft": 8,
         },

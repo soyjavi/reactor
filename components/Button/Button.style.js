@@ -50,9 +50,9 @@ export default StyleSheet.create({
   row: LAYOUT.STYLE.ROW,
 
   small: {
-    minWidth: SMALL_SIZE,
     height: SMALL_SIZE,
-    paddingHorizontal: SPACE.XS,
+    minWidth: SMALL_SIZE,
+    paddingHorizontal: SPACE.S,
   },
 
   shadow: ELEVATION.SMALL,
@@ -64,7 +64,6 @@ export default StyleSheet.create({
   // -- Text
   text: {
     fontSize: UNIT * 1.6,
-    letterSpacing: parseFloat((UNIT * -0.02).toFixed(2), 10),
     ...FONT.BUTTON,
     ...Platform.select({
       web: {
@@ -75,7 +74,7 @@ export default StyleSheet.create({
 
   textSmall: {
     fontSize: UNIT * 1.4,
-    letterSpacing: parseFloat((UNIT * -0.015).toFixed(2), 10),
+    ...FONT.BUTTON_SMALL,
   },
 
   textMarginLeft: {

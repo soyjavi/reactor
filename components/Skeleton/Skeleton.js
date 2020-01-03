@@ -16,9 +16,10 @@ const Skeleton = ({ opacity, ...inherit }) => {
   useEffect(() => {
     setInter(
       setInterval(() => {
-        setVisible((value) => !value);
+        if (visible) setVisible((value) => !value);
       }, DURATION * 3),
     );
+
     return () => clearInterval(interval);
   }, []);
 

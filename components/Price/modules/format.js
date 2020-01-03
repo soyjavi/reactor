@@ -17,7 +17,7 @@ export default ({ currency, fixed = 2, locale, operator = '', symbol, value: amo
   if (symbol && symbol.length > 0) {
     leftSide = LEFT_SYMBOLS.includes(symbol) ? symbol : '';
     rightSide = !LEFT_SYMBOLS.includes(symbol) ? symbol : '';
-  } else if (currency && currency.length > 0) leftSide = `${currency} `;
+  } else if (currency && currency.length > 0) leftSide = `${currency}`;
 
   if (IS_WEB && !IS_SERVER && Number.prototype.toLocaleString) {
     value = parseFloat(amount.toFixed(fixed)).toLocaleString(locale, {

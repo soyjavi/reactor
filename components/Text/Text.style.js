@@ -5,7 +5,7 @@ import { THEME } from '../../common';
 const {
   COLOR,
   UNIT,
-  FONT: { FAMILY_SECONDARY, WEIGHT, ...FONT },
+  FONT: { FAMILY_BOLD, ...FONT },
 } = THEME;
 
 export default StyleSheet.create({
@@ -16,19 +16,16 @@ export default StyleSheet.create({
   },
 
   bold: {
-    fontWeight: WEIGHT.BOLD,
+    fontFamily: FAMILY_BOLD,
   },
 
   headline: {
-    fontFamily: FAMILY_SECONDARY,
     fontSize: UNIT * 2.4,
-    fontWeight: WEIGHT.BOLD,
     ...FONT.HEADLINE,
   },
 
   subtitle: {
     fontSize: UNIT * 1.8,
-    fontWeight: WEIGHT.SEMIBOLD,
     ...FONT.SUBTITLE,
   },
 
@@ -40,7 +37,6 @@ export default StyleSheet.create({
 
   input: {
     fontSize: UNIT * 1.6,
-    fontWeight: WEIGHT.REGULAR,
     ...FONT.INPUT,
   },
 

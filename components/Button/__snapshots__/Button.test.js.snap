@@ -199,7 +199,6 @@ exports[`<Button> when {activity} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -372,9 +371,7 @@ exports[`<Button> when {children} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontFamily": undefined,
                 "fontSize": 24,
-                "fontWeight": "700",
               },
               false,
               Object {
@@ -511,7 +508,6 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -644,7 +640,6 @@ exports[`<Button> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -774,7 +769,6 @@ exports[`<Button> when {contained=false} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -909,7 +903,6 @@ exports[`<Button> when {disabled} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -1059,7 +1052,6 @@ exports[`<Button> when {icon} & {title} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -1318,7 +1310,6 @@ exports[`<Button> when {large} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -1452,7 +1443,6 @@ exports[`<Button> when {outlined} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -1585,7 +1575,6 @@ exports[`<Button> when {responsive} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 14,
                 "fontWeight": "600",
-                "letterSpacing": -0.15,
               },
             ]
           }
@@ -1722,7 +1711,6 @@ exports[`<Button> when {rounded} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -1865,7 +1853,6 @@ exports[`<Button> when {shadow} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -1955,7 +1942,7 @@ exports[`<Button> when {small} 1`] = `
           Object {
             "height": 28,
             "minWidth": 28,
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 12,
           },
           false,
           false,
@@ -2002,7 +1989,6 @@ exports[`<Button> when {small} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 14,
                 "fontWeight": "600",
-                "letterSpacing": -0.15,
               },
             ]
           }
@@ -2141,7 +2127,6 @@ exports[`<Button> when {style} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }
@@ -2274,7 +2259,6 @@ exports[`<Button> when {title} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
-                "letterSpacing": -0.2,
               },
             ]
           }

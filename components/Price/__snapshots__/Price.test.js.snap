@@ -12,9 +12,7 @@ exports[`<Price> inject <Text> properties 1`] = `
         "textAlignVertical": "center",
       },
       Object {
-        "fontFamily": undefined,
         "fontSize": 24,
-        "fontWeight": "700",
       },
       false,
       Object {},
@@ -67,7 +65,7 @@ exports[`<Price> when {currency} 1`] = `
     ]
   }
 >
-  Eur 6.995,12
+  Eur6.995,12
 </Text>
 `;
 

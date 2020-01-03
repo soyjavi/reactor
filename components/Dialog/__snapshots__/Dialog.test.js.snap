@@ -458,9 +458,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontFamily": undefined,
                     "fontSize": 24,
-                    "fontWeight": "700",
                   },
                   false,
                   Object {
@@ -1302,9 +1300,7 @@ exports[`<Dialog> when {title} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontFamily": undefined,
                     "fontSize": 24,
-                    "fontWeight": "700",
                   },
                   false,
                   Object {

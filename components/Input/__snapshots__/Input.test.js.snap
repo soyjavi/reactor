@@ -203,7 +203,6 @@ exports[`<Input> when {currency} 1`] = `
             },
             Object {
               "fontSize": 16,
-              "fontWeight": "400",
             },
             Object {
               "color": "#707070",
@@ -727,7 +726,7 @@ exports[`<Input> when {label} 1`] = `
         },
         Object {
           "color": "#4a4a4a",
-          "fontWeight": "700",
+          "fontFamily": undefined,
           "marginBottom": 8,
         },
       ]

@@ -79,9 +79,7 @@ exports[`<Text> when {headline} 1`] = `
         "textAlignVertical": "center",
       },
       Object {
-        "fontFamily": undefined,
         "fontSize": 24,
-        "fontWeight": "700",
       },
       false,
       Object {},
@@ -178,7 +176,6 @@ exports[`<Text> when {subtitle} 1`] = `
       },
       Object {
         "fontSize": 18,
-        "fontWeight": "600",
       },
       false,
       Object {},

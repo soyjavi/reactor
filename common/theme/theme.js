@@ -3,7 +3,7 @@ import { Platform } from 'react-native';
 const WHITE = '#ffffff';
 const BLACK = '#000000';
 const FAMILY = Platform.OS === 'web' ? '"Open Sans", sans-serif' : undefined;
-const FAMILY_SECONDARY = Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined;
+const FAMILY_BOLD = Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined;
 const UNIT = 10;
 const WEIGHT = {
   REGULAR: '400',
@@ -67,11 +67,12 @@ export default {
 
   FONT: {
     FAMILY,
-    FAMILY_SECONDARY,
+    FAMILY_BOLD,
     BUTTON: {
-      fontFamily: FAMILY_SECONDARY,
+      fontFamily: FAMILY_BOLD,
       fontWeight: WEIGHT.SEMIBOLD,
     },
+    BUTTON_SMALL: {},
     DEFAULT: {
       fontFamily: FAMILY,
       fontWeight: WEIGHT.REGULAR,

@@ -16,7 +16,7 @@ describe('format()', () => {
 
   it('including currency', () => {
     const value = format({ value: amount, currency });
-    expect(value).toEqual('Eur 10,95');
+    expect(value).toEqual('Eur10,95');
   });
 
   it('including fixed(4)', () => {
