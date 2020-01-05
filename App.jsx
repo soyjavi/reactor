@@ -1,25 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-import {
-  Activity,
-  Button,
-  Calendar,
-  Dialog,
-  Form,
-  Image,
-  InputDate,
-  Viewport,
-  Skeleton,
-  Slider,
-} from './components';
+import { Button, Calendar, Dialog, Form, Image, Viewport, Slider } from './components';
 
 import { ATTRIBUTES } from './components/Form/Form.mocks';
 
-import { Provider, useL10N } from './context';
+import { L10NProvider, useL10N } from './context';
 
 if (typeof global.self === 'undefined') global.self = global;
-
-const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
 
 const DICTIONARY = {
   'es-ES': {
@@ -35,7 +22,7 @@ const THEME = {
   FONT: { FAMILY: 'Courier New' },
 };
 
-export default () => {
+const App = () => {
   const [dialog, setDialog] = useState(false);
   const [theme, setTheme] = useState(undefined);
   const [form, setForm] = useState();
@@ -43,7 +30,7 @@ export default () => {
   const l10n = useL10N();
 
   return (
-    <Provider dictionary={DICTIONARY} language="en-EN" theme={theme}>
+    <L10NProvider dictionary={DICTIONARY} language="en-EN" theme={theme}>
       <Viewport visible scroll styleContent={{ padding: 10 }}>
         <Button onPress={() => setDialog(true)} title={l10n.GREETINGS} />
 
@@ -69,14 +56,12 @@ export default () => {
           <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
         </Slider>
 
-        <Dialog
-          title="Example of Dialog"
-          visible={dialog}
-          onClose={() => setDialog(false)}
-        >
+        <Dialog title="Example of Dialog" visible={dialog} onClose={() => setDialog(false)}>
           <Calendar />
         </Dialog>
       </Viewport>
-    </Provider>
+    </L10NProvider>
   );
 };
+
+export default App;

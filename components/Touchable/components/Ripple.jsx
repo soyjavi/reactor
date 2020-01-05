@@ -41,17 +41,17 @@ const Ripple = ({ color, progress, range, x, y }) => (
 Ripple.propTypes = {
   color: string,
   progress: shape({}),
+  range: number,
   x: number,
   y: number,
-  range: number,
 };
 
 Ripple.defaultProps = {
   color: COLOR.BASE,
   progress: new Animated.Value(0),
+  range: 0,
   x: 0,
   y: 0,
-  range: 0,
 };
 
 export default Ripple;

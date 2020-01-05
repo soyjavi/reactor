@@ -24,7 +24,6 @@ import Snackbar from './Snackbar';
 import Switch from './Switch';
 import Text from './Text';
 import Touchable from './Touchable';
-import Video from './Video';
 import Viewport from './Viewport';
 
 export {
@@ -56,6 +55,5 @@ export {
   Switch,
   Text,
   Touchable,
-  Video,
   Viewport,
 };

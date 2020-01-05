@@ -1,1 +1,1 @@
-export { ConsumerTracking, ProviderTracking } from './Tracking';
+export * from './Tracking';

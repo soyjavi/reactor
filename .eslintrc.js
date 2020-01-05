@@ -11,15 +11,29 @@ module.exports = {
   },
   parser: 'babel-eslint',
   parserOptions: {
+    ecmaVersion: 2018,
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 2018,
     sourceType: 'module',
   },
   plugins: ['prettier', 'react', 'react-hooks', 'react-native'],
   rules: {
     'max-len': [1, 120, { tabWidth: 2, ignoreComments: true }],
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.tsx'] }],
+    'react/sort-prop-types': [
+      'error',
+      {
+        callbacksLast: false,
+        ignoreCase: true,
+        requiredFirst: false,
+        sortShapeProp: true,
+      },
+    ],
+  },
+  settings: {
+    react: {
+      version: require('./package.json').dependencies.react,
+    },
   },
 };
