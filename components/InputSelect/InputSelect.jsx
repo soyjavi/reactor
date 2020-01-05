@@ -4,7 +4,7 @@ import { findDOMNode } from 'react-dom';
 import { Picker, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import Button from '../Button';
+import Icon from '../Icon';
 import { InputHint, InputLabel } from '../Input';
 import Motion from '../Motion';
 import Touchable from '../Touchable';
@@ -21,9 +21,9 @@ class InputSelect extends PureComponent {
     disabled: bool,
     error: oneOfType([bool, string]),
     hint: string,
+    ItemTemplate: func,
     label: string,
     onChange: func,
-    ItemTemplate: func,
     value: oneOfType([string, number]),
   };
 
@@ -32,9 +32,9 @@ class InputSelect extends PureComponent {
     disabled: false,
     error: undefined,
     hint: undefined,
+    ItemTemplate: Template,
     label: undefined,
     onChange: undefined,
-    ItemTemplate: Template,
     value: 0,
   };
 
@@ -101,7 +101,7 @@ class InputSelect extends PureComponent {
             style={[styles.button, label && styles.withLabel]}
             timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
           >
-            <Button contained={false} icon="navDown" iconSize={14} onPress={event} />
+            <Icon value="menu-down" />
           </Motion>
         )}
 

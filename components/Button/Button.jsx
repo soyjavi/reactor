@@ -1,4 +1,4 @@
-import { bool, func, node, number, oneOfType, string } from 'prop-types';
+import { bool, func, node, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
@@ -59,7 +59,14 @@ const Button = ({
           !isSolid && disabled && styles.disabledOpacity,
         ]}
       >
-        {icon && !activity && <Icon value={icon} size={small ? 16 : inherit.iconSize} />}
+        {icon && !activity && (
+          <Icon
+            color={calcColor({ isSolid, color })}
+            family={inherit.iconFamily}
+            size={inherit.iconSize}
+            value={icon}
+          />
+        )}
         <View style={[styles.row, icon && (title || children) && styles.textMarginLeft]}>
           {title && (
             <Text
@@ -80,10 +87,10 @@ const Button = ({
 Button.propTypes = {
   activity: bool,
   children: node,
-  contained: bool,
   color: string,
+  contained: bool,
   disabled: bool,
-  icon: oneOfType([number, string]),
+  icon: string,
   large: bool,
   onPress: func,
   outlined: bool,
@@ -97,8 +104,8 @@ Button.propTypes = {
 Button.defaultProps = {
   activity: false,
   children: undefined,
-  contained: true,
   color: undefined,
+  contained: true,
   disabled: false,
   icon: undefined,
   large: false,

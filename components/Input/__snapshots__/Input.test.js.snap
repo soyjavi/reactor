@@ -184,15 +184,6 @@ exports[`<Input> when {currency} 1`] = `
       }
     >
       <Text
-        _style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "paddingHorizontal": 4,
-          }
-        }
         style={
           Array [
             Object {
@@ -207,7 +198,9 @@ exports[`<Input> when {currency} 1`] = `
             Object {
               "color": "#707070",
             },
-            Object {},
+            Object {
+              "paddingLeft": 4,
+            },
           ]
         }
       >
@@ -395,31 +388,7 @@ exports[`<Input> when {error} 1`] = `
       underlineColorAndroid="transparent"
       value=""
     />
-    <Image
-      resizeMode="contain"
-      source={1}
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "height": 20,
-            "width": 20,
-          },
-          Array [
-            Object {
-              "alignSelf": "flex-start",
-              "height": 18,
-              "marginRight": 4,
-              "width": 18,
-            },
-            Object {
-              "marginTop": 12,
-            },
-          ],
-          undefined,
-        ]
-      }
-    />
+    <Text />
   </View>
 </View>
 `;
@@ -563,30 +532,7 @@ exports[`<Input> when {icon} 1`] = `
         }
       }
     >
-      <Image
-        resizeMode="contain"
-        source={
-          Object {
-            "uri": "email",
-          }
-        }
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Object {
-              "alignSelf": "flex-start",
-              "height": 18,
-              "marginRight": 4,
-              "width": 18,
-            },
-            undefined,
-          ]
-        }
-      />
+      <Text />
     </View>
     <TextInput
       allowFontScaling={true}
@@ -930,31 +876,7 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
       underlineColorAndroid="transparent"
       value=""
     />
-    <Image
-      resizeMode="contain"
-      source={1}
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "height": 20,
-            "width": 20,
-          },
-          Array [
-            Object {
-              "alignSelf": "flex-start",
-              "height": 18,
-              "marginRight": 4,
-              "width": 18,
-            },
-            Object {
-              "marginTop": 12,
-            },
-          ],
-          undefined,
-        ]
-      }
-    />
+    <Text />
   </View>
 </View>
 `;
@@ -1171,55 +1093,7 @@ exports[`<Input> when {valid} 1`] = `
       underlineColorAndroid="transparent"
       value="soyjavi"
     />
-    <View
-      style={
-        Array [
-          Object {
-            "borderColor": "#707070",
-            "borderRadius": 20,
-            "borderWidth": 2,
-            "height": 20,
-            "width": 20,
-          },
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#10c0bc",
-            "borderColor": "#10c0bc",
-            "justifyContent": "center",
-          },
-          Array [
-            Object {
-              "alignSelf": "flex-start",
-              "height": 18,
-              "marginRight": 4,
-              "width": 18,
-            },
-            Object {
-              "marginTop": 12,
-            },
-          ],
-        ]
-      }
-    >
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Object {
-              "height": 14,
-              "width": 14,
-            },
-            undefined,
-          ]
-        }
-      />
-    </View>
+    <Text />
   </View>
 </View>
 `;

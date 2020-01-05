@@ -1004,21 +1004,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
         ]
       }
     >
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            undefined,
-            undefined,
-          ]
-        }
-      />
+      <Text />
       <View
         style={
           Array [
@@ -1155,21 +1141,7 @@ exports[`<Button> when {icon} 1`] = `
         ]
       }
     >
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            undefined,
-            undefined,
-          ]
-        }
-      />
+      <Text />
       <View
         style={
           Array [

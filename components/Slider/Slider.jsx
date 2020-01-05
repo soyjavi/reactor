@@ -21,8 +21,8 @@ class Slider extends PureComponent {
     item: func,
     itemMargin: number,
     itemWidth: number,
-    onChange: func,
     navigation: bool,
+    onChange: func,
     snap: bool,
     steps: number,
   };
@@ -33,8 +33,8 @@ class Slider extends PureComponent {
     item() {},
     itemMargin: SPACE.S,
     itemWidth: undefined,
-    onChange: undefined,
     navigation: false,
+    onChange: undefined,
     snap: true,
     steps: 1,
   };
@@ -107,13 +107,13 @@ class Slider extends PureComponent {
       <View style={styles.container}>
         {navigation && (
           <View style={[styles.navigation, styles.previous]}>
-            <Button icon="left" onPress={_onPressButton} small />
+            <Button icon="arrow-left" onPress={_onPressButton} small />
           </View>
         )}
 
         {navigation && (
           <View style={[styles.navigation, styles.next]}>
-            <Button icon="right" onPress={() => _onPressButton(NEXT)} small />
+            <Button icon="arrow-right" onPress={() => _onPressButton(NEXT)} small />
           </View>
         )}
 

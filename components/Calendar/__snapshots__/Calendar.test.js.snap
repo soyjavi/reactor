@@ -103,41 +103,17 @@ exports[`<Calendar> renders 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -173,7 +149,7 @@ exports[`<Calendar> renders 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -268,36 +244,17 @@ exports[`<Calendar> renders 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -333,7 +290,7 @@ exports[`<Calendar> renders 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -4738,41 +4695,17 @@ exports[`<Calendar> when {availableDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -4808,7 +4741,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -4903,36 +4836,17 @@ exports[`<Calendar> when {availableDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -4968,7 +4882,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -7861,41 +7775,17 @@ exports[`<Calendar> when {box:false} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -7931,7 +7821,7 @@ exports[`<Calendar> when {box:false} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -8026,36 +7916,17 @@ exports[`<Calendar> when {box:false} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -8091,7 +7962,7 @@ exports[`<Calendar> when {box:false} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -11876,41 +11747,17 @@ exports[`<Calendar> when {busy} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -11946,7 +11793,7 @@ exports[`<Calendar> when {busy} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -12041,36 +11888,17 @@ exports[`<Calendar> when {busy} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -12106,7 +11934,7 @@ exports[`<Calendar> when {busy} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -14119,41 +13947,17 @@ exports[`<Calendar> when {captions} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -14189,7 +13993,7 @@ exports[`<Calendar> when {captions} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -14284,36 +14088,17 @@ exports[`<Calendar> when {captions} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -14349,7 +14134,7 @@ exports[`<Calendar> when {captions} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -18754,41 +18539,17 @@ exports[`<Calendar> when {date} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -18824,7 +18585,7 @@ exports[`<Calendar> when {date} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -18919,36 +18680,17 @@ exports[`<Calendar> when {date} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -18984,7 +18726,7 @@ exports[`<Calendar> when {date} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -23386,41 +23128,17 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -23456,7 +23174,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -23551,36 +23269,17 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -23616,7 +23315,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -28024,43 +27723,19 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
+                  Object {
+                    "backgroundColor": "#cdd2d4",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
-                  Object {
-                    "opacity": 0.5,
-                  },
+                  false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -28096,7 +27771,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -28191,36 +27866,17 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -28256,7 +27912,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -32049,41 +31705,17 @@ exports[`<Calendar> when {edges} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -32119,7 +31751,7 @@ exports[`<Calendar> when {edges} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -32214,36 +31846,17 @@ exports[`<Calendar> when {edges} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -32279,7 +31892,7 @@ exports[`<Calendar> when {edges} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -36708,41 +36321,17 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -36778,7 +36367,7 @@ exports[`<Calendar> when {expanded} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -36876,38 +36465,19 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
+                  Object {
+                    "backgroundColor": "#cdd2d4",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
-                  Object {
-                    "opacity": 0.5,
-                  },
+                  false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -36943,7 +36513,7 @@ exports[`<Calendar> when {expanded} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -41144,43 +40714,19 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
+                  Object {
+                    "backgroundColor": "#cdd2d4",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
-                  Object {
-                    "opacity": 0.5,
-                  },
+                  false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -41216,7 +40762,7 @@ exports[`<Calendar> when {expanded} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -41311,36 +40857,17 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -41376,7 +40903,7 @@ exports[`<Calendar> when {expanded} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -45613,41 +45140,17 @@ exports[`<Calendar> when {locale} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -45683,7 +45186,7 @@ exports[`<Calendar> when {locale} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -45778,36 +45281,17 @@ exports[`<Calendar> when {locale} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -45843,7 +45327,7 @@ exports[`<Calendar> when {locale} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -50248,41 +49732,17 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -50318,7 +49778,7 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -50413,36 +49873,17 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -50478,7 +49919,7 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -54908,41 +54349,17 @@ exports[`<Calendar> when {style} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -54978,7 +54395,7 @@ exports[`<Calendar> when {style} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -55073,36 +54490,17 @@ exports[`<Calendar> when {style} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -55138,7 +54536,7 @@ exports[`<Calendar> when {style} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -59543,41 +58941,17 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -59613,7 +58987,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -59708,36 +59082,17 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -59773,7 +59128,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -64278,41 +63633,17 @@ exports[`<Calendar> when {value} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "transform": Array [
-                        Object {
-                          "rotate": "-180deg",
-                        },
-                      ],
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -64348,7 +63679,7 @@ exports[`<Calendar> when {value} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -64443,36 +63774,17 @@ exports[`<Calendar> when {value} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                  },
                   false,
                   false,
-                  Object {
-                    "borderWidth": 1,
-                  },
-                  Object {
-                    "borderColor": "#9B9B9B",
-                  },
+                  false,
                   false,
                 ]
               }
             >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    undefined,
-                    Object {
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-              />
+              <Text />
               <View
                 style={
                   Array [
@@ -64508,7 +63820,7 @@ exports[`<Calendar> when {value} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#9B9B9B",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,

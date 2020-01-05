@@ -48,7 +48,7 @@ const InputDate = ({ disabled, error, hint, label, locale, onChange, placeholder
 
           {!disabled && !error && (
             <Motion timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}>
-              <Icon value="navDown" style={[styles.icon, styles.iconNav]} />
+              <Icon value="menu-down" />
             </Motion>
           )}
 

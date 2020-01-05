@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { Button, Calendar, Dialog, Form, Image, Snackbar, Viewport, Slider } from './components';
+import { Button, Calendar, Dialog, Form, Icon, Image, Snackbar, Viewport, Slider } from './components';
 
 import { ATTRIBUTES } from './components/Form/Form.mocks';
 
@@ -33,11 +33,12 @@ const App = () => {
   return (
     <L10NProvider dictionary={DICTIONARY} language="en-EN" theme={theme}>
       <Viewport visible scroll styleContent={{ padding: 10 }}>
-        <Button onPress={() => setDialog(true)} title={l10n.GREETINGS} />
+        <Icon />
+        <Button icon="eye" iconFamily="Feather" iconSize={16} onPress={() => setDialog(true)} title={l10n.GREETINGS} />
 
-        <Button title="Show Snackbar" onPress={() => setSnackbar(true)} />
+        <Button icon="cellphone-message" title="Show Snackbar" onPress={() => setSnackbar(true)} />
 
-        <Button title="Toggle Theme" onPress={() => setTheme(theme ? undefined : THEME)} />
+        <Button icon="file" title="Toggle Theme" onPress={() => setTheme(theme ? undefined : THEME)} />
 
         <Form
           attributes={ATTRIBUTES}

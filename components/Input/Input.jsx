@@ -53,9 +53,9 @@ const Input = ({
       >
         {(icon || currency) && (
           <View style={styles.inlineHint} pointerEvents="none">
-            {icon && <Icon value={icon} style={styles.icon} />}
+            {icon && <Icon value={icon} family={inherit.iconFamily} size={inherit.iconSize} />}
             {currency && (
-              <Text input lighten _style={styles.inlineHint}>
+              <Text input lighten style={styles.currencyWithIcon}>
                 {currency}
               </Text>
             )}
@@ -86,9 +86,13 @@ const Input = ({
           ]}
         />
         {(error || (required && requiredIcon)) && (
-          <Icon value={error ? 'error' : 'errorOutline'} style={[styles.icon, styles.iconRight]} />
+          <Icon
+            color={error ? COLOR.ERROR : COLOR.TEXT_LIGHTEN}
+            family="MaterialIcons"
+            value={error ? 'error' : 'error-outline'}
+          />
         )}
-        {valid && <InputIcon style={[styles.icon, styles.iconRight]} />}
+        {valid && <InputIcon valid />}
       </View>
       {hint && <InputHint>{hint}</InputHint>}
     </View>
@@ -101,7 +105,7 @@ Input.propTypes = {
   disabled: bool,
   error: oneOfType([bool, string]),
   hint: string,
-  icon: oneOfType([number, string]),
+  icon: string,
   keyboard: string,
   label: string,
   lines: number,

@@ -149,7 +149,7 @@ class InputList extends PureComponent {
                 >
                   <ItemList template={itemTemplate} value={itemValue} />
                   <Touchable onPress={() => _onRemoveItem(item)}>
-                    <Icon value="close" style={styles.iconClose} />
+                    <Icon value="close" />
                   </Touchable>
                 </View>
               );

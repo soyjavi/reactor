@@ -4,7 +4,6 @@ import { LAYOUT, THEME } from '../../common';
 
 const { COLOR, FONT, UNIT, SPACE } = THEME;
 
-const ICON_SIZE = UNIT * 1.8;
 const INPUT_HEIGHT = UNIT * 4.2;
 
 export { INPUT_HEIGHT };
@@ -23,6 +22,10 @@ export default StyleSheet.create({
     borderRadius: UNIT / 4,
   },
 
+  currencyWithIcon: {
+    paddingLeft: SPACE.XXS,
+  },
+
   disabled: {
     backgroundColor: COLOR.DISABLED,
   },
@@ -38,12 +41,6 @@ export default StyleSheet.create({
   icon: {
     alignSelf: 'flex-start',
     marginRight: SPACE.XXS,
-    height: ICON_SIZE,
-    width: ICON_SIZE,
-  },
-
-  iconRight: {
-    marginTop: SPACE.S,
   },
 
   inlineHint: {

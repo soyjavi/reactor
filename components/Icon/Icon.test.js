@@ -18,48 +18,18 @@ describe('<Icon>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {value} (navRight)', () => {
-    const tree = renderer.create(<Icon value={MOCKS.VALUE_NAV.RIGHT} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {value} (navDown)', () => {
-    const tree = renderer.create(<Icon value={MOCKS.VALUE_NAV.DOWN} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {value} (navLeft)', () => {
-    const tree = renderer.create(<Icon value={MOCKS.VALUE_NAV.LEFT} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {value} (navUp)', () => {
-    const tree = renderer.create(<Icon value={MOCKS.VALUE_NAV.UP} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {value} (as uri)', () => {
-    const tree = renderer.create(<Icon value="https://api.adorable.io/avatars/48/8" />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it('when {color} (only Native)', () => {
-    const tree = renderer.create(<Icon value={MOCKS.VALUE} color={MOCKS.COLOR} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {invert} (only Web)', () => {
-    const tree = renderer.create(<Icon value={MOCKS.VALUE} invert />).toJSON();
+    const tree = renderer.create(<Icon color={MOCKS.COLOR} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {size}', () => {
-    const tree = renderer.create(<Icon value={MOCKS.VALUE} size={48} />).toJSON();
+    const tree = renderer.create(<Icon size={MOCKS.SIZE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {style}', () => {
-    const tree = renderer.create(<Icon value={MOCKS.VALUE} style={MOCKS.STYLE} />).toJSON();
+  it('when {family}', () => {
+    const tree = renderer.create(<Icon value={MOCKS.VALUE} family={MOCKS.FAMILY} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

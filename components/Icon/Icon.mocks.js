@@ -1,46 +1,13 @@
 import { THEME } from '../../common';
 
 const COLOR = THEME.COLOR.PRIMARY;
-
-const ICONS = [
-  'close',
-  'closeContrast',
-  'doneContrast',
-  'email',
-  'error',
-  'errorOutline',
-  'facebook',
-  'google',
-  'left',
-  'linkedin',
-  'navRight',
-  'navDown',
-  'navLeft',
-  'navUp',
-  'right',
-  'shareContrast',
-  'twitter',
-];
-
-const STYLE = {
-  backgroundColor: THEME.COLOR.PRIMARY,
-};
-
-const VALUE = ICONS[0];
-const VALUE_NAV = {
-  RIGHT: 'navRight',
-  DOWN: 'navDown',
-  LEFT: 'navLeft',
-  UP: 'navUp',
-};
-
-const VALUE_URI = 'http://soyjavi.com/assets/images/soyjavi.jpg';
+const FAMILY = 'Feather';
+const SIZE = 32;
+const VALUE = 'eye';
 
 export default {
   COLOR,
-  ICONS,
-  STYLE,
+  FAMILY,
+  SIZE,
   VALUE,
-  VALUE_NAV,
-  VALUE_URI,
 };

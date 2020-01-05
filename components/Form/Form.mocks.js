@@ -32,6 +32,8 @@ const ATTRIBUTES = {
   },
   bio: { lines: 4 },
   currency: {
+    icon: 'money',
+    iconFamily: 'FontAwesome',
     required: true,
     currency: '$',
     inline: 3,
@@ -61,7 +63,7 @@ const ATTRIBUTES = {
     inline: 2,
   },
   avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
-  twitter: { icon: 'twitter', inline: 3 },
+  twitter: { icon: 'twitter', iconFamily: 'Feather', inline: 3 },
   isPublic: { type: 'bool', inline: 3 },
   isPrivate: { type: 'bool', inline: 3 },
 

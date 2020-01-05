@@ -343,31 +343,7 @@ exports[`<InputList> when {error} 1`] = `
         underlineColorAndroid="transparent"
         value=""
       />
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Array [
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              Object {
-                "marginTop": 12,
-              },
-            ],
-            undefined,
-          ]
-        }
-      />
+      <Text />
     </View>
   </View>
 </View>
@@ -656,25 +632,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -773,25 +731,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -890,25 +830,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -1007,25 +929,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -1124,25 +1028,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -1540,25 +1426,7 @@ exports[`<InputList> when {value} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -1647,25 +1515,7 @@ exports[`<InputList> when {value} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -1754,25 +1604,7 @@ exports[`<InputList> when {value} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -1861,25 +1693,7 @@ exports[`<InputList> when {value} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [
@@ -1968,25 +1782,7 @@ exports[`<InputList> when {value} 1`] = `
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 10,
-                "marginLeft": 8,
-                "width": 10,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
         <View
           style={
             Array [

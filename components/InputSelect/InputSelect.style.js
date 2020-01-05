@@ -21,8 +21,8 @@ export default StyleSheet.create({
 
   button: {
     position: 'absolute',
-    top: TEMPLATE_HEIGHT / 2 - INPUT_HEIGHT / 2,
-    right: 0,
+    top: TEMPLATE_HEIGHT / 2 - SPACE.XXS,
+    right: SPACE.XXS,
     zIndex: 1,
   },
 

@@ -91,10 +91,10 @@ exports[`<Snackbar> renders 1`] = `
           <View
             style={
               Object {
-                "alignItems": "flex-start",
+                "alignContent": "center",
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "flex-end",
                 "paddingHorizontal": 8,
                 "paddingVertical": 8,
               }
@@ -221,10 +221,10 @@ exports[`<Snackbar> when {button} 1`] = `
           <View
             style={
               Object {
-                "alignItems": "flex-start",
+                "alignContent": "center",
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "flex-end",
                 "paddingHorizontal": 8,
                 "paddingVertical": 8,
               }
@@ -351,10 +351,10 @@ exports[`<Snackbar> when {caption} 1`] = `
           <View
             style={
               Object {
-                "alignItems": "flex-start",
+                "alignContent": "center",
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "flex-end",
                 "paddingHorizontal": 8,
                 "paddingVertical": 8,
               }
@@ -505,10 +505,10 @@ exports[`<Snackbar> when {children} 1`] = `
           <View
             style={
               Object {
-                "alignItems": "flex-start",
+                "alignContent": "center",
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "flex-end",
                 "paddingHorizontal": 8,
                 "paddingVertical": 8,
               }
@@ -637,10 +637,10 @@ exports[`<Snackbar> when {color} 1`] = `
           <View
             style={
               Object {
-                "alignItems": "flex-start",
+                "alignContent": "center",
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "flex-end",
                 "paddingHorizontal": 8,
                 "paddingVertical": 8,
               }
@@ -767,10 +767,10 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
           <View
             style={
               Object {
-                "alignItems": "flex-start",
+                "alignContent": "center",
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "flex-end",
                 "paddingHorizontal": 8,
                 "paddingVertical": 8,
               }

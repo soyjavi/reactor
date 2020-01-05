@@ -9,7 +9,7 @@ import Text from '../Text';
 import styles from './Dialog.style';
 
 const { IS_NATIVE } = ENV;
-const { COLOR, MOTION } = THEME;
+const { COLOR, MOTION, SPACE } = THEME;
 
 const Dialog = ({ background, children, highlight, reverse, onClose, style, styleContainer, title, visible }) => {
   const [scroll, setScroll] = useState(false);
@@ -51,15 +51,22 @@ const Dialog = ({ background, children, highlight, reverse, onClose, style, styl
             <View style={[styles.frame, style]}>
               <View style={styles.header}>
                 {title && (
-                  <Text color={highlight ? COLOR.WHITE : undefined} subtitle numberOfLines={1} style={styles.title}>
+                  <Text
+                    bold
+                    color={highlight ? COLOR.WHITE : undefined}
+                    subtitle
+                    numberOfLines={1}
+                    style={styles.title}
+                  >
                     {title}
                   </Text>
                 )}
                 {onClose && (
                   <Button
                     contained={false}
-                    color={highlight ? undefined : COLOR.TEXT}
-                    icon={highlight ? 'closeContrast' : 'close'}
+                    color={highlight ? COLOR.WHITE : COLOR.TEXT}
+                    icon="close"
+                    iconSize={SPACE.L}
                     onPress={onClose}
                     rounded
                   />

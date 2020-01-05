@@ -14,7 +14,7 @@ const determineStyle = ({ caption, input, headline, subtitle }) => {
   return styles.body;
 };
 
-const Text = ({ bold, lighten, color, caption, input, headline, subtitle, ...inherit }) => {
+const Text = ({ bold, color, caption, headline, input, lighten, subtitle, ...inherit }) => {
   const { FONT: { FAMILY } = {} } = useTheme();
 
   return (
@@ -40,20 +40,20 @@ Text.propTypes = {
   bold: bool,
   caption: bool,
   color: string,
-  input: bool,
   headline: bool,
-  subtitle: bool,
+  input: bool,
   lighten: bool,
+  subtitle: bool,
 };
 
 Text.defaultProps = {
   bold: false,
   caption: false,
   color: undefined,
-  input: false,
   headline: false,
-  subtitle: false,
+  input: false,
   lighten: false,
+  subtitle: false,
 };
 
 export default Text;

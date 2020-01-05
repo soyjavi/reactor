@@ -30,59 +30,7 @@ exports[`<InputOption> inherity:style 1`] = `
     ]
   }
 >
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#707070",
-          "borderRadius": 2,
-          "borderWidth": 2,
-          "height": 20,
-          "justifyContent": "center",
-          "width": 20,
-        },
-        Object {
-          "borderRadius": 10,
-        },
-        false,
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "opacity": 0,
-          "transform": Array [
-            Object {
-              "scale": 0,
-            },
-          ],
-        }
-      }
-    >
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Object {
-              "height": 14,
-              "width": 14,
-            },
-            undefined,
-          ]
-        }
-      />
-    </View>
-  </View>
+  <Text />
   <View
     style={
       Array [
@@ -142,59 +90,7 @@ exports[`<InputOption> label 1`] = `
     ]
   }
 >
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#707070",
-          "borderRadius": 2,
-          "borderWidth": 2,
-          "height": 20,
-          "justifyContent": "center",
-          "width": 20,
-        },
-        Object {
-          "borderRadius": 10,
-        },
-        false,
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "opacity": 0,
-          "transform": Array [
-            Object {
-              "scale": 0,
-            },
-          ],
-        }
-      }
-    >
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Object {
-              "height": 14,
-              "width": 14,
-            },
-            undefined,
-          ]
-        }
-      />
-    </View>
-  </View>
+  <Text />
   <Text
     numberOfLines={2}
     style={
@@ -281,59 +177,7 @@ exports[`<InputOption> renders 1`] = `
     ]
   }
 >
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#707070",
-          "borderRadius": 2,
-          "borderWidth": 2,
-          "height": 20,
-          "justifyContent": "center",
-          "width": 20,
-        },
-        Object {
-          "borderRadius": 10,
-        },
-        false,
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "opacity": 0,
-          "transform": Array [
-            Object {
-              "scale": 0,
-            },
-          ],
-        }
-      }
-    >
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Object {
-              "height": 14,
-              "width": 14,
-            },
-            undefined,
-          ]
-        }
-      />
-    </View>
-  </View>
+  <Text />
   <View
     style={
       Array [
@@ -393,57 +237,7 @@ exports[`<InputOption> rounded (false) 1`] = `
     ]
   }
 >
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#707070",
-          "borderRadius": 2,
-          "borderWidth": 2,
-          "height": 20,
-          "justifyContent": "center",
-          "width": 20,
-        },
-        false,
-        false,
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "opacity": 0,
-          "transform": Array [
-            Object {
-              "scale": 0,
-            },
-          ],
-        }
-      }
-    >
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Object {
-              "height": 14,
-              "width": 14,
-            },
-            undefined,
-          ]
-        }
-      />
-    </View>
-  </View>
+  <Text />
   <View
     style={
       Array [
@@ -503,62 +297,7 @@ exports[`<InputOption> value 1`] = `
     ]
   }
 >
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#707070",
-          "borderRadius": 2,
-          "borderWidth": 2,
-          "height": 20,
-          "justifyContent": "center",
-          "width": 20,
-        },
-        Object {
-          "borderRadius": 10,
-        },
-        Object {
-          "backgroundColor": "#10c0bc",
-          "borderColor": "#10c0bc",
-        },
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "opacity": 1,
-          "transform": Array [
-            Object {
-              "scale": 1,
-            },
-          ],
-        }
-      }
-    >
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Object {
-              "height": 14,
-              "width": 14,
-            },
-            undefined,
-          ]
-        }
-      />
-    </View>
-  </View>
+  <Text />
   <View
     style={
       Array [

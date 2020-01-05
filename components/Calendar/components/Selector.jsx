@@ -10,7 +10,6 @@ import styles from './Selector.style';
 const { COLOR } = THEME;
 const buttonProps = {
   color: COLOR.LIGHT_GREY,
-  outlined: true,
   rounded: true,
   small: true,
 };
@@ -20,7 +19,7 @@ const Selector = ({ onPrevious, onNext, title }) => (
     <Button
       {...buttonProps}
       disabled={!onPrevious}
-      icon="navLeft"
+      icon="arrow-left"
       onPress={onPrevious}
       style={!onPrevious && styles.buttonDisabled}
     />
@@ -30,7 +29,7 @@ const Selector = ({ onPrevious, onNext, title }) => (
     <Button
       {...buttonProps}
       disabled={!onNext}
-      icon="navRight"
+      icon="arrow-right"
       onPress={onNext}
       style={!onNext && styles.buttonDisabled}
     />

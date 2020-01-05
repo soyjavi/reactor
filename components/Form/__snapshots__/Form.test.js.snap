@@ -335,31 +335,7 @@ exports[`<Form> when {attributes} 1`] = `
         underlineColorAndroid="transparent"
         value=""
       />
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Array [
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              Object {
-                "marginTop": 12,
-              },
-            ],
-            undefined,
-          ]
-        }
-      />
+      <Text />
     </View>
     <Text
       numberOfLines={2}
@@ -791,16 +767,8 @@ exports[`<Form> when {attributes} 1`] = `
           }
         }
       >
+        <Text />
         <Text
-          _style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
-          }
           style={
             Array [
               Object {
@@ -815,7 +783,9 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#707070",
               },
-              Object {},
+              Object {
+                "paddingLeft": 4,
+              },
             ]
           }
         >
@@ -829,6 +799,7 @@ exports[`<Form> when {attributes} 1`] = `
         blurOnSubmit={true}
         editable={true}
         field="currency"
+        iconFamily="FontAwesome"
         keyboard="default"
         keyboardType="numeric"
         multiline={false}
@@ -1054,8 +1025,8 @@ exports[`<Form> when {attributes} 1`] = `
         Object {
           "marginTop": 20,
           "position": "absolute",
-          "right": 0,
-          "top": 7,
+          "right": 4,
+          "top": 24,
           "transform": Array [
             Object {
               "rotate": "0deg0",
@@ -1065,133 +1036,7 @@ exports[`<Form> when {attributes} 1`] = `
         }
       }
     >
-      <View>
-        <View
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                false,
-                false,
-              ],
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderRadius": 3,
-                  "justifyContent": "center",
-                },
-                Object {
-                  "height": 44,
-                  "minWidth": 44,
-                  "paddingHorizontal": 28,
-                },
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "paddingHorizontal": 0,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={1}
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  undefined,
-                  Object {
-                    "height": 14,
-                    "transform": Array [
-                      Object {
-                        "rotate": "90deg",
-                      },
-                    ],
-                    "width": 14,
-                  },
-                ]
-              }
-            />
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#ffffff",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
+      <Text />
     </View>
     <View
       style={
@@ -1239,45 +1084,7 @@ exports[`<Form> when {attributes} 1`] = `
             }
           }
         >
-          <View
-            style={
-              Array [
-                Object {
-                  "borderColor": "#707070",
-                  "borderRadius": 20,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                  "justifyContent": "center",
-                },
-                undefined,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={1}
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "height": 14,
-                    "width": 14,
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
+          <Text />
           <View
             style={
               Object {
@@ -1427,21 +1234,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -1555,21 +1348,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -1683,45 +1462,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignItems": "center",
-                    "backgroundColor": "#10c0bc",
-                    "borderColor": "#10c0bc",
-                    "justifyContent": "center",
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
+            <Text />
             <View
               style={
                 Object {
@@ -1835,21 +1576,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -1963,21 +1690,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -2091,21 +1804,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -2219,21 +1918,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -2347,21 +2032,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -2475,21 +2146,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -2603,21 +2260,7 @@ exports[`<Form> when {attributes} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -2820,34 +2463,7 @@ exports[`<Form> when {attributes} 1`] = `
             }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Array [
-                  Object {
-                    "marginHorizontal": 4,
-                  },
-                  Object {
-                    "height": 16,
-                  },
-                ],
-                Object {
-                  "transform": Array [
-                    Object {
-                      "rotate": "90deg",
-                    },
-                  ],
-                },
-              ]
-            }
-          />
+          <Text />
         </View>
       </View>
       <View
@@ -2998,34 +2614,7 @@ exports[`<Form> when {attributes} 1`] = `
             }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Array [
-                  Object {
-                    "marginHorizontal": 4,
-                  },
-                  Object {
-                    "height": 16,
-                  },
-                ],
-                Object {
-                  "transform": Array [
-                    Object {
-                      "rotate": "90deg",
-                    },
-                  ],
-                },
-              ]
-            }
-          />
+          <Text />
         </View>
       </View>
       <View
@@ -3319,30 +2908,7 @@ exports[`<Form> when {attributes} 1`] = `
           }
         }
       >
-        <Image
-          resizeMode="contain"
-          source={
-            Object {
-              "uri": "twitter",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
       </View>
       <TextInput
         allowFontScaling={true}
@@ -3351,6 +2917,7 @@ exports[`<Form> when {attributes} 1`] = `
         blurOnSubmit={true}
         editable={true}
         field="twitter"
+        iconFamily="Feather"
         keyboard="default"
         keyboardType="default"
         multiline={false}
@@ -3558,59 +3125,7 @@ exports[`<Form> when {attributes} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -3701,59 +3216,7 @@ exports[`<Form> when {attributes} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -3844,59 +3307,7 @@ exports[`<Form> when {attributes} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -3987,57 +3398,7 @@ exports[`<Form> when {attributes} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -4244,57 +3605,7 @@ exports[`<Form> when {attributes} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -4672,31 +3983,7 @@ exports[`<Form> when {color} 1`] = `
         underlineColorAndroid="transparent"
         value=""
       />
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Array [
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              Object {
-                "marginTop": 12,
-              },
-            ],
-            undefined,
-          ]
-        }
-      />
+      <Text />
     </View>
     <Text
       numberOfLines={2}
@@ -5128,16 +4415,8 @@ exports[`<Form> when {color} 1`] = `
           }
         }
       >
+        <Text />
         <Text
-          _style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
-          }
           style={
             Array [
               Object {
@@ -5152,7 +4431,9 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "color": "#707070",
               },
-              Object {},
+              Object {
+                "paddingLeft": 4,
+              },
             ]
           }
         >
@@ -5166,6 +4447,7 @@ exports[`<Form> when {color} 1`] = `
         blurOnSubmit={true}
         editable={true}
         field="currency"
+        iconFamily="FontAwesome"
         keyboard="default"
         keyboardType="numeric"
         multiline={false}
@@ -5391,8 +4673,8 @@ exports[`<Form> when {color} 1`] = `
         Object {
           "marginTop": 20,
           "position": "absolute",
-          "right": 0,
-          "top": 7,
+          "right": 4,
+          "top": 24,
           "transform": Array [
             Object {
               "rotate": "0deg0",
@@ -5402,133 +4684,7 @@ exports[`<Form> when {color} 1`] = `
         }
       }
     >
-      <View>
-        <View
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                false,
-                false,
-              ],
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderRadius": 3,
-                  "justifyContent": "center",
-                },
-                Object {
-                  "height": 44,
-                  "minWidth": 44,
-                  "paddingHorizontal": 28,
-                },
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "paddingHorizontal": 0,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={1}
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  undefined,
-                  Object {
-                    "height": 14,
-                    "transform": Array [
-                      Object {
-                        "rotate": "90deg",
-                      },
-                    ],
-                    "width": 14,
-                  },
-                ]
-              }
-            />
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#ffffff",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
+      <Text />
     </View>
     <View
       style={
@@ -5576,45 +4732,7 @@ exports[`<Form> when {color} 1`] = `
             }
           }
         >
-          <View
-            style={
-              Array [
-                Object {
-                  "borderColor": "#707070",
-                  "borderRadius": 20,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                  "justifyContent": "center",
-                },
-                undefined,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={1}
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "height": 14,
-                    "width": 14,
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
+          <Text />
           <View
             style={
               Object {
@@ -5764,21 +4882,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -5892,21 +4996,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -6020,45 +5110,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignItems": "center",
-                    "backgroundColor": "#10c0bc",
-                    "borderColor": "#10c0bc",
-                    "justifyContent": "center",
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
+            <Text />
             <View
               style={
                 Object {
@@ -6172,21 +5224,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -6300,21 +5338,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -6428,21 +5452,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -6556,21 +5566,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -6684,21 +5680,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -6812,21 +5794,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -6940,21 +5908,7 @@ exports[`<Form> when {color} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -7157,34 +6111,7 @@ exports[`<Form> when {color} 1`] = `
             }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Array [
-                  Object {
-                    "marginHorizontal": 4,
-                  },
-                  Object {
-                    "height": 16,
-                  },
-                ],
-                Object {
-                  "transform": Array [
-                    Object {
-                      "rotate": "90deg",
-                    },
-                  ],
-                },
-              ]
-            }
-          />
+          <Text />
         </View>
       </View>
       <View
@@ -7335,34 +6262,7 @@ exports[`<Form> when {color} 1`] = `
             }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Array [
-                  Object {
-                    "marginHorizontal": 4,
-                  },
-                  Object {
-                    "height": 16,
-                  },
-                ],
-                Object {
-                  "transform": Array [
-                    Object {
-                      "rotate": "90deg",
-                    },
-                  ],
-                },
-              ]
-            }
-          />
+          <Text />
         </View>
       </View>
       <View
@@ -7656,30 +6556,7 @@ exports[`<Form> when {color} 1`] = `
           }
         }
       >
-        <Image
-          resizeMode="contain"
-          source={
-            Object {
-              "uri": "twitter",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
       </View>
       <TextInput
         allowFontScaling={true}
@@ -7688,6 +6565,7 @@ exports[`<Form> when {color} 1`] = `
         blurOnSubmit={true}
         editable={true}
         field="twitter"
+        iconFamily="Feather"
         keyboard="default"
         keyboardType="default"
         multiline={false}
@@ -7895,59 +6773,7 @@ exports[`<Form> when {color} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -8038,59 +6864,7 @@ exports[`<Form> when {color} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -8181,59 +6955,7 @@ exports[`<Form> when {color} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -8324,57 +7046,7 @@ exports[`<Form> when {color} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -8581,57 +7253,7 @@ exports[`<Form> when {color} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -9009,55 +7631,7 @@ exports[`<Form> when {validate} 1`] = `
         underlineColorAndroid="transparent"
         value="soyjavi"
       />
-      <View
-        style={
-          Array [
-            Object {
-              "borderColor": "#707070",
-              "borderRadius": 20,
-              "borderWidth": 2,
-              "height": 20,
-              "width": 20,
-            },
-            Object {
-              "alignItems": "center",
-              "backgroundColor": "#10c0bc",
-              "borderColor": "#10c0bc",
-              "justifyContent": "center",
-            },
-            Array [
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              Object {
-                "marginTop": 12,
-              },
-            ],
-          ]
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
+      <Text />
     </View>
   </View>
   <View
@@ -9159,31 +7733,7 @@ exports[`<Form> when {validate} 1`] = `
         underlineColorAndroid="transparent"
         value=""
       />
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Array [
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              Object {
-                "marginTop": 12,
-              },
-            ],
-            undefined,
-          ]
-        }
-      />
+      <Text />
     </View>
     <Text
       numberOfLines={2}
@@ -9615,16 +8165,8 @@ exports[`<Form> when {validate} 1`] = `
           }
         }
       >
+        <Text />
         <Text
-          _style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
-          }
           style={
             Array [
               Object {
@@ -9639,7 +8181,9 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "color": "#707070",
               },
-              Object {},
+              Object {
+                "paddingLeft": 4,
+              },
             ]
           }
         >
@@ -9653,6 +8197,7 @@ exports[`<Form> when {validate} 1`] = `
         blurOnSubmit={true}
         editable={true}
         field="currency"
+        iconFamily="FontAwesome"
         keyboard="default"
         keyboardType="numeric"
         multiline={false}
@@ -9878,8 +8423,8 @@ exports[`<Form> when {validate} 1`] = `
         Object {
           "marginTop": 20,
           "position": "absolute",
-          "right": 0,
-          "top": 7,
+          "right": 4,
+          "top": 24,
           "transform": Array [
             Object {
               "rotate": "0deg0",
@@ -9889,133 +8434,7 @@ exports[`<Form> when {validate} 1`] = `
         }
       }
     >
-      <View>
-        <View
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                false,
-                false,
-              ],
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderRadius": 3,
-                  "justifyContent": "center",
-                },
-                Object {
-                  "height": 44,
-                  "minWidth": 44,
-                  "paddingHorizontal": 28,
-                },
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "paddingHorizontal": 0,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={1}
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  undefined,
-                  Object {
-                    "height": 14,
-                    "transform": Array [
-                      Object {
-                        "rotate": "90deg",
-                      },
-                    ],
-                    "width": 14,
-                  },
-                ]
-              }
-            />
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#ffffff",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
+      <Text />
     </View>
     <View
       style={
@@ -10063,45 +8482,7 @@ exports[`<Form> when {validate} 1`] = `
             }
           }
         >
-          <View
-            style={
-              Array [
-                Object {
-                  "borderColor": "#707070",
-                  "borderRadius": 20,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                  "justifyContent": "center",
-                },
-                undefined,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={1}
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "height": 14,
-                    "width": 14,
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
+          <Text />
           <View
             style={
               Object {
@@ -10251,21 +8632,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -10379,21 +8746,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -10507,45 +8860,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignItems": "center",
-                    "backgroundColor": "#10c0bc",
-                    "borderColor": "#10c0bc",
-                    "justifyContent": "center",
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
+            <Text />
             <View
               style={
                 Object {
@@ -10659,21 +8974,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -10787,21 +9088,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -10915,21 +9202,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -11043,21 +9316,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -11171,21 +9430,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -11299,21 +9544,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -11427,21 +9658,7 @@ exports[`<Form> when {validate} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -11644,34 +9861,7 @@ exports[`<Form> when {validate} 1`] = `
             }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Array [
-                  Object {
-                    "marginHorizontal": 4,
-                  },
-                  Object {
-                    "height": 16,
-                  },
-                ],
-                Object {
-                  "transform": Array [
-                    Object {
-                      "rotate": "90deg",
-                    },
-                  ],
-                },
-              ]
-            }
-          />
+          <Text />
         </View>
       </View>
       <View
@@ -11822,34 +10012,7 @@ exports[`<Form> when {validate} 1`] = `
             }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Array [
-                  Object {
-                    "marginHorizontal": 4,
-                  },
-                  Object {
-                    "height": 16,
-                  },
-                ],
-                Object {
-                  "transform": Array [
-                    Object {
-                      "rotate": "90deg",
-                    },
-                  ],
-                },
-              ]
-            }
-          />
+          <Text />
         </View>
       </View>
       <View
@@ -12069,55 +10232,7 @@ exports[`<Form> when {validate} 1`] = `
           underlineColorAndroid="transparent"
           value="http://soyjavi.com/assets/images/soyjavi.jpg"
         />
-        <View
-          style={
-            Array [
-              Object {
-                "borderColor": "#707070",
-                "borderRadius": 20,
-                "borderWidth": 2,
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "alignItems": "center",
-                "backgroundColor": "#10c0bc",
-                "borderColor": "#10c0bc",
-                "justifyContent": "center",
-              },
-              Array [
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 18,
-                  "marginRight": 4,
-                  "width": 18,
-                },
-                Object {
-                  "marginTop": 12,
-                },
-              ],
-            ]
-          }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "height": 14,
-                  "width": 14,
-                },
-                undefined,
-              ]
-            }
-          />
-        </View>
+        <Text />
       </View>
     </View>
   </View>
@@ -12194,30 +10309,7 @@ exports[`<Form> when {validate} 1`] = `
           }
         }
       >
-        <Image
-          resizeMode="contain"
-          source={
-            Object {
-              "uri": "twitter",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
       </View>
       <TextInput
         allowFontScaling={true}
@@ -12226,6 +10318,7 @@ exports[`<Form> when {validate} 1`] = `
         blurOnSubmit={true}
         editable={true}
         field="twitter"
+        iconFamily="Feather"
         keyboard="default"
         keyboardType="default"
         multiline={false}
@@ -12433,59 +10526,7 @@ exports[`<Form> when {validate} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -12576,59 +10617,7 @@ exports[`<Form> when {validate} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -12719,59 +10708,7 @@ exports[`<Form> when {validate} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -12862,57 +10799,7 @@ exports[`<Form> when {validate} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -13085,55 +10972,7 @@ exports[`<Form> when {validate} 1`] = `
           underlineColorAndroid="transparent"
           value=""
         />
-        <View
-          style={
-            Array [
-              Object {
-                "borderColor": "#707070",
-                "borderRadius": 20,
-                "borderWidth": 2,
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "alignItems": "center",
-                "backgroundColor": "#10c0bc",
-                "borderColor": "#10c0bc",
-                "justifyContent": "center",
-              },
-              Array [
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 18,
-                  "marginRight": 4,
-                  "width": 18,
-                },
-                Object {
-                  "marginTop": 12,
-                },
-              ],
-            ]
-          }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "height": 14,
-                  "width": 14,
-                },
-                undefined,
-              ]
-            }
-          />
-        </View>
+        <Text />
       </View>
     </View>
     <View
@@ -13214,25 +11053,7 @@ exports[`<Form> when {validate} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "height": 10,
-                  "marginLeft": 8,
-                  "width": 10,
-                },
-                undefined,
-              ]
-            }
-          />
+          <Text />
           <View
             style={
               Array [
@@ -13321,25 +11142,7 @@ exports[`<Form> when {validate} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "height": 10,
-                  "marginLeft": 8,
-                  "width": 10,
-                },
-                undefined,
-              ]
-            }
-          />
+          <Text />
           <View
             style={
               Array [
@@ -13428,25 +11231,7 @@ exports[`<Form> when {validate} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "height": 10,
-                  "marginLeft": 8,
-                  "width": 10,
-                },
-                undefined,
-              ]
-            }
-          />
+          <Text />
           <View
             style={
               Array [
@@ -13513,57 +11298,7 @@ exports[`<Form> when {validate} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -13941,31 +11676,7 @@ exports[`<Form> when {value} 1`] = `
         underlineColorAndroid="transparent"
         value=""
       />
-      <Image
-        resizeMode="contain"
-        source={1}
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            Array [
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              Object {
-                "marginTop": 12,
-              },
-            ],
-            undefined,
-          ]
-        }
-      />
+      <Text />
     </View>
     <Text
       numberOfLines={2}
@@ -14397,16 +12108,8 @@ exports[`<Form> when {value} 1`] = `
           }
         }
       >
+        <Text />
         <Text
-          _style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
-          }
           style={
             Array [
               Object {
@@ -14421,7 +12124,9 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#707070",
               },
-              Object {},
+              Object {
+                "paddingLeft": 4,
+              },
             ]
           }
         >
@@ -14435,6 +12140,7 @@ exports[`<Form> when {value} 1`] = `
         blurOnSubmit={true}
         editable={true}
         field="currency"
+        iconFamily="FontAwesome"
         keyboard="default"
         keyboardType="numeric"
         multiline={false}
@@ -14660,8 +12366,8 @@ exports[`<Form> when {value} 1`] = `
         Object {
           "marginTop": 20,
           "position": "absolute",
-          "right": 0,
-          "top": 7,
+          "right": 4,
+          "top": 24,
           "transform": Array [
             Object {
               "rotate": "0deg0",
@@ -14671,133 +12377,7 @@ exports[`<Form> when {value} 1`] = `
         }
       }
     >
-      <View>
-        <View
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                false,
-                false,
-              ],
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderRadius": 3,
-                  "justifyContent": "center",
-                },
-                Object {
-                  "height": 44,
-                  "minWidth": 44,
-                  "paddingHorizontal": 28,
-                },
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "paddingHorizontal": 0,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={1}
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  undefined,
-                  Object {
-                    "height": 14,
-                    "transform": Array [
-                      Object {
-                        "rotate": "90deg",
-                      },
-                    ],
-                    "width": 14,
-                  },
-                ]
-              }
-            />
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#ffffff",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
+      <Text />
     </View>
     <View
       style={
@@ -14845,45 +12425,7 @@ exports[`<Form> when {value} 1`] = `
             }
           }
         >
-          <View
-            style={
-              Array [
-                Object {
-                  "borderColor": "#707070",
-                  "borderRadius": 20,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignItems": "center",
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                  "justifyContent": "center",
-                },
-                undefined,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={1}
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "height": 14,
-                    "width": 14,
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
+          <Text />
           <View
             style={
               Object {
@@ -15033,21 +12575,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -15161,21 +12689,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -15289,45 +12803,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignItems": "center",
-                    "backgroundColor": "#10c0bc",
-                    "borderColor": "#10c0bc",
-                    "justifyContent": "center",
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={1}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
+            <Text />
             <View
               style={
                 Object {
@@ -15441,21 +12917,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -15569,21 +13031,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -15697,21 +13145,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -15825,21 +13259,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -15953,21 +13373,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -16081,21 +13487,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -16209,21 +13601,7 @@ exports[`<Form> when {value} 1`] = `
               }
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "borderColor": "#707070",
-                    "borderRadius": 20,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "width": 20,
-                  },
-                  false,
-                  undefined,
-                ]
-              }
-            />
+            <Text />
             <View
               style={
                 Object {
@@ -16426,34 +13804,7 @@ exports[`<Form> when {value} 1`] = `
             }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Array [
-                  Object {
-                    "marginHorizontal": 4,
-                  },
-                  Object {
-                    "height": 16,
-                  },
-                ],
-                Object {
-                  "transform": Array [
-                    Object {
-                      "rotate": "90deg",
-                    },
-                  ],
-                },
-              ]
-            }
-          />
+          <Text />
         </View>
       </View>
       <View
@@ -16604,34 +13955,7 @@ exports[`<Form> when {value} 1`] = `
             }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Array [
-                  Object {
-                    "marginHorizontal": 4,
-                  },
-                  Object {
-                    "height": 16,
-                  },
-                ],
-                Object {
-                  "transform": Array [
-                    Object {
-                      "rotate": "90deg",
-                    },
-                  ],
-                },
-              ]
-            }
-          />
+          <Text />
         </View>
       </View>
       <View
@@ -16925,30 +14249,7 @@ exports[`<Form> when {value} 1`] = `
           }
         }
       >
-        <Image
-          resizeMode="contain"
-          source={
-            Object {
-              "uri": "twitter",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "alignSelf": "flex-start",
-                "height": 18,
-                "marginRight": 4,
-                "width": 18,
-              },
-              undefined,
-            ]
-          }
-        />
+        <Text />
       </View>
       <TextInput
         allowFontScaling={true}
@@ -16957,6 +14258,7 @@ exports[`<Form> when {value} 1`] = `
         blurOnSubmit={true}
         editable={true}
         field="twitter"
+        iconFamily="Feather"
         keyboard="default"
         keyboardType="default"
         multiline={false}
@@ -17164,59 +14466,7 @@ exports[`<Form> when {value} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -17307,59 +14557,7 @@ exports[`<Form> when {value} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -17450,59 +14648,7 @@ exports[`<Form> when {value} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          Object {
-            "borderRadius": 10,
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -17593,57 +14739,7 @@ exports[`<Form> when {value} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
@@ -17894,25 +14990,7 @@ exports[`<Form> when {value} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "height": 10,
-                  "marginLeft": 8,
-                  "width": 10,
-                },
-                undefined,
-              ]
-            }
-          />
+          <Text />
           <View
             style={
               Array [
@@ -18001,25 +15079,7 @@ exports[`<Form> when {value} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "height": 10,
-                  "marginLeft": 8,
-                  "width": 10,
-                },
-                undefined,
-              ]
-            }
-          />
+          <Text />
           <View
             style={
               Array [
@@ -18108,25 +15168,7 @@ exports[`<Form> when {value} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "height": 10,
-                  "marginLeft": 8,
-                  "width": 10,
-                },
-                undefined,
-              ]
-            }
-          />
+          <Text />
           <View
             style={
               Array [
@@ -18193,57 +15235,7 @@ exports[`<Form> when {value} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#ffffff",
-            "borderColor": "#707070",
-            "borderRadius": 2,
-            "borderWidth": 2,
-            "height": 20,
-            "justifyContent": "center",
-            "width": 20,
-          },
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "opacity": 0,
-            "transform": Array [
-              Object {
-                "scale": 0,
-              },
-            ],
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={1}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              Object {
-                "height": 14,
-                "width": 14,
-              },
-              undefined,
-            ]
-          }
-        />
-      </View>
-    </View>
+    <Text />
     <Text
       numberOfLines={2}
       style={
