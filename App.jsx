@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { Button, Calendar, Dialog, Form, Image, Viewport, Slider } from './components';
+import { Button, Calendar, Dialog, Form, Image, Snackbar, Viewport, Slider } from './components';
 
 import { ATTRIBUTES } from './components/Form/Form.mocks';
 
@@ -24,6 +24,7 @@ const THEME = {
 
 const App = () => {
   const [dialog, setDialog] = useState(false);
+  const [snackbar, setSnackbar] = useState(false);
   const [theme, setTheme] = useState(undefined);
   const [form, setForm] = useState();
   useEffect(() => console.log('useEffect::form', form), [form]);
@@ -33,6 +34,8 @@ const App = () => {
     <L10NProvider dictionary={DICTIONARY} language="en-EN" theme={theme}>
       <Viewport visible scroll styleContent={{ padding: 10 }}>
         <Button onPress={() => setDialog(true)} title={l10n.GREETINGS} />
+
+        <Button title="Show Snackbar" onPress={() => setSnackbar(true)} />
 
         <Button title="Toggle Theme" onPress={() => setTheme(theme ? undefined : THEME)} />
 
@@ -59,6 +62,13 @@ const App = () => {
         <Dialog title="Example of Dialog" visible={dialog} onClose={() => setDialog(false)}>
           <Calendar />
         </Dialog>
+
+        <Snackbar
+          caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+          visible={snackbar}
+          button="Close"
+          onPress={() => setSnackbar(false)}
+        />
       </Viewport>
     </L10NProvider>
   );

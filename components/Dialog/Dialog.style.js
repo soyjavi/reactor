@@ -34,6 +34,8 @@ export default StyleSheet.create({
     ...LAYOUT.STYLE.ROW,
     alignItems: 'flex-start',
     justifyContent: 'flex-end',
+    paddingHorizontal: SPACE.XS,
+    paddingVertical: SPACE.XS,
   },
 
   safeArea: {
@@ -50,6 +52,6 @@ export default StyleSheet.create({
 
   title: {
     flex: 1,
-    padding: SPACE.MEDIUM,
+    paddingHorizontal: SPACE.XS,
   },
 });

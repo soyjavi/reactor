@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { BORDER_RADIUS, UNIT, SPACE } = THEME;
+const { SPACE } = THEME;
 
 export default StyleSheet.create({
   caption: {
@@ -10,19 +10,9 @@ export default StyleSheet.create({
     marginRight: SPACE.S,
   },
 
-  container: {
-    ...LAYOUT.STYLE.ROW,
-    marginTop: SPACE.MEDIUM,
-  },
+  container: LAYOUT.STYLE.ROW,
 
-  frame: {
-    borderRadius: BORDER_RADIUS,
-    minWidth: UNIT * 30,
-    maxWidth: UNIT * 51.2,
-  },
-
-  dialog: {
+  dialogContainer: {
     justifyContent: 'flex-end',
-    padding: SPACE.MEDIUM,
   },
 });

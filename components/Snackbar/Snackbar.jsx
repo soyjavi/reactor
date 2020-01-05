@@ -1,4 +1,4 @@
-import { func, string } from 'prop-types';
+import { func, string, node } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
@@ -10,18 +10,21 @@ import styles from './Snackbar.style';
 
 const { COLOR } = THEME;
 
-const Snackbar = ({ button, caption, color, onPress, ...inherit }) => (
+const Snackbar = ({ button, caption, children, color, onPress, ...inherit }) => (
   <Dialog
     background={false}
-    style={[styles.frame, { backgroundColor: color }]}
-    styleContainer={styles.dialog}
+    style={[inherit.style, { backgroundColor: color }]}
+    styleContainer={styles.dialogContainer}
     visible={inherit.visible}
   >
     <View style={styles.container}>
-      <Text color={COLOR.WHITE} style={styles.caption}>
-        {caption}
-      </Text>
-      {button && <Button color={COLOR.WHITE} contained={false} onPress={onPress} small title={button} />}
+      {caption && (
+        <Text caption color={COLOR.WHITE} style={styles.caption}>
+          {caption}
+        </Text>
+      )}
+      {children}
+      {button && onPress && <Button color={COLOR.WHITE} contained={false} onPress={onPress} small title={button} />}
     </View>
   </Dialog>
 );
@@ -29,6 +32,7 @@ const Snackbar = ({ button, caption, color, onPress, ...inherit }) => (
 Snackbar.propTypes = {
   button: string,
   caption: string,
+  children: node,
   color: string,
   onPress: func,
 };
@@ -36,7 +40,8 @@ Snackbar.propTypes = {
 Snackbar.defaultProps = {
   button: undefined,
   caption: undefined,
-  color: COLOR.BLACK,
+  children: undefined,
+  color: COLOR.TEXT,
   onPress: undefined,
 };
 

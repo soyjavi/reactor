@@ -36,6 +36,7 @@ const Dialog = ({ background, children, highlight, reverse, onClose, style, styl
               maxHeight: PORTRAIT ? '100%' : '90%',
               minWidth: PORTRAIT ? 320 : '33%',
               maxWidth: PORTRAIT ? '100%' : '66%',
+              width: '100%',
               position: 'absolute',
             },
           ]}
@@ -50,7 +51,7 @@ const Dialog = ({ background, children, highlight, reverse, onClose, style, styl
             <View style={[styles.frame, style]}>
               <View style={styles.header}>
                 {title && (
-                  <Text color={highlight ? COLOR.WHITE : undefined} headline numberOfLines={1} style={styles.title}>
+                  <Text color={highlight ? COLOR.WHITE : undefined} subtitle numberOfLines={1} style={styles.title}>
                     {title}
                   </Text>
                 )}

@@ -44,6 +44,7 @@ exports[`<Dialog> renders 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -89,6 +90,8 @@ exports[`<Dialog> renders 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           />
@@ -154,6 +157,7 @@ exports[`<Dialog> when {background} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -199,6 +203,8 @@ exports[`<Dialog> when {background} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           />
@@ -266,6 +272,7 @@ exports[`<Dialog> when {children} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -311,6 +318,8 @@ exports[`<Dialog> when {children} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           />
@@ -399,6 +408,7 @@ exports[`<Dialog> when {highlight} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -444,6 +454,8 @@ exports[`<Dialog> when {highlight} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           >
@@ -458,13 +470,13 @@ exports[`<Dialog> when {highlight} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 24,
+                    "fontSize": 18,
                   },
                   false,
                   Object {
                     "color": "#ffffff",
                     "flex": 1,
-                    "padding": 16,
+                    "paddingHorizontal": 8,
                   },
                 ]
               }
@@ -662,6 +674,7 @@ exports[`<Dialog> when {onClose} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -707,6 +720,8 @@ exports[`<Dialog> when {onClose} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           >
@@ -900,6 +915,7 @@ exports[`<Dialog> when {reverse} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -945,6 +961,8 @@ exports[`<Dialog> when {reverse} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           />
@@ -1012,6 +1030,7 @@ exports[`<Dialog> when {style} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -1059,6 +1078,8 @@ exports[`<Dialog> when {style} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           />
@@ -1129,6 +1150,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -1174,6 +1196,8 @@ exports[`<Dialog> when {styleContainer} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           />
@@ -1241,6 +1265,7 @@ exports[`<Dialog> when {title} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -1286,6 +1311,8 @@ exports[`<Dialog> when {title} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           >
@@ -1300,12 +1327,12 @@ exports[`<Dialog> when {title} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 24,
+                    "fontSize": 18,
                   },
                   false,
                   Object {
                     "flex": 1,
-                    "padding": 16,
+                    "paddingHorizontal": 8,
                   },
                 ]
               }
@@ -1378,6 +1405,7 @@ exports[`<Dialog> when {visible} 1`] = `
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
+              "width": "100%",
             },
           ],
           Object {
@@ -1423,6 +1451,8 @@ exports[`<Dialog> when {visible} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "flex-end",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
               }
             }
           />
