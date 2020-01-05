@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { Button, Calendar, Dialog, Form, Icon, Image, Snackbar, Viewport, Slider } from './components';
+import { Button, Calendar, Dialog, Form, Icon, Image, Snackbar, Text, Viewport, Slider } from './components';
 
 import { ATTRIBUTES } from './components/Form/Form.mocks';
 
@@ -22,6 +22,8 @@ const THEME = {
   FONT: { FAMILY: 'Courier New' },
 };
 
+const LOREM = 'Lorem Ipsum...';
+
 const App = () => {
   const [dialog, setDialog] = useState(false);
   const [snackbar, setSnackbar] = useState(false);
@@ -34,6 +36,20 @@ const App = () => {
     <L10NProvider dictionary={DICTIONARY} language="en-EN" theme={theme}>
       <Viewport visible scroll styleContent={{ padding: 10 }}>
         <Icon />
+        <Text headline>{LOREM}</Text>
+        <Text subtitle>{LOREM}</Text>
+        <Text>{LOREM}</Text>
+        <Text caption>{LOREM}</Text>
+        <Text bold headline>
+          {LOREM}
+        </Text>
+        <Text bold subtitle>
+          {LOREM}
+        </Text>
+        <Text bold>{LOREM}</Text>
+        <Text bold caption>
+          {LOREM}
+        </Text>
         <Button icon="eye" iconFamily="Feather" iconSize={16} onPress={() => setDialog(true)} title={l10n.GREETINGS} />
 
         <Button icon="cellphone-message" title="Show Snackbar" onPress={() => setSnackbar(true)} />

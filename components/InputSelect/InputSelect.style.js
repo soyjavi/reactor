@@ -82,6 +82,7 @@ export default StyleSheet.create({
   }),
 
   pickerItem: {
+    ...FONT.DEFAULT,
     ...FONT.INPUT,
     fontSize: UNIT * 1.6,
   },

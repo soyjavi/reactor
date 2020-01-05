@@ -341,7 +341,6 @@ exports[`<Dialog> when {children} 1`] = `
                     Object {
                       "color": "#4a4a4a",
                       "fontFamily": undefined,
-                      "fontWeight": "400",
                       "textAlignVertical": "center",
                     },
                     Object {
@@ -466,7 +465,6 @@ exports[`<Dialog> when {highlight} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -476,7 +474,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                   Object {
                     "color": "#ffffff",
                     "flex": 1,
-                    "fontFamily": undefined,
+                    "fontWeight": "700",
                     "paddingHorizontal": 8,
                   },
                 ]
@@ -1106,7 +1104,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
           "backgroundColor": "rgba(0,0,0,0.5)",
         },
         Object {
-          "backgroundColor": "#ef5160",
+          "backgroundColor": "#f44336",
           "height": "50%",
         },
       ]
@@ -1296,7 +1294,6 @@ exports[`<Dialog> when {title} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1305,7 +1302,7 @@ exports[`<Dialog> when {title} 1`] = `
                   false,
                   Object {
                     "flex": 1,
-                    "fontFamily": undefined,
+                    "fontWeight": "700",
                     "paddingHorizontal": 8,
                   },
                 ]

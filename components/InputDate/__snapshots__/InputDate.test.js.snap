@@ -60,10 +60,10 @@ exports[`<InputDate> renders 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             Object {
@@ -184,10 +184,10 @@ exports[`<InputDate> when {disabled} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             Object {
@@ -283,7 +283,7 @@ exports[`<InputDate> when {error} 1`] = `
           },
           false,
           Object {
-            "borderColor": "#ef5160",
+            "borderColor": "#f44336",
           },
           false,
         ]
@@ -296,10 +296,10 @@ exports[`<InputDate> when {error} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             Object {
@@ -407,10 +407,10 @@ exports[`<InputDate> when {hint} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             Object {
@@ -474,7 +474,6 @@ exports[`<InputDate> when {hint} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
         Object {
@@ -516,7 +515,6 @@ exports[`<InputDate> when {label} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
         Object {
@@ -527,7 +525,7 @@ exports[`<InputDate> when {label} 1`] = `
         },
         Object {
           "color": "#4a4a4a",
-          "fontFamily": undefined,
+          "fontWeight": "700",
           "marginBottom": 8,
         },
       ]
@@ -582,10 +580,10 @@ exports[`<InputDate> when {label} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             Object {
@@ -705,10 +703,10 @@ exports[`<InputDate> when {placeholder} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             Object {
@@ -835,10 +833,10 @@ exports[`<InputDate> when {style} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             Object {
@@ -958,10 +956,10 @@ exports[`<InputDate> when {value} & {range} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             false,
@@ -1081,10 +1079,10 @@ exports[`<InputDate> when {value} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-              "fontWeight": "400",
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
             },
             false,

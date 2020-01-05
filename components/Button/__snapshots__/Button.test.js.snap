@@ -186,7 +186,6 @@ exports[`<Button> when {activity} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -198,7 +197,7 @@ exports[`<Button> when {activity} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -367,7 +366,6 @@ exports[`<Button> when {children} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -495,7 +493,6 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -507,7 +504,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
                 "color": "#707070",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -627,7 +624,6 @@ exports[`<Button> when {color} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -639,7 +635,7 @@ exports[`<Button> when {color} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -757,7 +753,6 @@ exports[`<Button> when {contained=false} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -768,7 +763,7 @@ exports[`<Button> when {contained=false} 1`] = `
               Object {
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -890,7 +885,6 @@ exports[`<Button> when {disabled} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -902,7 +896,7 @@ exports[`<Button> when {disabled} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -1025,7 +1019,6 @@ exports[`<Button> when {icon} & {title} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -1037,7 +1030,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -1269,7 +1262,6 @@ exports[`<Button> when {large} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -1281,7 +1273,7 @@ exports[`<Button> when {large} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -1403,7 +1395,6 @@ exports[`<Button> when {outlined} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -1414,7 +1405,7 @@ exports[`<Button> when {outlined} 1`] = `
               Object {
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -1534,7 +1525,6 @@ exports[`<Button> when {responsive} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -1546,7 +1536,7 @@ exports[`<Button> when {responsive} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 14,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -1670,7 +1660,6 @@ exports[`<Button> when {rounded} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -1682,7 +1671,7 @@ exports[`<Button> when {rounded} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -1812,7 +1801,6 @@ exports[`<Button> when {shadow} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -1824,7 +1812,7 @@ exports[`<Button> when {shadow} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -1948,7 +1936,6 @@ exports[`<Button> when {small} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -1960,7 +1947,7 @@ exports[`<Button> when {small} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 14,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -2086,7 +2073,6 @@ exports[`<Button> when {style} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -2098,7 +2084,7 @@ exports[`<Button> when {style} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }
@@ -2218,7 +2204,6 @@ exports[`<Button> when {title} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontWeight": "400",
                 "textAlignVertical": "center",
               },
               Object {
@@ -2230,7 +2215,7 @@ exports[`<Button> when {title} 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "600",
+                "fontWeight": "700",
               },
             ]
           }

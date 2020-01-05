@@ -36,7 +36,7 @@ const LINES = [
   {
     caption: 'PRO. $3.34',
     percent: 20,
-    color: COLOR.SECONDARY,
+    color: COLOR.ERROR,
   },
 ];
 

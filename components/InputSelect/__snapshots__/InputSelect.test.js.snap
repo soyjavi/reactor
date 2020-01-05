@@ -82,7 +82,6 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
         Object {
@@ -93,7 +92,7 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
         },
         Object {
           "color": "#4a4a4a",
-          "fontFamily": undefined,
+          "fontWeight": "700",
           "marginBottom": 8,
         },
       ]
@@ -355,7 +354,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Object {
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
                 Object {
@@ -377,7 +375,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 Object {
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
                 Object {
@@ -503,7 +500,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -525,7 +521,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -617,7 +612,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -639,7 +633,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -731,7 +724,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -753,7 +745,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -845,7 +836,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -867,7 +857,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -959,7 +948,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -981,7 +969,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1073,7 +1060,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1095,7 +1081,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1187,7 +1172,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1209,7 +1193,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1301,7 +1284,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1323,7 +1305,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1415,7 +1396,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1437,7 +1417,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1529,7 +1508,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1551,7 +1529,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -1691,7 +1668,7 @@ exports[`<InputSelect> when {error} 1`] = `
           "width": "100%",
         },
         Object {
-          "borderColor": "#ef5160",
+          "borderColor": "#f44336",
         },
         false,
       ]
@@ -1797,7 +1774,6 @@ exports[`<InputSelect> when {hint} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
         Object {
@@ -1839,7 +1815,6 @@ exports[`<InputSelect> when {label} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
         Object {
@@ -1850,7 +1825,7 @@ exports[`<InputSelect> when {label} 1`] = `
         },
         Object {
           "color": "#4a4a4a",
-          "fontFamily": undefined,
+          "fontWeight": "700",
           "marginBottom": 8,
         },
       ]
@@ -2064,7 +2039,6 @@ exports[`<InputSelect> when {value} 1`] = `
                 Object {
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
                 Object {
@@ -2086,7 +2060,6 @@ exports[`<InputSelect> when {value} 1`] = `
                 Object {
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontWeight": "400",
                   "textAlignVertical": "center",
                 },
                 Object {
@@ -2212,7 +2185,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2234,7 +2206,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2326,7 +2297,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2348,7 +2318,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2440,7 +2409,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2462,7 +2430,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2554,7 +2521,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2576,7 +2542,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2668,7 +2633,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2690,7 +2654,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2782,7 +2745,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2804,7 +2766,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2896,7 +2857,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -2918,7 +2878,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -3010,7 +2969,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -3032,7 +2990,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -3124,7 +3081,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -3146,7 +3102,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -3238,7 +3193,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {
@@ -3260,7 +3214,6 @@ exports[`<InputSelect> when {value} 1`] = `
                   Object {
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
-                    "fontWeight": "400",
                     "textAlignVertical": "center",
                   },
                   Object {

@@ -7,7 +7,6 @@ exports[`<Text> renders 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
       Object {
@@ -28,7 +27,6 @@ exports[`<Text> when {caption} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
       Object {
@@ -50,7 +48,6 @@ exports[`<Text> when {color} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
       Object {
@@ -59,7 +56,7 @@ exports[`<Text> when {color} 1`] = `
       },
       false,
       Object {
-        "color": "#ef5160",
+        "color": "#f44336",
       },
     ]
   }
@@ -75,7 +72,6 @@ exports[`<Text> when {headline} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
       Object {
@@ -97,7 +93,6 @@ exports[`<Text> when {lighten} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
       Object {
@@ -123,7 +118,6 @@ exports[`<Text> when {numberOfLines} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
       Object {
@@ -146,7 +140,6 @@ exports[`<Text> when {style} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
       Object {
@@ -171,7 +164,6 @@ exports[`<Text> when {subtitle} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontWeight": "400",
         "textAlignVertical": "center",
       },
       Object {

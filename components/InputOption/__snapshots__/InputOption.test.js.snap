@@ -98,7 +98,6 @@ exports[`<InputOption> label 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-          "fontWeight": "400",
           "textAlignVertical": "center",
         },
         Object {
@@ -109,7 +108,7 @@ exports[`<InputOption> label 1`] = `
         },
         Object {
           "color": "#4a4a4a",
-          "fontFamily": undefined,
+          "fontWeight": "700",
           "marginBottom": 0,
           "marginLeft": 8,
         },

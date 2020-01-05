@@ -68,7 +68,7 @@ exports[`<Activity> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#ef5160",
+        "backgroundColor": "#f44336",
         "borderRadius": 3,
         "height": 6,
         "marginHorizontal": 3,
@@ -80,7 +80,7 @@ exports[`<Activity> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#ef5160",
+        "backgroundColor": "#f44336",
         "borderRadius": 3,
         "height": 6,
         "marginHorizontal": 3,
@@ -92,7 +92,7 @@ exports[`<Activity> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#ef5160",
+        "backgroundColor": "#f44336",
         "borderRadius": 3,
         "height": 6,
         "marginHorizontal": 3,

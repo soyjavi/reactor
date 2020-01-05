@@ -59,6 +59,7 @@ export default StyleSheet.create({
     paddingHorizontal: SPACE.XXS,
     paddingVertical: UNIT * 0.75,
     width: '100%',
+    ...FONT.DEFAULT,
     ...FONT.INPUT,
   },
 

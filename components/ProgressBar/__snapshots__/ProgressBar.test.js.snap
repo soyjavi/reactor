@@ -47,7 +47,7 @@ exports[`<ProgressBar> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#ef5160",
+        "backgroundColor": "#f44336",
         "height": "100%",
         "width": 0,
       }
@@ -128,7 +128,7 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
       },
       undefined,
       Object {
-        "backgroundColor": "#ef5160",
+        "backgroundColor": "#f44336",
       },
     ]
   }

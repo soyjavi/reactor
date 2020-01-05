@@ -64,11 +64,6 @@ export default StyleSheet.create({
     lineHeight: UNIT,
   },
 
-  legendHighlight: {
-    color: COLOR.TEXT,
-    fontWeight: FONT.WEIGHT.BOLD,
-  },
-
   line: {
     justifyContent: 'flex-end',
     position: 'absolute',
@@ -83,7 +78,6 @@ export default StyleSheet.create({
     alignSelf: 'flex-start',
     borderRadius: SPACE.S,
     color: COLOR.WHITE,
-    fontWeight: FONT.WEIGHT.BOLD,
     height: UNIT + SPACE.XXS * 2,
     marginTop: -(UNIT + SPACE.XXS * 2) / 2,
     marginLeft: UNIT / 2,

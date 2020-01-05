@@ -26,7 +26,6 @@ export default StyleSheet.create({
   },
 
   boxDisabled: {
-    backgroundColor: COLOR.LIGHT_GREY,
     opacity: 0.1,
     top: 0,
     left: 0,

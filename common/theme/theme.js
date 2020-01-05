@@ -2,14 +2,8 @@ import { Platform } from 'react-native';
 
 const WHITE = '#ffffff';
 const BLACK = '#000000';
-const FAMILY = Platform.OS === 'web' ? '"Open Sans", sans-serif' : undefined;
-const FAMILY_BOLD = Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined;
+const FAMILY = undefined;
 const UNIT = 10;
-const WEIGHT = {
-  REGULAR: '400',
-  SEMIBOLD: '600',
-  BOLD: '700',
-};
 
 export default {
   BORDER_RADIUS: UNIT * 0.3,
@@ -17,13 +11,12 @@ export default {
   COLOR: {
     BACKGROUND: WHITE,
     BACKGROUND_INPUT: WHITE,
-    BASE: '#cdd2d4', // disabled
+    BASE: '#cdd2d4',
     BLACK,
-    DISABLED: '#f4f4f4', // lightVi
-    ERROR: '#ef5160',
-    LIGHT_GREY: '#9B9B9B',
+    DISABLED: '#f4f4f4',
+    SUCCESS: '#4CAF50',
+    ERROR: '#f44336',
     PRIMARY: '#10c0bc',
-    SECONDARY: '#a66ecc',
     TEXT: '#4a4a4a',
     TEXT_LIGHTEN: '#707070',
     TRANSPARENT: 'transparent',
@@ -67,21 +60,32 @@ export default {
 
   FONT: {
     FAMILY,
-    FAMILY_BOLD,
+    BOLD: {
+      fontWeight: '700',
+    },
     BUTTON: {
-      fontFamily: FAMILY_BOLD,
-      fontWeight: WEIGHT.SEMIBOLD,
+      fontWeight: '700',
     },
     BUTTON_SMALL: {},
     DEFAULT: {
       fontFamily: FAMILY,
-      fontWeight: WEIGHT.REGULAR,
     },
-    HEADLINE: {},
-    SUBTITLE: {},
-    CAPTION: {},
-    INPUT: {},
-    WEIGHT,
+    HEADLINE: {
+      fontSize: UNIT * 2.4,
+    },
+    SUBTITLE: {
+      fontSize: UNIT * 1.8,
+    },
+    BODY: {
+      fontSize: UNIT * 1.6,
+      lineHeight: UNIT * 1.6 * 1.2,
+    },
+    CAPTION: {
+      fontSize: UNIT * 1.4,
+    },
+    INPUT: {
+      fontSize: UNIT * 1.6,
+    },
   },
 
   MOTION: {

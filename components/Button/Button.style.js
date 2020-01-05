@@ -64,6 +64,7 @@ export default StyleSheet.create({
   // -- Text
   text: {
     fontSize: UNIT * 1.6,
+    ...FONT.DEFAULT,
     ...FONT.BUTTON,
     ...Platform.select({
       web: {
@@ -74,6 +75,7 @@ export default StyleSheet.create({
 
   textSmall: {
     fontSize: UNIT * 1.4,
+    ...FONT.DEFAULT,
     ...FONT.BUTTON_SMALL,
   },
 

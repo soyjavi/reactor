@@ -5,7 +5,7 @@ export default {
   FIXED_NULL: 0,
   LOCALE: 'es-ES',
   STYLE: {
-    fontWeight: THEME.FONT.WEIGHT.BOLD,
+    fontWeight: 'bold',
     fontSize: THEME.UNIT * 2,
     color: THEME.COLOR.PRIMARY,
   },

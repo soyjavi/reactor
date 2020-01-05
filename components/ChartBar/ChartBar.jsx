@@ -40,7 +40,7 @@ const ChartBar = ({ captions, color, highlight, inverted, lines, scales, values,
             <View key={`line-${index.toString()}`} style={[styles.line, captions && styles.scaleCaptions]}>
               <Motion timeline={[{ property: 'height', value: `${inverted ? 100 - line.percent : line.percent}%` }]}>
                 <View style={[styles.scaleLine, { backgroundColor: line.color || color, opacity: 0.5 }]} />
-                <Text style={[styles.legend, styles.lineCaption, { backgroundColor: line.color || color }]}>
+                <Text bold style={[styles.legend, styles.lineCaption, { backgroundColor: line.color || color }]}>
                   {line.caption}
                 </Text>
               </Motion>
@@ -68,7 +68,12 @@ const ChartBar = ({ captions, color, highlight, inverted, lines, scales, values,
           <View style={[styles.captions, styles.row, scales && styles.rowScale]}>
             {captions.map((caption, index) => (
               <View key={`caption-${index.toString()}`} style={styles.column}>
-                <Text lighten style={[styles.legend, highlight === index && styles.legendHighlight]}>
+                <Text
+                  bold={highlight === index}
+                  color={highlight === index ? COLOR.TEXT : undefined}
+                  lighten
+                  style={styles.legend}
+                >
                   {caption.substring(0, 3).toUpperCase()}
                 </Text>
               </View>
