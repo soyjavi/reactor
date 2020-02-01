@@ -18,7 +18,7 @@ exports[`<Skeleton> renders 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "height": "100%",
-        "opacity": 0,
+        "opacity": undefined,
         "width": "100%",
       }
     }
@@ -73,7 +73,7 @@ exports[`<Skeleton> when {style} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "height": "100%",
-        "opacity": 0,
+        "opacity": undefined,
         "width": "100%",
       }
     }

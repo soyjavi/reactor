@@ -1,15 +1,6 @@
 import theme from './theme';
 
-const KEYS = [
-  'BORDER_RADIUS',
-  'COLOR',
-  'ELEVATION',
-  'FONT',
-  'MOTION',
-  'OFFSET',
-  'UNIT',
-  'SPACE',
-];
+const KEYS = ['BORDER_RADIUS', 'COLOR', 'ELEVATION', 'FONT', 'MOTION', 'OFFSET', 'OPACITY', 'UNIT', 'SPACE'];
 
 describe('theme', () => {
   it('default', () => {

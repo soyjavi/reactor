@@ -169,7 +169,7 @@ exports[`<Price> when {style} 1`] = `
       },
       false,
       Object {
-        "color": "#10c0bc",
+        "color": "#4066EA",
         "fontSize": 20,
         "fontWeight": "bold",
       },

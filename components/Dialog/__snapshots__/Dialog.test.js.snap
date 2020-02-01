@@ -8,7 +8,7 @@ exports[`<Dialog> renders 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": 0,
+      "opacity": undefined,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -59,7 +59,7 @@ exports[`<Dialog> renders 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 1334,
+                "translateY": undefined,
               },
             ],
           }
@@ -236,7 +236,7 @@ exports[`<Dialog> when {children} 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": 0,
+      "opacity": undefined,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -287,7 +287,7 @@ exports[`<Dialog> when {children} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 1334,
+                "translateY": undefined,
               },
             ],
           }
@@ -623,7 +623,7 @@ exports[`<Dialog> when {onClose} 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": 0,
+      "opacity": undefined,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -674,7 +674,7 @@ exports[`<Dialog> when {onClose} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 1334,
+                "translateY": undefined,
               },
             ],
           }
@@ -850,7 +850,7 @@ exports[`<Dialog> when {reverse} 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": 1,
+      "opacity": undefined,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -901,7 +901,7 @@ exports[`<Dialog> when {reverse} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 0,
+                "translateY": undefined,
               },
             ],
           }
@@ -965,7 +965,7 @@ exports[`<Dialog> when {style} 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": 0,
+      "opacity": undefined,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -1016,7 +1016,7 @@ exports[`<Dialog> when {style} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 1334,
+                "translateY": undefined,
               },
             ],
           }
@@ -1037,7 +1037,7 @@ exports[`<Dialog> when {style} 1`] = `
                 "shadowRadius": 24,
               },
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
               },
             ]
           }

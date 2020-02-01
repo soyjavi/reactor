@@ -252,7 +252,7 @@ exports[`<Slider> when {navigation} 1`] = `
                 "paddingHorizontal": 0,
               },
               Object {
-                "backgroundColor": "#707070",
+                "backgroundColor": "#cdd2d4",
               },
               false,
               false,
@@ -379,7 +379,7 @@ exports[`<Slider> when {navigation} 1`] = `
                 "paddingHorizontal": 0,
               },
               Object {
-                "backgroundColor": "#707070",
+                "backgroundColor": "#cdd2d4",
               },
               false,
               false,

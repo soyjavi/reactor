@@ -32,7 +32,12 @@ exports[`<Motion> when {delay} 1`] = `
 
 exports[`<Motion> when {disabled} 1`] = `
 <View
-  style={Object {}}
+  style={
+    Array [
+      undefined,
+      false,
+    ]
+  }
 />
 `;
 
@@ -52,26 +57,11 @@ exports[`<Motion> when {duration} 1`] = `
 />
 `;
 
-exports[`<Motion> when {preset} 1`] = `
-<View
-  style={
-    Object {
-      "opacity": 1,
-      "transform": Array [
-        Object {
-          "translateY": 0,
-        },
-      ],
-    }
-  }
-/>
-`;
-
 exports[`<Motion> when {style} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#10c0bc",
+      "backgroundColor": "#4066EA",
       "left": 128,
       "opacity": 0.75,
       "padding": 32,
@@ -89,11 +79,11 @@ exports[`<Motion> when {timeline} 1`] = `
 <View
   style={
     Object {
-      "left": 128,
-      "opacity": 0.75,
+      "left": undefined,
+      "opacity": undefined,
       "transform": Array [
         Object {
-          "scale": 0.5,
+          "scale": undefined,
         },
       ],
     }
@@ -105,11 +95,11 @@ exports[`<Motion> when {type} 1`] = `
 <View
   style={
     Object {
-      "left": 128,
-      "opacity": 0.75,
+      "left": undefined,
+      "opacity": undefined,
       "transform": Array [
         Object {
-          "scale": 0.5,
+          "scale": undefined,
         },
       ],
     }
@@ -120,18 +110,15 @@ exports[`<Motion> when {type} 1`] = `
 exports[`<Motion> when {useNativeDriver} 1`] = `
 <View
   style={
-    Array [
-      undefined,
-      Object {
-        "left": 128,
-        "opacity": 0.75,
-        "transform": Array [
-          Object {
-            "scale": 0.5,
-          },
-        ],
-      },
-    ]
+    Object {
+      "left": undefined,
+      "opacity": undefined,
+      "transform": Array [
+        Object {
+          "scale": undefined,
+        },
+      ],
+    }
   }
 />
 `;

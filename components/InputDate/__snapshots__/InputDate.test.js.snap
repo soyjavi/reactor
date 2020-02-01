@@ -67,7 +67,7 @@ exports[`<InputDate> renders 1`] = `
               "fontSize": 16,
             },
             Object {
-              "color": "#707070",
+              "color": undefined,
             },
             Object {
               "flex": 1,
@@ -81,7 +81,7 @@ exports[`<InputDate> renders 1`] = `
           Object {
             "transform": Array [
               Object {
-                "rotate": "0deg0",
+                "rotate": undefined,
               },
             ],
           }
@@ -191,7 +191,7 @@ exports[`<InputDate> when {disabled} 1`] = `
               "fontSize": 16,
             },
             Object {
-              "color": "#707070",
+              "color": undefined,
             },
             Object {
               "flex": 1,
@@ -303,7 +303,7 @@ exports[`<InputDate> when {error} 1`] = `
               "fontSize": 16,
             },
             Object {
-              "color": "#707070",
+              "color": undefined,
             },
             Object {
               "flex": 1,
@@ -414,7 +414,7 @@ exports[`<InputDate> when {hint} 1`] = `
               "fontSize": 16,
             },
             Object {
-              "color": "#707070",
+              "color": undefined,
             },
             Object {
               "flex": 1,
@@ -428,7 +428,7 @@ exports[`<InputDate> when {hint} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "rotate": "0deg0",
+                "rotate": undefined,
               },
             ],
           }
@@ -480,7 +480,7 @@ exports[`<InputDate> when {hint} 1`] = `
           "fontSize": 14,
         },
         Object {
-          "color": "#707070",
+          "color": undefined,
         },
         Object {
           "marginTop": 4,
@@ -521,7 +521,7 @@ exports[`<InputDate> when {label} 1`] = `
           "fontSize": 14,
         },
         Object {
-          "color": "#707070",
+          "color": undefined,
         },
         Object {
           "color": "#4a4a4a",
@@ -587,7 +587,7 @@ exports[`<InputDate> when {label} 1`] = `
               "fontSize": 16,
             },
             Object {
-              "color": "#707070",
+              "color": undefined,
             },
             Object {
               "flex": 1,
@@ -710,7 +710,7 @@ exports[`<InputDate> when {placeholder} 1`] = `
               "fontSize": 16,
             },
             Object {
-              "color": "#707070",
+              "color": undefined,
             },
             Object {
               "flex": 1,
@@ -726,7 +726,7 @@ exports[`<InputDate> when {placeholder} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "rotate": "0deg0",
+                "rotate": undefined,
               },
             ],
           }
@@ -840,7 +840,7 @@ exports[`<InputDate> when {style} 1`] = `
               "fontSize": 16,
             },
             Object {
-              "color": "#707070",
+              "color": undefined,
             },
             Object {
               "flex": 1,
@@ -977,7 +977,7 @@ exports[`<InputDate> when {value} & {range} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "rotate": "0deg0",
+                "rotate": undefined,
               },
             ],
           }

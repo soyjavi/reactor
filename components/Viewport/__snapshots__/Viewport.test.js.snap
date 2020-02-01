@@ -12,7 +12,7 @@ exports[`<Viewport> renders 1`] = `
       "top": 0,
       "transform": Array [
         Object {
-          "translateX": 0,
+          "translateX": undefined,
         },
       ],
       "width": 750,
@@ -57,7 +57,7 @@ exports[`<Viewport> when {backward} 1`] = `
       "top": 0,
       "transform": Array [
         Object {
-          "translateX": -64,
+          "translateX": undefined,
         },
       ],
       "width": 750,
@@ -151,7 +151,7 @@ exports[`<Viewport> when {onScroll} 1`] = `
       "top": 0,
       "transform": Array [
         Object {
-          "translateX": 0,
+          "translateX": undefined,
         },
       ],
       "width": 750,
@@ -243,7 +243,7 @@ exports[`<Viewport> when {styleContent} 1`] = `
       "top": 0,
       "transform": Array [
         Object {
-          "translateX": 0,
+          "translateX": undefined,
         },
       ],
       "width": 750,

@@ -19,7 +19,7 @@ exports[`<Switch> renders 1`] = `
   <RCTSwitch
     accessibilityRole="button"
     activeThumbColor="#ffffff"
-    activeTrackColor="#10c0bc"
+    activeTrackColor="#4066EA"
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -99,7 +99,7 @@ exports[`<Switch> when {disabled} 1`] = `
   <RCTSwitch
     accessibilityRole="button"
     activeThumbColor="#ffffff"
-    activeTrackColor="#10c0bc"
+    activeTrackColor="#4066EA"
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -140,7 +140,7 @@ exports[`<Switch> when {label} 1`] = `
   <RCTSwitch
     accessibilityRole="button"
     activeThumbColor="#ffffff"
-    activeTrackColor="#10c0bc"
+    activeTrackColor="#4066EA"
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -171,7 +171,7 @@ exports[`<Switch> when {label} 1`] = `
           "fontSize": 14,
         },
         Object {
-          "color": "#707070",
+          "color": undefined,
         },
         Object {
           "color": "#4a4a4a",
@@ -208,7 +208,7 @@ exports[`<Switch> when {style} 1`] = `
   <RCTSwitch
     accessibilityRole="button"
     activeThumbColor="#ffffff"
-    activeTrackColor="#10c0bc"
+    activeTrackColor="#4066EA"
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}

@@ -106,7 +106,7 @@ Button.propTypes = {
 Button.defaultProps = {
   activity: false,
   children: undefined,
-  color: undefined,
+  color: BASE,
   colorContent: undefined,
   contained: true,
   disabled: false,

@@ -88,7 +88,7 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
           "fontSize": 14,
         },
         Object {
-          "color": "#707070",
+          "color": undefined,
         },
         Object {
           "color": "#4a4a4a",
@@ -285,7 +285,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         "top": 24,
         "transform": Array [
           Object {
-            "rotate": "0deg0",
+            "rotate": undefined,
           },
         ],
         "zIndex": 1,
@@ -381,7 +381,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   "fontSize": 14,
                 },
                 Object {
-                  "color": "#707070",
+                  "color": undefined,
                 },
                 Object {},
               ]
@@ -411,7 +411,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#10c0bc",
+              "backgroundColor": "#4066EA",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -527,7 +527,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -557,7 +557,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -639,7 +639,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -669,7 +669,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -751,7 +751,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -781,7 +781,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -863,7 +863,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -893,7 +893,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -975,7 +975,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -1005,7 +1005,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1087,7 +1087,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -1117,7 +1117,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1199,7 +1199,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -1229,7 +1229,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1311,7 +1311,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -1341,7 +1341,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1423,7 +1423,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -1453,7 +1453,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1535,7 +1535,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -1565,7 +1565,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1780,7 +1780,7 @@ exports[`<InputSelect> when {hint} 1`] = `
           "fontSize": 14,
         },
         Object {
-          "color": "#707070",
+          "color": undefined,
         },
         Object {
           "marginTop": 4,
@@ -1821,7 +1821,7 @@ exports[`<InputSelect> when {label} 1`] = `
           "fontSize": 14,
         },
         Object {
-          "color": "#707070",
+          "color": undefined,
         },
         Object {
           "color": "#4a4a4a",
@@ -1970,7 +1970,7 @@ exports[`<InputSelect> when {value} 1`] = `
         "top": 24,
         "transform": Array [
           Object {
-            "rotate": "0deg0",
+            "rotate": undefined,
           },
         ],
         "zIndex": 1,
@@ -2066,7 +2066,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   "fontSize": 14,
                 },
                 Object {
-                  "color": "#707070",
+                  "color": undefined,
                 },
                 Object {},
               ]
@@ -2096,7 +2096,7 @@ exports[`<InputSelect> when {value} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#10c0bc",
+              "backgroundColor": "#4066EA",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -2212,7 +2212,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -2242,7 +2242,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2324,7 +2324,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -2354,7 +2354,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2436,7 +2436,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -2466,7 +2466,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2548,7 +2548,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -2578,7 +2578,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2660,7 +2660,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -2690,7 +2690,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2772,7 +2772,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -2802,7 +2802,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2884,7 +2884,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -2914,7 +2914,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2996,7 +2996,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -3026,7 +3026,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -3108,7 +3108,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -3138,7 +3138,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -3220,7 +3220,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 14,
                   },
                   Object {
-                    "color": "#707070",
+                    "color": undefined,
                   },
                   Object {},
                 ]
@@ -3250,7 +3250,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#10c0bc",
+                "backgroundColor": "#4066EA",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,

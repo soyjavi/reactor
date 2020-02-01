@@ -58,12 +58,6 @@ export default {
     },
   },
 
-  OPACITY: {
-    S: 0.2,
-    M: 0.3,
-    L: 0.5,
-  },
-
   FONT: {
     FAMILY,
     BOLD: {
@@ -107,6 +101,12 @@ export default {
   },
 
   OFFSET: UNIT * 1.6, // @TODO: We should remove this property
+
+  OPACITY: {
+    S: 0.2,
+    M: 0.3,
+    L: 0.5,
+  },
 
   UNIT,
 

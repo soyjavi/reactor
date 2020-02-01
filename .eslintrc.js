@@ -31,6 +31,13 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: '*.jsx',
+      rules: {},
+    },
+  ],
+  root: true,
   settings: {
     react: {
       version: require('./package.json').dependencies.react,

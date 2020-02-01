@@ -100,7 +100,7 @@ exports[`<Text> when {lighten} 1`] = `
         "lineHeight": 19.2,
       },
       Object {
-        "color": "#707070",
+        "color": undefined,
       },
       Object {},
     ]

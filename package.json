@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "Reusable presentational components",
-  "version": "0.16.8",
+  "version": "0.17.0",
   "license": "LGPL-3.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -31,11 +31,6 @@
     "jest-fetch-mock": "~2.1.2",
     "prettier": "~1.19.1",
     "react-test-renderer": "^16.12.0"
-  },
-  "_babel": {
-    "presets": [
-      "babel-preset-expo"
-    ]
   },
   "jest": {
     "preset": "jest-expo",

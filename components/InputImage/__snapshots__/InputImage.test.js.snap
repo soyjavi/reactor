@@ -59,7 +59,6 @@ exports[`<InputImage> renders 1`] = `
         multiline={false}
         onBlur={[Function]}
         onFocus={[Function]}
-        placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
           Array [
@@ -148,7 +147,6 @@ exports[`<InputImage> when {disabled} 1`] = `
         keyboard="default"
         keyboardType="default"
         multiline={false}
-        placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
           Array [
@@ -165,7 +163,7 @@ exports[`<InputImage> when {disabled} 1`] = `
               "width": "100%",
             },
             Object {
-              "color": "#707070",
+              "color": undefined,
             },
             undefined,
             undefined,
@@ -241,7 +239,6 @@ exports[`<InputImage> when {error} 1`] = `
         multiline={false}
         onBlur={[Function]}
         onFocus={[Function]}
-        placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
           Array [
@@ -331,7 +328,6 @@ exports[`<InputImage> when {hint} 1`] = `
         multiline={false}
         onBlur={[Function]}
         onFocus={[Function]}
-        placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
           Array [
@@ -370,7 +366,7 @@ exports[`<InputImage> when {hint} 1`] = `
             "fontSize": 14,
           },
           Object {
-            "color": "#707070",
+            "color": undefined,
           },
           Object {
             "marginTop": 4,
@@ -427,7 +423,7 @@ exports[`<InputImage> when {label} 1`] = `
             "fontSize": 14,
           },
           Object {
-            "color": "#707070",
+            "color": undefined,
           },
           Object {
             "color": "#4a4a4a",
@@ -470,7 +466,6 @@ exports[`<InputImage> when {label} 1`] = `
         multiline={false}
         onBlur={[Function]}
         onFocus={[Function]}
-        placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
           Array [
@@ -559,7 +554,6 @@ exports[`<InputImage> when {required} 1`] = `
         multiline={false}
         onBlur={[Function]}
         onFocus={[Function]}
-        placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
           Array [
@@ -651,7 +645,6 @@ exports[`<InputImage> when {style} 1`] = `
         multiline={false}
         onBlur={[Function]}
         onFocus={[Function]}
-        placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
           Array [
@@ -753,7 +746,7 @@ exports[`<InputImage> when {value} 1`] = `
           Object {
             "backgroundColor": "#ffffff",
             "height": "100%",
-            "opacity": 0,
+            "opacity": undefined,
             "width": "100%",
           }
         }
@@ -808,7 +801,6 @@ exports[`<InputImage> when {value} 1`] = `
         multiline={false}
         onBlur={[Function]}
         onFocus={[Function]}
-        placeholderTextColor="#707070"
         rejectResponderTermination={true}
         style={
           Array [

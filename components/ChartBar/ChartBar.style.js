@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE } = THEME;
+const { BORDER_RADIUS, COLOR, ELEVATION, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
   bar: {
