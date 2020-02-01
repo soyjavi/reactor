@@ -14,7 +14,13 @@ describe('<Motion>', () => {
   });
 
   it('when {children}', () => {
-    const tree = renderer.create(<Motion property="left"><View /></Motion>).toJSON();
+    const tree = renderer
+      .create(
+        <Motion property="left">
+          <View />
+        </Motion>,
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -35,11 +41,6 @@ describe('<Motion>', () => {
 
   it('when {duration}', () => {
     const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} duration={1000} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {preset}', () => {
-    const tree = renderer.create(<Motion preset="fade" visible />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

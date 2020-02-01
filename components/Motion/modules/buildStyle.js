@@ -1,19 +1,11 @@
-import { ENV, THEME } from '../../../common';
-
-const { IS_WEB } = ENV;
-const { MOTION } = THEME;
 const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY', 'rotate'];
 
-export default ({
-  props: { delay = 0, duration, useNativeDriver } = {},
-  state: { timeline = [], ...state } = {},
-} = {}) => {
+export default (timeline = [], state = {}) => {
   if (timeline.length === 0) return undefined;
 
   let style = {};
-
-  timeline.forEach(({ value, property }) => {
-    const newValue = useNativeDriver ? value : state[property];
+  timeline.forEach(({ property }) => {
+    const newValue = state[property];
 
     style = {
       ...style,
@@ -22,16 +14,6 @@ export default ({
         : { [property]: newValue }),
     };
   });
-
-  if (useNativeDriver && IS_WEB) {
-    style = {
-      ...style,
-      transitionDelay: `${delay}ms`,
-      transitionDuration: `${duration}ms`,
-      transitionProperty: Object.keys(style).join(', '),
-      transitionTimingFunction: MOTION.EASE,
-    };
-  }
 
   return style;
 };

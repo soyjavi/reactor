@@ -45,7 +45,6 @@ const Dialog = ({ background, children, highlight, reverse, onClose, style, styl
             delay={visible ? MOTION.DURATION : 0}
             duration={MOTION.DURATION}
             pointerEvents="auto"
-            type="timing"
             timeline={[{ property: 'translateY', value: translateY }]}
           >
             <View style={[styles.frame, style]}>
