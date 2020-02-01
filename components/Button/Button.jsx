@@ -18,6 +18,7 @@ const Button = ({
   activity,
   children,
   color,
+  colorContent,
   contained,
   disabled,
   icon,
@@ -61,7 +62,7 @@ const Button = ({
       >
         {icon && !activity && (
           <Icon
-            color={calcColor({ isSolid, color })}
+            color={calcColor({ isSolid, color, colorContent, disabled })}
             family={inherit.iconFamily}
             size={inherit.iconSize}
             value={icon}
@@ -70,7 +71,7 @@ const Button = ({
         <View style={[styles.row, icon && (title || children) && styles.textMarginLeft]}>
           {title && (
             <Text
-              color={calcColor({ isSolid, color })} // eslint-disable-line
+              color={calcColor({ isSolid, color, colorContent, disabled })} // eslint-disable-line
               style={[styles.text, small && styles.textSmall, responsive && !small && styles.textSmall]}
             >
               {title}
@@ -78,7 +79,7 @@ const Button = ({
           )}
           {children}
         </View>
-        {activity && <Activity color={calcColor({ isSolid, color })} style={styles.activity} />}
+        {activity && <Activity color={calcColor({ isSolid, color, colorContent, disabled })} style={styles.activity} />}
       </View>
     </Touchable>
   </View>
@@ -88,6 +89,7 @@ Button.propTypes = {
   activity: bool,
   children: node,
   color: string,
+  colorContent: string,
   contained: bool,
   disabled: bool,
   icon: string,
@@ -105,6 +107,7 @@ Button.defaultProps = {
   activity: false,
   children: undefined,
   color: undefined,
+  colorContent: undefined,
   contained: true,
   disabled: false,
   icon: undefined,

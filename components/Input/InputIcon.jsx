@@ -6,12 +6,12 @@ import Icon from '../Icon';
 
 const { COLOR } = THEME;
 
-const InputIcon = ({ active, rounded }) => {
+const InputIcon = ({ active, rounded, ...inherit }) => {
   let value;
-  if (rounded) value = active ? 'checkbox-marked-circle' : 'checkbox-blank-circle-outline';
+  if (rounded) value = active ? 'check-circle' : 'checkbox-blank-circle-outline';
   else value = active ? 'checkbox-marked' : 'checkbox-blank-outline';
 
-  return <Icon color={active ? COLOR.PRIMARY : undefined} value={value} />;
+  return <Icon color={active ? COLOR.PRIMARY : undefined} value={value} {...inherit} />;
 };
 
 InputIcon.propTypes = {

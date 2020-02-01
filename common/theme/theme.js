@@ -14,11 +14,11 @@ export default {
     BASE: '#cdd2d4',
     BLACK,
     DISABLED: '#f4f4f4',
+    PRIMARY: '#4066EA',
+    TEXT: '#4a4a4a',
     SUCCESS: '#4CAF50',
     ERROR: '#f44336',
-    PRIMARY: '#10c0bc',
-    TEXT: '#4a4a4a',
-    TEXT_LIGHTEN: '#707070',
+    WARNING: '#EDE622',
     TRANSPARENT: 'transparent',
     WHITE,
   },
@@ -58,6 +58,12 @@ export default {
     },
   },
 
+  OPACITY: {
+    S: 0.2,
+    M: 0.3,
+    L: 0.5,
+  },
+
   FONT: {
     FAMILY,
     BOLD: {
@@ -90,9 +96,14 @@ export default {
 
   MOTION: {
     DURATION: 225,
-    EASE: 'cubic-bezier(0.4, 0.0, 0.2, 1)',
-    EASE_ANDROID: '',
-    EASE_IOS: '',
+    TYPE: 'spring',
+    DEFAULTS: {
+      friction: undefined,
+      tension: undefined,
+      speed: undefined,
+      bounciness: undefined,
+      useNativeDriver: true,
+    },
   },
 
   OFFSET: UNIT * 1.6, // @TODO: We should remove this property
