@@ -56,7 +56,7 @@ const Button = ({
           isSolid && { backgroundColor: color || TEXT_LIGHTEN },
           isSolid && disabled && styles.disabled,
           outlined && styles.outlined,
-          outlined && { borderColor: color || TEXT_LIGHTEN },
+          outlined && { borderColor: calcColor({ isSolid, color, colorContent, disabled }) },
           !isSolid && disabled && styles.disabledOpacity,
         ]}
       >

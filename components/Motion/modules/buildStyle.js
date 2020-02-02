@@ -1,7 +1,7 @@
 const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY', 'rotate'];
 
 export default (timeline = [], state = {}) => {
-  if (timeline.length === 0) return undefined;
+  if (timeline.length === 0 || Object.keys(state).length === 0) return undefined;
 
   let style = {};
   timeline.forEach(({ property }) => {
