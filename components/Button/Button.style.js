@@ -2,66 +2,39 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE } = THEME;
-
-const LARGE_SIZE = UNIT * 5.2;
-const REGULAR_SIZE = UNIT * 4.4;
-const SMALL_SIZE = UNIT * 2.8;
-
-export { REGULAR_SIZE, SMALL_SIZE };
+const { COLOR, FONT, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
+  S: {
+    height: SPACE.XXL - SPACE.S,
+    paddingHorizontal: SPACE.S,
+  },
+  M: {
+    height: SPACE.XXL,
+    paddingHorizontal: SPACE.M,
+  },
+  L: {
+    height: SPACE.XXL + SPACE.S,
+    paddingHorizontal: SPACE.M,
+  },
+
   container: {
     ...LAYOUT.STYLE.CENTERED,
-    borderRadius: BORDER_RADIUS,
+    alignSelf: 'flex-start',
+    width: 'auto',
   },
 
   disabled: {
-    backgroundColor: COLOR.BASE,
-  },
-
-  disabledOpacity: {
-    opacity: 0.5,
-  },
-
-  large: {
-    minWidth: LARGE_SIZE,
-    height: LARGE_SIZE,
-  },
-
-  noPadding: {
-    paddingHorizontal: 0,
+    backgroundColor: COLOR.GRAY.M,
   },
 
   outlined: {
-    borderWidth: UNIT * 0.1,
-  },
-
-  regular: {
-    minWidth: REGULAR_SIZE,
-    height: REGULAR_SIZE,
-    paddingHorizontal: SPACE.L,
-  },
-
-  rounded: {
-    borderRadius: LARGE_SIZE / 2,
+    borderWidth: 1,
   },
 
   row: LAYOUT.STYLE.ROW,
 
-  small: {
-    height: SMALL_SIZE,
-    minWidth: SMALL_SIZE,
-    paddingHorizontal: SPACE.S,
-  },
-
-  shadow: ELEVATION.SMALL,
-
-  touchable: {
-    borderRadius: BORDER_RADIUS,
-  },
-
-  // -- Text
+  // // -- Text
   text: {
     fontSize: UNIT * 1.6,
     ...FONT.DEFAULT,
@@ -71,15 +44,14 @@ export default StyleSheet.create({
         userSelect: 'none',
       },
     }),
+    paddingHorizontal: SPACE.S,
   },
 
-  textSmall: {
+  textS: {
     fontSize: UNIT * 1.4,
-    ...FONT.DEFAULT,
-    ...FONT.BUTTON_SMALL,
   },
 
-  textMarginLeft: {
-    marginLeft: SPACE.XXS,
+  wide: {
+    width: '100%',
   },
 });

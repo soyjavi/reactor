@@ -1,2258 +1,1330 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button> renders 1`] = `
-<View>
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
   <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  />
+  <View
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "paddingHorizontal": 0,
-          },
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      />
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {activity} 1`] = `
-<View>
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
   <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
     style={
       Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 8,
+          "marginHorizontal": 4,
+          "opacity": 0,
+          "width": 8,
+        }
       }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 3,
-              "opacity": 0,
-              "width": 6,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 3,
-              "opacity": 0,
-              "width": 6,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "#ffffff",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 3,
-              "opacity": 0,
-              "width": 6,
-            }
-          }
-        />
-      </View>
-    </View>
+    />
     <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 8,
+          "marginHorizontal": 4,
+          "opacity": 0,
+          "width": 8,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 8,
+          "marginHorizontal": 4,
+          "opacity": 0,
+          "width": 8,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<Button> when {borderRadius} 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": 10,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
           },
-          undefined,
+          Object {
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
+          },
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontFamily": undefined,
+            "fontSize": 12.8,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
+          },
         ]
       }
     >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "borderRadius": 10,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      />
-    </View>
+      }
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {children} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
       Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
-      ]
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
     }
   >
-    <View
+    <Text
       style={
         Array [
           Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
           },
           Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
+            "fontSize": 19.2,
           },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
           false,
           Object {
-            "backgroundColor": "#cdd2d4",
+            "color": "white",
           },
-          false,
-          false,
-          false,
-          false,
         ]
       }
     >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 24,
-              },
-              false,
-              Object {
-                "color": "white",
-              },
-            ]
-          }
-        >
-          $19,95
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+      $19,95
+    </Text>
   </View>
-</View>
-`;
-
-exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
-<View>
   <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#ffffff",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#cdd2d4",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {color} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
       Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
-      ]
+        Object {
+          "backgroundColor": "#191919",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
     }
   >
-    <View
+    <Text
       style={
         Array [
           Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
           },
           Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
           },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
           false,
           Object {
-            "backgroundColor": "red",
+            "color": "#ffffff",
+            "fontFamily": undefined,
+            "fontSize": 12.8,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
           },
-          false,
-          false,
-          false,
-          false,
         ]
       }
     >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+      Press me
+    </Text>
   </View>
-</View>
-`;
-
-exports[`<Button> when {contained=false} 1`] = `
-<View>
   <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#cdd2d4",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#cdd2d4",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {disabled} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
       Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
         undefined,
+        Object {
+          "backgroundColor": "#d2d2d2",
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
         Array [
           Object {
-            "borderRadius": 3,
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
           },
           false,
-          false,
-        ],
+          Object {
+            "color": "#a3a3a3",
+            "fontFamily": undefined,
+            "fontSize": 12.8,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#a3a3a3",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {icon} & {title} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
       Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
         undefined,
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text />
+    <Text
+      style={
         Array [
           Object {
-            "borderRadius": 3,
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
           },
           false,
-          false,
-        ],
+          Object {
+            "color": "#ffffff",
+            "fontFamily": undefined,
+            "fontSize": 12.8,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <Text />
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            Object {
-              "marginLeft": 4,
-            },
-          ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {icon} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
       Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
-      ]
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
     }
   >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "paddingHorizontal": 0,
-          },
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <Text />
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
-        }
-      />
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    <Text />
   </View>
-</View>
-`;
-
-exports[`<Button> when {large} 1`] = `
-<View>
   <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          Object {
-            "height": 52,
-            "minWidth": 52,
-          },
-          false,
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {outlined} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
       Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
+        Object {
+          "borderWidth": 1,
+        },
+        Object {
+          "borderColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
         undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
         Array [
           Object {
-            "borderRadius": 3,
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
           },
           false,
-          false,
-        ],
+          Object {
+            "color": "#ff8c5f",
+            "fontFamily": undefined,
+            "fontSize": 12.8,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "borderWidth": 1,
-          },
-          Object {
-            "borderColor": "#cdd2d4",
-          },
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#cdd2d4",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#cdd2d4",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
-exports[`<Button> when {responsive} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
+exports[`<Button> when {size} 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
       Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
-      ]
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 40,
+          "paddingHorizontal": 8,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
     }
   >
-    <View
+    <Text
       style={
         Array [
           Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
           },
           Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
           },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
           false,
           Object {
-            "backgroundColor": "#cdd2d4",
+            "color": "#ffffff",
+            "fontFamily": undefined,
+            "fontSize": 11.2,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
           },
-          false,
-          false,
-          false,
-          false,
         ]
       }
     >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+      Press me
+    </Text>
   </View>
-</View>
-`;
-
-exports[`<Button> when {rounded} 1`] = `
-<View>
   <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
         undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          Object {
-            "borderRadius": 26,
-          },
-          false,
-        ],
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          Object {
-            "borderRadius": 26,
-          },
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          Object {
-            "borderRadius": 22,
-          },
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
-  </View>
-</View>
-`;
-
-exports[`<Button> when {shadow} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
-      Array [
-        undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          Object {
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 2,
-          },
-        ],
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
-  </View>
-</View>
-`;
-
-exports[`<Button> when {small} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
-      Array [
-        undefined,
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          false,
-        ],
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          Object {
-            "height": 28,
-            "minWidth": 28,
-            "paddingHorizontal": 12,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {style} 1`] = `
 <View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
-    Object {
-      "backgroundColor": "rgba(0,255,0,0.25)",
-    }
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        Object {
+          "backgroundColor": "rgba(0,255,0,0.25)",
+        },
+      ],
+    ]
   }
 >
   <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
     style={
-      Array [
-        undefined,
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
         Array [
           Object {
-            "borderRadius": 3,
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
           },
           false,
-          false,
-        ],
+          Object {
+            "color": "#ffffff",
+            "fontFamily": undefined,
+            "fontSize": 12.8,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
       }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
-        }
-      />
-    </View>
+    />
   </View>
 </View>
 `;
 
 exports[`<Button> when {title} 1`] = `
-<View>
-  <View
-    accessible={true}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="none"
-    style={
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
       Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
         undefined,
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
         Array [
           Object {
-            "borderRadius": 3,
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
           },
           false,
-          false,
-        ],
+          Object {
+            "color": "#ffffff",
+            "fontFamily": undefined,
+            "fontSize": 12.8,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
       ]
     }
   >
     <View
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "borderRadius": 3,
-            "justifyContent": "center",
-          },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 28,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#cdd2d4",
-          },
-          false,
-          false,
-          false,
-          false,
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            undefined,
-          ]
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "700",
-              },
-            ]
-          }
-        >
-          Press me
-        </Text>
-      </View>
-    </View>
-    <View
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<Button> when {wide} 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": undefined,
+        },
+        Object {
+          "width": "100%",
+        },
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
+            "color": "#191919",
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
           },
-          undefined,
+          Object {
+            "fontSize": 12.8,
+            "lineHeight": 15.36,
+          },
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontFamily": undefined,
+            "fontSize": 12.8,
+            "fontWeight": "700",
+            "paddingHorizontal": 8,
+          },
         ]
       }
     >
-      <View
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 2.4,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
         }
-      />
-    </View>
+      }
+    />
   </View>
 </View>
 `;
