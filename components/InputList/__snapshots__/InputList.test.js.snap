@@ -5,7 +5,7 @@ exports[`<InputList> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       undefined,
@@ -16,7 +16,7 @@ exports[`<InputList> renders 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -30,12 +30,12 @@ exports[`<InputList> renders 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           false,
           false,
@@ -61,15 +61,14 @@ exports[`<InputList> renders 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             false,
@@ -91,7 +90,7 @@ exports[`<InputList> when {dataSource} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       undefined,
@@ -102,7 +101,7 @@ exports[`<InputList> when {dataSource} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -116,12 +115,12 @@ exports[`<InputList> when {dataSource} 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           false,
           false,
@@ -147,15 +146,14 @@ exports[`<InputList> when {dataSource} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             false,
@@ -177,7 +175,7 @@ exports[`<InputList> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       undefined,
@@ -188,7 +186,7 @@ exports[`<InputList> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -202,15 +200,15 @@ exports[`<InputList> when {disabled} 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           Object {
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": undefined,
           },
           false,
           false,
@@ -233,15 +231,14 @@ exports[`<InputList> when {disabled} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             Object {
@@ -265,7 +262,7 @@ exports[`<InputList> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       undefined,
@@ -276,7 +273,7 @@ exports[`<InputList> when {error} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -290,18 +287,18 @@ exports[`<InputList> when {error} 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           false,
           false,
           false,
           Object {
-            "borderColor": "#f44336",
+            "borderColor": "#e85a7e",
           },
         ]
       }
@@ -323,15 +320,14 @@ exports[`<InputList> when {error} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             false,
@@ -354,7 +350,7 @@ exports[`<InputList> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       undefined,
@@ -365,7 +361,7 @@ exports[`<InputList> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -379,12 +375,12 @@ exports[`<InputList> when {hint} 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           false,
           false,
@@ -410,15 +406,14 @@ exports[`<InputList> when {hint} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             false,
@@ -436,18 +431,18 @@ exports[`<InputList> when {hint} 1`] = `
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
+            "color": "#191919",
             "fontFamily": undefined,
             "textAlignVertical": "center",
           },
           Object {
-            "fontSize": 14,
+            "fontSize": 11.2,
           },
           Object {
             "color": undefined,
           },
           Object {
-            "marginTop": 4,
+            "marginTop": undefined,
             "maxWidth": "100%",
             "paddingLeft": 0,
           },
@@ -465,7 +460,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       undefined,
@@ -476,7 +471,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -490,12 +485,12 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           false,
           false,
@@ -521,15 +516,14 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             false,
@@ -548,8 +542,8 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderColor": undefined,
+          "borderRadius": 2,
           "borderTopWidth": 0,
           "borderWidth": 1,
         },
@@ -557,7 +551,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           "alignItems": "flex-start",
           "flexDirection": "row",
           "flexWrap": "wrap",
-          "padding": 8,
+          "padding": 4,
         },
         undefined,
         false,
@@ -568,15 +562,15 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -593,13 +587,13 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
+                "fontSize": 12.8,
+                "lineHeight": 15.36,
               },
               false,
               Object {
@@ -636,7 +630,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -651,7 +645,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -666,15 +660,15 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -691,13 +685,13 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
+                "fontSize": 12.8,
+                "lineHeight": 15.36,
               },
               false,
               Object {
@@ -734,7 +728,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -749,7 +743,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -764,15 +758,15 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -789,13 +783,13 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
+                "fontSize": 12.8,
+                "lineHeight": 15.36,
               },
               false,
               Object {
@@ -832,7 +826,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -847,7 +841,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -862,15 +856,15 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -887,13 +881,13 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
+                "fontSize": 12.8,
+                "lineHeight": 15.36,
               },
               false,
               Object {
@@ -930,7 +924,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -945,7 +939,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -960,15 +954,15 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -985,13 +979,13 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 16,
-                "lineHeight": 19.2,
+                "fontSize": 12.8,
+                "lineHeight": 15.36,
               },
               false,
               Object {
@@ -1028,7 +1022,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1043,7 +1037,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1063,7 +1057,7 @@ exports[`<InputList> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       undefined,
@@ -1074,7 +1068,7 @@ exports[`<InputList> when {label} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -1087,20 +1081,20 @@ exports[`<InputList> when {label} 1`] = `
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
+            "color": "#191919",
             "fontFamily": undefined,
             "textAlignVertical": "center",
           },
           Object {
-            "fontSize": 14,
+            "fontSize": 11.2,
           },
           Object {
             "color": undefined,
           },
           Object {
-            "color": "#4a4a4a",
+            "color": "#191919",
             "fontWeight": "700",
-            "marginBottom": 8,
+            "marginBottom": 4,
           },
         ]
       }
@@ -1113,12 +1107,12 @@ exports[`<InputList> when {label} 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           false,
           false,
@@ -1144,15 +1138,14 @@ exports[`<InputList> when {label} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             false,
@@ -1174,7 +1167,7 @@ exports[`<InputList> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       Object {
@@ -1188,7 +1181,7 @@ exports[`<InputList> when {style} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -1202,12 +1195,12 @@ exports[`<InputList> when {style} 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           false,
           false,
@@ -1233,15 +1226,14 @@ exports[`<InputList> when {style} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             false,
@@ -1263,7 +1255,7 @@ exports[`<InputList> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
       },
       false,
       undefined,
@@ -1274,7 +1266,7 @@ exports[`<InputList> when {value} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "marginBottom": 0,
@@ -1288,12 +1280,12 @@ exports[`<InputList> when {value} 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#ffffff",
-            "borderColor": "#cdd2d4",
-            "borderRadius": 2.5,
+            "borderColor": undefined,
+            "borderRadius": 2,
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 8,
+            "paddingHorizontal": 4,
           },
           false,
           false,
@@ -1319,15 +1311,14 @@ exports[`<InputList> when {value} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "transparent",
               "borderWidth": 0,
-              "color": "#4a4a4a",
+              "color": "#191919",
               "flex": 1,
               "fontFamily": undefined,
-              "fontSize": 16,
-              "minHeight": 42,
-              "paddingHorizontal": 4,
-              "paddingVertical": 7.5,
+              "fontSize": 12.8,
+              "minHeight": 33.6,
+              "paddingHorizontal": undefined,
+              "paddingVertical": 6,
               "width": "100%",
             },
             false,
@@ -1346,8 +1337,8 @@ exports[`<InputList> when {value} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderColor": undefined,
+          "borderRadius": 2,
           "borderTopWidth": 0,
           "borderWidth": 1,
         },
@@ -1355,7 +1346,7 @@ exports[`<InputList> when {value} 1`] = `
           "alignItems": "flex-start",
           "flexDirection": "row",
           "flexWrap": "wrap",
-          "padding": 8,
+          "padding": 4,
         },
         undefined,
         false,
@@ -1366,15 +1357,15 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -1382,13 +1373,13 @@ exports[`<InputList> when {value} 1`] = `
         style={
           Array [
             Object {
-              "color": "#4a4a4a",
+              "color": "#191919",
               "fontFamily": undefined,
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 16,
-              "lineHeight": 19.2,
+              "fontSize": 12.8,
+              "lineHeight": 15.36,
             },
             false,
             Object {
@@ -1424,7 +1415,7 @@ exports[`<InputList> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1439,7 +1430,7 @@ exports[`<InputList> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1454,15 +1445,15 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -1470,13 +1461,13 @@ exports[`<InputList> when {value} 1`] = `
         style={
           Array [
             Object {
-              "color": "#4a4a4a",
+              "color": "#191919",
               "fontFamily": undefined,
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 16,
-              "lineHeight": 19.2,
+              "fontSize": 12.8,
+              "lineHeight": 15.36,
             },
             false,
             Object {
@@ -1512,7 +1503,7 @@ exports[`<InputList> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1527,7 +1518,7 @@ exports[`<InputList> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1542,15 +1533,15 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -1558,13 +1549,13 @@ exports[`<InputList> when {value} 1`] = `
         style={
           Array [
             Object {
-              "color": "#4a4a4a",
+              "color": "#191919",
               "fontFamily": undefined,
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 16,
-              "lineHeight": 19.2,
+              "fontSize": 12.8,
+              "lineHeight": 15.36,
             },
             false,
             Object {
@@ -1600,7 +1591,7 @@ exports[`<InputList> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1615,7 +1606,7 @@ exports[`<InputList> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1630,15 +1621,15 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -1646,13 +1637,13 @@ exports[`<InputList> when {value} 1`] = `
         style={
           Array [
             Object {
-              "color": "#4a4a4a",
+              "color": "#191919",
               "fontFamily": undefined,
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 16,
-              "lineHeight": 19.2,
+              "fontSize": 12.8,
+              "lineHeight": 15.36,
             },
             false,
             Object {
@@ -1688,7 +1679,7 @@ exports[`<InputList> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1703,7 +1694,7 @@ exports[`<InputList> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1718,15 +1709,15 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 16,
+          "backgroundColor": undefined,
+          "borderRadius": 12.8,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 4,
-          "minHeight": 32,
-          "paddingHorizontal": 8,
-          "paddingVertical": 4,
+          "margin": undefined,
+          "minHeight": 25.6,
+          "paddingHorizontal": 4,
+          "paddingVertical": undefined,
         }
       }
     >
@@ -1734,13 +1725,13 @@ exports[`<InputList> when {value} 1`] = `
         style={
           Array [
             Object {
-              "color": "#4a4a4a",
+              "color": "#191919",
               "fontFamily": undefined,
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 16,
-              "lineHeight": 19.2,
+              "fontSize": 12.8,
+              "lineHeight": 15.36,
             },
             false,
             Object {
@@ -1776,7 +1767,7 @@ exports[`<InputList> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1791,7 +1782,7 @@ exports[`<InputList> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#cdd2d4",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,

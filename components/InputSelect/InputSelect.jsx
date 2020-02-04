@@ -4,10 +4,8 @@ import { findDOMNode } from 'react-dom';
 import { Picker, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import Icon from '../Icon';
-import { InputHint, InputLabel } from '../Input';
-import Motion from '../Motion';
-import Touchable from '../Touchable';
+import { Icon, Motion, Touchable } from '..';
+
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import Template from './InputSelectTemplate';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
@@ -15,14 +13,13 @@ import styles from './InputSelect.style';
 
 const { COLOR } = THEME;
 
-class InputSelect extends PureComponent {
+export class InputSelect extends PureComponent {
   static propTypes = {
     dataSource: arrayOf(oneOfType([string, shape({})])),
     disabled: bool,
     error: oneOfType([bool, string]),
     hint: string,
     ItemTemplate: func,
-    label: string,
     onChange: func,
     value: oneOfType([string, number]),
   };
@@ -33,7 +30,6 @@ class InputSelect extends PureComponent {
     error: undefined,
     hint: undefined,
     ItemTemplate: Template,
-    label: undefined,
     onChange: undefined,
     value: 0,
   };
@@ -81,11 +77,11 @@ class InputSelect extends PureComponent {
     const {
       _onToggleDataSource,
       _onItem,
-      props: { dataSource = [], disabled, error, hint, label, onChange, ItemTemplate, value = 0, ...inherit },
+      props: { dataSource = [], disabled, onChange, ItemTemplate, value = 0, ...others },
       state: { active, regular, schema },
     } = this;
     // eslint-disable-next-line no-unused-vars
-    const { valid, ...pickerProps } = inherit;
+    const { valid, ...pickerProps } = others;
     const {
       VIEWPORT: { H },
     } = LAYOUT;
@@ -93,40 +89,31 @@ class InputSelect extends PureComponent {
     const event = !disabled && hasDataSource ? _onToggleDataSource : undefined;
 
     return (
-      <View ref={this.component} style={[styles.container, active && styles.active, inherit.style]}>
-        {label && <InputLabel>{label}</InputLabel>}
-
+      <View ref={this.component} style={[styles.container, active && styles.active]}>
         {schema && hasDataSource && !disabled && (
-          <Motion
-            style={[styles.button, label && styles.withLabel]}
-            timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
-          >
+          <Motion style={styles.button} timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}>
             <Icon value="menu-down" />
           </Motion>
         )}
 
-        <View style={[styles.border, !disabled && error && styles.error, disabled && styles.disabled]}>
-          {schema ? (
-            <Touchable onPress={event} rippleColor={COLOR.PRIMARY}>
-              <ItemTemplate {...dataSource[value]} disabled={disabled} active style={styles.template} />
-            </Touchable>
-          ) : (
-            <Picker
-              mode="dropdown"
-              {...pickerProps}
-              enabled={!disabled}
-              onValueChange={onChange}
-              selectedValue={value}
-              style={[styles.picker, disabled && styles.pickerDisabled]}
-            >
-              {dataSource.map((item) => (
-                <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />
-              ))}
-            </Picker>
-          )}
-        </View>
-
-        {hint && <InputHint>{hint}</InputHint>}
+        {schema ? (
+          <Touchable onPress={event} rippleColor={COLOR.BRAND}>
+            <ItemTemplate {...dataSource[value]} disabled={disabled} active style={styles.template} />
+          </Touchable>
+        ) : (
+          <Picker
+            mode="dropdown"
+            {...pickerProps}
+            enabled={!disabled}
+            onValueChange={onChange}
+            selectedValue={value}
+            style={[styles.picker, disabled && styles.pickerDisabled]}
+          >
+            {dataSource.map((item) => (
+              <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />
+            ))}
+          </Picker>
+        )}
 
         {schema && (
           <ScrollView
@@ -136,12 +123,11 @@ class InputSelect extends PureComponent {
               styles.dataSource,
               !active && styles.dataSourceHidden,
               !regular && styles.dataSourceBottom,
-              label && styles.withLabel,
               { maxHeight: Math.floor(H / 2 / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
             ]}
           >
             {dataSource.map((item, index) => (
-              <Touchable key={item.title} onPress={() => _onItem(index)} rippleColor={COLOR.PRIMARY}>
+              <Touchable key={item.title} onPress={() => _onItem(index)} rippleColor={COLOR.BRAND}>
                 <ItemTemplate {...item} selected={index === value} style={styles.template} />
               </Touchable>
             ))}
@@ -151,5 +137,3 @@ class InputSelect extends PureComponent {
     );
   }
 }
-
-export default InputSelect;

@@ -2,15 +2,17 @@ import { arrayOf, bool, func, oneOfType, shape } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
-import { ENV } from '../../common';
-import Activity from '../Activity';
+import { useEnvironment } from '../../hooks';
+import { Activity } from '..';
+
 import { DayNames, Selector, Week } from './components';
 import { decomposeDate, firstDateOfWeek, LOCALE, nextMonth, previousMonth } from './modules';
 import styles from './Calendar.style';
 
 const VISIBLE_WEEKS = Array.from(Array(6).keys());
+const { IS_TEST } = useEnvironment();
 
-class Calendar extends PureComponent {
+export class Calendar extends PureComponent {
   static propTypes = {
     availableDates: arrayOf(shape()),
     box: bool,
@@ -49,7 +51,7 @@ class Calendar extends PureComponent {
     super(props);
     const { value, date } = props;
 
-    const today = !ENV.IS_TEST ? new Date() : new Date(1980, 3, 10);
+    const today = !IS_TEST ? new Date() : new Date(1980, 3, 10);
     today.setHours(0, 0, 0, 0);
 
     this.state = {
@@ -116,13 +118,13 @@ class Calendar extends PureComponent {
   render() {
     const {
       Instance,
-      props: { busy, disabledPast, expanded, ...inherit },
+      props: { busy, disabledPast, expanded, ...others },
       state: { month, year, today },
     } = this;
     const disabledPrevious = disabledPast && today.getFullYear() === year && today.getMonth() === month;
 
     return (
-      <View style={[styles.container, inherit.style]}>
+      <View style={[styles.container, others.style]}>
         {busy && <Activity size="large" style={styles.activity} />}
         <View style={styles.content}>
           <Instance onNext={!expanded} onPrevious={!disabledPrevious} />
@@ -132,5 +134,3 @@ class Calendar extends PureComponent {
     );
   }
 }
-
-export default Calendar;

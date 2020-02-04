@@ -1,15 +1,23 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME, ENV } from '../../common';
+import { LAYOUT, THEME } from '../../common';
+import { useEnvironment } from '../../hooks';
 
-const { BORDER_RADIUS, COLOR, ELEVATION, SPACE } = THEME;
+const { IS_WEB } = useEnvironment();
+const { COLOR, SPACE } = THEME;
 
 export default StyleSheet.create({
+  button: {
+    alignSelf: 'flex-end',
+    height: SPACE.L,
+    marginTop: SPACE.M,
+  },
+
   container: {
     height: '100%',
     left: 0,
-    maxHeight: ENV.IS_WEB ? '100vh' : '100%',
-    position: ENV.IS_WEB ? 'fixed' : 'absolute',
+    maxHeight: IS_WEB ? '100vh' : '100%',
+    position: IS_WEB ? 'fixed' : 'absolute',
     top: 0,
     width: '100%',
     zIndex: 2,
@@ -19,38 +27,28 @@ export default StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
   },
 
-  children: {
-    paddingHorizontal: SPACE.MEDIUM,
-    paddingBottom: SPACE.MEDIUM,
+  content: {
+    paddingHorizontal: SPACE.M,
+    paddingVertical: SPACE.M,
+  },
+
+  contentWithButton: {
+    paddingTop: 0,
   },
 
   frame: {
-    ...ELEVATION.LARGE,
-    backgroundColor: COLOR.BACKGROUND,
-    borderRadius: BORDER_RADIUS,
+    backgroundColor: COLOR.WHITE,
   },
 
-  header: {
-    ...LAYOUT.STYLE.ROW,
-    alignContent: 'center',
-    paddingHorizontal: SPACE.XS,
-    paddingVertical: SPACE.XS,
+  keyboardView: {
+    backgroundColor: COLOR.TRANSPARENT,
+    width: '100%',
+    maxHeight: '100%',
+    position: 'absolute',
   },
 
-  safeArea: {
+  overlay: {
     ...LAYOUT.STYLE.CENTERED,
     flex: 1,
-  },
-
-  scroll: {
-    borderBottomColor: COLOR.BASE,
-    borderBottomWidth: 1,
-    borderTopColor: COLOR.BASE,
-    borderTopWidth: 1,
-  },
-
-  title: {
-    flex: 1,
-    paddingHorizontal: SPACE.XS,
   },
 });

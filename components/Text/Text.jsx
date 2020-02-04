@@ -1,6 +1,6 @@
 import { bool, string } from 'prop-types';
 import React from 'react';
-import { StyleSheet, Text as NativeText } from 'react-native';
+import { Text as NativeText } from 'react-native';
 
 import { useTheme } from '../../context';
 import styles from './Text.style';
@@ -14,23 +14,27 @@ const determineStyle = ({ caption, input, headline, subtitle }) => {
   return styles.body;
 };
 
-const Text = ({ bold, color, caption, headline, input, lighten, subtitle, ...inherit }) => {
+export const Text = ({
+  bold = false,
+  caption = false,
+  color,
+  headline = false,
+  input = false,
+  subtitle = false,
+  ...others
+}) => {
   const { FONT: { FAMILY } = {} } = useTheme();
 
   return (
     <NativeText
-      {...inherit}
+      {...others}
       style={[
-        styles.container,
-        determineStyle({
-          caption,
-          input,
-          headline,
-          subtitle,
-        }),
-        lighten && styles.lighten,
-        // -- flatten
-        StyleSheet.flatten([FAMILY && { fontFamily: FAMILY }, bold && styles.bold, inherit.style, color && { color }]),
+        styles.default,
+        determineStyle({ caption, input, headline, subtitle }),
+        FAMILY && { fontFamily: FAMILY },
+        bold && styles.bold,
+        color && { color },
+        others.style,
       ]}
     />
   );
@@ -42,18 +46,5 @@ Text.propTypes = {
   color: string,
   headline: bool,
   input: bool,
-  lighten: bool,
   subtitle: bool,
 };
-
-Text.defaultProps = {
-  bold: false,
-  caption: false,
-  color: undefined,
-  headline: false,
-  input: false,
-  lighten: false,
-  subtitle: false,
-};
-
-export default Text;

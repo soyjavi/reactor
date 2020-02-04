@@ -1,18 +1,19 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
-
-const { SPACE } = THEME;
+import { LAYOUT } from '../../common';
 
 export default StyleSheet.create({
+  button: {
+    alignSelf: 'center',
+  },
+
   caption: {
     flex: 1,
-    marginRight: SPACE.S,
   },
 
-  container: LAYOUT.STYLE.ROW,
-
-  dialogContainer: {
+  overlay: {
     justifyContent: 'flex-end',
   },
+
+  content: LAYOUT.STYLE.ROW,
 });

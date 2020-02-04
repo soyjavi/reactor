@@ -13,9 +13,9 @@ describe('<ThemeProvider>', () => {
   });
 
   it('when {style}', () => {
-    expect(THEME.COLOR.PRIMARY).toEqual('#4066EA');
+    expect(THEME.COLOR.BRAND).toEqual('#4066EA');
     const tree = TestRenderer.create(<ThemeProvider style={customTheme} />).toJSON();
     expect(tree).toMatchSnapshot();
-    expect(THEME.COLOR.PRIMARY).toEqual(customTheme.COLOR.PRIMARY);
+    expect(THEME.COLOR.BRAND).toEqual(customTheme.COLOR.BRAND);
   });
 });

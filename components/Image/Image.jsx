@@ -2,22 +2,22 @@ import { func } from 'prop-types';
 import React, { useState } from 'react';
 import { Image as ImageNative, View } from 'react-native';
 
-import Skeleton from '../Skeleton';
+import { Skeleton } from '..';
 import styles from './Image.style';
 
-const Image = ({ onLoad, ...inherit }) => {
+export const Image = ({ onLoad, ...others }) => {
   const [ready, setReady] = useState(false);
 
   return (
-    <View style={[styles.container, inherit.styleContainer || inherit.style]}>
+    <View style={[styles.container, others.styleContainer || others.style]}>
       <ImageNative
-        {...inherit}
+        {...others}
         onLoad={(event) => {
           setReady(true);
-          onLoad(event);
+          if (onLoad) onLoad(event);
         }}
       />
-      {!ready && <Skeleton style={styles.skeleton} />}
+      {!ready && <Skeleton style={[others.style, styles.skeleton]} />}
     </View>
   );
 };
@@ -25,9 +25,3 @@ const Image = ({ onLoad, ...inherit }) => {
 Image.propTypes = {
   onLoad: func,
 };
-
-Image.defaultProps = {
-  onLoad() {},
-};
-
-export default Image;

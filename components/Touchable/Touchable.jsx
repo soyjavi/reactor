@@ -13,7 +13,7 @@ const ANIMATION = {
   duration: 400,
 };
 
-class Touchable extends PureComponent {
+export class Touchable extends PureComponent {
   mounted = false;
 
   static propTypes = {
@@ -105,7 +105,7 @@ class Touchable extends PureComponent {
       _onPress,
       _onPressOut,
       _onLayout,
-      props: { children, containerBorderRadius, onPress, rippleColor, ...inherit },
+      props: { children, containerBorderRadius, onPress, rippleColor, ...others },
       state: { mask, width, height, ripples = [] },
     } = this;
     const events = onPress
@@ -119,7 +119,7 @@ class Touchable extends PureComponent {
 
     return (
       <TouchableWithoutFeedback {...events}>
-        <View pointerEvents={onPress ? 'box-only' : 'none'} style={[styles.container, inherit.style]}>
+        <View pointerEvents={onPress ? 'box-only' : 'none'} style={[styles.container, others.style]}>
           {children}
           <View style={[styles.ripples, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
             {ripples.map((props, index) => (
@@ -134,5 +134,3 @@ class Touchable extends PureComponent {
     );
   }
 }
-
-export default Touchable;

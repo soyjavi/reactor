@@ -1,4 +1,4 @@
-import queryString from './queryString';
+import { queryString } from './queryString';
 
 describe('queryString()', () => {
   it('default', () => {
@@ -15,5 +15,5 @@ describe('queryString()', () => {
     });
 
     expect(value).toBe('greetings=hello%20world&year=1980&username=soyjavi&machines=macbook%20pro%2Cmacbook');
-  })
+  });
 });

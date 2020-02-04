@@ -30,7 +30,7 @@ describe('<ProgressBar>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<ProgressBar style={{ borderRadius: SPACE.XS, height: SPACE.MEDIUM }} />).toJSON();
+    const tree = renderer.create(<ProgressBar style={{ borderRadius: SPACE.XS, height: SPACE.M }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

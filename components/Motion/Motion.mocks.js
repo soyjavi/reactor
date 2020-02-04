@@ -1,6 +1,6 @@
 import { THEME } from '../../common';
 
-const STYLE = { backgroundColor: THEME.COLOR.PRIMARY, padding: 32 };
+const STYLE = { backgroundColor: THEME.COLOR.BRAND, padding: 32 };
 const STYLE_VIEW = {
   width: 128,
   height: 128,

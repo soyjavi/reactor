@@ -32,7 +32,7 @@ describe('<InputOption>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('inherity:style', () => {
+  it('othersy:style', () => {
     const tree = renderer.create(<InputOption style={style} />).toJSON();
     expect(tree).toMatchSnapshot();
   });

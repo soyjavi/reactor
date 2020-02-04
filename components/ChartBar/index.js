@@ -1,1 +1,1 @@
-export { default } from './ChartBar';
+export * from './ChartBar';

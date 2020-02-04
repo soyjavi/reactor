@@ -8,7 +8,6 @@ exports[`<Snackbar> renders 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": undefined,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -39,7 +38,6 @@ exports[`<Snackbar> renders 1`] = `
         Array [
           Array [
             Object {
-              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
@@ -55,23 +53,15 @@ exports[`<Snackbar> renders 1`] = `
     >
       <View
         pointerEvents="auto"
-        style={
-          Object {
-            "transform": Array [
-              Object {
-                "translateY": undefined,
-              },
-            ],
-          }
-        }
+        style={Object {}}
       >
         <View
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderRadius": 3,
-                "shadowColor": "#000000",
+                "backgroundColor": undefined,
+                "borderRadius": 2.4,
+                "shadowColor": "#191919",
                 "shadowOffset": Object {
                   "height": 4,
                   "width": 0,
@@ -82,7 +72,7 @@ exports[`<Snackbar> renders 1`] = `
               Array [
                 undefined,
                 Object {
-                  "backgroundColor": "#4a4a4a",
+                  "backgroundColor": "#191919",
                 },
               ],
             ]
@@ -95,8 +85,8 @@ exports[`<Snackbar> renders 1`] = `
                 "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 8,
-                "paddingVertical": 8,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
               }
             }
           />
@@ -138,7 +128,6 @@ exports[`<Snackbar> when {button} 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": undefined,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -169,7 +158,6 @@ exports[`<Snackbar> when {button} 1`] = `
         Array [
           Array [
             Object {
-              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
@@ -185,23 +173,15 @@ exports[`<Snackbar> when {button} 1`] = `
     >
       <View
         pointerEvents="auto"
-        style={
-          Object {
-            "transform": Array [
-              Object {
-                "translateY": undefined,
-              },
-            ],
-          }
-        }
+        style={Object {}}
       >
         <View
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderRadius": 3,
-                "shadowColor": "#000000",
+                "backgroundColor": undefined,
+                "borderRadius": 2.4,
+                "shadowColor": "#191919",
                 "shadowOffset": Object {
                   "height": 4,
                   "width": 0,
@@ -212,7 +192,7 @@ exports[`<Snackbar> when {button} 1`] = `
               Array [
                 undefined,
                 Object {
-                  "backgroundColor": "#4a4a4a",
+                  "backgroundColor": "#191919",
                 },
               ],
             ]
@@ -225,8 +205,8 @@ exports[`<Snackbar> when {button} 1`] = `
                 "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 8,
-                "paddingVertical": 8,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
               }
             }
           />
@@ -299,7 +279,6 @@ exports[`<Snackbar> when {caption} 1`] = `
         Array [
           Array [
             Object {
-              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
@@ -329,9 +308,9 @@ exports[`<Snackbar> when {caption} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderRadius": 3,
-                "shadowColor": "#000000",
+                "backgroundColor": undefined,
+                "borderRadius": 2.4,
+                "shadowColor": "#191919",
                 "shadowOffset": Object {
                   "height": 4,
                   "width": 0,
@@ -342,7 +321,7 @@ exports[`<Snackbar> when {caption} 1`] = `
               Array [
                 undefined,
                 Object {
-                  "backgroundColor": "#4a4a4a",
+                  "backgroundColor": "#191919",
                 },
               ],
             ]
@@ -355,8 +334,8 @@ exports[`<Snackbar> when {caption} 1`] = `
                 "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 8,
-                "paddingVertical": 8,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
               }
             }
           />
@@ -385,18 +364,18 @@ exports[`<Snackbar> when {caption} 1`] = `
                   style={
                     Array [
                       Object {
-                        "color": "#4a4a4a",
+                        "color": "#191919",
                         "fontFamily": undefined,
                         "textAlignVertical": "center",
                       },
                       Object {
-                        "fontSize": 14,
+                        "fontSize": 11.2,
                       },
                       false,
                       Object {
                         "color": "#ffffff",
                         "flex": 1,
-                        "marginRight": 12,
+                        "marginRight": 8,
                       },
                     ]
                   }
@@ -452,7 +431,6 @@ exports[`<Snackbar> when {children} 1`] = `
         Array [
           Array [
             Object {
-              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
@@ -482,9 +460,9 @@ exports[`<Snackbar> when {children} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderRadius": 3,
-                "shadowColor": "#000000",
+                "backgroundColor": undefined,
+                "borderRadius": 2.4,
+                "shadowColor": "#191919",
                 "shadowOffset": Object {
                   "height": 4,
                   "width": 0,
@@ -495,7 +473,7 @@ exports[`<Snackbar> when {children} 1`] = `
               Array [
                 undefined,
                 Object {
-                  "backgroundColor": "#4a4a4a",
+                  "backgroundColor": "#191919",
                 },
               ],
             ]
@@ -508,8 +486,8 @@ exports[`<Snackbar> when {children} 1`] = `
                 "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 8,
-                "paddingVertical": 8,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
               }
             }
           />
@@ -553,7 +531,6 @@ exports[`<Snackbar> when {color} 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": undefined,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -584,7 +561,6 @@ exports[`<Snackbar> when {color} 1`] = `
         Array [
           Array [
             Object {
-              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
@@ -600,23 +576,15 @@ exports[`<Snackbar> when {color} 1`] = `
     >
       <View
         pointerEvents="auto"
-        style={
-          Object {
-            "transform": Array [
-              Object {
-                "translateY": undefined,
-              },
-            ],
-          }
-        }
+        style={Object {}}
       >
         <View
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderRadius": 3,
-                "shadowColor": "#000000",
+                "backgroundColor": undefined,
+                "borderRadius": 2.4,
+                "shadowColor": "#191919",
                 "shadowOffset": Object {
                   "height": 4,
                   "width": 0,
@@ -627,7 +595,7 @@ exports[`<Snackbar> when {color} 1`] = `
               Array [
                 undefined,
                 Object {
-                  "backgroundColor": "#4a4a4a",
+                  "backgroundColor": "#191919",
                 },
               ],
             ]
@@ -640,8 +608,8 @@ exports[`<Snackbar> when {color} 1`] = `
                 "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 8,
-                "paddingVertical": 8,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
               }
             }
           />
@@ -714,7 +682,6 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
         Array [
           Array [
             Object {
-              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
@@ -744,9 +711,9 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderRadius": 3,
-                "shadowColor": "#000000",
+                "backgroundColor": undefined,
+                "borderRadius": 2.4,
+                "shadowColor": "#191919",
                 "shadowOffset": Object {
                   "height": 4,
                   "width": 0,
@@ -757,7 +724,7 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
               Array [
                 undefined,
                 Object {
-                  "backgroundColor": "#4a4a4a",
+                  "backgroundColor": "#191919",
                 },
               ],
             ]
@@ -770,8 +737,8 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
                 "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 8,
-                "paddingVertical": 8,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
               }
             }
           />

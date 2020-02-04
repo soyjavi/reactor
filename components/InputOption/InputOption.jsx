@@ -1,15 +1,17 @@
 import { bool, func, string } from 'prop-types';
 import React from 'react';
 
-import InputLabel from '../Input/InputLabel';
-import InputIcon from '../Input/InputIcon';
-import Touchable from '../Touchable';
+import { InputIcon, Text, Touchable } from '..';
 import styles from './InputOption.style';
 
-const InputOption = ({ label, onChange, rounded, value, ...inherit }) => (
-  <Touchable onPress={onChange ? () => onChange(!value) : undefined} style={[styles.container, inherit.style]}>
-    <InputIcon active={value} rounded={rounded} size={inherit.size} />
-    {label && <InputLabel style={styles.label}>{label}</InputLabel>}
+export const InputOption = ({ label, onChange, rounded = true, value, ...others }) => (
+  <Touchable onPress={onChange ? () => onChange(!value) : undefined} style={[styles.container, others.style]}>
+    <InputIcon active={value} rounded={rounded} size={others.size} />
+    {label && (
+      <Text bold caption numberOfLines={2} style={styles.label}>
+        {label}
+      </Text>
+    )}
   </Touchable>
 );
 
@@ -19,12 +21,3 @@ InputOption.propTypes = {
   rounded: bool,
   value: bool,
 };
-
-InputOption.defaultProps = {
-  label: undefined,
-  onChange: undefined,
-  rounded: true,
-  value: false,
-};
-
-export default InputOption;

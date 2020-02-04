@@ -1,24 +1,23 @@
-import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
-import React, { useState } from 'react';
-import { KeyboardAvoidingView, SafeAreaView, ScrollView, View } from 'react-native';
+import { bool, func, node } from 'prop-types';
+import React from 'react';
+import { KeyboardAvoidingView, SafeAreaView, View } from 'react-native';
 
-import { ENV, LAYOUT, THEME } from '../../common';
-import Button from '../Button';
-import Motion from '../Motion';
-import Text from '../Text';
+import { LAYOUT, THEME } from '../../common';
+import { useEnvironment } from '../../hooks';
+import { Button, Motion } from '..';
 import styles from './Dialog.style';
 
-const { IS_NATIVE } = ENV;
 const { COLOR, MOTION, SPACE } = THEME;
 
-const Dialog = ({ background, children, highlight, reverse, onClose, style, styleContainer, title, visible }) => {
-  const [scroll, setScroll] = useState(false);
+export const Dialog = ({ background = true, children, highlight, onClose, reverse, visible, ...others }) => {
+  const { IS_NATIVE } = useEnvironment();
+
   const {
-    VIEWPORT: { H, PORTRAIT },
+    VIEWPORT: { H },
   } = LAYOUT;
   let translateY = 0;
 
-  if (!visible) translateY = reverse ? -H : H;
+  if (!visible) translateY = (reverse ? -H : H) * 0.8;
 
   return (
     <Motion
@@ -27,56 +26,27 @@ const Dialog = ({ background, children, highlight, reverse, onClose, style, styl
       style={styles.container}
       timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
     >
-      <SafeAreaView style={[styles.safeArea, background && styles.background, styleContainer]}>
-        <KeyboardAvoidingView
-          behavior={IS_NATIVE ? 'padding' : undefined}
-          style={[
-            {
-              backgroundColor: COLOR.TRANSPARENT,
-              maxHeight: PORTRAIT ? '100%' : '90%',
-              minWidth: PORTRAIT ? 320 : '33%',
-              maxWidth: PORTRAIT ? '100%' : '66%',
-              width: '100%',
-              position: 'absolute',
-            },
-          ]}
-        >
+      <SafeAreaView style={[styles.overlay, background && styles.background, others.styleOverlay]}>
+        <KeyboardAvoidingView behavior={IS_NATIVE ? 'padding' : undefined} style={styles.keyboardView}>
           <Motion
             delay={visible ? MOTION.DURATION : 0}
             duration={MOTION.DURATION}
             pointerEvents="auto"
             timeline={[{ property: 'translateY', value: translateY }]}
           >
-            <View style={[styles.frame, style]}>
-              <View style={styles.header}>
-                {title && (
-                  <Text
-                    bold
-                    color={highlight ? COLOR.WHITE : undefined}
-                    subtitle
-                    numberOfLines={1}
-                    style={styles.title}
-                  >
-                    {title}
-                  </Text>
-                )}
-                {onClose && (
-                  <Button
-                    contained={false}
-                    color={highlight ? COLOR.WHITE : COLOR.TEXT}
-                    icon="close"
-                    iconSize={SPACE.L}
-                    onPress={onClose}
-                    rounded
-                  />
-                )}
-              </View>
-              <ScrollView
-                onScroll={title ? () => setScroll(true) : undefined}
-                style={[styles.children, scroll && styles.scroll]}
-              >
-                {children}
-              </ScrollView>
+            <View style={[{ backgroundColor: highlight ? COLOR.BLACK : COLOR.WHITE }, others.style]}>
+              {onClose && (
+                <Button
+                  color={COLOR.TRANSPARENT}
+                  colorContent={highlight ? COLOR.WHITE : COLOR.BLACK}
+                  icon="close"
+                  iconSize={SPACE.L}
+                  onPress={onClose}
+                  size="S"
+                  style={styles.button}
+                />
+              )}
+              <View style={[styles.content, onClose && styles.contentWithButton]}>{children}</View>
             </View>
           </Motion>
         </KeyboardAvoidingView>
@@ -91,22 +61,5 @@ Dialog.propTypes = {
   highlight: bool,
   onClose: func,
   reverse: bool,
-  style: oneOfType([array, number, object]),
-  styleContainer: oneOfType([array, number, object]),
-  title: string,
   visible: bool,
 };
-
-Dialog.defaultProps = {
-  background: true,
-  children: undefined,
-  highlight: undefined,
-  onClose: undefined,
-  reverse: false,
-  style: [],
-  styleContainer: [],
-  title: undefined,
-  visible: false,
-};
-
-export default Dialog;

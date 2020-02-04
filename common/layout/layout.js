@@ -22,7 +22,8 @@ class Layout {
     return this.style.TEXT;
   }
 
-  get STYLE() { // eslint-disable-line
+  get STYLE() {
+    // eslint-disable-line
     return style;
     // return this.style;
   }
@@ -62,4 +63,6 @@ class Layout {
   // extendStyle() {}
 }
 
-export default new Layout();
+const LAYOUT = new Layout();
+
+export { LAYOUT };

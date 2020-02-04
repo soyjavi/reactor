@@ -2,14 +2,13 @@ import { arrayOf, bool, func, oneOfType, shape, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
-import Icon from '../Icon';
-import Input from '../Input';
-import Touchable from '../Touchable';
-import ItemList from './components/ItemList';
-import filterDataSource from './modules/filterDataSource';
+import { Icon, Input, Touchable } from '..';
+
+import { ItemList } from './components';
+import { filterDataSource } from './modules';
 import styles from './InputList.style';
 
-class InputList extends PureComponent {
+export class InputList extends PureComponent {
   static propTypes = {
     dataSource: arrayOf(oneOfType([string, shape({})])),
     dataSourceField: string,
@@ -102,16 +101,16 @@ class InputList extends PureComponent {
       _onInputChange,
       _onSelectItem,
       _onRemoveItem,
-      props: { dataSource, dataSourceField, itemTemplate, value = [], ...inherit },
+      props: { dataSource, dataSourceField, itemTemplate, value = [], ...others },
       state: { active, inputValue, suggestions = [] },
     } = this;
-    const { disabled, error } = inherit;
+    const { disabled, error } = others;
     const objDataSource = dataSource && typeof dataSource[0] === 'object';
 
     return (
-      <View style={[styles.container, active && styles.active, inherit.style]}>
+      <View style={[styles.container, active && styles.active, others.style]}>
         <Input
-          {...inherit}
+          {...others}
           onChange={_onInputChange}
           onBlur={() => this.setState({ active: false })}
           onFocus={() => this.setState({ active: true })}
@@ -160,5 +159,3 @@ class InputList extends PureComponent {
     );
   }
 }
-
-export default InputList;

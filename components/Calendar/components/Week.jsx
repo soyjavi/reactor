@@ -2,8 +2,8 @@ import { func, shape } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import Text from '../../Text';
-import Touchable from '../../Touchable';
+import { Text, Touchable } from '../..';
+
 import styles, { BOX_SIZE } from './Week.style';
 
 const onPress = ({ day, tsDay, tsStart, tsEnd, onSelect, range, value }) => {
@@ -13,7 +13,7 @@ const onPress = ({ day, tsDay, tsStart, tsEnd, onSelect, range, value }) => {
   else if (tsDay > tsStart) onSelect([value[0], day]);
 };
 
-const Week = ({ firstDate, ...inherit }) => {
+export const Week = ({ firstDate, ...others }) => {
   const {
     availableDates,
     box,
@@ -27,7 +27,7 @@ const Week = ({ firstDate, ...inherit }) => {
     range,
     today,
     value,
-  } = inherit;
+  } = others;
   const tsToday = today.getTime();
 
   let tsStart;
@@ -94,7 +94,7 @@ const Week = ({ firstDate, ...inherit }) => {
                       tsDay,
                       tsStart,
                       tsEnd,
-                      ...inherit,
+                      ...others,
                     })
                 : undefined
             }
@@ -130,11 +130,6 @@ const Week = ({ firstDate, ...inherit }) => {
 Week.propTypes = {
   firstDate: shape(),
   onSelect: func,
-};
-
-Week.defaultProps = {
-  firstDate: undefined,
-  onSelect() {},
 };
 
 export default Week;

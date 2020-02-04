@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import ChartBar from './ChartBar';
+import { ChartBar } from './ChartBar';
 import MOCKS from './ChartBar.mocks';
 
 const DEFAULT = { captions: MOCKS.CAPTIONS, values: MOCKS.VALUES };
@@ -50,12 +50,14 @@ describe('<ChartBar>', () => {
   });
 
   it('when {styleContainer}', () => {
-    const tree = renderer.create(<ChartBar styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />).toJSON();
+    const tree = renderer
+      .create(<ChartBar styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {styleBar}', () => {
-    const tree = renderer.create(<ChartBar styleBar={MOCKS.STYLE_BAR} scales={MOCKS.SCALES}  {...DEFAULT} />).toJSON();
+    const tree = renderer.create(<ChartBar styleBar={MOCKS.STYLE_BAR} scales={MOCKS.SCALES} {...DEFAULT} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

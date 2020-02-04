@@ -2,11 +2,11 @@ import { func, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import Button from '../../Button';
-import Text from '../../Text';
+import { Button, Text } from '../..';
+
 import styles from './Selector.style';
 
-const Selector = ({ onPrevious, onNext, title }) => (
+export const Selector = ({ onPrevious, onNext, title }) => (
   <View style={styles.container}>
     <Button
       disabled={!onPrevious}
@@ -34,11 +34,6 @@ Selector.propTypes = {
   onNext: func,
   onPrevious: func,
   title: string.isRequired,
-};
-
-Selector.defaultProps = {
-  onNext: undefined,
-  onPrevious: undefined,
 };
 
 export default Selector;

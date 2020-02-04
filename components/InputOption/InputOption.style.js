@@ -9,7 +9,7 @@ const SIZE = UNIT * 2;
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
-    marginBottom: SPACE.REGULAR,
+    marginBottom: SPACE.M,
   },
 
   icon: {
@@ -38,7 +38,7 @@ export default StyleSheet.create({
   },
 
   selected: {
-    borderColor: COLOR.PRIMARY,
-    backgroundColor: COLOR.PRIMARY,
+    borderColor: COLOR.BRAND,
+    backgroundColor: COLOR.BRAND,
   },
 });

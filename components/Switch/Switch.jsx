@@ -3,24 +3,29 @@ import React from 'react';
 import { Switch as SwitchNative, View } from 'react-native';
 
 import { THEME } from '../../common';
-import InputLabel from '../Input/InputLabel';
+import { Text } from '..';
 import styles from './Switch.style';
 
 const { COLOR } = THEME;
 
-const Switch = ({ color, label, onChange, ...inherit }) => (
-  <View style={[styles.container, inherit.style]}>
+export const Switch = ({ color, label, onChange, ...others }) => (
+  <View style={[styles.container, others.style]}>
     <SwitchNative
-      {...inherit}
+      {...others}
       activeThumbColor={COLOR.WHITE}
-      activeTrackColor={color || COLOR.PRIMARY}
+      activeTrackColor={color || COLOR.BRAND}
       onValueChange={onChange}
       style={styles.switch}
       trackColor={COLOR.BASE}
       thumbColor={COLOR.WHITE}
-      value={inherit.value || false}
+      value={others.value || false}
     />
-    {label && <InputLabel style={styles.label}>{label}</InputLabel>}
+
+    {label && (
+      <Text bold caption numberOfLines={2} style={styles.label}>
+        {label}
+      </Text>
+    )}
   </View>
 );
 
@@ -29,11 +34,3 @@ Switch.propTypes = {
   label: string,
   onChange: func,
 };
-
-Switch.defaultProps = {
-  color: undefined,
-  label: undefined,
-  onChange: undefined,
-};
-
-export default Switch;

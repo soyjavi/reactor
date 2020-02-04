@@ -2,13 +2,14 @@ import { arrayOf, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import Text from '../../Text';
+import { Text } from '../..';
+
 import styles from './DayNames.style';
 
-const DayNames = ({ locale = [], ...inherit }) => (
+export const DayNames = ({ locale = [], ...others }) => (
   <View style={styles.container}>
     {locale.map((day) => (
-      <Text key={day} subtitle {...inherit.styleDayNames} style={[styles.cell, inherit.range && styles.cellExpand]}>
+      <Text key={day} subtitle {...others.styleDayNames} style={[styles.cell, others.range && styles.cellExpand]}>
         {day}
       </Text>
     ))}

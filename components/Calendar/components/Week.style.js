@@ -16,7 +16,7 @@ export default StyleSheet.create({
   },
 
   box: {
-    backgroundColor: COLOR.PRIMARY,
+    backgroundColor: COLOR.BRAND,
     height: UNIT * 4,
     width: UNIT * 4,
     opacity: 0.2,
@@ -36,7 +36,7 @@ export default StyleSheet.create({
   },
 
   cellSelected: {
-    backgroundColor: COLOR.PRIMARY,
+    backgroundColor: COLOR.BRAND,
   },
 
   cellSelectedToday: {
@@ -55,7 +55,7 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    marginTop: SPACE.XXS,
+    marginTop: SPACE.XS,
   },
 
   textHighlight: {

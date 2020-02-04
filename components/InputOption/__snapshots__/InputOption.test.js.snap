@@ -20,7 +20,7 @@ exports[`<InputOption> inherity:style 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         Object {
           "backgroundColor": "rgba(0,255,0,0.25)",
@@ -36,7 +36,7 @@ exports[`<InputOption> inherity:style 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 2.4,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -51,7 +51,7 @@ exports[`<InputOption> inherity:style 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -83,7 +83,7 @@ exports[`<InputOption> label 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         undefined,
       ],
@@ -96,21 +96,21 @@ exports[`<InputOption> label 1`] = `
     style={
       Array [
         Object {
-          "color": "#4a4a4a",
+          "color": "#191919",
           "fontFamily": undefined,
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 14,
+          "fontSize": 11.2,
         },
         Object {
           "color": undefined,
         },
         Object {
-          "color": "#4a4a4a",
+          "color": "#191919",
           "fontWeight": "700",
           "marginBottom": 0,
-          "marginLeft": 8,
+          "marginLeft": 4,
         },
       ]
     }
@@ -122,7 +122,7 @@ exports[`<InputOption> label 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 2.4,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -137,7 +137,7 @@ exports[`<InputOption> label 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -169,7 +169,7 @@ exports[`<InputOption> renders 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         undefined,
       ],
@@ -182,7 +182,7 @@ exports[`<InputOption> renders 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 2.4,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -197,7 +197,7 @@ exports[`<InputOption> renders 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -229,7 +229,7 @@ exports[`<InputOption> rounded (false) 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         undefined,
       ],
@@ -242,7 +242,7 @@ exports[`<InputOption> rounded (false) 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 2.4,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -257,7 +257,7 @@ exports[`<InputOption> rounded (false) 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -289,7 +289,7 @@ exports[`<InputOption> value 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
+          "marginBottom": undefined,
         },
         undefined,
       ],
@@ -302,7 +302,7 @@ exports[`<InputOption> value 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 2.4,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -317,7 +317,7 @@ exports[`<InputOption> value 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,

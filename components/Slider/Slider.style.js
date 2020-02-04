@@ -17,10 +17,10 @@ export default StyleSheet.create({
   },
 
   previous: {
-    left: -SPACE.MEDIUM,
+    left: -SPACE.M,
   },
 
   next: {
-    right: -SPACE.MEDIUM,
+    right: -SPACE.M,
   },
 });

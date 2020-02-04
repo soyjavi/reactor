@@ -5,7 +5,7 @@ exports[`<InputSelect> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -18,8 +18,8 @@ exports[`<InputSelect> renders 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -32,11 +32,10 @@ exports[`<InputSelect> renders 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 4,
-            "marginRight": 8,
+            "marginLeft": undefined,
+            "marginRight": 4,
           },
           false,
         ]
@@ -67,7 +66,7 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -80,20 +79,20 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
     style={
       Array [
         Object {
-          "color": "#4a4a4a",
+          "color": "#191919",
           "fontFamily": undefined,
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 14,
+          "fontSize": 11.2,
         },
         Object {
           "color": undefined,
         },
         Object {
-          "color": "#4a4a4a",
+          "color": "#191919",
           "fontWeight": "700",
-          "marginBottom": 8,
+          "marginBottom": 4,
         },
       ]
     }
@@ -105,8 +104,8 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -119,11 +118,10 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 4,
-            "marginRight": 8,
+            "marginLeft": undefined,
+            "marginRight": 4,
           },
           false,
         ]
@@ -154,7 +152,7 @@ exports[`<InputSelect> when {dataSource (string)} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -167,8 +165,8 @@ exports[`<InputSelect> when {dataSource (string)} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -181,11 +179,10 @@ exports[`<InputSelect> when {dataSource (string)} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 4,
-            "marginRight": 8,
+            "marginLeft": undefined,
+            "marginRight": 4,
           },
           false,
         ]
@@ -269,7 +266,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -281,13 +278,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
     style={
       Object {
         "position": "absolute",
-        "right": 4,
-        "top": 24,
-        "transform": Array [
-          Object {
-            "rotate": undefined,
-          },
-        ],
+        "right": undefined,
+        "top": NaN,
         "zIndex": 1,
       }
     }
@@ -299,8 +291,8 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -334,9 +326,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
-            "height": 56,
-            "paddingLeft": 8,
-            "paddingRight": 44,
+            "height": 44.8,
+            "paddingLeft": 4,
+            "paddingRight": 35.2,
           }
         }
       >
@@ -344,7 +336,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         <View
           style={
             Object {
-              "marginLeft": 8,
+              "marginLeft": 4,
             }
           }
         >
@@ -352,17 +344,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             style={
               Array [
                 Object {
-                  "color": "#4a4a4a",
+                  "color": "#191919",
                   "fontFamily": undefined,
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 16,
-                  "lineHeight": 19.2,
+                  "fontSize": 12.8,
+                  "lineHeight": 15.36,
                 },
                 false,
                 Object {
-                  "lineHeight": 20,
+                  "lineHeight": 16,
                 },
               ]
             }
@@ -373,12 +365,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             style={
               Array [
                 Object {
-                  "color": "#4a4a4a",
+                  "color": "#191919",
                   "fontFamily": undefined,
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 14,
+                  "fontSize": 11.2,
                 },
                 Object {
                   "color": undefined,
@@ -396,7 +388,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderRadius": 3,
+              "borderRadius": 2.4,
               "bottom": 0,
               "left": 0,
               "overflow": "hidden",
@@ -411,7 +403,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#4066EA",
+              "backgroundColor": "#ffffff",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -427,15 +419,15 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
         Object {
           "backgroundColor": "#ffffff",
           "position": "absolute",
-          "shadowColor": "#000000",
+          "shadowColor": "#191919",
           "shadowOffset": Object {
             "height": 2,
             "width": 0,
@@ -449,7 +441,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         false,
         undefined,
         Object {
-          "maxHeight": 616,
+          "maxHeight": 627.1999999999999,
         },
       ]
     }
@@ -480,9 +472,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -490,7 +482,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -498,17 +490,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -519,12 +511,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -542,7 +534,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -557,7 +549,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -592,9 +584,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -602,7 +594,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -610,17 +602,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -631,12 +623,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -654,7 +646,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -669,7 +661,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -704,9 +696,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -714,7 +706,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -722,17 +714,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -743,12 +735,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -766,7 +758,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -781,7 +773,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -816,9 +808,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -826,7 +818,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -834,17 +826,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -855,12 +847,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -878,7 +870,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -893,7 +885,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -928,9 +920,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -938,7 +930,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -946,17 +938,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -967,12 +959,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -990,7 +982,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1005,7 +997,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1040,9 +1032,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -1050,7 +1042,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -1058,17 +1050,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -1079,12 +1071,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -1102,7 +1094,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1117,7 +1109,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1152,9 +1144,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -1162,7 +1154,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -1170,17 +1162,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -1191,12 +1183,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -1214,7 +1206,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1229,7 +1221,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1264,9 +1256,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -1274,7 +1266,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -1282,17 +1274,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -1303,12 +1295,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -1326,7 +1318,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1341,7 +1333,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1376,9 +1368,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -1386,7 +1378,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -1394,17 +1386,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -1415,12 +1407,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -1438,7 +1430,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1453,7 +1445,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1488,9 +1480,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -1498,7 +1490,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -1506,17 +1498,17 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -1527,12 +1519,12 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -1550,7 +1542,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -1565,7 +1557,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1585,7 +1577,7 @@ exports[`<InputSelect> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -1598,14 +1590,14 @@ exports[`<InputSelect> when {disabled} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
         false,
         Object {
-          "backgroundColor": "#f4f4f4",
+          "backgroundColor": undefined,
         },
       ]
     }
@@ -1614,11 +1606,10 @@ exports[`<InputSelect> when {disabled} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 4,
-            "marginRight": 8,
+            "marginLeft": undefined,
+            "marginRight": 4,
           },
           undefined,
         ]
@@ -1649,7 +1640,7 @@ exports[`<InputSelect> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -1662,13 +1653,13 @@ exports[`<InputSelect> when {error} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
         Object {
-          "borderColor": "#f44336",
+          "borderColor": "#e85a7e",
         },
         false,
       ]
@@ -1678,11 +1669,10 @@ exports[`<InputSelect> when {error} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 4,
-            "marginRight": 8,
+            "marginLeft": undefined,
+            "marginRight": 4,
           },
           false,
         ]
@@ -1713,7 +1703,7 @@ exports[`<InputSelect> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -1726,8 +1716,8 @@ exports[`<InputSelect> when {hint} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -1740,11 +1730,10 @@ exports[`<InputSelect> when {hint} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 4,
-            "marginRight": 8,
+            "marginLeft": undefined,
+            "marginRight": 4,
           },
           false,
         ]
@@ -1772,18 +1761,18 @@ exports[`<InputSelect> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "color": "#4a4a4a",
+          "color": "#191919",
           "fontFamily": undefined,
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 14,
+          "fontSize": 11.2,
         },
         Object {
           "color": undefined,
         },
         Object {
-          "marginTop": 4,
+          "marginTop": undefined,
           "maxWidth": "100%",
           "paddingLeft": 0,
         },
@@ -1800,7 +1789,7 @@ exports[`<InputSelect> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -1813,20 +1802,20 @@ exports[`<InputSelect> when {label} 1`] = `
     style={
       Array [
         Object {
-          "color": "#4a4a4a",
+          "color": "#191919",
           "fontFamily": undefined,
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 14,
+          "fontSize": 11.2,
         },
         Object {
           "color": undefined,
         },
         Object {
-          "color": "#4a4a4a",
+          "color": "#191919",
           "fontWeight": "700",
-          "marginBottom": 8,
+          "marginBottom": 4,
         },
       ]
     }
@@ -1838,8 +1827,8 @@ exports[`<InputSelect> when {label} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -1852,11 +1841,10 @@ exports[`<InputSelect> when {label} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 4,
-            "marginRight": 8,
+            "marginLeft": undefined,
+            "marginRight": 4,
           },
           false,
         ]
@@ -1887,7 +1875,7 @@ exports[`<InputSelect> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -1905,8 +1893,8 @@ exports[`<InputSelect> when {style} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -1919,11 +1907,10 @@ exports[`<InputSelect> when {style} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 4,
-            "marginRight": 8,
+            "marginLeft": undefined,
+            "marginRight": 4,
           },
           false,
         ]
@@ -1954,7 +1941,7 @@ exports[`<InputSelect> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 20,
+        "marginBottom": undefined,
         "maxWidth": "100%",
       },
       false,
@@ -1966,13 +1953,8 @@ exports[`<InputSelect> when {value} 1`] = `
     style={
       Object {
         "position": "absolute",
-        "right": 4,
-        "top": 24,
-        "transform": Array [
-          Object {
-            "rotate": undefined,
-          },
-        ],
+        "right": undefined,
+        "top": NaN,
         "zIndex": 1,
       }
     }
@@ -1984,8 +1966,8 @@ exports[`<InputSelect> when {value} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -2019,9 +2001,9 @@ exports[`<InputSelect> when {value} 1`] = `
             "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
-            "height": 56,
-            "paddingLeft": 8,
-            "paddingRight": 44,
+            "height": 44.8,
+            "paddingLeft": 4,
+            "paddingRight": 35.2,
           }
         }
       >
@@ -2029,7 +2011,7 @@ exports[`<InputSelect> when {value} 1`] = `
         <View
           style={
             Object {
-              "marginLeft": 8,
+              "marginLeft": 4,
             }
           }
         >
@@ -2037,17 +2019,17 @@ exports[`<InputSelect> when {value} 1`] = `
             style={
               Array [
                 Object {
-                  "color": "#4a4a4a",
+                  "color": "#191919",
                   "fontFamily": undefined,
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 16,
-                  "lineHeight": 19.2,
+                  "fontSize": 12.8,
+                  "lineHeight": 15.36,
                 },
                 false,
                 Object {
-                  "lineHeight": 20,
+                  "lineHeight": 16,
                 },
               ]
             }
@@ -2058,12 +2040,12 @@ exports[`<InputSelect> when {value} 1`] = `
             style={
               Array [
                 Object {
-                  "color": "#4a4a4a",
+                  "color": "#191919",
                   "fontFamily": undefined,
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 14,
+                  "fontSize": 11.2,
                 },
                 Object {
                   "color": undefined,
@@ -2081,7 +2063,7 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderRadius": 3,
+              "borderRadius": 2.4,
               "bottom": 0,
               "left": 0,
               "overflow": "hidden",
@@ -2096,7 +2078,7 @@ exports[`<InputSelect> when {value} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#4066EA",
+              "backgroundColor": "#ffffff",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -2112,15 +2094,15 @@ exports[`<InputSelect> when {value} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#cdd2d4",
-          "borderRadius": 3,
+          "borderColor": undefined,
+          "borderRadius": 2.4,
           "borderWidth": 1,
           "width": "100%",
         },
         Object {
           "backgroundColor": "#ffffff",
           "position": "absolute",
-          "shadowColor": "#000000",
+          "shadowColor": "#191919",
           "shadowOffset": Object {
             "height": 2,
             "width": 0,
@@ -2134,7 +2116,7 @@ exports[`<InputSelect> when {value} 1`] = `
         false,
         undefined,
         Object {
-          "maxHeight": 616,
+          "maxHeight": 627.1999999999999,
         },
       ]
     }
@@ -2165,9 +2147,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -2175,7 +2157,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -2183,17 +2165,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -2204,12 +2186,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -2227,7 +2209,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -2242,7 +2224,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2277,9 +2259,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -2287,7 +2269,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -2295,17 +2277,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -2316,12 +2298,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -2339,7 +2321,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -2354,7 +2336,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2389,9 +2371,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -2399,7 +2381,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -2407,17 +2389,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -2428,12 +2410,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -2451,7 +2433,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -2466,7 +2448,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2501,9 +2483,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -2511,7 +2493,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -2519,17 +2501,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -2540,12 +2522,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -2563,7 +2545,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -2578,7 +2560,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2613,9 +2595,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -2623,7 +2605,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -2631,17 +2613,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -2652,12 +2634,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -2675,7 +2657,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -2690,7 +2672,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2725,9 +2707,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -2735,7 +2717,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -2743,17 +2725,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -2764,12 +2746,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -2787,7 +2769,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -2802,7 +2784,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2837,9 +2819,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -2847,7 +2829,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -2855,17 +2837,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -2876,12 +2858,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -2899,7 +2881,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -2914,7 +2896,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2949,9 +2931,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -2959,7 +2941,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -2967,17 +2949,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -2988,12 +2970,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -3011,7 +2993,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -3026,7 +3008,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -3061,9 +3043,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -3071,7 +3053,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -3079,17 +3061,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -3100,12 +3082,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -3123,7 +3105,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -3138,7 +3120,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -3173,9 +3155,9 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
-              "paddingLeft": 8,
-              "paddingRight": 44,
+              "height": 44.8,
+              "paddingLeft": 4,
+              "paddingRight": 35.2,
             }
           }
         >
@@ -3183,7 +3165,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "marginLeft": 8,
+                "marginLeft": 4,
               }
             }
           >
@@ -3191,17 +3173,17 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 16,
-                    "lineHeight": 19.2,
+                    "fontSize": 12.8,
+                    "lineHeight": 15.36,
                   },
                   false,
                   Object {
-                    "lineHeight": 20,
+                    "lineHeight": 16,
                   },
                 ]
               }
@@ -3212,12 +3194,12 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
                   Object {
-                    "fontSize": 14,
+                    "fontSize": 11.2,
                   },
                   Object {
                     "color": undefined,
@@ -3235,7 +3217,7 @@ exports[`<InputSelect> when {value} 1`] = `
             Array [
               Object {
                 "backgroundColor": "transparent",
-                "borderRadius": 3,
+                "borderRadius": 2.4,
                 "bottom": 0,
                 "left": 0,
                 "overflow": "hidden",
@@ -3250,7 +3232,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#4066EA",
+                "backgroundColor": "#ffffff",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,

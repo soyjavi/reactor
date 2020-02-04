@@ -4,35 +4,28 @@ import { LAYOUT, THEME } from '../../common';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
 
-const { BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE } = THEME;
+const { COLOR, ELEVATION, FONT, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
   active: {
     zIndex: 1,
   },
 
-  border: {
-    backgroundColor: COLOR.BACKGROUND_INPUT,
-    borderColor: COLOR.BASE,
-    borderRadius: BORDER_RADIUS,
-    borderWidth: 1,
-    width: '100%',
-  },
+  content: {},
 
   button: {
     position: 'absolute',
-    top: TEMPLATE_HEIGHT / 2 - SPACE.XXS,
-    right: SPACE.XXS,
+    top: TEMPLATE_HEIGHT / 2 - SPACE.XS,
+    right: SPACE.XS,
     zIndex: 1,
   },
 
   container: {
-    marginBottom: SPACE.REGULAR,
     maxWidth: '100%',
   },
 
   dataSource: {
-    ...ELEVATION.REGULAR,
+    ...ELEVATION.M,
     position: 'absolute',
     backgroundColor: COLOR.BACKGROUND_INPUT,
   },
@@ -54,10 +47,10 @@ export default StyleSheet.create({
   },
 
   picker: {
-    backgroundColor: COLOR.TRANSPARENT,
+    // backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
     height: INPUT_HEIGHT,
-    marginLeft: SPACE.XXS,
+    marginLeft: SPACE.XS,
     marginRight: SPACE.XS,
     ...Platform.select({
       web: {
@@ -92,9 +85,5 @@ export default StyleSheet.create({
     paddingLeft: SPACE.XS,
     paddingRight: UNIT * 4.4,
     height: TEMPLATE_HEIGHT,
-  },
-
-  withLabel: {
-    marginTop: SPACE.REGULAR,
   },
 });

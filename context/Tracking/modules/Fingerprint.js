@@ -1,11 +1,12 @@
-import { ENV, Storage } from '../../../common';
+import { Storage } from '../../../common';
+import { useEnvironment } from '../../../hooks';
 import deviceEntropy from './entropy';
 import UUID from './UUID';
 
-const { PKG } = ENV;
-const STORE_FINGERPRINT = `${PKG.name}:fingerprint`;
-
 export default async () => {
+  const { PKG } = useEnvironment();
+  const STORE_FINGERPRINT = `${PKG.name}:fingerprint`;
+
   let fingerprint = await Storage.get(STORE_FINGERPRINT);
   if (typeof fingerprint === 'string') fingerprint = undefined;
 

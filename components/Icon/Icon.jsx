@@ -23,7 +23,7 @@ const DEFAULT = {
   VALUE: 'file-question',
 };
 
-const Icon = ({ color = COLOR.TEXT, family = DEFAULT.FAMILY, size = SPACE.REGULAR, value = DEFAULT.VALUE }) => {
+export const Icon = ({ color = COLOR.TEXT, family = DEFAULT.FAMILY, size = SPACE.M, value = DEFAULT.VALUE }) => {
   let IconFamily;
 
   if (family === 'MaterialCommunityIcons') IconFamily = MaterialCommunityIcons;
@@ -61,5 +61,3 @@ Icon.propTypes = {
   size: number,
   value: string,
 };
-
-export default Icon;

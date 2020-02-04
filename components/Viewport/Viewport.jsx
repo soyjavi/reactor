@@ -3,12 +3,20 @@ import React, { createElement } from 'react';
 import { View, SafeAreaView, ScrollView } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import Motion from '../Motion';
+import {Motion} from '..';
 import styles from './Viewport.style';
 
 const { MOTION } = THEME;
 
-const Viewport = ({ backward, children, onScroll, scroll, styleContent, visible, ...inherit }) => {
+export const Viewport = ({
+  backward = false,
+  children,
+  onScroll,
+  scroll = true,
+  styleContent = [],
+  visible = true,
+  ...others
+}) => {
   const handlenScroll = ({
     nativeEvent: {
       contentOffset: { y },
@@ -24,7 +32,7 @@ const Viewport = ({ backward, children, onScroll, scroll, styleContent, visible,
   return (
     <Motion
       duration={MOTION.DURATION}
-      style={[styles.container, { height, width }, inherit.style]}
+      style={[styles.container, { height, width }, others.style]}
       timeline={
         backward && visible
           ? [{ property: 'translateX', value: -64 }]
@@ -46,14 +54,3 @@ Viewport.propTypes = {
   styleContent: oneOfType([array, number, object]),
   visible: bool,
 };
-
-Viewport.defaultProps = {
-  backward: false,
-  children: undefined,
-  onScroll: undefined,
-  scroll: true,
-  styleContent: [],
-  visible: true,
-};
-
-export default Viewport;

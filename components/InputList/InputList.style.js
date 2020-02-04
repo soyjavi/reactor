@@ -10,7 +10,7 @@ export default StyleSheet.create({
   },
 
   container: {
-    marginBottom: SPACE.REGULAR,
+    marginBottom: SPACE.M,
   },
 
   content: {
@@ -47,9 +47,9 @@ export default StyleSheet.create({
     minHeight: UNIT * 3.2,
     backgroundColor: COLOR.BASE,
     borderRadius: UNIT * 1.6,
-    margin: SPACE.XXS,
+    margin: SPACE.XS,
     paddingHorizontal: SPACE.XS,
-    paddingVertical: SPACE.XXS,
+    paddingVertical: SPACE.XS,
   },
 
   iconClose: {
@@ -73,6 +73,6 @@ export default StyleSheet.create({
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
     paddingHorizontal: SPACE.XS,
-    paddingVertical: SPACE.XXS,
+    paddingVertical: SPACE.XS,
   },
 });

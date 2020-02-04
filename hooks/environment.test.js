@@ -1,9 +1,8 @@
-import environment from './environment';
+import { useEnvironment } from './environment';
 import PKG from '../package.json';
 
-const KEYS =  [
+const KEYS = [
   'IS_NATIVE',
-  'IS_SERVER',
   'IS_WEB',
   'IS_MOBILE_WEB',
   'IS_PRODUCTION',
@@ -16,10 +15,10 @@ const KEYS =  [
 
 describe('environment', () => {
   it('default', () => {
-    const env = environment;
+    const env = useEnvironment();
+
     expect(Object.keys(env)).toEqual(KEYS);
     expect(env.IS_NATIVE).toEqual(true);
-    expect(env.IS_SERVER).toEqual(false);
     expect(env.IS_WEB).toEqual(false);
     expect(env.IS_MOBILE_WEB).toEqual(false);
     expect(env.IS_PRODUCTION).toEqual(false);

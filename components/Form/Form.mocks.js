@@ -21,6 +21,7 @@ const ATTRIBUTES = {
   phone: {
     keyboard: 'phone-pad',
     placeholder: '000 000 000',
+    disabled: true,
     inline: 3,
   },
   phoneCountryCode: {
@@ -52,17 +53,6 @@ const ATTRIBUTES = {
     dataSource: DATASOURCE,
     inline: 3,
   },
-
-  date: {
-    type: 'date',
-    inline: 2,
-  },
-  dateRange: {
-    range: true,
-    type: 'date',
-    inline: 2,
-  },
-  avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
   twitter: { icon: 'twitter', iconFamily: 'Feather', inline: 3 },
   isPublic: { type: 'bool', inline: 3 },
   isPrivate: { type: 'bool', inline: 3 },

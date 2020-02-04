@@ -1,4 +1,4 @@
-import { ENV } from '../../../common';
+import { useEnvironment } from '../../../hooks';
 
 const LOCALES = {
   default: { decimal: ',', thousands: '.' },
@@ -6,10 +6,11 @@ const LOCALES = {
   'en-EN': { decimal: '.', thousands: ',' },
 };
 
-const { IS_WEB, IS_SERVER } = ENV;
 const LEFT_SYMBOLS = ['$', '£'];
 
 export default ({ currency, fixed = 2, locale, operator = '', symbol, value: amount = 0 } = {}) => {
+  const { IS_WEB } = useEnvironment();
+
   let value;
   let leftSide = '';
   let rightSide = '';
@@ -19,7 +20,7 @@ export default ({ currency, fixed = 2, locale, operator = '', symbol, value: amo
     rightSide = !LEFT_SYMBOLS.includes(symbol) ? symbol : '';
   } else if (currency && currency.length > 0) leftSide = `${currency}`;
 
-  if (IS_WEB && !IS_SERVER && Number.prototype.toLocaleString) {
+  if (IS_WEB && Number.prototype.toLocaleString) {
     value = parseFloat(amount.toFixed(fixed)).toLocaleString(locale, {
       minimumFractionDigits: 0,
       maximumFractionDigits: fixed,
@@ -43,5 +44,5 @@ export default ({ currency, fixed = 2, locale, operator = '', symbol, value: amo
     value = `${amount < 0 ? '-' : ''}${strInt}${strFloat}`;
   }
 
-  return `${leftSide}${operator}${value}${rightSide}`;
+  return `${operator}${leftSide}${value}${rightSide}`;
 };

@@ -5,13 +5,13 @@ exports[`<Text> renders 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 16,
-        "lineHeight": 19.2,
+        "fontSize": 12.8,
+        "lineHeight": 15.36,
       },
       false,
       Object {},
@@ -25,12 +25,12 @@ exports[`<Text> when {caption} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 14,
+        "fontSize": 11.2,
       },
       false,
       Object {},
@@ -46,17 +46,17 @@ exports[`<Text> when {color} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 16,
-        "lineHeight": 19.2,
+        "fontSize": 12.8,
+        "lineHeight": 15.36,
       },
       false,
       Object {
-        "color": "#f44336",
+        "color": "#e85a7e",
       },
     ]
   }
@@ -70,12 +70,12 @@ exports[`<Text> when {headline} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 24,
+        "fontSize": 19.2,
       },
       false,
       Object {},
@@ -91,13 +91,13 @@ exports[`<Text> when {lighten} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 16,
-        "lineHeight": 19.2,
+        "fontSize": 12.8,
+        "lineHeight": 15.36,
       },
       Object {
         "color": undefined,
@@ -116,13 +116,13 @@ exports[`<Text> when {numberOfLines} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 16,
-        "lineHeight": 19.2,
+        "fontSize": 12.8,
+        "lineHeight": 15.36,
       },
       false,
       Object {},
@@ -138,13 +138,13 @@ exports[`<Text> when {style} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 16,
-        "lineHeight": 19.2,
+        "fontSize": 12.8,
+        "lineHeight": 15.36,
       },
       false,
       Object {
@@ -162,12 +162,12 @@ exports[`<Text> when {subtitle} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 18,
+        "fontSize": 14.4,
       },
       false,
       Object {},

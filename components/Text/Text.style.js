@@ -2,14 +2,10 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { COLOR, FONT } = THEME;
+const { FONT } = THEME;
 
 export default StyleSheet.create({
-  container: {
-    color: COLOR.TEXT,
-    textAlignVertical: 'center',
-    ...FONT.DEFAULT,
-  },
+  default: FONT.DEFAULT,
 
   bold: FONT.BOLD,
 
@@ -24,9 +20,5 @@ export default StyleSheet.create({
   input: {
     ...FONT.DEFAULT,
     ...FONT.INPUT,
-  },
-
-  lighten: {
-    color: COLOR.TEXT_LIGHTEN,
   },
 });

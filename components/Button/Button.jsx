@@ -3,15 +3,12 @@ import React from 'react';
 import { View } from 'react-native';
 
 import { THEME } from '../../common';
-import Activity from '../Activity';
-import Icon from '../Icon';
-import Text from '../Text';
-import Touchable from '../Touchable';
+import { Activity, Icon, Text, Touchable } from '../';
 import styles from './Button.style';
 
 const { COLOR } = THEME;
 
-const Button = ({
+export const Button = ({
   activity,
   borderRadius,
   children,
@@ -71,5 +68,3 @@ Button.propTypes = {
   title: string,
   wide: bool,
 };
-
-export default Button;

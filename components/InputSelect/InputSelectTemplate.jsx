@@ -2,12 +2,11 @@ import { bool, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import Text from '../Text';
-import { InputIcon } from '../Input';
+import { InputIcon, Text } from '..';
 import styles from './InputSelectTemplate.style';
 
-const InputSelectTemplate = ({ active, caption, disabled, title, selected, ...inherit }) => (
-  <View style={inherit.style}>
+const InputSelectTemplate = ({ active, caption, disabled, title, selected, ...others }) => (
+  <View style={others.style}>
     <InputIcon active={active || selected} />
     <View style={styles.texts}>
       <Text lighten={disabled} style={styles.title}>

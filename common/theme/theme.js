@@ -1,31 +1,51 @@
 import { Platform } from 'react-native';
 
 const WHITE = '#ffffff';
-const BLACK = '#000000';
+const BLACK = '#191919';
 const FAMILY = undefined;
-const UNIT = 10;
+const UNIT = 8;
 
 export default {
-  BORDER_RADIUS: UNIT * 0.3,
+  BORDER_RADIUS: UNIT,
 
   COLOR: {
-    BACKGROUND: WHITE,
-    BACKGROUND_INPUT: WHITE,
-    BASE: '#cdd2d4',
+    BRAND: '#62e6ac', // PRIMARY: '#4066EA',
+    CTA: '#ff8c5f',
     BLACK,
-    DISABLED: '#f4f4f4',
-    PRIMARY: '#4066EA',
-    TEXT: '#4a4a4a',
-    SUCCESS: '#4CAF50',
-    ERROR: '#f44336',
-    WARNING: '#EDE622',
-    TRANSPARENT: 'transparent',
     WHITE,
+    GRAY: {
+      S: '#e3e3e3',
+      M: '#d2d2d2',
+      L: '#a3a3a3',
+      XL: '#7d7d7d',
+    },
+
+    BACKGROND: WHITE,
+    BACKGROUND_INPUT: WHITE,
+
+    // BASE: '#cdd2d4',
+    // DISABLED: '#f4f4f4',
+    TEXT: BLACK,
+    SUCCESS: '#77d27f',
+    ERROR: '#e85a7e',
+
+    TRANSPARENT: 'transparent',
   },
+
+  SPACE: {
+    XS: UNIT / 2,
+    S: UNIT,
+    M: UNIT * 2,
+    L: UNIT * 3,
+    XL: UNIT * 4,
+    XXL: UNIT * 6,
+  },
+
+  // All spacing we use are the multiple of 8: 8 / 16 / 24 / 32 / 40 / 48 /... 8*n.
 
   ELEVATION: {
     // 2p
-    SMALL: {
+    S: {
       shadowColor: BLACK,
       shadowOffset: { height: 1, width: 0 },
       shadowOpacity: 0.2,
@@ -36,7 +56,7 @@ export default {
     },
 
     // 8p
-    REGULAR: {
+    M: {
       shadowColor: BLACK,
       shadowOffset: { height: 2, width: 0 },
       shadowOpacity: 0.2,
@@ -47,7 +67,7 @@ export default {
     },
 
     // 20p
-    LARGE: {
+    L: {
       shadowColor: BLACK,
       shadowOffset: { height: 4, width: 0 },
       shadowOpacity: 0.3,
@@ -66,25 +86,26 @@ export default {
     BUTTON: {
       fontWeight: '700',
     },
-    BUTTON_SMALL: {},
     DEFAULT: {
       fontFamily: FAMILY,
+      textAlignVertical: 'center',
     },
     HEADLINE: {
-      fontSize: UNIT * 2.4,
+      fontSize: UNIT * 4,
+      fontWeight: '700',
     },
     SUBTITLE: {
-      fontSize: UNIT * 1.8,
+      fontSize: UNIT * 3,
     },
     BODY: {
-      fontSize: UNIT * 1.6,
-      lineHeight: UNIT * 1.6 * 1.2,
+      fontSize: UNIT * 2,
+      lineHeight: UNIT * 3,
     },
     CAPTION: {
-      fontSize: UNIT * 1.4,
+      fontSize: UNIT + UNIT / 2,
     },
     INPUT: {
-      fontSize: UNIT * 1.6,
+      fontSize: UNIT * 2,
     },
   },
 
@@ -109,15 +130,4 @@ export default {
   },
 
   UNIT,
-
-  SPACE: {
-    XXS: UNIT * 0.4,
-    XS: UNIT * 0.8,
-    S: UNIT * 1.2,
-    MEDIUM: UNIT * 1.6,
-    REGULAR: UNIT * 2,
-    L: UNIT * 2.8,
-    XL: UNIT * 3.2,
-    XXL: UNIT * 6,
-  },
 };

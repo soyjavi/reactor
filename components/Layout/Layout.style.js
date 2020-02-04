@@ -1,6 +1,8 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { ENV } from '../../common';
+import { useEnvironment } from '../../hooks';
+
+const { IS_TEST } = useEnvironment();
 
 export default StyleSheet.create({
   container: {
@@ -9,7 +11,7 @@ export default StyleSheet.create({
     overflow: 'hidden',
     ...Platform.select({
       web: {
-        height: !ENV.IS_TEST && !ENV.IS_SERVER ? window.innerHeight : undefined,
+        height: !IS_TEST ? window.innerHeight : undefined,
         width: '100vw',
       },
     }),

@@ -9,7 +9,7 @@ const {
   MOTION: { DEFAULTS = {}, DURATION = 225, TYPE = 'timing' },
 } = THEME;
 
-const Motion = ({
+export const Motion = ({
   children,
   config = DEFAULTS,
   delay = 0,
@@ -57,5 +57,3 @@ Motion.propTypes = {
   timeline: arrayOf(shape(SHAPE.MOTION)),
   type: string,
 };
-
-export default Motion;

@@ -16,36 +16,33 @@ exports[`<Activity> renders 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />
@@ -68,36 +65,33 @@ exports[`<Activity> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#f44336",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": "#e85a7e",
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />
   <View
     style={
       Object {
-        "backgroundColor": "#f44336",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": "#e85a7e",
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />
   <View
     style={
       Object {
-        "backgroundColor": "#f44336",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": "#e85a7e",
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />
@@ -120,36 +114,33 @@ exports[`<Activity> when {size} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 6,
-        "height": 10,
-        "marginHorizontal": 5.454545454545454,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 10,
+        "width": 8,
       }
     }
   />
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 6,
-        "height": 10,
-        "marginHorizontal": 5.454545454545454,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 10,
+        "width": 8,
       }
     }
   />
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 6,
-        "height": 10,
-        "marginHorizontal": 5.454545454545454,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 10,
+        "width": 8,
       }
     }
   />
@@ -166,8 +157,8 @@ exports[`<Activity> when {style} 1`] = `
         "flexDirection": "row",
       },
       Object {
-        "backgroundColor": "#4066EA",
-        "padding": 20,
+        "backgroundColor": undefined,
+        "padding": undefined,
       },
     ]
   }
@@ -175,36 +166,33 @@ exports[`<Activity> when {style} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />
   <View
     style={
       Object {
-        "backgroundColor": "#cdd2d4",
-        "borderRadius": 3,
-        "height": 6,
-        "marginHorizontal": 3,
+        "backgroundColor": undefined,
+        "height": 8,
+        "marginHorizontal": 4,
         "opacity": 0,
-        "width": 6,
+        "width": 8,
       }
     }
   />

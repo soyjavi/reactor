@@ -25,16 +25,6 @@ describe('<Image>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {color} (only Native)', () => {
-    const tree = renderer.create(<Image color={THEME.COLOR.ERROR} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {invert} (only Web)', () => {
-    const tree = renderer.create(<Image invert />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it('when {style}', () => {
     const tree = renderer.create(<Image style={{ backgroundColor: THEME.COLOR.ERROR }} />).toJSON();
     expect(tree).toMatchSnapshot();

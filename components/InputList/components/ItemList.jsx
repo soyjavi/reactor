@@ -1,10 +1,10 @@
 import { func, node, oneOfType, shape, string } from 'prop-types';
 import React, { createElement } from 'react';
 
-import Text from '../../Text';
+import { Text } from '../..';
 import styles from './ItemList.style';
 
-const ItemList = ({ template, value = {} }) =>
+export const ItemList = ({ template, value = {} }) =>
   template ? (
     createElement(template, { ...value })
   ) : (
@@ -15,9 +15,3 @@ ItemList.propTypes = {
   template: oneOfType([func, node]),
   value: oneOfType([string, shape({})]).isRequired,
 };
-
-ItemList.defaultProps = {
-  template: undefined,
-};
-
-export default ItemList;

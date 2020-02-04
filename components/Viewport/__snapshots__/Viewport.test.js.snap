@@ -4,17 +4,12 @@ exports[`<Viewport> renders 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": undefined,
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
       "position": "absolute",
       "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": undefined,
-        },
-      ],
       "width": 750,
     }
   }
@@ -49,17 +44,12 @@ exports[`<Viewport> when {backward} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": undefined,
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
       "position": "absolute",
       "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": undefined,
-        },
-      ],
       "width": 750,
     }
   }
@@ -94,7 +84,7 @@ exports[`<Viewport> when {children} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": undefined,
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -143,17 +133,12 @@ exports[`<Viewport> when {onScroll} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": undefined,
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
       "position": "absolute",
       "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": undefined,
-        },
-      ],
       "width": 750,
     }
   }
@@ -190,7 +175,7 @@ exports[`<Viewport> when {style} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": undefined,
       "height": 480,
       "left": 0,
       "overflow": "hidden",
@@ -235,17 +220,12 @@ exports[`<Viewport> when {styleContent} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": undefined,
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
       "position": "absolute",
       "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": undefined,
-        },
-      ],
       "width": 750,
     }
   }
@@ -282,7 +262,7 @@ exports[`<Viewport> when {visible} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": undefined,
       "height": 1334,
       "left": 0,
       "overflow": "hidden",

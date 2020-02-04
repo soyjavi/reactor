@@ -2,8 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import { Price } from '..';
-import Button from './Button';
+import { Button, Price } from '..';
 
 jest.useFakeTimers();
 

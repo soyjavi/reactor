@@ -1,13 +1,31 @@
 import React, { useEffect, useState } from 'react';
 
-import { Button, Calendar, Dialog, Form, Icon, Image, Snackbar, Text, Viewport, Slider } from './components';
+import {
+  Activity,
+  Button,
+  ChartBar,
+  Dialog,
+  Form,
+  Image,
+  LayoutView,
+  Price,
+  Skeleton,
+  Slider,
+  Snackbar,
+  Text,
+  Viewport,
+} from './components';
 
+import MOCKS from './components/ChartBar/ChartBar.mocks';
 import { ATTRIBUTES } from './components/Form/Form.mocks';
 
 import { L10NProvider, useL10N } from './context';
 
+import { THEME } from './common';
+
 if (typeof global.self === 'undefined') global.self = global;
 
+const { COLOR } = THEME;
 const DICTIONARY = {
   'es-ES': {
     GREETINGS: 'Hola Mundo...',
@@ -18,15 +36,23 @@ const DICTIONARY = {
   },
 };
 
-const THEME = {
-  FONT: { FAMILY: 'Courier New' },
+const LOREM = 'Lorem Ipsum...';
+
+const buttonProps = {
+  style: { marginVertical: 4 },
+  color: COLOR.BRAND,
+  title: 'Press me',
+  onPress() {},
 };
 
-const LOREM = 'Lorem Ipsum...';
+const textProps = {
+  children: 'Lorem Ipsum...',
+};
 
 const App = () => {
   const [dialog, setDialog] = useState(false);
   const [snackbar, setSnackbar] = useState(false);
+  const [viewport, setViewport] = useState(false);
   const [theme, setTheme] = useState(undefined);
   const [form, setForm] = useState();
   useEffect(() => console.log('useEffect::form', form), [form]);
@@ -34,59 +60,87 @@ const App = () => {
 
   return (
     <L10NProvider dictionary={DICTIONARY} language="en-EN" theme={theme}>
-      <Viewport visible scroll styleContent={{ padding: 10 }}>
-        <Icon />
-        <Text headline>{LOREM}</Text>
-        <Text subtitle>{LOREM}</Text>
-        <Text>{LOREM}</Text>
-        <Text caption>{LOREM}</Text>
-        <Text bold headline>
-          {LOREM}
-        </Text>
-        <Text bold subtitle>
-          {LOREM}
-        </Text>
-        <Text bold>{LOREM}</Text>
-        <Text bold caption>
-          {LOREM}
-        </Text>
-        <Button icon="eye" iconFamily="Feather" iconSize={16} onPress={() => setDialog(true)} title={l10n.GREETINGS} />
+      <LayoutView>
+        <Viewport backward={viewport} visible scroll styleContent={{ padding: 10 }}>
+          <Form
+            attributes={ATTRIBUTES}
+            onChange={setForm}
+            onValid={(value) => console.log('::onValid::', value)}
+            validate
+            value={form}
+          />
 
-        <Button icon="cellphone-message" title="Show Snackbar" onPress={() => setSnackbar(true)} />
+          <Activity />
+          <Button {...buttonProps} size="S" onPress={() => setViewport(true)} title="viewport" />
+          <Button
+            {...buttonProps}
+            color={COLOR.CTA}
+            icon="cellphone-message"
+            onPress={() => setSnackbar(true)}
+            title="snackbar"
+          />
+          <Button
+            {...buttonProps}
+            color={COLOR.BLACK}
+            outlined
+            size="L"
+            onPress={() => setDialog(true)}
+            title="dialog"
+          />
 
-        <Button icon="file" title="Toggle Theme" onPress={() => setTheme(theme ? undefined : THEME)} />
+          <ChartBar
+            styleContainer={{ height: 128, width: 320, backgroundColor: 'orange' }}
+            captions={MOCKS.CAPTIONS}
+            values={MOCKS.VALUES}
+            _scales={MOCKS.SCALES}
+            _lines={MOCKS.LINES}
+          />
 
-        <Form
-          attributes={ATTRIBUTES}
-          onChange={setForm}
-          onValid={(value) => console.log('::onValid::', value)}
-          validate
-          value={form}
-        />
+          <Skeleton style={{ width: 100, height: 100 }} />
+          <Image
+            source={{ uri: 'https://picsum.photos/320/200/?random' }}
+            style={{ width: 100, height: 100, borderRadius: 50 }}
+          />
+          <Text headline {...textProps} />
+          <Text subtitle {...textProps} />
+          <Text bold {...textProps} />
+          <Text {...textProps} />
+          <Text caption {...textProps} />
+          <Text lighten {...textProps} />
 
-        <Slider itemWidth={320} navigation>
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-          <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
-        </Slider>
+          <Price currency="$" fixed={2} operator="+" value={1234.56789} />
+
+          <Slider itemWidth={320} navigation>
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+            <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={{ width: 320, height: 200 }} />
+          </Slider>
+        </Viewport>
+        <Viewport visible={viewport}>
+          <Button {...buttonProps} onPress={() => setViewport(false)} title="back" />
+        </Viewport>
 
         <Dialog title="Example of Dialog" visible={dialog} onClose={() => setDialog(false)}>
-          <Calendar />
+          <Text headline>Sign In</Text>
+          <Text subtitle>Need an account? Create an account</Text>
+          <Text>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s
+          </Text>
         </Dialog>
 
         <Snackbar
           caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
           visible={snackbar}
-          button="Close"
-          onPress={() => setSnackbar(false)}
+          onClose={() => setSnackbar(false)}
         />
-      </Viewport>
+      </LayoutView>
     </L10NProvider>
   );
 };

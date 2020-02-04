@@ -1,6 +1,6 @@
 import { DeviceInfo, Dimensions, PixelRatio, Platform } from 'react-native';
 
-import { ENV } from '../../../common';
+import { useEnvironment } from '../../../hooks';
 
 const CLIENT_STRINGS = [
   { s: 'Windows 10', r: /(Windows 10.0|Windows NT 10.0)/ },
@@ -31,7 +31,7 @@ const CLIENT_STRINGS = [
   { s: 'search bot', r: /(nuhk|Googlebot|Yammybot|Openbot|Slurp|MSNBot|Ask Jeeves\/Teoma|ia_archiver)/ },
 ];
 const { OS, Version } = Platform;
-const { IS_NATIVE, IS_WEB, IS_SERVER } = ENV;
+const { IS_NATIVE, IS_WEB } = useEnvironment();
 const { height, width } = Dimensions.get('window');
 const pixelRatio = PixelRatio.get();
 const fontScale = PixelRatio.getFontScale();
@@ -48,7 +48,7 @@ let browserVersion;
 if (IS_NATIVE) {
   osName = OS === 'android' ? 'Android' : 'iOS';
   osVersion = Version;
-} else if (IS_WEB && !IS_SERVER && window && window.navigator) {
+} else if (IS_WEB && window && window.navigator) {
   const { appVersion } = window.navigator;
 
   // -- Determine OS -----------------------------------------------------------

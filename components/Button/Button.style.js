@@ -2,7 +2,7 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, FONT, UNIT, SPACE } = THEME;
+const { COLOR, FONT, SPACE } = THEME;
 
 export default StyleSheet.create({
   S: {
@@ -34,9 +34,7 @@ export default StyleSheet.create({
 
   row: LAYOUT.STYLE.ROW,
 
-  // // -- Text
   text: {
-    fontSize: UNIT * 1.6,
     ...FONT.DEFAULT,
     ...FONT.BUTTON,
     ...Platform.select({
@@ -47,9 +45,7 @@ export default StyleSheet.create({
     paddingHorizontal: SPACE.S,
   },
 
-  textS: {
-    fontSize: UNIT * 1.4,
-  },
+  textS: FONT.CAPTION,
 
   wide: {
     width: '100%',
