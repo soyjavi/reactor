@@ -1,4 +1,5 @@
 export * from './Activity';
+export * from './Alert';
 export * from './Button';
 export * from './Calendar';
 export * from './ChartBar';
