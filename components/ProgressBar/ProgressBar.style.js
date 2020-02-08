@@ -14,6 +14,6 @@ export default StyleSheet.create({
 
   progress: {
     height: '100%',
-    backgroundColor: COLOR.PRIMARY,
+    backgroundColor: COLOR.BRAND,
   },
 });

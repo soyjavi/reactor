@@ -3,12 +3,20 @@ import React, { createElement } from 'react';
 import { View, SafeAreaView, ScrollView } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import Motion from '../Motion';
+import { Motion } from '..';
 import styles from './Viewport.style';
 
 const { MOTION } = THEME;
 
-const Viewport = ({ backward, children, onScroll, scroll, styleContent, visible, ...inherit }) => {
+export const Viewport = ({
+  backward = false,
+  children,
+  onScroll,
+  scroll = true,
+  styleContent,
+  visible = true,
+  ...others
+}) => {
   const handlenScroll = ({
     nativeEvent: {
       contentOffset: { y },
@@ -16,15 +24,14 @@ const Viewport = ({ backward, children, onScroll, scroll, styleContent, visible,
   }) => {
     onScroll({ y });
   };
-
-  const height = LAYOUT.VIEWPORT.H;
-  const width = LAYOUT.VIEWPORT.W;
-  const props = scroll && onScroll ? { onScroll: handlenScroll, scrollEventThrottle: 32 } : {};
+  const {
+    VIEWPORT: { H: height, W: width },
+  } = LAYOUT;
 
   return (
     <Motion
       duration={MOTION.DURATION}
-      style={[styles.container, { height, width }, inherit.style]}
+      style={[styles.container, { height, width }, others.style]}
       timeline={
         backward && visible
           ? [{ property: 'translateX', value: -64 }]
@@ -32,7 +39,14 @@ const Viewport = ({ backward, children, onScroll, scroll, styleContent, visible,
       }
     >
       <SafeAreaView style={styles.safeArea}>
-        {createElement(scroll ? ScrollView : View, { ...props, style: [styles.content, styleContent] }, children)}
+        {createElement(
+          scroll ? ScrollView : View,
+          {
+            style: [styles.content, styleContent],
+            ...(scroll && onScroll ? { onScroll: handlenScroll, scrollEventThrottle: 32 } : {}),
+          },
+          children,
+        )}
       </SafeAreaView>
     </Motion>
   );
@@ -46,14 +60,3 @@ Viewport.propTypes = {
   styleContent: oneOfType([array, number, object]),
   visible: bool,
 };
-
-Viewport.defaultProps = {
-  backward: false,
-  children: undefined,
-  onScroll: undefined,
-  scroll: true,
-  styleContent: [],
-  visible: true,
-};
-
-export default Viewport;

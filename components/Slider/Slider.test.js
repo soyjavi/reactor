@@ -2,13 +2,12 @@ import React from 'react';
 import { View } from 'react-native';
 import renderer from 'react-test-renderer';
 
-import Slider from './Slider';
+import { Slider } from '..';
 
-const dataSource = [...Array(2).keys()]
-  .map(index => ({
-    title: `Title ${index}`,
-    image: `https://picsum.photos/320/200?image=1${index + 1}`,
-  }));
+const dataSource = [...Array(2).keys()].map((index) => ({
+  title: `Title ${index}`,
+  image: `https://picsum.photos/320/200?image=1${index + 1}`,
+}));
 
 const Item = ({ data }) => <View {...data} />;
 
@@ -60,12 +59,20 @@ describe('<Slider>', () => {
   });
 
   it('when {children}', () => {
-    const tree = renderer.create(<Slider><View /></Slider>).toJSON();
+    const tree = renderer
+      .create(
+        <Slider>
+          <View />
+        </Slider>,
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} style={{ backgroundColor: 'orange', padding: 20 }} />).toJSON();
+    const tree = renderer
+      .create(<Slider dataSource={dataSource} item={Item} style={{ backgroundColor: 'orange', padding: 20 }} />)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import InputOption from './InputOption';
+import { InputOption } from '..';
 
 const style = {
   backgroundColor: 'rgba(0,255,0,0.25)',
@@ -32,7 +32,7 @@ describe('<InputOption>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('inherity:style', () => {
+  it('othersy:style', () => {
     const tree = renderer.create(<InputOption style={style} />).toJSON();
     expect(tree).toMatchSnapshot();
   });

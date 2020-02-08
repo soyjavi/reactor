@@ -3,32 +3,34 @@ import { View } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import styles from './Skeleton.style';
 
-import Motion from '../Motion';
+import { Motion } from '..';
 import { THEME } from '../../common';
 
 const {
   MOTION: { DURATION },
 } = THEME;
 
-const Skeleton = ({ opacity, ...inherit }) => {
+export const Skeleton = ({ opacity = 0.5, ...others }) => {
   const [interval, setInter] = useState(undefined);
   const [visible, setVisible] = useState(false);
+
   useEffect(() => {
     setInter(
       setInterval(() => {
-        if (visible) setVisible((value) => !value);
-      }, DURATION * 3),
+        setVisible((value) => !value);
+      }, DURATION * 4),
     );
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <View style={[styles.container, inherit.style]}>
+    <View style={[styles.container, others.style]}>
       <Motion
-        duration={DURATION * 3}
+        duration={DURATION * 4}
         style={styles.motion}
         timeline={[{ property: 'opacity', value: visible ? opacity : 0 }]}
+        type="timing"
       />
     </View>
   );
@@ -37,9 +39,3 @@ const Skeleton = ({ opacity, ...inherit }) => {
 Skeleton.propTypes = {
   opacity: number,
 };
-
-Skeleton.defaultProps = {
-  opacity: 0.5,
-};
-
-export default Skeleton;

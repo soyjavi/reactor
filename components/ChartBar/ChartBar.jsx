@@ -4,19 +4,27 @@ import React from 'react';
 import styles from './ChartBar.style';
 
 import { THEME } from '../../common';
-import Motion from '../Motion';
-import Text from '../Text';
+import { Motion, Text } from '..';
 import { calcHeight, calcRange } from './modules';
 
 const { COLOR } = THEME;
 
-const ChartBar = ({ captions, color, highlight, inverted, lines, scales, values, ...inherit }) => {
+export const ChartBar = ({
+  captions,
+  color = COLOR.BRAND,
+  highlight,
+  inverted = false,
+  lines,
+  scales,
+  values = [],
+  ...others
+}) => {
   const { max, min, avg } = calcRange(values);
   let firstValueIndex = values.findIndex((value) => value !== 0);
   if (firstValueIndex === -1) firstValueIndex = undefined;
 
   return (
-    <View style={[styles.container, inverted && styles.containerInverted, inherit.styleContainer]}>
+    <View style={[styles.container, inverted && styles.containerInverted, others.styleContainer]}>
       <View style={{ height: '100%', width: '100%' }}>
         {scales && (
           <View style={[styles.scales, captions && styles.scaleCaptions]}>
@@ -57,7 +65,7 @@ const ChartBar = ({ captions, color, highlight, inverted, lines, scales, values,
                   styles.bar,
                   inverted && styles.barInverted,
                   value !== 0 ? { backgroundColor: color } : styles.barEmpty,
-                  inherit.styleBar,
+                  others.styleBar,
                 ]}
               />
             </Motion>
@@ -94,15 +102,3 @@ ChartBar.propTypes = {
   scales: arrayOf(string),
   values: arrayOf(number),
 };
-
-ChartBar.defaultProps = {
-  captions: undefined,
-  color: COLOR.PRIMARY,
-  highlight: undefined,
-  inverted: false,
-  lines: undefined,
-  scales: undefined,
-  values: [],
-};
-
-export default ChartBar;

@@ -10,7 +10,7 @@ const {
   MOTION: { DURATION },
 } = THEME;
 
-const Activity = ({ color, size, ...inherit }) => {
+export const Activity = ({ color = COLOR.BASE, size, ...others }) => {
   const opacities = [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)];
   let opacity = 1;
 
@@ -22,13 +22,13 @@ const Activity = ({ color, size, ...inherit }) => {
       opacity = opacity === 0 ? 1 : 0;
     }
 
-    Animated.timing(opacities[dot], { toValue: opacity, duration: DURATION }).start(() => animate(dot + 1));
+    Animated.timing(opacities[dot], { toValue: opacity, duration: DURATION / 2 }).start(() => animate(dot + 1));
   };
 
   animate(0);
 
   return (
-    <View style={[styles.container, inherit.style]}>
+    <View style={[styles.container, others.style]}>
       {opacities.map((value, index) => (
         <Animated.View
           key={index.toString()}
@@ -42,11 +42,6 @@ const Activity = ({ color, size, ...inherit }) => {
 Activity.propTypes = {
   color: string,
   size: string,
-};
-
-Activity.defaultProps = {
-  color: COLOR.BASE,
-  size: undefined,
 };
 
 export default Activity;

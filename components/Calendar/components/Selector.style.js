@@ -12,7 +12,7 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'center',
-    marginBottom: SPACE.MEDIUM,
+    marginBottom: SPACE.M,
   },
 
   value: {

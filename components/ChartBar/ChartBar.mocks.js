@@ -10,11 +10,11 @@ const STYLE_BAR = {
 };
 
 const STYLE_CONTAINER = {
-  ...ELEVATION.SMALL,
+  ...ELEVATION.S,
   backgroundColor: COLOR.WHITE,
   height: UNIT * 32,
   width: UNIT * 64,
-  padding: SPACE.REGULAR,
+  padding: SPACE.M,
 };
 
 const CAPTIONS = [...LOCALE.MONTHS];
@@ -31,7 +31,7 @@ const LINES = [
   {
     caption: 'AVG. $16',
     percent: 85,
-    color: COLOR.PRIMARY,
+    color: COLOR.BRAND,
   },
   {
     caption: 'PRO. $3.34',

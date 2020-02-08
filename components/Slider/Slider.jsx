@@ -3,7 +3,7 @@ import React, { PureComponent, createRef } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import Button from '../Button';
+import { Button } from '..';
 import styles from './Slider.style';
 
 const { SPACE } = THEME;
@@ -14,7 +14,7 @@ const DEFAULT_PROPS = {
 };
 const NEXT = 'next';
 
-class Slider extends PureComponent {
+export class Slider extends PureComponent {
   static propTypes = {
     children: node,
     dataSource: arrayOf(shape({})),
@@ -91,7 +91,7 @@ class Slider extends PureComponent {
         item: Item,
         itemMargin,
         itemWidth = LAYOUT.CARD.SLIDER,
-        ...inherit
+        ...others
       },
     } = this;
     const snapProps = snap
@@ -120,7 +120,7 @@ class Slider extends PureComponent {
         <ScrollView
           {...DEFAULT_PROPS}
           {...snapProps}
-          contentContainerStyle={inherit.style}
+          contentContainerStyle={others.style}
           onScroll={_onScroll}
           ref={this.scrollview}
           scrollEventThrottle={1000}
@@ -130,11 +130,9 @@ class Slider extends PureComponent {
               <Item data={data} />
             </View>
           ))}
-          {inherit.children}
+          {others.children}
         </ScrollView>
       </View>
     );
   }
 }
-
-export default Slider;

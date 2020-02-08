@@ -7,7 +7,6 @@ exports[`<Image> renders 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -21,17 +20,20 @@ exports[`<Image> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#cdd2d4",
-          "minHeight": 10,
-          "minWidth": 10,
+          "backgroundColor": "#e3e3e3",
+          "minHeight": 8,
+          "minWidth": 8,
         },
-        Object {
-          "height": "100%",
-          "left": 0,
-          "position": "absolute",
-          "top": 0,
-          "width": "100%",
-        },
+        Array [
+          undefined,
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+        ],
       ]
     }
   >
@@ -40,107 +42,6 @@ exports[`<Image> renders 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "height": "100%",
-          "opacity": undefined,
-          "width": "100%",
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
-exports[`<Image> when {color} (only Native) 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#ffffff",
-        "justifyContent": "center",
-      },
-      undefined,
-    ]
-  }
->
-  <Image
-    color="#f44336"
-    onLoad={[Function]}
-  />
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#cdd2d4",
-          "minHeight": 10,
-          "minWidth": 10,
-        },
-        Object {
-          "height": "100%",
-          "left": 0,
-          "position": "absolute",
-          "top": 0,
-          "width": "100%",
-        },
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "#ffffff",
-          "height": "100%",
-          "opacity": undefined,
-          "width": "100%",
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
-exports[`<Image> when {invert} (only Web) 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#ffffff",
-        "justifyContent": "center",
-      },
-      undefined,
-    ]
-  }
->
-  <Image
-    invert={true}
-    onLoad={[Function]}
-  />
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#cdd2d4",
-          "minHeight": 10,
-          "minWidth": 10,
-        },
-        Object {
-          "height": "100%",
-          "left": 0,
-          "position": "absolute",
-          "top": 0,
-          "width": "100%",
-        },
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "#ffffff",
-          "height": "100%",
-          "opacity": 0,
           "width": "100%",
         }
       }
@@ -156,7 +57,6 @@ exports[`<Image> when {source} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -175,17 +75,20 @@ exports[`<Image> when {source} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#cdd2d4",
-          "minHeight": 10,
-          "minWidth": 10,
+          "backgroundColor": "#e3e3e3",
+          "minHeight": 8,
+          "minWidth": 8,
         },
-        Object {
-          "height": "100%",
-          "left": 0,
-          "position": "absolute",
-          "top": 0,
-          "width": "100%",
-        },
+        Array [
+          undefined,
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+        ],
       ]
     }
   >
@@ -210,11 +113,10 @@ exports[`<Image> when {style} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       Object {
-        "backgroundColor": "#f44336",
+        "backgroundColor": "#e85a7e",
       },
     ]
   }
@@ -223,7 +125,7 @@ exports[`<Image> when {style} 1`] = `
     onLoad={[Function]}
     style={
       Object {
-        "backgroundColor": "#f44336",
+        "backgroundColor": "#e85a7e",
       }
     }
   />
@@ -231,17 +133,22 @@ exports[`<Image> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#cdd2d4",
-          "minHeight": 10,
-          "minWidth": 10,
+          "backgroundColor": "#e3e3e3",
+          "minHeight": 8,
+          "minWidth": 8,
         },
-        Object {
-          "height": "100%",
-          "left": 0,
-          "position": "absolute",
-          "top": 0,
-          "width": "100%",
-        },
+        Array [
+          Object {
+            "backgroundColor": "#e85a7e",
+          },
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+        ],
       ]
     }
   >
@@ -250,7 +157,6 @@ exports[`<Image> when {style} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "height": "100%",
-          "opacity": undefined,
           "width": "100%",
         }
       }

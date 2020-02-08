@@ -1,13 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
-
-const { COLOR } = THEME;
+import { LAYOUT } from '../../common';
 
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.CENTERED,
-    backgroundColor: COLOR.BACKGROUND,
   },
 
   skeleton: {

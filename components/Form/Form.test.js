@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Form from './Form';
+import { Form } from '..';
 import { ATTRIBUTES, VALUE, STYLE } from './Form.mocks';
 
 const EVENT = () => {};

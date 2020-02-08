@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import Image from './Image';
+import { Image } from '..';
 
 const dataSource = [
   { caption: 'Spain', href: '/' },
@@ -22,16 +22,6 @@ describe('<Image>', () => {
 
   it('when {source}', () => {
     const tree = renderer.create(<Image source={{ uri: IMAGE_PLACEHOLDER }} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {color} (only Native)', () => {
-    const tree = renderer.create(<Image color={THEME.COLOR.ERROR} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {invert} (only Web)', () => {
-    const tree = renderer.create(<Image invert />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

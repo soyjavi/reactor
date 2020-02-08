@@ -17,7 +17,7 @@ exports[`<Slider> renders 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={180}
+    snapToInterval={176}
   >
     <View />
   </RCTScrollView>
@@ -41,7 +41,7 @@ exports[`<Slider> when {caption} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={180}
+    snapToInterval={176}
   >
     <View />
   </RCTScrollView>
@@ -65,7 +65,7 @@ exports[`<Slider> when {children} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={180}
+    snapToInterval={176}
   >
     <View>
       <View />
@@ -91,13 +91,13 @@ exports[`<Slider> when {dataSource} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={180}
+    snapToInterval={176}
   >
     <View>
       <View
         style={
           Object {
-            "marginRight": 12,
+            "marginRight": 8,
           }
         }
       >
@@ -109,7 +109,7 @@ exports[`<Slider> when {dataSource} 1`] = `
       <View
         style={
           Object {
-            "marginRight": 12,
+            "marginRight": 8,
           }
         }
       >
@@ -195,115 +195,83 @@ exports[`<Slider> when {navigation} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onLayout={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      pointerEvents="box-only"
+      style={
+        Array [
+          undefined,
+          Array [
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "flex-start",
+              "justifyContent": "center",
+              "width": "auto",
+            },
+            undefined,
+            Object {
+              "backgroundColor": "#ff8c5f",
+              "borderRadius": undefined,
+            },
+            undefined,
+            Object {
+              "height": 48,
+              "paddingHorizontal": 16,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
       <View
-        accessible={true}
-        focusable={true}
-        onClick={[Function]}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text />
+      </View>
+      <View
         style={
           Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 0,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
             undefined,
-            Array [
-              Object {
-                "borderRadius": 3,
-              },
-              false,
-              false,
-            ],
           ]
         }
       >
         <View
           style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "justifyContent": "center",
-              },
-              Object {
-                "height": 44,
-                "minWidth": 44,
-                "paddingHorizontal": 28,
-              },
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              },
-              Object {
-                "height": 28,
-                "minWidth": 28,
-                "paddingHorizontal": 12,
-              },
-              false,
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              Object {
-                "backgroundColor": "#cdd2d4",
-              },
-              false,
-              false,
-              false,
-              false,
-            ]
-          }
-        >
-          <Text />
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                undefined,
-              ]
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
             }
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
           }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
+        />
       </View>
     </View>
   </View>
@@ -322,115 +290,83 @@ exports[`<Slider> when {navigation} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onLayout={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      pointerEvents="box-only"
+      style={
+        Array [
+          undefined,
+          Array [
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "flex-start",
+              "justifyContent": "center",
+              "width": "auto",
+            },
+            undefined,
+            Object {
+              "backgroundColor": "#ff8c5f",
+              "borderRadius": undefined,
+            },
+            undefined,
+            Object {
+              "height": 48,
+              "paddingHorizontal": 16,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
       <View
-        accessible={true}
-        focusable={true}
-        onClick={[Function]}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text />
+      </View>
+      <View
         style={
           Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 0,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
             undefined,
-            Array [
-              Object {
-                "borderRadius": 3,
-              },
-              false,
-              false,
-            ],
           ]
         }
       >
         <View
           style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "justifyContent": "center",
-              },
-              Object {
-                "height": 44,
-                "minWidth": 44,
-                "paddingHorizontal": 28,
-              },
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              },
-              Object {
-                "height": 28,
-                "minWidth": 28,
-                "paddingHorizontal": 12,
-              },
-              false,
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              Object {
-                "backgroundColor": "#cdd2d4",
-              },
-              false,
-              false,
-              false,
-              false,
-            ]
-          }
-        >
-          <Text />
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                undefined,
-              ]
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
             }
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
           }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
+        />
       </View>
     </View>
   </View>
@@ -443,7 +379,7 @@ exports[`<Slider> when {navigation} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={180}
+    snapToInterval={176}
   >
     <View />
   </RCTScrollView>
@@ -469,7 +405,7 @@ exports[`<Slider> when {snap=false} 1`] = `
       <View
         style={
           Object {
-            "marginRight": 12,
+            "marginRight": 8,
           }
         }
       >
@@ -481,7 +417,7 @@ exports[`<Slider> when {snap=false} 1`] = `
       <View
         style={
           Object {
-            "marginRight": 12,
+            "marginRight": 8,
           }
         }
       >
@@ -512,13 +448,13 @@ exports[`<Slider> when {steps} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={360}
+    snapToInterval={352}
   >
     <View>
       <View
         style={
           Object {
-            "marginRight": 12,
+            "marginRight": 8,
           }
         }
       >
@@ -530,7 +466,7 @@ exports[`<Slider> when {steps} 1`] = `
       <View
         style={
           Object {
-            "marginRight": 12,
+            "marginRight": 8,
           }
         }
       >
@@ -567,13 +503,13 @@ exports[`<Slider> when {style} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={180}
+    snapToInterval={176}
   >
     <View>
       <View
         style={
           Object {
-            "marginRight": 12,
+            "marginRight": 8,
           }
         }
       >
@@ -585,7 +521,7 @@ exports[`<Slider> when {style} 1`] = `
       <View
         style={
           Object {
-            "marginRight": 12,
+            "marginRight": 8,
           }
         }
       >
@@ -616,7 +552,7 @@ exports[`<Slider> when {title} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={180}
+    snapToInterval={176}
   >
     <View />
   </RCTScrollView>

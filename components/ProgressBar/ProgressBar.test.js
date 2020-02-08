@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import ProgressBar from './ProgressBar';
+import { ProgressBar } from '..';
 
 const { SPACE } = THEME;
 
@@ -30,7 +30,7 @@ describe('<ProgressBar>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<ProgressBar style={{ borderRadius: SPACE.XS, height: SPACE.MEDIUM }} />).toJSON();
+    const tree = renderer.create(<ProgressBar style={{ borderRadius: SPACE.XS, height: SPACE.M }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

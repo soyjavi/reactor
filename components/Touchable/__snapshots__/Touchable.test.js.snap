@@ -25,7 +25,7 @@ exports[`<Touchable> renders 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -40,7 +40,7 @@ exports[`<Touchable> renders 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -79,7 +79,7 @@ exports[`<Touchable> when {children} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -94,7 +94,7 @@ exports[`<Touchable> when {children} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -130,7 +130,7 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -147,7 +147,7 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -183,7 +183,7 @@ exports[`<Touchable> when {rippleColor} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -236,7 +236,7 @@ exports[`<Touchable> when {style} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -251,7 +251,7 @@ exports[`<Touchable> when {style} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,

@@ -2,9 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 import TestRenderer from 'react-test-renderer';
 
-import Viewport from './Viewport';
-
-const VIDEO_PLACEHOLDER = 'http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4';
+import { Viewport } from '..';
 
 jest.useFakeTimers();
 
@@ -15,7 +13,11 @@ describe('<Viewport>', () => {
   });
 
   it('when {children}', () => {
-    const renderer = TestRenderer.create(<Viewport><Text>Hello World</Text></Viewport>).toJSON();
+    const renderer = TestRenderer.create(
+      <Viewport>
+        <Text>Hello World</Text>
+      </Viewport>,
+    ).toJSON();
     expect(renderer).toMatchSnapshot();
   });
 

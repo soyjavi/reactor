@@ -61,7 +61,7 @@ exports[`<Motion> when {style} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#4066EA",
+      "backgroundColor": "#62e6ac",
       "left": 128,
       "opacity": 0.75,
       "padding": 32,
@@ -77,48 +77,18 @@ exports[`<Motion> when {style} 1`] = `
 
 exports[`<Motion> when {timeline} 1`] = `
 <View
-  style={
-    Object {
-      "left": undefined,
-      "opacity": undefined,
-      "transform": Array [
-        Object {
-          "scale": undefined,
-        },
-      ],
-    }
-  }
+  style={Object {}}
 />
 `;
 
 exports[`<Motion> when {type} 1`] = `
 <View
-  style={
-    Object {
-      "left": undefined,
-      "opacity": undefined,
-      "transform": Array [
-        Object {
-          "scale": undefined,
-        },
-      ],
-    }
-  }
+  style={Object {}}
 />
 `;
 
 exports[`<Motion> when {useNativeDriver} 1`] = `
 <View
-  style={
-    Object {
-      "left": undefined,
-      "opacity": undefined,
-      "transform": Array [
-        Object {
-          "scale": undefined,
-        },
-      ],
-    }
-  }
+  style={Object {}}
 />
 `;

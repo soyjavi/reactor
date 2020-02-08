@@ -1,1 +1,1 @@
-export { default, LayoutConsumer } from './Layout';
+export * from './Layout';

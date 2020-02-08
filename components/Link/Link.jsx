@@ -1,21 +1,19 @@
 import { string } from 'prop-types';
 import React, { useState } from 'react';
 
-import { THEME } from '../../common';
-import Text from '../Text';
+import { Text } from '..';
 
-const Link = ({ href, ...inherit }) => {
+export const Link = ({ href, ...others }) => {
   const [hover, setHover] = useState(false);
 
   return (
     <Text
-      {...inherit}
+      {...others}
       accessibilityRole="link"
       href={href}
-      color={hover && !inherit.styleHover ? THEME.COLOR.ERROR : undefined}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      style={[inherit.style, hover && inherit.styleHover]}
+      style={[others.style, hover && others.styleHover]}
     />
   );
 };
@@ -23,5 +21,3 @@ const Link = ({ href, ...inherit }) => {
 Link.propTypes = {
   href: string.isRequired,
 };
-
-export default Link;

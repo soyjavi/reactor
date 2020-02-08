@@ -16,7 +16,7 @@ export default StyleSheet.create({
 
   container: {
     backgroundColor: COLOR.BACKGROUND,
-    paddingHorizontal: SPACE.MEDIUM,
+    paddingHorizontal: SPACE.M,
     paddingVertical: SPACE.XS,
     justifyContent: 'center',
   },
@@ -26,7 +26,7 @@ export default StyleSheet.create({
   },
 
   days: {
-    paddingHorizontal: SPACE.MEDIUM,
+    paddingHorizontal: SPACE.M,
   },
 
   instance: {

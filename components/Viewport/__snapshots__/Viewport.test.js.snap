@@ -10,11 +10,6 @@ exports[`<Viewport> renders 1`] = `
       "overflow": "hidden",
       "position": "absolute",
       "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": undefined,
-        },
-      ],
       "width": 750,
     }
   }
@@ -35,7 +30,7 @@ exports[`<Viewport> renders 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -55,11 +50,6 @@ exports[`<Viewport> when {backward} 1`] = `
       "overflow": "hidden",
       "position": "absolute",
       "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": undefined,
-        },
-      ],
       "width": 750,
     }
   }
@@ -80,7 +70,7 @@ exports[`<Viewport> when {backward} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -125,7 +115,7 @@ exports[`<Viewport> when {children} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -149,11 +139,6 @@ exports[`<Viewport> when {onScroll} 1`] = `
       "overflow": "hidden",
       "position": "absolute",
       "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": undefined,
-        },
-      ],
       "width": 750,
     }
   }
@@ -176,7 +161,7 @@ exports[`<Viewport> when {onScroll} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -221,7 +206,7 @@ exports[`<Viewport> when {style} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -241,11 +226,6 @@ exports[`<Viewport> when {styleContent} 1`] = `
       "overflow": "hidden",
       "position": "absolute",
       "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": undefined,
-        },
-      ],
       "width": 750,
     }
   }
@@ -313,7 +293,7 @@ exports[`<Viewport> when {visible} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >

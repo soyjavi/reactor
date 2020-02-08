@@ -26,7 +26,7 @@ export default StyleSheet.create({
   },
 
   captions: {
-    height: SPACE.REGULAR,
+    height: SPACE.M,
   },
 
   column: {
@@ -74,14 +74,14 @@ export default StyleSheet.create({
   },
 
   lineCaption: {
-    ...ELEVATION.SMALL,
+    ...ELEVATION,
     alignSelf: 'flex-start',
     borderRadius: SPACE.S,
     color: COLOR.WHITE,
-    height: UNIT + SPACE.XXS * 2,
-    marginTop: -(UNIT + SPACE.XXS * 2) / 2,
+    height: UNIT + SPACE.XS * 2,
+    marginTop: -(UNIT + SPACE.XS * 2) / 2,
     marginLeft: UNIT / 2,
-    paddingVertical: SPACE.XXS,
+    paddingVertical: SPACE.XS,
     paddingHorizontal: SPACE.XS,
     zIndex: 1,
   },
@@ -104,7 +104,7 @@ export default StyleSheet.create({
   },
 
   scaleCaptions: {
-    bottom: SPACE.REGULAR,
+    bottom: SPACE.M,
   },
 
   scaleLines: {

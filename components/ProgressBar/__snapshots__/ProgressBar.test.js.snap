@@ -7,7 +7,7 @@ exports[`<ProgressBar> renders 1`] = `
     Array [
       Object {
         "backgroundColor": "#ffffff",
-        "height": 5,
+        "height": 4,
         "overflow": "hidden",
         "width": "100%",
       },
@@ -19,9 +19,8 @@ exports[`<ProgressBar> renders 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#4066EA",
+        "backgroundColor": "#62e6ac",
         "height": "100%",
-        "width": undefined,
       }
     }
   />
@@ -35,7 +34,7 @@ exports[`<ProgressBar> when {color} 1`] = `
     Array [
       Object {
         "backgroundColor": "#ffffff",
-        "height": 5,
+        "height": 4,
         "overflow": "hidden",
         "width": "100%",
       },
@@ -47,9 +46,8 @@ exports[`<ProgressBar> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#f44336",
+        "backgroundColor": "#e85a7e",
         "height": "100%",
-        "width": undefined,
       }
     }
   />
@@ -63,7 +61,7 @@ exports[`<ProgressBar> when {progress} 1`] = `
     Array [
       Object {
         "backgroundColor": "#ffffff",
-        "height": 5,
+        "height": 4,
         "overflow": "hidden",
         "width": "100%",
       },
@@ -75,7 +73,7 @@ exports[`<ProgressBar> when {progress} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#4066EA",
+        "backgroundColor": "#62e6ac",
         "height": "100%",
         "width": 0,
       }
@@ -91,12 +89,12 @@ exports[`<ProgressBar> when {style} 1`] = `
     Array [
       Object {
         "backgroundColor": "#ffffff",
-        "height": 5,
+        "height": 4,
         "overflow": "hidden",
         "width": "100%",
       },
       Object {
-        "borderRadius": 8,
+        "borderRadius": 4,
         "height": 16,
       },
       undefined,
@@ -106,9 +104,8 @@ exports[`<ProgressBar> when {style} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#4066EA",
+        "backgroundColor": "#62e6ac",
         "height": "100%",
-        "width": undefined,
       }
     }
   />
@@ -122,13 +119,13 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
     Array [
       Object {
         "backgroundColor": "#ffffff",
-        "height": 5,
+        "height": 4,
         "overflow": "hidden",
         "width": "100%",
       },
       undefined,
       Object {
-        "backgroundColor": "#f44336",
+        "backgroundColor": "#e85a7e",
       },
     ]
   }
@@ -136,7 +133,7 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#4066EA",
+        "backgroundColor": "#62e6ac",
         "height": "100%",
         "width": 0,
       }

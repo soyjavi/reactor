@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import LayoutView from './Layout';
+import { LayoutView } from '..';
 
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
 

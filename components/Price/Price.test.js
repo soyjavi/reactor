@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import Price from './Price';
+import { Price } from '..';
 import MOCKS from './Price.mocks';
 
 jest.useFakeTimers();

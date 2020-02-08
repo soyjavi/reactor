@@ -9,7 +9,7 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    marginTop: SPACE.XXS,
+    marginTop: SPACE.XS,
     marginBottom: SPACE.S,
   },
 

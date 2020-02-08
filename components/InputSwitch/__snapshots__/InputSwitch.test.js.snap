@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputSwitch> renders 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "height": 40,
+      },
+    ]
+  }
+>
+  <RCTSwitch
+    accessibilityRole="button"
+    activeThumbColor="#ffffff"
+    activeTrackColor="#62e6ac"
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+          "marginRight": 8,
+        },
+      ]
+    }
+    thumbTintColor="#ffffff"
+    value={false}
+  />
+</View>
+`;
+
+exports[`<InputSwitch> when {color} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "height": 40,
+      },
+    ]
+  }
+>
+  <RCTSwitch
+    accessibilityRole="button"
+    activeThumbColor="#ffffff"
+    activeTrackColor="green"
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+          "marginRight": 8,
+        },
+      ]
+    }
+    thumbTintColor="#ffffff"
+    value={true}
+  />
+</View>
+`;
+
+exports[`<InputSwitch> when {disabled} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "height": 40,
+      },
+    ]
+  }
+>
+  <RCTSwitch
+    accessibilityRole="button"
+    activeThumbColor="#ffffff"
+    activeTrackColor="#62e6ac"
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+          "marginRight": 8,
+        },
+      ]
+    }
+    thumbTintColor="#ffffff"
+    value={false}
+  />
+</View>
+`;
+
+exports[`<InputSwitch> when {label} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "height": 40,
+      },
+    ]
+  }
+>
+  <RCTSwitch
+    accessibilityRole="button"
+    activeThumbColor="#ffffff"
+    activeTrackColor="#62e6ac"
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+          "marginRight": 8,
+        },
+      ]
+    }
+    thumbTintColor="#ffffff"
+    value={false}
+  />
+</View>
+`;
+
+exports[`<InputSwitch> when {style} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "height": 40,
+      },
+    ]
+  }
+>
+  <RCTSwitch
+    accessibilityRole="button"
+    activeThumbColor="#ffffff"
+    activeTrackColor="#62e6ac"
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+          "marginRight": 8,
+        },
+      ]
+    }
+    thumbTintColor="#ffffff"
+    value={false}
+  />
+</View>
+`;

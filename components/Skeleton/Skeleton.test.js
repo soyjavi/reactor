@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Skeleton from './Skeleton';
+import { Skeleton } from '..';
 
 const STYLE = {
   height: 128,

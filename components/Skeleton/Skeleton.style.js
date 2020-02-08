@@ -6,7 +6,7 @@ const { COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: COLOR.BASE,
+    backgroundColor: COLOR.GRAY.S,
     minHeight: UNIT,
     minWidth: UNIT,
   },

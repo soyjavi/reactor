@@ -9,16 +9,20 @@ exports[`<Link> renders 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 19.2,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      Array [
+        undefined,
+        false,
+      ],
     ]
   }
 />
@@ -33,19 +37,23 @@ exports[`<Link> when {style} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 19.2,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {
-        "fontSize": 20,
-        "fontWeight": "700",
-      },
+      undefined,
+      Array [
+        Object {
+          "fontSize": 20,
+          "fontWeight": "700",
+        },
+        false,
+      ],
     ]
   }
   visible={true}
@@ -61,16 +69,20 @@ exports[`<Link> when {styleHover} 1`] = `
   style={
     Array [
       Object {
-        "color": "#4a4a4a",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 19.2,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      Array [
+        undefined,
+        false,
+      ],
     ]
   }
   styleHover={

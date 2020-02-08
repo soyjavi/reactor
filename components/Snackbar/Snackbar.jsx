@@ -1,48 +1,38 @@
-import { func, string, node } from 'prop-types';
+import { func, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
 import { THEME } from '../../common';
-import Button from '../Button';
-import Dialog from '../Dialog';
-import Text from '../Text';
+import { Button, Dialog, Icon, Text } from '..';
 import styles from './Snackbar.style';
 
-const { COLOR } = THEME;
+const { COLOR, SPACE } = THEME;
 
-const Snackbar = ({ button, caption, children, color, onPress, ...inherit }) => (
+export const Snackbar = ({ caption, color = COLOR.BLACK, icon, onClose, ...others }) => (
   <Dialog
     background={false}
-    style={[inherit.style, { backgroundColor: color }]}
-    styleContainer={styles.dialogContainer}
-    visible={inherit.visible}
+    position="bottom"
+    style={[styles.dialog, { backgroundColor: color }]}
+    styleOverlay={styles.dialogOverlay}
+    visible={others.visible}
   >
-    <View style={styles.container}>
-      {caption && (
-        <Text caption color={COLOR.WHITE} style={styles.caption}>
-          {caption}
-        </Text>
+    <View style={styles.content}>
+      {icon && <Icon color={COLOR.WHITE} size={SPACE.XL} value={icon} style={styles.icon} />}
+      <Text caption color={COLOR.WHITE} style={styles.caption}>
+        {caption}
+      </Text>
+      {onClose && (
+        <Button color={color} icon="close" iconSize={SPACE.M} onPress={onClose} size="S" style={styles.button} />
       )}
-      {children}
-      {button && onPress && <Button color={COLOR.WHITE} contained={false} onPress={onPress} small title={button} />}
     </View>
   </Dialog>
 );
 
 Snackbar.propTypes = {
-  button: string,
-  caption: string,
-  children: node,
+  caption: string.isRequired,
   color: string,
-  onPress: func,
-};
-
-Snackbar.defaultProps = {
-  button: undefined,
-  caption: undefined,
-  children: undefined,
-  color: COLOR.TEXT,
-  onPress: undefined,
+  icon: string,
+  onClose: func,
 };
 
 export default Snackbar;

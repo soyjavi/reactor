@@ -2,14 +2,16 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import Activity from './Activity';
+import { Activity } from '..';
+
+const { SPACE } = THEME;
 
 const MOCKS = {
   COLOR: THEME.COLOR.ERROR,
   SIZE: 'large',
   STYLE: {
-    padding: THEME.SPACE.REGULAR,
-    backgroundColor: THEME.COLOR.PRIMARY,
+    padding: SPACE.M,
+    backgroundColor: THEME.COLOR.BRAND,
   },
 };
 

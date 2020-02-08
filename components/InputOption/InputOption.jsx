@@ -1,30 +1,20 @@
-import { bool, func, string } from 'prop-types';
+import { bool, func, oneOf, node } from 'prop-types';
 import React from 'react';
 
-import InputLabel from '../Input/InputLabel';
-import InputIcon from '../Input/InputIcon';
-import Touchable from '../Touchable';
+import { InputIcon, Touchable } from '..';
 import styles from './InputOption.style';
 
-const InputOption = ({ label, onChange, rounded, value, ...inherit }) => (
-  <Touchable onPress={onChange ? () => onChange(!value) : undefined} style={[styles.container, inherit.style]}>
-    <InputIcon active={value} rounded={rounded} size={inherit.size} />
-    {label && <InputLabel style={styles.label}>{label}</InputLabel>}
+export const InputOption = ({ children, onChange, rounded = true, size = 'M', value }) => (
+  <Touchable onPress={onChange ? () => onChange(!value) : undefined} style={[styles.container, styles[size]]}>
+    <InputIcon active={value} rounded={rounded} style={styles.icon} />
+    {children}
   </Touchable>
 );
 
 InputOption.propTypes = {
-  label: string,
+  children: node,
   onChange: func,
   rounded: bool,
+  size: oneOf(['S', 'M', 'L']),
   value: bool,
 };
-
-InputOption.defaultProps = {
-  label: undefined,
-  onChange: undefined,
-  rounded: true,
-  value: false,
-};
-
-export default InputOption;

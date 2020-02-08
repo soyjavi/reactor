@@ -7,7 +7,7 @@ export default {
   STYLE: {
     fontWeight: 'bold',
     fontSize: THEME.UNIT * 2,
-    color: THEME.COLOR.PRIMARY,
+    color: THEME.COLOR.BRAND,
   },
   CURRENCY: 'Eur',
   OPERATOR: '+',

@@ -1,56 +1,52 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME, ENV } from '../../common';
+import { LAYOUT, THEME } from '../../common';
+import { useEnvironment } from '../../hooks';
 
-const { BORDER_RADIUS, COLOR, ELEVATION, SPACE } = THEME;
+const { IS_WEB } = useEnvironment();
+const { COLOR, SPACE } = THEME;
 
 export default StyleSheet.create({
+  button: {
+    position: 'absolute',
+    zIndex: 1,
+    top: SPACE.S,
+    right: SPACE.S,
+  },
+
   container: {
     height: '100%',
     left: 0,
-    maxHeight: ENV.IS_WEB ? '100vh' : '100%',
-    position: ENV.IS_WEB ? 'fixed' : 'absolute',
+    maxHeight: IS_WEB ? '100vh' : '100%',
+    position: IS_WEB ? 'fixed' : 'absolute',
     top: 0,
     width: '100%',
     zIndex: 2,
   },
 
-  background: {
-    backgroundColor: 'rgba(0,0,0,0.5)',
+  content: {
+    padding: SPACE.L,
+    backgroundColor: COLOR.WHITE,
   },
 
-  children: {
-    paddingHorizontal: SPACE.MEDIUM,
-    paddingBottom: SPACE.MEDIUM,
+  keyboardView: {
+    backgroundColor: COLOR.TRANSPARENT,
+    width: '100%',
+    maxHeight: '100%',
+    position: 'absolute',
   },
 
-  frame: {
-    ...ELEVATION.LARGE,
-    backgroundColor: COLOR.BACKGROUND,
-    borderRadius: BORDER_RADIUS,
-  },
-
-  header: {
-    ...LAYOUT.STYLE.ROW,
-    alignContent: 'center',
-    paddingHorizontal: SPACE.XS,
-    paddingVertical: SPACE.XS,
-  },
-
-  safeArea: {
+  overlay: {
     ...LAYOUT.STYLE.CENTERED,
+    backgroundColor: 'rgba(0,0,0,0.5)',
     flex: 1,
   },
 
-  scroll: {
-    borderBottomColor: COLOR.BASE,
-    borderBottomWidth: 1,
-    borderTopColor: COLOR.BASE,
-    borderTopWidth: 1,
+  top: {
+    justifyContent: 'flex-start',
   },
 
-  title: {
-    flex: 1,
-    paddingHorizontal: SPACE.XS,
+  bottom: {
+    justifyContent: 'flex-end',
   },
 });

@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import Icon from './Icon';
+import { Icon } from '..';
 import MOCKS from './Icon.mocks';
 
 jest.useFakeTimers();

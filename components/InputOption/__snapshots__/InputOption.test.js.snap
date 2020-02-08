@@ -1,68 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<InputOption> inherity:style 1`] = `
-<View
-  accessible={true}
-  focusable={false}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  pointerEvents="none"
-  style={
-    Array [
-      undefined,
-      Array [
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "marginBottom": 20,
-        },
-        Object {
-          "backgroundColor": "rgba(0,255,0,0.25)",
-          "padding": 10,
-        },
-      ],
-    ]
-  }
->
-  <Text />
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-          "borderRadius": 3,
-          "bottom": 0,
-          "left": 0,
-          "overflow": "hidden",
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "#cdd2d4",
-          "height": 0,
-          "opacity": 0,
-          "width": 0,
-          "zIndex": 0,
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
 exports[`<InputOption> label 1`] = `
 <View
   accessible={true}
@@ -83,46 +20,21 @@ exports[`<InputOption> label 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "height": 40,
+        },
       ],
     ]
   }
 >
   <Text />
-  <Text
-    numberOfLines={2}
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "textAlignVertical": "center",
-        },
-        Object {
-          "fontSize": 14,
-        },
-        Object {
-          "color": undefined,
-        },
-        Object {
-          "color": "#4a4a4a",
-          "fontWeight": "700",
-          "marginBottom": 0,
-          "marginLeft": 8,
-        },
-      ]
-    }
-  >
-    Lorem Ipsum...
-  </Text>
   <View
     style={
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -137,7 +49,68 @@ exports[`<InputOption> label 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<InputOption> othersy:style 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "height": 40,
+        },
+      ],
+    ]
+  }
+>
+  <Text />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -169,9 +142,10 @@ exports[`<InputOption> renders 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "height": 40,
+        },
       ],
     ]
   }
@@ -182,7 +156,7 @@ exports[`<InputOption> renders 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -197,7 +171,7 @@ exports[`<InputOption> renders 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -229,9 +203,10 @@ exports[`<InputOption> rounded (false) 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "height": 40,
+        },
       ],
     ]
   }
@@ -242,7 +217,7 @@ exports[`<InputOption> rounded (false) 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -257,7 +232,7 @@ exports[`<InputOption> rounded (false) 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -289,9 +264,10 @@ exports[`<InputOption> value 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "height": 40,
+        },
       ],
     ]
   }
@@ -302,7 +278,7 @@ exports[`<InputOption> value 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 3,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -317,7 +293,7 @@ exports[`<InputOption> value 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#cdd2d4",
+          "backgroundColor": "#ffffff",
           "height": 0,
           "opacity": 0,
           "width": 0,
