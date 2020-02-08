@@ -1,4 +1,4 @@
-import { bool, func, node } from 'prop-types';
+import { bool, func, node, oneOf } from 'prop-types';
 import React from 'react';
 import { KeyboardAvoidingView, SafeAreaView, View } from 'react-native';
 
@@ -9,24 +9,22 @@ import styles from './Dialog.style';
 
 const { COLOR, MOTION, SPACE } = THEME;
 
-export const Dialog = ({ background = true, children, highlight, onClose, reverse, visible, ...others }) => {
+export const Dialog = ({ children, highlight, onClose, position = 'center', visible, ...others }) => {
   const { IS_NATIVE } = useEnvironment();
 
   const {
     VIEWPORT: { H },
   } = LAYOUT;
-  let translateY = 0;
-
-  if (!visible) translateY = (reverse ? -H : H) * 0.8;
+  const translateY = visible ? 0 : (position === 'top' ? -H : H) * 0.68;
 
   return (
     <Motion
       delay={visible ? 0 : MOTION.DURATION}
-      pointerEvents={(background || IS_NATIVE) && visible ? 'auto' : 'none'}
+      pointerEvents={IS_NATIVE && visible ? 'auto' : 'none'}
       style={styles.container}
       timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
     >
-      <SafeAreaView style={[styles.overlay, background && styles.background, others.styleOverlay]}>
+      <SafeAreaView style={[styles.overlay, styles[position], others.styleOverlay]}>
         <KeyboardAvoidingView behavior={IS_NATIVE ? 'padding' : undefined} style={styles.keyboardView}>
           <Motion
             delay={visible ? MOTION.DURATION : 0}
@@ -34,7 +32,7 @@ export const Dialog = ({ background = true, children, highlight, onClose, revers
             pointerEvents="auto"
             timeline={[{ property: 'translateY', value: translateY }]}
           >
-            <View style={[{ backgroundColor: highlight ? COLOR.BLACK : COLOR.WHITE }, others.style]}>
+            <View style={[styles.content, others.style]}>
               {onClose && (
                 <Button
                   color={COLOR.TRANSPARENT}
@@ -46,7 +44,7 @@ export const Dialog = ({ background = true, children, highlight, onClose, revers
                   style={styles.button}
                 />
               )}
-              <View style={[styles.content, onClose && styles.contentWithButton]}>{children}</View>
+              {children}
             </View>
           </Motion>
         </KeyboardAvoidingView>
@@ -56,10 +54,9 @@ export const Dialog = ({ background = true, children, highlight, onClose, revers
 };
 
 Dialog.propTypes = {
-  background: bool,
   children: node,
   highlight: bool,
   onClose: func,
-  reverse: bool,
+  position: oneOf(['center', 'top', 'bottom']),
   visible: bool,
 };

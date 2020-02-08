@@ -8,9 +8,10 @@ const { COLOR, SPACE } = THEME;
 
 export default StyleSheet.create({
   button: {
-    alignSelf: 'flex-end',
-    height: SPACE.L,
-    marginTop: SPACE.M,
+    position: 'absolute',
+    zIndex: 1,
+    top: SPACE.S,
+    right: SPACE.S,
   },
 
   container: {
@@ -23,20 +24,8 @@ export default StyleSheet.create({
     zIndex: 2,
   },
 
-  background: {
-    backgroundColor: 'rgba(0,0,0,0.5)',
-  },
-
   content: {
-    paddingHorizontal: SPACE.M,
-    paddingVertical: SPACE.M,
-  },
-
-  contentWithButton: {
-    paddingTop: 0,
-  },
-
-  frame: {
+    padding: SPACE.L,
     backgroundColor: COLOR.WHITE,
   },
 
@@ -49,6 +38,15 @@ export default StyleSheet.create({
 
   overlay: {
     ...LAYOUT.STYLE.CENTERED,
+    backgroundColor: 'rgba(0,0,0,0.5)',
     flex: 1,
+  },
+
+  top: {
+    justifyContent: 'flex-start',
+  },
+
+  bottom: {
+    justifyContent: 'flex-end',
   },
 });

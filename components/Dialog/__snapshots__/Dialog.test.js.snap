@@ -22,90 +22,11 @@ exports[`<Dialog> renders 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "flex": 1,
-          "justifyContent": "center",
-        },
-        Object {
           "backgroundColor": "rgba(0,0,0,0.5)",
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      onLayout={[Function]}
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "maxHeight": "100%",
-            "position": "absolute",
-            "width": "100%",
-          },
-          Object {
-            "paddingBottom": 0,
-          },
-        ]
-      }
-    >
-      <View
-        pointerEvents="auto"
-        style={Object {}}
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "#ffffff",
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
-            }
-          />
-        </View>
-      </View>
-    </View>
-  </RCTSafeAreaView>
-</View>
-`;
-
-exports[`<Dialog> when {background} 1`] = `
-<View
-  pointerEvents="none"
-  style={
-    Object {
-      "height": "100%",
-      "left": 0,
-      "maxHeight": "100%",
-      "position": "absolute",
-      "top": 0,
-      "width": "100%",
-      "zIndex": 2,
-    }
-  }
->
-  <RCTSafeAreaView
-    emulateUnlessSupported={true}
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
           "flex": 1,
           "justifyContent": "center",
         },
-        false,
+        undefined,
         undefined,
       ]
     }
@@ -135,23 +56,12 @@ exports[`<Dialog> when {background} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
               undefined,
             ]
           }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
       </View>
     </View>
   </RCTSafeAreaView>
@@ -166,7 +76,6 @@ exports[`<Dialog> when {children} 1`] = `
       "height": "100%",
       "left": 0,
       "maxHeight": "100%",
-      "opacity": 0,
       "position": "absolute",
       "top": 0,
       "width": "100%",
@@ -181,12 +90,11 @@ exports[`<Dialog> when {children} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        Object {
-          "backgroundColor": "rgba(0,0,0,0.5)",
-        },
+        undefined,
         undefined,
       ]
     }
@@ -209,58 +117,39 @@ exports[`<Dialog> when {children} 1`] = `
     >
       <View
         pointerEvents="auto"
-        style={
-          Object {
-            "transform": Array [
-              Object {
-                "translateY": 1067.2,
-              },
-            ],
-          }
-        }
+        style={Object {}}
       >
         <View
           style={
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
               undefined,
             ]
           }
         >
-          <View
+          <Text
             style={
               Array [
                 Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
+                  "fontFamily": undefined,
+                  "textAlignVertical": "center",
                 },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                undefined,
+                false,
+                undefined,
                 undefined,
               ]
             }
           >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "fontFamily": undefined,
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 24,
-                  },
-                  undefined,
-                  false,
-                  undefined,
-                  undefined,
-                ]
-              }
-            >
-              lorem ipsum...
-            </Text>
-          </View>
+            lorem ipsum...
+          </Text>
         </View>
       </View>
     </View>
@@ -291,12 +180,11 @@ exports[`<Dialog> when {highlight} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        Object {
-          "backgroundColor": "rgba(0,0,0,0.5)",
-        },
+        undefined,
         undefined,
       ]
     }
@@ -323,7 +211,7 @@ exports[`<Dialog> when {highlight} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 1067.2,
+                "translateY": 907.1200000000001,
               },
             ],
           }
@@ -333,109 +221,13 @@ exports[`<Dialog> when {highlight} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#191919",
+                "backgroundColor": "#ffffff",
+                "padding": 24,
               },
               undefined,
             ]
           }
-        >
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onLayout={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
-            style={
-              Array [
-                undefined,
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "flex-start",
-                    "justifyContent": "center",
-                    "width": "auto",
-                  },
-                  undefined,
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": undefined,
-                  },
-                  undefined,
-                  Object {
-                    "height": 32,
-                    "paddingHorizontal": 8,
-                  },
-                  Object {
-                    "alignSelf": "flex-end",
-                    "height": 24,
-                    "marginTop": 16,
-                  },
-                ],
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                }
-              }
-            >
-              <Text />
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 0,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#ffffff",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                Object {
-                  "paddingTop": 0,
-                },
-              ]
-            }
-          />
-        </View>
+        />
       </View>
     </View>
   </RCTSafeAreaView>
@@ -464,12 +256,11 @@ exports[`<Dialog> when {onClose} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        Object {
-          "backgroundColor": "rgba(0,0,0,0.5)",
-        },
+        undefined,
         undefined,
       ]
     }
@@ -499,6 +290,7 @@ exports[`<Dialog> when {onClose} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
               undefined,
             ]
@@ -538,9 +330,10 @@ exports[`<Dialog> when {onClose} 1`] = `
                     "paddingHorizontal": 8,
                   },
                   Object {
-                    "alignSelf": "flex-end",
-                    "height": 24,
-                    "marginTop": 16,
+                    "position": "absolute",
+                    "right": 8,
+                    "top": 8,
+                    "zIndex": 1,
                   },
                 ],
               ]
@@ -587,19 +380,6 @@ exports[`<Dialog> when {onClose} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                Object {
-                  "paddingTop": 0,
-                },
-              ]
-            }
-          />
         </View>
       </View>
     </View>
@@ -607,9 +387,88 @@ exports[`<Dialog> when {onClose} 1`] = `
 </View>
 `;
 
-exports[`<Dialog> when {reverse} 1`] = `
+exports[`<Dialog> when {position} 1`] = `
 <View
-  pointerEvents="auto"
+  pointerEvents="none"
+  style={
+    Object {
+      "height": "100%",
+      "left": 0,
+      "maxHeight": "100%",
+      "opacity": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+      "zIndex": 2,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        Object {
+          "justifyContent": "flex-end",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
+          Object {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <View
+        pointerEvents="auto"
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "translateY": 907.1200000000001,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "padding": 24,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Dialog> when {style} 1`] = `
+<View
+  pointerEvents="none"
   style={
     Object {
       "height": "100%",
@@ -629,13 +488,15 @@ exports[`<Dialog> when {reverse} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        Object {
-          "backgroundColor": "rgba(0,0,0,0.5)",
-        },
         undefined,
+        Object {
+          "backgroundColor": "#e85a7e",
+          "height": "50%",
+        },
       ]
     }
   >
@@ -664,117 +525,14 @@ exports[`<Dialog> when {reverse} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
-            }
-          />
-        </View>
-      </View>
-    </View>
-  </RCTSafeAreaView>
-</View>
-`;
-
-exports[`<Dialog> when {style} 1`] = `
-<View
-  pointerEvents="none"
-  style={
-    Object {
-      "height": "100%",
-      "left": 0,
-      "maxHeight": "100%",
-      "opacity": 0,
-      "position": "absolute",
-      "top": 0,
-      "width": "100%",
-      "zIndex": 2,
-    }
-  }
->
-  <RCTSafeAreaView
-    emulateUnlessSupported={true}
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "flex": 1,
-          "justifyContent": "center",
-        },
-        Object {
-          "backgroundColor": "rgba(0,0,0,0.5)",
-        },
-        Object {
-          "backgroundColor": "#e85a7e",
-          "height": "50%",
-        },
-      ]
-    }
-  >
-    <View
-      onLayout={[Function]}
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "maxHeight": "100%",
-            "position": "absolute",
-            "width": "100%",
-          },
-          Object {
-            "paddingBottom": 0,
-          },
-        ]
-      }
-    >
-      <View
-        pointerEvents="auto"
-        style={
-          Object {
-            "transform": Array [
-              Object {
-                "translateY": 1067.2,
-              },
-            ],
-          }
-        }
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "#ffffff",
+                "padding": 24,
               },
               Object {
                 "backgroundColor": "#62e6ac",
               },
             ]
           }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
       </View>
     </View>
   </RCTSafeAreaView>
@@ -804,12 +562,11 @@ exports[`<Dialog> when {visible} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        Object {
-          "backgroundColor": "rgba(0,0,0,0.5)",
-        },
+        undefined,
         undefined,
       ]
     }
@@ -847,23 +604,12 @@ exports[`<Dialog> when {visible} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
               undefined,
             ]
           }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
       </View>
     </View>
   </RCTSafeAreaView>

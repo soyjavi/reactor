@@ -22,12 +22,15 @@ exports[`<Snackbar> renders 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        false,
         Object {
           "justifyContent": "flex-end",
+        },
+        Object {
+          "backgroundColor": "transparent",
         },
       ]
     }
@@ -57,57 +60,51 @@ exports[`<Snackbar> renders 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
-              Object {
-                "backgroundColor": "#191919",
-              },
+              Array [
+                Object {
+                  "padding": 16,
+                },
+                Object {
+                  "backgroundColor": "#191919",
+                },
+              ],
             ]
           }
         >
           <View
             style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              }
             }
           >
-            <View
+            <Text
               style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                }
+                Array [
+                  Object {
+                    "fontFamily": undefined,
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  false,
+                  Object {
+                    "color": "#ffffff",
+                  },
+                  Object {
+                    "flex": 1,
+                  },
+                ]
               }
             >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontFamily": undefined,
-                      "textAlignVertical": "center",
-                    },
-                    Object {
-                      "fontSize": 12,
-                    },
-                    undefined,
-                    false,
-                    Object {
-                      "color": "#ffffff",
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ]
-                }
-              >
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </Text>
-            </View>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </Text>
           </View>
         </View>
       </View>
@@ -139,12 +136,15 @@ exports[`<Snackbar> when {color} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        false,
         Object {
           "justifyContent": "flex-end",
+        },
+        Object {
+          "backgroundColor": "transparent",
         },
       ]
     }
@@ -182,57 +182,51 @@ exports[`<Snackbar> when {color} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
-              Object {
-                "backgroundColor": "#62e6ac",
-              },
+              Array [
+                Object {
+                  "padding": 16,
+                },
+                Object {
+                  "backgroundColor": "#62e6ac",
+                },
+              ],
             ]
           }
         >
           <View
             style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              }
             }
           >
-            <View
+            <Text
               style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                }
+                Array [
+                  Object {
+                    "fontFamily": undefined,
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  false,
+                  Object {
+                    "color": "#ffffff",
+                  },
+                  Object {
+                    "flex": 1,
+                  },
+                ]
               }
             >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontFamily": undefined,
-                      "textAlignVertical": "center",
-                    },
-                    Object {
-                      "fontSize": 12,
-                    },
-                    undefined,
-                    false,
-                    Object {
-                      "color": "#ffffff",
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ]
-                }
-              >
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </Text>
-            </View>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </Text>
           </View>
         </View>
       </View>
@@ -263,12 +257,15 @@ exports[`<Snackbar> when {icon} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        false,
         Object {
           "justifyContent": "flex-end",
+        },
+        Object {
+          "backgroundColor": "transparent",
         },
       ]
     }
@@ -298,58 +295,52 @@ exports[`<Snackbar> when {icon} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
-              Object {
-                "backgroundColor": "#191919",
-              },
+              Array [
+                Object {
+                  "padding": 16,
+                },
+                Object {
+                  "backgroundColor": "#191919",
+                },
+              ],
             ]
           }
         >
           <View
             style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              }
             }
           >
-            <View
+            <Text />
+            <Text
               style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                }
+                Array [
+                  Object {
+                    "fontFamily": undefined,
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  false,
+                  Object {
+                    "color": "#ffffff",
+                  },
+                  Object {
+                    "flex": 1,
+                  },
+                ]
               }
             >
-              <Text />
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontFamily": undefined,
-                      "textAlignVertical": "center",
-                    },
-                    Object {
-                      "fontSize": 12,
-                    },
-                    undefined,
-                    false,
-                    Object {
-                      "color": "#ffffff",
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ]
-                }
-              >
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </Text>
-            </View>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </Text>
           </View>
         </View>
       </View>
@@ -381,12 +372,15 @@ exports[`<Snackbar> when {onClose} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        false,
         Object {
           "justifyContent": "flex-end",
+        },
+        Object {
+          "backgroundColor": "transparent",
         },
       ]
     }
@@ -424,136 +418,130 @@ exports[`<Snackbar> when {onClose} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
-              Object {
-                "backgroundColor": "#191919",
-              },
+              Array [
+                Object {
+                  "padding": 16,
+                },
+                Object {
+                  "backgroundColor": "#191919",
+                },
+              ],
             ]
           }
         >
           <View
             style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              }
             }
           >
-            <View
+            <Text
               style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                }
+                Array [
+                  Object {
+                    "fontFamily": undefined,
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  false,
+                  Object {
+                    "color": "#ffffff",
+                  },
+                  Object {
+                    "flex": 1,
+                  },
+                ]
               }
             >
-              <Text
-                style={
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </Text>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
                   Array [
                     Object {
-                      "fontFamily": undefined,
-                      "textAlignVertical": "center",
-                    },
-                    Object {
-                      "fontSize": 12,
-                    },
-                    undefined,
-                    false,
-                    Object {
-                      "color": "#ffffff",
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ]
-                }
-              >
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </Text>
-              <View
-                accessible={true}
-                focusable={true}
-                onClick={[Function]}
-                onLayout={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                pointerEvents="box-only"
-                style={
-                  Array [
-                    undefined,
-                    Array [
-                      Object {
-                        "alignContent": "center",
-                        "alignItems": "center",
-                        "alignSelf": "flex-start",
-                        "justifyContent": "center",
-                        "width": "auto",
-                      },
-                      undefined,
-                      Object {
-                        "backgroundColor": "#191919",
-                        "borderRadius": undefined,
-                      },
-                      undefined,
-                      Object {
-                        "height": 32,
-                        "paddingHorizontal": 8,
-                      },
-                      Object {
-                        "alignSelf": "center",
-                      },
-                    ],
-                  ]
-                }
-              >
-                <View
-                  style={
-                    Object {
+                      "alignContent": "center",
                       "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                    }
+                      "alignSelf": "flex-start",
+                      "justifyContent": "center",
+                      "width": "auto",
+                    },
+                    undefined,
+                    Object {
+                      "backgroundColor": "#191919",
+                      "borderRadius": undefined,
+                    },
+                    undefined,
+                    Object {
+                      "height": 32,
+                      "paddingHorizontal": 8,
+                    },
+                    Object {
+                      "alignSelf": "center",
+                    },
+                  ],
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
                   }
-                >
-                  <Text />
-                </View>
+                }
+              >
+                <Text />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderRadius": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    undefined,
+                  ]
+                }
+              >
                 <View
                   style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "borderRadius": 0,
-                        "bottom": 0,
-                        "left": 0,
-                        "overflow": "hidden",
-                        "position": "absolute",
-                        "right": 0,
-                        "top": 0,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  <View
-                    style={
-                      Object {
-                        "backgroundColor": "#ffffff",
-                        "height": 0,
-                        "opacity": 0,
-                        "width": 0,
-                        "zIndex": 0,
-                      }
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "height": 0,
+                      "opacity": 0,
+                      "width": 0,
+                      "zIndex": 0,
                     }
-                  />
-                </View>
+                  }
+                />
               </View>
             </View>
           </View>
@@ -586,12 +574,15 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
           "flex": 1,
           "justifyContent": "center",
         },
-        false,
         Object {
           "justifyContent": "flex-end",
+        },
+        Object {
+          "backgroundColor": "transparent",
         },
       ]
     }
@@ -621,55 +612,49 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
+                "padding": 24,
               },
-              Object {
-                "backgroundColor": "#191919",
-              },
+              Array [
+                Object {
+                  "padding": 16,
+                },
+                Object {
+                  "backgroundColor": "#191919",
+                },
+              ],
             ]
           }
         >
           <View
             style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              }
             }
           >
-            <View
+            <Text
               style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                }
+                Array [
+                  Object {
+                    "fontFamily": undefined,
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  false,
+                  Object {
+                    "color": "#ffffff",
+                  },
+                  Object {
+                    "flex": 1,
+                  },
+                ]
               }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "fontFamily": undefined,
-                      "textAlignVertical": "center",
-                    },
-                    Object {
-                      "fontSize": 12,
-                    },
-                    undefined,
-                    false,
-                    Object {
-                      "color": "#ffffff",
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ]
-                }
-              />
-            </View>
+            />
           </View>
         </View>
       </View>

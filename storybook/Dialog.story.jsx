@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 
-import { Button, Dialog, Text } from '../components';
+import { Alert, Button, Dialog, Snackbar, Text } from '../components';
 
 export const DialogStory = () => {
+  const [alert, setAlert] = useState(false);
   const [dialog, setDialog] = useState(false);
+  const [snackbar, setSnackbar] = useState(true);
 
   return (
     <>
-      <Button onPress={() => setDialog(true)} title="Show dialog" />
+      <Button onPress={() => setDialog(true)} title="<Dialog>" />
+      <Button onPress={() => setSnackbar(true)} title="<Snackbar>" />
+      <Button onPress={() => setAlert(true)} title="<Alert>" />
 
       <Dialog title="Example of Dialog" visible={dialog} onClose={() => setDialog(false)}>
         <Text headline>Sign In</Text>
@@ -17,6 +21,25 @@ export const DialogStory = () => {
           standard dummy text ever since the 1500s
         </Text>
       </Dialog>
+
+      <Alert
+        accept="Aceptar"
+        cancel="Cancelar"
+        caption="Alert messaging (or alert notification) is machine-to-person communication that is important or time sensitive. "
+        position="top"
+        title="Delete this item?"
+        visible={alert}
+        onAccept={() => setAlert(false)}
+        onCancel={() => setAlert(false)}
+        onClose={() => setAlert(false)}
+      />
+
+      <Snackbar
+        caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        icon="comment-question-outline"
+        visible={snackbar}
+        onClose={() => setSnackbar(false)}
+      />
     </>
   );
 };

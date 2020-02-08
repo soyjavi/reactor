@@ -9,7 +9,13 @@ import styles from './Snackbar.style';
 const { COLOR, SPACE } = THEME;
 
 export const Snackbar = ({ caption, color = COLOR.BLACK, icon, onClose, ...others }) => (
-  <Dialog background={false} style={{ backgroundColor: color }} styleOverlay={styles.overlay} visible={others.visible}>
+  <Dialog
+    background={false}
+    position="bottom"
+    style={[styles.dialog, { backgroundColor: color }]}
+    styleOverlay={styles.dialogOverlay}
+    visible={others.visible}
+  >
     <View style={styles.content}>
       {icon && <Icon color={COLOR.WHITE} size={SPACE.XL} value={icon} style={styles.icon} />}
       <Text caption color={COLOR.WHITE} style={styles.caption}>

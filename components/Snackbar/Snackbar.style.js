@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { SPACE } = THEME;
+const { COLOR, SPACE } = THEME;
 
 export default StyleSheet.create({
   button: {
@@ -13,12 +13,16 @@ export default StyleSheet.create({
     flex: 1,
   },
 
-  icon: {
-    marginRight: SPACE.M,
+  dialog: {
+    padding: SPACE.M,
   },
 
-  overlay: {
-    justifyContent: 'flex-end',
+  dialogOverlay: {
+    backgroundColor: COLOR.TRANSPARENT,
+  },
+
+  icon: {
+    marginRight: SPACE.M,
   },
 
   content: LAYOUT.STYLE.ROW,
