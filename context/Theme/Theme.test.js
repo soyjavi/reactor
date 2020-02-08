@@ -4,7 +4,7 @@ import TestRenderer from 'react-test-renderer';
 import { ThemeProvider } from './Theme';
 import THEME from '../../common/theme';
 
-const customTheme = { COLOR: { PRIMARY: 'green' } };
+const customTheme = { COLOR: { BRAND: 'green' } };
 
 describe('<ThemeProvider>', () => {
   it('renders', () => {
@@ -13,7 +13,7 @@ describe('<ThemeProvider>', () => {
   });
 
   it('when {style}', () => {
-    expect(THEME.COLOR.BRAND).toEqual('#4066EA');
+    expect(THEME.COLOR.BRAND).toEqual('#62e6ac');
     const tree = TestRenderer.create(<ThemeProvider style={customTheme} />).toJSON();
     expect(tree).toMatchSnapshot();
     expect(THEME.COLOR.BRAND).toEqual(customTheme.COLOR.BRAND);

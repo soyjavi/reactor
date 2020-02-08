@@ -23,7 +23,13 @@ const DEFAULT = {
   VALUE: 'file-question',
 };
 
-export const Icon = ({ color = COLOR.TEXT, family = DEFAULT.FAMILY, size = SPACE.M, value = DEFAULT.VALUE }) => {
+export const Icon = ({
+  color = COLOR.TEXT,
+  family = DEFAULT.FAMILY,
+  size = SPACE.M,
+  value = DEFAULT.VALUE,
+  ...others
+}) => {
   let IconFamily;
 
   if (family === 'MaterialCommunityIcons') IconFamily = MaterialCommunityIcons;
@@ -39,7 +45,7 @@ export const Icon = ({ color = COLOR.TEXT, family = DEFAULT.FAMILY, size = SPACE
   else if (family === 'SimpleLineIcons') IconFamily = SimpleLineIcons;
   else if (family === 'Zocial') IconFamily = Zocial;
 
-  return <IconFamily name={value} color={color} size={size} />;
+  return <IconFamily {...others} name={value} color={color} size={size} />;
 };
 
 Icon.propTypes = {

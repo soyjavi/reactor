@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import Text from './Text';
+import { Text } from '..';
 
 const LOREM = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.';
 

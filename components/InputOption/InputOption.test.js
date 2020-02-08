@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import InputOption from './InputOption';
+import { InputOption } from '..';
 
 const style = {
   backgroundColor: 'rgba(0,255,0,0.25)',

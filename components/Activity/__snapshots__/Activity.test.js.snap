@@ -157,8 +157,8 @@ exports[`<Activity> when {style} 1`] = `
         "flexDirection": "row",
       },
       Object {
-        "backgroundColor": undefined,
-        "padding": undefined,
+        "backgroundColor": "#62e6ac",
+        "padding": 16,
       },
     ]
   }

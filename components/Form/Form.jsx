@@ -48,12 +48,12 @@ export const Form = ({
     <View style={[styles.container, others.style]}>
       {Object.keys(attributes).map((field) => (
         <FormField
+          attributes={attributes[field]}
           color={color}
           colorDisabled={colorDisabled}
           field={field}
           key={field}
           onChange={(fieldValue) => onChange(consolidate(attributes, { ...value, [field]: fieldValue }))}
-          props={attributes[field]}
           validate={validate}
           value={value[field]}
         />

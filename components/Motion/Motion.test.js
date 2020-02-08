@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { View } from 'react-native';
 
-import Motion from './Motion';
+import { Motion } from '..';
 import MOCKS from './Motion.mocks';
 
 jest.useFakeTimers();

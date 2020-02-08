@@ -1,4 +1,4 @@
-import { bool, func, oneOfType, number, string } from 'prop-types';
+import { bool, func, oneOfType, number, string, oneOf } from 'prop-types';
 import React from 'react';
 import { TextInput, View } from 'react-native';
 
@@ -8,9 +8,24 @@ import { InputIcon } from './InputIcon';
 import { Icon, Text } from '..';
 import styles from './Input.style';
 
-const { COLOR } = THEME;
+const {
+  COLOR,
+  INPUT: { borderColor: colorDisabled },
+} = THEME;
 
-const Input = ({ currency, disabled, error, icon, lines, required, requiredIcon, valid, onChange, ...others }) => {
+const Input = ({
+  currency,
+  disabled,
+  error,
+  icon,
+  lines,
+  required,
+  requiredIcon,
+  valid,
+  onChange,
+  size = 'M',
+  ...others
+}) => {
   let { keyboard } = others || 'default';
   if (currency) keyboard = 'numeric';
 
@@ -18,15 +33,14 @@ const Input = ({ currency, disabled, error, icon, lines, required, requiredIcon,
     <View style={styles.container}>
       {(icon || currency) && (
         <View style={styles.inlineHint} pointerEvents="none">
-          {icon && <Icon color={others.colorDisabled} value={icon} family={others.iconFamily} size={others.iconSize} />}
+          {icon && <Icon color={colorDisabled} value={icon} family={others.iconFamily} size={others.iconSize} />}
           {currency && (
-            <Text color={others.colorDisabled} input style={styles.currencyWithIcon}>
+            <Text color={colorDisabled} input style={styles.currencyWithIcon}>
               {currency}
             </Text>
           )}
         </View>
       )}
-
       <TextInput
         {...others}
         value={others.value || ''}
@@ -38,12 +52,13 @@ const Input = ({ currency, disabled, error, icon, lines, required, requiredIcon,
         numberOfLines={lines}
         multiline={lines > 1}
         onChangeText={onChange}
-        placeholderTextColor={COLOR.TEXT_LIGHTEN}
+        placeholderTextColor={colorDisabled}
         underlineColorAndroid="transparent"
         style={[
           styles.input,
           disabled && styles.inputDisabled,
           currency && styles.inputCurrency,
+          styles[size],
           others.color && { color: others.color },
           others.fontFamily && { fontFamily: others.fontFamily },
           others.fontSize && { fontSize: others.fontSize },
@@ -71,6 +86,7 @@ Input.propTypes = {
   onChange: func,
   required: bool,
   requiredIcon: bool,
+  size: oneOf(['S', 'M', 'L']),
   valid: bool,
 };
 

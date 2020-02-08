@@ -2,54 +2,34 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, OPACITY, SPACE } = THEME;
+const { INPUT, OPACITY, SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
+    alignSelf: 'flex-end',
     marginBottom: SPACE.M,
+    width: '100%',
+    zIndex: 1,
   },
 
   content: {
     ...LAYOUT.STYLE.ROW,
-    backgroundColor: COLOR.BACKGROUND_INPUT,
-    borderWidth: 1,
-    borderBottomWidth: 1,
+    ...INPUT,
   },
 
-  disabled: {
-    borderWidth: 0,
-    opacity: OPACITY.M,
+  focus: {
+    zIndex: 1,
   },
 
-  row: {
-    ...LAYOUT.STYLE.ROW,
-    flexDirection: 'column',
+  label: {
+    marginBottom: SPACE.XS,
   },
 
-  inline2: {
+  inline: {
     width: '49%',
   },
 
-  inline3: {
-    width: '32%',
-  },
-
-  inline4: {
-    width: '24%',
-  },
-
-  inline5: {
-    width: '19%',
-  },
-
-  anchor: {
-    minWidth: '100%',
-    width: '100%',
-  },
-
-  hint: {
-    marginTop: SPACE.XS,
-    paddingLeft: 0,
-    maxWidth: '100%',
+  disabled: {
+    opacity: OPACITY.M,
   },
 });

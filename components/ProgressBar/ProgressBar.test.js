@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import ProgressBar from './ProgressBar';
+import { ProgressBar } from '..';
 
 const { SPACE } = THEME;
 

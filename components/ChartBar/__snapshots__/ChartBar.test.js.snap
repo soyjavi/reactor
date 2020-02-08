@@ -105,8 +105,8 @@ exports[`<ChartBar> when {captions} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -139,8 +139,8 @@ exports[`<ChartBar> when {captions} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -170,9 +170,9 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -194,9 +194,9 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -221,8 +221,8 @@ exports[`<ChartBar> when {captions} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -255,8 +255,8 @@ exports[`<ChartBar> when {captions} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -286,9 +286,9 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -310,9 +310,9 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -334,9 +334,9 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -358,9 +358,9 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -382,9 +382,9 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -406,9 +406,9 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -421,7 +421,7 @@ exports[`<ChartBar> when {captions} 1`] = `
       style={
         Array [
           Object {
-            "height": undefined,
+            "height": 16,
           },
           Object {
             "alignItems": "center",
@@ -445,20 +445,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -482,20 +482,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -519,20 +519,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -556,20 +556,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -593,20 +593,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -630,20 +630,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -667,20 +667,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -704,20 +704,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -741,20 +741,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -778,20 +778,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -815,20 +815,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -852,20 +852,20 @@ exports[`<ChartBar> when {captions} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -941,8 +941,8 @@ exports[`<ChartBar> when {color} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -975,8 +975,8 @@ exports[`<ChartBar> when {color} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -1007,8 +1007,8 @@ exports[`<ChartBar> when {color} 1`] = `
           style={
             Object {
               "backgroundColor": "#e85a7e",
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "6%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1032,8 +1032,8 @@ exports[`<ChartBar> when {color} 1`] = `
           style={
             Object {
               "backgroundColor": "#e85a7e",
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1059,8 +1059,8 @@ exports[`<ChartBar> when {color} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -1093,8 +1093,8 @@ exports[`<ChartBar> when {color} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -1125,8 +1125,8 @@ exports[`<ChartBar> when {color} 1`] = `
           style={
             Object {
               "backgroundColor": "#e85a7e",
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "50%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1150,8 +1150,8 @@ exports[`<ChartBar> when {color} 1`] = `
           style={
             Object {
               "backgroundColor": "#e85a7e",
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1175,8 +1175,8 @@ exports[`<ChartBar> when {color} 1`] = `
           style={
             Object {
               "backgroundColor": "#e85a7e",
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "100%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1200,8 +1200,8 @@ exports[`<ChartBar> when {color} 1`] = `
           style={
             Object {
               "backgroundColor": "#e85a7e",
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "75%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1225,8 +1225,8 @@ exports[`<ChartBar> when {color} 1`] = `
           style={
             Object {
               "backgroundColor": "#e85a7e",
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1250,8 +1250,8 @@ exports[`<ChartBar> when {color} 1`] = `
           style={
             Object {
               "backgroundColor": "#e85a7e",
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "31%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1324,8 +1324,8 @@ exports[`<ChartBar> when {highlight} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -1358,8 +1358,8 @@ exports[`<ChartBar> when {highlight} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -1389,9 +1389,9 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "6%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1414,9 +1414,9 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1442,8 +1442,8 @@ exports[`<ChartBar> when {highlight} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -1476,8 +1476,8 @@ exports[`<ChartBar> when {highlight} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -1507,9 +1507,9 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "50%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1532,9 +1532,9 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1557,9 +1557,9 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "100%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1582,9 +1582,9 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "75%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1607,9 +1607,9 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1632,9 +1632,9 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "31%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -1648,7 +1648,7 @@ exports[`<ChartBar> when {highlight} 1`] = `
       style={
         Array [
           Object {
-            "height": undefined,
+            "height": 16,
           },
           Object {
             "alignItems": "center",
@@ -1672,20 +1672,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -1709,20 +1709,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -1746,20 +1746,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -1783,20 +1783,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -1820,20 +1820,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -1857,20 +1857,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -1894,20 +1894,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -1931,24 +1931,26 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
+              undefined,
               Object {
-                "color": undefined,
+                "fontWeight": "700",
               },
               Object {
                 "color": "#191919",
+              },
+              Object {
                 "fontSize": 8,
-                "fontWeight": "700",
                 "height": 8,
                 "lineHeight": 8,
               },
@@ -1970,20 +1972,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2007,20 +2009,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2044,20 +2046,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2081,20 +2083,20 @@ exports[`<ChartBar> when {highlight} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2172,15 +2174,15 @@ exports[`<ChartBar> when {inverted} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
                 },
                 Object {
-                  "borderBottomLeftRadius": 2.4,
-                  "borderBottomRightRadius": 2.4,
+                  "borderBottomLeftRadius": 0,
+                  "borderBottomRightRadius": 0,
                   "borderTopLeftRadius": 0,
                   "borderTopRightRadius": 0,
                 },
@@ -2211,15 +2213,15 @@ exports[`<ChartBar> when {inverted} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
                 },
                 Object {
-                  "borderBottomLeftRadius": 2.4,
-                  "borderBottomRightRadius": 2.4,
+                  "borderBottomLeftRadius": 0,
+                  "borderBottomRightRadius": 0,
                   "borderTopLeftRadius": 0,
                   "borderTopRightRadius": 0,
                 },
@@ -2247,9 +2249,9 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderBottomLeftRadius": 2.4,
-              "borderBottomRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
               "borderTopLeftRadius": 0,
               "borderTopRightRadius": 0,
               "maxHeight": "100%",
@@ -2273,9 +2275,9 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderBottomLeftRadius": 2.4,
-              "borderBottomRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
               "borderTopLeftRadius": 0,
               "borderTopRightRadius": 0,
               "maxHeight": "100%",
@@ -2302,15 +2304,15 @@ exports[`<ChartBar> when {inverted} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
                 },
                 Object {
-                  "borderBottomLeftRadius": 2.4,
-                  "borderBottomRightRadius": 2.4,
+                  "borderBottomLeftRadius": 0,
+                  "borderBottomRightRadius": 0,
                   "borderTopLeftRadius": 0,
                   "borderTopRightRadius": 0,
                 },
@@ -2341,15 +2343,15 @@ exports[`<ChartBar> when {inverted} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
                 },
                 Object {
-                  "borderBottomLeftRadius": 2.4,
-                  "borderBottomRightRadius": 2.4,
+                  "borderBottomLeftRadius": 0,
+                  "borderBottomRightRadius": 0,
                   "borderTopLeftRadius": 0,
                   "borderTopRightRadius": 0,
                 },
@@ -2377,9 +2379,9 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderBottomLeftRadius": 2.4,
-              "borderBottomRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
               "borderTopLeftRadius": 0,
               "borderTopRightRadius": 0,
               "maxHeight": "100%",
@@ -2403,9 +2405,9 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderBottomLeftRadius": 2.4,
-              "borderBottomRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
               "borderTopLeftRadius": 0,
               "borderTopRightRadius": 0,
               "maxHeight": "100%",
@@ -2429,9 +2431,9 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderBottomLeftRadius": 2.4,
-              "borderBottomRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
               "borderTopLeftRadius": 0,
               "borderTopRightRadius": 0,
               "maxHeight": "100%",
@@ -2455,9 +2457,9 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderBottomLeftRadius": 2.4,
-              "borderBottomRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
               "borderTopLeftRadius": 0,
               "borderTopRightRadius": 0,
               "maxHeight": "100%",
@@ -2481,9 +2483,9 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderBottomLeftRadius": 2.4,
-              "borderBottomRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
               "borderTopLeftRadius": 0,
               "borderTopRightRadius": 0,
               "maxHeight": "100%",
@@ -2507,9 +2509,9 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderBottomLeftRadius": 2.4,
-              "borderBottomRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderBottomLeftRadius": 0,
+              "borderBottomRightRadius": 0,
               "borderTopLeftRadius": 0,
               "borderTopRightRadius": 0,
               "maxHeight": "100%",
@@ -2524,7 +2526,7 @@ exports[`<ChartBar> when {inverted} 1`] = `
       style={
         Array [
           Object {
-            "height": undefined,
+            "height": 16,
           },
           Object {
             "alignItems": "center",
@@ -2548,20 +2550,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2585,20 +2587,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2622,20 +2624,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2659,20 +2661,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2696,20 +2698,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2733,20 +2735,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2770,20 +2772,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2807,20 +2809,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2844,20 +2846,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2881,20 +2883,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2918,20 +2920,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -2955,20 +2957,20 @@ exports[`<ChartBar> when {inverted} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3019,7 +3021,7 @@ exports[`<ChartBar> when {lines} 1`] = `
             "zIndex": 1,
           },
           Object {
-            "bottom": undefined,
+            "bottom": 16,
           },
         ]
       }
@@ -3037,7 +3039,7 @@ exports[`<ChartBar> when {lines} 1`] = `
                 "width": "100%",
               },
               Object {
-                "backgroundColor": undefined,
+                "backgroundColor": "#62e6ac",
                 "opacity": 0.5,
               },
             ]
@@ -3047,37 +3049,46 @@ exports[`<ChartBar> when {lines} 1`] = `
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              false,
+              undefined,
               Object {
-                "alignSelf": "flex-start",
-                "backgroundColor": undefined,
-                "borderRadius": 8,
-                "color": "#ffffff",
-                "fontSize": 8,
                 "fontWeight": "700",
-                "height": NaN,
-                "lineHeight": 8,
-                "marginLeft": 4,
-                "marginTop": NaN,
-                "paddingHorizontal": 4,
-                "paddingVertical": undefined,
-                "shadowColor": "#191919",
-                "shadowOffset": Object {
-                  "height": 1,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.2,
-                "shadowRadius": 2,
-                "zIndex": 1,
               },
+              undefined,
+              Array [
+                Object {
+                  "fontSize": 8,
+                  "height": 8,
+                  "lineHeight": 8,
+                },
+                Object {
+                  "alignSelf": "flex-start",
+                  "borderRadius": 8,
+                  "color": "#ffffff",
+                  "height": 16,
+                  "marginLeft": 4,
+                  "marginTop": -8,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 4,
+                  "shadowColor": "#191919",
+                  "shadowOffset": Object {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.2,
+                  "shadowRadius": 8,
+                  "zIndex": 1,
+                },
+                Object {
+                  "backgroundColor": "#62e6ac",
+                },
+              ],
             ]
           }
         >
@@ -3097,7 +3108,7 @@ exports[`<ChartBar> when {lines} 1`] = `
             "zIndex": 1,
           },
           Object {
-            "bottom": undefined,
+            "bottom": 16,
           },
         ]
       }
@@ -3125,37 +3136,46 @@ exports[`<ChartBar> when {lines} 1`] = `
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              false,
+              undefined,
               Object {
-                "alignSelf": "flex-start",
-                "backgroundColor": "#e85a7e",
-                "borderRadius": 8,
-                "color": "#ffffff",
-                "fontSize": 8,
                 "fontWeight": "700",
-                "height": NaN,
-                "lineHeight": 8,
-                "marginLeft": 4,
-                "marginTop": NaN,
-                "paddingHorizontal": 4,
-                "paddingVertical": undefined,
-                "shadowColor": "#191919",
-                "shadowOffset": Object {
-                  "height": 1,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.2,
-                "shadowRadius": 2,
-                "zIndex": 1,
               },
+              undefined,
+              Array [
+                Object {
+                  "fontSize": 8,
+                  "height": 8,
+                  "lineHeight": 8,
+                },
+                Object {
+                  "alignSelf": "flex-start",
+                  "borderRadius": 8,
+                  "color": "#ffffff",
+                  "height": 16,
+                  "marginLeft": 4,
+                  "marginTop": -8,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 4,
+                  "shadowColor": "#191919",
+                  "shadowOffset": Object {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.2,
+                  "shadowRadius": 8,
+                  "zIndex": 1,
+                },
+                Object {
+                  "backgroundColor": "#e85a7e",
+                },
+              ],
             ]
           }
         >
@@ -3200,8 +3220,8 @@ exports[`<ChartBar> when {lines} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -3234,8 +3254,8 @@ exports[`<ChartBar> when {lines} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -3265,9 +3285,9 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -3289,9 +3309,9 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -3316,8 +3336,8 @@ exports[`<ChartBar> when {lines} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -3350,8 +3370,8 @@ exports[`<ChartBar> when {lines} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -3381,9 +3401,9 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -3405,9 +3425,9 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -3429,9 +3449,9 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -3453,9 +3473,9 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -3477,9 +3497,9 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -3501,9 +3521,9 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -3516,7 +3536,7 @@ exports[`<ChartBar> when {lines} 1`] = `
       style={
         Array [
           Object {
-            "height": undefined,
+            "height": 16,
           },
           Object {
             "alignItems": "center",
@@ -3540,20 +3560,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3577,20 +3597,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3614,20 +3634,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3651,20 +3671,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3688,20 +3708,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3725,20 +3745,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3762,20 +3782,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3799,20 +3819,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3836,20 +3856,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3873,20 +3893,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3910,20 +3930,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -3947,20 +3967,20 @@ exports[`<ChartBar> when {lines} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4010,7 +4030,7 @@ exports[`<ChartBar> when {scales} 1`] = `
             "top": 0,
           },
           Object {
-            "bottom": undefined,
+            "bottom": 16,
           },
         ]
       }
@@ -4031,20 +4051,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4056,20 +4076,20 @@ exports[`<ChartBar> when {scales} 1`] = `
           $24
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4081,20 +4101,20 @@ exports[`<ChartBar> when {scales} 1`] = `
           $10
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4106,20 +4126,20 @@ exports[`<ChartBar> when {scales} 1`] = `
           $5
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4220,8 +4240,8 @@ exports[`<ChartBar> when {scales} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -4254,8 +4274,8 @@ exports[`<ChartBar> when {scales} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -4285,9 +4305,9 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "6%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -4310,9 +4330,9 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -4338,8 +4358,8 @@ exports[`<ChartBar> when {scales} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -4372,8 +4392,8 @@ exports[`<ChartBar> when {scales} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -4403,9 +4423,9 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "50%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -4428,9 +4448,9 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -4453,9 +4473,9 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "100%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -4478,9 +4498,9 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "75%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -4503,9 +4523,9 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -4528,9 +4548,9 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "31%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -4544,7 +4564,7 @@ exports[`<ChartBar> when {scales} 1`] = `
       style={
         Array [
           Object {
-            "height": undefined,
+            "height": 16,
           },
           Object {
             "alignItems": "center",
@@ -4570,20 +4590,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4607,20 +4627,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4644,20 +4664,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4681,20 +4701,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4718,20 +4738,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4755,20 +4775,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4792,20 +4812,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4829,20 +4849,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4866,20 +4886,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4903,20 +4923,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4940,20 +4960,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -4977,20 +4997,20 @@ exports[`<ChartBar> when {scales} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5040,7 +5060,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
             "top": 0,
           },
           Object {
-            "bottom": undefined,
+            "bottom": 16,
           },
         ]
       }
@@ -5061,20 +5081,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5086,20 +5106,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
           $24
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5111,20 +5131,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
           $10
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5136,20 +5156,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
           $5
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5250,8 +5270,8 @@ exports[`<ChartBar> when {styleBar} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -5288,8 +5308,8 @@ exports[`<ChartBar> when {styleBar} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -5323,7 +5343,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
+              "backgroundColor": "#62e6ac",
               "borderTopLeftRadius": 4,
               "borderTopRightRadius": 4,
               "maxHeight": "100%",
@@ -5347,7 +5367,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
+              "backgroundColor": "#62e6ac",
               "borderTopLeftRadius": 4,
               "borderTopRightRadius": 4,
               "maxHeight": "100%",
@@ -5374,8 +5394,8 @@ exports[`<ChartBar> when {styleBar} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -5412,8 +5432,8 @@ exports[`<ChartBar> when {styleBar} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -5447,7 +5467,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
+              "backgroundColor": "#62e6ac",
               "borderTopLeftRadius": 4,
               "borderTopRightRadius": 4,
               "maxHeight": "100%",
@@ -5471,7 +5491,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
+              "backgroundColor": "#62e6ac",
               "borderTopLeftRadius": 4,
               "borderTopRightRadius": 4,
               "maxHeight": "100%",
@@ -5495,7 +5515,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
+              "backgroundColor": "#62e6ac",
               "borderTopLeftRadius": 4,
               "borderTopRightRadius": 4,
               "maxHeight": "100%",
@@ -5519,7 +5539,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
+              "backgroundColor": "#62e6ac",
               "borderTopLeftRadius": 4,
               "borderTopRightRadius": 4,
               "maxHeight": "100%",
@@ -5543,7 +5563,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
+              "backgroundColor": "#62e6ac",
               "borderTopLeftRadius": 4,
               "borderTopRightRadius": 4,
               "maxHeight": "100%",
@@ -5567,7 +5587,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
+              "backgroundColor": "#62e6ac",
               "borderTopLeftRadius": 4,
               "borderTopRightRadius": 4,
               "maxHeight": "100%",
@@ -5582,7 +5602,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
       style={
         Array [
           Object {
-            "height": undefined,
+            "height": 16,
           },
           Object {
             "alignItems": "center",
@@ -5608,20 +5628,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5645,20 +5665,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5682,20 +5702,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5719,20 +5739,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5756,20 +5776,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5793,20 +5813,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5830,20 +5850,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5867,20 +5887,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5904,20 +5924,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5941,20 +5961,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -5978,20 +5998,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6015,20 +6035,20 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6058,14 +6078,7 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "height": 256,
-        "padding": undefined,
-        "shadowColor": "#191919",
-        "shadowOffset": Object {
-          "height": 1,
-          "width": 0,
-        },
-        "shadowOpacity": 0.2,
-        "shadowRadius": 2,
+        "padding": 16,
         "width": 512,
       },
     ]
@@ -6090,7 +6103,7 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
             "top": 0,
           },
           Object {
-            "bottom": undefined,
+            "bottom": 16,
           },
         ]
       }
@@ -6111,20 +6124,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6136,20 +6149,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
           $24
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6161,20 +6174,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
           $10
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6186,20 +6199,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
           $5
         </Text>
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6300,8 +6313,8 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -6334,8 +6347,8 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -6365,9 +6378,9 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "6%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -6390,9 +6403,9 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -6418,8 +6431,8 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -6452,8 +6465,8 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -6483,9 +6496,9 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "50%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -6508,9 +6521,9 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -6533,9 +6546,9 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "100%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -6558,9 +6571,9 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "75%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -6583,9 +6596,9 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "25%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -6608,9 +6621,9 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "height": "31%0",
               "maxHeight": "100%",
               "minHeight": 8,
@@ -6624,7 +6637,7 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
       style={
         Array [
           Object {
-            "height": undefined,
+            "height": 16,
           },
           Object {
             "alignItems": "center",
@@ -6650,20 +6663,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6687,20 +6700,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6724,20 +6737,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6761,20 +6774,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6798,20 +6811,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6835,20 +6848,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6872,20 +6885,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6909,20 +6922,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6946,20 +6959,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -6983,20 +6996,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -7020,20 +7033,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -7057,20 +7070,20 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         }
       >
         <Text
+          lighten={true}
           style={
             Array [
               Object {
-                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12.8,
-                "lineHeight": 15.36,
+                "fontSize": 16,
+                "lineHeight": 24,
               },
-              Object {
-                "color": undefined,
-              },
+              undefined,
+              false,
+              undefined,
               Object {
                 "fontSize": 8,
                 "height": 8,
@@ -7146,8 +7159,8 @@ exports[`<ChartBar> when {values} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -7180,8 +7193,8 @@ exports[`<ChartBar> when {values} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -7211,9 +7224,9 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -7235,9 +7248,9 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -7262,8 +7275,8 @@ exports[`<ChartBar> when {values} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -7296,8 +7309,8 @@ exports[`<ChartBar> when {values} 1`] = `
               Array [
                 Object {
                   "backgroundColor": undefined,
-                  "borderTopLeftRadius": 2.4,
-                  "borderTopRightRadius": 2.4,
+                  "borderTopLeftRadius": 0,
+                  "borderTopRightRadius": 0,
                   "maxHeight": "100%",
                   "minHeight": 8,
                   "width": "90%",
@@ -7327,9 +7340,9 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -7351,9 +7364,9 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -7375,9 +7388,9 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -7399,9 +7412,9 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -7423,9 +7436,9 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",
@@ -7447,9 +7460,9 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": undefined,
-              "borderTopLeftRadius": 2.4,
-              "borderTopRightRadius": 2.4,
+              "backgroundColor": "#62e6ac",
+              "borderTopLeftRadius": 0,
+              "borderTopRightRadius": 0,
               "maxHeight": "100%",
               "minHeight": 8,
               "width": "90%",

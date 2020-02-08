@@ -2,11 +2,11 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, FONT, SPACE } = THEME;
+const { COLOR, FONT, SPACE, UNIT } = THEME;
 
 export default StyleSheet.create({
   S: {
-    height: SPACE.XXL - SPACE.S,
+    height: SPACE.XL,
     paddingHorizontal: SPACE.S,
   },
   M: {
@@ -14,7 +14,7 @@ export default StyleSheet.create({
     paddingHorizontal: SPACE.M,
   },
   L: {
-    height: SPACE.XXL + SPACE.S,
+    height: SPACE.XXL + UNIT,
     paddingHorizontal: SPACE.M,
   },
 

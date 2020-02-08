@@ -1,6 +1,7 @@
 import React from 'react';
-import Text from '../Text';
+
 import { THEME } from '../../common';
+import { Text } from '..';
 
 const CHILDREN = <Text>lorem ipsum...</Text>;
 const STYLE = { backgroundColor: THEME.COLOR.BRAND };

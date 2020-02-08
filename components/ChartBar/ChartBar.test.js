@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import { ChartBar } from './ChartBar';
+import { ChartBar } from '..';
 import MOCKS from './ChartBar.mocks';
 
 const DEFAULT = { captions: MOCKS.CAPTIONS, values: MOCKS.VALUES };

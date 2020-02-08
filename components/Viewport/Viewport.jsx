@@ -3,7 +3,7 @@ import React, { createElement } from 'react';
 import { View, SafeAreaView, ScrollView } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import {Motion} from '..';
+import { Motion } from '..';
 import styles from './Viewport.style';
 
 const { MOTION } = THEME;
@@ -13,7 +13,7 @@ export const Viewport = ({
   children,
   onScroll,
   scroll = true,
-  styleContent = [],
+  styleContent,
   visible = true,
   ...others
 }) => {
@@ -24,10 +24,9 @@ export const Viewport = ({
   }) => {
     onScroll({ y });
   };
-
-  const height = LAYOUT.VIEWPORT.H;
-  const width = LAYOUT.VIEWPORT.W;
-  const props = scroll && onScroll ? { onScroll: handlenScroll, scrollEventThrottle: 32 } : {};
+  const {
+    VIEWPORT: { H: height, W: width },
+  } = LAYOUT;
 
   return (
     <Motion
@@ -40,7 +39,14 @@ export const Viewport = ({
       }
     >
       <SafeAreaView style={styles.safeArea}>
-        {createElement(scroll ? ScrollView : View, { ...props, style: [styles.content, styleContent] }, children)}
+        {createElement(
+          scroll ? ScrollView : View,
+          {
+            style: [styles.content, styleContent],
+            ...(scroll && onScroll ? { onScroll: handlenScroll, scrollEventThrottle: 32 } : {}),
+          },
+          children,
+        )}
       </SafeAreaView>
     </Motion>
   );

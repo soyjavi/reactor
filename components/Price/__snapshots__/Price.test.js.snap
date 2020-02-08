@@ -6,15 +6,17 @@ exports[`<Price> inject <Text> properties 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 19.2,
+        "fontSize": 32,
+        "fontWeight": "700",
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -27,16 +29,17 @@ exports[`<Price> renders 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -49,16 +52,17 @@ exports[`<Price> when {currency} 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -71,16 +75,17 @@ exports[`<Price> when {fixed} (0) 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -93,16 +98,17 @@ exports[`<Price> when {fixed} (4) 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -115,16 +121,17 @@ exports[`<Price> when {locale} (es-ES) 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -137,16 +144,17 @@ exports[`<Price> when {operator} 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -159,17 +167,18 @@ exports[`<Price> when {style} 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
+      undefined,
       Object {
-        "color": undefined,
+        "color": "#62e6ac",
         "fontSize": 16,
         "fontWeight": "bold",
       },
@@ -185,16 +194,17 @@ exports[`<Price> when {symbol} (left) 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -207,16 +217,17 @@ exports[`<Price> when {symbol} (right) 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >
@@ -229,16 +240,17 @@ exports[`<Price> when {value} 1`] = `
   style={
     Array [
       Object {
-        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 12.8,
-        "lineHeight": 15.36,
+        "fontSize": 16,
+        "lineHeight": 24,
       },
+      undefined,
       false,
-      Object {},
+      undefined,
+      undefined,
     ]
   }
 >

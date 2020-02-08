@@ -3,1150 +3,815 @@
 exports[`<Input> renders 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {color} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    color="green"
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        Object {
+          "color": "green",
+        },
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {currency} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
   <View
+    pointerEvents="none"
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
-        },
-        false,
-        false,
-        false,
-        undefined,
-      ]
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingHorizontal": 4,
+      }
     }
   >
-    <View
-      pointerEvents="none"
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "paddingHorizontal": undefined,
-        }
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#191919",
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontFamily": undefined,
-              "fontSize": 12.8,
-            },
-            Object {
-              "color": undefined,
-            },
-            Object {
-              "paddingLeft": undefined,
-            },
-          ]
-        }
-      >
-        $
-      </Text>
-    </View>
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="numeric"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
+    <Text
       style={
         Array [
           Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
             "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
+            "textAlignVertical": "center",
           },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "textAlignVertical": "center",
+          },
+          undefined,
           false,
           Object {
-            "textAlign": "right",
+            "color": "#a3a3a3",
           },
-          undefined,
-          undefined,
+          Object {
+            "paddingLeft": 4,
+          },
         ]
       }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    >
+      $
+    </Text>
   </View>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="numeric"
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
+        },
+        undefined,
+        Object {
+          "textAlign": "right",
+        },
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {disabled} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={false}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
+        undefined,
+        undefined,
         Object {
-          "backgroundColor": undefined,
+          "height": 40,
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={false}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          Object {
-            "color": undefined,
-          },
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {error} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
         Object {
-          "borderColor": "#e85a7e",
+          "height": 40,
         },
+        undefined,
+        undefined,
+        undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-    <Text />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text />
 </View>
 `;
 
 exports[`<Input> when {hint} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    hint="Hello World"
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
-  <Text
-    numberOfLines={2}
-    style={
-      Array [
-        Object {
-          "color": "#191919",
-          "fontFamily": undefined,
-          "textAlignVertical": "center",
-        },
-        Object {
-          "fontSize": 11.2,
-        },
-        Object {
-          "color": undefined,
-        },
-        Object {
-          "marginTop": undefined,
-          "maxWidth": "100%",
-          "paddingLeft": 0,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {icon} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
   <View
+    pointerEvents="none"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingHorizontal": 4,
+      }
+    }
+  >
+    <Text />
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <View
-      pointerEvents="none"
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "paddingHorizontal": undefined,
-        }
-      }
-    >
-      <Text />
-    </View>
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {keyboard} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboard="numeric"
+    keyboardType="numeric"
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="numeric"
-      keyboardType="numeric"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {label} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <Text
-    numberOfLines={2}
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    label="Hello World"
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "color": "#191919",
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
           "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
           "textAlignVertical": "center",
+          "width": "100%",
         },
+        undefined,
+        undefined,
         Object {
-          "fontSize": 11.2,
+          "height": 40,
         },
-        Object {
-          "color": undefined,
-        },
-        Object {
-          "color": "#191919",
-          "fontWeight": "700",
-          "marginBottom": 4,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
-        },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {lines} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={true}
+    numberOfLines={5}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={true}
-      numberOfLines={5}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {required} & {requiredIcon} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-    <Text />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text />
 </View>
 `;
 
 exports[`<Input> when {required} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {style} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      Object {
-        "backgroundColor": "rgba(0,255,0,0.25)",
-        "padding": 10,
-        "width": 256,
-      },
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value=""
+  />
 </View>
 `;
 
 exports[`<Input> when {valid} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
+        undefined,
+        undefined,
         Object {
-          "borderColor": undefined,
+          "height": 40,
         },
-        false,
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value="soyjavi"
-    />
-    <Text />
-  </View>
+    underlineColorAndroid="transparent"
+    value="soyjavi"
+  />
+  <Text />
 </View>
 `;
 
 exports[`<Input> when {value} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "marginBottom": undefined,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "paddingRight": 4,
+    }
   }
 >
-  <View
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    multiline={false}
+    placeholderTextColor="#a3a3a3"
+    rejectResponderTermination={true}
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": undefined,
-          "borderRadius": 2,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 1,
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "height": "100%",
+          "textAlignVertical": "center",
+          "width": "100%",
         },
-        false,
-        false,
-        false,
+        undefined,
+        undefined,
+        Object {
+          "height": 40,
+        },
+        undefined,
+        undefined,
         undefined,
       ]
     }
-  >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboard="default"
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rejectResponderTermination={true}
-      style={
-        Array [
-          Object {
-            "borderWidth": 0,
-            "color": "#191919",
-            "flex": 1,
-            "fontFamily": undefined,
-            "fontSize": 12.8,
-            "minHeight": 33.6,
-            "paddingHorizontal": undefined,
-            "paddingVertical": 6,
-            "width": "100%",
-          },
-          false,
-          undefined,
-          undefined,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value="soyjavi"
-    />
-  </View>
+    underlineColorAndroid="transparent"
+    value="soyjavi"
+  />
 </View>
 `;

@@ -74,7 +74,7 @@ export default StyleSheet.create({
   },
 
   lineCaption: {
-    ...ELEVATION.S,
+    ...ELEVATION,
     alignSelf: 'flex-start',
     borderRadius: SPACE.S,
     color: COLOR.WHITE,

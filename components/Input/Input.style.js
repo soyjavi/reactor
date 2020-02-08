@@ -2,16 +2,31 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, FONT, UNIT, SPACE } = THEME;
+const { COLOR, FONT, SPACE, UNIT } = THEME;
 
-const INPUT_HEIGHT = UNIT * 4.2;
+const INPUT_HEIGHT = {
+  S: SPACE.XL,
+  M: SPACE.XL + UNIT,
+  L: SPACE.XXL,
+};
 
 export { INPUT_HEIGHT };
 
 export default StyleSheet.create({
+  S: {
+    height: INPUT_HEIGHT.S,
+  },
+  M: {
+    height: INPUT_HEIGHT.M,
+  },
+  L: {
+    height: INPUT_HEIGHT.L,
+  },
+
   container: {
     ...LAYOUT.STYLE.ROW,
-    paddingHorizontal: SPACE.S,
+    height: '100%',
+    paddingRight: SPACE.XS,
     flex: 1,
   },
 
@@ -34,10 +49,7 @@ export default StyleSheet.create({
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
     flex: 1,
-    fontSize: UNIT * 1.6,
-    minHeight: INPUT_HEIGHT,
-    paddingHorizontal: SPACE.XS,
-    paddingVertical: UNIT * 0.75,
+    height: '100%',
     width: '100%',
     ...FONT.DEFAULT,
     ...FONT.INPUT,

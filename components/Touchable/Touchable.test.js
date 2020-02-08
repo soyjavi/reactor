@@ -2,18 +2,30 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { View, Text } from 'react-native';
 
-import Touchable from './Touchable';
+import { Touchable } from '..';
 
 jest.useFakeTimers();
 
 describe('<Touchable>', () => {
   it('renders', () => {
-    const tree = renderer.create(<Touchable><View /></Touchable>).toJSON();
+    const tree = renderer
+      .create(
+        <Touchable>
+          <View />
+        </Touchable>,
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {children}', () => {
-    const tree = renderer.create(<Touchable><Text>Hello World</Text></Touchable>).toJSON();
+    const tree = renderer
+      .create(
+        <Touchable>
+          <Text>Hello World</Text>
+        </Touchable>,
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 

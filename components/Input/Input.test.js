@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Input from './Input';
+import { Input } from '..';
 
 jest.useFakeTimers();
 
@@ -77,7 +77,9 @@ describe('<Input>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Input style={{ backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 }} />).toJSON();
+    const tree = renderer
+      .create(<Input style={{ backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 }} />)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

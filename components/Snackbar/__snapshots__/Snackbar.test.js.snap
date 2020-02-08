@@ -36,15 +36,12 @@ exports[`<Snackbar> renders 1`] = `
       onLayout={[Function]}
       style={
         Array [
-          Array [
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minWidth": 320,
-              "position": "absolute",
-              "width": "100%",
-            },
-          ],
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
           Object {
             "paddingBottom": 0,
           },
@@ -59,60 +56,35 @@ exports[`<Snackbar> renders 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": undefined,
-                "borderRadius": 2.4,
-                "shadowColor": "#191919",
-                "shadowOffset": Object {
-                  "height": 4,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 24,
+                "backgroundColor": "#ffffff",
               },
-              Array [
-                undefined,
-                Object {
-                  "backgroundColor": "#191919",
-                },
-              ],
+              Object {
+                "backgroundColor": "#191919",
+              },
             ]
           }
         >
           <View
             style={
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "paddingHorizontal": 4,
-                "paddingVertical": 4,
-              }
-            }
-          />
-          <RCTScrollView
-            style={
               Array [
                 Object {
-                  "paddingBottom": 16,
                   "paddingHorizontal": 16,
+                  "paddingVertical": 16,
                 },
-                false,
+                undefined,
               ]
             }
           >
-            <View>
-              <View
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
                 }
-              />
-            </View>
-          </RCTScrollView>
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -156,15 +128,12 @@ exports[`<Snackbar> when {button} 1`] = `
       onLayout={[Function]}
       style={
         Array [
-          Array [
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minWidth": 320,
-              "position": "absolute",
-              "width": "100%",
-            },
-          ],
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
           Object {
             "paddingBottom": 0,
           },
@@ -179,60 +148,35 @@ exports[`<Snackbar> when {button} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": undefined,
-                "borderRadius": 2.4,
-                "shadowColor": "#191919",
-                "shadowOffset": Object {
-                  "height": 4,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 24,
+                "backgroundColor": "#ffffff",
               },
-              Array [
-                undefined,
-                Object {
-                  "backgroundColor": "#191919",
-                },
-              ],
+              Object {
+                "backgroundColor": "#191919",
+              },
             ]
           }
         >
           <View
             style={
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "paddingHorizontal": 4,
-                "paddingVertical": 4,
-              }
-            }
-          />
-          <RCTScrollView
-            style={
               Array [
                 Object {
-                  "paddingBottom": 16,
                   "paddingHorizontal": 16,
+                  "paddingVertical": 16,
                 },
-                false,
+                undefined,
               ]
             }
           >
-            <View>
-              <View
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
                 }
-              />
-            </View>
-          </RCTScrollView>
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -277,15 +221,12 @@ exports[`<Snackbar> when {caption} 1`] = `
       onLayout={[Function]}
       style={
         Array [
-          Array [
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minWidth": 320,
-              "position": "absolute",
-              "width": "100%",
-            },
-          ],
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
           Object {
             "paddingBottom": 0,
           },
@@ -308,83 +249,59 @@ exports[`<Snackbar> when {caption} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": undefined,
-                "borderRadius": 2.4,
-                "shadowColor": "#191919",
-                "shadowOffset": Object {
-                  "height": 4,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 24,
+                "backgroundColor": "#ffffff",
               },
-              Array [
-                undefined,
-                Object {
-                  "backgroundColor": "#191919",
-                },
-              ],
+              Object {
+                "backgroundColor": "#191919",
+              },
             ]
           }
         >
           <View
             style={
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "paddingHorizontal": 4,
-                "paddingVertical": 4,
-              }
-            }
-          />
-          <RCTScrollView
-            style={
               Array [
                 Object {
-                  "paddingBottom": 16,
                   "paddingHorizontal": 16,
+                  "paddingVertical": 16,
                 },
-                false,
+                undefined,
               ]
             }
           >
-            <View>
-              <View
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "fontFamily": undefined,
+                      "textAlignVertical": "center",
+                    },
+                    Object {
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    false,
+                    Object {
+                      "color": "#ffffff",
+                    },
+                    Object {
+                      "flex": 1,
+                    },
+                  ]
                 }
               >
-                <Text
-                  style={
-                    Array [
-                      Object {
-                        "color": "#191919",
-                        "fontFamily": undefined,
-                        "textAlignVertical": "center",
-                      },
-                      Object {
-                        "fontSize": 11.2,
-                      },
-                      false,
-                      Object {
-                        "color": "#ffffff",
-                        "flex": 1,
-                        "marginRight": 8,
-                      },
-                    ]
-                  }
-                >
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
-                </Text>
-              </View>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
+              </Text>
             </View>
-          </RCTScrollView>
+          </View>
         </View>
       </View>
     </View>
@@ -429,15 +346,12 @@ exports[`<Snackbar> when {children} 1`] = `
       onLayout={[Function]}
       style={
         Array [
-          Array [
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minWidth": 320,
-              "position": "absolute",
-              "width": "100%",
-            },
-          ],
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
           Object {
             "paddingBottom": 0,
           },
@@ -460,62 +374,37 @@ exports[`<Snackbar> when {children} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": undefined,
-                "borderRadius": 2.4,
-                "shadowColor": "#191919",
-                "shadowOffset": Object {
-                  "height": 4,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 24,
+                "backgroundColor": "#ffffff",
               },
-              Array [
-                undefined,
-                Object {
-                  "backgroundColor": "#191919",
-                },
-              ],
+              Object {
+                "backgroundColor": "#191919",
+              },
             ]
           }
         >
           <View
             style={
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "paddingHorizontal": 4,
-                "paddingVertical": 4,
-              }
-            }
-          />
-          <RCTScrollView
-            style={
               Array [
                 Object {
-                  "paddingBottom": 16,
                   "paddingHorizontal": 16,
+                  "paddingVertical": 16,
                 },
-                false,
+                undefined,
               ]
             }
           >
-            <View>
-              <View
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
                 }
-              >
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
-              </View>
+              }
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
             </View>
-          </RCTScrollView>
+          </View>
         </View>
       </View>
     </View>
@@ -559,15 +448,12 @@ exports[`<Snackbar> when {color} 1`] = `
       onLayout={[Function]}
       style={
         Array [
-          Array [
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minWidth": 320,
-              "position": "absolute",
-              "width": "100%",
-            },
-          ],
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
           Object {
             "paddingBottom": 0,
           },
@@ -582,60 +468,35 @@ exports[`<Snackbar> when {color} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": undefined,
-                "borderRadius": 2.4,
-                "shadowColor": "#191919",
-                "shadowOffset": Object {
-                  "height": 4,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 24,
+                "backgroundColor": "#ffffff",
               },
-              Array [
-                undefined,
-                Object {
-                  "backgroundColor": "#191919",
-                },
-              ],
+              Object {
+                "backgroundColor": "#191919",
+              },
             ]
           }
         >
           <View
             style={
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "paddingHorizontal": 4,
-                "paddingVertical": 4,
-              }
-            }
-          />
-          <RCTScrollView
-            style={
               Array [
                 Object {
-                  "paddingBottom": 16,
                   "paddingHorizontal": 16,
+                  "paddingVertical": 16,
                 },
-                false,
+                undefined,
               ]
             }
           >
-            <View>
-              <View
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
                 }
-              />
-            </View>
-          </RCTScrollView>
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -680,15 +541,12 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
       onLayout={[Function]}
       style={
         Array [
-          Array [
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minWidth": 320,
-              "position": "absolute",
-              "width": "100%",
-            },
-          ],
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
           Object {
             "paddingBottom": 0,
           },
@@ -701,7 +559,7 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 1334,
+                "translateY": 1067.2,
               },
             ],
           }
@@ -711,60 +569,35 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": undefined,
-                "borderRadius": 2.4,
-                "shadowColor": "#191919",
-                "shadowOffset": Object {
-                  "height": 4,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 24,
+                "backgroundColor": "#ffffff",
               },
-              Array [
-                undefined,
-                Object {
-                  "backgroundColor": "#191919",
-                },
-              ],
+              Object {
+                "backgroundColor": "#191919",
+              },
             ]
           }
         >
           <View
             style={
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "paddingHorizontal": 4,
-                "paddingVertical": 4,
-              }
-            }
-          />
-          <RCTScrollView
-            style={
               Array [
                 Object {
-                  "paddingBottom": 16,
                   "paddingHorizontal": 16,
+                  "paddingVertical": 16,
                 },
-                false,
+                undefined,
               ]
             }
           >
-            <View>
-              <View
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
                 }
-              />
-            </View>
-          </RCTScrollView>
+              }
+            />
+          </View>
         </View>
       </View>
     </View>

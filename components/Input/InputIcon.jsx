@@ -11,7 +11,7 @@ export const InputIcon = ({ active = true, rounded = true, ...others }) => {
   if (rounded) value = active ? 'check-circle' : 'checkbox-blank-circle-outline';
   else value = active ? 'checkbox-marked' : 'checkbox-blank-outline';
 
-  return <Icon color={active ? COLOR.BRAND : undefined} value={value} {...others} />;
+  return <Icon color={active ? COLOR.BRAND : undefined} _size={20} value={value} {...others} />;
 };
 
 InputIcon.propTypes = {

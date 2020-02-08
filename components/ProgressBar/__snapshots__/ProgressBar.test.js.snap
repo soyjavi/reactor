@@ -6,7 +6,7 @@ exports[`<ProgressBar> renders 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#ffffff",
         "height": 4,
         "overflow": "hidden",
         "width": "100%",
@@ -19,7 +19,7 @@ exports[`<ProgressBar> renders 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#62e6ac",
         "height": "100%",
       }
     }
@@ -33,7 +33,7 @@ exports[`<ProgressBar> when {color} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#ffffff",
         "height": 4,
         "overflow": "hidden",
         "width": "100%",
@@ -60,7 +60,7 @@ exports[`<ProgressBar> when {progress} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#ffffff",
         "height": 4,
         "overflow": "hidden",
         "width": "100%",
@@ -73,7 +73,7 @@ exports[`<ProgressBar> when {progress} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#62e6ac",
         "height": "100%",
         "width": 0,
       }
@@ -88,7 +88,7 @@ exports[`<ProgressBar> when {style} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#ffffff",
         "height": 4,
         "overflow": "hidden",
         "width": "100%",
@@ -104,7 +104,7 @@ exports[`<ProgressBar> when {style} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#62e6ac",
         "height": "100%",
       }
     }
@@ -118,7 +118,7 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#ffffff",
         "height": 4,
         "overflow": "hidden",
         "width": "100%",
@@ -133,7 +133,7 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#62e6ac",
         "height": "100%",
         "width": 0,
       }

@@ -1,17 +1,7 @@
 import { useEnvironment } from './environment';
 import PKG from '../package.json';
 
-const KEYS = [
-  'IS_NATIVE',
-  'IS_WEB',
-  'IS_MOBILE_WEB',
-  'IS_PRODUCTION',
-  'IS_DEVELOPMENT',
-  'IS_TEST',
-  'NODE_ENV',
-  'PKG',
-  'REACT_APP_ENV',
-];
+const KEYS = ['IS_NATIVE', 'IS_WEB', 'IS_MOBILE_WEB', 'IS_PRODUCTION', 'IS_DEVELOPMENT', 'IS_TEST', 'NODE_ENV', 'PKG'];
 
 describe('environment', () => {
   it('default', () => {
@@ -26,6 +16,5 @@ describe('environment', () => {
     expect(env.IS_TEST).toEqual(true);
     expect(env.NODE_ENV).toEqual('test');
     expect(env.PKG).toEqual({ name: PKG.name, version: PKG.version });
-    expect(env.REACT_APP_ENV).toEqual('development');
   });
 });

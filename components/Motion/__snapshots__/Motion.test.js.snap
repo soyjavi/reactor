@@ -61,7 +61,7 @@ exports[`<Motion> when {style} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "#62e6ac",
       "left": 128,
       "opacity": 0.75,
       "padding": 32,

@@ -4,7 +4,7 @@ exports[`<Viewport> renders 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "#ffffff",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -30,7 +30,7 @@ exports[`<Viewport> renders 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -44,7 +44,7 @@ exports[`<Viewport> when {backward} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "#ffffff",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -70,7 +70,7 @@ exports[`<Viewport> when {backward} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -84,7 +84,7 @@ exports[`<Viewport> when {children} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "#ffffff",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -115,7 +115,7 @@ exports[`<Viewport> when {children} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -133,7 +133,7 @@ exports[`<Viewport> when {onScroll} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "#ffffff",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -161,7 +161,7 @@ exports[`<Viewport> when {onScroll} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -175,7 +175,7 @@ exports[`<Viewport> when {style} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "#ffffff",
       "height": 480,
       "left": 0,
       "overflow": "hidden",
@@ -206,7 +206,7 @@ exports[`<Viewport> when {style} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >
@@ -220,7 +220,7 @@ exports[`<Viewport> when {styleContent} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "#ffffff",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -262,7 +262,7 @@ exports[`<Viewport> when {visible} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": undefined,
+      "backgroundColor": "#ffffff",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -293,7 +293,7 @@ exports[`<Viewport> when {visible} 1`] = `
             "width": "100%",
             "zIndex": 0,
           },
-          Array [],
+          undefined,
         ]
       }
     >

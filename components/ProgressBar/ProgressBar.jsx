@@ -5,7 +5,7 @@ import { View } from 'react-native';
 import { Motion } from '..';
 import styles from './ProgressBar.style';
 
-const ProgressBar = ({ progress = 0, ...others }) => {
+export const ProgressBar = ({ progress = 0, ...others }) => {
   const [layoutWidth, setLayoutWidth] = useState(0);
 
   return (
@@ -26,9 +26,3 @@ const ProgressBar = ({ progress = 0, ...others }) => {
 ProgressBar.propTypes = {
   progress: number,
 };
-
-ProgressBar.defaultProps = {
-  progress: undefined,
-};
-
-export default ProgressBar;

@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import Image from './Image';
+import { Image } from '..';
 
 const dataSource = [
   { caption: 'Spain', href: '/' },

@@ -249,7 +249,7 @@ exports[`<Slider> when {navigation} 1`] = `
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderRadius": 2.4,
+              "borderRadius": 0,
               "bottom": 0,
               "left": 0,
               "overflow": "hidden",
@@ -344,7 +344,7 @@ exports[`<Slider> when {navigation} 1`] = `
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderRadius": 2.4,
+              "borderRadius": 0,
               "bottom": 0,
               "left": 0,
               "overflow": "hidden",

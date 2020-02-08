@@ -1,84 +1,106 @@
-import { bool, number, oneOfType, shape, string } from 'prop-types';
+import { bool, number, oneOfType, shape, string, func, oneOf } from 'prop-types';
 import React, { useState } from 'react';
 import { View } from 'react-native';
 
 import { THEME } from '../../common';
-import { Input, InputList, InputOption, InputSelect, Text, Switch } from '..';
+import { Input, InputOption, InputSelect, InputSwitch, Text } from '..';
 
 import { KEYBOARDS } from './Form.config';
-import { buildStyle } from './modules';
 import styles from './FormField.style';
 
-const { COLOR } = THEME;
+const { COLOR, INPUT } = THEME;
 
 const keyboards = Object.keys(KEYBOARDS);
 
 export const FormField = ({
-  color = COLOR.BLACK,
-  colorDisabled = COLOR.GRAY.L,
-  props: { disabled, hint, label, inline, keyboard, required, style, type, countryCode, defaultValue, ...props } = {},
+  attributes: {
+    disabled,
+    hint,
+    inline,
+    label,
+    keyboard,
+    required,
+    style,
+    type,
+    countryCode,
+    defaultValue,
+    ...attributes
+  } = {},
+  color = COLOR.BRAND,
+  field,
+  onChange,
+  size = 'M',
   validate,
   value = defaultValue,
-  ...others
 }) => {
   const [focus, setFocus] = useState(false);
-  let { error } = props;
+  const isTouchable = type === 'bool' || type === 'option';
 
-  if (!error && keyboards.includes(keyboard) && !KEYBOARDS[keyboard](value, { countryCode })) error = 'error';
+  const colorSecondary = INPUT.borderColor;
+
+  const error = !error && keyboards.includes(keyboard) && !KEYBOARDS[keyboard](value, { countryCode });
 
   const Inputs = {
-    bool: Switch,
+    bool: InputSwitch,
     option: InputOption,
     select: InputSelect,
-    list: InputList,
   };
-
   const InputComponent = Inputs[type] || Input;
-  let borderColor = focus ? color : colorDisabled;
-  if (error) borderColor = COLOR.ERROR;
+  const inputColor = error ? COLOR.ERROR : focus ? color : colorSecondary;
 
   return (
-    <View style={[styles.container, buildStyle({ inline, style }, styles), others.style]}>
-      {(label || others.field) && (
-        <Text bold caption color={focus ? color : colorDisabled} numberOfLines={2}>
-          {label || others.field}
-        </Text>
-      )}
+    <View style={[styles.container, inline && styles.inline, focus && styles.focus, style]}>
+      {isTouchable ? (
+        <InputComponent {...attributes} size={size} value={value}>
+          <Text bold caption color={inputColor} numberOfLines={2}>
+            {label || field}
+          </Text>
+        </InputComponent>
+      ) : (
+        <>
+          <Text bold caption color={inputColor} numberOfLines={2} style={styles.label}>
+            {label || field}
+          </Text>
 
-      <View
-        style={[
-          styles.content,
-          disabled && styles.disabled,
-          disabled && { backgroundColor: colorDisabled },
-          { borderColor },
-        ]}
-      >
-        <InputComponent
-          {...others}
-          {...props}
-          onBlur={disabled ? undefined : () => setFocus(false)}
-          onFocus={disabled ? undefined : () => setFocus(true)}
-          error={error}
-          required={required && (value === undefined || (!type && value.trim().length === 0))}
-          valid={!error && !disabled && value && validate ? true : false}
-          value={value}
-        />
-      </View>
+          <View
+            style={[
+              styles.content,
+              disabled && styles.disabled,
+              disabled ? { backgroundColor: colorSecondary } : { borderColor: inputColor },
+            ]}
+          >
+            <InputComponent
+              {...attributes}
+              disabled={disabled}
+              onChange={onChange}
+              onBlur={disabled ? undefined : () => setFocus(false)}
+              onFocus={disabled ? undefined : () => setFocus(true)}
+              error={error}
+              required={required && (value === undefined || (!type && value.trim().length === 0))}
+              size={size}
+              valid={!error && !disabled && value && validate ? true : false}
+              value={value}
+            />
+          </View>
 
-      {hint && (
-        <Text {...others} numberOfLines={2} caption lighten style={styles.hint}>
-          {hint}
-        </Text>
+          {hint && (
+            <Text color={colorSecondary} numberOfLines={2} caption>
+              {hint}
+            </Text>
+          )}
+        </>
       )}
     </View>
   );
 };
 
 FormField.propTypes = {
+  attributes: shape({}),
   color: string,
   colorDisabled: string,
-  error: string,
-  props: shape({}),
+  field: string.isRequired,
+  onChange: func,
+  size: oneOf(['S', 'M', 'L']),
   validate: bool,
   value: oneOfType([number, string]),
 };

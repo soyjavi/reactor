@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<InputOption> inherity:style 1`] = `
+exports[`<InputOption> label 1`] = `
 <View
   accessible={true}
   focusable={false}
@@ -20,11 +20,9 @@ exports[`<InputOption> inherity:style 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": undefined,
         },
         Object {
-          "backgroundColor": "rgba(0,255,0,0.25)",
-          "padding": 10,
+          "height": 40,
         },
       ],
     ]
@@ -36,7 +34,7 @@ exports[`<InputOption> inherity:style 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 2.4,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -63,7 +61,7 @@ exports[`<InputOption> inherity:style 1`] = `
 </View>
 `;
 
-exports[`<InputOption> label 1`] = `
+exports[`<InputOption> othersy:style 1`] = `
 <View
   accessible={true}
   focusable={false}
@@ -83,46 +81,21 @@ exports[`<InputOption> label 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": undefined,
         },
-        undefined,
+        Object {
+          "height": 40,
+        },
       ],
     ]
   }
 >
   <Text />
-  <Text
-    numberOfLines={2}
-    style={
-      Array [
-        Object {
-          "color": "#191919",
-          "fontFamily": undefined,
-          "textAlignVertical": "center",
-        },
-        Object {
-          "fontSize": 11.2,
-        },
-        Object {
-          "color": undefined,
-        },
-        Object {
-          "color": "#191919",
-          "fontWeight": "700",
-          "marginBottom": 0,
-          "marginLeft": 4,
-        },
-      ]
-    }
-  >
-    Lorem Ipsum...
-  </Text>
   <View
     style={
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 2.4,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -169,9 +142,10 @@ exports[`<InputOption> renders 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": undefined,
         },
-        undefined,
+        Object {
+          "height": 40,
+        },
       ],
     ]
   }
@@ -182,7 +156,7 @@ exports[`<InputOption> renders 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 2.4,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -229,9 +203,10 @@ exports[`<InputOption> rounded (false) 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": undefined,
         },
-        undefined,
+        Object {
+          "height": 40,
+        },
       ],
     ]
   }
@@ -242,7 +217,7 @@ exports[`<InputOption> rounded (false) 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 2.4,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
@@ -289,9 +264,10 @@ exports[`<InputOption> value 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "marginBottom": undefined,
         },
-        undefined,
+        Object {
+          "height": 40,
+        },
       ],
     ]
   }
@@ -302,7 +278,7 @@ exports[`<InputOption> value 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderRadius": 2.4,
+          "borderRadius": 0,
           "bottom": 0,
           "left": 0,
           "overflow": "hidden",
