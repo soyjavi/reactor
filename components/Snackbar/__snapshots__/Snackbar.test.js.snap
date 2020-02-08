@@ -83,7 +83,31 @@ exports[`<Snackbar> renders 1`] = `
                   "flexDirection": "row",
                 }
               }
-            />
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": undefined,
+                      "textAlignVertical": "center",
+                    },
+                    Object {
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    false,
+                    Object {
+                      "color": "#ffffff",
+                    },
+                    Object {
+                      "flex": 1,
+                    },
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </Text>
+            </View>
           </View>
         </View>
       </View>
@@ -92,7 +116,132 @@ exports[`<Snackbar> renders 1`] = `
 </View>
 `;
 
-exports[`<Snackbar> when {button} 1`] = `
+exports[`<Snackbar> when {color} 1`] = `
+<View
+  pointerEvents="auto"
+  style={
+    Object {
+      "height": "100%",
+      "left": 0,
+      "maxHeight": "100%",
+      "opacity": 1,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+      "zIndex": 2,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        false,
+        Object {
+          "justifyContent": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
+          Object {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <View
+        pointerEvents="auto"
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "translateY": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+              },
+              Object {
+                "backgroundColor": "#62e6ac",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 16,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": undefined,
+                      "textAlignVertical": "center",
+                    },
+                    Object {
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    false,
+                    Object {
+                      "color": "#ffffff",
+                    },
+                    Object {
+                      "flex": 1,
+                    },
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Snackbar> when {icon} 1`] = `
 <View
   pointerEvents="auto"
   style={
@@ -175,7 +324,32 @@ exports[`<Snackbar> when {button} 1`] = `
                   "flexDirection": "row",
                 }
               }
-            />
+            >
+              <Text />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": undefined,
+                      "textAlignVertical": "center",
+                    },
+                    Object {
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    false,
+                    Object {
+                      "color": "#ffffff",
+                    },
+                    Object {
+                      "flex": 1,
+                    },
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </Text>
+            </View>
           </View>
         </View>
       </View>
@@ -184,7 +358,7 @@ exports[`<Snackbar> when {button} 1`] = `
 </View>
 `;
 
-exports[`<Snackbar> when {caption} 1`] = `
+exports[`<Snackbar> when {onClose} 1`] = `
 <View
   pointerEvents="auto"
   style={
@@ -298,111 +472,89 @@ exports[`<Snackbar> when {caption} 1`] = `
                   ]
                 }
               >
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               </Text>
-            </View>
-          </View>
-        </View>
-      </View>
-    </View>
-  </RCTSafeAreaView>
-</View>
-`;
-
-exports[`<Snackbar> when {children} 1`] = `
-<View
-  pointerEvents="auto"
-  style={
-    Object {
-      "height": "100%",
-      "left": 0,
-      "maxHeight": "100%",
-      "opacity": 1,
-      "position": "absolute",
-      "top": 0,
-      "width": "100%",
-      "zIndex": 2,
-    }
-  }
->
-  <RCTSafeAreaView
-    emulateUnlessSupported={true}
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "flex": 1,
-          "justifyContent": "center",
-        },
-        false,
-        Object {
-          "justifyContent": "flex-end",
-        },
-      ]
-    }
-  >
-    <View
-      onLayout={[Function]}
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "maxHeight": "100%",
-            "position": "absolute",
-            "width": "100%",
-          },
-          Object {
-            "paddingBottom": 0,
-          },
-        ]
-      }
-    >
-      <View
-        pointerEvents="auto"
-        style={
-          Object {
-            "transform": Array [
-              Object {
-                "translateY": 0,
-              },
-            ],
-          }
-        }
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "#ffffff",
-              },
-              Object {
-                "backgroundColor": "#191919",
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onLayout={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="box-only"
+                style={
+                  Array [
+                    undefined,
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "alignSelf": "flex-start",
+                        "justifyContent": "center",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#191919",
+                        "borderRadius": undefined,
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      Object {
+                        "alignSelf": "center",
+                      },
+                    ],
+                  ]
                 }
-              }
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "height": 0,
+                        "opacity": 0,
+                        "width": 0,
+                        "zIndex": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
             </View>
           </View>
         </View>
@@ -412,9 +564,9 @@ exports[`<Snackbar> when {children} 1`] = `
 </View>
 `;
 
-exports[`<Snackbar> when {color} 1`] = `
+exports[`<Snackbar> when {visible} (false) 1`] = `
 <View
-  pointerEvents="auto"
+  pointerEvents="none"
   style={
     Object {
       "height": "100%",
@@ -495,108 +647,29 @@ exports[`<Snackbar> when {color} 1`] = `
                   "flexDirection": "row",
                 }
               }
-            />
-          </View>
-        </View>
-      </View>
-    </View>
-  </RCTSafeAreaView>
-</View>
-`;
-
-exports[`<Snackbar> when {visible} (false) 1`] = `
-<View
-  pointerEvents="none"
-  style={
-    Object {
-      "height": "100%",
-      "left": 0,
-      "maxHeight": "100%",
-      "opacity": 0,
-      "position": "absolute",
-      "top": 0,
-      "width": "100%",
-      "zIndex": 2,
-    }
-  }
->
-  <RCTSafeAreaView
-    emulateUnlessSupported={true}
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "flex": 1,
-          "justifyContent": "center",
-        },
-        false,
-        Object {
-          "justifyContent": "flex-end",
-        },
-      ]
-    }
-  >
-    <View
-      onLayout={[Function]}
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "maxHeight": "100%",
-            "position": "absolute",
-            "width": "100%",
-          },
-          Object {
-            "paddingBottom": 0,
-          },
-        ]
-      }
-    >
-      <View
-        pointerEvents="auto"
-        style={
-          Object {
-            "transform": Array [
-              Object {
-                "translateY": 1067.2,
-              },
-            ],
-          }
-        }
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "#ffffff",
-              },
-              Object {
-                "backgroundColor": "#191919",
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "paddingHorizontal": 16,
-                  "paddingVertical": 16,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": undefined,
+                      "textAlignVertical": "center",
+                    },
+                    Object {
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    false,
+                    Object {
+                      "color": "#ffffff",
+                    },
+                    Object {
+                      "flex": 1,
+                    },
+                  ]
                 }
-              }
-            />
+              />
+            </View>
           </View>
         </View>
       </View>

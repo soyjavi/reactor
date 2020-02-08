@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Button, Snackbar } from '../components';
 
 export const SnackbarStory = () => {
-  const [snackbar, setSnackbar] = useState(false);
+  const [snackbar, setSnackbar] = useState(true);
 
   return (
     <>
@@ -11,6 +11,7 @@ export const SnackbarStory = () => {
 
       <Snackbar
         caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        icon="comment-question-outline"
         visible={snackbar}
         onClose={() => setSnackbar(false)}
       />

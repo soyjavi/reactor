@@ -1,6 +1,8 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT } from '../../common';
+import { LAYOUT, THEME } from '../../common';
+
+const { SPACE } = THEME;
 
 export default StyleSheet.create({
   button: {
@@ -9,6 +11,10 @@ export default StyleSheet.create({
 
   caption: {
     flex: 1,
+  },
+
+  icon: {
+    marginRight: SPACE.M,
   },
 
   overlay: {

@@ -4,10 +4,15 @@ import renderer from 'react-test-renderer';
 import { THEME } from '../../common';
 import { Snackbar } from '..';
 
-const LOREM =
-  'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.';
-const DEFAULTS = { visible: true };
-const { COLOR } = THEME;
+const icon = 'comment-question-outline';
+const onClose = () => {};
+const DEFAULTS = {
+  caption: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  visible: true,
+};
+const {
+  COLOR: { BRAND: color },
+} = THEME;
 
 jest.useFakeTimers();
 
@@ -17,23 +22,18 @@ describe('<Snackbar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {caption}', () => {
-    const tree = renderer.create(<Snackbar {...DEFAULTS} caption={LOREM} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {button}', () => {
-    const tree = renderer.create(<Snackbar {...DEFAULTS} button="CLOSE" />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {children}', () => {
-    const tree = renderer.create(<Snackbar {...DEFAULTS}>{LOREM}</Snackbar>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it('when {color}', () => {
-    const tree = renderer.create(<Snackbar {...DEFAULTS} color={COLOR.ALERT} />).toJSON();
+    const tree = renderer.create(<Snackbar {...DEFAULTS} color={color} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {icon}', () => {
+    const tree = renderer.create(<Snackbar {...DEFAULTS} icon={icon} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {onClose}', () => {
+    const tree = renderer.create(<Snackbar {...DEFAULTS} onClose={onClose} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -41,8 +41,4 @@ describe('<Snackbar>', () => {
     const tree = renderer.create(<Snackbar visible={false} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
-
-  // it('when {onPress}', () => {
-  //   // @TODO: Test <Snackbar /> {onPress}
-  // });
 });
