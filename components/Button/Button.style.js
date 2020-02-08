@@ -35,7 +35,6 @@ export default StyleSheet.create({
   row: LAYOUT.STYLE.ROW,
 
   text: {
-    ...FONT.DEFAULT,
     ...FONT.BUTTON,
     ...Platform.select({
       web: {

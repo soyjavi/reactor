@@ -6,13 +6,14 @@ import { THEME } from '../../common';
 import { Activity, Icon, Text, Touchable } from '../';
 import styles from './Button.style';
 
-const { COLOR } = THEME;
+const { BORDER_RADIUS, COLOR } = THEME;
 
 export const Button = ({
   activity,
-  borderRadius,
+  borderRadius = BORDER_RADIUS,
   children,
   color = COLOR.CTA || COLOR.GRAY.M,
+  colorText = COLOR.WHITE,
   disabled,
   icon,
   onPress,
@@ -22,7 +23,7 @@ export const Button = ({
   wide,
   ...others
 }) => {
-  const colorContent = disabled ? COLOR.GRAY.L : outlined ? color : others.colorContent || COLOR.WHITE;
+  const colorContent = disabled ? COLOR.GRAY.L : outlined ? color : colorText;
 
   return (
     <Touchable
@@ -60,6 +61,7 @@ Button.propTypes = {
   borderRadius: number,
   children: node,
   color: string,
+  colorText: string,
   disabled: bool,
   icon: string,
   onPress: func,

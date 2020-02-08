@@ -26,7 +26,7 @@ export default StyleSheet.create({
 
   content: {
     padding: SPACE.L,
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.BACKGROUND,
   },
 
   keyboardView: {
