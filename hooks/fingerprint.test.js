@@ -1,8 +1,8 @@
-import Fingerprint from './Fingerprint';
+import { useFingerprint } from './Fingerprint';
 
-describe('Fingerprint()', () => {
+describe('useFingerprint()', () => {
   it('default', async () => {
-    const fingerprint = await Fingerprint();
+    const fingerprint = await useFingerprint();
     expect(fingerprint).toBeDefined();
     expect(Object.keys(fingerprint)).toEqual(['uuid', 'device_id']);
     expect(fingerprint.uuid.length).toEqual(36);

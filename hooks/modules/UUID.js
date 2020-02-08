@@ -48,7 +48,7 @@ const generateParts = (input, key, maxHexLength) => {
   return acc.toString(16);
 };
 
-export default (input = '') => {
+export const UUID = (input = '') => {
   const str = input.toString();
   if (str.length === 0) return DEFAULT_UUID;
 
@@ -57,7 +57,7 @@ export default (input = '') => {
     parts[0],
     parts[1].substr(0, 4),
     `4${parts[1].substr(4, 3)}`,
-    (parseInt(parts[1][7], 16) & 0x3 | 0x8).toString(16) + parts[1].substr(8, 3), // eslint-disable-line
+    ((parseInt(parts[1][7], 16) & 0x3) | 0x8).toString(16) + parts[1].substr(8, 3), // eslint-disable-line
     parts[2],
   ].join('-');
 

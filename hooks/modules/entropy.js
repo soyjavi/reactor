@@ -1,6 +1,6 @@
 import { DeviceInfo, Dimensions, PixelRatio, Platform } from 'react-native';
 
-import { useEnvironment } from '../../../hooks';
+import { useEnvironment } from '..';
 
 const CLIENT_STRINGS = [
   { s: 'Windows 10', r: /(Windows 10.0|Windows NT 10.0)/ },
@@ -144,7 +144,7 @@ if (osName === 'iOS') {
   deviceModel = 'Desktop';
 }
 
-export default {
+export const entropy = {
   // Browser
   browserName,
   browserVersion,

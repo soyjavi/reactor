@@ -1,9 +1,6 @@
-import sha256 from './sha256';
+import { sha256 } from './sha256';
 
-const SAMPLES = [
-  'platform',
-  'environment',
-];
+const SAMPLES = ['platform', 'environment'];
 
 const HASHES = [
   'd294fcce0cc88587843099d85dd805aeef1b09a63b0db1dd3e4dc62a343c1db5',

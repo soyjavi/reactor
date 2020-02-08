@@ -1,10 +1,6 @@
-import UUID from './UUID';
+import { UUID } from './UUID';
 
-const SAMPLES = [
-  'platform',
-  'environment',
-  'soyjavi.com',
-];
+const SAMPLES = ['platform', 'environment', 'soyjavi.com'];
 
 const HASHES = [
   '2040C908-5E9B-42F0-A03C-3483B4810E9E',

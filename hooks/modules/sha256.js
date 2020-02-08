@@ -1,7 +1,7 @@
 const MAX_WORDS = 2 ** 32;
 const rotate = (value, amount) => (value >>> amount) | (value << (32 - amount));
 
-const sha256 = (value = '') => {
+export const sha256 = (value = '') => {
   let ascii = value;
   const words = [];
   const asciiBitLength = ascii.length * 8;
@@ -86,5 +86,3 @@ const sha256 = (value = '') => {
 
   return result;
 };
-
-export default sha256;

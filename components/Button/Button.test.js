@@ -49,12 +49,12 @@ describe('<Button>', () => {
   });
 
   it('when {icon}', () => {
-    const tree = renderer.create(<Button icon="closeContrast" />).toJSON();
+    const tree = renderer.create(<Button icon="close" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {icon} & {title}', () => {
-    const tree = renderer.create(<Button icon="closeContrast" title="Press me" />).toJSON();
+    const tree = renderer.create(<Button icon="close" title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

@@ -1,4 +1,4 @@
-import entropy from './entropy';
+import { entropy } from './entropy';
 
 const ENTROPY_KEYS = [
   'browserName',
@@ -14,7 +14,7 @@ const ENTROPY_KEYS = [
   'width',
   'totalMemory',
   'userAgent',
-]
+];
 
 describe('entropy', () => {
   it('default', () => {
@@ -29,8 +29,8 @@ describe('entropy', () => {
     expect(entropy.osName).toEqual('iOS');
     expect(entropy.osVersion).toBeUndefined();
     expect(entropy.pixelRatio).toEqual(2);
-    expect(entropy.totalMemory).toBeUndefined()
-    expect(entropy.userAgent).toBeUndefined()
+    expect(entropy.totalMemory).toBeUndefined();
+    expect(entropy.userAgent).toBeUndefined();
     expect(entropy.width).toEqual(750);
   });
 });

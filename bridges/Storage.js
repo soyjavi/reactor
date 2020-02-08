@@ -1,6 +1,7 @@
 import { AsyncStorage } from 'react-native';
+// @TODO: import AsyncStorage from '@react-native-community/async-storage';
 
-export default {
+export const Storage = {
   async get(key) {
     const store = await AsyncStorage.getItem(key);
     if (store === undefined || store === null) return undefined;
