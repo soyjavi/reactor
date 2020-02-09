@@ -1,5 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<LayoutView> hook:styler 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      Object {
+        "marginBottom": 16,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
 exports[`<LayoutView> renders 1`] = `
 <View
   style={

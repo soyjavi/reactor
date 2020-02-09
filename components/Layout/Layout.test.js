@@ -21,4 +21,9 @@ describe('<LayoutView>', () => {
   it('when {onLayout}', () => {
     // @TODO: Test <LayoutView /> {onLayout}
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<LayoutView marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });

@@ -4,7 +4,7 @@ import { View } from 'react-native';
 import styles from './Layout.style';
 
 import { LAYOUT } from '../../common';
-import { useEnvironment } from '../../hooks';
+import { useBanStylerProps, useEnvironment, useStyler } from '../../hooks';
 
 const { Provider, Consumer: LayoutConsumer } = createContext('reactor:layout');
 
@@ -24,10 +24,10 @@ const LayoutView = ({ children, onResize, ...others }) => {
   return (
     <Provider value={{ style: LAYOUT.STYLE, viewport: LAYOUT.VIEWPORT }}>
       <View
-        {...others}
+        {...useBanStylerProps(others)}
         key={key}
         onLayout={IS_WEB && !IS_MOBILE_WEB ? handleLayout : undefined}
-        style={[styles.container, others.style]}
+        style={[styles.container, ...useStyler(others)]}
       >
         {children}
       </View>
