@@ -4,6 +4,7 @@ import React from 'react';
 import styles from './Activity.style';
 
 import { THEME } from '../../common';
+import { useStyler } from '../../hooks';
 
 const {
   COLOR,
@@ -28,7 +29,7 @@ export const Activity = ({ color = COLOR.BASE, size, ...others }) => {
   animate(0);
 
   return (
-    <View style={[styles.container, others.style]}>
+    <View style={[styles.container, ...useStyler(others)]}>
       {opacities.map((value, index) => (
         <Animated.View
           key={index.toString()}

@@ -37,4 +37,9 @@ describe('<Activity>', () => {
     const tree = renderer.create(<Activity style={MOCKS.STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Activity marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });
