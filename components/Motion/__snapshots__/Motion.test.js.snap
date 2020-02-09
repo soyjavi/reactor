@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Motion> hook:styler 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+    }
+  }
+/>
+`;
+
 exports[`<Motion> renders 1`] = `
 <View
   style={Object {}}
@@ -34,8 +44,8 @@ exports[`<Motion> when {disabled} 1`] = `
 <View
   style={
     Array [
-      undefined,
       false,
+      undefined,
     ]
   }
 />

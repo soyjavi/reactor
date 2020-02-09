@@ -58,4 +58,9 @@ describe('<Motion>', () => {
     const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} useNativeDriver />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Motion marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });

@@ -1,8 +1,9 @@
-import { arrayOf, bool, node, number, oneOf, shape, string } from 'prop-types';
+import { arrayOf, bool, node, number, shape, string } from 'prop-types';
 import React, { useEffect, useState } from 'react';
 import { Animated, View } from 'react-native';
 
 import { SHAPE, THEME } from '../../common';
+import { useStyler } from '../../hooks';
 import { buildStyle } from './modules';
 
 const {
@@ -41,7 +42,7 @@ export const Motion = ({
   return React.createElement(
     disabled ? View : Animated.View,
     {
-      style: [others.style, !disabled && buildStyle(timeline, state)],
+      style: [!disabled && buildStyle(timeline, state), ...useStyler(others)],
       pointerEvents: others.pointerEvents || undefined,
     },
     children,
