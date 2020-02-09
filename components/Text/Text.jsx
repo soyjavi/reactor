@@ -3,6 +3,7 @@ import React from 'react';
 import { Text as NativeText } from 'react-native';
 
 import { useTheme } from '../../context';
+import { useBanStylerProps, useStyler } from '../../hooks';
 import styles from './Text.style';
 
 const determineStyle = ({ caption, input, headline, subtitle }) => {
@@ -27,14 +28,14 @@ export const Text = ({
 
   return (
     <NativeText
-      {...others}
+      {...useBanStylerProps(others)}
       style={[
         styles.default,
         determineStyle({ caption, input, headline, subtitle }),
         FAMILY && { fontFamily: FAMILY },
         bold && styles.bold,
         color && { color },
-        others.style,
+        ...useStyler(others),
       ]}
     />
   );

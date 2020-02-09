@@ -46,4 +46,9 @@ describe('<Text>', () => {
     const tree = renderer.create(<Text style={{ color: 'orange' }}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Text marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });

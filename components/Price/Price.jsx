@@ -15,7 +15,7 @@ const Price = ({
   value = 0,
   ...others
 }) => (
-  <Text {...others} style={others.style}>
+  <Text {...others}>
     {format({
       currency,
       fixed,

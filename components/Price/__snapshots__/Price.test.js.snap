@@ -1,5 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Price> hook:styler 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontFamily": undefined,
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 16,
+        "lineHeight": 24,
+      },
+      undefined,
+      false,
+      undefined,
+      Object {
+        "marginBottom": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  0
+</Text>
+`;
+
 exports[`<Price> inject <Text> properties 1`] = `
 <Text
   level={3}

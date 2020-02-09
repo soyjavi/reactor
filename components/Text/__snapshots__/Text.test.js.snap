@@ -1,5 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Text> hook:styler 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontFamily": undefined,
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 16,
+        "lineHeight": 24,
+      },
+      undefined,
+      false,
+      undefined,
+      Object {
+        "marginBottom": 16,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
 exports[`<Text> renders 1`] = `
 <Text
   style={
