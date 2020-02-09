@@ -16,6 +16,7 @@ import { number, string, oneOf } from 'prop-types';
 import React from 'react';
 
 import { THEME } from '../../common';
+import { useStyler } from '../../hooks';
 
 const { COLOR, SPACE } = THEME;
 const DEFAULT = {
@@ -45,7 +46,7 @@ export const Icon = ({
   else if (family === 'SimpleLineIcons') IconFamily = SimpleLineIcons;
   else if (family === 'Zocial') IconFamily = Zocial;
 
-  return <IconFamily {...others} name={value} color={color} size={size} />;
+  return <IconFamily color={color} name={value} size={size} style={useStyler(others)} />;
 };
 
 Icon.propTypes = {
