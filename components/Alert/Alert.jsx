@@ -2,11 +2,12 @@ import { func, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
+import { useBanStylerProps, useStyler } from '../../hooks';
 import { Button, Dialog, Text } from '..';
 import styles from './Alert.style';
 
 export const Alert = ({ accept, cancel, caption, color, onAccept, onCancel, title, ...others }) => (
-  <Dialog {...others}>
+  <Dialog {...useBanStylerProps(others)} style={useStyler(others)}>
     <Text bold subtitle style={styles.title}>
       {title}
     </Text>
