@@ -1,5 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Form> hook:styler 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "space-between",
+        "width": "100%",
+      },
+      Object {
+        "marginBottom": 16,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
 exports[`<Form> renders 1`] = `
 <View
   style={

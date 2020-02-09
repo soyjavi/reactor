@@ -10,7 +10,7 @@ jest.useFakeTimers();
 
 describe('<Form>', () => {
   it('renders', () => {
-    const tree = renderer.create(<Form attributes={{}} />).toJSON();
+    const tree = renderer.create(<Form />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -54,5 +54,10 @@ describe('<Form>', () => {
     const tree = renderer.create(<Form onValid={EVENT} />).toJSON();
     expect(tree).toMatchSnapshot();
     // @TODO: Test <Form /> {onClose}
+  });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Form marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
   });
 });

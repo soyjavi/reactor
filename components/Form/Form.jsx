@@ -2,6 +2,7 @@ import { bool, func, shape, string } from 'prop-types';
 import React, { useState, useEffect } from 'react';
 import { View } from 'react-native';
 
+import { useStyler } from '../../hooks';
 import { KEYBOARDS } from './Form.config';
 import { FormField } from './FormField';
 import { consolidate } from './modules';
@@ -45,7 +46,7 @@ export const Form = ({
   }, [value]);
 
   return (
-    <View style={[styles.container, others.style]}>
+    <View style={[styles.container, ...useStyler(others)]}>
       {Object.keys(attributes).map((field) => (
         <FormField
           attributes={attributes[field]}
