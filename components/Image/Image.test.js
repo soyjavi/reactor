@@ -29,4 +29,9 @@ describe('<Image>', () => {
     const tree = renderer.create(<Image style={{ backgroundColor: THEME.COLOR.ERROR }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Image marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });
