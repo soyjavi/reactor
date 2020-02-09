@@ -3,6 +3,7 @@ import React from 'react';
 import { View } from 'react-native';
 
 import { THEME } from '../../common';
+import { useStyler } from '../../hooks';
 import { Activity, Icon, Text, Touchable } from '../';
 import styles from './Button.style';
 
@@ -36,7 +37,7 @@ export const Button = ({
         disabled ? styles.disabled : { borderRadius, [outlined ? 'borderColor' : 'backgroundColor']: color },
         wide && styles.wide,
         styles[size],
-        others.style,
+        ...useStyler(others),
       ]}
     >
       {activity ? (
