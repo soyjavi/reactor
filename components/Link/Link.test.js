@@ -24,4 +24,9 @@ describe('<Link>', () => {
     const tree = renderer.create(<Link href={LOREM_HREF} visible styleHover={styleHover} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Link href={LOREM_HREF} marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });

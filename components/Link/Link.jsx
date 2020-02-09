@@ -1,6 +1,7 @@
 import { string } from 'prop-types';
 import React, { useState } from 'react';
 
+import { useBanStylerProps, useStyler } from '../../hooks';
 import { Text } from '..';
 
 export const Link = ({ href, ...others }) => {
@@ -8,12 +9,12 @@ export const Link = ({ href, ...others }) => {
 
   return (
     <Text
-      {...others}
+      {...useBanStylerProps(others)}
       accessibilityRole="link"
       href={href}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      style={[others.style, hover && others.styleHover]}
+      style={[...useStyler(others), hover && others.styleHover]}
     />
   );
 };

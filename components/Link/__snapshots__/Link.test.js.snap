@@ -1,5 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Link> hook:styler 1`] = `
+<Text
+  accessibilityRole="link"
+  href="http://minube.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Array [
+      Object {
+        "fontFamily": undefined,
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 16,
+        "lineHeight": 24,
+      },
+      undefined,
+      false,
+      undefined,
+      Array [
+        Object {
+          "marginBottom": 16,
+        },
+        undefined,
+        false,
+      ],
+    ]
+  }
+/>
+`;
+
 exports[`<Link> renders 1`] = `
 <Text
   accessibilityRole="link"
