@@ -1,4 +1,4 @@
-import { bool, func, shape, string } from 'prop-types';
+import { bool, func, oneOf, shape, string } from 'prop-types';
 import React, { useState, useEffect } from 'react';
 import { View } from 'react-native';
 
@@ -11,9 +11,9 @@ import styles from './Form.style';
 export const Form = ({
   attributes = {},
   color,
-  colorDisabled,
   onChange = () => {},
   onValid,
+  size = 'M',
   validate,
   value = {},
   ...others
@@ -49,12 +49,12 @@ export const Form = ({
     <View style={[styles.container, ...useStyler(others)]}>
       {Object.keys(attributes).map((field) => (
         <FormField
+          key={field}
           attributes={attributes[field]}
           color={color}
-          colorDisabled={colorDisabled}
           field={field}
-          key={field}
           onChange={(fieldValue) => onChange(consolidate(attributes, { ...value, [field]: fieldValue }))}
+          size={size}
           validate={validate}
           value={value[field]}
         />
@@ -66,9 +66,9 @@ export const Form = ({
 Form.propTypes = {
   attributes: shape({}),
   color: string,
-  colorDisabled: string,
   onChange: func,
   onValid: func,
+  size: oneOf(['S', 'M', 'L']),
   validate: bool,
   value: shape({}),
 };

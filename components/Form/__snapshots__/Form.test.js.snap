@@ -66,6 +66,9 @@ exports[`<Form> when {attributes} 1`] = `
         },
         undefined,
         false,
+        Object {
+          "marginBottom": 32,
+        },
         undefined,
       ]
     }
@@ -3349,6 +3352,9 @@ exports[`<Form> when {color} 1`] = `
         },
         undefined,
         false,
+        Object {
+          "marginBottom": 32,
+        },
         undefined,
       ]
     }
@@ -6707,6 +6713,9 @@ exports[`<Form> when {validate} 1`] = `
         },
         undefined,
         false,
+        Object {
+          "marginBottom": 32,
+        },
         undefined,
       ]
     }
@@ -9998,6 +10007,9 @@ exports[`<Form> when {value} 1`] = `
         },
         undefined,
         false,
+        Object {
+          "marginBottom": 32,
+        },
         undefined,
       ]
     }
