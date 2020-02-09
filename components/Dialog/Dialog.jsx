@@ -3,7 +3,7 @@ import React from 'react';
 import { KeyboardAvoidingView, SafeAreaView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import { useEnvironment } from '../../hooks';
+import { useEnvironment, useStyler } from '../../hooks';
 import { Button, Motion } from '..';
 import styles from './Dialog.style';
 
@@ -32,7 +32,7 @@ export const Dialog = ({ children, highlight, onClose, position = 'center', visi
             pointerEvents="auto"
             timeline={[{ property: 'translateY', value: translateY }]}
           >
-            <View style={[styles.content, others.style]}>
+            <View style={[styles.content, ...useStyler(others)]}>
               {onClose && (
                 <Button
                   color={COLOR.TRANSPARENT}

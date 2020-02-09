@@ -44,4 +44,9 @@ describe('<Dialog>', () => {
     const tree = renderer.create(<Dialog style={MOCKS.STYLE} styleOverlay={MOCKS.STYLE_CONTAINER} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Dialog marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });

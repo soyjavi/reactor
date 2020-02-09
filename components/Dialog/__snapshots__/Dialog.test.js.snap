@@ -1,5 +1,85 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Dialog> hook:styler 1`] = `
+<View
+  pointerEvents="none"
+  style={
+    Object {
+      "height": "100%",
+      "left": 0,
+      "maxHeight": "100%",
+      "opacity": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+      "zIndex": 2,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
+          Object {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <View
+        pointerEvents="auto"
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "translateY": 907.1200000000001,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "padding": 24,
+              },
+              Object {
+                "marginBottom": 16,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;
+
 exports[`<Dialog> renders 1`] = `
 <View
   pointerEvents="none"
@@ -322,7 +402,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                   undefined,
                   Object {
                     "backgroundColor": "transparent",
-                    "borderRadius": undefined,
+                    "borderRadius": 0,
                   },
                   undefined,
                   Object {
@@ -363,14 +443,14 @@ exports[`<Dialog> when {onClose} 1`] = `
                     "right": 0,
                     "top": 0,
                   },
-                  undefined,
+                  0,
                 ]
               }
             >
               <View
                 style={
                   Object {
-                    "backgroundColor": "#191919",
+                    "backgroundColor": "#ffffff",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
