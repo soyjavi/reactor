@@ -102,11 +102,11 @@ describe('hook:styler', () => {
 
 describe('hook:useStyler', () => {
   test('default', () => {
-    expect(useStyler()).toEqual({ style: [undefined] });
+    expect(useStyler()).toEqual([undefined]);
   });
 
-  test('customStyle', () => {
-    expect(useStyler({ customStyle: 'reactorStyle' })).toEqual({ style: ['reactorStyle'] });
+  test('style', () => {
+    expect(useStyler({ style: 'reactorStyle' })).toEqual(['reactorStyle']);
   });
 
   // test('styler props', () => {

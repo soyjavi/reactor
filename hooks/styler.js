@@ -26,6 +26,7 @@ const LEFT = 'Left';
 const CENTER = 'Center';
 const SUFFIXES = { Horizontal: [RIGHT, LEFT], Vertical: [TOP, BOTTOM] };
 const COORDS = [TOP, RIGHT, BOTTOM, LEFT];
+const STYLER_PROPS = [...DOMAINS, 'style'];
 
 export const ALIGNS = { LEFT, CENTER, RIGHT };
 export const SPACES = {
@@ -65,6 +66,14 @@ export const styler = (props = {}) => {
   return keys;
 };
 
-export const useStyler = ({ customStyle, ...props } = {}) => ({
-  style: [...styler(props).map((key) => styles[key]), customStyle],
-});
+export const useStyler = ({ style, ...props } = {}) => [...styler(props).map((key) => styles[key]), style];
+
+export const useBanStylerProps = (props) => {
+  const safeProps = {};
+
+  for (const prop in props) {
+    if (!STYLER_PROPS.includes(prop)) safeProps[prop] = props[prop];
+  }
+
+  return safeProps;
+};
