@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Alert> renders 1`] = `
+exports[`<Alert> hook:styler 1`] = `
 <View
   pointerEvents="auto"
   style={
@@ -58,7 +58,12 @@ exports[`<Alert> renders 1`] = `
                 "backgroundColor": "#ffffff",
                 "padding": 24,
               },
-              undefined,
+              Array [
+                Object {
+                  "marginBottom": 16,
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -120,7 +125,7 @@ exports[`<Alert> renders 1`] = `
                     undefined,
                     Object {
                       "backgroundColor": "#ff8c5f",
-                      "borderRadius": undefined,
+                      "borderRadius": 0,
                     },
                     undefined,
                     Object {
@@ -156,7 +161,190 @@ exports[`<Alert> renders 1`] = `
                       "right": 0,
                       "top": 0,
                     },
+                    0,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "height": 0,
+                      "opacity": 0,
+                      "width": 0,
+                      "zIndex": 0,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Alert> renders 1`] = `
+<View
+  pointerEvents="auto"
+  style={
+    Object {
+      "height": "100%",
+      "left": 0,
+      "maxHeight": "100%",
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+      "zIndex": 2,
+    }
+  }
+>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "maxHeight": "100%",
+            "position": "absolute",
+            "width": "100%",
+          },
+          Object {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <View
+        pointerEvents="auto"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "padding": 24,
+              },
+              Array [
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": undefined,
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 24,
+                },
+                undefined,
+                Object {
+                  "fontWeight": "700",
+                },
+                undefined,
+                Object {
+                  "marginBottom": 16,
+                },
+              ]
+            }
+          >
+            Lorem Ipsum is simply dummy text...
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginTop": 24,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="none"
+              style={
+                Array [
+                  undefined,
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "alignSelf": "flex-start",
+                      "justifyContent": "center",
+                      "width": "auto",
+                    },
                     undefined,
+                    Object {
+                      "backgroundColor": "#ff8c5f",
+                      "borderRadius": 0,
+                    },
+                    undefined,
+                    Object {
+                      "height": 48,
+                      "paddingHorizontal": 16,
+                    },
+                    Object {
+                      "flex": 1,
+                    },
+                  ],
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderRadius": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    0,
                   ]
                 }
               >
@@ -248,7 +436,9 @@ exports[`<Alert> when {accept} 1`] = `
                 "backgroundColor": "#ffffff",
                 "padding": 24,
               },
-              undefined,
+              Array [
+                undefined,
+              ],
             ]
           }
         >
@@ -311,7 +501,7 @@ exports[`<Alert> when {accept} 1`] = `
                     undefined,
                     Object {
                       "backgroundColor": "#ff8c5f",
-                      "borderRadius": undefined,
+                      "borderRadius": 0,
                     },
                     undefined,
                     Object {
@@ -352,10 +542,8 @@ exports[`<Alert> when {accept} 1`] = `
                       },
                       Array [
                         Object {
-                          "fontFamily": undefined,
                           "fontWeight": "700",
                           "paddingHorizontal": 8,
-                          "textAlignVertical": "center",
                         },
                         false,
                       ],
@@ -378,7 +566,7 @@ exports[`<Alert> when {accept} 1`] = `
                       "right": 0,
                       "top": 0,
                     },
-                    undefined,
+                    0,
                   ]
                 }
               >
@@ -461,7 +649,9 @@ exports[`<Alert> when {cancel} 1`] = `
                 "backgroundColor": "#ffffff",
                 "padding": 24,
               },
-              undefined,
+              Array [
+                undefined,
+              ],
             ]
           }
         >
@@ -524,7 +714,7 @@ exports[`<Alert> when {cancel} 1`] = `
                     undefined,
                     Object {
                       "backgroundColor": "#ff8c5f",
-                      "borderRadius": undefined,
+                      "borderRadius": 0,
                     },
                     undefined,
                     Object {
@@ -560,7 +750,7 @@ exports[`<Alert> when {cancel} 1`] = `
                       "right": 0,
                       "top": 0,
                     },
-                    undefined,
+                    0,
                   ]
                 }
               >
@@ -652,7 +842,9 @@ exports[`<Alert> when {caption} 1`] = `
                 "backgroundColor": "#ffffff",
                 "padding": 24,
               },
-              undefined,
+              Array [
+                undefined,
+              ],
             ]
           }
         >
@@ -734,7 +926,7 @@ exports[`<Alert> when {caption} 1`] = `
                     undefined,
                     Object {
                       "backgroundColor": "#ff8c5f",
-                      "borderRadius": undefined,
+                      "borderRadius": 0,
                     },
                     undefined,
                     Object {
@@ -770,7 +962,7 @@ exports[`<Alert> when {caption} 1`] = `
                       "right": 0,
                       "top": 0,
                     },
-                    undefined,
+                    0,
                   ]
                 }
               >
@@ -853,7 +1045,9 @@ exports[`<Alert> when {color} 1`] = `
                 "backgroundColor": "#ffffff",
                 "padding": 24,
               },
-              undefined,
+              Array [
+                undefined,
+              ],
             ]
           }
         >
@@ -915,7 +1109,7 @@ exports[`<Alert> when {color} 1`] = `
                     undefined,
                     Object {
                       "backgroundColor": "#62e6ac",
-                      "borderRadius": undefined,
+                      "borderRadius": 0,
                     },
                     undefined,
                     Object {
@@ -951,7 +1145,7 @@ exports[`<Alert> when {color} 1`] = `
                       "right": 0,
                       "top": 0,
                     },
-                    undefined,
+                    0,
                   ]
                 }
               >
@@ -1043,7 +1237,9 @@ exports[`<Alert> when {visible} (false) 1`] = `
                 "backgroundColor": "#ffffff",
                 "padding": 24,
               },
-              undefined,
+              Array [
+                undefined,
+              ],
             ]
           }
         >
@@ -1103,7 +1299,7 @@ exports[`<Alert> when {visible} (false) 1`] = `
                     undefined,
                     Object {
                       "backgroundColor": "#ff8c5f",
-                      "borderRadius": undefined,
+                      "borderRadius": 0,
                     },
                     undefined,
                     Object {
@@ -1139,7 +1335,7 @@ exports[`<Alert> when {visible} (false) 1`] = `
                       "right": 0,
                       "top": 0,
                     },
-                    undefined,
+                    0,
                   ]
                 }
               >

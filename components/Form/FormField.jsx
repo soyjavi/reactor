@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { View } from 'react-native';
 
 import { THEME } from '../../common';
+import { useBanStylerProps, useStyler } from '../../hooks';
 import { Input, InputOption, InputSelect, InputSwitch, Text } from '..';
 
 import { KEYBOARDS } from './Form.config';
@@ -13,19 +14,7 @@ const { COLOR, INPUT } = THEME;
 const keyboards = Object.keys(KEYBOARDS);
 
 export const FormField = ({
-  attributes: {
-    disabled,
-    hint,
-    inline,
-    label,
-    keyboard,
-    required,
-    style,
-    type,
-    countryCode,
-    defaultValue,
-    ...attributes
-  } = {},
+  attributes: { disabled, hint, inline, label, keyboard, required, type, countryCode, defaultValue, ...others } = {},
   color = COLOR.BRAND,
   field,
   onChange,
@@ -49,9 +38,9 @@ export const FormField = ({
   const inputColor = error ? COLOR.ERROR : focus ? color : colorSecondary;
 
   return (
-    <View style={[styles.container, inline && styles.inline, focus && styles.focus, style]}>
+    <View style={[styles.container, inline && styles.inline, focus && styles.focus, ...useStyler(others)]}>
       {isTouchable ? (
-        <InputComponent {...attributes} size={size} value={value}>
+        <InputComponent {...useBanStylerProps(others)} size={size} value={value}>
           <Text bold caption color={inputColor} numberOfLines={2}>
             {label || field}
           </Text>
@@ -70,7 +59,7 @@ export const FormField = ({
             ]}
           >
             <InputComponent
-              {...attributes}
+              {...useBanStylerProps(others)}
               disabled={disabled}
               onChange={onChange}
               onBlur={disabled ? undefined : () => setFocus(false)}

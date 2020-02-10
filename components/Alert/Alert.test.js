@@ -50,4 +50,9 @@ describe('<Alert>', () => {
     const tree = renderer.create(<Alert visible={false} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Alert {...DEFAULTS} marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });

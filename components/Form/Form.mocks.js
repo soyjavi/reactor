@@ -5,6 +5,7 @@ const ATTRIBUTES = {
     disabled: true,
     required: true,
     defaultValue: 'soyjavi',
+    marginBottom: 'XL',
   },
   password: {
     required: true,

@@ -32,4 +32,9 @@ describe('<Icon>', () => {
     const tree = renderer.create(<Icon value={MOCKS.VALUE} family={MOCKS.FAMILY} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Icon marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });

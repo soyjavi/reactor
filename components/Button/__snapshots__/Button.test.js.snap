@@ -1,5 +1,116 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Button> hook:styler 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+          "justifyContent": "center",
+          "width": "auto",
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#ff8c5f",
+          "borderRadius": 0,
+        },
+        undefined,
+        Object {
+          "height": 48,
+          "paddingHorizontal": 16,
+        },
+        Object {
+          "marginBottom": 16,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": undefined,
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          undefined,
+          false,
+          Object {
+            "color": "#ffffff",
+          },
+          Array [
+            Object {
+              "fontWeight": "700",
+              "paddingHorizontal": 8,
+            },
+            false,
+          ],
+        ]
+      }
+    >
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        0,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
 exports[`<Button> renders 1`] = `
 <View
   accessible={true}
@@ -26,7 +137,7 @@ exports[`<Button> renders 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -60,7 +171,7 @@ exports[`<Button> renders 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -105,7 +216,7 @@ exports[`<Button> when {activity} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -176,7 +287,7 @@ exports[`<Button> when {activity} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -260,10 +371,8 @@ exports[`<Button> when {borderRadius} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             false,
           ],
@@ -333,7 +442,7 @@ exports[`<Button> when {children} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -390,7 +499,7 @@ exports[`<Button> when {children} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -435,7 +544,7 @@ exports[`<Button> when {color} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#191919",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -474,10 +583,8 @@ exports[`<Button> when {color} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             false,
           ],
@@ -500,7 +607,7 @@ exports[`<Button> when {color} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -583,10 +690,8 @@ exports[`<Button> when {disabled} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             false,
           ],
@@ -609,7 +714,7 @@ exports[`<Button> when {disabled} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -654,7 +759,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -694,10 +799,8 @@ exports[`<Button> when {icon} & {title} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             false,
           ],
@@ -720,7 +823,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -765,7 +868,7 @@ exports[`<Button> when {icon} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -801,7 +904,7 @@ exports[`<Button> when {icon} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -848,7 +951,7 @@ exports[`<Button> when {outlined} 1`] = `
         },
         Object {
           "borderColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -887,10 +990,8 @@ exports[`<Button> when {outlined} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             false,
           ],
@@ -913,7 +1014,7 @@ exports[`<Button> when {outlined} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -958,7 +1059,7 @@ exports[`<Button> when {size} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -997,10 +1098,8 @@ exports[`<Button> when {size} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -1025,7 +1124,7 @@ exports[`<Button> when {size} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -1070,7 +1169,7 @@ exports[`<Button> when {style} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -1111,10 +1210,8 @@ exports[`<Button> when {style} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             false,
           ],
@@ -1137,7 +1234,7 @@ exports[`<Button> when {style} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -1182,7 +1279,7 @@ exports[`<Button> when {title} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         undefined,
         Object {
@@ -1221,10 +1318,8 @@ exports[`<Button> when {title} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             false,
           ],
@@ -1247,7 +1342,7 @@ exports[`<Button> when {title} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >
@@ -1292,7 +1387,7 @@ exports[`<Button> when {wide} 1`] = `
         undefined,
         Object {
           "backgroundColor": "#ff8c5f",
-          "borderRadius": undefined,
+          "borderRadius": 0,
         },
         Object {
           "width": "100%",
@@ -1333,10 +1428,8 @@ exports[`<Button> when {wide} 1`] = `
           },
           Array [
             Object {
-              "fontFamily": undefined,
               "fontWeight": "700",
               "paddingHorizontal": 8,
-              "textAlignVertical": "center",
             },
             false,
           ],
@@ -1359,7 +1452,7 @@ exports[`<Button> when {wide} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        0,
       ]
     }
   >

@@ -62,4 +62,9 @@ describe('<Price>', () => {
     const tree = renderer.create(<Price value={MOCKS.VALUE} style={MOCKS.STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('hook:styler', () => {
+    const snapshot = renderer.create(<Price marginBottom="M" />).toJSON();
+    expect(snapshot).toMatchSnapshot();
+  });
 });
