@@ -654,7 +654,9 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
                   },
                 ]
               }
-            />
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </Text>
           </View>
         </View>
       </View>

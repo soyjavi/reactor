@@ -47,7 +47,7 @@ describe('<Alert>', () => {
   });
 
   it('when {visible} (false)', () => {
-    const tree = renderer.create(<Alert visible={false} />).toJSON();
+    const tree = renderer.create(<Alert {...DEFAULTS} visible={false} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

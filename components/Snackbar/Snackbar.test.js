@@ -38,7 +38,7 @@ describe('<Snackbar>', () => {
   });
 
   it('when {visible} (false)', () => {
-    const tree = renderer.create(<Snackbar visible={false} />).toJSON();
+    const tree = renderer.create(<Snackbar {...DEFAULTS} visible={false} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

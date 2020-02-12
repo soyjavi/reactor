@@ -1263,7 +1263,9 @@ exports[`<Alert> when {visible} (false) 1`] = `
                 },
               ]
             }
-          />
+          >
+            Lorem Ipsum is simply dummy text...
+          </Text>
           <View
             style={
               Object {
