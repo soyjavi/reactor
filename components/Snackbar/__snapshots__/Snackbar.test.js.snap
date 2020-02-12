@@ -489,7 +489,7 @@ exports[`<Snackbar> when {onClose} 1`] = `
                     undefined,
                     Object {
                       "backgroundColor": "#191919",
-                      "borderRadius": undefined,
+                      "borderRadius": 0,
                     },
                     undefined,
                     Object {
@@ -527,7 +527,7 @@ exports[`<Snackbar> when {onClose} 1`] = `
                       "right": 0,
                       "top": 0,
                     },
-                    undefined,
+                    0,
                   ]
                 }
               >

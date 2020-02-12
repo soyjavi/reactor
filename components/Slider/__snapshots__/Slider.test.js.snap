@@ -221,7 +221,7 @@ exports[`<Slider> when {navigation} 1`] = `
             undefined,
             Object {
               "backgroundColor": "#ff8c5f",
-              "borderRadius": undefined,
+              "borderRadius": 0,
             },
             undefined,
             Object {
@@ -257,7 +257,7 @@ exports[`<Slider> when {navigation} 1`] = `
               "right": 0,
               "top": 0,
             },
-            undefined,
+            0,
           ]
         }
       >
@@ -316,7 +316,7 @@ exports[`<Slider> when {navigation} 1`] = `
             undefined,
             Object {
               "backgroundColor": "#ff8c5f",
-              "borderRadius": undefined,
+              "borderRadius": 0,
             },
             undefined,
             Object {
@@ -352,7 +352,7 @@ exports[`<Slider> when {navigation} 1`] = `
               "right": 0,
               "top": 0,
             },
-            undefined,
+            0,
           ]
         }
       >
