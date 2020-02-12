@@ -72,7 +72,6 @@ const ATTRIBUTES = {
   //     github: { inline: true, required: true, requiredIcon: true },
   //   },
   // },
-  languages: { type: 'list' },
   terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
 };
 
@@ -83,7 +82,6 @@ const VALUE = {
     twitter: 'soyjavi',
     facebook: '😅',
   },
-  languages: ['JavaScript', 'CoffeeScript', 'C++'],
 };
 
 const STYLE = {

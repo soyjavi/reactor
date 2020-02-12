@@ -3,7 +3,7 @@ import PKG from '../package.json';
 
 const KEYS = ['IS_NATIVE', 'IS_WEB', 'IS_MOBILE_WEB', 'IS_PRODUCTION', 'IS_DEVELOPMENT', 'IS_TEST', 'NODE_ENV', 'PKG'];
 
-describe('environment', () => {
+describe('hook:useEnvironment', () => {
   it('default', () => {
     const env = useEnvironment();
 

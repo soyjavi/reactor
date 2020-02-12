@@ -5,12 +5,12 @@ import { Alert, Button, Dialog, Snackbar, Text } from '../components';
 export const DialogStory = () => {
   const [alert, setAlert] = useState(false);
   const [dialog, setDialog] = useState(false);
-  const [snackbar, setSnackbar] = useState(true);
+  const [snackbar, setSnackbar] = useState(false);
 
   return (
     <>
-      <Button onPress={() => setDialog(true)} title="<Dialog>" />
-      <Button onPress={() => setSnackbar(true)} title="<Snackbar>" />
+      <Button onPress={() => setDialog(true)} title="<Dialog>" marginBottom="M" />
+      <Button onPress={() => setSnackbar(true)} title="<Snackbar>" marginBottom="M" />
       <Button onPress={() => setAlert(true)} title="<Alert>" />
 
       <Dialog title="Example of Dialog" visible={dialog} onClose={() => setDialog(false)}>

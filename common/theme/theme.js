@@ -1,5 +1,7 @@
 import { Platform } from 'react-native';
 
+const { NODE_ENV } = process.env;
+
 const WHITE = '#ffffff';
 const BLACK = '#191919';
 const FAMILY = undefined;
@@ -87,7 +89,7 @@ export default {
       tension: undefined,
       speed: undefined,
       bounciness: undefined,
-      useNativeDriver: true,
+      useNativeDriver: NODE_ENV !== 'test',
     },
   },
 

@@ -1,6 +1,6 @@
 import { useFingerprint } from './Fingerprint';
 
-describe('useFingerprint()', () => {
+describe('hook:useFingerprint', () => {
   it('default', async () => {
     const fingerprint = await useFingerprint();
     expect(fingerprint).toBeDefined();

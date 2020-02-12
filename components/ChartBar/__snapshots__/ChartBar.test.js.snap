@@ -102,6 +102,7 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -117,7 +118,6 @@ exports[`<ChartBar> when {captions} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -136,6 +136,7 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -151,7 +152,6 @@ exports[`<ChartBar> when {captions} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -218,6 +218,7 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -233,7 +234,6 @@ exports[`<ChartBar> when {captions} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -252,6 +252,7 @@ exports[`<ChartBar> when {captions} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -267,7 +268,6 @@ exports[`<ChartBar> when {captions} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -938,6 +938,7 @@ exports[`<ChartBar> when {color} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -953,7 +954,6 @@ exports[`<ChartBar> when {color} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -972,6 +972,7 @@ exports[`<ChartBar> when {color} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -987,7 +988,6 @@ exports[`<ChartBar> when {color} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -1056,6 +1056,7 @@ exports[`<ChartBar> when {color} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -1071,7 +1072,6 @@ exports[`<ChartBar> when {color} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -1090,6 +1090,7 @@ exports[`<ChartBar> when {color} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -1105,7 +1106,6 @@ exports[`<ChartBar> when {color} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -1321,6 +1321,7 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -1336,7 +1337,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -1355,6 +1355,7 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -1370,7 +1371,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -1439,6 +1439,7 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -1454,7 +1455,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -1473,6 +1473,7 @@ exports[`<ChartBar> when {highlight} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -1488,7 +1489,6 @@ exports[`<ChartBar> when {highlight} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -2171,6 +2171,7 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -2191,7 +2192,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -2210,6 +2210,7 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -2230,7 +2231,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -2301,6 +2301,7 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -2321,7 +2322,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -2340,6 +2340,7 @@ exports[`<ChartBar> when {inverted} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -2360,7 +2361,6 @@ exports[`<ChartBar> when {inverted} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -3217,6 +3217,7 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -3232,7 +3233,6 @@ exports[`<ChartBar> when {lines} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -3251,6 +3251,7 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -3266,7 +3267,6 @@ exports[`<ChartBar> when {lines} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -3333,6 +3333,7 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -3348,7 +3349,6 @@ exports[`<ChartBar> when {lines} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -3367,6 +3367,7 @@ exports[`<ChartBar> when {lines} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -3382,7 +3383,6 @@ exports[`<ChartBar> when {lines} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -4237,6 +4237,7 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -4252,7 +4253,6 @@ exports[`<ChartBar> when {scales} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -4271,6 +4271,7 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -4286,7 +4287,6 @@ exports[`<ChartBar> when {scales} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -4355,6 +4355,7 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -4370,7 +4371,6 @@ exports[`<ChartBar> when {scales} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -4389,6 +4389,7 @@ exports[`<ChartBar> when {scales} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -4404,7 +4405,6 @@ exports[`<ChartBar> when {scales} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -5267,6 +5267,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -5286,7 +5287,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
                   "width": 8,
                 },
               ],
-              false,
             ]
           }
         />
@@ -5305,6 +5305,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -5324,7 +5325,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
                   "width": 8,
                 },
               ],
-              false,
             ]
           }
         />
@@ -5391,6 +5391,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -5410,7 +5411,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
                   "width": 8,
                 },
               ],
-              false,
             ]
           }
         />
@@ -5429,6 +5429,7 @@ exports[`<ChartBar> when {styleBar} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -5448,7 +5449,6 @@ exports[`<ChartBar> when {styleBar} 1`] = `
                   "width": 8,
                 },
               ],
-              false,
             ]
           }
         />
@@ -6310,6 +6310,7 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -6325,7 +6326,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -6344,6 +6344,7 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -6359,7 +6360,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -6428,6 +6428,7 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -6443,7 +6444,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -6462,6 +6462,7 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -6477,7 +6478,6 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -7156,6 +7156,7 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -7171,7 +7172,6 @@ exports[`<ChartBar> when {values} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -7190,6 +7190,7 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -7205,7 +7206,6 @@ exports[`<ChartBar> when {values} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -7272,6 +7272,7 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -7287,7 +7288,6 @@ exports[`<ChartBar> when {values} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
@@ -7306,6 +7306,7 @@ exports[`<ChartBar> when {values} 1`] = `
         <View
           style={
             Array [
+              false,
               Array [
                 Object {
                   "backgroundColor": undefined,
@@ -7321,7 +7322,6 @@ exports[`<ChartBar> when {values} 1`] = `
                 },
                 undefined,
               ],
-              false,
             ]
           }
         />
