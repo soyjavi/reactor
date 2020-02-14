@@ -53,7 +53,7 @@ export const FormField = ({
 
           <View
             style={[
-              styles.content,
+              styles.input,
               disabled && styles.disabled,
               disabled ? { backgroundColor: colorSecondary } : { borderColor: inputColor },
             ]}

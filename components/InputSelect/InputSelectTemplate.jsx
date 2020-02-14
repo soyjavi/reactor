@@ -2,11 +2,11 @@ import { bool, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import { InputIcon, Text } from '..';
+import { InputIcon, Row, Text } from '..';
 import styles from './InputSelectTemplate.style';
 
 const InputSelectTemplate = ({ active, caption, disabled, title, selected, ...others }) => (
-  <View style={others.style}>
+  <Row alignItems="center" style={others.style}>
     <InputIcon active={active || selected} />
     <View style={styles.texts}>
       <Text lighten={disabled} style={styles.title}>
@@ -18,7 +18,7 @@ const InputSelectTemplate = ({ active, caption, disabled, title, selected, ...ot
         </Text>
       )}
     </View>
-  </View>
+  </Row>
 );
 
 InputSelectTemplate.propTypes = {

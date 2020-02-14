@@ -1,9 +1,8 @@
 import { func, string } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
 
 import { THEME } from '../../common';
-import { Button, Dialog, Icon, Text } from '..';
+import { Button, Dialog, Icon, Row, Text } from '..';
 import styles from './Snackbar.style';
 
 const { COLOR, SPACE } = THEME;
@@ -16,7 +15,7 @@ export const Snackbar = ({ caption, color = COLOR.BLACK, icon, onClose, ...other
     styleOverlay={styles.dialogOverlay}
     visible={others.visible}
   >
-    <View style={styles.content}>
+    <Row alignItems="center">
       {icon && <Icon color={COLOR.WHITE} size={SPACE.XL} value={icon} style={styles.icon} />}
       <Text caption color={COLOR.WHITE} style={styles.caption}>
         {caption}
@@ -24,7 +23,7 @@ export const Snackbar = ({ caption, color = COLOR.BLACK, icon, onClose, ...other
       {onClose && (
         <Button color={color} icon="close" iconSize={SPACE.M} onPress={onClose} size="S" style={styles.button} />
       )}
-    </View>
+    </Row>
   </Dialog>
 );
 

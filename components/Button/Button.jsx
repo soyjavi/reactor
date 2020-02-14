@@ -4,7 +4,7 @@ import { View } from 'react-native';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
-import { Activity, Icon, Text, Touchable } from '../';
+import { Activity, Icon, Row, Text, Touchable } from '../';
 import styles from './Button.style';
 
 const { BORDER_RADIUS, COLOR } = THEME;
@@ -43,7 +43,7 @@ export const Button = ({
       {activity ? (
         <Activity color={colorContent} style={styles.activity} />
       ) : (
-        <View style={styles.row}>
+        <Row alignItems="center">
           {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
           {title && (
             <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
@@ -51,7 +51,7 @@ export const Button = ({
             </Text>
           )}
           {children}
-        </View>
+        </Row>
       )}
     </Touchable>
   );

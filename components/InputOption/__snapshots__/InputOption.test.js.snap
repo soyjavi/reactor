@@ -15,20 +15,34 @@ exports[`<InputOption> label 1`] = `
   style={
     Array [
       undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
       Array [
         Object {
-          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
         },
         Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        Object {
           "height": 40,
         },
-      ],
-    ]
-  }
->
-  <Text />
+      ]
+    }
+  >
+    <Text />
+  </View>
   <View
     style={
       Array [
@@ -76,20 +90,34 @@ exports[`<InputOption> othersy:style 1`] = `
   style={
     Array [
       undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
       Array [
         Object {
-          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
         },
         Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        Object {
           "height": 40,
         },
-      ],
-    ]
-  }
->
-  <Text />
+      ]
+    }
+  >
+    <Text />
+  </View>
   <View
     style={
       Array [
@@ -137,20 +165,34 @@ exports[`<InputOption> renders 1`] = `
   style={
     Array [
       undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
       Array [
         Object {
-          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
         },
         Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        Object {
           "height": 40,
         },
-      ],
-    ]
-  }
->
-  <Text />
+      ]
+    }
+  >
+    <Text />
+  </View>
   <View
     style={
       Array [
@@ -198,20 +240,34 @@ exports[`<InputOption> rounded (false) 1`] = `
   style={
     Array [
       undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
       Array [
         Object {
-          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
         },
         Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        Object {
           "height": 40,
         },
-      ],
-    ]
-  }
->
-  <Text />
+      ]
+    }
+  >
+    <Text />
+  </View>
   <View
     style={
       Array [
@@ -259,20 +315,34 @@ exports[`<InputOption> value 1`] = `
   style={
     Array [
       undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
       Array [
         Object {
-          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
         },
         Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        Object {
           "height": 40,
         },
-      ],
-    ]
-  }
->
-  <Text />
+      ]
+    }
+  >
+    <Text />
+  </View>
   <View
     style={
       Array [

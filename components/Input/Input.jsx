@@ -5,7 +5,7 @@ import { TextInput, View } from 'react-native';
 import { THEME } from '../../common';
 
 import { InputIcon } from './InputIcon';
-import { Icon, Text } from '..';
+import { Icon, Row, Text } from '..';
 import styles from './Input.style';
 
 const {
@@ -30,16 +30,16 @@ const Input = ({
   if (currency) keyboard = 'numeric';
 
   return (
-    <View style={styles.container}>
+    <Row alignItems="center" style={styles.container} paddingRight="XS">
       {(icon || currency) && (
-        <View style={styles.inlineHint} pointerEvents="none">
+        <Row alignItems="center" justifyContent="center" paddingHorizontal="XS">
           {icon && <Icon color={colorDisabled} value={icon} family={others.iconFamily} size={others.iconSize} />}
           {currency && (
             <Text color={colorDisabled} input style={styles.currencyWithIcon}>
               {currency}
             </Text>
           )}
-        </View>
+        </Row>
       )}
       <TextInput
         {...others}
@@ -72,7 +72,7 @@ const Input = ({
         />
       )}
       {valid && <InputIcon valid />}
-    </View>
+    </Row>
   );
 };
 

@@ -16,11 +16,22 @@ exports[`<Calendar> renders 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -32,13 +43,25 @@ exports[`<Calendar> renders 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -81,11 +104,22 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -183,11 +217,22 @@ exports[`<Calendar> renders 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -235,14 +280,28 @@ exports[`<Calendar> renders 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -423,13 +482,25 @@ exports[`<Calendar> renders 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -1135,13 +1206,25 @@ exports[`<Calendar> renders 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -1847,13 +1930,25 @@ exports[`<Calendar> renders 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -2562,13 +2657,25 @@ exports[`<Calendar> renders 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -3274,13 +3381,25 @@ exports[`<Calendar> renders 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -3986,13 +4105,25 @@ exports[`<Calendar> renders 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -4718,11 +4849,22 @@ exports[`<Calendar> when {availableDates} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -4734,13 +4876,25 @@ exports[`<Calendar> when {availableDates} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -4783,11 +4937,22 @@ exports[`<Calendar> when {availableDates} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -4885,11 +5050,22 @@ exports[`<Calendar> when {availableDates} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -4937,14 +5113,28 @@ exports[`<Calendar> when {availableDates} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -5125,13 +5315,25 @@ exports[`<Calendar> when {availableDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -5564,13 +5766,25 @@ exports[`<Calendar> when {availableDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -6003,13 +6217,25 @@ exports[`<Calendar> when {availableDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -6445,13 +6671,25 @@ exports[`<Calendar> when {availableDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -6884,13 +7122,25 @@ exports[`<Calendar> when {availableDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -7323,13 +7573,25 @@ exports[`<Calendar> when {availableDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -7782,11 +8044,22 @@ exports[`<Calendar> when {box:false} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -7798,13 +8071,25 @@ exports[`<Calendar> when {box:false} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -7847,11 +8132,22 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -7949,11 +8245,22 @@ exports[`<Calendar> when {box:false} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -8001,14 +8308,28 @@ exports[`<Calendar> when {box:false} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -8189,13 +8510,25 @@ exports[`<Calendar> when {box:false} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -8789,13 +9122,25 @@ exports[`<Calendar> when {box:false} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -9389,13 +9734,25 @@ exports[`<Calendar> when {box:false} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -9992,13 +10349,25 @@ exports[`<Calendar> when {box:false} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -10592,13 +10961,25 @@ exports[`<Calendar> when {box:false} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -11192,13 +11573,25 @@ exports[`<Calendar> when {box:false} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -11814,14 +12207,24 @@ exports[`<Calendar> when {busy} 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
         },
         Object {
-          "alignSelf": "center",
-          "position": "absolute",
+          "alignContent": "flex-start",
         },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        Array [
+          Object {
+            "alignSelf": "center",
+            "position": "absolute",
+          },
+        ],
       ]
     }
   >
@@ -11861,11 +12264,22 @@ exports[`<Calendar> when {busy} 1`] = `
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -11877,13 +12291,25 @@ exports[`<Calendar> when {busy} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -11926,11 +12352,22 @@ exports[`<Calendar> when {busy} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -12028,11 +12465,22 @@ exports[`<Calendar> when {busy} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -12082,14 +12530,28 @@ exports[`<Calendar> when {busy} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -12270,13 +12732,25 @@ exports[`<Calendar> when {busy} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -12569,13 +13043,25 @@ exports[`<Calendar> when {busy} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -12868,13 +13354,25 @@ exports[`<Calendar> when {busy} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -13170,13 +13668,25 @@ exports[`<Calendar> when {busy} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -13469,13 +13979,25 @@ exports[`<Calendar> when {busy} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -13768,13 +14290,25 @@ exports[`<Calendar> when {busy} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -14087,11 +14621,22 @@ exports[`<Calendar> when {captions} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -14103,13 +14648,25 @@ exports[`<Calendar> when {captions} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -14152,11 +14709,22 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -14254,11 +14822,22 @@ exports[`<Calendar> when {captions} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -14306,14 +14885,28 @@ exports[`<Calendar> when {captions} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -14494,13 +15087,25 @@ exports[`<Calendar> when {captions} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -15206,13 +15811,25 @@ exports[`<Calendar> when {captions} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -15918,13 +16535,25 @@ exports[`<Calendar> when {captions} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -16633,13 +17262,25 @@ exports[`<Calendar> when {captions} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -17345,13 +17986,25 @@ exports[`<Calendar> when {captions} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -18057,13 +18710,25 @@ exports[`<Calendar> when {captions} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -18789,11 +19454,22 @@ exports[`<Calendar> when {date} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -18805,13 +19481,25 @@ exports[`<Calendar> when {date} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -18854,11 +19542,22 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -18956,11 +19655,22 @@ exports[`<Calendar> when {date} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -19008,14 +19718,28 @@ exports[`<Calendar> when {date} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -19196,13 +19920,25 @@ exports[`<Calendar> when {date} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -19908,13 +20644,25 @@ exports[`<Calendar> when {date} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -20620,13 +21368,25 @@ exports[`<Calendar> when {date} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -21332,13 +22092,25 @@ exports[`<Calendar> when {date} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -22044,13 +22816,25 @@ exports[`<Calendar> when {date} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -22756,13 +23540,25 @@ exports[`<Calendar> when {date} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -23488,11 +24284,22 @@ exports[`<Calendar> when {disabledDates} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -23504,13 +24311,25 @@ exports[`<Calendar> when {disabledDates} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -23553,11 +24372,22 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -23655,11 +24485,22 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -23707,14 +24548,28 @@ exports[`<Calendar> when {disabledDates} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -23895,13 +24750,25 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -24607,13 +25474,25 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -25319,13 +26198,25 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -26034,13 +26925,25 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -26746,13 +27649,25 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -27458,13 +28373,25 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -28190,11 +29117,22 @@ exports[`<Calendar> when {disabledPast} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -28206,13 +29144,25 @@ exports[`<Calendar> when {disabledPast} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -28255,11 +29205,22 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -28357,11 +29318,22 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -28409,14 +29381,28 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -28597,13 +29583,25 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -29036,13 +30034,25 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -29475,13 +30485,25 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -30073,13 +31095,25 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -30785,13 +31819,25 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -31497,13 +32543,25 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -32229,11 +33287,22 @@ exports[`<Calendar> when {edges} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -32245,13 +33314,25 @@ exports[`<Calendar> when {edges} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -32294,11 +33375,22 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -32396,11 +33488,22 @@ exports[`<Calendar> when {edges} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -32448,14 +33551,28 @@ exports[`<Calendar> when {edges} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -32636,13 +33753,25 @@ exports[`<Calendar> when {edges} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -33348,13 +34477,25 @@ exports[`<Calendar> when {edges} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -34060,13 +35201,25 @@ exports[`<Calendar> when {edges} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -34775,13 +35928,25 @@ exports[`<Calendar> when {edges} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -35487,13 +36652,25 @@ exports[`<Calendar> when {edges} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -36199,13 +37376,25 @@ exports[`<Calendar> when {edges} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -36931,11 +38120,22 @@ exports[`<Calendar> when {expanded} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -36947,13 +38147,25 @@ exports[`<Calendar> when {expanded} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -36996,11 +38208,22 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -37098,11 +38321,22 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -37150,14 +38384,28 @@ exports[`<Calendar> when {expanded} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -37338,13 +38586,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -37910,13 +39170,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -38602,13 +39874,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -39317,13 +40601,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -40029,13 +41325,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -40741,13 +42049,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -41382,13 +42702,25 @@ exports[`<Calendar> when {expanded} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -41431,11 +42763,22 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -41533,11 +42876,22 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -41585,14 +42939,28 @@ exports[`<Calendar> when {expanded} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -41773,13 +43141,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -42425,13 +43805,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -43137,13 +44529,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -43849,13 +45253,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -44561,13 +45977,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -45253,13 +46681,25 @@ exports[`<Calendar> when {expanded} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -45845,11 +47285,22 @@ exports[`<Calendar> when {locale} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -45861,13 +47312,25 @@ exports[`<Calendar> when {locale} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -45910,11 +47373,22 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -46012,11 +47486,22 @@ exports[`<Calendar> when {locale} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -46064,14 +47549,28 @@ exports[`<Calendar> when {locale} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -46252,13 +47751,25 @@ exports[`<Calendar> when {locale} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -46964,13 +48475,25 @@ exports[`<Calendar> when {locale} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -47676,13 +49199,25 @@ exports[`<Calendar> when {locale} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -48391,13 +49926,25 @@ exports[`<Calendar> when {locale} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -49103,13 +50650,25 @@ exports[`<Calendar> when {locale} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -49815,13 +51374,25 @@ exports[`<Calendar> when {locale} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -50547,11 +52118,22 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -50563,13 +52145,25 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -50612,11 +52206,22 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -50714,11 +52319,22 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -50766,14 +52382,28 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -50968,13 +52598,25 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -51680,13 +53322,25 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -52392,13 +54046,25 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -53107,13 +54773,25 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -53819,13 +55497,25 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -54531,13 +56221,25 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -55267,11 +56969,22 @@ exports[`<Calendar> when {style} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -55283,13 +56996,25 @@ exports[`<Calendar> when {style} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -55332,11 +57057,22 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -55434,11 +57170,22 @@ exports[`<Calendar> when {style} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -55486,14 +57233,28 @@ exports[`<Calendar> when {style} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -55674,13 +57435,25 @@ exports[`<Calendar> when {style} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -56386,13 +58159,25 @@ exports[`<Calendar> when {style} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -57098,13 +58883,25 @@ exports[`<Calendar> when {style} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -57813,13 +59610,25 @@ exports[`<Calendar> when {style} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -58525,13 +60334,25 @@ exports[`<Calendar> when {style} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -59237,13 +61058,25 @@ exports[`<Calendar> when {style} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -59969,11 +61802,22 @@ exports[`<Calendar> when {value} & {range} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -59985,13 +61829,25 @@ exports[`<Calendar> when {value} & {range} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -60034,11 +61890,22 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -60136,11 +62003,22 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -60188,14 +62066,28 @@ exports[`<Calendar> when {value} & {range} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -60390,13 +62282,25 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -61116,13 +63020,25 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -61854,13 +63770,25 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -62580,13 +64508,25 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -63306,13 +65246,25 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -64032,13 +65984,25 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -64778,11 +66742,22 @@ exports[`<Calendar> when {value} 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+        Object {
+          "justifyContent": "flex-start",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -64794,13 +66769,25 @@ exports[`<Calendar> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "center",
-            "marginBottom": 16,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "marginBottom": 16,
+            },
+            undefined,
+          ]
         }
       >
         <View
@@ -64843,11 +66830,22 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -64945,11 +66943,22 @@ exports[`<Calendar> when {value} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -64997,14 +67006,28 @@ exports[`<Calendar> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 8,
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              Object {
+                "marginBottom": 8,
+              },
+              undefined,
+            ]
           }
         >
           <Text
@@ -65185,13 +67208,25 @@ exports[`<Calendar> when {value} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -65897,13 +67932,25 @@ exports[`<Calendar> when {value} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -66613,13 +68660,25 @@ exports[`<Calendar> when {value} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -67325,13 +69384,25 @@ exports[`<Calendar> when {value} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -68037,13 +70108,25 @@ exports[`<Calendar> when {value} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View
@@ -68749,13 +70832,25 @@ exports[`<Calendar> when {value} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginTop": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "flex-start",
+              },
+              Object {
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginTop": 4,
+              },
+              undefined,
+            ]
           }
         >
           <View

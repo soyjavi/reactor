@@ -1,13 +1,15 @@
 import { bool, func, oneOf, node } from 'prop-types';
 import React from 'react';
 
-import { InputIcon, Touchable } from '..';
+import { InputIcon, Row, Touchable } from '..';
 import styles from './InputOption.style';
 
 export const InputOption = ({ children, onChange, rounded = true, size = 'M', value }) => (
-  <Touchable onPress={onChange ? () => onChange(!value) : undefined} style={[styles.container, styles[size]]}>
-    <InputIcon active={value} rounded={rounded} style={styles.icon} />
-    {children}
+  <Touchable onPress={onChange ? () => onChange(!value) : undefined}>
+    <Row alignItems="center" style={styles[size]}>
+      <InputIcon active={value} rounded={rounded} style={styles.icon} />
+      {children}
+    </Row>
   </Touchable>
 );
 

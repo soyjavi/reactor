@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { BORDER_RADIUS, COLOR, ELEVATION, UNIT, SPACE } = THEME;
 
@@ -52,7 +52,6 @@ export default StyleSheet.create({
   },
 
   content: {
-    ...LAYOUT.STYLE.ROW,
     alignItems: 'flex-end',
     flex: 1,
     height: '100%',
@@ -84,11 +83,6 @@ export default StyleSheet.create({
     paddingVertical: SPACE.XS,
     paddingHorizontal: SPACE.XS,
     zIndex: 1,
-  },
-
-  row: {
-    ...LAYOUT.STYLE.ROW,
-    justifyContent: 'space-between',
   },
 
   rowScale: {

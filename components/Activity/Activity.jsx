@@ -5,6 +5,7 @@ import styles from './Activity.style';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
+import { Row } from '..';
 
 const {
   COLOR,
@@ -29,14 +30,14 @@ export const Activity = ({ color = COLOR.BASE, size, ...others }) => {
   animate(0);
 
   return (
-    <View style={[styles.container, ...useStyler(others)]}>
+    <Row style={useStyler(others)}>
       {opacities.map((value, index) => (
         <Animated.View
           key={index.toString()}
           style={[styles.dot, styles[size], { backgroundColor: color, opacity: value }]}
         />
       ))}
-    </View>
+    </Row>
   );
 };
 

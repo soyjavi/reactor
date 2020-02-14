@@ -17,7 +17,7 @@ exports[`<Slider> renders 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={176}
+    snapToInterval={NaN}
   >
     <View />
   </RCTScrollView>
@@ -41,7 +41,7 @@ exports[`<Slider> when {caption} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={176}
+    snapToInterval={NaN}
   >
     <View />
   </RCTScrollView>
@@ -65,7 +65,7 @@ exports[`<Slider> when {children} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={176}
+    snapToInterval={NaN}
   >
     <View>
       <View />
@@ -91,7 +91,7 @@ exports[`<Slider> when {dataSource} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={176}
+    snapToInterval={NaN}
   >
     <View>
       <View
@@ -140,7 +140,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={184}
+    snapToInterval={NaN}
   >
     <View>
       <View
@@ -235,11 +235,22 @@ exports[`<Slider> when {navigation} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            undefined,
+          ]
         }
       >
         <Text />
@@ -330,11 +341,22 @@ exports[`<Slider> when {navigation} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            undefined,
+          ]
         }
       >
         <Text />
@@ -379,7 +401,7 @@ exports[`<Slider> when {navigation} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={176}
+    snapToInterval={NaN}
   >
     <View />
   </RCTScrollView>
@@ -448,7 +470,7 @@ exports[`<Slider> when {steps} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={352}
+    snapToInterval={NaN}
   >
     <View>
       <View
@@ -503,7 +525,7 @@ exports[`<Slider> when {style} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={176}
+    snapToInterval={NaN}
   >
     <View>
       <View
@@ -552,7 +574,7 @@ exports[`<Slider> when {title} 1`] = `
     scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
-    snapToInterval={176}
+    snapToInterval={NaN}
   >
     <View />
   </RCTScrollView>

@@ -1,8 +1,8 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../../common';
+import { THEME } from '../../../common';
 
-const { COLOR, SPACE, UNIT } = THEME;
+const { COLOR, UNIT } = THEME;
 const BOX_SIZE = UNIT * 4;
 
 export { BOX_SIZE };
@@ -50,12 +50,6 @@ export default StyleSheet.create({
     lineHeight: UNIT,
     fontSize: UNIT,
     opacity: 0.5,
-  },
-
-  container: {
-    ...LAYOUT.STYLE.ROW,
-    justifyContent: 'space-between',
-    marginTop: SPACE.XS,
   },
 
   textHighlight: {

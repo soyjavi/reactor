@@ -16,6 +16,7 @@ export * from './Link';
 export * from './Motion';
 export * from './Price';
 export * from './ProgressBar';
+export * from './Row';
 export * from './Skeleton';
 export * from './Slider';
 export * from './Snackbar';

@@ -1,9 +1,8 @@
 import { func, node, string } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
 
 import { useBanStylerProps, useStyler } from '../../hooks';
-import { Button, Dialog, Text } from '..';
+import { Button, Dialog, Row, Text } from '..';
 import styles from './Alert.style';
 
 export const Alert = ({ accept, cancel, caption, children, color, onAccept, onCancel, title, ...others }) => (
@@ -13,10 +12,10 @@ export const Alert = ({ accept, cancel, caption, children, color, onAccept, onCa
     </Text>
     {caption && <Text>{caption}</Text>}
     {children}
-    <View style={styles.buttons}>
+    <Row marginTop="M">
       {onCancel && <Button color={color} outlined onPress={onCancel} style={styles.buttonCancel} title={cancel} />}
       <Button color={color} onPress={onAccept} style={styles.buttonAccept} title={accept} />
-    </View>
+    </Row>
   </Dialog>
 );
 

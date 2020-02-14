@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { COLOR, FONT, SPACE, UNIT } = THEME;
 
@@ -24,9 +24,7 @@ export default StyleSheet.create({
   },
 
   container: {
-    ...LAYOUT.STYLE.ROW,
     height: '100%',
-    paddingRight: SPACE.XS,
     flex: 1,
   },
 
@@ -37,12 +35,6 @@ export default StyleSheet.create({
   icon: {
     alignSelf: 'flex-start',
     marginRight: SPACE.XS,
-  },
-
-  inlineHint: {
-    ...LAYOUT.STYLE.ROW,
-    justifyContent: 'center',
-    paddingHorizontal: SPACE.XS,
   },
 
   input: {

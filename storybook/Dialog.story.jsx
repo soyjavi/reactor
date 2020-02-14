@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Alert, Button, Dialog, Snackbar, Text } from '../components';
+import { Alert, Button, Dialog, Row, Snackbar, Text } from '../components';
 
 export const DialogStory = () => {
   const [alert, setAlert] = useState(false);
@@ -9,9 +9,11 @@ export const DialogStory = () => {
 
   return (
     <>
-      <Button onPress={() => setDialog(true)} title="<Dialog>" marginBottom="M" />
-      <Button onPress={() => setSnackbar(true)} title="<Snackbar>" marginBottom="M" />
-      <Button onPress={() => setAlert(true)} title="<Alert>" />
+      <Row paddingVertical="M" justifyContent="space">
+        <Button onPress={() => setDialog(true)} title="<Dialog>" />
+        <Button onPress={() => setSnackbar(true)} title="<Snackbar>" />
+        <Button onPress={() => setAlert(true)} title="<Alert>" />
+      </Row>
 
       <Dialog title="Example of Dialog" visible={dialog} onClose={() => setDialog(false)}>
         <Text headline>Sign In</Text>

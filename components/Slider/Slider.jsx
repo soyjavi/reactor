@@ -52,7 +52,7 @@ export class Slider extends PureComponent {
   _onPressButton = (type) => {
     const {
       scrollview: { current },
-      props: { children, dataSource, itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps },
+      props: { children, dataSource, itemMargin, itemWidth, steps },
     } = this;
     const itemOffset = itemWidth + itemMargin;
     const length = dataSource.length || children.length;
@@ -83,7 +83,7 @@ export class Slider extends PureComponent {
     const {
       _onPressButton,
       _onScroll,
-      props: { dataSource, navigation, snap, steps, item: Item, itemMargin, itemWidth = LAYOUT.CARD.SLIDER, ...others },
+      props: { dataSource, navigation, snap, steps, item: Item, itemMargin, itemWidth, ...others },
     } = this;
     const snapProps = snap
       ? {

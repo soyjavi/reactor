@@ -1,12 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
-  container: LAYOUT.STYLE.ROW,
-
   dot: {
     width: UNIT,
     height: UNIT,

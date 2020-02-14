@@ -26,19 +26,26 @@ exports[`<ChartBar> renders 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            undefined,
+          ],
         ]
       }
     />
@@ -72,19 +79,26 @@ exports[`<ChartBar> when {captions} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -421,15 +435,24 @@ exports[`<ChartBar> when {captions} 1`] = `
       style={
         Array [
           Object {
-            "height": 16,
-          },
-          Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "height": 16,
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -908,19 +931,26 @@ exports[`<ChartBar> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -1291,19 +1321,26 @@ exports[`<ChartBar> when {highlight} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -1648,15 +1685,24 @@ exports[`<ChartBar> when {highlight} 1`] = `
       style={
         Array [
           Object {
-            "height": 16,
-          },
-          Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "height": 16,
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -2141,19 +2187,26 @@ exports[`<ChartBar> when {inverted} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -2526,15 +2579,24 @@ exports[`<ChartBar> when {inverted} 1`] = `
       style={
         Array [
           Object {
-            "height": 16,
-          },
-          Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "height": 16,
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -3187,19 +3249,26 @@ exports[`<ChartBar> when {lines} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -3536,15 +3605,24 @@ exports[`<ChartBar> when {lines} 1`] = `
       style={
         Array [
           Object {
-            "height": 16,
-          },
-          Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "height": 16,
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -4205,21 +4283,28 @@ exports[`<ChartBar> when {scales} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "space-between",
           },
           Object {
-            "marginLeft": 32,
+            "justifyContent": "space-between",
           },
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            Object {
+              "marginLeft": 32,
+            },
+          ],
         ]
       }
     >
@@ -4564,17 +4649,26 @@ exports[`<ChartBar> when {scales} 1`] = `
       style={
         Array [
           Object {
-            "height": 16,
-          },
-          Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
-            "justifyContent": "space-between",
           },
           Object {
-            "marginLeft": 32,
+            "alignContent": "flex-start",
           },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "space-between",
+          },
+          Array [
+            Object {
+              "height": 16,
+            },
+            Object {
+              "marginLeft": 32,
+            },
+          ],
         ]
       }
     >
@@ -5235,21 +5329,28 @@ exports[`<ChartBar> when {styleBar} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "space-between",
           },
           Object {
-            "marginLeft": 32,
+            "justifyContent": "space-between",
           },
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            Object {
+              "marginLeft": 32,
+            },
+          ],
         ]
       }
     >
@@ -5602,17 +5703,26 @@ exports[`<ChartBar> when {styleBar} 1`] = `
       style={
         Array [
           Object {
-            "height": 16,
-          },
-          Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
-            "justifyContent": "space-between",
           },
           Object {
-            "marginLeft": 32,
+            "alignContent": "flex-start",
           },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "space-between",
+          },
+          Array [
+            Object {
+              "height": 16,
+            },
+            Object {
+              "marginLeft": 32,
+            },
+          ],
         ]
       }
     >
@@ -6278,21 +6388,28 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "space-between",
           },
           Object {
-            "marginLeft": 32,
+            "justifyContent": "space-between",
           },
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            Object {
+              "marginLeft": 32,
+            },
+          ],
         ]
       }
     >
@@ -6637,17 +6754,26 @@ exports[`<ChartBar> when {styleContainer} 1`] = `
       style={
         Array [
           Object {
-            "height": 16,
-          },
-          Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
-            "justifyContent": "space-between",
           },
           Object {
-            "marginLeft": 32,
+            "alignContent": "flex-start",
           },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "space-between",
+          },
+          Array [
+            Object {
+              "height": 16,
+            },
+            Object {
+              "marginLeft": 32,
+            },
+          ],
         ]
       }
     >
@@ -7126,19 +7252,26 @@ exports[`<ChartBar> when {values} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "flex-end",
             "display": "flex",
-            "flex": 1,
             "flexDirection": "row",
-            "height": "100%",
+          },
+          Object {
+            "alignContent": "flex-start",
           },
           Object {
             "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
+          },
+          Object {
             "justifyContent": "space-between",
           },
-          undefined,
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "flex": 1,
+              "height": "100%",
+            },
+            undefined,
+          ],
         ]
       }
     >

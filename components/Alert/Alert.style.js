@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { SPACE } = THEME;
 
@@ -12,11 +12,6 @@ export default StyleSheet.create({
   buttonCancel: {
     flex: 1,
     marginRight: SPACE.M,
-  },
-
-  buttons: {
-    ...LAYOUT.STYLE.ROW,
-    marginTop: SPACE.L,
   },
 
   icon: {

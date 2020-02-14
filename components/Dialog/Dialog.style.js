@@ -37,7 +37,9 @@ export default StyleSheet.create({
   },
 
   overlay: {
-    ...LAYOUT.STYLE.CENTERED,
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'center',
     backgroundColor: 'rgba(0,0,0,0.5)',
     flex: 1,
   },

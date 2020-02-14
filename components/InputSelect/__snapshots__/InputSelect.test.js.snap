@@ -212,12 +212,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "height": 44.8,
-        }
+        Array [
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "justifyContent": "flex-start",
+          },
+          Object {
+            "height": 44.8,
+          },
+        ]
       }
     >
       <Text />
@@ -350,12 +362,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -461,12 +485,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -572,12 +608,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -683,12 +731,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -794,12 +854,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -905,12 +977,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -1016,12 +1100,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -1127,12 +1223,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -1238,12 +1346,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -1349,12 +1469,24 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -1688,12 +1820,24 @@ exports[`<InputSelect> when {value} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "height": 44.8,
-        }
+        Array [
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "justifyContent": "flex-start",
+          },
+          Object {
+            "height": 44.8,
+          },
+        ]
       }
     >
       <Text />
@@ -1826,12 +1970,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -1937,12 +2093,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -2048,12 +2216,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -2159,12 +2339,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -2270,12 +2462,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -2381,12 +2585,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -2492,12 +2708,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -2603,12 +2831,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -2714,12 +2954,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />
@@ -2825,12 +3077,24 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 44.8,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+              Object {
+                "height": 44.8,
+              },
+            ]
           }
         >
           <Text />

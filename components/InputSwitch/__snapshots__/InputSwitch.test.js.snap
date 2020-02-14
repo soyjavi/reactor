@@ -5,9 +5,17 @@ exports[`<InputSwitch> renders 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
       },
       Object {
         "height": 40,
@@ -45,9 +53,17 @@ exports[`<InputSwitch> when {color} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
       },
       Object {
         "height": 40,
@@ -85,9 +101,17 @@ exports[`<InputSwitch> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
       },
       Object {
         "height": 40,
@@ -125,9 +149,17 @@ exports[`<InputSwitch> when {label} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
       },
       Object {
         "height": 40,
@@ -165,9 +197,17 @@ exports[`<InputSwitch> when {style} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
       },
       Object {
         "height": 40,

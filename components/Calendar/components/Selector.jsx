@@ -1,13 +1,12 @@
 import { func, string } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
 
-import { Button, Text } from '../..';
+import { Button, Row, Text } from '../..';
 
 import styles from './Selector.style';
 
 export const Selector = ({ onPrevious, onNext, title }) => (
-  <View style={styles.container}>
+  <Row marginBottom="M" justifyContent="center">
     <Button
       disabled={!onPrevious}
       icon="arrow-left"
@@ -27,7 +26,7 @@ export const Selector = ({ onPrevious, onNext, title }) => (
       small
       style={!onNext && styles.buttonDisabled}
     />
-  </View>
+  </Row>
 );
 
 Selector.propTypes = {
