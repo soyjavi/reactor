@@ -91,5 +91,5 @@ FormField.propTypes = {
   onChange: func,
   size: oneOf(['S', 'M', 'L']),
   validate: bool,
-  value: oneOfType([number, string]),
+  value: oneOfType([bool, number, string]),
 };
