@@ -1,2 +1,3 @@
 **/*.test.js
 **/*.mocks.js
+babel.config.js

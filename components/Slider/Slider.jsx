@@ -83,16 +83,7 @@ export class Slider extends PureComponent {
     const {
       _onPressButton,
       _onScroll,
-      props: {
-        dataSource,
-        navigation,
-        snap,
-        steps,
-        item: Item,
-        itemMargin,
-        itemWidth = LAYOUT.CARD.SLIDER,
-        ...others
-      },
+      props: { dataSource, navigation, snap, steps, item: Item, itemMargin, itemWidth = LAYOUT.CARD.SLIDER, ...others },
     } = this;
     const snapProps = snap
       ? {

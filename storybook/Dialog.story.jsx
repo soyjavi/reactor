@@ -17,7 +17,7 @@ export const DialogStory = () => {
         <Text headline>Sign In</Text>
         <Text subtitle>Need an account? Create an account</Text>
         <Text>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
           standard dummy text ever since the 1500s
         </Text>
       </Dialog>

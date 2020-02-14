@@ -3,7 +3,7 @@ import consolidate from './consolidate';
 const attributes = {
   username: { defaultValue: 'soyjavi', required: true },
   password: { required: true },
-}
+};
 
 describe('Components:Form:modules:consolidate', () => {
   it('default', () => {

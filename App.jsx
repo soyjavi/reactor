@@ -12,13 +12,10 @@ import {
 } from './storybook';
 import { Button, LayoutView, Viewport } from './components';
 
-import { L10NProvider, useL10N } from './context';
-
-import { THEME } from './common';
+import { L10NProvider } from './context';
 
 if (typeof global.self === 'undefined') global.self = global;
 
-const { COLOR } = THEME;
 const DICTIONARY = {
   'es-ES': {
     GREETINGS: 'Hola Mundo...',
@@ -31,7 +28,6 @@ const DICTIONARY = {
 
 const App = () => {
   const [viewport, setViewport] = useState(false);
-  const l10n = useL10N();
 
   return (
     <L10NProvider dictionary={DICTIONARY} language="en-EN">

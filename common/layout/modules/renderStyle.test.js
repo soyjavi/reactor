@@ -7,4 +7,3 @@ describe('renderStyle', () => {
     expect(Object.keys(style)).toEqual(['CARD']);
   });
 });
-

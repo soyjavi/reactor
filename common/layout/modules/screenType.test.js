@@ -42,4 +42,3 @@ describe('screenType', () => {
     expect(type.LARGE).toBeTruthy();
   });
 });
-

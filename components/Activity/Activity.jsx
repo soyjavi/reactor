@@ -1,4 +1,4 @@
-import { string } from 'prop-types';
+import PropTypes from 'prop-types';
 import { Animated, View } from 'react-native';
 import React from 'react';
 import styles from './Activity.style';
@@ -41,8 +41,8 @@ export const Activity = ({ color = COLOR.BASE, size, ...others }) => {
 };
 
 Activity.propTypes = {
-  color: string,
-  size: string,
+  color: PropTypes.string,
+  size: PropTypes.oneOf(['S', 'M', 'L']),
 };
 
 export default Activity;

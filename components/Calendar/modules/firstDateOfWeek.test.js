@@ -22,6 +22,6 @@ describe('firstDateOfWeek()', () => {
     date = firstDateOfWeek(1, 2020);
     expect(date.getFullYear()).toBe(2019);
     expect(date.getMonth()).toBe(11);
-    expect(date.getDate( )).toBe(30);
-  })
+    expect(date.getDate()).toBe(30);
+  });
 });
