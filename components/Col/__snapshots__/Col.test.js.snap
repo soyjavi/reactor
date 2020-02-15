@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Col> hook:styler 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "marginBottom": 16,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Col> renders 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Col> when {alignContent} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "center",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Col> when {alignItems} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Col> when {justifyContent} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+/>
+`;

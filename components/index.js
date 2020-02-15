@@ -3,6 +3,7 @@ export * from './Alert';
 export * from './Button';
 export * from './Calendar';
 export * from './ChartBar';
+export * from './Col';
 export * from './Dialog';
 export * from './Form';
 export * from './Icon';
