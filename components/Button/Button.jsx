@@ -1,6 +1,5 @@
 import { bool, func, node, number, string, oneOf } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';

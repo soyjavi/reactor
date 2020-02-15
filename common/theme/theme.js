@@ -18,8 +18,8 @@ export default {
   BORDER_RADIUS: 0,
 
   COLOR: {
-    BRAND: '#62e6ac',
-    CTA: '#ff8c5f',
+    BRAND: BLACK,
+    CTA: '#62e6ac',
     BLACK,
     WHITE,
     GRAY,
