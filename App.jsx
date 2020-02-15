@@ -1,31 +1,48 @@
 import React, { useState } from 'react';
-import { ScrollView } from 'react-native';
 
-import { ActivityStory, ButtonStory, DialogStory, FormStory, PriceStory, SliderStory, TextStory } from './storybook';
-import { Button, LayoutView, Viewport } from './components';
+import PKG from './package.json';
+import { ButtonStory, DialogStory, FormStory } from './storybook';
+import { Button, LayoutView, Text, Viewport } from './components';
+import { Content, Header } from './storybook/components';
 
 if (typeof global.self === 'undefined') global.self = global;
 
+const buttonProps = { color: 'black', marginVertical: 'XS', outlined: true, wide: true };
+
 const App = () => {
-  const [viewport, setViewport] = useState(false);
+  const [story, setStory] = useState(undefined);
+
+  const handleBack = () => setStory(undefined);
 
   return (
     <LayoutView>
-      <Viewport backward={viewport} visible scroll={false}>
-        <ScrollView>
-          <Button onPress={() => setViewport(true)} title="viewport" />
-          <DialogStory />
-          <FormStory />
-        </ScrollView>
+      <Viewport backward={story !== undefined} visible scroll={false}>
+        <Header title={`Reactor ${PKG.version}`} />
+        <Content>
+          <Text marginBottom="S">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veritatis architecto, impedit animi itaque
+            perferendis quos hic cupiditate, pariatur, voluptas illum quo non cumque neque sequi delectus quod quia
+            amet.
+          </Text>
+
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veritatis architecto, impedit animi itaque
+            perferendis quos hic cupiditate, pariatur, voluptas illum quo non cumque neque sequi delectus quod quia
+            amet.
+          </Text>
+
+          <Text bold subtitle marginTop="M">
+            Stories
+          </Text>
+          <Button {...buttonProps} title="Buttons" onPress={() => setStory('button')} />
+          <Button {...buttonProps} title="Dialogs" onPress={() => setStory('dialog')} />
+          <Button {...buttonProps} title="Forms" onPress={() => setStory('form')} />
+        </Content>
       </Viewport>
-      <Viewport visible={viewport}>
-        <Button onPress={() => setViewport(false)} title="back" />
-        <ActivityStory />
-        <ButtonStory />
-        <PriceStory />
-        <SliderStory />
-        <TextStory />
-      </Viewport>
+
+      <ButtonStory visible={story === 'button'} onBack={handleBack} />
+      <DialogStory visible={story === 'dialog'} onBack={handleBack} />
+      <FormStory visible={story === 'form'} onBack={handleBack} />
     </LayoutView>
   );
 };
