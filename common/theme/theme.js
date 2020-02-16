@@ -26,6 +26,8 @@ export default {
 
     // BASE: '#cdd2d4',
 
+    DISABLED: GRAY.S,
+
     BACKGROUND: WHITE,
     TEXT: BLACK,
     SUCCESS: '#77d27f',

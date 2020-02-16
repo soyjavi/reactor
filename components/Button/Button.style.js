@@ -27,7 +27,7 @@ export default StyleSheet.create({
   },
 
   disabled: {
-    backgroundColor: COLOR.GRAY.M,
+    backgroundColor: COLOR.DISABLED,
   },
 
   outlined: {

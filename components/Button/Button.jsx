@@ -32,7 +32,7 @@ export const Button = ({
       rippleColor={colorContent}
       style={[
         styles.container,
-        outlined && styles.outlined,
+        outlined && !disabled && styles.outlined,
         disabled ? styles.disabled : { borderRadius, [outlined ? 'borderColor' : 'backgroundColor']: color },
         wide && styles.wide,
         styles[size],
