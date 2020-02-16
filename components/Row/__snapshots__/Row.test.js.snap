@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row> hook:styler 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "marginBottom": 16,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Row> renders 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Row> when {align} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignItems": "flex-start",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Row> when {justify} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+/>
+`;

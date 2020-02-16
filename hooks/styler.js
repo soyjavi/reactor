@@ -1,4 +1,3 @@
-import { THEME } from '../common';
 import styles from './styler.styles';
 
 const DOMAINS = [

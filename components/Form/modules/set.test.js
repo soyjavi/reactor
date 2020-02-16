@@ -7,7 +7,7 @@ const DATA = {
   username: 'soyjavi',
   social: {
     twitter: 'soyjavi',
-  }
+  },
 };
 
 describe('<FORM.set()>', () => {
@@ -54,4 +54,3 @@ describe('<FORM.set()>', () => {
     });
   });
 });
-

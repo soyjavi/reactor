@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { COLOR, SPACE } = THEME;
 
@@ -24,6 +24,4 @@ export default StyleSheet.create({
   icon: {
     marginRight: SPACE.M,
   },
-
-  content: LAYOUT.STYLE.ROW,
 });

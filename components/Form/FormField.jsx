@@ -53,7 +53,7 @@ export const FormField = ({
 
           <View
             style={[
-              styles.content,
+              styles.input,
               disabled && styles.disabled,
               disabled ? { backgroundColor: colorSecondary } : { borderColor: inputColor },
             ]}
@@ -91,5 +91,5 @@ FormField.propTypes = {
   onChange: func,
   size: oneOf(['S', 'M', 'L']),
   validate: bool,
-  value: oneOfType([number, string]),
+  value: oneOfType([bool, number, string]),
 };

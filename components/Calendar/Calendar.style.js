@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { COLOR, SPACE } = THEME;
 
@@ -19,10 +19,6 @@ export default StyleSheet.create({
     paddingHorizontal: SPACE.M,
     paddingVertical: SPACE.XS,
     justifyContent: 'center',
-  },
-
-  content: {
-    ...LAYOUT.STYLE.ROW,
   },
 
   days: {

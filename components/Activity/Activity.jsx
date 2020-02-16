@@ -1,10 +1,11 @@
-import { string } from 'prop-types';
-import { Animated, View } from 'react-native';
+import PropTypes from 'prop-types';
+import { Animated } from 'react-native';
 import React from 'react';
 import styles from './Activity.style';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
+import { Row } from '..';
 
 const {
   COLOR,
@@ -29,20 +30,20 @@ export const Activity = ({ color = COLOR.BASE, size, ...others }) => {
   animate(0);
 
   return (
-    <View style={[styles.container, ...useStyler(others)]}>
+    <Row style={useStyler(others)}>
       {opacities.map((value, index) => (
         <Animated.View
           key={index.toString()}
           style={[styles.dot, styles[size], { backgroundColor: color, opacity: value }]}
         />
       ))}
-    </View>
+    </Row>
   );
 };
 
 Activity.propTypes = {
-  color: string,
-  size: string,
+  color: PropTypes.string,
+  size: PropTypes.oneOf(['S', 'M', 'L']),
 };
 
 export default Activity;

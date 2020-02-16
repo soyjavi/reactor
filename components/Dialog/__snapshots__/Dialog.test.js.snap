@@ -421,11 +421,22 @@ exports[`<Dialog> when {onClose} 1`] = `
           >
             <View
               style={
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                }
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "alignContent": "flex-start",
+                  },
+                  Object {
+                    "alignItems": "center",
+                  },
+                  Object {
+                    "justifyContent": "flex-start",
+                  },
+                  undefined,
+                ]
               }
             >
               <Text />

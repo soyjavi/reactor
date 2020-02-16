@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import { useEnvironment } from '../../hooks';
-import { Activity } from '..';
+import { Activity, Row } from '..';
 
 import { DayNames, Selector, Week } from './components';
 import { decomposeDate, firstDateOfWeek, LOCALE, nextMonth, previousMonth } from './modules';
@@ -126,10 +126,10 @@ export class Calendar extends PureComponent {
     return (
       <View style={[styles.container, others.style]}>
         {busy && <Activity size="large" style={styles.activity} />}
-        <View style={styles.content}>
+        <Row>
           <Instance onNext={!expanded} onPrevious={!disabledPrevious} />
           {expanded && <Instance next onNext />}
-        </View>
+        </Row>
       </View>
     );
   }

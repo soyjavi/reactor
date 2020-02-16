@@ -64,6 +64,7 @@ const ATTRIBUTES = {
   isOption3: { type: 'option', label: 'Option 3' },
   isOptionRounded: { type: 'option', rounded: false, label: 'Checkbox' },
 
+  // @TODO: Fieldsets
   // social: {
   //   title: 'Social Networks',
   //   attributes: {
@@ -78,10 +79,11 @@ const ATTRIBUTES = {
 const VALUE = {
   username: 'soyjavi',
   isPublic: true,
-  social: {
-    twitter: 'soyjavi',
-    facebook: '😅',
-  },
+  // @TODO: Fieldsets
+  // social: {
+  //   twitter: 'soyjavi',
+  //   facebook: '😅',
+  // },
 };
 
 const STYLE = {

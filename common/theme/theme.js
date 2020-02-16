@@ -18,8 +18,8 @@ export default {
   BORDER_RADIUS: 0,
 
   COLOR: {
-    BRAND: '#62e6ac',
-    CTA: '#ff8c5f',
+    BRAND: BLACK,
+    CTA: '#62e6ac',
     BLACK,
     WHITE,
     GRAY,
@@ -27,9 +27,10 @@ export default {
     // BASE: '#cdd2d4',
 
     BACKGROUND: WHITE,
-    TEXT: BLACK,
-    SUCCESS: '#77d27f',
+    DISABLED: GRAY.S,
     ERROR: '#e85a7e',
+    SUCCESS: '#77d27f',
+    TEXT: BLACK,
     TRANSPARENT: 'transparent',
   },
 

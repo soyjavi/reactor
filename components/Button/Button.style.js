@@ -1,6 +1,6 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { COLOR, FONT, SPACE, UNIT } = THEME;
 
@@ -19,20 +19,20 @@ export default StyleSheet.create({
   },
 
   container: {
-    ...LAYOUT.STYLE.CENTERED,
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'center',
     alignSelf: 'flex-start',
     width: 'auto',
   },
 
   disabled: {
-    backgroundColor: COLOR.GRAY.M,
+    backgroundColor: COLOR.DISABLED,
   },
 
   outlined: {
     borderWidth: 1,
   },
-
-  row: LAYOUT.STYLE.ROW,
 
   text: {
     ...FONT.BUTTON,

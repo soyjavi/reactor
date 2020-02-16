@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { INPUT, OPACITY, SPACE } = THEME;
 
@@ -12,10 +12,7 @@ export default StyleSheet.create({
     zIndex: 1,
   },
 
-  content: {
-    ...LAYOUT.STYLE.ROW,
-    ...INPUT,
-  },
+  input: INPUT,
 
   focus: {
     zIndex: 1,

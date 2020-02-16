@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 import { useEnvironment } from '../../hooks';
 
 const { IS_WEB } = useEnvironment();
@@ -37,7 +37,9 @@ export default StyleSheet.create({
   },
 
   overlay: {
-    ...LAYOUT.STYLE.CENTERED,
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'center',
     backgroundColor: 'rgba(0,0,0,0.5)',
     flex: 1,
   },

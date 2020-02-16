@@ -1,6 +1,6 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
 
@@ -67,7 +67,6 @@ export default StyleSheet.create({
   },
 
   template: {
-    ...LAYOUT.STYLE.ROW,
     height: TEMPLATE_HEIGHT,
   },
 });

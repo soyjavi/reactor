@@ -36,7 +36,7 @@ export const Dialog = ({ children, highlight, onClose, position = 'center', visi
               {onClose && (
                 <Button
                   color={COLOR.TRANSPARENT}
-                  colorContent={highlight ? COLOR.WHITE : COLOR.BLACK}
+                  colorText={highlight ? COLOR.WHITE : COLOR.BLACK}
                   icon="close"
                   iconSize={SPACE.L}
                   onPress={onClose}

@@ -1,6 +1,6 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { COLOR, FONT, SPACE, UNIT } = THEME;
 
@@ -24,9 +24,7 @@ export default StyleSheet.create({
   },
 
   container: {
-    ...LAYOUT.STYLE.ROW,
     height: '100%',
-    paddingRight: SPACE.XS,
     flex: 1,
   },
 
@@ -39,18 +37,18 @@ export default StyleSheet.create({
     marginRight: SPACE.XS,
   },
 
-  inlineHint: {
-    ...LAYOUT.STYLE.ROW,
-    justifyContent: 'center',
-    paddingHorizontal: SPACE.XS,
-  },
-
   input: {
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
     flex: 1,
     height: '100%',
     width: '100%',
+    ...Platform.select({
+      web: {
+        userSelect: 'none',
+        outline: 'none',
+      },
+    }),
     ...FONT.DEFAULT,
     ...FONT.INPUT,
   },

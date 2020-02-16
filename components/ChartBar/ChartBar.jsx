@@ -4,7 +4,7 @@ import React from 'react';
 import styles from './ChartBar.style';
 
 import { THEME } from '../../common';
-import { Motion, Text } from '..';
+import { Motion, Row, Text } from '..';
 import { calcHeight, calcRange } from './modules';
 
 const { COLOR } = THEME;
@@ -30,7 +30,7 @@ export const ChartBar = ({
           <View style={[styles.scales, captions && styles.scaleCaptions]}>
             <View style={[styles.scaleValues, inverted && styles.scaleValuesInverted]}>
               {scales.map((scale, index) => (
-                <Text key={`scale-${index.toString()}`} lighten style={styles.legend}>
+                <Text key={`scale-${index.toString()}`} style={styles.legend}>
                   {scale}
                 </Text>
               ))}
@@ -55,7 +55,7 @@ export const ChartBar = ({
             </View>
           ))}
 
-        <View style={[styles.content, styles.row, scales && styles.rowScale]}>
+        <Row alignItems="center" justifyContent="space" style={[styles.content, scales && styles.rowScale]}>
           {values.map((value, index) => (
             <Motion key={`${value}-${index.toString()}`} style={[styles.column, inverted && styles.columnInverted]}>
               <Motion
@@ -70,23 +70,22 @@ export const ChartBar = ({
               />
             </Motion>
           ))}
-        </View>
+        </Row>
 
         {captions && (
-          <View style={[styles.captions, styles.row, scales && styles.rowScale]}>
+          <Row justifyContent="space" style={[styles.captions, scales && styles.rowScale]}>
             {captions.map((caption, index) => (
               <View key={`caption-${index.toString()}`} style={styles.column}>
                 <Text
                   bold={highlight === index}
                   color={highlight === index ? COLOR.TEXT : undefined}
-                  lighten
                   style={styles.legend}
                 >
                   {caption.substring(0, 3).toUpperCase()}
                 </Text>
               </View>
             ))}
-          </View>
+          </Row>
         )}
       </View>
     </View>

@@ -2,7 +2,7 @@ import { func, shape } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import { Text, Touchable } from '../..';
+import { Row, Text, Touchable } from '../..';
 
 import styles, { BOX_SIZE } from './Week.style';
 
@@ -52,7 +52,7 @@ export const Week = ({ firstDate, ...others }) => {
   }
 
   return (
-    <View style={styles.container}>
+    <Row justifyContent="space" marginTop="XS">
       {days.map((day) => {
         const tsDay = day.getTime();
         const isToday = tsDay === tsToday;
@@ -107,11 +107,7 @@ export const Week = ({ firstDate, ...others }) => {
           >
             {box && !busy && <View style={[styles.box, isDisabled && styles.boxDisabled]} />}
             {isVisible && (
-              <Text
-                subtitle={!isDisabled}
-                lighten={isDisabled || (isOutOfMonth && edges)}
-                style={[styles.text, isHighlight && styles.textHighlight]}
-              >
+              <Text subtitle={!isDisabled} style={[styles.text, isHighlight && styles.textHighlight]}>
                 {day.getDate()}
               </Text>
             )}
@@ -123,7 +119,7 @@ export const Week = ({ firstDate, ...others }) => {
           </Container>
         );
       })}
-    </View>
+    </Row>
   );
 };
 

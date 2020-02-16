@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 
 const { SPACE } = THEME;
@@ -15,8 +15,6 @@ export default StyleSheet.create({
   L: {
     height: INPUT_HEIGHT.L,
   },
-
-  container: LAYOUT.STYLE.ROW,
 
   icon: {
     marginRight: SPACE.S,

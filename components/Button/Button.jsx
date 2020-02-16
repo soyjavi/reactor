@@ -1,10 +1,9 @@
 import { bool, func, node, number, string, oneOf } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
-import { Activity, Icon, Text, Touchable } from '../';
+import { Activity, Icon, Row, Text, Touchable } from '../';
 import styles from './Button.style';
 
 const { BORDER_RADIUS, COLOR } = THEME;
@@ -13,7 +12,7 @@ export const Button = ({
   activity,
   borderRadius = BORDER_RADIUS,
   children,
-  color = COLOR.CTA || COLOR.GRAY.M,
+  color = COLOR.CTA,
   colorText = COLOR.WHITE,
   disabled,
   icon,
@@ -24,7 +23,7 @@ export const Button = ({
   wide,
   ...others
 }) => {
-  const colorContent = disabled ? COLOR.GRAY.L : outlined ? color : colorText;
+  const colorContent = disabled ? COLOR.GRAY.M : outlined ? color : colorText;
 
   return (
     <Touchable
@@ -33,7 +32,7 @@ export const Button = ({
       rippleColor={colorContent}
       style={[
         styles.container,
-        outlined && styles.outlined,
+        outlined && !disabled && styles.outlined,
         disabled ? styles.disabled : { borderRadius, [outlined ? 'borderColor' : 'backgroundColor']: color },
         wide && styles.wide,
         styles[size],
@@ -43,7 +42,7 @@ export const Button = ({
       {activity ? (
         <Activity color={colorContent} style={styles.activity} />
       ) : (
-        <View style={styles.row}>
+        <Row alignItems="center">
           {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
           {title && (
             <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
@@ -51,7 +50,7 @@ export const Button = ({
             </Text>
           )}
           {children}
-        </View>
+        </Row>
       )}
     </Touchable>
   );

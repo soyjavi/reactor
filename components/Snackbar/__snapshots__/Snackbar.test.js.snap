@@ -75,11 +75,22 @@ exports[`<Snackbar> renders 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text
@@ -197,11 +208,22 @@ exports[`<Snackbar> when {color} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text
@@ -310,11 +332,22 @@ exports[`<Snackbar> when {icon} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text />
@@ -433,11 +466,22 @@ exports[`<Snackbar> when {onClose} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text
@@ -505,11 +549,22 @@ exports[`<Snackbar> when {onClose} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    undefined,
+                  ]
                 }
               >
                 <Text />
@@ -627,11 +682,22 @@ exports[`<Snackbar> when {visible} (false) 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                undefined,
+              ]
             }
           >
             <Text

@@ -1,21 +1,21 @@
 import React from 'react';
 
-import { Image, Slider } from '../components';
+import { Image, Slider, Viewport } from '../components';
 
-const ITEM_STYLE = { width: 320, height: 200 };
+import { Content, Header } from './components';
 
-export const SliderStory = () => (
-  <>
-    <Slider itemWidth={ITEM_STYLE.width} navigation>
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-      <Image source={{ uri: 'https://picsum.photos/320/200/?random' }} style={ITEM_STYLE} />
-    </Slider>
-  </>
+const ITEM = { width: 320, height: 200 };
+const URI = `https://via.placeholder.com/${ITEM.width}x${ITEM.height}.png`;
+
+export const SliderStory = (props) => (
+  <Viewport {...props} scroll={false}>
+    <Header {...props} title="Slider" />
+    <Content>
+      <Slider itemWidth={ITEM.width} navigation>
+        {Array.from(Array(10).keys()).map((item) => (
+          <Image key={item} source={{ uri: `${URI}?text=item+${item}` }} style={ITEM} />
+        ))}
+      </Slider>
+    </Content>
+  </Viewport>
 );

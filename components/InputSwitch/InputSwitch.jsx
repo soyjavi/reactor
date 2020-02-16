@@ -1,14 +1,15 @@
 import { bool, func, oneOf, string, node } from 'prop-types';
 import React from 'react';
-import { Switch, View } from 'react-native';
+import { Switch } from 'react-native';
 
 import { THEME } from '../../common';
+import { Row } from '../';
 import styles from './InputSwitch.style';
 
 const { COLOR } = THEME;
 
 export const InputSwitch = ({ children, color, onChange, size = 'M', value = false }) => (
-  <View style={[styles.container, styles[size]]}>
+  <Row style={styles[size]}>
     <Switch
       activeThumbColor={COLOR.WHITE}
       activeTrackColor={color || COLOR.BRAND}
@@ -19,7 +20,7 @@ export const InputSwitch = ({ children, color, onChange, size = 'M', value = fal
       value={value}
     />
     {children}
-  </View>
+  </Row>
 );
 
 InputSwitch.propTypes = {

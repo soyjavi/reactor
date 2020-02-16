@@ -36,4 +36,3 @@ describe('<Ripple>', () => {
   //   expect(tree).toMatchSnapshot();
   // });
 });
-

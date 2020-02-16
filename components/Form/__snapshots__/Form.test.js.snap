@@ -103,13 +103,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           Object {
@@ -123,14 +120,28 @@ exports[`<Form> when {attributes} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -216,13 +227,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -234,14 +242,28 @@ exports[`<Form> when {attributes} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -331,13 +353,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -349,14 +368,28 @@ exports[`<Form> when {attributes} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -470,13 +503,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -488,14 +518,28 @@ exports[`<Form> when {attributes} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -608,13 +652,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           Object {
@@ -628,14 +669,28 @@ exports[`<Form> when {attributes} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -722,13 +777,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -740,14 +792,28 @@ exports[`<Form> when {attributes} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -838,13 +904,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -856,26 +919,54 @@ exports[`<Form> when {attributes} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <View
-          pointerEvents="none"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "paddingRight": 4,
+              },
+              Object {
+                "paddingLeft": 4,
+              },
+              undefined,
+            ]
           }
         >
           <Text />
@@ -996,13 +1087,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -1154,13 +1242,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -1199,12 +1284,24 @@ exports[`<Form> when {attributes} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 44.8,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "height": 44.8,
+                },
+              ]
             }
           >
             <Text />
@@ -1337,12 +1434,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -1448,12 +1557,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -1559,12 +1680,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -1670,12 +1803,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -1781,12 +1926,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -1892,12 +2049,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -2003,12 +2172,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -2114,12 +2295,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -2225,12 +2418,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -2336,12 +2541,24 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -2478,13 +2695,10 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -2496,26 +2710,54 @@ exports[`<Form> when {attributes} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <View
-          pointerEvents="none"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "paddingRight": 4,
+              },
+              Object {
+                "paddingLeft": 4,
+              },
+              undefined,
+            ]
           }
         >
           <Text />
@@ -2582,9 +2824,17 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "flex-start",
           },
           Object {
             "height": 40,
@@ -2661,9 +2911,17 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "flex-start",
           },
           Object {
             "height": 40,
@@ -2748,44 +3006,58 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -2846,44 +3118,58 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option 2
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option 2
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -2944,44 +3230,58 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option 3
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option 3
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -3042,44 +3342,58 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Checkbox
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Checkbox
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -3140,44 +3454,58 @@ exports[`<Form> when {attributes} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        ACCEPT, terms & conditions
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          ACCEPT, terms & conditions
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -3276,13 +3604,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           Object {
@@ -3296,14 +3621,28 @@ exports[`<Form> when {color} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -3389,13 +3728,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -3407,14 +3743,28 @@ exports[`<Form> when {color} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -3504,13 +3854,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -3522,14 +3869,28 @@ exports[`<Form> when {color} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -3643,13 +4004,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -3661,14 +4019,28 @@ exports[`<Form> when {color} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -3781,13 +4153,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           Object {
@@ -3801,14 +4170,28 @@ exports[`<Form> when {color} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -3895,13 +4278,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -3913,14 +4293,28 @@ exports[`<Form> when {color} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -4011,13 +4405,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -4029,26 +4420,54 @@ exports[`<Form> when {color} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <View
-          pointerEvents="none"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "paddingRight": 4,
+              },
+              Object {
+                "paddingLeft": 4,
+              },
+              undefined,
+            ]
           }
         >
           <Text />
@@ -4169,13 +4588,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -4327,13 +4743,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -4372,12 +4785,24 @@ exports[`<Form> when {color} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 44.8,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "height": 44.8,
+                },
+              ]
             }
           >
             <Text />
@@ -4510,12 +4935,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -4621,12 +5058,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -4732,12 +5181,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -4843,12 +5304,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -4954,12 +5427,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -5065,12 +5550,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -5176,12 +5673,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -5287,12 +5796,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -5398,12 +5919,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -5509,12 +6042,24 @@ exports[`<Form> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -5651,13 +6196,10 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -5669,26 +6211,54 @@ exports[`<Form> when {color} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <View
-          pointerEvents="none"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "paddingRight": 4,
+              },
+              Object {
+                "paddingLeft": 4,
+              },
+              undefined,
+            ]
           }
         >
           <Text />
@@ -5755,9 +6325,17 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "flex-start",
           },
           Object {
             "height": 40,
@@ -5834,9 +6412,17 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "flex-start",
           },
           Object {
             "height": 40,
@@ -5921,44 +6507,58 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -6019,44 +6619,58 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option 2
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option 2
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -6117,44 +6731,58 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option 3
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option 3
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -6215,44 +6843,58 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Checkbox
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Checkbox
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -6313,44 +6955,58 @@ exports[`<Form> when {color} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        ACCEPT, terms & conditions
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          ACCEPT, terms & conditions
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -6524,13 +7180,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           Object {
@@ -6544,14 +7197,28 @@ exports[`<Form> when {validate} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -6637,13 +7304,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -6655,14 +7319,28 @@ exports[`<Form> when {validate} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -6753,13 +7431,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -6771,14 +7446,28 @@ exports[`<Form> when {validate} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -6892,13 +7581,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -6910,14 +7596,28 @@ exports[`<Form> when {validate} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -7030,13 +7730,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           Object {
@@ -7050,14 +7747,28 @@ exports[`<Form> when {validate} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -7144,13 +7855,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -7162,14 +7870,28 @@ exports[`<Form> when {validate} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -7260,13 +7982,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -7278,26 +7997,54 @@ exports[`<Form> when {validate} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <View
-          pointerEvents="none"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "paddingRight": 4,
+              },
+              Object {
+                "paddingLeft": 4,
+              },
+              undefined,
+            ]
           }
         >
           <Text />
@@ -7418,13 +8165,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -7576,13 +8320,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -7621,12 +8362,24 @@ exports[`<Form> when {validate} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 44.8,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "height": 44.8,
+                },
+              ]
             }
           >
             <Text />
@@ -7759,12 +8512,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -7870,12 +8635,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -7981,12 +8758,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -8092,12 +8881,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -8203,12 +9004,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -8314,12 +9127,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -8425,12 +9250,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -8536,12 +9373,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -8647,12 +9496,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -8758,12 +9619,24 @@ exports[`<Form> when {validate} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -8900,13 +9773,10 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -8918,26 +9788,54 @@ exports[`<Form> when {validate} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <View
-          pointerEvents="none"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "paddingRight": 4,
+              },
+              Object {
+                "paddingLeft": 4,
+              },
+              undefined,
+            ]
           }
         >
           <Text />
@@ -9004,9 +9902,17 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "flex-start",
           },
           Object {
             "height": 40,
@@ -9083,9 +9989,17 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "flex-start",
           },
           Object {
             "height": 40,
@@ -9170,44 +10084,58 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -9268,44 +10196,58 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option 2
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option 2
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -9366,44 +10308,58 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option 3
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option 3
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -9464,44 +10420,58 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Checkbox
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Checkbox
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -9562,44 +10532,58 @@ exports[`<Form> when {validate} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        ACCEPT, terms & conditions
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          ACCEPT, terms & conditions
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -9698,13 +10682,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           Object {
@@ -9718,14 +10699,28 @@ exports[`<Form> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -9811,13 +10806,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -9829,14 +10821,28 @@ exports[`<Form> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -9926,13 +10932,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -9944,14 +10947,28 @@ exports[`<Form> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -10065,13 +11082,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -10083,14 +11097,28 @@ exports[`<Form> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -10203,13 +11231,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           Object {
@@ -10223,14 +11248,28 @@ exports[`<Form> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -10317,13 +11356,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -10335,14 +11371,28 @@ exports[`<Form> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <TextInput
@@ -10433,13 +11483,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -10451,26 +11498,54 @@ exports[`<Form> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <View
-          pointerEvents="none"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "paddingRight": 4,
+              },
+              Object {
+                "paddingLeft": 4,
+              },
+              undefined,
+            ]
           }
         >
           <Text />
@@ -10591,13 +11666,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -10749,13 +11821,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -10794,12 +11863,24 @@ exports[`<Form> when {value} 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 44.8,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "height": 44.8,
+                },
+              ]
             }
           >
             <Text />
@@ -10932,12 +12013,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11043,12 +12136,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11154,12 +12259,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11265,12 +12382,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11376,12 +12505,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11487,12 +12628,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11598,12 +12751,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11709,12 +12874,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11820,12 +12997,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -11931,12 +13120,24 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 44.8,
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    Object {
+                      "height": 44.8,
+                    },
+                  ]
                 }
               >
                 <Text />
@@ -12073,13 +13274,10 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "backgroundColor": "#ffffff",
             "borderColor": "#a3a3a3",
             "borderRadius": 0,
             "borderWidth": 1,
-            "display": "flex",
-            "flexDirection": "row",
             "paddingHorizontal": 8,
           },
           undefined,
@@ -12091,26 +13289,54 @@ exports[`<Form> when {value} 1`] = `
     >
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flex": 1,
-            "flexDirection": "row",
-            "height": "100%",
-            "paddingRight": 4,
-          }
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
+              "paddingRight": 4,
+            },
+            Object {
+              "flex": 1,
+              "height": "100%",
+            },
+          ]
         }
       >
         <View
-          pointerEvents="none"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "paddingHorizontal": 4,
-            }
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              },
+              Object {
+                "alignContent": "flex-start",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "paddingRight": 4,
+              },
+              Object {
+                "paddingLeft": 4,
+              },
+              undefined,
+            ]
           }
         >
           <Text />
@@ -12177,9 +13403,17 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "flex-start",
           },
           Object {
             "height": 40,
@@ -12256,9 +13490,17 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           Object {
-            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+          },
+          Object {
+            "alignContent": "flex-start",
+          },
+          Object {
+            "alignItems": "flex-start",
+          },
+          Object {
+            "justifyContent": "flex-start",
           },
           Object {
             "height": 40,
@@ -12343,44 +13585,58 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -12441,44 +13697,58 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option 2
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option 2
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -12539,44 +13809,58 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Option 3
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Option 3
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -12637,44 +13921,58 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        Checkbox
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          Checkbox
+        </Text>
+      </View>
       <View
         style={
           Array [
@@ -12735,44 +14033,58 @@ exports[`<Form> when {value} 1`] = `
       style={
         Array [
           undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
           Array [
             Object {
-              "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
             Object {
+              "alignContent": "flex-start",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "justifyContent": "flex-start",
+            },
+            Object {
               "height": 40,
             },
-          ],
-        ]
-      }
-    >
-      <Text />
-      <Text
-        numberOfLines={2}
-        style={
-          Array [
-            Object {
-              "fontFamily": undefined,
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-            },
-            undefined,
-            Object {
-              "fontWeight": "700",
-            },
-            Object {
-              "color": "#a3a3a3",
-            },
-            undefined,
           ]
         }
       >
-        ACCEPT, terms & conditions
-      </Text>
+        <Text />
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "fontFamily": undefined,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#a3a3a3",
+              },
+              undefined,
+            ]
+          }
+        >
+          ACCEPT, terms & conditions
+        </Text>
+      </View>
       <View
         style={
           Array [

@@ -92,12 +92,25 @@ exports[`<Alert> hook:styler 1`] = `
           </Text>
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginTop": 24,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "flex-start",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "marginTop": 16,
+                },
+                undefined,
+              ]
             }
           >
             <View
@@ -141,11 +154,22 @@ exports[`<Alert> hook:styler 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    undefined,
+                  ]
                 }
               />
               <View
@@ -275,12 +299,25 @@ exports[`<Alert> renders 1`] = `
           </Text>
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginTop": 24,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "flex-start",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "marginTop": 16,
+                },
+                undefined,
+              ]
             }
           >
             <View
@@ -324,11 +361,22 @@ exports[`<Alert> renders 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    undefined,
+                  ]
                 }
               />
               <View
@@ -467,12 +515,25 @@ exports[`<Alert> when {accept} 1`] = `
           </Text>
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginTop": 24,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "flex-start",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "marginTop": 16,
+                },
+                undefined,
+              ]
             }
           >
             <View
@@ -517,11 +578,22 @@ exports[`<Alert> when {accept} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    undefined,
+                  ]
                 }
               >
                 <Text
@@ -680,12 +752,25 @@ exports[`<Alert> when {cancel} 1`] = `
           </Text>
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginTop": 24,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "flex-start",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "marginTop": 16,
+                },
+                undefined,
+              ]
             }
           >
             <View
@@ -730,11 +815,22 @@ exports[`<Alert> when {cancel} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    undefined,
+                  ]
                 }
               />
               <View
@@ -893,12 +989,25 @@ exports[`<Alert> when {caption} 1`] = `
           </Text>
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginTop": 24,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "flex-start",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "marginTop": 16,
+                },
+                undefined,
+              ]
             }
           >
             <View
@@ -942,11 +1051,22 @@ exports[`<Alert> when {caption} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    undefined,
+                  ]
                 }
               />
               <View
@@ -1076,12 +1196,25 @@ exports[`<Alert> when {color} 1`] = `
           </Text>
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginTop": 24,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "flex-start",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "marginTop": 16,
+                },
+                undefined,
+              ]
             }
           >
             <View
@@ -1125,11 +1258,22 @@ exports[`<Alert> when {color} 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    undefined,
+                  ]
                 }
               />
               <View
@@ -1268,12 +1412,25 @@ exports[`<Alert> when {visible} (false) 1`] = `
           </Text>
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginTop": 24,
-              }
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignContent": "flex-start",
+                },
+                Object {
+                  "alignItems": "flex-start",
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+                Object {
+                  "marginTop": 16,
+                },
+                undefined,
+              ]
             }
           >
             <View
@@ -1317,11 +1474,22 @@ exports[`<Alert> when {visible} (false) 1`] = `
             >
               <View
                 style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  }
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
+                      "alignContent": "flex-start",
+                    },
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-start",
+                    },
+                    undefined,
+                  ]
                 }
               />
               <View

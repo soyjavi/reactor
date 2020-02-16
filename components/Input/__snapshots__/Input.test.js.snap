@@ -3,14 +3,28 @@
 exports[`<Input> renders 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -53,14 +67,28 @@ exports[`<Input> renders 1`] = `
 exports[`<Input> when {color} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -106,26 +134,54 @@ exports[`<Input> when {color} 1`] = `
 exports[`<Input> when {currency} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <View
-    pointerEvents="none"
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "paddingHorizontal": 4,
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "paddingRight": 4,
+        },
+        Object {
+          "paddingLeft": 4,
+        },
+        undefined,
+      ]
     }
   >
     <Text
@@ -197,14 +253,28 @@ exports[`<Input> when {currency} 1`] = `
 exports[`<Input> when {disabled} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -247,14 +317,28 @@ exports[`<Input> when {disabled} 1`] = `
 exports[`<Input> when {error} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -298,14 +382,28 @@ exports[`<Input> when {error} 1`] = `
 exports[`<Input> when {hint} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -349,26 +447,54 @@ exports[`<Input> when {hint} 1`] = `
 exports[`<Input> when {icon} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <View
-    pointerEvents="none"
     style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "paddingHorizontal": 4,
-      }
+      Array [
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Object {
+          "alignContent": "flex-start",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "paddingRight": 4,
+        },
+        Object {
+          "paddingLeft": 4,
+        },
+        undefined,
+      ]
     }
   >
     <Text />
@@ -413,14 +539,28 @@ exports[`<Input> when {icon} 1`] = `
 exports[`<Input> when {keyboard} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -465,14 +605,28 @@ exports[`<Input> when {keyboard} 1`] = `
 exports[`<Input> when {label} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -516,14 +670,28 @@ exports[`<Input> when {label} 1`] = `
 exports[`<Input> when {lines} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -567,14 +735,28 @@ exports[`<Input> when {lines} 1`] = `
 exports[`<Input> when {required} & {requiredIcon} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -618,14 +800,28 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
 exports[`<Input> when {required} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -668,14 +864,28 @@ exports[`<Input> when {required} 1`] = `
 exports[`<Input> when {style} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -718,14 +928,28 @@ exports[`<Input> when {style} 1`] = `
 exports[`<Input> when {valid} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
@@ -769,14 +993,28 @@ exports[`<Input> when {valid} 1`] = `
 exports[`<Input> when {value} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flex": 1,
-      "flexDirection": "row",
-      "height": "100%",
-      "paddingRight": 4,
-    }
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignContent": "flex-start",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "justifyContent": "flex-start",
+      },
+      Object {
+        "paddingRight": 4,
+      },
+      Object {
+        "flex": 1,
+        "height": "100%",
+      },
+    ]
   }
 >
   <TextInput
