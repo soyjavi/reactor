@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Animated, View } from 'react-native';
+import { Animated } from 'react-native';
 import React from 'react';
 import styles from './Activity.style';
 

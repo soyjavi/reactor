@@ -1,6 +1,6 @@
 import { bool, func, oneOfType, number, string, oneOf } from 'prop-types';
 import React from 'react';
-import { TextInput, View } from 'react-native';
+import { TextInput } from 'react-native';
 
 import { THEME } from '../../common';
 

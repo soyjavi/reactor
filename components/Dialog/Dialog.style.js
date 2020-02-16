@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 import { useEnvironment } from '../../hooks';
 
 const { IS_WEB } = useEnvironment();

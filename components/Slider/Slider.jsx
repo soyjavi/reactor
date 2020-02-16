@@ -2,7 +2,7 @@ import { arrayOf, bool, func, node, number, shape } from 'prop-types';
 import React, { PureComponent, createRef } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 import { Button } from '..';
 import styles from './Slider.style';
 

@@ -85,7 +85,7 @@ export const DialogStory = (props) => {
         <Button {...button} onPress={() => setAlert(true)} title="<Alert>" wide />
         <Button {...button} onPress={() => setSnackbar(true)} title="<Snackbar>" wide />
         <Text align="center" caption>
-          The Snackbar can't get the props: position & highlights
+          The Snackbar can not get the props: position & highlights
         </Text>
       </Content>
 

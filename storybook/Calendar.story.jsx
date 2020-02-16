@@ -5,9 +5,9 @@ import { Calendar, Viewport } from '../components';
 import { Content, Header } from './components';
 
 export const CalendarStory = (props) => {
-  const [form, setForm] = useState();
+  // const [value, setValue] = useState();
 
-  useEffect(() => console.log('useEffect::form', form), [form]);
+  // useEffect(() => console.log('useEffect::form', value), value);
 
   return (
     <Viewport {...props} scroll={false}>
