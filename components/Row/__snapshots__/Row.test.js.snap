@@ -9,10 +9,7 @@ exports[`<Row> hook:styler 1`] = `
         "flexDirection": "row",
       },
       Object {
-        "alignContent": "flex-start",
-      },
-      Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
       },
       Object {
         "justifyContent": "flex-start",
@@ -35,55 +32,6 @@ exports[`<Row> renders 1`] = `
         "flexDirection": "row",
       },
       Object {
-        "alignContent": "flex-start",
-      },
-      Object {
-        "alignItems": "flex-start",
-      },
-      Object {
-        "justifyContent": "flex-start",
-      },
-      undefined,
-    ]
-  }
-/>
-`;
-
-exports[`<Row> when {alignContent} 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "display": "flex",
-        "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "center",
-      },
-      Object {
-        "alignItems": "flex-start",
-      },
-      Object {
-        "justifyContent": "flex-start",
-      },
-      undefined,
-    ]
-  }
-/>
-`;
-
-exports[`<Row> when {alignItems} 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "display": "flex",
-        "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
-      },
-      Object {
         "alignItems": "center",
       },
       Object {
@@ -95,7 +43,7 @@ exports[`<Row> when {alignItems} 1`] = `
 />
 `;
 
-exports[`<Row> when {justifyContent} 1`] = `
+exports[`<Row> when {align} 1`] = `
 <View
   style={
     Array [
@@ -104,10 +52,27 @@ exports[`<Row> when {justifyContent} 1`] = `
         "flexDirection": "row",
       },
       Object {
-        "alignContent": "flex-start",
+        "alignItems": "flex-start",
       },
       Object {
-        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Row> when {justify} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "alignItems": "center",
       },
       Object {
         "justifyContent": "center",

@@ -9,6 +9,7 @@ import {
   CalendarStory,
   DialogStory,
   FormStory,
+  LayoutStory,
   SliderStory,
   TextStory,
 } from './storybook';
@@ -18,7 +19,7 @@ if (typeof global.self === 'undefined') global.self = global;
 const buttonProps = { color: 'black', marginVertical: 'XS', outlined: true, wide: true };
 
 const App = () => {
-  const [story, setStory] = useState('button');
+  const [story, setStory] = useState('layout');
   const handleBack = () => setStory(undefined);
 
   return (
@@ -49,6 +50,7 @@ const App = () => {
           <Button {...buttonProps} title="Form" onPress={() => setStory('form')} />
           <Button {...buttonProps} disabled title="Icon" onPress={() => setStory('icon')} />
           <Button {...buttonProps} disabled title="Image" onPress={() => setStory('image')} />
+          <Button {...buttonProps} title="Layout" onPress={() => setStory('layout')} />
           <Button {...buttonProps} disabled title="Link" onPress={() => setStory('link')} />
           <Button {...buttonProps} disabled title="Motion" onPress={() => setStory('motion')} />
           <Button {...buttonProps} disabled title="Price" onPress={() => setStory('price')} />
@@ -64,6 +66,7 @@ const App = () => {
       <DialogStory visible={story === 'dialog'} onBack={handleBack} />
       <CalendarStory visible={story === 'calendar'} onBack={handleBack} />
       <FormStory visible={story === 'form'} onBack={handleBack} />
+      <LayoutStory visible={story === 'layout'} onBack={handleBack} />
       <SliderStory visible={story === 'slider'} onBack={handleBack} />
       <TextStory visible={story === 'text'} onBack={handleBack} />
     </LayoutView>

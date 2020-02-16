@@ -6,43 +6,31 @@ export default StyleSheet.create({
     flexDirection: 'row',
   },
 
-  alignContentstart: {
-    alignContent: 'flex-start',
-  },
-
-  alignContentcenter: {
-    alignContent: 'center',
-  },
-
-  alignContentend: {
-    alignContent: 'flex-end',
-  },
-
-  alignItemsstart: {
+  start: {
     alignItems: 'flex-start',
   },
 
-  alignItemscenter: {
+  center: {
     alignItems: 'center',
   },
 
-  alignItemsend: {
+  end: {
     alignItems: 'flex-end',
   },
 
-  justifyContentstart: {
+  justifystart: {
     justifyContent: 'flex-start',
   },
 
-  justifyContentcenter: {
+  justifycenter: {
     justifyContent: 'center',
   },
 
-  justifyContentend: {
+  justifyend: {
     justifyContent: 'flex-end',
   },
 
-  justifyContentspace: {
+  justifyspace: {
     justifyContent: 'space-between',
   },
 });

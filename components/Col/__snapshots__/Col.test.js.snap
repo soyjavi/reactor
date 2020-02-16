@@ -6,17 +6,13 @@ exports[`<Col> hook:styler 1`] = `
     Array [
       Object {
         "display": "flex",
-        "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "flex": 1,
+        "flexDirection": "column",
       },
       Object {
         "alignItems": "flex-start",
       },
-      Object {
-        "justifyContent": "flex-start",
-      },
+      undefined,
       Object {
         "marginBottom": 16,
       },
@@ -32,85 +28,52 @@ exports[`<Col> renders 1`] = `
     Array [
       Object {
         "display": "flex",
-        "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "flex": 1,
+        "flexDirection": "column",
       },
       Object {
         "alignItems": "flex-start",
       },
-      Object {
-        "justifyContent": "flex-start",
-      },
+      undefined,
       undefined,
     ]
   }
 />
 `;
 
-exports[`<Col> when {alignContent} 1`] = `
+exports[`<Col> when {align} 1`] = `
 <View
   style={
     Array [
       Object {
         "display": "flex",
-        "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "center",
-      },
-      Object {
-        "alignItems": "flex-start",
-      },
-      Object {
-        "justifyContent": "flex-start",
-      },
-      undefined,
-    ]
-  }
-/>
-`;
-
-exports[`<Col> when {alignItems} 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "display": "flex",
-        "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "flex": 1,
+        "flexDirection": "column",
       },
       Object {
         "alignItems": "center",
       },
-      Object {
-        "justifyContent": "flex-start",
-      },
+      undefined,
       undefined,
     ]
   }
 />
 `;
 
-exports[`<Col> when {justifyContent} 1`] = `
+exports[`<Col> when {width} 1`] = `
 <View
   style={
     Array [
       Object {
         "display": "flex",
-        "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "flex": 1,
+        "flexDirection": "column",
       },
       Object {
         "alignItems": "flex-start",
       },
       Object {
-        "justifyContent": "center",
+        "flex": 0,
       },
       undefined,
     ]

@@ -6,23 +6,15 @@ import { useBanStylerProps, useStyler } from '../../hooks';
 import styles from './Row.style';
 
 const ALIGNS = ['start', 'center', 'end'];
-const ALIGN = ALIGNS[0];
 
-export const Row = ({ alignContent = ALIGN, alignItems = ALIGN, justifyContent = ALIGN, ...others }) => (
+export const Row = ({ align = 'center', justify = 'start', ...others }) => (
   <View
-    style={[
-      styles.container,
-      styles[`alignContent${alignContent}`],
-      styles[`alignItems${alignItems}`],
-      styles[`justifyContent${justifyContent}`],
-      ...useStyler(others),
-    ]}
+    style={[styles.container, styles[align], styles[`justify${justify}`], ...useStyler(others)]}
     {...useBanStylerProps(others)}
   />
 );
 
 Row.propTypes = {
-  alignContent: PropTypes.oneOf(ALIGNS),
-  alignItems: PropTypes.oneOf(ALIGNS),
-  justifyContent: PropTypes.oneOf([...ALIGNS, 'space']),
+  align: PropTypes.oneOf(ALIGNS),
+  justify: PropTypes.oneOf([...ALIGNS, 'space']),
 };

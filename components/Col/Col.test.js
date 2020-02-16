@@ -9,18 +9,13 @@ describe('<Col>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {alignContent}', () => {
-    const tree = renderer.create(<Col alignContent="center" />).toJSON();
+  it('when {align}', () => {
+    const tree = renderer.create(<Col align="center" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {alignItems}', () => {
-    const tree = renderer.create(<Col alignItems="center" />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {justifyContent}', () => {
-    const tree = renderer.create(<Col justifyContent="center" />).toJSON();
+  it('when {width}', () => {
+    const tree = renderer.create(<Col width="auto" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
