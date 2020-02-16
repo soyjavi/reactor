@@ -17,8 +17,8 @@ const styles = StyleSheet.create({
 const buttonProps = { color: COLOR.TRANSPARENT, size: 'S' };
 
 export const Header = ({ onBack, onExtra, title }) => (
-  <Row alignItems="center" style={styles.container}>
-    <Col align="start">{onBack && <Button {...buttonProps} onPress={onBack} title="back" />}</Col>
+  <Row alignItems="center" style={styles.container} paddingHorizontal="S">
+    <Col align="start">{onBack && <Button {...buttonProps} icon="home" onPress={onBack} />}</Col>
     <Col align="center" marginHorizontal="M">
       <Text bold color={COLOR.WHITE}>
         {title}

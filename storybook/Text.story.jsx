@@ -1,18 +1,31 @@
 import React from 'react';
 
-import { Text } from '../components';
+import { Text, Viewport } from '../components';
 
-const DEFAULTS = {
-  children: 'Lorem Ipsum...',
-};
+import { Content, Header } from './components';
 
-export const TextStory = () => (
-  <>
-    <Text headline {...DEFAULTS} />
-    <Text subtitle {...DEFAULTS} />
-    <Text bold {...DEFAULTS} />
-    <Text {...DEFAULTS} />
-    <Text caption {...DEFAULTS} />
-    <Text lighten {...DEFAULTS} />
-  </>
+const LOREM = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ';
+const prop = { caption: true, bold: true, marginTop: 'M', style: { fontFamily: 'courier' } };
+
+export const TextStory = (props) => (
+  <Viewport {...props} scroll={false}>
+    <Header {...props} title="Form" />
+    <Content>
+      <Text>{LOREM}</Text>
+
+      <Text {...prop}>.headline</Text>
+      <Text headline>{LOREM}</Text>
+
+      <Text {...prop}>.subtitle</Text>
+      <Text subtitle>{LOREM}</Text>
+
+      <Text {...prop}>.caption</Text>
+      <Text caption>{LOREM}</Text>
+
+      <Text {...prop}>.bold</Text>
+      <Text bold>{LOREM}</Text>
+
+      <Text bold />
+    </Content>
+  </Viewport>
 );

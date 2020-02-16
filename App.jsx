@@ -1,9 +1,17 @@
 import React, { useState } from 'react';
 
 import PKG from './package.json';
-import { ButtonStory, DialogStory, FormStory } from './storybook';
 import { Button, LayoutView, Text, Viewport } from './components';
-import { Content, Header } from './storybook/components';
+import {
+  Content,
+  Header,
+  ButtonStory,
+  CalendarStory,
+  DialogStory,
+  FormStory,
+  SliderStory,
+  TextStory,
+} from './storybook';
 
 if (typeof global.self === 'undefined') global.self = global;
 
@@ -11,7 +19,6 @@ const buttonProps = { color: 'black', marginVertical: 'XS', outlined: true, wide
 
 const App = () => {
   const [story, setStory] = useState(undefined);
-
   const handleBack = () => setStory(undefined);
 
   return (
@@ -34,15 +41,31 @@ const App = () => {
           <Text bold subtitle marginTop="M">
             Stories
           </Text>
-          <Button {...buttonProps} title="Buttons" onPress={() => setStory('button')} />
-          <Button {...buttonProps} title="Dialogs" onPress={() => setStory('dialog')} />
-          <Button {...buttonProps} title="Forms" onPress={() => setStory('form')} />
+          <Button {...buttonProps} disabled title="Activity" onPress={() => setStory('activity')} />
+          <Button {...buttonProps} title="Button" onPress={() => setStory('button')} />
+          <Button {...buttonProps} disabled title="Calendar" onPress={() => setStory('calendar')} />
+          <Button {...buttonProps} disabled title="ChartBar" onPress={() => setStory('chartbar')} />
+          <Button {...buttonProps} title="Dialog" onPress={() => setStory('dialog')} />
+          <Button {...buttonProps} title="Form" onPress={() => setStory('form')} />
+          <Button {...buttonProps} disabled title="Icon" onPress={() => setStory('icon')} />
+          <Button {...buttonProps} disabled title="Image" onPress={() => setStory('image')} />
+          <Button {...buttonProps} disabled title="Link" onPress={() => setStory('link')} />
+          <Button {...buttonProps} disabled title="Motion" onPress={() => setStory('motion')} />
+          <Button {...buttonProps} disabled title="Price" onPress={() => setStory('price')} />
+          <Button {...buttonProps} disabled title="ProgressBar" onPress={() => setStory('progressbar')} />
+          <Button {...buttonProps} disabled title="Skeleton" onPress={() => setStory('skeleton')} />
+          <Button {...buttonProps} title="Slider" onPress={() => setStory('slider')} />
+          <Button {...buttonProps} disabled title="Touchable" onPress={() => setStory('touchable')} />
+          <Button {...buttonProps} title="Text" onPress={() => setStory('text')} />
         </Content>
       </Viewport>
 
       <ButtonStory visible={story === 'button'} onBack={handleBack} />
       <DialogStory visible={story === 'dialog'} onBack={handleBack} />
+      <CalendarStory visible={story === 'calendar'} onBack={handleBack} />
       <FormStory visible={story === 'form'} onBack={handleBack} />
+      <SliderStory visible={story === 'slider'} onBack={handleBack} />
+      <TextStory visible={story === 'text'} onBack={handleBack} />
     </LayoutView>
   );
 };
