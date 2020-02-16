@@ -1,11 +1,13 @@
 import React from 'react';
 
+import { THEME } from '../common';
 import { Text, Viewport } from '../components';
 
 import { Content, Header } from './components';
 
+const { COLOR } = THEME;
 const LOREM = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ';
-const prop = { caption: true, bold: true, marginTop: 'M', style: { fontFamily: 'courier' } };
+const prop = { caption: true, bold: true, marginTop: 'M' };
 
 export const TextStory = (props) => (
   <Viewport {...props} scroll={false}>
@@ -24,6 +26,9 @@ export const TextStory = (props) => (
 
       <Text {...prop}>.bold</Text>
       <Text bold>{LOREM}</Text>
+
+      <Text {...prop}>.color</Text>
+      <Text color={COLOR.GRAY.L}>{LOREM}</Text>
 
       <Text bold />
     </Content>

@@ -26,12 +26,11 @@ export default {
 
     // BASE: '#cdd2d4',
 
-    DISABLED: GRAY.S,
-
     BACKGROUND: WHITE,
-    TEXT: BLACK,
-    SUCCESS: '#77d27f',
+    DISABLED: GRAY.S,
     ERROR: '#e85a7e',
+    SUCCESS: '#77d27f',
+    TEXT: BLACK,
     TRANSPARENT: 'transparent',
   },
 

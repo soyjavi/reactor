@@ -15,15 +15,7 @@ const determineStyle = ({ caption, input, headline, subtitle }) => {
   return styles.body;
 };
 
-export const Text = ({
-  bold = false,
-  caption = false,
-  color,
-  headline = false,
-  input = false,
-  subtitle = false,
-  ...others
-}) => {
+export const Text = ({ bold, caption, color, headline, input, subtitle, ...others }) => {
   const { FONT: { FAMILY } = {} } = useTheme();
 
   return (

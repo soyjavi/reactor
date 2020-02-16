@@ -9,14 +9,8 @@ const InputSelectTemplate = ({ active, caption, disabled, title, selected, ...ot
   <Row alignItems="center" style={others.style}>
     <InputIcon active={active || selected} />
     <View style={styles.texts}>
-      <Text lighten={disabled} style={styles.title}>
-        {title}
-      </Text>
-      {caption && (
-        <Text caption lighten>
-          {caption}
-        </Text>
-      )}
+      <Text style={styles.title}>{title}</Text>
+      {caption && <Text caption>{caption}</Text>}
     </View>
   </Row>
 );

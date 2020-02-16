@@ -27,11 +27,6 @@ describe('<Text>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {lighten}', () => {
-    const tree = renderer.create(<Text lighten>{LOREM}</Text>).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it('when {color}', () => {
     const tree = renderer.create(<Text color={THEME.COLOR.ERROR}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();

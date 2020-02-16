@@ -8,7 +8,7 @@ const { COLOR, SPACE } = THEME;
 
 const styles = StyleSheet.create({
   container: {
-    color: COLOR.BACKGROUND,
+    backgroundColor: COLOR.BACKGROUND,
     padding: SPACE.M,
   },
 });

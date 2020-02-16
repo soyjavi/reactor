@@ -1,5 +1,5 @@
 const STYLE = { borderWidth: 1, borderColor: 'lightgrey', minWidth: 500 };
-const STYLE_DAYNAMES = { subtitle: false, lighten: true };
+const STYLE_DAYNAMES = { subtitle: false };
 
 const TODAY = new Date();
 const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);

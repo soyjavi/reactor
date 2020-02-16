@@ -12,7 +12,7 @@ export const Button = ({
   activity,
   borderRadius = BORDER_RADIUS,
   children,
-  color = COLOR.CTA || COLOR.GRAY.M,
+  color = COLOR.CTA,
   colorText = COLOR.WHITE,
   disabled,
   icon,
@@ -23,7 +23,7 @@ export const Button = ({
   wide,
   ...others
 }) => {
-  const colorContent = disabled ? COLOR.GRAY.L : outlined ? color : colorText;
+  const colorContent = disabled ? COLOR.GRAY.M : outlined ? color : colorText;
 
   return (
     <Touchable

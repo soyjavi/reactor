@@ -18,7 +18,7 @@ if (typeof global.self === 'undefined') global.self = global;
 const buttonProps = { color: 'black', marginVertical: 'XS', outlined: true, wide: true };
 
 const App = () => {
-  const [story, setStory] = useState(undefined);
+  const [story, setStory] = useState('button');
   const handleBack = () => setStory(undefined);
 
   return (

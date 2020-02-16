@@ -42,14 +42,10 @@ const TEMPLATE = ({
 }) => (
   <View style={[others.style, selected && { backgroundColor: '#eee' }]}>
     <View>
-      <Text headline lighten={disabled} style={styles.title}>
+      <Text headline style={styles.title}>
         {title}
       </Text>
-      {caption && (
-        <Text caption lighten>
-          {caption}
-        </Text>
-      )}
+      {caption && <Text caption>{caption}</Text>}
     </View>
   </View>
 );

@@ -107,11 +107,7 @@ export const Week = ({ firstDate, ...others }) => {
           >
             {box && !busy && <View style={[styles.box, isDisabled && styles.boxDisabled]} />}
             {isVisible && (
-              <Text
-                subtitle={!isDisabled}
-                lighten={isDisabled || (isOutOfMonth && edges)}
-                style={[styles.text, isHighlight && styles.textHighlight]}
-              >
+              <Text subtitle={!isDisabled} style={[styles.text, isHighlight && styles.textHighlight]}>
                 {day.getDate()}
               </Text>
             )}

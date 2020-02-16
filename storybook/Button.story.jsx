@@ -55,9 +55,9 @@ export const ButtonStory = (props) => (
 
       <Text bold>.disabled</Text>
       <Row marginBottom="M">
-        <Button {...defaults} size="L" disabled title="black" />
-        <Button {...defaults} disabled title="black" />
-        <Button {...defaults} size="S" disabled title="black" />
+        <Button {...defaults} size="L" disabled title="large" />
+        <Button {...defaults} disabled title="default" />
+        <Button {...defaults} size="S" disabled title="small" />
       </Row>
 
       <Text bold>.icon</Text>

@@ -30,7 +30,7 @@ export const ChartBar = ({
           <View style={[styles.scales, captions && styles.scaleCaptions]}>
             <View style={[styles.scaleValues, inverted && styles.scaleValuesInverted]}>
               {scales.map((scale, index) => (
-                <Text key={`scale-${index.toString()}`} lighten style={styles.legend}>
+                <Text key={`scale-${index.toString()}`} style={styles.legend}>
                   {scale}
                 </Text>
               ))}
@@ -79,7 +79,6 @@ export const ChartBar = ({
                 <Text
                   bold={highlight === index}
                   color={highlight === index ? COLOR.TEXT : undefined}
-                  lighten
                   style={styles.legend}
                 >
                   {caption.substring(0, 3).toUpperCase()}
