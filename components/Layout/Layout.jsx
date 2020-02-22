@@ -22,7 +22,7 @@ const LayoutView = ({ children, onResize, ...others }) => {
   };
 
   return (
-    <Provider value={{ style: LAYOUT.STYLE, viewport: LAYOUT.VIEWPORT }}>
+    <Provider value={{ style: {}, viewport: LAYOUT.VIEWPORT }}>
       <View
         {...useBanStylerProps(others)}
         key={key}
