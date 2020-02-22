@@ -1,4 +1,4 @@
-import { bool, func, node, number, string, oneOf } from 'prop-types';
+ import { bool, func, node, number, string, oneOf } from 'prop-types';
 import React from 'react';
 
 import { THEME } from '../../common';
@@ -23,7 +23,7 @@ export const Button = ({
   wide,
   ...others
 }) => {
-  const colorContent = disabled ? COLOR.GRAY.M : outlined ? color : colorText;
+  const colorContent = disabled ? colorText : outlined ? color : colorText;
 
   return (
     <Touchable
@@ -33,16 +33,17 @@ export const Button = ({
       style={[
         styles.container,
         outlined && !disabled && styles.outlined,
-        disabled ? styles.disabled : { borderRadius, [outlined ? 'borderColor' : 'backgroundColor']: color },
+        disabled ? styles.disabled : { [outlined ? 'borderColor' : 'backgroundColor']: color },
         wide && styles.wide,
         styles[size],
+        { borderRadius },
         ...useStyler(others),
       ]}
     >
       {activity ? (
         <Activity color={colorContent} style={styles.activity} />
       ) : (
-        <Row alignItems="center">
+        <Row justify="center" width="auto">
           {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
           {title && (
             <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
