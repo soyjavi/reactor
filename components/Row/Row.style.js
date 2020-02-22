@@ -4,6 +4,12 @@ export default StyleSheet.create({
   container: {
     display: 'flex',
     flexDirection: 'row',
+    width: '100%',
+    height: 'auto',
+  },
+
+  auto: {
+    width: 'auto',
   },
 
   start: {

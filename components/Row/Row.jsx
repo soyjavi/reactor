@@ -7,9 +7,9 @@ import styles from './Row.style';
 
 const ALIGNS = ['start', 'center', 'end'];
 
-export const Row = ({ align = 'center', justify = 'start', ...others }) => (
+export const Row = ({ align = 'center', justify = 'start', width, ...others }) => (
   <View
-    style={[styles.container, styles[align], styles[`justify${justify}`], ...useStyler(others)]}
+    style={[styles.container, styles[align], styles[`justify${justify}`], width && styles[width],...useStyler(others)]}
     {...useBanStylerProps(others)}
   />
 );
@@ -17,4 +17,5 @@ export const Row = ({ align = 'center', justify = 'start', ...others }) => (
 Row.propTypes = {
   align: PropTypes.oneOf(ALIGNS),
   justify: PropTypes.oneOf([...ALIGNS, 'space']),
+  width: PropTypes.oneOf(['auto']),
 };
