@@ -15,7 +15,7 @@ export const Dialog = ({ children, highlight, onClose, position = 'center', visi
   const {
     VIEWPORT: { H },
   } = LAYOUT;
-  const translateY = visible ? 0 : (position === 'top' ? -H : H) * 0.68;
+  const translateY = visible ? 0 : (position === 'top' ? -H : H) * 1;
 
   return (
     <Motion
