@@ -40,19 +40,21 @@ export const Button = ({
         ...useStyler(others),
       ]}
     >
-      {activity ? (
-        <Activity color={colorContent} style={styles.activity} />
-      ) : (
-        <Row justify="center" width="auto">
-          {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
-          {title && (
-            <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
-              {title}
-            </Text>
-          )}
-          {children}
-        </Row>
-      )}
+      <Row justify="center" width="auto">
+        {activity
+        ? <Activity color={colorContent} style={styles.activity} />
+        : (
+        <>
+            {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
+            {title && (
+              <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
+                {title}
+              </Text>
+            )}
+            {children}
+            </>
+        )}
+      </Row>
     </Touchable>
   );
 };
