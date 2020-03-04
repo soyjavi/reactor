@@ -21,7 +21,6 @@ export const Week = ({ firstDate, ...others }) => {
     captions,
     disabledDates,
     disabledPast,
-    edges,
     expanded,
     month,
     range,

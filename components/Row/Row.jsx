@@ -9,7 +9,7 @@ const ALIGNS = ['start', 'center', 'end'];
 
 export const Row = ({ align = 'center', justify = 'start', width, ...others }) => (
   <View
-    style={[styles.container, styles[align], styles[`justify${justify}`], width && styles[width],...useStyler(others)]}
+    style={[styles.container, styles[align], styles[`justify${justify}`], width && styles[width], ...useStyler(others)]}
     {...useBanStylerProps(others)}
   />
 );

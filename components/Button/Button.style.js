@@ -2,7 +2,7 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { COLOR, FONT, SPACE, UNIT } = THEME;
+const { FONT, SPACE, UNIT } = THEME;
 
 export default StyleSheet.create({
   S: {
@@ -24,10 +24,6 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignSelf: 'flex-start',
     width: 'auto',
-  },
-
-  disabled: {
-    backgroundColor: COLOR.DISABLED,
   },
 
   outlined: {

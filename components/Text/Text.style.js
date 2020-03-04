@@ -2,10 +2,13 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { FONT } = THEME;
+const { COLOR, FONT } = THEME;
 
 export default StyleSheet.create({
-  default: FONT.DEFAULT,
+  default: {
+    color: COLOR.TEXT,
+    ...FONT.DEFAULT,
+  },
 
   bold: FONT.BOLD,
 
@@ -18,6 +21,7 @@ export default StyleSheet.create({
   caption: FONT.CAPTION,
 
   input: {
+    color: COLOR.TEXT,
     ...FONT.DEFAULT,
     ...FONT.INPUT,
   },

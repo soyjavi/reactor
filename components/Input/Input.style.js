@@ -40,6 +40,7 @@ export default StyleSheet.create({
   input: {
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
+    color: COLOR.TEXT,
     flex: 1,
     height: '100%',
     width: '100%',

@@ -34,7 +34,7 @@ export const Viewport = ({
       style={[styles.container, { height, width }, others.style]}
       timeline={
         backward && visible
-          ? [{ property: 'translateX', value: -64 }]
+          ? [{ property: 'translateX', value: -(width / 8) }]
           : [{ property: 'translateX', value: visible ? 0 : width }]
       }
     >
