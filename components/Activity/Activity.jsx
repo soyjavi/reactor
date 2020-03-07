@@ -12,7 +12,7 @@ const {
   MOTION: { DURATION },
 } = THEME;
 
-export const Activity = ({ color = COLOR.BASE, size, ...others }) => {
+export const Activity = ({ color = COLOR.LIGHTEN, size, ...others }) => {
   const opacities = [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)];
   let opacity = 1;
 
@@ -30,7 +30,7 @@ export const Activity = ({ color = COLOR.BASE, size, ...others }) => {
   animate(0);
 
   return (
-    <Row style={useStyler(others)}>
+    <Row justify="center" style={useStyler(others)}>
       {opacities.map((value, index) => (
         <Animated.View
           key={index.toString()}

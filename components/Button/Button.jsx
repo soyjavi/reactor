@@ -1,4 +1,4 @@
- import { bool, func, node, number, string, oneOf } from 'prop-types';
+import { bool, func, node, number, string, oneOf } from 'prop-types';
 import React from 'react';
 
 import { THEME } from '../../common';
@@ -23,7 +23,7 @@ export const Button = ({
   wide,
   ...others
 }) => {
-  const colorContent = disabled ? colorText : outlined ? color : colorText;
+  const colorContent = disabled ? COLOR.LIGHTEN : outlined ? color : colorText;
 
   return (
     <Touchable
@@ -32,19 +32,18 @@ export const Button = ({
       rippleColor={colorContent}
       style={[
         styles.container,
-        outlined && !disabled && styles.outlined,
-        disabled ? styles.disabled : { [outlined ? 'borderColor' : 'backgroundColor']: color },
         wide && styles.wide,
         styles[size],
-        { borderRadius },
+        outlined && styles.outlined,
+        { borderRadius, [outlined ? 'borderColor' : 'backgroundColor']: !disabled ? color : COLOR.BASE },
         ...useStyler(others),
       ]}
     >
       <Row justify="center" width="auto">
-        {activity
-        ? <Activity color={colorContent} style={styles.activity} />
-        : (
-        <>
+        {activity ? (
+          <Activity color={colorContent} />
+        ) : (
+          <>
             {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
             {title && (
               <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
@@ -52,7 +51,7 @@ export const Button = ({
               </Text>
             )}
             {children}
-            </>
+          </>
         )}
       </Row>
     </Touchable>
