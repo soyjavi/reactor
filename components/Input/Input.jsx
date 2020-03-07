@@ -8,10 +8,7 @@ import { InputIcon } from './InputIcon';
 import { Icon, Row, Text } from '..';
 import styles from './Input.style';
 
-const {
-  COLOR,
-  INPUT: { borderColor: colorDisabled },
-} = THEME;
+const { COLOR } = THEME;
 
 const Input = ({
   currency,
@@ -30,12 +27,12 @@ const Input = ({
   if (currency) keyboard = 'numeric';
 
   return (
-    <Row alignItems="center" style={styles.container} paddingRight="XS">
+    <Row _alignItems="center" style={styles.container} _paddingRight="XS">
       {(icon || currency) && (
-        <Row alignItems="center" justifyContent="center" paddingHorizontal="XS">
-          {icon && <Icon color={colorDisabled} value={icon} family={others.iconFamily} size={others.iconSize} />}
+        <Row alignItems="center" justifyContent="center" paddingHorizontal="XS" width="auto">
+          {icon && <Icon color={COLOR.LIGHTEN} value={icon} family={others.iconFamily} size={others.iconSize} />}
           {currency && (
-            <Text color={colorDisabled} input style={styles.currencyWithIcon}>
+            <Text color={COLOR.LIGHTEN} input style={styles.currencyWithIcon}>
               {currency}
             </Text>
           )}
@@ -49,10 +46,9 @@ const Input = ({
         blurOnSubmit
         editable={!disabled}
         keyboardType={keyboard}
-        numberOfLines={lines}
         multiline={lines > 1}
         onChangeText={onChange}
-        placeholderTextColor={colorDisabled}
+        placeholderTextColor={COLOR.LIGHTEN}
         underlineColorAndroid="transparent"
         style={[
           styles.input,
@@ -66,7 +62,7 @@ const Input = ({
       />
       {(error || (required && requiredIcon)) && (
         <Icon
-          color={error ? COLOR.ERROR : COLOR.TEXT_LIGHTEN}
+          color={error ? COLOR.ERROR : COLOR.LIGHTEN}
           family="MaterialIcons"
           value={error ? 'error' : 'error-outline'}
         />

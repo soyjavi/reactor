@@ -15,7 +15,7 @@ export const InputSwitch = ({ children, color, onChange, size = 'M', value = fal
       activeTrackColor={color || COLOR.BRAND}
       onValueChange={onChange}
       style={styles.switch}
-      trackColor={COLOR.BASE}
+      trackColor={COLOR.LIGHTEN}
       thumbColor={COLOR.WHITE}
       value={value}
     />

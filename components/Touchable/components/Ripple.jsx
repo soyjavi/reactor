@@ -47,7 +47,7 @@ Ripple.propTypes = {
 };
 
 Ripple.defaultProps = {
-  color: COLOR.BASE,
+  color: COLOR.WHITE,
   progress: new Animated.Value(0),
   range: 0,
   x: 0,

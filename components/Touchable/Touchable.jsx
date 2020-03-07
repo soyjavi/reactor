@@ -3,6 +3,7 @@ import React, { PureComponent } from 'react';
 import { Animated, Easing, TouchableWithoutFeedback, View } from 'react-native';
 
 import { THEME } from '../../common';
+import { useBanStylerProps, useStyler } from '../../hooks';
 import Ripple from './components/Ripple';
 import styles from './Touchable.style';
 
@@ -27,7 +28,7 @@ export class Touchable extends PureComponent {
     children: undefined,
     containerBorderRadius: undefined,
     onPress: undefined,
-    rippleColor: COLOR.BASE,
+    rippleColor: COLOR.WHITE,
   };
 
   constructor(props) {
@@ -119,7 +120,11 @@ export class Touchable extends PureComponent {
 
     return (
       <TouchableWithoutFeedback {...events}>
-        <View pointerEvents={onPress ? 'box-only' : 'none'} style={[styles.container, others.style]}>
+        <View
+          pointerEvents={onPress ? 'box-only' : 'none'}
+          style={[styles.container, ...useStyler(others), others.style]}
+          {...useBanStylerProps(others)}
+        >
           {children}
           <View style={[styles.ripples, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
             {ripples.map((props, index) => (

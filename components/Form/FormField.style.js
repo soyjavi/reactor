@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { INPUT, OPACITY, SPACE } = THEME;
+const { INPUT, INPUT_FOCUS, OPACITY, SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -13,6 +13,8 @@ export default StyleSheet.create({
   },
 
   input: INPUT,
+
+  inputFocus: INPUT_FOCUS,
 
   focus: {
     zIndex: 1,

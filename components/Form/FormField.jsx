@@ -23,19 +23,14 @@ export const FormField = ({
   value = defaultValue,
 }) => {
   const [focus, setFocus] = useState(false);
+
   const isTouchable = type === 'bool' || type === 'option';
-
-  const colorSecondary = INPUT.borderColor;
-
+  const colorSecondary = COLOR.LIGHTEN;
   const error = !error && keyboards.includes(keyboard) && !KEYBOARDS[keyboard](value, { countryCode });
 
-  const Inputs = {
-    bool: InputSwitch,
-    option: InputOption,
-    select: InputSelect,
-  };
+  const Inputs = { bool: InputSwitch, option: InputOption, select: InputSelect };
   const InputComponent = Inputs[type] || Input;
-  const inputColor = error ? COLOR.ERROR : focus ? color : colorSecondary;
+  const inputColor = error ? COLOR.ERROR : focus ? color : undefined;
 
   return (
     <View style={[styles.container, inline && styles.inline, focus && styles.focus, ...useStyler(others)]}>
@@ -54,8 +49,11 @@ export const FormField = ({
           <View
             style={[
               styles.input,
+              focus && styles.inputFocus,
               disabled && styles.disabled,
-              disabled ? { backgroundColor: colorSecondary } : { borderColor: inputColor },
+              disabled
+                ? { backgroundColor: colorSecondary }
+                : { borderColor: error ? COLOR.ERROR : focus ? color : INPUT.borderColor },
             ]}
           >
             <InputComponent
