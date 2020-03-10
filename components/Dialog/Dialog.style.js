@@ -4,7 +4,7 @@ import { THEME } from '../../common';
 import { useEnvironment } from '../../hooks';
 
 const { IS_WEB } = useEnvironment();
-const { COLOR, SPACE } = THEME;
+const { COLOR, DIALOG, DIALOG_OVERLAY, SPACE } = THEME;
 
 export default StyleSheet.create({
   button: {
@@ -12,6 +12,17 @@ export default StyleSheet.create({
     zIndex: 1,
     top: SPACE.S,
     right: SPACE.S,
+  },
+
+  buttonSwipe: {
+    position: 'absolute',
+    zIndex: 1,
+    top: SPACE.M,
+    alignSelf: 'center',
+
+    borderRadius: SPACE.XS,
+    height: SPACE.S,
+    width: SPACE.XL,
   },
 
   container: {
@@ -24,10 +35,7 @@ export default StyleSheet.create({
     zIndex: 2,
   },
 
-  content: {
-    padding: SPACE.L,
-    backgroundColor: COLOR.BACKGROUND,
-  },
+  content: DIALOG,
 
   keyboardView: {
     backgroundColor: COLOR.TRANSPARENT,
@@ -36,13 +44,7 @@ export default StyleSheet.create({
     position: 'absolute',
   },
 
-  overlay: {
-    alignItems: 'center',
-    alignContent: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'rgba(0,0,0,0.5)',
-    flex: 1,
-  },
+  overlay: DIALOG_OVERLAY,
 
   top: {
     justifyContent: 'flex-start',
