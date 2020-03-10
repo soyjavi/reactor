@@ -23,4 +23,5 @@ export * from './Slider';
 export * from './Snackbar';
 export * from './Text';
 export * from './Touchable';
+export * from './View';
 export * from './Viewport';
