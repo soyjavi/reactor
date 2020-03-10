@@ -11,7 +11,7 @@ export default StyleSheet.create({
     flex: 0,
     ...Platform.select({
       web: {
-        flex: 'auto',
+        flexBasis: 'auto',
       },
     }),
   },

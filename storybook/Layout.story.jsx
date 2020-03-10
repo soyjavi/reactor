@@ -9,9 +9,9 @@ const { COLOR, SPACE } = THEME;
 
 const button = { color: 'black', marginVertical: 'XS', marginRight: 'XS', outlined: true };
 const buttonProps = { ...button, size: 'S' };
-const colProps = { padding: ['S', 'S', 'S', 'S'], style: { backgroundColor: COLOR.GRAY.M } };
-const colAutoProps = { ...colProps, width: 'auto', style: { backgroundColor: COLOR.GRAY.XL } };
-const rowProps = { marginBottom: 'M', style: { backgroundColor: COLOR.GRAY.S, height: SPACE.XXL } };
+const colProps = { padding: ['S', 'S', 'S', 'S'], style: { backgroundColor: COLOR.BASE } };
+const colAutoProps = { ...colProps, width: 'auto', style: { backgroundColor: COLOR.BRAND } };
+const rowProps = { marginBottom: 'M', style: { backgroundColor: COLOR.LIGHTEN, height: SPACE.XXL } };
 
 export const LayoutStory = (props) => {
   const [align, setAlign] = useState('start');

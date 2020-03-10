@@ -47,7 +47,6 @@ export default StyleSheet.create({
     ...Platform.select({
       web: {
         userSelect: 'none',
-        outline: 'none',
       },
     }),
     ...FONT.DEFAULT,

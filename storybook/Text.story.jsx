@@ -28,7 +28,7 @@ export const TextStory = (props) => (
       <Text bold>{LOREM}</Text>
 
       <Text {...prop}>.color</Text>
-      <Text color={COLOR.GRAY.L}>{LOREM}</Text>
+      <Text color={COLOR.BASE}>{LOREM}</Text>
 
       <Text bold />
     </Content>

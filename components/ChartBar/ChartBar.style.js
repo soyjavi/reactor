@@ -6,7 +6,7 @@ const { BORDER_RADIUS, COLOR, ELEVATION, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
   bar: {
-    backgroundColor: COLOR.BASE,
+    backgroundColor: COLOR.LIGHTEN,
     borderTopLeftRadius: BORDER_RADIUS,
     borderTopRightRadius: BORDER_RADIUS,
     maxHeight: '100%',
@@ -110,7 +110,7 @@ export default StyleSheet.create({
     minHeight: 1,
     height: 1,
     width: '100%',
-    backgroundColor: COLOR.BASE,
+    backgroundColor: COLOR.LIGHTEN,
   },
 
   scaleValues: {
