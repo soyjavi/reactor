@@ -21,6 +21,8 @@ export class Touchable extends PureComponent {
     children: node,
     containerBorderRadius: number,
     onPress: func,
+    onPressIn: func,
+    onPressOut: func,
     rippleColor: string,
   };
 
@@ -28,6 +30,8 @@ export class Touchable extends PureComponent {
     children: undefined,
     containerBorderRadius: undefined,
     onPress: undefined,
+    onPressIn: undefined,
+    onPressOut: undefined,
     rippleColor: COLOR.WHITE,
   };
 
@@ -106,15 +110,17 @@ export class Touchable extends PureComponent {
       _onPress,
       _onPressOut,
       _onLayout,
-      props: { children, containerBorderRadius, onPress, rippleColor, ...others },
+      props: {},
+
+      props: { children, containerBorderRadius, onPress, onPressIn, onPressOut, rippleColor, ...others },
       state: { mask, width, height, ripples = [] },
     } = this;
     const events = onPress
       ? {
           onLayout: _onLayout,
-          onPressIn: _onPressIn,
+          onPressIn: onPressIn || _onPressIn,
           onPress: _onPress,
-          onPressOut: _onPressOut,
+          onPressOut: onPressOut || _onPressOut,
         }
       : {};
 
