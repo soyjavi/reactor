@@ -1,12 +1,13 @@
 import { bool, func, node, number, string, oneOf } from 'prop-types';
-import React from 'react';
+import React, { useRef, useState } from 'react';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
-import { Activity, Icon, Row, Text, Touchable } from '../';
+import { Activity, Icon, Motion, Row, Text, Touchable } from '../';
 import styles from './Button.style';
 
 const { BORDER_RADIUS, COLOR } = THEME;
+let timeout;
 
 export const Button = ({
   activity,
@@ -14,6 +15,7 @@ export const Button = ({
   children,
   color = COLOR.CTA,
   colorText = COLOR.WHITE,
+  delay,
   disabled,
   icon,
   onPress,
@@ -23,12 +25,35 @@ export const Button = ({
   wide,
   ...others
 }) => {
+  const ref = useRef(null);
+
+  const [delayEvent, setDelayEvent] = useState(false);
+
   const colorContent = disabled ? COLOR.LIGHTEN : outlined ? color : colorText;
+
+  const event = !delay
+    ? { onPress }
+    : {
+        onPress: () => {},
+        onPressIn: () => {
+          clearTimeout(timeout);
+          timeout = setTimeout(() => {
+            setDelayEvent(false);
+            onPress();
+          }, delay);
+          setDelayEvent(true);
+        },
+        onPressOut: () => {
+          clearTimeout(timeout);
+          setDelayEvent(false);
+        },
+      };
 
   return (
     <Touchable
+      {...(!disabled ? event : undefined)}
       containerBorderRadius={borderRadius}
-      onPress={disabled ? undefined : onPress}
+      ref={ref}
       rippleColor={colorContent}
       style={[
         styles.container,
@@ -39,6 +64,15 @@ export const Button = ({
         ...useStyler(others),
       ]}
     >
+      {delay && (
+        <Motion
+          duration={delay}
+          style={[styles.motion, { backgroundColor: colorContent }]}
+          type="timing"
+          timeline={[{ property: 'width', value: delayEvent ? ref.current.state.width : 0 }]}
+        />
+      )}
+
       <Row justify="center" width="auto">
         {activity ? (
           <Activity color={colorContent} />
@@ -64,6 +98,7 @@ Button.propTypes = {
   children: node,
   color: string,
   colorText: string,
+  delay: number,
   disabled: bool,
   icon: string,
   onPress: func,
