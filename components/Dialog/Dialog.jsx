@@ -55,7 +55,11 @@ export const Dialog = ({ children, onClose, position = 'center', visible, ...oth
                 VIEWPORT.S ? (
                   <Touchable
                     onPress={onClose}
-                    style={[styles.buttonSwipe, { backgroundColor: DIALOG_BUTTON.color || COLOR.TEXT }]}
+                    style={[
+                      styles.buttonSwipe,
+                      { backgroundColor: DIALOG_BUTTON.color || COLOR.TEXT },
+                      others.styleButton,
+                    ]}
                   />
                 ) : (
                   <Button

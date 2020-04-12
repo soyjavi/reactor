@@ -25,7 +25,7 @@ export const Button = ({
   wide,
   ...others
 }) => {
-  const ref = useRef(null);
+  const ref = useRef(undefined);
 
   const [delayEvent, setDelayEvent] = useState(false);
 
@@ -64,7 +64,7 @@ export const Button = ({
         ...useStyler(others),
       ]}
     >
-      {delay && (
+      {!disabled && delay && ref && (
         <Motion
           duration={delay}
           style={[styles.motion, { backgroundColor: colorContent }]}

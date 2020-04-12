@@ -12,7 +12,7 @@ const {
   MOTION: { DURATION },
 } = THEME;
 
-export const Activity = ({ color = COLOR.LIGHTEN, size, ...others }) => {
+export const Activity = ({ color = COLOR.LIGHTEN, size = 'S', ...others }) => {
   const opacities = [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)];
   let opacity = 1;
 
@@ -43,7 +43,7 @@ export const Activity = ({ color = COLOR.LIGHTEN, size, ...others }) => {
 
 Activity.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOf(['S', 'M', 'L']),
+  size: PropTypes.oneOf(['XS', 'S', 'M']),
 };
 
 export default Activity;

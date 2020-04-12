@@ -10,4 +10,22 @@ export default StyleSheet.create({
     height: UNIT,
     marginHorizontal: SPACE.XS,
   },
+
+  XS: {
+    height: SPACE.XS,
+    width: SPACE.XS,
+    marginHorizontal: SPACE.XS / 2,
+  },
+
+  S: {
+    height: SPACE.S,
+    width: SPACE.S,
+    marginHorizontal: SPACE.S / 2,
+  },
+
+  M: {
+    height: SPACE.M,
+    width: SPACE.M,
+    marginHorizontal: SPACE.M / 2,
+  },
 });
