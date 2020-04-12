@@ -29,7 +29,6 @@ export default StyleSheet.create({
   motion: {
     position: 'absolute',
     left: 0,
-    backgroundColor: 'blue',
     height: '100%',
     opacity: OPACITY.M,
   },

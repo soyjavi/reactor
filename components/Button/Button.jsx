@@ -66,6 +66,7 @@ export const Button = ({
     >
       {!disabled && delay && ref && (
         <Motion
+          config={{ useNativeDriver: false }}
           duration={delay}
           style={[styles.motion, { backgroundColor: colorContent }]}
           type="timing"
