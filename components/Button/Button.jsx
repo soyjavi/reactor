@@ -31,27 +31,26 @@ export const Button = ({
 
   const colorContent = disabled ? COLOR.LIGHTEN : outlined ? color : colorText;
 
-  const event = !delay
-    ? { onPress }
-    : {
-        onPress: () => {},
-        onPressIn: () => {
-          clearTimeout(timeout);
-          timeout = setTimeout(() => {
-            setDelayEvent(false);
-            onPress();
-          }, delay);
-          setDelayEvent(true);
-        },
-        onPressOut: () => {
-          clearTimeout(timeout);
-          setDelayEvent(false);
-        },
-      };
+  const handlePress = {
+    onPress: () => {},
+    onPressIn: () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        setDelayEvent(false);
+        onPress();
+      }, delay);
+      setDelayEvent(true);
+    },
+    onPressOut: () => {
+      clearTimeout(timeout);
+      setDelayEvent(false);
+    },
+  };
 
   return (
     <Touchable
-      {...(!disabled ? event : undefined)}
+      onPress={!disabled ? onPress : undefined}
+      {...(delay ? handlePress : undefined)}
       containerBorderRadius={borderRadius}
       ref={ref}
       rippleColor={colorContent}
@@ -65,13 +64,15 @@ export const Button = ({
       ]}
     >
       {!disabled && delay && ref && (
-        <Motion
-          config={{ useNativeDriver: false }}
-          duration={delay}
-          style={[styles.motion, { backgroundColor: colorContent }]}
-          type="timing"
-          timeline={[{ property: 'width', value: delayEvent ? ref.current.state.width : 0 }]}
-        />
+        <>
+          <Motion
+            config={{ useNativeDriver: false }}
+            duration={delay}
+            style={[styles.motion, { backgroundColor: colorContent }]}
+            timeline={[{ property: 'width', value: delayEvent ? ref.current.state.width : 0 }]}
+            type="timing"
+          />
+        </>
       )}
 
       <Row justify="center" width="auto">

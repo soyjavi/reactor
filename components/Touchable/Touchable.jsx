@@ -110,8 +110,6 @@ export class Touchable extends PureComponent {
       _onPress,
       _onPressOut,
       _onLayout,
-      props: {},
-
       props: { children, containerBorderRadius, onPress, onPressIn, onPressOut, rippleColor, ...others },
       state: { mask, width, height, ripples = [] },
     } = this;
