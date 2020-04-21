@@ -3,7 +3,8 @@ import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import { useEnvironment } from '../../hooks';
-import { Activity, Row } from '..';
+import { Activity } from '../Activity';
+import { Row } from '../Row';
 
 import { DayNames, Selector, Week } from './components';
 import { decomposeDate, firstDateOfWeek, LOCALE, nextMonth, previousMonth } from './modules';

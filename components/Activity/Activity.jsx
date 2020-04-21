@@ -5,7 +5,7 @@ import styles from './Activity.style';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
-import { Row } from '..';
+import { Row } from '../Row';
 
 const {
   COLOR,

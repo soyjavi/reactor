@@ -4,7 +4,9 @@ import { PanResponder, KeyboardAvoidingView, SafeAreaView, View } from 'react-na
 
 import { LAYOUT, THEME } from '../../common';
 import { useEnvironment, useStyler } from '../../hooks';
-import { Button, Motion, Touchable } from '..';
+import { Button } from '../Button';
+import { Motion } from '../Motion';
+import { Touchable } from '../Touchable';
 import styles from './Dialog.style';
 
 const { COLOR, DIALOG_BUTTON, MOTION, SPACE } = THEME;

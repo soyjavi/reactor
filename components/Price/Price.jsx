@@ -1,7 +1,7 @@
 import { number, string } from 'prop-types';
 import React from 'react';
 
-import { Text } from '..';
+import { Text } from '../Text';
 import { format } from './modules';
 
 const LOCALE = 'es-ES';

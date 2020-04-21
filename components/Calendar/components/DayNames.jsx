@@ -1,7 +1,8 @@
 import { arrayOf, string } from 'prop-types';
 import React from 'react';
 
-import { Row, Text } from '../..';
+import { Row } from '../../Row';
+import { Text } from '../../Text';
 import styles from './DayNames.style';
 
 export const DayNames = ({ locale = [], ...others }) => (

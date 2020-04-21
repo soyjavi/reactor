@@ -1,8 +1,8 @@
 import { Storage } from '../bridges';
-import { useEnvironment } from './environment';
+import PKG from '../package.json';
+
 import { entropy, UUID } from './modules';
 
-const { PKG } = useEnvironment();
 const STORE_FINGERPRINT = `${PKG.name}:fingerprint`;
 
 export const useFingerprint = async () => {

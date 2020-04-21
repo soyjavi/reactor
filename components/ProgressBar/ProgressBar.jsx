@@ -2,7 +2,7 @@ import { number } from 'prop-types';
 import React, { useState } from 'react';
 import { View } from 'react-native';
 
-import { Motion } from '..';
+import { Motion } from '../Motion';
 import styles from './ProgressBar.style';
 
 export const ProgressBar = ({ progress = 0, ...others }) => {

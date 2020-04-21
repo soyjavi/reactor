@@ -2,7 +2,7 @@ import { string } from 'prop-types';
 import React, { useState } from 'react';
 
 import { useBanStylerProps, useStyler } from '../../hooks';
-import { Text } from '..';
+import { Text } from '../Text';
 
 export const Link = ({ href, ...others }) => {
   const [hover, setHover] = useState(false);

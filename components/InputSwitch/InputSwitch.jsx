@@ -3,7 +3,7 @@ import React from 'react';
 import { Switch } from 'react-native';
 
 import { THEME } from '../../common';
-import { Row } from '../';
+import { Row } from '../Row';
 import styles from './InputSwitch.style';
 
 const { COLOR } = THEME;

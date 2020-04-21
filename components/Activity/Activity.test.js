@@ -8,7 +8,7 @@ const { SPACE } = THEME;
 
 const MOCKS = {
   COLOR: THEME.COLOR.ERROR,
-  SIZE: 'large',
+  SIZE: 'L',
   STYLE: {
     padding: SPACE.M,
     backgroundColor: THEME.COLOR.BRAND,

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Image as ImageNative, View } from 'react-native';
 
 import { useStyler } from '../../hooks';
-import { Skeleton } from '..';
+import { Skeleton } from '../Skeleton';
 import styles from './Image.style';
 
 export const Image = ({ onLoad, ...others }) => {

@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import styles from './Skeleton.style';
 
-import { Motion } from '..';
+import { Motion } from '../Motion';
 import { THEME } from '../../common';
 
 const {
@@ -11,15 +11,13 @@ const {
 } = THEME;
 
 export const Skeleton = ({ opacity = 0.5, ...others }) => {
-  const [interval, setInter] = useState(undefined);
   const [visible, setVisible] = useState(false);
+  let interval;
 
   useEffect(() => {
-    setInter(
-      setInterval(() => {
-        setVisible((value) => !value);
-      }, DURATION * 4),
-    );
+    interval = setInterval(() => {
+      setVisible((value) => !value);
+    }, DURATION * 4);
 
     return () => clearInterval(interval);
   }, []);

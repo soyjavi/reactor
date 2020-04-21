@@ -2,7 +2,7 @@ import { bool } from 'prop-types';
 import React from 'react';
 
 import { THEME } from '../../common';
-import { Icon } from '..';
+import { Icon } from '../Icon';
 
 const { COLOR } = THEME;
 

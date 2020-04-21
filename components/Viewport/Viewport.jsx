@@ -3,7 +3,7 @@ import React, { createElement } from 'react';
 import { View, SafeAreaView, ScrollView } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import { Motion } from '..';
+import { Motion } from '../Motion';
 import styles from './Viewport.style';
 
 const { MOTION } = THEME;

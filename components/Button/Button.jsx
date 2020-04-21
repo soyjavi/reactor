@@ -3,7 +3,12 @@ import React, { useRef, useState } from 'react';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
-import { Activity, Icon, Motion, Row, Text, Touchable } from '../';
+import { Activity } from '../Activity';
+import { Icon } from '../Icon';
+import { Motion } from '../Motion';
+import { Row } from '../Row';
+import { Text } from '../Text';
+import { Touchable } from '../Touchable';
 import styles from './Button.style';
 
 const { BORDER_RADIUS, COLOR } = THEME;

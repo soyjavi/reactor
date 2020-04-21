@@ -4,7 +4,9 @@ import React from 'react';
 import styles from './ChartBar.style';
 
 import { THEME } from '../../common';
-import { Motion, Row, Text } from '..';
+import { Motion } from '../Motion';
+import { Row } from '../Row';
+import { Text } from '../Text';
 import { calcHeight, calcRange } from './modules';
 
 const { COLOR } = THEME;

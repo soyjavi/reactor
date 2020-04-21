@@ -2,7 +2,9 @@ import { func, shape } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import { Row, Text, Touchable } from '../..';
+import { Row } from '../../Row';
+import { Text } from '../../Text';
+import { Touchable } from '../../Touchable';
 
 import styles, { BOX_SIZE } from './Week.style';
 

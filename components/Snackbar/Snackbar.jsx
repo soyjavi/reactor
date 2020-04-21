@@ -2,7 +2,11 @@ import { func, string } from 'prop-types';
 import React from 'react';
 
 import { THEME } from '../../common';
-import { Button, Dialog, Icon, Row, Text } from '..';
+import { Button } from '../Button';
+import { Dialog } from '../Dialog';
+import { Icon } from '../Icon';
+import { Row } from '../Row';
+import { Text } from '../Text';
 import styles from './Snackbar.style';
 
 const { COLOR, SPACE } = THEME;

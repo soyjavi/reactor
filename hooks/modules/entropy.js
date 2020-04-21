@@ -1,6 +1,6 @@
 import { DeviceInfo, Dimensions, PixelRatio, Platform } from 'react-native';
 
-import { useEnvironment } from '..';
+import { useEnvironment } from '../environment';
 
 const CLIENT_STRINGS = [
   { s: 'Windows 10', r: /(Windows 10.0|Windows NT 10.0)/ },

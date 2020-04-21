@@ -1,7 +1,9 @@
 import { bool, func, oneOf, node } from 'prop-types';
 import React from 'react';
 
-import { InputIcon, Row, Touchable } from '..';
+import { InputIcon } from '../Input';
+import { Row } from '../Row';
+import { Touchable } from '../Touchable';
 import styles from './InputOption.style';
 
 export const InputOption = ({ children, onChange, rounded = true, size = 'M', value }) => (

@@ -4,7 +4,11 @@ import { View } from 'react-native';
 
 import { THEME } from '../../common';
 import { useBanStylerProps, useStyler } from '../../hooks';
-import { Input, InputOption, InputSelect, InputSwitch, Text } from '..';
+import { Input } from '../Input';
+import { InputOption } from '../InputOption';
+import { InputSelect } from '../InputSelect';
+import { InputSwitch } from '../InputSwitch';
+import { Text } from '../Text';
 
 import { KEYBOARDS } from './Form.config';
 import styles from './FormField.style';

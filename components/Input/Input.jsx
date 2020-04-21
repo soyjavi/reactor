@@ -5,7 +5,9 @@ import { TextInput } from 'react-native';
 import { THEME } from '../../common';
 
 import { InputIcon } from './InputIcon';
-import { Icon, Row, Text } from '..';
+import { Icon } from '../Icon';
+import { Row } from '../Row';
+import { Text } from '../Text';
 import styles from './Input.style';
 
 const { COLOR } = THEME;

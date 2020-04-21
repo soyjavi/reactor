@@ -4,7 +4,8 @@ import { findDOMNode } from 'react-dom';
 import { Picker, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import { Icon, Touchable } from '..';
+import { Icon } from '../Icon';
+import { Touchable } from '../Touchable';
 
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import Template from './InputSelectTemplate';

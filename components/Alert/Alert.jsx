@@ -2,7 +2,10 @@ import { func, node, string } from 'prop-types';
 import React from 'react';
 
 import { useBanStylerProps, useStyler } from '../../hooks';
-import { Button, Dialog, Row, Text } from '..';
+import { Button } from '../Button';
+import { Dialog } from '../Dialog';
+import { Row } from '../Row';
+import { Text } from '../Text';
 import styles from './Alert.style';
 
 export const Alert = ({ accept, cancel, caption, children, color, onAccept, onCancel, title, ...others }) => (

@@ -1,7 +1,9 @@
 import { func, string } from 'prop-types';
 import React from 'react';
 
-import { Button, Row, Text } from '../..';
+import { Button } from '../../Button';
+import { Row } from '../../Row';
+import { Text } from '../../Text';
 
 import styles from './Selector.style';
 
