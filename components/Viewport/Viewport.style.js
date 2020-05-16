@@ -11,6 +11,8 @@ export default StyleSheet.create({
     position: 'absolute',
     top: 0,
     overflow: 'hidden',
+    height: '100%',
+    width: '100%',
   },
 
   content: {
