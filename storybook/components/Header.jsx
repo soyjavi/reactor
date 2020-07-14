@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { StyleSheet } from 'react-native';
 
-import { Button, Col, Row, Text } from '../../components';
 import { THEME } from '../../common';
+import { Button, Col, Row, Text } from '../../components';
 
 const { COLOR, SPACE } = THEME;
 

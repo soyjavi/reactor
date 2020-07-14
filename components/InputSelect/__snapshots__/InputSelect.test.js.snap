@@ -27,8 +27,6 @@ exports[`<InputSelect> renders 1`] = `
     <RCTPicker
       items={Array []}
       onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       selectedIndex={0}
       style={
         Array [
@@ -70,8 +68,6 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
     <RCTPicker
       items={Array []}
       onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       selectedIndex={0}
       style={
         Array [
@@ -166,8 +162,6 @@ exports[`<InputSelect> when {dataSource (string)} 1`] = `
         ]
       }
       onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       selectedIndex={0}
       style={
         Array [
@@ -207,18 +201,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       Array [
         undefined,
         undefined,
+        undefined,
       ]
     }
   >
     <View
+      alignItems="center"
       style={
         Array [
           Object {
             "display": "flex",
             "flexDirection": "row",
-          },
-          Object {
-            "alignContent": "flex-start",
+            "height": "auto",
+            "width": "100%",
           },
           Object {
             "alignItems": "center",
@@ -226,6 +221,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Object {
             "justifyContent": "flex-start",
           },
+          undefined,
           Object {
             "height": 44.8,
           },
@@ -241,10 +237,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         }
       >
         <Text
-          lighten={false}
           style={
             Array [
               Object {
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
@@ -253,7 +249,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 "lineHeight": 24,
               },
               undefined,
-              false,
+              undefined,
               undefined,
               Object {
                 "lineHeight": 16,
@@ -264,10 +260,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           one
         </Text>
         <Text
-          lighten={true}
           style={
             Array [
               Object {
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
@@ -275,7 +271,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 "fontSize": 12,
               },
               undefined,
-              false,
+              undefined,
               undefined,
               undefined,
             ]
@@ -305,7 +301,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#62e6ac",
+            "backgroundColor": "#191919",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -321,7 +317,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "position": "absolute",
-          "shadowColor": "#191919",
+          "shadowColor": "#000000",
           "shadowOffset": Object {
             "height": 2,
             "width": 0,
@@ -357,18 +353,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -376,6 +373,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -394,6 +392,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -402,7 +401,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -413,10 +412,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               one
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -424,7 +423,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -454,7 +453,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -480,18 +479,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -499,6 +499,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -517,6 +518,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -525,7 +527,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -536,10 +538,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               two
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -547,7 +549,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -577,7 +579,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -603,18 +605,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -622,6 +625,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -640,6 +644,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -648,7 +653,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -659,10 +664,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               three
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -670,7 +675,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -700,7 +705,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -726,18 +731,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -745,6 +751,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -763,6 +770,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -771,7 +779,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -782,10 +790,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               four
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -793,7 +801,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -823,7 +831,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -849,18 +857,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -868,6 +877,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -886,6 +896,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -894,7 +905,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -905,10 +916,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               five
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -916,7 +927,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -946,7 +957,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -972,18 +983,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -991,6 +1003,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -1009,6 +1022,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1017,7 +1031,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -1028,10 +1042,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               six
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1039,7 +1053,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -1069,7 +1083,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1095,18 +1109,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -1114,6 +1129,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -1132,6 +1148,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1140,7 +1157,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -1151,10 +1168,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               seven
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1162,7 +1179,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -1192,7 +1209,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1218,18 +1235,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -1237,6 +1255,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -1255,6 +1274,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1263,7 +1283,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -1274,10 +1294,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               eight
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1285,7 +1305,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -1315,7 +1335,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1341,18 +1361,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -1360,6 +1381,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -1378,6 +1400,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1386,7 +1409,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -1397,10 +1420,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               nine
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1408,7 +1431,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -1438,7 +1461,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1464,18 +1487,19 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -1483,6 +1507,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -1501,6 +1526,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1509,7 +1535,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -1520,10 +1546,10 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               ten
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -1531,7 +1557,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -1561,7 +1587,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -1602,8 +1628,6 @@ exports[`<InputSelect> when {disabled} 1`] = `
     <RCTPicker
       items={Array []}
       onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       selectedIndex={0}
       style={
         Array [
@@ -1645,8 +1669,6 @@ exports[`<InputSelect> when {error} 1`] = `
     <RCTPicker
       items={Array []}
       onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       selectedIndex={0}
       style={
         Array [
@@ -1688,8 +1710,6 @@ exports[`<InputSelect> when {hint} 1`] = `
     <RCTPicker
       items={Array []}
       onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       selectedIndex={0}
       style={
         Array [
@@ -1731,8 +1751,6 @@ exports[`<InputSelect> when {label} 1`] = `
     <RCTPicker
       items={Array []}
       onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       selectedIndex={0}
       style={
         Array [
@@ -1774,8 +1792,6 @@ exports[`<InputSelect> when {style} 1`] = `
     <RCTPicker
       items={Array []}
       onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       selectedIndex={0}
       style={
         Array [
@@ -1815,18 +1831,19 @@ exports[`<InputSelect> when {value} 1`] = `
       Array [
         undefined,
         undefined,
+        undefined,
       ]
     }
   >
     <View
+      alignItems="center"
       style={
         Array [
           Object {
             "display": "flex",
             "flexDirection": "row",
-          },
-          Object {
-            "alignContent": "flex-start",
+            "height": "auto",
+            "width": "100%",
           },
           Object {
             "alignItems": "center",
@@ -1834,6 +1851,7 @@ exports[`<InputSelect> when {value} 1`] = `
           Object {
             "justifyContent": "flex-start",
           },
+          undefined,
           Object {
             "height": 44.8,
           },
@@ -1849,10 +1867,10 @@ exports[`<InputSelect> when {value} 1`] = `
         }
       >
         <Text
-          lighten={false}
           style={
             Array [
               Object {
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
@@ -1861,7 +1879,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 "lineHeight": 24,
               },
               undefined,
-              false,
+              undefined,
               undefined,
               Object {
                 "lineHeight": 16,
@@ -1872,10 +1890,10 @@ exports[`<InputSelect> when {value} 1`] = `
           four
         </Text>
         <Text
-          lighten={true}
           style={
             Array [
               Object {
+                "color": "#191919",
                 "fontFamily": undefined,
                 "textAlignVertical": "center",
               },
@@ -1883,7 +1901,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 "fontSize": 12,
               },
               undefined,
-              false,
+              undefined,
               undefined,
               undefined,
             ]
@@ -1913,7 +1931,7 @@ exports[`<InputSelect> when {value} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#62e6ac",
+            "backgroundColor": "#191919",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -1929,7 +1947,7 @@ exports[`<InputSelect> when {value} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "position": "absolute",
-          "shadowColor": "#191919",
+          "shadowColor": "#000000",
           "shadowOffset": Object {
             "height": 2,
             "width": 0,
@@ -1965,18 +1983,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -1984,6 +2003,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2002,6 +2022,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2010,7 +2031,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -2021,10 +2042,10 @@ exports[`<InputSelect> when {value} 1`] = `
               one
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2032,7 +2053,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -2062,7 +2083,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2088,18 +2109,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -2107,6 +2129,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2125,6 +2148,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2133,7 +2157,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -2144,10 +2168,10 @@ exports[`<InputSelect> when {value} 1`] = `
               two
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2155,7 +2179,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -2185,7 +2209,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2211,18 +2235,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -2230,6 +2255,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2248,6 +2274,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2256,7 +2283,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -2267,10 +2294,10 @@ exports[`<InputSelect> when {value} 1`] = `
               three
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2278,7 +2305,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -2308,7 +2335,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2334,18 +2361,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -2353,6 +2381,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2371,6 +2400,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2379,7 +2409,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -2390,10 +2420,10 @@ exports[`<InputSelect> when {value} 1`] = `
               four
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2401,7 +2431,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -2431,7 +2461,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2457,18 +2487,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -2476,6 +2507,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2494,6 +2526,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2502,7 +2535,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -2513,10 +2546,10 @@ exports[`<InputSelect> when {value} 1`] = `
               five
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2524,7 +2557,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -2554,7 +2587,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2580,18 +2613,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -2599,6 +2633,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2617,6 +2652,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2625,7 +2661,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -2636,10 +2672,10 @@ exports[`<InputSelect> when {value} 1`] = `
               six
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2647,7 +2683,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -2677,7 +2713,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2703,18 +2739,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -2722,6 +2759,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2740,6 +2778,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2748,7 +2787,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -2759,10 +2798,10 @@ exports[`<InputSelect> when {value} 1`] = `
               seven
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2770,7 +2809,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -2800,7 +2839,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2826,18 +2865,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -2845,6 +2885,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2863,6 +2904,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2871,7 +2913,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -2882,10 +2924,10 @@ exports[`<InputSelect> when {value} 1`] = `
               eight
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2893,7 +2935,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -2923,7 +2965,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -2949,18 +2991,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -2968,6 +3011,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -2986,6 +3030,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -2994,7 +3039,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -3005,10 +3050,10 @@ exports[`<InputSelect> when {value} 1`] = `
               nine
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -3016,7 +3061,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -3046,7 +3091,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,
@@ -3072,18 +3117,19 @@ exports[`<InputSelect> when {value} 1`] = `
           Array [
             undefined,
             undefined,
+            undefined,
           ]
         }
       >
         <View
+          alignItems="center"
           style={
             Array [
               Object {
                 "display": "flex",
                 "flexDirection": "row",
-              },
-              Object {
-                "alignContent": "flex-start",
+                "height": "auto",
+                "width": "100%",
               },
               Object {
                 "alignItems": "center",
@@ -3091,6 +3137,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "justifyContent": "flex-start",
               },
+              undefined,
               Object {
                 "height": 44.8,
               },
@@ -3109,6 +3156,7 @@ exports[`<InputSelect> when {value} 1`] = `
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -3117,7 +3165,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "lineHeight": 24,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   Object {
                     "lineHeight": 16,
@@ -3128,10 +3176,10 @@ exports[`<InputSelect> when {value} 1`] = `
               ten
             </Text>
             <Text
-              lighten={true}
               style={
                 Array [
                   Object {
+                    "color": "#191919",
                     "fontFamily": undefined,
                     "textAlignVertical": "center",
                   },
@@ -3139,7 +3187,7 @@ exports[`<InputSelect> when {value} 1`] = `
                     "fontSize": 12,
                   },
                   undefined,
-                  false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -3169,7 +3217,7 @@ exports[`<InputSelect> when {value} 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
                 "height": 0,
                 "opacity": 0,
                 "width": 0,

@@ -5,13 +5,11 @@ import { View } from 'react-native';
 import { useEnvironment } from '../../hooks';
 import { Activity } from '../Activity';
 import { Row } from '../Row';
-
+import styles from './Calendar.style';
 import { DayNames, Selector, Week } from './components';
 import { decomposeDate, firstDateOfWeek, LOCALE, nextMonth, previousMonth } from './modules';
-import styles from './Calendar.style';
 
 const VISIBLE_WEEKS = Array.from(Array(6).keys());
-const { IS_TEST } = useEnvironment();
 
 export class Calendar extends PureComponent {
   static propTypes = {
@@ -51,6 +49,7 @@ export class Calendar extends PureComponent {
   constructor(props) {
     super(props);
     const { value, date } = props;
+    const { IS_TEST } = useEnvironment();
 
     const today = !IS_TEST ? new Date() : new Date(1980, 3, 10);
     today.setHours(0, 0, 0, 0);

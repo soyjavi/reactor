@@ -220,13 +220,33 @@ exports[`<Slider> when {navigation} 1`] = `
             },
             undefined,
             Object {
-              "backgroundColor": "#ff8c5f",
+              "height": 48,
+              "paddingHorizontal": 16,
+            },
+            undefined,
+            Object {
+              "backgroundColor": "#62e6ac",
               "borderRadius": 0,
+            },
+            undefined,
+          ],
+          Array [
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "flex-start",
+              "justifyContent": "center",
+              "width": "auto",
             },
             undefined,
             Object {
               "height": 48,
               "paddingHorizontal": 16,
+            },
+            undefined,
+            Object {
+              "backgroundColor": "#62e6ac",
+              "borderRadius": 0,
             },
             undefined,
           ],
@@ -239,15 +259,17 @@ exports[`<Slider> when {navigation} 1`] = `
             Object {
               "display": "flex",
               "flexDirection": "row",
-            },
-            Object {
-              "alignContent": "flex-start",
+              "height": "auto",
+              "width": "100%",
             },
             Object {
               "alignItems": "center",
             },
             Object {
-              "justifyContent": "flex-start",
+              "justifyContent": "center",
+            },
+            Object {
+              "width": "auto",
             },
             undefined,
           ]
@@ -326,13 +348,33 @@ exports[`<Slider> when {navigation} 1`] = `
             },
             undefined,
             Object {
-              "backgroundColor": "#ff8c5f",
+              "height": 48,
+              "paddingHorizontal": 16,
+            },
+            undefined,
+            Object {
+              "backgroundColor": "#62e6ac",
               "borderRadius": 0,
+            },
+            undefined,
+          ],
+          Array [
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "flex-start",
+              "justifyContent": "center",
+              "width": "auto",
             },
             undefined,
             Object {
               "height": 48,
               "paddingHorizontal": 16,
+            },
+            undefined,
+            Object {
+              "backgroundColor": "#62e6ac",
+              "borderRadius": 0,
             },
             undefined,
           ],
@@ -345,15 +387,17 @@ exports[`<Slider> when {navigation} 1`] = `
             Object {
               "display": "flex",
               "flexDirection": "row",
-            },
-            Object {
-              "alignContent": "flex-start",
+              "height": "auto",
+              "width": "100%",
             },
             Object {
               "alignItems": "center",
             },
             Object {
-              "justifyContent": "flex-start",
+              "justifyContent": "center",
+            },
+            Object {
+              "width": "auto",
             },
             undefined,
           ]

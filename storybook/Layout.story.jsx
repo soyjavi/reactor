@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import { THEME } from '../common';
 import { Button, Col, Row, Text, Viewport } from '../components';
-
 import { Content, Header } from './components';
 
 const { COLOR, SPACE } = THEME;

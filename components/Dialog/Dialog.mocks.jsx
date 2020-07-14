@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { THEME } from '../../common';
 import { Text } from '..';
+import { THEME } from '../../common';
 
 const CHILDREN = <Text>lorem ipsum...</Text>;
 const POSITION = 'bottom';

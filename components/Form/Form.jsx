@@ -4,9 +4,9 @@ import { View } from 'react-native';
 
 import { useStyler } from '../../hooks';
 import { KEYBOARDS } from './Form.config';
+import styles from './Form.style';
 import { FormField } from './FormField';
 import { consolidate } from './modules';
-import styles from './Form.style';
 
 export const Form = ({
   attributes = {},

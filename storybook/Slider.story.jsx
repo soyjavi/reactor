@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Image, Slider, Viewport } from '../components';
-
 import { Content, Header } from './components';
 
 const ITEM = { width: 320, height: 200 };

@@ -9,7 +9,6 @@ import { InputOption } from '../InputOption';
 import { InputSelect } from '../InputSelect';
 import { InputSwitch } from '../InputSwitch';
 import { Text } from '../Text';
-
 import { KEYBOARDS } from './Form.config';
 import styles from './FormField.style';
 
@@ -39,6 +38,7 @@ export const FormField = ({
   return (
     <View style={[styles.container, inline && styles.inline, focus && styles.focus, ...useStyler(others)]}>
       {isTouchable ? (
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         <InputComponent {...useBanStylerProps(others)} size={size} value={value}>
           <Text bold caption color={inputColor} numberOfLines={2}>
             {label || field}

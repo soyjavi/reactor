@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import { Animated } from 'react-native';
 import React from 'react';
-import styles from './Activity.style';
+import { Animated } from 'react-native';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
 import { Row } from '../Row';
+import styles from './Activity.style';
 
 const {
   COLOR,

@@ -16,6 +16,7 @@ exports[`<Touchable> renders 1`] = `
     Array [
       undefined,
       undefined,
+      undefined,
     ]
   }
 >
@@ -66,6 +67,7 @@ exports[`<Touchable> when {children} 1`] = `
   pointerEvents="none"
   style={
     Array [
+      undefined,
       undefined,
       undefined,
     ]
@@ -122,6 +124,7 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
     Array [
       undefined,
       undefined,
+      undefined,
     ]
   }
 >
@@ -175,6 +178,7 @@ exports[`<Touchable> when {rippleColor} 1`] = `
     Array [
       undefined,
       undefined,
+      undefined,
     ]
   }
 >
@@ -225,6 +229,9 @@ exports[`<Touchable> when {style} 1`] = `
   style={
     Array [
       undefined,
+      Object {
+        "backgroundColor": "rgba(0,255,0,0.25)",
+      },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
       },

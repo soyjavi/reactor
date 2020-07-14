@@ -2,7 +2,6 @@ import React from 'react';
 
 import { THEME } from '../common';
 import { Button, Row, Text, Viewport } from '../components';
-
 import { Content, Header } from './components';
 
 const defaults = { marginRight: 'S', marginVertical: 'XS' };

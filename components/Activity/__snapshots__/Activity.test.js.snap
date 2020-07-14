@@ -7,16 +7,16 @@ exports[`<Activity> hook:styler 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
+        "alignItems": "center",
       },
       Object {
-        "alignItems": "flex-start",
+        "justifyContent": "center",
       },
-      Object {
-        "justifyContent": "flex-start",
-      },
+      undefined,
       Array [
         Object {
           "marginBottom": 16,
@@ -29,7 +29,7 @@ exports[`<Activity> hook:styler 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -40,7 +40,7 @@ exports[`<Activity> hook:styler 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -51,7 +51,7 @@ exports[`<Activity> hook:styler 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -69,16 +69,16 @@ exports[`<Activity> renders 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
+        "alignItems": "center",
       },
       Object {
-        "alignItems": "flex-start",
+        "justifyContent": "center",
       },
-      Object {
-        "justifyContent": "flex-start",
-      },
+      undefined,
       Array [
         undefined,
       ],
@@ -88,7 +88,7 @@ exports[`<Activity> renders 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -99,7 +99,7 @@ exports[`<Activity> renders 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -110,7 +110,7 @@ exports[`<Activity> renders 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -128,16 +128,16 @@ exports[`<Activity> when {color} 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
+        "alignItems": "center",
       },
       Object {
-        "alignItems": "flex-start",
+        "justifyContent": "center",
       },
-      Object {
-        "justifyContent": "flex-start",
-      },
+      undefined,
       Array [
         undefined,
       ],
@@ -187,16 +187,16 @@ exports[`<Activity> when {size} 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
+        "alignItems": "center",
       },
       Object {
-        "alignItems": "flex-start",
+        "justifyContent": "center",
       },
-      Object {
-        "justifyContent": "flex-start",
-      },
+      undefined,
       Array [
         undefined,
       ],
@@ -206,7 +206,7 @@ exports[`<Activity> when {size} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -217,7 +217,7 @@ exports[`<Activity> when {size} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -228,7 +228,7 @@ exports[`<Activity> when {size} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -246,19 +246,19 @@ exports[`<Activity> when {style} 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
+        "alignItems": "center",
       },
       Object {
-        "alignItems": "flex-start",
+        "justifyContent": "center",
       },
-      Object {
-        "justifyContent": "flex-start",
-      },
+      undefined,
       Array [
         Object {
-          "backgroundColor": "#62e6ac",
+          "backgroundColor": "#191919",
           "padding": 16,
         },
       ],
@@ -268,7 +268,7 @@ exports[`<Activity> when {style} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -279,7 +279,7 @@ exports[`<Activity> when {style} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,
@@ -290,7 +290,7 @@ exports[`<Activity> when {style} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
+        "backgroundColor": "#a3a3a3",
         "height": 8,
         "marginHorizontal": 4,
         "opacity": 0,

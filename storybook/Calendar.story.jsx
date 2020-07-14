@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import { Calendar, Viewport } from '../components';
-
 import { Content, Header } from './components';
 
 export const CalendarStory = (props) => {

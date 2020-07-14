@@ -13,7 +13,7 @@ describe('<ThemeProvider>', () => {
   });
 
   it('when {style}', () => {
-    expect(THEME.COLOR.BRAND).toEqual('#62e6ac');
+    expect(THEME.COLOR.BRAND).toEqual('#191919');
     const tree = TestRenderer.create(<ThemeProvider style={customTheme} />).toJSON();
     expect(tree).toMatchSnapshot();
     expect(THEME.COLOR.BRAND).toEqual(customTheme.COLOR.BRAND);

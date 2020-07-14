@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import PKG from './package.json';
 import { Button, LayoutView, Text, Viewport } from './components';
+import PKG from './package.json';
 import {
   Content,
   Header,

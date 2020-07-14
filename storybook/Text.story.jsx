@@ -2,7 +2,6 @@ import React from 'react';
 
 import { THEME } from '../common';
 import { Text, Viewport } from '../components';
-
 import { Content, Header } from './components';
 
 const { COLOR } = THEME;

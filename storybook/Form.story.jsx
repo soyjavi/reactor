@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import { Form, Viewport } from '../components';
 import { ATTRIBUTES } from '../components/Form/Form.mocks';
-
 import { Content, Header } from './components';
 
 export const FormStory = (props) => {

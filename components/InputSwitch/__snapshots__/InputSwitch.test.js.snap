@@ -7,16 +7,16 @@ exports[`<InputSwitch> renders 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
-      },
-      Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
       },
       Object {
         "justifyContent": "flex-start",
       },
+      undefined,
       Object {
         "height": 40,
       },
@@ -24,9 +24,9 @@ exports[`<InputSwitch> renders 1`] = `
   }
 >
   <RCTSwitch
-    accessibilityRole="button"
+    accessibilityRole="switch"
     activeThumbColor="#ffffff"
-    activeTrackColor="#62e6ac"
+    activeTrackColor="#191919"
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -55,16 +55,16 @@ exports[`<InputSwitch> when {color} 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
-      },
-      Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
       },
       Object {
         "justifyContent": "flex-start",
       },
+      undefined,
       Object {
         "height": 40,
       },
@@ -72,7 +72,7 @@ exports[`<InputSwitch> when {color} 1`] = `
   }
 >
   <RCTSwitch
-    accessibilityRole="button"
+    accessibilityRole="switch"
     activeThumbColor="#ffffff"
     activeTrackColor="green"
     onChange={[Function]}
@@ -103,16 +103,16 @@ exports[`<InputSwitch> when {disabled} 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
-      },
-      Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
       },
       Object {
         "justifyContent": "flex-start",
       },
+      undefined,
       Object {
         "height": 40,
       },
@@ -120,9 +120,9 @@ exports[`<InputSwitch> when {disabled} 1`] = `
   }
 >
   <RCTSwitch
-    accessibilityRole="button"
+    accessibilityRole="switch"
     activeThumbColor="#ffffff"
-    activeTrackColor="#62e6ac"
+    activeTrackColor="#191919"
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -151,16 +151,16 @@ exports[`<InputSwitch> when {label} 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
-      },
-      Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
       },
       Object {
         "justifyContent": "flex-start",
       },
+      undefined,
       Object {
         "height": 40,
       },
@@ -168,9 +168,9 @@ exports[`<InputSwitch> when {label} 1`] = `
   }
 >
   <RCTSwitch
-    accessibilityRole="button"
+    accessibilityRole="switch"
     activeThumbColor="#ffffff"
-    activeTrackColor="#62e6ac"
+    activeTrackColor="#191919"
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
@@ -199,16 +199,16 @@ exports[`<InputSwitch> when {style} 1`] = `
       Object {
         "display": "flex",
         "flexDirection": "row",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
-        "alignContent": "flex-start",
-      },
-      Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
       },
       Object {
         "justifyContent": "flex-start",
       },
+      undefined,
       Object {
         "height": 40,
       },
@@ -216,9 +216,9 @@ exports[`<InputSwitch> when {style} 1`] = `
   }
 >
   <RCTSwitch
-    accessibilityRole="button"
+    accessibilityRole="switch"
     activeThumbColor="#ffffff"
-    activeTrackColor="#62e6ac"
+    activeTrackColor="#191919"
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
