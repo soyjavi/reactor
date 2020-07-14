@@ -1,5 +1,5 @@
 import { bool, func, node, oneOf } from 'prop-types';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { PanResponder, KeyboardAvoidingView, SafeAreaView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
@@ -11,14 +11,21 @@ import styles from './Dialog.style';
 
 const { COLOR, DIALOG_BUTTON, MOTION, SPACE } = THEME;
 
-export const Dialog = ({ children, onClose, position = 'center', visible, ...others }) => {
+export const Dialog = ({ children, onClose, position = 'center', visible = false, ...others }) => {
   const { IS_NATIVE } = useEnvironment();
-  const [gesture, setGesture] = useState(undefined);
+
+  const [top, setTop] = useState(0);
+  const [swiping, setSwiping] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const { VIEWPORT } = LAYOUT;
   const Y = visible ? 0 : position === 'top' ? -VIEWPORT.H : VIEWPORT.H;
 
+  useLayoutEffect(() => {
+    setMounted(true);
+  }, []);
+
   useEffect(() => {
-    setGesture(undefined);
+    if (visible) setTop(undefined);
   }, [visible]);
 
   const panResponder = useMemo(
@@ -26,11 +33,13 @@ export const Dialog = ({ children, onClose, position = 'center', visible, ...oth
       PanResponder.create({
         onStartShouldSetPanResponder: () => true,
         onPanResponderMove: (event, { dy: y }) => {
-          if (y >= 0 && gesture !== y) setGesture(y);
+          if (y >= 0 && top !== y) setTop(y);
+          setSwiping(true);
         },
         onPanResponderRelease: (event, { dy: y }) => {
           if (y > VIEWPORT.H / 6) onClose();
-          setGesture(undefined);
+          setTop(undefined);
+          setTimeout(() => setSwiping(false), MOTION.COLLAPSE);
         },
       }),
     [],
@@ -38,7 +47,7 @@ export const Dialog = ({ children, onClose, position = 'center', visible, ...oth
 
   return (
     <Motion
-      delay={visible ? 0 : MOTION.DURATION / 2}
+      delay={visible ? 0 : MOTION.COLLAPSE}
       pointerEvents={IS_NATIVE && visible ? 'auto' : 'none'}
       style={styles.container}
       timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
@@ -46,11 +55,11 @@ export const Dialog = ({ children, onClose, position = 'center', visible, ...oth
       <SafeAreaView style={[styles.overlay, styles[position], others.styleOverlay]}>
         <KeyboardAvoidingView behavior={IS_NATIVE ? 'padding' : undefined} style={styles.keyboardView}>
           <Motion
-            delay={visible && !gesture ? MOTION.DURATION / 2 : 0}
-            duration={visible && gesture ? 0 : undefined}
-            type={visible && gesture ? 'timing' : undefined}
+            delay={visible && !swiping ? MOTION.EXPAND : 0}
+            duration={top ? 0 : visible ? MOTION.EXPAND : MOTION.COLLAPSE}
             pointerEvents="auto"
-            timeline={[{ property: 'translateY', value: visible ? gesture || Y : Y }]}
+            timeline={[{ property: 'translateY', value: visible && top ? top : Y }]}
+            type={swiping ? 'spring' : undefined}
           >
             <View {...panResponder.panHandlers} style={[styles.content, ...useStyler(others)]}>
               {onClose ? (
@@ -74,9 +83,7 @@ export const Dialog = ({ children, onClose, position = 'center', visible, ...oth
                     style={styles.button}
                   />
                 )
-              ) : (
-                undefined
-              )}
+              ) : undefined}
               {children}
             </View>
           </Motion>
