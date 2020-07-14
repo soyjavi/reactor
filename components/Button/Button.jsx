@@ -3,7 +3,6 @@ import React, { useRef, useState } from 'react';
 
 import { THEME } from '../../common';
 import { useStyler } from '../../hooks';
-import { Activity } from '../Activity';
 import { Icon } from '../Icon';
 import { Motion } from '../Motion';
 import { Row } from '../Row';
@@ -68,8 +67,8 @@ export const Button = ({
         ...useStyler(others),
       ]}
     >
-      {!disabled && delay && ref && (
-        <>
+      <>
+        {!disabled && delay && ref && (
           <Motion
             config={{ useNativeDriver: false }}
             duration={delay}
@@ -77,24 +76,24 @@ export const Button = ({
             timeline={[{ property: 'width', value: delayEvent ? ref.current.state.width : 0 }]}
             type="timing"
           />
-        </>
-      )}
-
-      <Row justify="center" width="auto">
-        {activity ? (
-          <Activity color={colorContent} />
-        ) : (
-          <>
-            {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
-            {title && (
-              <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
-                {title}
-              </Text>
-            )}
-            {children}
-          </>
         )}
-      </Row>
+
+        <Row justify="center" width="auto">
+          {activity ? (
+            <Text color={colorContent}>$Busy</Text>
+          ) : (
+            <>
+              {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
+              {title && (
+                <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
+                  {title}
+                </Text>
+              )}
+              {children}
+            </>
+          )}
+        </Row>
+      </>
     </Touchable>
   );
 };

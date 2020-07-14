@@ -50,6 +50,8 @@ export default StyleSheet.create({
   textS: FONT.CAPTION,
 
   wide: {
-    width: '100%',
+    // width: '100%',
+    // @TODO: iOS
+    flex: 1,
   },
 });
