@@ -93,8 +93,9 @@ export default {
   INPUT_FOCUS: {},
 
   MOTION: {
-    DURATION: 225,
-    TYPE: 'spring',
+    EXPAND: 250,
+    COLLAPSE: 200,
+    TYPE: 'standard',
     DEFAULTS: {
       friction: undefined,
       tension: undefined,
