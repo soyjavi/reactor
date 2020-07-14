@@ -7,11 +7,12 @@ import { useBanStylerProps, useStyler } from '../../hooks';
 import Ripple from './components/Ripple';
 import styles from './Touchable.style';
 
-const { COLOR } = THEME;
+const { COLOR, MOTION } = THEME;
 const ANIMATION = {
   toValue: 1,
   easing: Easing.out(Easing.ease),
-  duration: 400,
+  duration: MOTION.EXPAND * 2,
+  useNativeDriver: true,
 };
 
 export class Touchable extends PureComponent {
@@ -32,7 +33,7 @@ export class Touchable extends PureComponent {
     onPress: undefined,
     onPressIn: undefined,
     onPressOut: undefined,
-    rippleColor: COLOR.WHITE,
+    rippleColor: COLOR.BACKGROUND,
   };
 
   constructor(props) {
@@ -69,7 +70,11 @@ export class Touchable extends PureComponent {
     } = this;
     const { locationX: x, locationY: y } = event.nativeEvent;
 
-    Animated.timing(mask, { ...ANIMATION, delay: ANIMATION.duration / 4, toValue: 0.25 }).start();
+    Animated.timing(mask, {
+      ...ANIMATION,
+      delay: MOTION.EXPAND,
+      toValue: 0.25,
+    }).start();
 
     const w = 0.5 * width;
     const h = 0.5 * height;
