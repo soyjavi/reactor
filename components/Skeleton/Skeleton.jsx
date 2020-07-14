@@ -6,9 +6,7 @@ import styles from './Skeleton.style';
 import { Motion } from '../Motion';
 import { THEME } from '../../common';
 
-const {
-  MOTION: { DURATION },
-} = THEME;
+const { MOTION } = THEME;
 
 export const Skeleton = ({ opacity = 0.5, ...others }) => {
   const [visible, setVisible] = useState(false);
@@ -17,7 +15,7 @@ export const Skeleton = ({ opacity = 0.5, ...others }) => {
   useEffect(() => {
     interval = setInterval(() => {
       setVisible((value) => !value);
-    }, DURATION * 4);
+    }, MOTION.EXPAND * 2);
 
     return () => clearInterval(interval);
   }, []);
@@ -25,7 +23,7 @@ export const Skeleton = ({ opacity = 0.5, ...others }) => {
   return (
     <View style={[styles.container, others.style]}>
       <Motion
-        duration={DURATION * 4}
+        duration={MOTION.EXPAND * 2}
         style={styles.motion}
         timeline={[{ property: 'opacity', value: visible ? opacity : 0 }]}
         type="timing"
