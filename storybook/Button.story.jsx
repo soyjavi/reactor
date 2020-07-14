@@ -38,6 +38,13 @@ export const ButtonStory = (props) => (
         <Button {...defaults} size="S" title="small" borderRadius={SPACE.S} />
       </Row>
 
+      <Text bold>.busy</Text>
+      <Row marginBottom="M">
+        <Button {...defaults} color={COLOR.BRAND} busy={10000} size="L" title="large" />
+        <Button {...defaults} color={COLOR.SUCCESS} busy={10000} title="default" />
+        <Button {...defaults} color={COLOR.ERROR} busy={10000} size="S" title="small" />
+      </Row>
+
       <Text bold>.color</Text>
       <Row marginBottom="M">
         <Button {...defaults} size="L" color={COLOR.BRAND} title="brand" />
@@ -75,7 +82,14 @@ export const ButtonStory = (props) => (
 
       <Text bold>.onPress</Text>
       <Row marginBottom="M">
-        <Button {...defaults} title="press me" onPress={() => alert('<Button> onPress')} />
+        <Button {...defaults} title="press me" onPress={() => console.log('<Button> onPress')} />
+      </Row>
+
+      <Text bold>.onPress && delay</Text>
+      <Row marginBottom="M">
+        <Button {...defaults} delay={1000} size="L" title="press me" onPress={() => {}} />
+        <Button {...defaults} delay={1000} title="press me" onPress={() => {}} />
+        <Button {...defaults} delay={1000} size="S" title="press me" onPress={() => {}} />
       </Row>
 
       <Text bold>.wide</Text>
