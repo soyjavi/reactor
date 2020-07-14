@@ -1,4 +1,4 @@
-import { func, string } from 'prop-types';
+import PropTypes from 'prop-types';
 import React from 'react';
 
 import { THEME } from '../../common';
@@ -11,16 +11,16 @@ import styles from './Snackbar.style';
 
 const { COLOR, SPACE } = THEME;
 
-export const Snackbar = ({ caption, color = COLOR.BLACK, icon, onClose, ...others }) => (
+export const Snackbar = ({ caption = '', color = COLOR.BLACK, icon, iconSize = SPACE.XL, onClose, ...others }) => (
   <Dialog
     background={false}
     position="bottom"
-    style={[styles.dialog, { backgroundColor: color }]}
+    style={[styles.dialog, { backgroundColor: color }, others.style]}
     styleOverlay={styles.dialogOverlay}
     visible={others.visible}
   >
     <Row alignItems="center">
-      {icon && <Icon color={COLOR.WHITE} size={SPACE.XL} value={icon} style={styles.icon} />}
+      {icon && <Icon color={COLOR.WHITE} family={others.family} size={iconSize} value={icon} style={styles.icon} />}
       <Text caption color={COLOR.WHITE} style={styles.caption}>
         {caption}
       </Text>
@@ -32,10 +32,11 @@ export const Snackbar = ({ caption, color = COLOR.BLACK, icon, onClose, ...other
 );
 
 Snackbar.propTypes = {
-  caption: string.isRequired,
-  color: string,
-  icon: string,
-  onClose: func,
+  caption: PropTypes.string,
+  color: PropTypes.string,
+  icon: PropTypes.string,
+  iconSize: PropTypes.number,
+  onClose: PropTypes.func,
 };
 
 export default Snackbar;
