@@ -37,8 +37,6 @@ export const Button = ({
 
   const { current: { state: { width: buttonWidth = 0 } = {} } = {} } = ref || {};
 
-  console.log('>>>>>', ref && ref.current && ref.current.state);
-
   const handlePress = {
     onPress: () => {},
     onPressIn: () => {
