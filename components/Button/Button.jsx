@@ -37,6 +37,8 @@ export const Button = ({
 
   const { current: { state: { width: buttonWidth = 0 } = {} } = {} } = ref || {};
 
+  console.log('>>>>>', ref && ref.current && ref.current.state);
+
   const handlePress = {
     onPress: () => {},
     onPressIn: () => {
@@ -70,15 +72,14 @@ export const Button = ({
       ]}
     >
       <>
-        {(busy || (!disabled && delay)) && (
-          <Motion
-            config={{ useNativeDriver: false }}
-            duration={busy || delay}
-            style={[styles.motion, { backgroundColor: colorContent }]}
-            timeline={[{ property: 'width', value: busy || delayEvent ? buttonWidth : 0 }]}
-            type="timing"
-          />
-        )}
+        <Motion
+          // config={{ useNativeDriver: false }}
+          disabled={!busy && !delay}
+          duration={busy || delay}
+          style={[styles.motion, { backgroundColor: colorContent }]}
+          timeline={[{ property: 'width', value: busy || delayEvent ? buttonWidth : 0 }]}
+          type="timing"
+        />
 
         <Row justify="center" width="auto">
           {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
