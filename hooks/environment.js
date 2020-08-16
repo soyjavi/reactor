@@ -1,4 +1,5 @@
 import { DeviceInfo, Platform } from 'react-native';
+
 import PKG from '../package.json';
 
 const { NODE_ENV } = process.env;

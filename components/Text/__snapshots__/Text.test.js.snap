@@ -5,6 +5,7 @@ exports[`<Text> hook:styler 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -13,7 +14,7 @@ exports[`<Text> hook:styler 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       Object {
         "marginBottom": 16,
@@ -29,6 +30,7 @@ exports[`<Text> renders 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -37,7 +39,7 @@ exports[`<Text> renders 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       undefined,
     ]
@@ -50,6 +52,7 @@ exports[`<Text> when {caption} 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -57,7 +60,7 @@ exports[`<Text> when {caption} 1`] = `
         "fontSize": 12,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       undefined,
     ]
@@ -72,6 +75,7 @@ exports[`<Text> when {color} 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -80,7 +84,7 @@ exports[`<Text> when {color} 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       Object {
         "color": "#e85a7e",
       },
@@ -97,6 +101,7 @@ exports[`<Text> when {headline} 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -105,31 +110,7 @@ exports[`<Text> when {headline} 1`] = `
         "fontWeight": "700",
       },
       undefined,
-      false,
       undefined,
-      undefined,
-    ]
-  }
->
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-</Text>
-`;
-
-exports[`<Text> when {lighten} 1`] = `
-<Text
-  lighten={true}
-  style={
-    Array [
-      Object {
-        "fontFamily": undefined,
-        "textAlignVertical": "center",
-      },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 24,
-      },
-      undefined,
-      false,
       undefined,
       undefined,
     ]
@@ -145,6 +126,7 @@ exports[`<Text> when {numberOfLines} 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -153,7 +135,7 @@ exports[`<Text> when {numberOfLines} 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       undefined,
     ]
@@ -168,6 +150,7 @@ exports[`<Text> when {style} 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -176,7 +159,7 @@ exports[`<Text> when {style} 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       Object {
         "color": "orange",
@@ -193,6 +176,7 @@ exports[`<Text> when {subtitle} 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -200,7 +184,7 @@ exports[`<Text> when {subtitle} 1`] = `
         "fontSize": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       undefined,
     ]

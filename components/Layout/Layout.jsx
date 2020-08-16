@@ -1,10 +1,10 @@
 import { func, node } from 'prop-types';
 import React, { useState, createContext } from 'react';
 import { View } from 'react-native';
-import styles from './Layout.style';
 
 import { LAYOUT } from '../../common';
 import { useBanStylerProps, useEnvironment, useStyler } from '../../hooks';
+import styles from './Layout.style';
 
 const { Provider, Consumer: LayoutConsumer } = createContext('reactor:layout');
 

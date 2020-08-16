@@ -12,6 +12,10 @@ export default StyleSheet.create({
 
   bold: FONT.BOLD,
 
+  underlined: {
+    textDecorationLine: 'underline',
+  },
+
   headline: FONT.HEADLINE,
 
   subtitle: FONT.SUBTITLE,

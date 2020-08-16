@@ -1,5 +1,5 @@
 import { bool, func, node, oneOf } from 'prop-types';
-import React, { useEffect, useLayoutEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { PanResponder, KeyboardAvoidingView, SafeAreaView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
@@ -9,20 +9,15 @@ import { Motion } from '../Motion';
 import { Touchable } from '../Touchable';
 import styles from './Dialog.style';
 
-const { COLOR, DIALOG_BUTTON, MOTION, SPACE } = THEME;
+const { COLOR, MOTION, SPACE } = THEME;
 
 export const Dialog = ({ children, onClose, position = 'center', visible = false, ...others }) => {
   const { IS_NATIVE } = useEnvironment();
 
   const [top, setTop] = useState(0);
   const [swiping, setSwiping] = useState(false);
-  const [mounted, setMounted] = useState(false);
   const { VIEWPORT } = LAYOUT;
   const Y = visible ? 0 : position === 'top' ? -VIEWPORT.H : VIEWPORT.H;
-
-  useLayoutEffect(() => {
-    setMounted(true);
-  }, []);
 
   useEffect(() => {
     if (visible) setTop(undefined);
@@ -66,16 +61,12 @@ export const Dialog = ({ children, onClose, position = 'center', visible = false
                 VIEWPORT.S ? (
                   <Touchable
                     onPress={onClose}
-                    style={[
-                      styles.buttonSwipe,
-                      { backgroundColor: DIALOG_BUTTON.color || COLOR.TEXT },
-                      others.styleButton,
-                    ]}
+                    style={[styles.buttonSwipe, { backgroundColor: COLOR.TEXT }, others.styleButton]}
                   />
                 ) : (
                   <Button
                     color={COLOR.TRANSPARENT}
-                    colorText={DIALOG_BUTTON.color || COLOR.TEXT}
+                    colorText={COLOR.TEXT}
                     icon="close"
                     iconSize={SPACE.L}
                     onPress={onClose}

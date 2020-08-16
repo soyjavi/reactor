@@ -1,6 +1,5 @@
 import { Storage } from '../bridges';
 import PKG from '../package.json';
-
 import { entropy, UUID } from './modules';
 
 const STORE_FINGERPRINT = `${PKG.name}:fingerprint`;

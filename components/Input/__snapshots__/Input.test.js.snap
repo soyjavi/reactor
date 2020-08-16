@@ -2,14 +2,15 @@
 
 exports[`<Input> renders 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -17,9 +18,7 @@ exports[`<Input> renders 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -41,6 +40,7 @@ exports[`<Input> renders 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -66,14 +66,15 @@ exports[`<Input> renders 1`] = `
 
 exports[`<Input> when {color} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -81,9 +82,7 @@ exports[`<Input> when {color} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -106,6 +105,7 @@ exports[`<Input> when {color} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -133,14 +133,15 @@ exports[`<Input> when {color} 1`] = `
 
 exports[`<Input> when {currency} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -148,9 +149,7 @@ exports[`<Input> when {currency} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -159,20 +158,24 @@ exports[`<Input> when {currency} 1`] = `
   }
 >
   <View
+    alignItems="center"
+    justifyContent="center"
     style={
       Array [
         Object {
           "display": "flex",
           "flexDirection": "row",
-        },
-        Object {
-          "alignContent": "flex-start",
+          "height": "auto",
+          "width": "100%",
         },
         Object {
           "alignItems": "center",
         },
         Object {
-          "justifyContent": "center",
+          "justifyContent": "flex-start",
+        },
+        Object {
+          "width": "auto",
         },
         Object {
           "paddingRight": 4,
@@ -188,16 +191,18 @@ exports[`<Input> when {currency} 1`] = `
       style={
         Array [
           Object {
+            "color": "#191919",
             "fontFamily": undefined,
             "textAlignVertical": "center",
           },
           Object {
+            "color": "#191919",
             "fontFamily": undefined,
             "fontSize": 16,
             "textAlignVertical": "center",
           },
           undefined,
-          false,
+          undefined,
           Object {
             "color": "#a3a3a3",
           },
@@ -225,6 +230,7 @@ exports[`<Input> when {currency} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -252,14 +258,15 @@ exports[`<Input> when {currency} 1`] = `
 
 exports[`<Input> when {disabled} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -267,9 +274,7 @@ exports[`<Input> when {disabled} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -291,6 +296,7 @@ exports[`<Input> when {disabled} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -316,14 +322,15 @@ exports[`<Input> when {disabled} 1`] = `
 
 exports[`<Input> when {error} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -331,9 +338,7 @@ exports[`<Input> when {error} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -355,6 +360,7 @@ exports[`<Input> when {error} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -381,14 +387,15 @@ exports[`<Input> when {error} 1`] = `
 
 exports[`<Input> when {hint} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -396,9 +403,7 @@ exports[`<Input> when {hint} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -421,6 +426,7 @@ exports[`<Input> when {hint} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -446,14 +452,15 @@ exports[`<Input> when {hint} 1`] = `
 
 exports[`<Input> when {icon} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -461,9 +468,7 @@ exports[`<Input> when {icon} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -472,20 +477,24 @@ exports[`<Input> when {icon} 1`] = `
   }
 >
   <View
+    alignItems="center"
+    justifyContent="center"
     style={
       Array [
         Object {
           "display": "flex",
           "flexDirection": "row",
-        },
-        Object {
-          "alignContent": "flex-start",
+          "height": "auto",
+          "width": "100%",
         },
         Object {
           "alignItems": "center",
         },
         Object {
-          "justifyContent": "center",
+          "justifyContent": "flex-start",
+        },
+        Object {
+          "width": "auto",
         },
         Object {
           "paddingRight": 4,
@@ -513,6 +522,7 @@ exports[`<Input> when {icon} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -538,14 +548,15 @@ exports[`<Input> when {icon} 1`] = `
 
 exports[`<Input> when {keyboard} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -553,9 +564,7 @@ exports[`<Input> when {keyboard} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -579,6 +588,7 @@ exports[`<Input> when {keyboard} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -604,14 +614,15 @@ exports[`<Input> when {keyboard} 1`] = `
 
 exports[`<Input> when {label} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -619,9 +630,7 @@ exports[`<Input> when {label} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -644,6 +653,7 @@ exports[`<Input> when {label} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -669,14 +679,15 @@ exports[`<Input> when {label} 1`] = `
 
 exports[`<Input> when {lines} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -684,9 +695,7 @@ exports[`<Input> when {lines} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -701,7 +710,6 @@ exports[`<Input> when {lines} 1`] = `
     blurOnSubmit={true}
     editable={true}
     multiline={true}
-    numberOfLines={5}
     placeholderTextColor="#a3a3a3"
     rejectResponderTermination={true}
     style={
@@ -709,6 +717,7 @@ exports[`<Input> when {lines} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -734,14 +743,15 @@ exports[`<Input> when {lines} 1`] = `
 
 exports[`<Input> when {required} & {requiredIcon} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -749,9 +759,7 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -773,6 +781,7 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -799,14 +808,15 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
 
 exports[`<Input> when {required} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -814,9 +824,7 @@ exports[`<Input> when {required} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -838,6 +846,7 @@ exports[`<Input> when {required} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -863,14 +872,15 @@ exports[`<Input> when {required} 1`] = `
 
 exports[`<Input> when {style} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -878,9 +888,7 @@ exports[`<Input> when {style} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -902,6 +910,7 @@ exports[`<Input> when {style} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -927,14 +936,15 @@ exports[`<Input> when {style} 1`] = `
 
 exports[`<Input> when {valid} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -942,9 +952,7 @@ exports[`<Input> when {valid} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -966,6 +974,7 @@ exports[`<Input> when {valid} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,
@@ -992,14 +1001,15 @@ exports[`<Input> when {valid} 1`] = `
 
 exports[`<Input> when {value} 1`] = `
 <View
+  _alignItems="center"
+  _paddingRight="XS"
   style={
     Array [
       Object {
         "display": "flex",
         "flexDirection": "row",
-      },
-      Object {
-        "alignContent": "flex-start",
+        "height": "auto",
+        "width": "100%",
       },
       Object {
         "alignItems": "center",
@@ -1007,9 +1017,7 @@ exports[`<Input> when {value} 1`] = `
       Object {
         "justifyContent": "flex-start",
       },
-      Object {
-        "paddingRight": 4,
-      },
+      undefined,
       Object {
         "flex": 1,
         "height": "100%",
@@ -1031,6 +1039,7 @@ exports[`<Input> when {value} 1`] = `
         Object {
           "backgroundColor": "transparent",
           "borderWidth": 0,
+          "color": "#191919",
           "flex": 1,
           "fontFamily": undefined,
           "fontSize": 16,

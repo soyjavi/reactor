@@ -24,7 +24,7 @@ exports[`<Image> hook:styler 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e3e3e3",
+          "backgroundColor": "#d2d2d2",
           "minHeight": 8,
           "minWidth": 8,
         },
@@ -75,7 +75,7 @@ exports[`<Image> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e3e3e3",
+          "backgroundColor": "#d2d2d2",
           "minHeight": 8,
           "minWidth": 8,
         },
@@ -130,7 +130,7 @@ exports[`<Image> when {source} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e3e3e3",
+          "backgroundColor": "#d2d2d2",
           "minHeight": 8,
           "minWidth": 8,
         },
@@ -188,7 +188,7 @@ exports[`<Image> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e3e3e3",
+          "backgroundColor": "#d2d2d2",
           "minHeight": 8,
           "minWidth": 8,
         },

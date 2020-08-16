@@ -5,7 +5,6 @@ import { View } from 'react-native';
 import { Row } from '../../Row';
 import { Text } from '../../Text';
 import { Touchable } from '../../Touchable';
-
 import styles, { BOX_SIZE } from './Week.style';
 
 const onPress = ({ day, tsDay, tsStart, tsEnd, onSelect, range, value }) => {

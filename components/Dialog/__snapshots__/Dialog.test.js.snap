@@ -23,7 +23,7 @@ exports[`<Dialog> hook:styler 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "rgba(0,0,0,0.5)",
+          "backgroundColor": "rgba(0,0,0,0.8)",
           "flex": 1,
           "justifyContent": "center",
         },
@@ -54,13 +54,25 @@ exports[`<Dialog> hook:styler 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 907.1200000000001,
+                "translateY": 1334,
               },
             ],
           }
         }
       >
         <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
           style={
             Array [
               Object {
@@ -102,7 +114,7 @@ exports[`<Dialog> renders 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "rgba(0,0,0,0.5)",
+          "backgroundColor": "rgba(0,0,0,0.8)",
           "flex": 1,
           "justifyContent": "center",
         },
@@ -132,6 +144,18 @@ exports[`<Dialog> renders 1`] = `
         style={Object {}}
       >
         <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
           style={
             Array [
               Object {
@@ -170,7 +194,7 @@ exports[`<Dialog> when {children} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "rgba(0,0,0,0.5)",
+          "backgroundColor": "rgba(0,0,0,0.8)",
           "flex": 1,
           "justifyContent": "center",
         },
@@ -200,6 +224,18 @@ exports[`<Dialog> when {children} 1`] = `
         style={Object {}}
       >
         <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
           style={
             Array [
               Object {
@@ -214,6 +250,7 @@ exports[`<Dialog> when {children} 1`] = `
             style={
               Array [
                 Object {
+                  "color": "#191919",
                   "fontFamily": undefined,
                   "textAlignVertical": "center",
                 },
@@ -222,7 +259,7 @@ exports[`<Dialog> when {children} 1`] = `
                   "lineHeight": 24,
                 },
                 undefined,
-                false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -260,7 +297,7 @@ exports[`<Dialog> when {highlight} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "rgba(0,0,0,0.5)",
+          "backgroundColor": "rgba(0,0,0,0.8)",
           "flex": 1,
           "justifyContent": "center",
         },
@@ -291,13 +328,25 @@ exports[`<Dialog> when {highlight} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 907.1200000000001,
+                "translateY": 1334,
               },
             ],
           }
         }
       >
         <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
           style={
             Array [
               Object {
@@ -336,7 +385,7 @@ exports[`<Dialog> when {onClose} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "rgba(0,0,0,0.5)",
+          "backgroundColor": "rgba(0,0,0,0.8)",
           "flex": 1,
           "justifyContent": "center",
         },
@@ -366,6 +415,18 @@ exports[`<Dialog> when {onClose} 1`] = `
         style={Object {}}
       >
         <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
           style={
             Array [
               Object {
@@ -401,13 +462,38 @@ exports[`<Dialog> when {onClose} 1`] = `
                   },
                   undefined,
                   Object {
+                    "height": 32,
+                    "paddingHorizontal": 8,
+                  },
+                  undefined,
+                  Object {
                     "backgroundColor": "transparent",
                     "borderRadius": 0,
+                  },
+                  Object {
+                    "position": "absolute",
+                    "right": 8,
+                    "top": 8,
+                    "zIndex": 1,
+                  },
+                ],
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "alignSelf": "flex-start",
+                    "justifyContent": "center",
+                    "width": "auto",
                   },
                   undefined,
                   Object {
                     "height": 32,
                     "paddingHorizontal": 8,
+                  },
+                  undefined,
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 0,
                   },
                   Object {
                     "position": "absolute",
@@ -425,15 +511,17 @@ exports[`<Dialog> when {onClose} 1`] = `
                   Object {
                     "display": "flex",
                     "flexDirection": "row",
-                  },
-                  Object {
-                    "alignContent": "flex-start",
+                    "height": "auto",
+                    "width": "100%",
                   },
                   Object {
                     "alignItems": "center",
                   },
                   Object {
-                    "justifyContent": "flex-start",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "width": "auto",
                   },
                   undefined,
                 ]
@@ -461,7 +549,7 @@ exports[`<Dialog> when {onClose} 1`] = `
               <View
                 style={
                   Object {
-                    "backgroundColor": "#ffffff",
+                    "backgroundColor": "#191919",
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
@@ -501,7 +589,7 @@ exports[`<Dialog> when {position} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "rgba(0,0,0,0.5)",
+          "backgroundColor": "rgba(0,0,0,0.8)",
           "flex": 1,
           "justifyContent": "center",
         },
@@ -534,13 +622,25 @@ exports[`<Dialog> when {position} 1`] = `
           Object {
             "transform": Array [
               Object {
-                "translateY": 907.1200000000001,
+                "translateY": 1334,
               },
             ],
           }
         }
       >
         <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
           style={
             Array [
               Object {
@@ -579,7 +679,7 @@ exports[`<Dialog> when {style} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "rgba(0,0,0,0.5)",
+          "backgroundColor": "rgba(0,0,0,0.8)",
           "flex": 1,
           "justifyContent": "center",
         },
@@ -612,6 +712,18 @@ exports[`<Dialog> when {style} 1`] = `
         style={Object {}}
       >
         <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
           style={
             Array [
               Object {
@@ -619,7 +731,7 @@ exports[`<Dialog> when {style} 1`] = `
                 "padding": 24,
               },
               Object {
-                "backgroundColor": "#62e6ac",
+                "backgroundColor": "#191919",
               },
             ]
           }
@@ -653,7 +765,7 @@ exports[`<Dialog> when {visible} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "rgba(0,0,0,0.5)",
+          "backgroundColor": "rgba(0,0,0,0.8)",
           "flex": 1,
           "justifyContent": "center",
         },
@@ -691,6 +803,18 @@ exports[`<Dialog> when {visible} 1`] = `
         }
       >
         <View
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
           style={
             Array [
               Object {

@@ -1,4 +1,4 @@
-import { bool, func, node, number, string, oneOf } from 'prop-types';
+import PropTypes from 'prop-types';
 import React, { useRef, useState } from 'react';
 
 import { THEME } from '../../common';
@@ -14,7 +14,6 @@ const { BORDER_RADIUS, COLOR } = THEME;
 let timeout;
 
 export const Button = ({
-  activity,
   borderRadius = BORDER_RADIUS,
   children,
   color = COLOR.CTA,
@@ -34,6 +33,8 @@ export const Button = ({
   const [delayEvent, setDelayEvent] = useState(false);
 
   const colorContent = disabled ? COLOR.LIGHTEN : outlined ? color : colorText;
+
+  const { current: { state: { width: buttonWidth = 0 } = {} } = {} } = ref || {};
 
   const handlePress = {
     onPress: () => {},
@@ -68,30 +69,24 @@ export const Button = ({
       ]}
     >
       <>
-        {!disabled && delay && ref && (
+        {!disabled && (
           <Motion
-            config={{ useNativeDriver: false }}
+            // config={{ useNativeDriver: false }}
             duration={delay}
             style={[styles.motion, { backgroundColor: colorContent }]}
-            timeline={[{ property: 'width', value: delayEvent ? ref.current.state.width : 0 }]}
+            timeline={[{ property: 'width', value: delayEvent ? buttonWidth : 0 }]}
             type="timing"
           />
         )}
 
         <Row justify="center" width="auto">
-          {activity ? (
-            <Text color={colorContent}>$Busy</Text>
-          ) : (
-            <>
-              {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
-              {title && (
-                <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
-                  {title}
-                </Text>
-              )}
-              {children}
-            </>
+          {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
+          {title && (
+            <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
+              {title}
+            </Text>
           )}
+          {children}
         </Row>
       </>
     </Touchable>
@@ -99,17 +94,16 @@ export const Button = ({
 };
 
 Button.propTypes = {
-  activity: bool,
-  borderRadius: number,
-  children: node,
-  color: string,
-  colorText: string,
-  delay: number,
-  disabled: bool,
-  icon: string,
-  onPress: func,
-  outlined: bool,
-  size: oneOf(['S', 'M', 'L']),
-  title: string,
-  wide: bool,
+  borderRadius: PropTypes.number,
+  children: PropTypes.node,
+  color: PropTypes.string,
+  colorText: PropTypes.string,
+  delay: PropTypes.number,
+  disabled: PropTypes.bool,
+  icon: PropTypes.string,
+  onPress: PropTypes.func,
+  outlined: PropTypes.bool,
+  size: PropTypes.oneOf(['S', 'M', 'L']),
+  title: PropTypes.string,
+  wide: PropTypes.bool,
 };

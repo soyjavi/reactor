@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import PKG from './package.json';
 import { Button, LayoutView, Text, Viewport } from './components';
+import PKG from './package.json';
 import {
   Content,
   Header,
@@ -19,7 +19,7 @@ if (typeof global.self === 'undefined') global.self = global;
 const buttonProps = { color: 'black', marginVertical: 'XS', outlined: true, wide: true };
 
 const App = () => {
-  const [story, setStory] = useState('layout');
+  const [story, setStory] = useState('button');
   const handleBack = () => setStory(undefined);
 
   return (
@@ -42,7 +42,6 @@ const App = () => {
           <Text bold subtitle marginTop="M">
             Stories
           </Text>
-          <Button {...buttonProps} disabled title="Activity" onPress={() => setStory('activity')} />
           <Button {...buttonProps} title="Button" onPress={() => setStory('button')} />
           <Button {...buttonProps} disabled title="Calendar" onPress={() => setStory('calendar')} />
           <Button {...buttonProps} disabled title="ChartBar" onPress={() => setStory('chartbar')} />

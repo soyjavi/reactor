@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "reactor",
+    "description": "Reusable presentational components",
     "slug": "soyjavi-reactor",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
     "platforms": ["ios", "android", "web"],
-    "version": "0.16.0",
+    "version": "0.17.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -14,11 +14,26 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.soyjavi.reactor"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff",
+      "barStyle": "dark-content",
+      "translucent": false
+    },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
+    "githubUrl": "https://github.com/soyjavi/reactor"
   }
 }

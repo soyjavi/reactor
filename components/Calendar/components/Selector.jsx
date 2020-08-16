@@ -4,7 +4,6 @@ import React from 'react';
 import { Button } from '../../Button';
 import { Row } from '../../Row';
 import { Text } from '../../Text';
-
 import styles from './Selector.style';
 
 export const Selector = ({ onPrevious, onNext, title }) => (

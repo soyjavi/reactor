@@ -1,10 +1,10 @@
 import { number } from 'prop-types';
-import { View } from 'react-native';
 import React, { useEffect, useState } from 'react';
-import styles from './Skeleton.style';
+import { View } from 'react-native';
 
-import { Motion } from '../Motion';
 import { THEME } from '../../common';
+import { Motion } from '../Motion';
+import styles from './Skeleton.style';
 
 const { MOTION } = THEME;
 

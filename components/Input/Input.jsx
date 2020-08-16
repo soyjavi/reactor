@@ -3,12 +3,11 @@ import React from 'react';
 import { TextInput } from 'react-native';
 
 import { THEME } from '../../common';
-
-import { InputIcon } from './InputIcon';
 import { Icon } from '../Icon';
 import { Row } from '../Row';
 import { Text } from '../Text';
 import styles from './Input.style';
+import { InputIcon } from './InputIcon';
 
 const { COLOR } = THEME;
 

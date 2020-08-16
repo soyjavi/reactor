@@ -1,4 +1,3 @@
-export * from './Activity';
 export * from './Alert';
 export * from './Button';
 export * from './Calendar';

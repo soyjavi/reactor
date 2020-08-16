@@ -9,6 +9,7 @@ exports[`<Link> hook:styler 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -17,7 +18,7 @@ exports[`<Link> hook:styler 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       Array [
         Object {
@@ -40,6 +41,7 @@ exports[`<Link> renders 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -48,7 +50,7 @@ exports[`<Link> renders 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       Array [
         undefined,
@@ -68,6 +70,7 @@ exports[`<Link> when {style} 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -76,7 +79,7 @@ exports[`<Link> when {style} 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       Array [
         Object {
@@ -100,6 +103,7 @@ exports[`<Link> when {styleHover} 1`] = `
   style={
     Array [
       Object {
+        "color": "#191919",
         "fontFamily": undefined,
         "textAlignVertical": "center",
       },
@@ -108,7 +112,7 @@ exports[`<Link> when {styleHover} 1`] = `
         "lineHeight": 24,
       },
       undefined,
-      false,
+      undefined,
       undefined,
       Array [
         undefined,

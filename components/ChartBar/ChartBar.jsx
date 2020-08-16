@@ -1,12 +1,12 @@
 import { bool, arrayOf, number, shape, string } from 'prop-types';
-import { View } from 'react-native';
 import React from 'react';
-import styles from './ChartBar.style';
+import { View } from 'react-native';
 
 import { THEME } from '../../common';
 import { Motion } from '../Motion';
 import { Row } from '../Row';
 import { Text } from '../Text';
+import styles from './ChartBar.style';
 import { calcHeight, calcRange } from './modules';
 
 const { COLOR } = THEME;

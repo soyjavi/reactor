@@ -3,21 +3,17 @@ import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import { useEnvironment } from '../../hooks';
-import { Activity } from '../Activity';
 import { Row } from '../Row';
-
+import styles from './Calendar.style';
 import { DayNames, Selector, Week } from './components';
 import { decomposeDate, firstDateOfWeek, LOCALE, nextMonth, previousMonth } from './modules';
-import styles from './Calendar.style';
 
 const VISIBLE_WEEKS = Array.from(Array(6).keys());
-const { IS_TEST } = useEnvironment();
 
 export class Calendar extends PureComponent {
   static propTypes = {
     availableDates: arrayOf(shape()),
     box: bool,
-    busy: bool,
     captions: arrayOf(shape()),
     date: shape(),
     disabledDates: arrayOf(shape()),
@@ -34,7 +30,6 @@ export class Calendar extends PureComponent {
   static defaultProps = {
     availableDates: undefined,
     box: true,
-    busy: false,
     date: undefined,
     captions: undefined,
     disabledDates: undefined,
@@ -51,6 +46,7 @@ export class Calendar extends PureComponent {
   constructor(props) {
     super(props);
     const { value, date } = props;
+    const { IS_TEST } = useEnvironment();
 
     const today = !IS_TEST ? new Date() : new Date(1980, 3, 10);
     today.setHours(0, 0, 0, 0);
@@ -81,7 +77,6 @@ export class Calendar extends PureComponent {
     const {
       _onChange,
       props: {
-        busy,
         locale: { DAY_NAMES, MONTHS },
         onSelect,
         ...props
@@ -98,17 +93,16 @@ export class Calendar extends PureComponent {
           onPrevious={onPrevious ? () => _onChange(previousMonth(date)) : undefined}
           title={`${MONTHS[date.getMonth()]} ${date.getFullYear()}`}
         />
-        <View style={[styles.days, busy && styles.busy]}>
+        <View style={[styles.days]}>
           <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
           {VISIBLE_WEEKS.map((weekIndex) => (
             <Week
               key={week + weekIndex}
               {...props}
               {...state}
-              busy={busy}
               month={date.getMonth()}
               firstDate={firstDateOfWeek(week + weekIndex, date.getFullYear())}
-              onSelect={!busy ? onSelect : undefined}
+              onSelect={onSelect}
             />
           ))}
         </View>
@@ -119,14 +113,13 @@ export class Calendar extends PureComponent {
   render() {
     const {
       Instance,
-      props: { busy, disabledPast, expanded, ...others },
+      props: { disabledPast, expanded, ...others },
       state: { month, year, today },
     } = this;
     const disabledPrevious = disabledPast && today.getFullYear() === year && today.getMonth() === month;
 
     return (
       <View style={[styles.container, others.style]}>
-        {busy && <Activity size="large" style={styles.activity} />}
         <Row>
           <Instance onNext={!expanded} onPrevious={!disabledPrevious} />
           {expanded && <Instance next onNext />}
