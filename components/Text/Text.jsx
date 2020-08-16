@@ -15,7 +15,7 @@ const determineStyle = ({ caption, input, headline, subtitle }) => {
   return styles.body;
 };
 
-export const Text = ({ bold, caption, color, headline, input, subtitle, ...others }) => {
+export const Text = ({ bold, caption, color, headline, input, subtitle, underlined, ...others }) => {
   const { FONT: { FAMILY } = {} } = useTheme();
 
   return (
@@ -26,6 +26,7 @@ export const Text = ({ bold, caption, color, headline, input, subtitle, ...other
         determineStyle({ caption, input, headline, subtitle }),
         FAMILY && { fontFamily: FAMILY },
         bold && styles.bold,
+        underlined && styles.underlined,
         color && { color },
         ...useStyler(others),
       ]}
@@ -40,4 +41,5 @@ Text.propTypes = {
   headline: bool,
   input: bool,
   subtitle: bool,
+  underlined: bool,
 };
