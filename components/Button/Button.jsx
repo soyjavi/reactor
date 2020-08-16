@@ -15,7 +15,6 @@ let timeout;
 
 export const Button = ({
   borderRadius = BORDER_RADIUS,
-  busy,
   children,
   color = COLOR.CTA,
   colorText = COLOR.WHITE,
@@ -55,7 +54,7 @@ export const Button = ({
 
   return (
     <Touchable
-      onPress={!disabled && !busy ? onPress : undefined}
+      onPress={!disabled ? onPress : undefined}
       {...(delay ? handlePress : undefined)}
       containerBorderRadius={borderRadius}
       ref={ref}
@@ -70,14 +69,15 @@ export const Button = ({
       ]}
     >
       <>
-        <Motion
-          // config={{ useNativeDriver: false }}
-          disabled={!busy && !delay}
-          duration={busy || delay}
-          style={[styles.motion, { backgroundColor: colorContent }]}
-          timeline={[{ property: 'width', value: busy || delayEvent ? buttonWidth : 0 }]}
-          type="timing"
-        />
+        {!disabled && (
+          <Motion
+            // config={{ useNativeDriver: false }}
+            duration={delay}
+            style={[styles.motion, { backgroundColor: colorContent }]}
+            timeline={[{ property: 'width', value: delayEvent ? buttonWidth : 0 }]}
+            type="timing"
+          />
+        )}
 
         <Row justify="center" width="auto">
           {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
@@ -95,7 +95,6 @@ export const Button = ({
 
 Button.propTypes = {
   borderRadius: PropTypes.number,
-  busy: PropTypes.number,
   children: PropTypes.node,
   color: PropTypes.string,
   colorText: PropTypes.string,
