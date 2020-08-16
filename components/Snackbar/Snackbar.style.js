@@ -10,6 +10,8 @@ export default StyleSheet.create({
   },
 
   caption: {
+    display: 'flex',
+    flexDirection: 'row',
     flex: 1,
   },
 
@@ -22,6 +24,6 @@ export default StyleSheet.create({
   },
 
   icon: {
-    marginRight: SPACE.M,
+    marginRight: SPACE.S,
   },
 });
