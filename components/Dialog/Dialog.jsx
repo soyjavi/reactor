@@ -6,7 +6,6 @@ import { LAYOUT, THEME } from '../../common';
 import { useEnvironment, useStyler } from '../../hooks';
 import { Button } from '../Button';
 import { Motion } from '../Motion';
-import { Touchable } from '../Touchable';
 import styles from './Dialog.style';
 
 const { COLOR, MOTION, SPACE } = THEME;
@@ -59,10 +58,7 @@ export const Dialog = ({ children, onClose, position = 'center', visible = false
             <View {...panResponder.panHandlers} style={[styles.content, ...useStyler(others)]}>
               {onClose ? (
                 VIEWPORT.S ? (
-                  <Touchable
-                    onPress={onClose}
-                    style={[styles.buttonSwipe, { backgroundColor: COLOR.TEXT }, others.styleButton]}
-                  />
+                  <View style={[styles.buttonSwipe, { backgroundColor: COLOR.TEXT }, others.styleButton]} />
                 ) : (
                   <Button
                     color={COLOR.TRANSPARENT}

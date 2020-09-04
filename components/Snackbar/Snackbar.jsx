@@ -35,7 +35,7 @@ export const Snackbar = ({
         <View style={[styles.content, { backgroundColor: color }, ...useStyler(others)]}>
           <Row alignItems="center" pointerEvents="auto">
             {icon && (
-              <Icon color={COLOR.WHITE} family={others.family} size={iconSize} value={icon} style={styles.icon} />
+              <Icon color={COLOR.WHITE} family={others.iconFamily} size={iconSize} value={icon} style={styles.icon} />
             )}
             <View style={styles.caption}>
               <Text color={COLOR.WHITE}>{caption}</Text>
