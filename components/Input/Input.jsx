@@ -28,7 +28,7 @@ const Input = ({
   if (currency) keyboard = 'numeric';
 
   return (
-    <Row _alignItems="center" style={styles.container} _paddingRight="XS">
+    <Row style={styles.container}>
       {(icon || currency) && (
         <Row alignItems="center" justifyContent="center" paddingHorizontal="XS" width="auto">
           {icon && <Icon color={COLOR.LIGHTEN} value={icon} family={others.iconFamily} size={others.iconSize} />}

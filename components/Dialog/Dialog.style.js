@@ -4,7 +4,7 @@ import { THEME } from '../../common';
 import { useEnvironment } from '../../hooks';
 
 const { IS_WEB } = useEnvironment();
-const { COLOR, DIALOG, DIALOG_OVERLAY, SPACE } = THEME;
+const { COLOR, DIALOG, DIALOG_OVERLAY, OPACITY, SPACE } = THEME;
 
 export default StyleSheet.create({
   button: {
@@ -21,8 +21,9 @@ export default StyleSheet.create({
     alignSelf: 'center',
 
     borderRadius: SPACE.XS,
-    height: SPACE.S,
+    height: SPACE.XS,
     width: SPACE.XL,
+    opacity: OPACITY.S,
   },
 
   container: {
@@ -32,7 +33,7 @@ export default StyleSheet.create({
     position: IS_WEB ? 'fixed' : 'absolute',
     top: 0,
     width: '100%',
-    zIndex: 2,
+    zIndex: 3,
   },
 
   content: DIALOG,

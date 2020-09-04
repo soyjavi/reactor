@@ -23,7 +23,7 @@ export const Button = ({
   icon,
   onPress,
   outlined,
-  title,
+  text,
   size = 'M',
   wide,
   ...others
@@ -71,7 +71,6 @@ export const Button = ({
       <>
         {!disabled && (
           <Motion
-            // config={{ useNativeDriver: false }}
             duration={delay}
             style={[styles.motion, { backgroundColor: colorContent }]}
             timeline={[{ property: 'width', value: delayEvent ? buttonWidth : 0 }]}
@@ -81,9 +80,9 @@ export const Button = ({
 
         <Row justify="center" width="auto">
           {icon && <Icon color={colorContent} family={others.iconFamily} size={others.iconSize} value={icon} />}
-          {title && (
+          {text && (
             <Text color={colorContent} style={[styles.text, size === 'S' && styles.textS]}>
-              {title}
+              {text}
             </Text>
           )}
           {children}
@@ -104,6 +103,6 @@ Button.propTypes = {
   onPress: PropTypes.func,
   outlined: PropTypes.bool,
   size: PropTypes.oneOf(['S', 'M', 'L']),
-  title: PropTypes.string,
+  text: PropTypes.string,
   wide: PropTypes.bool,
 };

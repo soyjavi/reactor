@@ -24,6 +24,7 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignSelf: 'flex-start',
     width: 'auto',
+    overflow: 'hidden',
   },
 
   motion: {
@@ -47,7 +48,7 @@ export default StyleSheet.create({
     paddingHorizontal: SPACE.S,
   },
 
-  textS: FONT.CAPTION,
+  textS: FONT.BUTTON_SMALL,
 
   wide: {
     // width: '100%',

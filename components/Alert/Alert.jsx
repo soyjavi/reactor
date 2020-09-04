@@ -16,8 +16,8 @@ export const Alert = ({ accept, cancel, caption, children, color, delay, onAccep
     {caption && <Text>{caption}</Text>}
     {children}
     <Row marginTop="M">
-      {onCancel && <Button color={color} outlined onPress={onCancel} style={styles.buttonCancel} title={cancel} />}
-      <Button color={color} delay={delay} onPress={onAccept} style={styles.buttonAccept} title={accept} />
+      {onCancel && <Button color={color} outlined onPress={onCancel} style={styles.buttonCancel} text={cancel} />}
+      <Button color={color} delay={delay} onPress={onAccept} style={styles.buttonAccept} text={accept} />
     </Row>
   </Dialog>
 );

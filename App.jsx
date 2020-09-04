@@ -42,22 +42,22 @@ const App = () => {
           <Text bold subtitle marginTop="M">
             Stories
           </Text>
-          <Button {...buttonProps} title="Button" onPress={() => setStory('button')} />
-          <Button {...buttonProps} disabled title="Calendar" onPress={() => setStory('calendar')} />
-          <Button {...buttonProps} disabled title="ChartBar" onPress={() => setStory('chartbar')} />
-          <Button {...buttonProps} title="Dialog" onPress={() => setStory('dialog')} />
-          <Button {...buttonProps} title="Form" onPress={() => setStory('form')} />
-          <Button {...buttonProps} disabled title="Icon" onPress={() => setStory('icon')} />
-          <Button {...buttonProps} disabled title="Image" onPress={() => setStory('image')} />
-          <Button {...buttonProps} title="Layout" onPress={() => setStory('layout')} />
-          <Button {...buttonProps} disabled title="Link" onPress={() => setStory('link')} />
-          <Button {...buttonProps} disabled title="Motion" onPress={() => setStory('motion')} />
-          <Button {...buttonProps} disabled title="Price" onPress={() => setStory('price')} />
-          <Button {...buttonProps} disabled title="ProgressBar" onPress={() => setStory('progressbar')} />
-          <Button {...buttonProps} disabled title="Skeleton" onPress={() => setStory('skeleton')} />
-          <Button {...buttonProps} title="Slider" onPress={() => setStory('slider')} />
-          <Button {...buttonProps} disabled title="Touchable" onPress={() => setStory('touchable')} />
-          <Button {...buttonProps} title="Text" onPress={() => setStory('text')} />
+          <Button {...buttonProps} text="Button" onPress={() => setStory('button')} />
+          <Button {...buttonProps} disabled text="Calendar" onPress={() => setStory('calendar')} />
+          <Button {...buttonProps} disabled text="ChartBar" onPress={() => setStory('chartbar')} />
+          <Button {...buttonProps} text="Dialog" onPress={() => setStory('dialog')} />
+          <Button {...buttonProps} text="Form" onPress={() => setStory('form')} />
+          <Button {...buttonProps} disabled text="Icon" onPress={() => setStory('icon')} />
+          <Button {...buttonProps} disabled text="Image" onPress={() => setStory('image')} />
+          <Button {...buttonProps} text="Layout" onPress={() => setStory('layout')} />
+          <Button {...buttonProps} disabled text="Link" onPress={() => setStory('link')} />
+          <Button {...buttonProps} disabled text="Motion" onPress={() => setStory('motion')} />
+          <Button {...buttonProps} disabled text="Price" onPress={() => setStory('price')} />
+          <Button {...buttonProps} disabled text="ProgressBar" onPress={() => setStory('progressbar')} />
+          <Button {...buttonProps} disabled text="Skeleton" onPress={() => setStory('skeleton')} />
+          <Button {...buttonProps} text="Slider" onPress={() => setStory('slider')} />
+          <Button {...buttonProps} disabled text="Touchable" onPress={() => setStory('touchable')} />
+          <Button {...buttonProps} text="Text" onPress={() => setStory('text')} />
         </Content>
       </Viewport>
 
