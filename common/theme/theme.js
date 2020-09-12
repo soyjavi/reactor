@@ -51,18 +51,15 @@ export default {
     },
     DEFAULT: {
       fontFamily: FAMILY,
-      textAlignVertical: 'center',
     },
     HEADLINE: {
       fontSize: SPACE.XL,
-      fontWeight: '700',
     },
     SUBTITLE: {
       fontSize: SPACE.L,
     },
     BODY: {
       fontSize: SPACE.M,
-      lineHeight: SPACE.L,
     },
     CAPTION: {
       fontSize: UNIT + UNIT / 2,

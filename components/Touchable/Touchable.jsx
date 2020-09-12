@@ -33,7 +33,7 @@ export class Touchable extends PureComponent {
     onPress: undefined,
     onPressIn: undefined,
     onPressOut: undefined,
-    rippleColor: COLOR.BACKGROUND,
+    rippleColor: COLOR.CTA,
   };
 
   constructor(props) {
@@ -140,7 +140,12 @@ export class Touchable extends PureComponent {
               <Ripple key={index.toString()} color={rippleColor} {...props} />
             ))}
             <Animated.View
-              style={[styles.mask, { opacity: mask, height, width }, rippleColor && { backgroundColor: rippleColor }]}
+              style={{
+                backgroundColor: rippleColor,
+                height,
+                opacity: mask,
+                width,
+              }}
             />
           </View>
         </View>

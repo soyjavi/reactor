@@ -16,10 +16,6 @@ export default StyleSheet.create({
     backgroundColor: 'transparent',
     borderRadius: BORDER_RADIUS,
     overflow: 'hidden',
-  },
-
-  mask: {
-    backgroundColor: COLOR.WHITE,
-    zIndex: 0,
+    zIndex: 1,
   },
 });

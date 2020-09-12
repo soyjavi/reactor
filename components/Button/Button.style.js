@@ -22,7 +22,6 @@ export default StyleSheet.create({
     alignItems: 'center',
     alignContent: 'center',
     justifyContent: 'center',
-    alignSelf: 'flex-start',
     width: 'auto',
     overflow: 'hidden',
   },

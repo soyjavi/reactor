@@ -38,7 +38,9 @@ export const Snackbar = ({
               <Icon color={COLOR.WHITE} family={others.iconFamily} size={iconSize} value={icon} style={styles.icon} />
             )}
             <View style={styles.caption}>
-              <Text color={COLOR.WHITE}>{caption}</Text>
+              <Text caption color={COLOR.WHITE}>
+                {caption}
+              </Text>
               {children}
             </View>
             {onClose && (

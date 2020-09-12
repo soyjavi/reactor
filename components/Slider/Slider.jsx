@@ -1,9 +1,10 @@
 import { arrayOf, bool, func, node, number, shape } from 'prop-types';
 import React, { PureComponent, createRef } from 'react';
-import { Platform, ScrollView, View } from 'react-native';
+import { Platform, ScrollView } from 'react-native';
 
 import { THEME } from '../../common';
 import { Button } from '../Button';
+import { View } from '../View';
 import styles from './Slider.style';
 
 const { SPACE } = THEME;
@@ -95,7 +96,7 @@ export class Slider extends PureComponent {
       : undefined;
 
     return (
-      <View style={styles.container}>
+      <View {...others} style={styles.container}>
         {navigation && (
           <View style={[styles.navigation, styles.previous]}>
             <Button icon="arrow-left" onPress={_onPressButton} small />
