@@ -77,7 +77,7 @@ export const Viewport = ({
       }
       type={swiping ? 'spring' : undefined}
     >
-      <SafeAreaView {...(onClose ? panResponder.panHandlers : undefined)} style={styles.safeArea}>
+      <SafeAreaView {...(onClose && visible ? panResponder.panHandlers : undefined)} style={styles.safeArea}>
         {createElement(
           scroll ? ScrollView : View,
           {
