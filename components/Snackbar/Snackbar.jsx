@@ -44,7 +44,15 @@ export const Snackbar = ({
               {children}
             </View>
             {onClose && (
-              <Button color={color} icon="close" iconSize={SPACE.M} onPress={onClose} size="S" style={styles.button} />
+              <Button
+                color={color}
+                color={COLOR.CTA}
+                icon="close"
+                iconSize={SPACE.M}
+                onPress={onClose}
+                size="S"
+                style={styles.button}
+              />
             )}
           </Row>
         </View>

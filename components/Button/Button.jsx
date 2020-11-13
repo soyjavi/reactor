@@ -17,7 +17,7 @@ export const Button = ({
   borderRadius = BORDER_RADIUS,
   children,
   color = COLOR.CTA,
-  colorText = COLOR.WHITE,
+  colorText = COLOR.BACKGROUND,
   delay,
   disabled,
   icon,
