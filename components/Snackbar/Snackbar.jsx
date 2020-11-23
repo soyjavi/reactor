@@ -46,7 +46,7 @@ export const Snackbar = ({
             {onClose && (
               <Button
                 color={color}
-                color={COLOR.CTA}
+                colorText={COLOR.CTA}
                 icon="close"
                 iconSize={SPACE.M}
                 onPress={onClose}

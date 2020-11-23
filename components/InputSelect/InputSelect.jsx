@@ -93,7 +93,7 @@ export class InputSelect extends PureComponent {
         {!disabled && <Icon value="menu-down" style={styles.button} />}
         {schema ? (
           <>
-            <Touchable onPress={event} rippleColor={COLOR.BRAND}>
+            <Touchable onPress={event}>
               <ItemTemplate {...dataSource[value]} disabled={disabled} active style={styles.template} />
             </Touchable>
             <ScrollView
@@ -106,7 +106,7 @@ export class InputSelect extends PureComponent {
               ]}
             >
               {dataSource.map((item, index) => (
-                <Touchable key={item.title} onPress={() => _onItem(index)} rippleColor={COLOR.BRAND}>
+                <Touchable key={item.title} onPress={() => _onItem(index)}>
                   <ItemTemplate {...item} selected={index === value} style={styles.template} />
                 </Touchable>
               ))}
