@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { forwardRef, useState } from 'react';
+import React, { forwardRef } from 'react';
 import { Platform, ScrollView } from 'react-native';
 
 import { THEME } from '../../common';
@@ -29,10 +29,7 @@ export const Slider = forwardRef(
     },
     ref,
   ) => {
-    const [x, setX] = useState();
-
     const handleScroll = ({ nativeEvent: { contentOffset } }) => {
-      if (x !== contentOffset.x) setX(contentOffset.x);
       if (onChange) onChange(contentOffset);
     };
 
