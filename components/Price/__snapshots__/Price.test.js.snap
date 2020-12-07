@@ -7,12 +7,11 @@ exports[`<Price> hook:styler 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -35,12 +34,11 @@ exports[`<Price> inject <Text> properties 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 32,
-        "fontWeight": "700",
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -59,12 +57,11 @@ exports[`<Price> renders 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -83,12 +80,11 @@ exports[`<Price> when {currency} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -107,12 +103,11 @@ exports[`<Price> when {fixed} (0) 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -131,12 +126,11 @@ exports[`<Price> when {fixed} (4) 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -155,12 +149,11 @@ exports[`<Price> when {locale} (es-ES) 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -179,12 +172,11 @@ exports[`<Price> when {operator} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -203,12 +195,11 @@ exports[`<Price> when {style} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -231,12 +222,11 @@ exports[`<Price> when {symbol} (left) 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -255,12 +245,11 @@ exports[`<Price> when {symbol} (right) 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -279,12 +268,11 @@ exports[`<Price> when {value} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,

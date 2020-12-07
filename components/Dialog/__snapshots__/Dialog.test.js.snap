@@ -12,7 +12,7 @@ exports[`<Dialog> hook:styler 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -103,7 +103,7 @@ exports[`<Dialog> renders 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -183,7 +183,7 @@ exports[`<Dialog> when {children} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -252,12 +252,11 @@ exports[`<Dialog> when {children} 1`] = `
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
-                  "textAlignVertical": "center",
                 },
                 Object {
                   "fontSize": 16,
-                  "lineHeight": 24,
                 },
+                undefined,
                 undefined,
                 undefined,
                 undefined,
@@ -286,7 +285,7 @@ exports[`<Dialog> when {highlight} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -374,7 +373,7 @@ exports[`<Dialog> when {onClose} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -456,8 +455,8 @@ exports[`<Dialog> when {onClose} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "alignSelf": "flex-start",
                     "justifyContent": "center",
+                    "overflow": "hidden",
                     "width": "auto",
                   },
                   undefined,
@@ -481,8 +480,8 @@ exports[`<Dialog> when {onClose} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "alignSelf": "flex-start",
                     "justifyContent": "center",
+                    "overflow": "hidden",
                     "width": "auto",
                   },
                   undefined,
@@ -505,6 +504,17 @@ exports[`<Dialog> when {onClose} 1`] = `
               ]
             }
           >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#191919",
+                  "height": "100%",
+                  "left": 0,
+                  "opacity": 0.3,
+                  "position": "absolute",
+                }
+              }
+            />
             <View
               style={
                 Array [
@@ -541,6 +551,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                     "position": "absolute",
                     "right": 0,
                     "top": 0,
+                    "zIndex": 1,
                   },
                   0,
                 ]
@@ -553,7 +564,6 @@ exports[`<Dialog> when {onClose} 1`] = `
                     "height": 0,
                     "opacity": 0,
                     "width": 0,
-                    "zIndex": 0,
                   }
                 }
               />
@@ -578,7 +588,7 @@ exports[`<Dialog> when {position} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -668,7 +678,7 @@ exports[`<Dialog> when {style} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -754,7 +764,7 @@ exports[`<Dialog> when {visible} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >

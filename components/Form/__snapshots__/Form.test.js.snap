@@ -80,7 +80,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -89,6 +88,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -119,8 +119,6 @@ exports[`<Form> when {attributes} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -163,7 +161,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -204,7 +201,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -213,6 +209,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -241,8 +238,6 @@ exports[`<Form> when {attributes} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -287,7 +282,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -330,7 +324,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -339,6 +332,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -367,8 +361,6 @@ exports[`<Form> when {attributes} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -414,7 +406,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -440,11 +431,11 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -481,7 +472,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -490,6 +480,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -518,8 +509,6 @@ exports[`<Form> when {attributes} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -565,7 +554,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -590,11 +578,11 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -631,7 +619,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -640,6 +627,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -670,8 +658,6 @@ exports[`<Form> when {attributes} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -715,7 +701,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -756,7 +741,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -765,6 +749,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -793,8 +778,6 @@ exports[`<Form> when {attributes} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -839,7 +822,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -882,7 +864,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -891,6 +872,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -919,8 +901,6 @@ exports[`<Form> when {attributes} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -980,14 +960,13 @@ exports[`<Form> when {attributes} 1`] = `
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
-                  "textAlignVertical": "center",
                 },
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
                   "fontSize": 16,
-                  "textAlignVertical": "center",
                 },
+                undefined,
                 undefined,
                 undefined,
                 Object {
@@ -1026,7 +1005,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -1071,7 +1049,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -1080,6 +1057,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -1224,7 +1202,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -1233,6 +1210,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -1325,12 +1303,11 @@ exports[`<Form> when {attributes} 1`] = `
                     Object {
                       "color": "#191919",
                       "fontFamily": undefined,
-                      "textAlignVertical": "center",
                     },
                     Object {
                       "fontSize": 16,
-                      "lineHeight": 24,
                     },
+                    undefined,
                     undefined,
                     undefined,
                     undefined,
@@ -1348,11 +1325,11 @@ exports[`<Form> when {attributes} 1`] = `
                     Object {
                       "color": "#191919",
                       "fontFamily": undefined,
-                      "textAlignVertical": "center",
                     },
                     Object {
                       "fontSize": 12,
                     },
+                    undefined,
                     undefined,
                     undefined,
                     undefined,
@@ -1376,6 +1353,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "position": "absolute",
                   "right": 0,
                   "top": 0,
+                  "zIndex": 1,
                 },
                 undefined,
               ]
@@ -1384,11 +1362,10 @@ exports[`<Form> when {attributes} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#191919",
+                  "backgroundColor": "#62e6ac",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
-                  "zIndex": 0,
                 }
               }
             />
@@ -1477,12 +1454,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -1500,11 +1476,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -1528,6 +1504,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -1536,11 +1513,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -1603,12 +1579,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -1626,11 +1601,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -1654,6 +1629,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -1662,11 +1638,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -1729,12 +1704,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -1752,11 +1726,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -1780,6 +1754,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -1788,11 +1763,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -1855,12 +1829,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -1878,11 +1851,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -1906,6 +1879,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -1914,11 +1888,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -1981,12 +1954,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2004,11 +1976,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2032,6 +2004,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -2040,11 +2013,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -2107,12 +2079,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2130,11 +2101,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2158,6 +2129,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -2166,11 +2138,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -2233,12 +2204,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2256,11 +2226,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2284,6 +2254,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -2292,11 +2263,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -2359,12 +2329,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2382,11 +2351,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2410,6 +2379,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -2418,11 +2388,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -2485,12 +2454,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2508,11 +2476,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2536,6 +2504,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -2544,11 +2513,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -2611,12 +2579,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2634,11 +2601,11 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -2662,6 +2629,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -2670,11 +2638,10 @@ exports[`<Form> when {attributes} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -2709,7 +2676,6 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -2718,6 +2684,7 @@ exports[`<Form> when {attributes} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -2746,8 +2713,6 @@ exports[`<Form> when {attributes} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -2825,7 +2790,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -2912,7 +2876,6 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "color": "#191919",
               "fontFamily": undefined,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -2921,6 +2884,7 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "fontWeight": "700",
             },
+            undefined,
             undefined,
             undefined,
           ]
@@ -2998,7 +2962,6 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "color": "#191919",
               "fontFamily": undefined,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -3007,6 +2970,7 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "fontWeight": "700",
             },
+            undefined,
             undefined,
             undefined,
           ]
@@ -3081,7 +3045,6 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -3090,6 +3053,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -3110,6 +3074,7 @@ exports[`<Form> when {attributes} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -3118,11 +3083,10 @@ exports[`<Form> when {attributes} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -3194,7 +3158,6 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -3203,6 +3166,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -3223,6 +3187,7 @@ exports[`<Form> when {attributes} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -3231,11 +3196,10 @@ exports[`<Form> when {attributes} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -3307,7 +3271,6 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -3316,6 +3279,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -3336,6 +3300,7 @@ exports[`<Form> when {attributes} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -3344,11 +3309,10 @@ exports[`<Form> when {attributes} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -3420,7 +3384,6 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -3429,6 +3392,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -3449,6 +3413,7 @@ exports[`<Form> when {attributes} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -3457,11 +3422,10 @@ exports[`<Form> when {attributes} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -3533,7 +3497,6 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -3542,6 +3505,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -3562,6 +3526,7 @@ exports[`<Form> when {attributes} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -3570,11 +3535,10 @@ exports[`<Form> when {attributes} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -3625,7 +3589,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -3634,6 +3597,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -3664,8 +3628,6 @@ exports[`<Form> when {color} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -3708,7 +3670,6 @@ exports[`<Form> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -3749,7 +3710,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -3758,6 +3718,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -3786,8 +3747,6 @@ exports[`<Form> when {color} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -3832,7 +3791,6 @@ exports[`<Form> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -3875,7 +3833,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -3884,6 +3841,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -3912,8 +3870,6 @@ exports[`<Form> when {color} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -3959,7 +3915,6 @@ exports[`<Form> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -3985,11 +3940,11 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -4026,7 +3981,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -4035,6 +3989,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -4063,8 +4018,6 @@ exports[`<Form> when {color} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -4110,7 +4063,6 @@ exports[`<Form> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -4135,11 +4087,11 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -4176,7 +4128,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -4185,6 +4136,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -4215,8 +4167,6 @@ exports[`<Form> when {color} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -4260,7 +4210,6 @@ exports[`<Form> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -4301,7 +4250,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -4310,6 +4258,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -4338,8 +4287,6 @@ exports[`<Form> when {color} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -4384,7 +4331,6 @@ exports[`<Form> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -4427,7 +4373,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -4436,6 +4381,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -4464,8 +4410,6 @@ exports[`<Form> when {color} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -4525,14 +4469,13 @@ exports[`<Form> when {color} 1`] = `
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
-                  "textAlignVertical": "center",
                 },
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
                   "fontSize": 16,
-                  "textAlignVertical": "center",
                 },
+                undefined,
                 undefined,
                 undefined,
                 Object {
@@ -4571,7 +4514,6 @@ exports[`<Form> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -4616,7 +4558,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -4625,6 +4566,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -4769,7 +4711,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -4778,6 +4719,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -4870,12 +4812,11 @@ exports[`<Form> when {color} 1`] = `
                     Object {
                       "color": "#191919",
                       "fontFamily": undefined,
-                      "textAlignVertical": "center",
                     },
                     Object {
                       "fontSize": 16,
-                      "lineHeight": 24,
                     },
+                    undefined,
                     undefined,
                     undefined,
                     undefined,
@@ -4893,11 +4834,11 @@ exports[`<Form> when {color} 1`] = `
                     Object {
                       "color": "#191919",
                       "fontFamily": undefined,
-                      "textAlignVertical": "center",
                     },
                     Object {
                       "fontSize": 12,
                     },
+                    undefined,
                     undefined,
                     undefined,
                     undefined,
@@ -4921,6 +4862,7 @@ exports[`<Form> when {color} 1`] = `
                   "position": "absolute",
                   "right": 0,
                   "top": 0,
+                  "zIndex": 1,
                 },
                 undefined,
               ]
@@ -4929,11 +4871,10 @@ exports[`<Form> when {color} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#191919",
+                  "backgroundColor": "#62e6ac",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
-                  "zIndex": 0,
                 }
               }
             />
@@ -5022,12 +4963,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5045,11 +4985,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5073,6 +5013,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -5081,11 +5022,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -5148,12 +5088,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5171,11 +5110,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5199,6 +5138,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -5207,11 +5147,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -5274,12 +5213,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5297,11 +5235,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5325,6 +5263,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -5333,11 +5272,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -5400,12 +5338,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5423,11 +5360,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5451,6 +5388,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -5459,11 +5397,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -5526,12 +5463,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5549,11 +5485,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5577,6 +5513,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -5585,11 +5522,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -5652,12 +5588,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5675,11 +5610,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5703,6 +5638,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -5711,11 +5647,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -5778,12 +5713,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5801,11 +5735,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5829,6 +5763,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -5837,11 +5772,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -5904,12 +5838,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5927,11 +5860,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -5955,6 +5888,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -5963,11 +5897,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -6030,12 +5963,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -6053,11 +5985,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -6081,6 +6013,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -6089,11 +6022,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -6156,12 +6088,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -6179,11 +6110,11 @@ exports[`<Form> when {color} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -6207,6 +6138,7 @@ exports[`<Form> when {color} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -6215,11 +6147,10 @@ exports[`<Form> when {color} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -6254,7 +6185,6 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -6263,6 +6193,7 @@ exports[`<Form> when {color} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -6291,8 +6222,6 @@ exports[`<Form> when {color} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -6370,7 +6299,6 @@ exports[`<Form> when {color} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -6457,7 +6385,6 @@ exports[`<Form> when {color} 1`] = `
             Object {
               "color": "#191919",
               "fontFamily": undefined,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -6466,6 +6393,7 @@ exports[`<Form> when {color} 1`] = `
             Object {
               "fontWeight": "700",
             },
+            undefined,
             undefined,
             undefined,
           ]
@@ -6543,7 +6471,6 @@ exports[`<Form> when {color} 1`] = `
             Object {
               "color": "#191919",
               "fontFamily": undefined,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -6552,6 +6479,7 @@ exports[`<Form> when {color} 1`] = `
             Object {
               "fontWeight": "700",
             },
+            undefined,
             undefined,
             undefined,
           ]
@@ -6626,7 +6554,6 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -6635,6 +6562,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -6655,6 +6583,7 @@ exports[`<Form> when {color} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -6663,11 +6592,10 @@ exports[`<Form> when {color} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -6739,7 +6667,6 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -6748,6 +6675,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -6768,6 +6696,7 @@ exports[`<Form> when {color} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -6776,11 +6705,10 @@ exports[`<Form> when {color} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -6852,7 +6780,6 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -6861,6 +6788,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -6881,6 +6809,7 @@ exports[`<Form> when {color} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -6889,11 +6818,10 @@ exports[`<Form> when {color} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -6965,7 +6893,6 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -6974,6 +6901,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -6994,6 +6922,7 @@ exports[`<Form> when {color} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -7002,11 +6931,10 @@ exports[`<Form> when {color} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -7078,7 +7006,6 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -7087,6 +7014,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -7107,6 +7035,7 @@ exports[`<Form> when {color} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -7115,11 +7044,10 @@ exports[`<Form> when {color} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -7245,7 +7173,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -7254,6 +7181,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -7284,8 +7212,6 @@ exports[`<Form> when {validate} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -7328,7 +7254,6 @@ exports[`<Form> when {validate} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -7369,7 +7294,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -7378,6 +7302,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -7406,8 +7331,6 @@ exports[`<Form> when {validate} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -7452,7 +7375,6 @@ exports[`<Form> when {validate} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -7496,7 +7418,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -7505,6 +7426,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -7533,8 +7455,6 @@ exports[`<Form> when {validate} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -7580,7 +7500,6 @@ exports[`<Form> when {validate} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -7606,11 +7525,11 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -7647,7 +7566,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -7656,6 +7574,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -7684,8 +7603,6 @@ exports[`<Form> when {validate} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -7731,7 +7648,6 @@ exports[`<Form> when {validate} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -7756,11 +7672,11 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -7797,7 +7713,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -7806,6 +7721,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -7836,8 +7752,6 @@ exports[`<Form> when {validate} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -7881,7 +7795,6 @@ exports[`<Form> when {validate} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -7922,7 +7835,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -7931,6 +7843,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -7959,8 +7872,6 @@ exports[`<Form> when {validate} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -8005,7 +7916,6 @@ exports[`<Form> when {validate} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -8048,7 +7958,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -8057,6 +7966,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -8085,8 +7995,6 @@ exports[`<Form> when {validate} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -8146,14 +8054,13 @@ exports[`<Form> when {validate} 1`] = `
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
-                  "textAlignVertical": "center",
                 },
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
                   "fontSize": 16,
-                  "textAlignVertical": "center",
                 },
+                undefined,
                 undefined,
                 undefined,
                 Object {
@@ -8192,7 +8099,6 @@ exports[`<Form> when {validate} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -8237,7 +8143,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -8246,6 +8151,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -8390,7 +8296,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -8399,6 +8304,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -8491,12 +8397,11 @@ exports[`<Form> when {validate} 1`] = `
                     Object {
                       "color": "#191919",
                       "fontFamily": undefined,
-                      "textAlignVertical": "center",
                     },
                     Object {
                       "fontSize": 16,
-                      "lineHeight": 24,
                     },
+                    undefined,
                     undefined,
                     undefined,
                     undefined,
@@ -8514,11 +8419,11 @@ exports[`<Form> when {validate} 1`] = `
                     Object {
                       "color": "#191919",
                       "fontFamily": undefined,
-                      "textAlignVertical": "center",
                     },
                     Object {
                       "fontSize": 12,
                     },
+                    undefined,
                     undefined,
                     undefined,
                     undefined,
@@ -8542,6 +8447,7 @@ exports[`<Form> when {validate} 1`] = `
                   "position": "absolute",
                   "right": 0,
                   "top": 0,
+                  "zIndex": 1,
                 },
                 undefined,
               ]
@@ -8550,11 +8456,10 @@ exports[`<Form> when {validate} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#191919",
+                  "backgroundColor": "#62e6ac",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
-                  "zIndex": 0,
                 }
               }
             />
@@ -8643,12 +8548,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -8666,11 +8570,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -8694,6 +8598,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -8702,11 +8607,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -8769,12 +8673,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -8792,11 +8695,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -8820,6 +8723,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -8828,11 +8732,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -8895,12 +8798,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -8918,11 +8820,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -8946,6 +8848,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -8954,11 +8857,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -9021,12 +8923,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9044,11 +8945,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9072,6 +8973,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -9080,11 +8982,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -9147,12 +9048,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9170,11 +9070,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9198,6 +9098,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -9206,11 +9107,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -9273,12 +9173,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9296,11 +9195,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9324,6 +9223,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -9332,11 +9232,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -9399,12 +9298,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9422,11 +9320,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9450,6 +9348,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -9458,11 +9357,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -9525,12 +9423,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9548,11 +9445,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9576,6 +9473,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -9584,11 +9482,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -9651,12 +9548,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9674,11 +9570,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9702,6 +9598,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -9710,11 +9607,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -9777,12 +9673,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9800,11 +9695,11 @@ exports[`<Form> when {validate} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -9828,6 +9723,7 @@ exports[`<Form> when {validate} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -9836,11 +9732,10 @@ exports[`<Form> when {validate} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -9875,7 +9770,6 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -9884,6 +9778,7 @@ exports[`<Form> when {validate} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -9912,8 +9807,6 @@ exports[`<Form> when {validate} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -9991,7 +9884,6 @@ exports[`<Form> when {validate} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -10078,7 +9970,6 @@ exports[`<Form> when {validate} 1`] = `
             Object {
               "color": "#191919",
               "fontFamily": undefined,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -10087,6 +9978,7 @@ exports[`<Form> when {validate} 1`] = `
             Object {
               "fontWeight": "700",
             },
+            undefined,
             undefined,
             undefined,
           ]
@@ -10164,7 +10056,6 @@ exports[`<Form> when {validate} 1`] = `
             Object {
               "color": "#191919",
               "fontFamily": undefined,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -10173,6 +10064,7 @@ exports[`<Form> when {validate} 1`] = `
             Object {
               "fontWeight": "700",
             },
+            undefined,
             undefined,
             undefined,
           ]
@@ -10247,7 +10139,6 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -10256,6 +10147,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -10276,6 +10168,7 @@ exports[`<Form> when {validate} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -10284,11 +10177,10 @@ exports[`<Form> when {validate} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -10360,7 +10252,6 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -10369,6 +10260,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -10389,6 +10281,7 @@ exports[`<Form> when {validate} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -10397,11 +10290,10 @@ exports[`<Form> when {validate} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -10473,7 +10365,6 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -10482,6 +10373,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -10502,6 +10394,7 @@ exports[`<Form> when {validate} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -10510,11 +10403,10 @@ exports[`<Form> when {validate} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -10586,7 +10478,6 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -10595,6 +10486,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -10615,6 +10507,7 @@ exports[`<Form> when {validate} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -10623,11 +10516,10 @@ exports[`<Form> when {validate} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -10699,7 +10591,6 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -10708,6 +10599,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -10728,6 +10620,7 @@ exports[`<Form> when {validate} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -10736,11 +10629,10 @@ exports[`<Form> when {validate} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -10791,7 +10683,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -10800,6 +10691,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -10830,8 +10722,6 @@ exports[`<Form> when {value} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -10874,7 +10764,6 @@ exports[`<Form> when {value} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -10915,7 +10804,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -10924,6 +10812,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -10952,8 +10841,6 @@ exports[`<Form> when {value} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -10998,7 +10885,6 @@ exports[`<Form> when {value} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -11041,7 +10927,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -11050,6 +10935,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -11078,8 +10964,6 @@ exports[`<Form> when {value} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -11125,7 +11009,6 @@ exports[`<Form> when {value} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -11151,11 +11034,11 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -11192,7 +11075,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -11201,6 +11083,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -11229,8 +11112,6 @@ exports[`<Form> when {value} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -11276,7 +11157,6 @@ exports[`<Form> when {value} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -11301,11 +11181,11 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -11342,7 +11222,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -11351,6 +11230,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -11381,8 +11261,6 @@ exports[`<Form> when {value} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -11426,7 +11304,6 @@ exports[`<Form> when {value} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -11467,7 +11344,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -11476,6 +11352,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -11504,8 +11381,6 @@ exports[`<Form> when {value} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -11550,7 +11425,6 @@ exports[`<Form> when {value} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -11593,7 +11467,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -11602,6 +11475,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -11630,8 +11504,6 @@ exports[`<Form> when {value} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -11691,14 +11563,13 @@ exports[`<Form> when {value} 1`] = `
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
-                  "textAlignVertical": "center",
                 },
                 Object {
                   "color": "#191919",
                   "fontFamily": undefined,
                   "fontSize": 16,
-                  "textAlignVertical": "center",
                 },
+                undefined,
                 undefined,
                 undefined,
                 Object {
@@ -11737,7 +11608,6 @@ exports[`<Form> when {value} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -11782,7 +11652,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -11791,6 +11660,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -11935,7 +11805,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -11944,6 +11813,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -12036,12 +11906,11 @@ exports[`<Form> when {value} 1`] = `
                     Object {
                       "color": "#191919",
                       "fontFamily": undefined,
-                      "textAlignVertical": "center",
                     },
                     Object {
                       "fontSize": 16,
-                      "lineHeight": 24,
                     },
+                    undefined,
                     undefined,
                     undefined,
                     undefined,
@@ -12059,11 +11928,11 @@ exports[`<Form> when {value} 1`] = `
                     Object {
                       "color": "#191919",
                       "fontFamily": undefined,
-                      "textAlignVertical": "center",
                     },
                     Object {
                       "fontSize": 12,
                     },
+                    undefined,
                     undefined,
                     undefined,
                     undefined,
@@ -12087,6 +11956,7 @@ exports[`<Form> when {value} 1`] = `
                   "position": "absolute",
                   "right": 0,
                   "top": 0,
+                  "zIndex": 1,
                 },
                 undefined,
               ]
@@ -12095,11 +11965,10 @@ exports[`<Form> when {value} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#191919",
+                  "backgroundColor": "#62e6ac",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
-                  "zIndex": 0,
                 }
               }
             />
@@ -12188,12 +12057,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12211,11 +12079,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12239,6 +12107,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -12247,11 +12116,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -12314,12 +12182,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12337,11 +12204,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12365,6 +12232,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -12373,11 +12241,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -12440,12 +12307,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12463,11 +12329,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12491,6 +12357,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -12499,11 +12366,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -12566,12 +12432,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12589,11 +12454,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12617,6 +12482,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -12625,11 +12491,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -12692,12 +12557,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12715,11 +12579,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12743,6 +12607,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -12751,11 +12616,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -12818,12 +12682,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12841,11 +12704,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12869,6 +12732,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -12877,11 +12741,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -12944,12 +12807,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12967,11 +12829,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -12995,6 +12857,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -13003,11 +12866,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -13070,12 +12932,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -13093,11 +12954,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -13121,6 +12982,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -13129,11 +12991,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -13196,12 +13057,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -13219,11 +13079,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -13247,6 +13107,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -13255,11 +13116,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -13322,12 +13182,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 16,
-                          "lineHeight": 24,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -13345,11 +13204,11 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "color": "#191919",
                           "fontFamily": undefined,
-                          "textAlignVertical": "center",
                         },
                         Object {
                           "fontSize": 12,
                         },
+                        undefined,
                         undefined,
                         undefined,
                         undefined,
@@ -13373,6 +13232,7 @@ exports[`<Form> when {value} 1`] = `
                       "position": "absolute",
                       "right": 0,
                       "top": 0,
+                      "zIndex": 1,
                     },
                     undefined,
                   ]
@@ -13381,11 +13241,10 @@ exports[`<Form> when {value} 1`] = `
                 <View
                   style={
                     Object {
-                      "backgroundColor": "#191919",
+                      "backgroundColor": "#62e6ac",
                       "height": 0,
                       "opacity": 0,
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
@@ -13420,7 +13279,6 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
@@ -13429,6 +13287,7 @@ exports[`<Form> when {value} 1`] = `
           Object {
             "fontWeight": "700",
           },
+          undefined,
           undefined,
           Object {
             "marginBottom": 4,
@@ -13457,8 +13316,6 @@ exports[`<Form> when {value} 1`] = `
       }
     >
       <View
-        _alignItems="center"
-        _paddingRight="XS"
         style={
           Array [
             Object {
@@ -13536,7 +13393,6 @@ exports[`<Form> when {value} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "height": "100%",
-                "textAlignVertical": "center",
                 "width": "100%",
               },
               undefined,
@@ -13623,7 +13479,6 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "color": "#191919",
               "fontFamily": undefined,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -13632,6 +13487,7 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "fontWeight": "700",
             },
+            undefined,
             undefined,
             undefined,
           ]
@@ -13709,7 +13565,6 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "color": "#191919",
               "fontFamily": undefined,
-              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
@@ -13718,6 +13573,7 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "fontWeight": "700",
             },
+            undefined,
             undefined,
             undefined,
           ]
@@ -13792,7 +13648,6 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -13801,6 +13656,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -13821,6 +13677,7 @@ exports[`<Form> when {value} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -13829,11 +13686,10 @@ exports[`<Form> when {value} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -13905,7 +13761,6 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -13914,6 +13769,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -13934,6 +13790,7 @@ exports[`<Form> when {value} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -13942,11 +13799,10 @@ exports[`<Form> when {value} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -14018,7 +13874,6 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -14027,6 +13882,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -14047,6 +13903,7 @@ exports[`<Form> when {value} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -14055,11 +13912,10 @@ exports[`<Form> when {value} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -14131,7 +13987,6 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -14140,6 +13995,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -14160,6 +14016,7 @@ exports[`<Form> when {value} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -14168,11 +14025,10 @@ exports[`<Form> when {value} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />
@@ -14244,7 +14100,6 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#191919",
                 "fontFamily": undefined,
-                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
@@ -14253,6 +14108,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "fontWeight": "700",
               },
+              undefined,
               undefined,
               undefined,
             ]
@@ -14273,6 +14129,7 @@ exports[`<Form> when {value} 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 1,
             },
             undefined,
           ]
@@ -14281,11 +14138,10 @@ exports[`<Form> when {value} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#62e6ac",
               "height": 0,
               "opacity": 0,
               "width": 0,
-              "zIndex": 0,
             }
           }
         />

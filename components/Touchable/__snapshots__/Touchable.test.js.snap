@@ -33,6 +33,7 @@ exports[`<Touchable> renders 1`] = `
           "position": "absolute",
           "right": 0,
           "top": 0,
+          "zIndex": 1,
         },
         undefined,
       ]
@@ -41,11 +42,10 @@ exports[`<Touchable> renders 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#62e6ac",
           "height": 0,
           "opacity": 0,
           "width": 0,
-          "zIndex": 0,
         }
       }
     />
@@ -88,6 +88,7 @@ exports[`<Touchable> when {children} 1`] = `
           "position": "absolute",
           "right": 0,
           "top": 0,
+          "zIndex": 1,
         },
         undefined,
       ]
@@ -96,11 +97,10 @@ exports[`<Touchable> when {children} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#62e6ac",
           "height": 0,
           "opacity": 0,
           "width": 0,
-          "zIndex": 0,
         }
       }
     />
@@ -140,6 +140,7 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
           "position": "absolute",
           "right": 0,
           "top": 0,
+          "zIndex": 1,
         },
         Object {
           "borderRadius": 48,
@@ -150,11 +151,10 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#62e6ac",
           "height": 0,
           "opacity": 0,
           "width": 0,
-          "zIndex": 0,
         }
       }
     />
@@ -194,6 +194,7 @@ exports[`<Touchable> when {rippleColor} 1`] = `
           "position": "absolute",
           "right": 0,
           "top": 0,
+          "zIndex": 1,
         },
         undefined,
       ]
@@ -206,7 +207,6 @@ exports[`<Touchable> when {rippleColor} 1`] = `
           "height": 0,
           "opacity": 0,
           "width": 0,
-          "zIndex": 0,
         }
       }
     />
@@ -250,6 +250,7 @@ exports[`<Touchable> when {style} 1`] = `
           "position": "absolute",
           "right": 0,
           "top": 0,
+          "zIndex": 1,
         },
         undefined,
       ]
@@ -258,11 +259,10 @@ exports[`<Touchable> when {style} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#62e6ac",
           "height": 0,
           "opacity": 0,
           "width": 0,
-          "zIndex": 0,
         }
       }
     />

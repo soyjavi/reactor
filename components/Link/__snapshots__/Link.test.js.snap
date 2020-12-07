@@ -11,12 +11,11 @@ exports[`<Link> hook:styler 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -43,12 +42,11 @@ exports[`<Link> renders 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -72,12 +70,11 @@ exports[`<Link> when {style} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -105,12 +102,11 @@ exports[`<Link> when {styleHover} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,

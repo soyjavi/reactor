@@ -1332,6 +1332,7 @@ exports[`<Alert> when {caption} 1`] = `
                     Object {
                       "marginTop": 8,
                     },
+                    undefined,
                   ]
                 }
               >

@@ -2,8 +2,6 @@
 
 exports[`<Input> renders 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -45,7 +43,6 @@ exports[`<Input> renders 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -66,8 +63,6 @@ exports[`<Input> renders 1`] = `
 
 exports[`<Input> when {color} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -110,7 +105,6 @@ exports[`<Input> when {color} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -133,8 +127,6 @@ exports[`<Input> when {color} 1`] = `
 
 exports[`<Input> when {currency} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -193,14 +185,13 @@ exports[`<Input> when {currency} 1`] = `
           Object {
             "color": "#191919",
             "fontFamily": undefined,
-            "textAlignVertical": "center",
           },
           Object {
             "color": "#191919",
             "fontFamily": undefined,
             "fontSize": 16,
-            "textAlignVertical": "center",
           },
+          undefined,
           undefined,
           undefined,
           Object {
@@ -235,7 +226,6 @@ exports[`<Input> when {currency} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -258,8 +248,6 @@ exports[`<Input> when {currency} 1`] = `
 
 exports[`<Input> when {disabled} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -301,7 +289,6 @@ exports[`<Input> when {disabled} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -322,8 +309,6 @@ exports[`<Input> when {disabled} 1`] = `
 
 exports[`<Input> when {error} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -365,7 +350,6 @@ exports[`<Input> when {error} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -387,8 +371,6 @@ exports[`<Input> when {error} 1`] = `
 
 exports[`<Input> when {hint} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -431,7 +413,6 @@ exports[`<Input> when {hint} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -452,8 +433,6 @@ exports[`<Input> when {hint} 1`] = `
 
 exports[`<Input> when {icon} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -527,7 +506,6 @@ exports[`<Input> when {icon} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -548,8 +526,6 @@ exports[`<Input> when {icon} 1`] = `
 
 exports[`<Input> when {keyboard} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -593,7 +569,6 @@ exports[`<Input> when {keyboard} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -614,8 +589,6 @@ exports[`<Input> when {keyboard} 1`] = `
 
 exports[`<Input> when {label} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -658,7 +631,6 @@ exports[`<Input> when {label} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -679,8 +651,6 @@ exports[`<Input> when {label} 1`] = `
 
 exports[`<Input> when {lines} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -722,7 +692,6 @@ exports[`<Input> when {lines} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -743,8 +712,6 @@ exports[`<Input> when {lines} 1`] = `
 
 exports[`<Input> when {required} & {requiredIcon} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -786,7 +753,6 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -808,8 +774,6 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
 
 exports[`<Input> when {required} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -851,7 +815,6 @@ exports[`<Input> when {required} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -872,8 +835,6 @@ exports[`<Input> when {required} 1`] = `
 
 exports[`<Input> when {style} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -915,7 +876,6 @@ exports[`<Input> when {style} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -936,8 +896,6 @@ exports[`<Input> when {style} 1`] = `
 
 exports[`<Input> when {valid} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -979,7 +937,6 @@ exports[`<Input> when {valid} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,
@@ -1001,8 +958,6 @@ exports[`<Input> when {valid} 1`] = `
 
 exports[`<Input> when {value} 1`] = `
 <View
-  _alignItems="center"
-  _paddingRight="XS"
   style={
     Array [
       Object {
@@ -1044,7 +999,6 @@ exports[`<Input> when {value} 1`] = `
           "fontFamily": undefined,
           "fontSize": 16,
           "height": "100%",
-          "textAlignVertical": "center",
           "width": "100%",
         },
         undefined,

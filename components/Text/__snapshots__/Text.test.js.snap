@@ -7,12 +7,11 @@ exports[`<Text> hook:styler 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -32,12 +31,11 @@ exports[`<Text> renders 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -54,11 +52,11 @@ exports[`<Text> when {caption} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 12,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -77,12 +75,11 @@ exports[`<Text> when {color} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       Object {
@@ -103,12 +100,11 @@ exports[`<Text> when {headline} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 32,
-        "fontWeight": "700",
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -128,12 +124,11 @@ exports[`<Text> when {numberOfLines} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -152,12 +147,11 @@ exports[`<Text> when {style} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -178,11 +172,11 @@ exports[`<Text> when {subtitle} 1`] = `
       Object {
         "color": "#191919",
         "fontFamily": undefined,
-        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 24,
       },
+      undefined,
       undefined,
       undefined,
       undefined,
