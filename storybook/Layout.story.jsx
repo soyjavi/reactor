@@ -28,7 +28,7 @@ export const LayoutStory = (props) => {
         <Text bold>.align</Text>
         <Row marginBottom="M">
           {['start', 'center', 'end'].map((type) => (
-            <Button {...buttonProps} key={type} onPress={() => setAlign(type)} outlined={type !== align} title={type} />
+            <Button {...buttonProps} key={type} onPress={() => setAlign(type)} outlined={type !== align} text={type} />
           ))}
         </Row>
 
@@ -40,7 +40,7 @@ export const LayoutStory = (props) => {
               key={type}
               onPress={() => setJustify(type)}
               outlined={type !== justify}
-              title={type}
+              text={type}
             />
           ))}
         </Row>
@@ -54,7 +54,7 @@ export const LayoutStory = (props) => {
               key={type}
               onPress={() => setColAlign(type)}
               outlined={type !== colAlign}
-              title={type}
+              text={type}
             />
           ))}
         </Row>

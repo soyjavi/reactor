@@ -16,10 +16,14 @@ import {
 
 if (typeof global.self === 'undefined') global.self = global;
 
-const buttonProps = { color: 'black', marginVertical: 'XS', outlined: true, wide: true };
+const buttonProps = {
+  color: 'black',
+  marginVertical: 'XS',
+  outlined: true,
+};
 
 const App = () => {
-  const [story, setStory] = useState('button');
+  const [story, setStory] = useState('dialog');
   const handleBack = () => setStory(undefined);
 
   return (

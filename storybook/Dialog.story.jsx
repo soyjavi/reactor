@@ -10,10 +10,10 @@ const buttonProp = { ...button, size: 'S' };
 
 export const DialogStory = (props) => {
   const [color, setColor] = useState(COLOR.CTA);
-  const [position, setPosition] = useState('center');
+  const [position, setPosition] = useState('top');
   const [highlight, setHighlight] = useState(false);
 
-  const [alert, setAlert] = useState(false);
+  const [alert, setAlert] = useState(true);
   const [dialog, setDialog] = useState(false);
   const [snackbar, setSnackbar] = useState(false);
 
@@ -48,7 +48,7 @@ export const DialogStory = (props) => {
               key={item}
               onPress={() => setHighlight(item)}
               outlined={item !== highlight}
-              title={item.toString()}
+              text={item.toString()}
             />
           ))}
         </Row>
@@ -61,7 +61,7 @@ export const DialogStory = (props) => {
               key={type}
               onPress={() => setPosition(type)}
               outlined={type !== position}
-              title={type}
+              text={type}
             />
           ))}
         </Row>
@@ -75,14 +75,14 @@ export const DialogStory = (props) => {
               key={type}
               onPress={() => setColor(type)}
               outlined={type !== color}
-              title={type}
+              text={type}
             />
           ))}
         </Row>
 
-        <Button {...button} onPress={() => setDialog(true)} title="<Dialog>" wide />
-        <Button {...button} onPress={() => setAlert(true)} title="<Alert>" wide />
-        <Button {...button} onPress={() => setSnackbar(true)} title="<Snackbar>" wide />
+        <Button {...button} onPress={() => setDialog(true)} text="<Dialog>" />
+        <Button {...button} onPress={() => setAlert(true)} text="<Alert>" />
+        <Button {...button} onPress={() => setSnackbar(true)} text="<Snackbar>" />
         <Text align="center" caption>
           The Snackbar can not get the props: position & highlights
         </Text>
