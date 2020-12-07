@@ -68,6 +68,7 @@ Snackbar.propTypes = {
   iconSize: PropTypes.number,
   onClose: PropTypes.func,
   position: PropTypes.string,
+  visible: PropTypes.bool,
 };
 
 export default Snackbar;

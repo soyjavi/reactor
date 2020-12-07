@@ -12,7 +12,6 @@ const DEFAULT_PROPS = {
   removeClippedSubviews: true,
   showsHorizontalScrollIndicator: false,
 };
-const NEXT = 'next';
 
 export const Slider = forwardRef(
   (

@@ -3,15 +3,13 @@ import React, { createRef, PureComponent } from 'react';
 import { findDOMNode } from 'react-dom';
 import { Picker, ScrollView, View } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { LAYOUT } from '../../common';
 import { Icon } from '../Icon';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import { Touchable } from '../Touchable';
 import styles from './InputSelect.style';
 import Template from './InputSelectTemplate';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
-
-const { COLOR } = THEME;
 
 export class InputSelect extends PureComponent {
   static propTypes = {
