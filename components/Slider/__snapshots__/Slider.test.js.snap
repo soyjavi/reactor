@@ -3,9 +3,11 @@
 exports[`<Slider> renders 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
   <RCTScrollView
@@ -26,10 +28,13 @@ exports[`<Slider> renders 1`] = `
 
 exports[`<Slider> when {caption} 1`] = `
 <View
+  caption="Hello World"
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
   <RCTScrollView
@@ -51,9 +56,11 @@ exports[`<Slider> when {caption} 1`] = `
 exports[`<Slider> when {children} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
   <RCTScrollView
@@ -77,9 +84,11 @@ exports[`<Slider> when {children} 1`] = `
 exports[`<Slider> when {dataSource} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
   <RCTScrollView
@@ -96,9 +105,11 @@ exports[`<Slider> when {dataSource} 1`] = `
     <View>
       <View
         style={
-          Object {
-            "marginRight": 8,
-          }
+          Array [
+            Object {
+              "marginRight": 8,
+            },
+          ]
         }
       >
         <View
@@ -108,9 +119,11 @@ exports[`<Slider> when {dataSource} 1`] = `
       </View>
       <View
         style={
-          Object {
-            "marginRight": 8,
-          }
+          Array [
+            Object {
+              "marginRight": 8,
+            },
+          ]
         }
       >
         <View
@@ -126,9 +139,11 @@ exports[`<Slider> when {dataSource} 1`] = `
 exports[`<Slider> when {itemMargin} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
   <RCTScrollView
@@ -145,9 +160,11 @@ exports[`<Slider> when {itemMargin} 1`] = `
     <View>
       <View
         style={
-          Object {
-            "marginRight": 16,
-          }
+          Array [
+            Object {
+              "marginRight": 16,
+            },
+          ]
         }
       >
         <View
@@ -157,9 +174,11 @@ exports[`<Slider> when {itemMargin} 1`] = `
       </View>
       <View
         style={
-          Object {
-            "marginRight": 16,
-          }
+          Array [
+            Object {
+              "marginRight": 16,
+            },
+          ]
         }
       >
         <View
@@ -174,268 +193,15 @@ exports[`<Slider> when {itemMargin} 1`] = `
 
 exports[`<Slider> when {navigation} 1`] = `
 <View
+  navigation={true}
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
-  <View
-    style={
-      Array [
-        Object {
-          "height": "100%",
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 1,
-        },
-        Object {
-          "left": -16,
-        },
-      ]
-    }
-  >
-    <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onLayout={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      pointerEvents="box-only"
-      style={
-        Array [
-          undefined,
-          Array [
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "alignSelf": "flex-start",
-              "justifyContent": "center",
-              "width": "auto",
-            },
-            undefined,
-            Object {
-              "height": 48,
-              "paddingHorizontal": 16,
-            },
-            undefined,
-            Object {
-              "backgroundColor": "#62e6ac",
-              "borderRadius": 0,
-            },
-            undefined,
-          ],
-          Array [
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "alignSelf": "flex-start",
-              "justifyContent": "center",
-              "width": "auto",
-            },
-            undefined,
-            Object {
-              "height": 48,
-              "paddingHorizontal": 16,
-            },
-            undefined,
-            Object {
-              "backgroundColor": "#62e6ac",
-              "borderRadius": 0,
-            },
-            undefined,
-          ],
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "display": "flex",
-              "flexDirection": "row",
-              "height": "auto",
-              "width": "100%",
-            },
-            Object {
-              "alignItems": "center",
-            },
-            Object {
-              "justifyContent": "center",
-            },
-            Object {
-              "width": "auto",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Text />
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 0,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            0,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#ffffff",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
-    </View>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "height": "100%",
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 1,
-        },
-        Object {
-          "right": -16,
-        },
-      ]
-    }
-  >
-    <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onLayout={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      pointerEvents="box-only"
-      style={
-        Array [
-          undefined,
-          Array [
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "alignSelf": "flex-start",
-              "justifyContent": "center",
-              "width": "auto",
-            },
-            undefined,
-            Object {
-              "height": 48,
-              "paddingHorizontal": 16,
-            },
-            undefined,
-            Object {
-              "backgroundColor": "#62e6ac",
-              "borderRadius": 0,
-            },
-            undefined,
-          ],
-          Array [
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "alignSelf": "flex-start",
-              "justifyContent": "center",
-              "width": "auto",
-            },
-            undefined,
-            Object {
-              "height": 48,
-              "paddingHorizontal": 16,
-            },
-            undefined,
-            Object {
-              "backgroundColor": "#62e6ac",
-              "borderRadius": 0,
-            },
-            undefined,
-          ],
-        ]
-      }
-    >
-      <View
-        style={
-          Array [
-            Object {
-              "display": "flex",
-              "flexDirection": "row",
-              "height": "auto",
-              "width": "100%",
-            },
-            Object {
-              "alignItems": "center",
-            },
-            Object {
-              "justifyContent": "center",
-            },
-            Object {
-              "width": "auto",
-            },
-            undefined,
-          ]
-        }
-      >
-        <Text />
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 0,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            0,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#ffffff",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
-    </View>
-  </View>
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
@@ -455,9 +221,11 @@ exports[`<Slider> when {navigation} 1`] = `
 exports[`<Slider> when {snap=false} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
   <RCTScrollView
@@ -470,9 +238,11 @@ exports[`<Slider> when {snap=false} 1`] = `
     <View>
       <View
         style={
-          Object {
-            "marginRight": 8,
-          }
+          Array [
+            Object {
+              "marginRight": 8,
+            },
+          ]
         }
       >
         <View
@@ -482,9 +252,11 @@ exports[`<Slider> when {snap=false} 1`] = `
       </View>
       <View
         style={
-          Object {
-            "marginRight": 8,
-          }
+          Array [
+            Object {
+              "marginRight": 8,
+            },
+          ]
         }
       >
         <View
@@ -500,9 +272,11 @@ exports[`<Slider> when {snap=false} 1`] = `
 exports[`<Slider> when {steps} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
   <RCTScrollView
@@ -519,9 +293,11 @@ exports[`<Slider> when {steps} 1`] = `
     <View>
       <View
         style={
-          Object {
-            "marginRight": 8,
-          }
+          Array [
+            Object {
+              "marginRight": 8,
+            },
+          ]
         }
       >
         <View
@@ -531,9 +307,11 @@ exports[`<Slider> when {steps} 1`] = `
       </View>
       <View
         style={
-          Object {
-            "marginRight": 8,
-          }
+          Array [
+            Object {
+              "marginRight": 8,
+            },
+          ]
         }
       >
         <View
@@ -549,9 +327,11 @@ exports[`<Slider> when {steps} 1`] = `
 exports[`<Slider> when {style} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
 >
   <RCTScrollView
@@ -574,9 +354,11 @@ exports[`<Slider> when {style} 1`] = `
     <View>
       <View
         style={
-          Object {
-            "marginRight": 8,
-          }
+          Array [
+            Object {
+              "marginRight": 8,
+            },
+          ]
         }
       >
         <View
@@ -586,9 +368,11 @@ exports[`<Slider> when {style} 1`] = `
       </View>
       <View
         style={
-          Object {
-            "marginRight": 8,
-          }
+          Array [
+            Object {
+              "marginRight": 8,
+            },
+          ]
         }
       >
         <View
@@ -604,10 +388,13 @@ exports[`<Slider> when {style} 1`] = `
 exports[`<Slider> when {title} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+    ]
   }
+  title="Hello World"
 >
   <RCTScrollView
     decelerationRate="fast"

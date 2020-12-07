@@ -20,7 +20,7 @@ describe('<Slider>', () => {
   });
 
   it('when {dataSource}', () => {
-    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} />).toJSON();
+    const tree = renderer.create(<Slider dataSource={dataSource} Item={Item} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -30,17 +30,17 @@ describe('<Slider>', () => {
   });
 
   it('when {itemMargin}', () => {
-    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} itemMargin={16} />).toJSON();
+    const tree = renderer.create(<Slider dataSource={dataSource} Item={Item} itemMargin={16} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {snap=false}', () => {
-    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} snap={false} />).toJSON();
+    const tree = renderer.create(<Slider dataSource={dataSource} Item={Item} snap={false} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {steps}', () => {
-    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} steps={2} />).toJSON();
+    const tree = renderer.create(<Slider dataSource={dataSource} Item={Item} steps={2} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -71,7 +71,7 @@ describe('<Slider>', () => {
 
   it('when {style}', () => {
     const tree = renderer
-      .create(<Slider dataSource={dataSource} item={Item} style={{ backgroundColor: 'orange', padding: 20 }} />)
+      .create(<Slider dataSource={dataSource} Item={Item} style={{ backgroundColor: 'orange', padding: 20 }} />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
