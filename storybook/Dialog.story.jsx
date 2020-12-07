@@ -10,7 +10,7 @@ const buttonProp = { ...button, size: 'S' };
 
 export const DialogStory = (props) => {
   const [color, setColor] = useState(COLOR.CTA);
-  const [position, setPosition] = useState('top');
+  const [position, setPosition] = useState('bottom');
   const [highlight, setHighlight] = useState(false);
 
   const [alert, setAlert] = useState(true);
@@ -68,7 +68,7 @@ export const DialogStory = (props) => {
 
         <Text bold>.color</Text>
         <Row marginBottom="M">
-          {[COLOR.CTA, COLOR.SUCCESS, COLOR.ERROR].map((type) => (
+          {[COLOR.BACKGROUND, COLOR.TEXT, COLOR.CTA, COLOR.SUCCESS, COLOR.ERROR].map((type) => (
             <Button
               {...buttonProp}
               color={type}

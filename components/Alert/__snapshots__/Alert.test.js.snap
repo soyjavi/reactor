@@ -11,7 +11,7 @@ exports[`<Alert> hook:styler 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -79,30 +79,6 @@ exports[`<Alert> hook:styler 1`] = `
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#191919",
-                  "fontFamily": undefined,
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 24,
-                },
-                undefined,
-                Object {
-                  "fontWeight": "700",
-                },
-                undefined,
-                Object {
-                  "marginBottom": 16,
-                },
-              ]
-            }
-          >
-            Lorem Ipsum is simply dummy text...
-          </Text>
           <View
             style={
               Array [
@@ -119,110 +95,121 @@ exports[`<Alert> hook:styler 1`] = `
                   "justifyContent": "flex-start",
                 },
                 undefined,
-                Object {
-                  "marginTop": 16,
-                },
                 undefined,
               ]
             }
           >
             <View
-              accessible={true}
-              focusable={false}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              pointerEvents="none"
               style={
                 Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
                   undefined,
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
+                      "color": "#191919",
+                      "fontFamily": undefined,
+                    },
+                    Object {
+                      "fontSize": 16,
                     },
                     undefined,
                     Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
+                      "fontWeight": "700",
                     },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
-                  Array [
-                    Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
-                    },
                     undefined,
-                    Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
-                    },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text...
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
+                  Object {
+                    "flex": 0,
+                  },
+                  undefined,
                 ]
               }
             >
               <View
+                accessible={true}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
-                    Object {
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": "auto",
-                      "width": "100%",
-                    },
-                    Object {
-                      "alignItems": "center",
-                    },
-                    Object {
-                      "justifyContent": "center",
-                    },
-                    Object {
-                      "width": "auto",
-                    },
                     undefined,
-                  ]
-                }
-              />
-              <View
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderRadius": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "right": 0,
-                      "top": 0,
-                    },
-                    0,
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
                   ]
                 }
               >
@@ -230,13 +217,64 @@ exports[`<Alert> hook:styler 1`] = `
                   style={
                     Object {
                       "backgroundColor": "#ffffff",
-                      "height": 0,
-                      "opacity": 0,
-                      "width": 0,
-                      "zIndex": 0,
+                      "height": "100%",
+                      "left": 0,
+                      "opacity": 0.3,
+                      "position": "absolute",
                     }
                   }
                 />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "height": "auto",
+                        "width": "100%",
+                      },
+                      Object {
+                        "alignItems": "center",
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "auto",
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "zIndex": 1,
+                      },
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "height": 0,
+                        "opacity": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
               </View>
             </View>
           </View>
@@ -258,7 +296,7 @@ exports[`<Alert> renders 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -323,30 +361,6 @@ exports[`<Alert> renders 1`] = `
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#191919",
-                  "fontFamily": undefined,
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 24,
-                },
-                undefined,
-                Object {
-                  "fontWeight": "700",
-                },
-                undefined,
-                Object {
-                  "marginBottom": 16,
-                },
-              ]
-            }
-          >
-            Lorem Ipsum is simply dummy text...
-          </Text>
           <View
             style={
               Array [
@@ -363,110 +377,121 @@ exports[`<Alert> renders 1`] = `
                   "justifyContent": "flex-start",
                 },
                 undefined,
-                Object {
-                  "marginTop": 16,
-                },
                 undefined,
               ]
             }
           >
             <View
-              accessible={true}
-              focusable={false}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              pointerEvents="none"
               style={
                 Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
                   undefined,
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
+                      "color": "#191919",
+                      "fontFamily": undefined,
+                    },
+                    Object {
+                      "fontSize": 16,
                     },
                     undefined,
                     Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
+                      "fontWeight": "700",
                     },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
-                  Array [
-                    Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
-                    },
                     undefined,
-                    Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
-                    },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text...
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
+                  Object {
+                    "flex": 0,
+                  },
+                  undefined,
                 ]
               }
             >
               <View
+                accessible={true}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
-                    Object {
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": "auto",
-                      "width": "100%",
-                    },
-                    Object {
-                      "alignItems": "center",
-                    },
-                    Object {
-                      "justifyContent": "center",
-                    },
-                    Object {
-                      "width": "auto",
-                    },
                     undefined,
-                  ]
-                }
-              />
-              <View
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderRadius": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "right": 0,
-                      "top": 0,
-                    },
-                    0,
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
                   ]
                 }
               >
@@ -474,13 +499,64 @@ exports[`<Alert> renders 1`] = `
                   style={
                     Object {
                       "backgroundColor": "#ffffff",
-                      "height": 0,
-                      "opacity": 0,
-                      "width": 0,
-                      "zIndex": 0,
+                      "height": "100%",
+                      "left": 0,
+                      "opacity": 0.3,
+                      "position": "absolute",
                     }
                   }
                 />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "height": "auto",
+                        "width": "100%",
+                      },
+                      Object {
+                        "alignItems": "center",
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "auto",
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "zIndex": 1,
+                      },
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "height": 0,
+                        "opacity": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
               </View>
             </View>
           </View>
@@ -503,7 +579,7 @@ exports[`<Alert> when {accept} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -576,30 +652,6 @@ exports[`<Alert> when {accept} 1`] = `
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#191919",
-                  "fontFamily": undefined,
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 24,
-                },
-                undefined,
-                Object {
-                  "fontWeight": "700",
-                },
-                undefined,
-                Object {
-                  "marginBottom": 16,
-                },
-              ]
-            }
-          >
-            Lorem Ipsum is simply dummy text...
-          </Text>
           <View
             style={
               Array [
@@ -616,141 +668,122 @@ exports[`<Alert> when {accept} 1`] = `
                   "justifyContent": "flex-start",
                 },
                 undefined,
-                Object {
-                  "marginTop": 16,
-                },
                 undefined,
               ]
             }
           >
             <View
-              accessible={true}
-              focusable={true}
-              onClick={[Function]}
-              onLayout={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              pointerEvents="box-only"
               style={
                 Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
                   undefined,
-                  Array [
-                    Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
-                    },
-                    undefined,
-                    Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
-                    },
-                    undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
-                  Array [
-                    Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
-                    },
-                    undefined,
-                    Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
-                    },
-                    undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
+                  undefined,
                 ]
               }
             >
-              <View
+              <Text
                 style={
                   Array [
                     Object {
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": "auto",
-                      "width": "100%",
+                      "color": "#191919",
+                      "fontFamily": undefined,
                     },
                     Object {
-                      "alignItems": "center",
+                      "fontSize": 16,
                     },
+                    undefined,
                     Object {
-                      "justifyContent": "center",
+                      "fontWeight": "700",
                     },
-                    Object {
-                      "width": "auto",
-                    },
+                    undefined,
+                    undefined,
                     undefined,
                   ]
                 }
               >
-                <Text
-                  style={
-                    Array [
-                      Object {
-                        "color": "#191919",
-                        "fontFamily": undefined,
-                        "textAlignVertical": "center",
-                      },
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 24,
-                      },
-                      undefined,
-                      undefined,
-                      Object {
-                        "color": "#ffffff",
-                      },
-                      Array [
-                        Object {
-                          "fontWeight": "700",
-                          "paddingHorizontal": 8,
-                        },
-                        false,
-                      ],
-                    ]
-                  }
-                >
-                  Accept
-                </Text>
-              </View>
+                Lorem Ipsum is simply dummy text...
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
+                  Object {
+                    "flex": 0,
+                  },
+                  undefined,
+                ]
+              }
+            >
               <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onLayout={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="box-only"
                 style={
                   Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderRadius": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "right": 0,
-                      "top": 0,
-                    },
-                    0,
+                    undefined,
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
                   ]
                 }
               >
@@ -758,13 +791,94 @@ exports[`<Alert> when {accept} 1`] = `
                   style={
                     Object {
                       "backgroundColor": "#ffffff",
-                      "height": 0,
-                      "opacity": 0,
+                      "height": "100%",
+                      "left": 0,
+                      "opacity": 0.3,
+                      "position": "absolute",
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "height": "auto",
+                        "width": "100%",
+                      },
+                      Object {
+                        "alignItems": "center",
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "auto",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#191919",
+                          "fontFamily": undefined,
+                        },
+                        Object {
+                          "fontSize": 16,
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "color": "#ffffff",
+                        },
+                        Array [
+                          Object {
+                            "fontWeight": "700",
+                            "paddingHorizontal": 8,
+                          },
+                          undefined,
+                        ],
+                      ]
+                    }
+                  >
+                    Accept
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "zIndex": 1,
+                      },
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "height": 0,
+                        "opacity": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
               </View>
             </View>
           </View>
@@ -786,7 +900,7 @@ exports[`<Alert> when {cancel} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -851,30 +965,6 @@ exports[`<Alert> when {cancel} 1`] = `
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#191919",
-                  "fontFamily": undefined,
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 24,
-                },
-                undefined,
-                Object {
-                  "fontWeight": "700",
-                },
-                undefined,
-                Object {
-                  "marginBottom": 16,
-                },
-              ]
-            }
-          >
-            Lorem Ipsum is simply dummy text...
-          </Text>
           <View
             style={
               Array [
@@ -891,111 +981,122 @@ exports[`<Alert> when {cancel} 1`] = `
                   "justifyContent": "flex-start",
                 },
                 undefined,
-                Object {
-                  "marginTop": 16,
-                },
                 undefined,
               ]
             }
           >
             <View
-              accessible={true}
-              focusable={true}
-              onClick={[Function]}
-              onLayout={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              pointerEvents="box-only"
               style={
                 Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
                   undefined,
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
+                      "color": "#191919",
+                      "fontFamily": undefined,
+                    },
+                    Object {
+                      "fontSize": 16,
                     },
                     undefined,
                     Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
+                      "fontWeight": "700",
                     },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
-                  Array [
-                    Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
-                    },
                     undefined,
-                    Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
-                    },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text...
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
+                  Object {
+                    "flex": 0,
+                  },
+                  undefined,
                 ]
               }
             >
               <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onLayout={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="box-only"
                 style={
                   Array [
-                    Object {
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": "auto",
-                      "width": "100%",
-                    },
-                    Object {
-                      "alignItems": "center",
-                    },
-                    Object {
-                      "justifyContent": "center",
-                    },
-                    Object {
-                      "width": "auto",
-                    },
                     undefined,
-                  ]
-                }
-              />
-              <View
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderRadius": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "right": 0,
-                      "top": 0,
-                    },
-                    0,
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
                   ]
                 }
               >
@@ -1003,13 +1104,64 @@ exports[`<Alert> when {cancel} 1`] = `
                   style={
                     Object {
                       "backgroundColor": "#ffffff",
-                      "height": 0,
-                      "opacity": 0,
-                      "width": 0,
-                      "zIndex": 0,
+                      "height": "100%",
+                      "left": 0,
+                      "opacity": 0.3,
+                      "position": "absolute",
                     }
                   }
                 />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "height": "auto",
+                        "width": "100%",
+                      },
+                      Object {
+                        "alignItems": "center",
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "auto",
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "zIndex": 1,
+                      },
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "height": 0,
+                        "opacity": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
               </View>
             </View>
           </View>
@@ -1032,7 +1184,7 @@ exports[`<Alert> when {caption} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -1105,51 +1257,6 @@ exports[`<Alert> when {caption} 1`] = `
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#191919",
-                  "fontFamily": undefined,
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 24,
-                },
-                undefined,
-                Object {
-                  "fontWeight": "700",
-                },
-                undefined,
-                Object {
-                  "marginBottom": 16,
-                },
-              ]
-            }
-          >
-            Lorem Ipsum is simply dummy text...
-          </Text>
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#191919",
-                  "fontFamily": undefined,
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 24,
-                },
-                undefined,
-                undefined,
-                undefined,
-                undefined,
-              ]
-            }
-          >
-            ... of the printing and typesetting industry
-          </Text>
           <View
             style={
               Array [
@@ -1166,110 +1273,143 @@ exports[`<Alert> when {caption} 1`] = `
                   "justifyContent": "flex-start",
                 },
                 undefined,
-                Object {
-                  "marginTop": 16,
-                },
                 undefined,
               ]
             }
           >
             <View
-              accessible={true}
-              focusable={false}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              pointerEvents="none"
               style={
                 Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
                   undefined,
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
+                      "color": "#191919",
+                      "fontFamily": undefined,
+                    },
+                    Object {
+                      "fontSize": 16,
                     },
                     undefined,
                     Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
+                      "fontWeight": "700",
                     },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text...
+              </Text>
+              <Text
+                style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
+                      "color": "#191919",
+                      "fontFamily": undefined,
+                    },
+                    Object {
+                      "fontSize": 12,
                     },
                     undefined,
-                    Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
-                    },
+                    undefined,
+                    undefined,
                     undefined,
                     Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
+                      "marginTop": 8,
                     },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
+                  ]
+                }
+              >
+                ... of the printing and typesetting industry
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
+                  Object {
+                    "flex": 0,
+                  },
+                  undefined,
                 ]
               }
             >
               <View
+                accessible={true}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
-                    Object {
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": "auto",
-                      "width": "100%",
-                    },
-                    Object {
-                      "alignItems": "center",
-                    },
-                    Object {
-                      "justifyContent": "center",
-                    },
-                    Object {
-                      "width": "auto",
-                    },
                     undefined,
-                  ]
-                }
-              />
-              <View
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderRadius": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "right": 0,
-                      "top": 0,
-                    },
-                    0,
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
                   ]
                 }
               >
@@ -1277,13 +1417,65 @@ exports[`<Alert> when {caption} 1`] = `
                   style={
                     Object {
                       "backgroundColor": "#ffffff",
-                      "height": 0,
-                      "opacity": 0,
+                      "height": "100%",
+                      "left": 0,
+                      "opacity": 0.3,
+                      "position": "absolute",
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "height": "auto",
+                        "width": "100%",
+                      },
+                      Object {
+                        "alignItems": "center",
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "auto",
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "zIndex": 1,
+                      },
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "height": 0,
+                        "opacity": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
               </View>
             </View>
           </View>
@@ -1305,7 +1497,7 @@ exports[`<Alert> when {color} 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -1370,30 +1562,6 @@ exports[`<Alert> when {color} 1`] = `
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#191919",
-                  "fontFamily": undefined,
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 24,
-                },
-                undefined,
-                Object {
-                  "fontWeight": "700",
-                },
-                undefined,
-                Object {
-                  "marginBottom": 16,
-                },
-              ]
-            }
-          >
-            Lorem Ipsum is simply dummy text...
-          </Text>
           <View
             style={
               Array [
@@ -1410,110 +1578,121 @@ exports[`<Alert> when {color} 1`] = `
                   "justifyContent": "flex-start",
                 },
                 undefined,
-                Object {
-                  "marginTop": 16,
-                },
                 undefined,
               ]
             }
           >
             <View
-              accessible={true}
-              focusable={false}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              pointerEvents="none"
               style={
                 Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
                   undefined,
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
+                      "color": "#191919",
+                      "fontFamily": undefined,
+                    },
+                    Object {
+                      "fontSize": 16,
                     },
                     undefined,
                     Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
+                      "fontWeight": "700",
                     },
                     undefined,
-                    Object {
-                      "backgroundColor": "#191919",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
-                  Array [
-                    Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
-                    },
                     undefined,
-                    Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
-                    },
                     undefined,
-                    Object {
-                      "backgroundColor": "#191919",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text...
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
+                  Object {
+                    "flex": 0,
+                  },
+                  undefined,
                 ]
               }
             >
               <View
+                accessible={true}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
-                    Object {
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": "auto",
-                      "width": "100%",
-                    },
-                    Object {
-                      "alignItems": "center",
-                    },
-                    Object {
-                      "justifyContent": "center",
-                    },
-                    Object {
-                      "width": "auto",
-                    },
                     undefined,
-                  ]
-                }
-              />
-              <View
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderRadius": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "right": 0,
-                      "top": 0,
-                    },
-                    0,
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#191919",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#191919",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
                   ]
                 }
               >
@@ -1521,13 +1700,64 @@ exports[`<Alert> when {color} 1`] = `
                   style={
                     Object {
                       "backgroundColor": "#ffffff",
-                      "height": 0,
-                      "opacity": 0,
-                      "width": 0,
-                      "zIndex": 0,
+                      "height": "100%",
+                      "left": 0,
+                      "opacity": 0.3,
+                      "position": "absolute",
                     }
                   }
                 />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "height": "auto",
+                        "width": "100%",
+                      },
+                      Object {
+                        "alignItems": "center",
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "auto",
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "zIndex": 1,
+                      },
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "height": 0,
+                        "opacity": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
               </View>
             </View>
           </View>
@@ -1550,7 +1780,7 @@ exports[`<Alert> when {visible} (false) 1`] = `
       "position": "absolute",
       "top": 0,
       "width": "100%",
-      "zIndex": 2,
+      "zIndex": 3,
     }
   }
 >
@@ -1623,30 +1853,6 @@ exports[`<Alert> when {visible} (false) 1`] = `
             ]
           }
         >
-          <Text
-            style={
-              Array [
-                Object {
-                  "color": "#191919",
-                  "fontFamily": undefined,
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 24,
-                },
-                undefined,
-                Object {
-                  "fontWeight": "700",
-                },
-                undefined,
-                Object {
-                  "marginBottom": 16,
-                },
-              ]
-            }
-          >
-            Lorem Ipsum is simply dummy text...
-          </Text>
           <View
             style={
               Array [
@@ -1663,110 +1869,121 @@ exports[`<Alert> when {visible} (false) 1`] = `
                   "justifyContent": "flex-start",
                 },
                 undefined,
-                Object {
-                  "marginTop": 16,
-                },
                 undefined,
               ]
             }
           >
             <View
-              accessible={true}
-              focusable={false}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              pointerEvents="none"
               style={
                 Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
                   undefined,
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
                   Array [
                     Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
+                      "color": "#191919",
+                      "fontFamily": undefined,
+                    },
+                    Object {
+                      "fontSize": 16,
                     },
                     undefined,
                     Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
+                      "fontWeight": "700",
                     },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
-                  Array [
-                    Object {
-                      "alignContent": "center",
-                      "alignItems": "center",
-                      "alignSelf": "flex-start",
-                      "justifyContent": "center",
-                      "width": "auto",
-                    },
                     undefined,
-                    Object {
-                      "height": 48,
-                      "paddingHorizontal": 16,
-                    },
                     undefined,
-                    Object {
-                      "backgroundColor": "#62e6ac",
-                      "borderRadius": 0,
-                    },
-                    Object {
-                      "flex": 1,
-                    },
-                  ],
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text...
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "column",
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                  },
+                  Object {
+                    "flex": 0,
+                  },
+                  undefined,
                 ]
               }
             >
               <View
+                accessible={true}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
-                    Object {
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": "auto",
-                      "width": "100%",
-                    },
-                    Object {
-                      "alignItems": "center",
-                    },
-                    Object {
-                      "justifyContent": "center",
-                    },
-                    Object {
-                      "width": "auto",
-                    },
                     undefined,
-                  ]
-                }
-              />
-              <View
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderRadius": 0,
-                      "bottom": 0,
-                      "left": 0,
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "right": 0,
-                      "top": 0,
-                    },
-                    0,
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
+                    Array [
+                      Object {
+                        "alignContent": "center",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "overflow": "hidden",
+                        "width": "auto",
+                      },
+                      undefined,
+                      Object {
+                        "height": 32,
+                        "paddingHorizontal": 8,
+                      },
+                      undefined,
+                      Object {
+                        "backgroundColor": "#62e6ac",
+                        "borderRadius": 0,
+                      },
+                      undefined,
+                    ],
                   ]
                 }
               >
@@ -1774,13 +1991,65 @@ exports[`<Alert> when {visible} (false) 1`] = `
                   style={
                     Object {
                       "backgroundColor": "#ffffff",
-                      "height": 0,
-                      "opacity": 0,
+                      "height": "100%",
+                      "left": 0,
+                      "opacity": 0.3,
+                      "position": "absolute",
                       "width": 0,
-                      "zIndex": 0,
                     }
                   }
                 />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "height": "auto",
+                        "width": "100%",
+                      },
+                      Object {
+                        "alignItems": "center",
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "width": "auto",
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "zIndex": 1,
+                      },
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "height": 0,
+                        "opacity": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
               </View>
             </View>
           </View>
