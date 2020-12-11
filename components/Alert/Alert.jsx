@@ -21,8 +21,8 @@ export const Alert = ({ accept, cancel, caption, children, color, delay, onAccep
         {children}
       </Col>
       <Col width="auto">
-        <Button color={color} delay={delay} size="S" text={accept} onPress={onAccept} />
-        {onCancel && <Button color={color} marginTop="S" outlined size="S" text={cancel} onPress={onCancel} />}
+        <Button color={color} delay={delay} size="S" text={accept} wide onPress={onAccept} />
+        {onCancel && <Button color={color} marginTop="S" outlined size="S" text={cancel} wide onPress={onCancel} />}
       </Col>
     </Row>
   </Dialog>
