@@ -7,11 +7,6 @@ import { View } from '../View';
 import styles from './Slider.style';
 
 const { SPACE } = THEME;
-const DEFAULT_PROPS = {
-  horizontal: true,
-  removeClippedSubviews: true,
-  showsHorizontalScrollIndicator: false,
-};
 
 export const Slider = forwardRef(
   (
@@ -44,12 +39,13 @@ export const Slider = forwardRef(
     return (
       <View {...others} style={styles.container}>
         <ScrollView
-          {...DEFAULT_PROPS}
           {...snapProps}
           contentContainerStyle={others.style}
-          onScroll={handleScroll}
+          horizontal
           ref={ref}
           scrollEventThrottle={1000}
+          showsHorizontalScrollIndicator={false}
+          onScroll={handleScroll}
         >
           {dataSource.map((data, index) => (
             <View key={index.toString()} style={{ marginRight: itemMargin }}>
