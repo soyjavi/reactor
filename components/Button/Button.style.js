@@ -6,14 +6,17 @@ const { FONT, OPACITY, SPACE, UNIT } = THEME;
 
 export default StyleSheet.create({
   S: {
+    minHeight: SPACE.XL,
     height: SPACE.XL,
     paddingHorizontal: SPACE.S,
   },
   M: {
+    minHeight: SPACE.XXL,
     height: SPACE.XXL,
     paddingHorizontal: SPACE.M,
   },
   L: {
+    minHeight: SPACE.XXL + UNIT,
     height: SPACE.XXL + UNIT,
     paddingHorizontal: SPACE.M,
   },
@@ -50,8 +53,7 @@ export default StyleSheet.create({
   textS: FONT.BUTTON_SMALL,
 
   wide: {
-    // width: '100%',
-    // @TODO: iOS
-    flex: 1,
+    flex: 3,
+    width: '100%',
   },
 });
